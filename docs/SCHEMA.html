@@ -249,26 +249,26 @@
 
 <h2>Konventionen</h2>
 <li>Dateinamen: Kleinbuchstaben, Bindestriche, keine Leerzeichen.</li>
-<p>  Beispiel: &lt;code class=&quot;inline-code&quot;&gt;vulkansimus-ueberblick.md</code></p>
+<p>  Beispiel: &lt;code class="inline-code"&gt;vulkansimus-ueberblick.md</code></p>
 <li>Jede Wiki-Seite beginnt mit YAML-Frontmatter (s. unten).</li>
-<li>Verlinkung: &lt;code class=&quot;inline-code&quot;&gt;<a href=&quot;wikilinks.html&quot; class=&quot;wikilink&quot;&gt;wikilinks</a></code> zur Verknüpfung untereinander (mindestens 2 ausgehende Links pro Seite).</li>
-<li>Bei Updates: &lt;code class=&quot;inline-code&quot;&gt;updated</code>-Datum immer aktualisieren.</li>
-<li>Neue Seiten: müssen zu &lt;code class=&quot;inline-code&quot;&gt;index.md</code> unter korrekter Sektion hinzugefügt werden.</li>
-<li>Jede Aktion: in &lt;code class=&quot;inline-code&quot;&gt;log.md</code> eintragen.</li>
-<li>Rohquellen (&lt;code class=&quot;inline-code&quot;&gt;raw/</code>) sind <strong>immutable</strong> — Korrekturen nur in Wiki-Seiten.</li>
+<li>Verlinkung: &lt;code class="inline-code"&gt;<a href="wikilinks.html" class="wikilink"&gt;wikilinks</a></code> zur Verknüpfung untereinander (mindestens 2 ausgehende Links pro Seite).</li>
+<li>Bei Updates: &lt;code class="inline-code"&gt;updated</code>-Datum immer aktualisieren.</li>
+<li>Neue Seiten: müssen zu &lt;code class="inline-code"&gt;index.md</code> unter korrekter Sektion hinzugefügt werden.</li>
+<li>Jede Aktion: in &lt;code class="inline-code"&gt;log.md</code> eintragen.</li>
+<li>Rohquellen (&lt;code class="inline-code"&gt;raw/</code>) sind <strong>immutable</strong> — Korrekturen nur in Wiki-Seiten.</li>
 
 <h2>Frontmatter (Wiki-Seiten)</h2>
 <pre class="codeblock"><code class="language-yaml">
 
 </pre>
 
-<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: high</code> nur bei breiter Quellenbasis.</li>
-<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: medium</code> bei Einzelquellen oder schnell bewegten Themen.</li>
-<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: low</code> bei ungesicherten Behauptungen / in Bearbeitung.</li>
-<li>Auf Seiten mit 3+ Quellen: Provenienz-Marker &lt;code class=&quot;inline-code&quot;&gt;^[raw/articles/quelle.md]</code> am Ende von Absätzen.</li>
+<li>&lt;code class="inline-code"&gt;confidence: high</code> nur bei breiter Quellenbasis.</li>
+<li>&lt;code class="inline-code"&gt;confidence: medium</code> bei Einzelquellen oder schnell bewegten Themen.</li>
+<li>&lt;code class="inline-code"&gt;confidence: low</code> bei ungesicherten Behauptungen / in Bearbeitung.</li>
+<li>Auf Seiten mit 3+ Quellen: Provenienz-Marker &lt;code class="inline-code"&gt;^[raw/articles/quelle.md]</code> am Ende von Absätzen.</li>
 
 <h2>Frontmatter (Rohquellen)</h2>
-<p>Jede Datei in &lt;code class=&quot;inline-code&quot;&gt;raw/</code> erhält gleiche Frontmatter, damit spätere Re-Ingests Drift erkennen:</p>
+<p>Jede Datei in &lt;code class="inline-code"&gt;raw/</code> erhält gleiche Frontmatter, damit spätere Re-Ingests Drift erkennen:</p>
 
 <pre class="codeblock"><code class="language-yaml">
 ---
@@ -277,7 +277,7 @@ ingested: YYYY-MM-DD
 sha256: &lt;hex digest des Inhalts unterhalb des Frontmatter-Blocks&gt;
 ---
 </pre>
-<p>sha256: über den Körper (alles nach der schließenden &lt;code class=&quot;inline-code&quot;&gt;---</code>) — ermöglicht Skipping bei identischer Quelle.</p>
+<p>sha256: über den Körper (alles nach der schließenden &lt;code class="inline-code"&gt;---</code>) — ermöglicht Skipping bei identischer Quelle.</p>
 
 <h2>Tag-Taxonomie</h2>
 <p>Folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen werden.</p>
@@ -313,10 +313,10 @@ sha256: &lt;hex digest des Inhalts unterhalb des Frontmatter-Blocks&gt;
 <li>Seite erstellen, wenn Entität/Konzept in 2+ Quellen vorkommt ODER zentrale Bedeutung hat.</li>
 <li>Seite NICHT erstellen für nebenbei erwähnte Details.</li>
 <li>Seite aufspalten bei &gt;200 Zeilen — in Teilthemen mit Cross-Links.</li>
-<li>Seite archivieren, wenn outdated: nach &lt;code class=&quot;inline-code&quot;&gt;_archive/</code> verschieben, aus Index entfernen.</li>
+<li>Seite archivieren, wenn outdated: nach &lt;code class="inline-code"&gt;_archive/</code> verschieben, aus Index entfernen.</li>
 
 <h2>Entity-Seiten</h2>
-<p>Je Entität: Überblick, Kernfakten/Daten, Beziehungen zu anderen Entitäten (<a href=&quot;wikilink.html&quot; class=&quot;wikilink&quot;&gt;wikilink</a>), Quellen.</p>
+<p>Je Entität: Überblick, Kernfakten/Daten, Beziehungen zu anderen Entitäten (<a href="wikilink.html" class="wikilink"&gt;wikilink</a>), Quellen.</p>
 
 <h2>Konzept-Seiten</h2>
 <p>Je Konzept: Definition, Erklärung, aktueller Wissensstand, offene Fragen, verwandte Konzepte.</p>
@@ -328,7 +328,7 @@ sha256: &lt;hex digest des Inhalts unterhalb des Frontmatter-Blocks&gt;
 <h2>Update-Politik bei Widersprüchen</h2>
 <li>Daten prüfen — neuere Quellen überwiegen.</li>
 <li>Bei echtem Widerspruch: Beide Positionen mit Daten und Quellen darstellen.</li>
-<li>Im Frontmatter markieren: &lt;code class=&quot;inline-code&quot;&gt;contradictions: [andere-seite]</code> + &lt;code class=&quot;inline-code&quot;&gt;contested: true</code>.</li>
+<li>Im Frontmatter markieren: &lt;code class="inline-code"&gt;contradictions: [andere-seite]</code> + &lt;code class="inline-code"&gt;contested: true</code>.</li>
 <li>Im Lint-Bericht als Prüfling aufführen — Nutzer entscheidet.</li>
 
     <div class="backlinks">
