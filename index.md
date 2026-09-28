@@ -13,7 +13,7 @@
 
 ## VULKANSISMUS (Formen und Prozesse)
 
-- [[vulkansimus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
+- [[vulkanismus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
 - [[vulkanarten]] — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot
 - [[vulkanprozesse]] — Explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren
 

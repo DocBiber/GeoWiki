@@ -188,7 +188,7 @@ kann aber auch andere Formen entstehen (z.B. Yellowstone mit Rhyolit-Kaldera-Wan
 
 ## Verknüpfungen
 
-- [[vulkansimus-ueberblick]] ← Überblick
+- [[vulkanismus-ueberblick]] ← Überblick
 - [[vulkanprozesse]] ← Explosiv/effusiv, Förderprodukte im Detail
 - [[vulkanbeispiele]] ← Einzelraum-Beispiele
 - [[vulnerabilitaet-vulkanraume]] ← Vulnerabilität dieser Räume

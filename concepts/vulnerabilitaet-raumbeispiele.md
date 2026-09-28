@@ -115,5 +115,5 @@ aber bildungsplankonform. Der Bildungsplan nennt „Flusslandschaft" explizit.)
 - [[vulnerabilitaet-vulkanraume]] ← Vulkanische Räume
 - [[resilienz-massnahmen]] ← Maßnahmen-Katalog
 - [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext
-- [[vulkansimus-ueberblick]] ← Vulkanismus
+- [[vulkanismus-ueberblick]] ← Vulkanismus
 - [[glazialmorphologie-ueberblick]] ← Glazialmorphologie

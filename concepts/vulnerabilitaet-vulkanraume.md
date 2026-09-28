@@ -134,6 +134,6 @@ Für eine LK-Aufgabe kann man:
 - [[vulnerabilitaet-begriffe]] ← Begriffsapparat
 - [[vulnerabilitaet-raumbeispiele]] ← andere Landschaftstypen (Glazial, Fluss, Küste, Karst)
 - [[resilienz-massnahmen]] ← Maßnahmen-Kompendium
-- [[vulkansimus-ueberblick]] ← Vulkanismus-Überblick
+- [[vulkanismus-ueberblick]] ← Vulkanismus-Überblick
 - [[vulkanarten]] ← Vulkanforma
 - [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext

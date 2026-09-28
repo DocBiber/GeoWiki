@@ -110,7 +110,7 @@ Für das Leistungskurs-Leistungsbewertung (§3.5.2.1) müssen Schülerinnen und 
 
 ## Weiterführende Seiten
 
-- [[vulkansimus-ueberblick]] ← Einleitung
+- [[vulkanismus-ueberblick]] ← Einleitung
 - [[vulkanarten]] ← Vulkanformen im Detail
 - [[vulnerabilitaet-vulkanraume]] ← Vulnerabilität an Vulkanarealen
 - [[vulnerabilitaet-begriffe]] ← Allgemeine Begriffsbestimmung

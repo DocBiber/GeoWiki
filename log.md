@@ -18,7 +18,7 @@
   - entities/bildungsplan-2016-lk.md
   - entities/vulkanarten.md
   - entities/abitur-ubersicht-lk.md
-  - concepts/vulkansimus-ueberblick.md
+  - concepts/vulkanismus-ueberblick.md
   - concepts/vulkanprozesse.md
   - concepts/glazialmorphologie-ueberblick.md
   - concepts/glaziale-serie.md

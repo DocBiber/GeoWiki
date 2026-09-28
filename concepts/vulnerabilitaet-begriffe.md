@@ -155,6 +155,6 @@ gefordert, **nachhaltige Entwicklung** als Entwicklungsziel einzubeziehen:
 - [[vulnerabilitaet-raumbeispiele]] ← konkrete Raumbeispiele
 - [[resilienz-massnahmen]] ← Maßnahmen im Detail
 - [[vulnerabilitaet-vulkanraume]] ← V/a vulkanischer Räume
-- [[vulkansimus-ueberblick]] ← Vulkanismus (Hazard-Quelle)
+- [[vulkanismus-ueberblick]] ← Vulkanismus (Hazard-Quelle)
 - [[glazialmorphologie-ueberblick]] ← Glazial (Hazard-Quelle)
 - [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext

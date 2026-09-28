@@ -112,7 +112,7 @@ das LK-Abitur ableiten (insbesondere für „Formen und Prozesse der Reliefsphä
 
 ---
 
-*Wiki-Seiten mit `[...]` kreuzverweise: [[bildungsplan-2016-lk]], [[vulkansimus-ueberblick]],
+*Wiki-Seiten mit `[...]` kreuzverweise: [[bildungsplan-2016-lk]], [[vulkanismus-ueberblick]],
 [[vulkanarten]], [[vulkanprozesse]], [[glazialmorphologie-ueberblick]], [[glaziale-serie]],
 [[moränen-und-gletscherformen]], [[permafrost-und-solifluktion]], [[vulnerabilitaet-begriffe]],
 [[vulnerabilitaet-raumbeispiele]], [[resilienz-massnahmen]], [[vergleich-vulkan-gletscher-prozesse]],

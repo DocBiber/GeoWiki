@@ -7,7 +7,7 @@ Mid-2026: Überarbeitungsbedarf gem. Kultusministerkonferenz (KMK) 2025; neue Fa
 
 ## Konventionen
 - Dateinamen: Kleinbuchstaben, Bindestriche, keine Leerzeichen.
-  Beispiel: `vulkansimus-ueberblick.md`
+  Beispiel: `vulkanismus-ueberblick.md`
 - Jede Wiki-Seite beginnt mit YAML-Frontmatter (s. unten).
 - Verlinkung: `[[wikilinks]]` zur Verknüpfung untereinander (mindestens 2 ausgehende Links pro Seite).
 - Bei Updates: `updated`-Datum immer aktualisieren.
