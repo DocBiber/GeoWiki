@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Seiten-Titel (deutsch, kurz) — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="SCHEMA.html"><strong>Seiten-Titel (deutsch, kurz)</strong></a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Seiten-Titel (deutsch, kurz)</h1>
+    <div class="meta">
+      <span>Typ: entity</span>
+      <span>|</span>
+      <span>Dateigröße: 4480 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">aus Taxonomie s. u.</span></span>
+    </div>
+    <h1>Wiki Schema — Geographie LK BW</h1>
+
+<h2>Domain</h2>
+<p>Physische Geographie im Leistungskurs (LK) an Gymnasien in Baden-Württemberg.</p>
+<p>Ausrichtung: Bildungsplan 2016 (Gymnasium), Gültigkeitsstufe V2 vom 22.02.2023.</p>
+<p>Mid-2026: Überarbeitungsbedarf gem. Kultusministerkonferenz (KMK) 2025; neue Fassung wird erwartet.</p>
+
+<h2>Konventionen</h2>
+<li>Dateinamen: Kleinbuchstaben, Bindestriche, keine Leerzeichen.</li>
+<p>  Beispiel: &lt;code class=&quot;inline-code&quot;&gt;vulkansimus-ueberblick.md</code></p>
+<li>Jede Wiki-Seite beginnt mit YAML-Frontmatter (s. unten).</li>
+<li>Verlinkung: &lt;code class=&quot;inline-code&quot;&gt;<a href=&quot;wikilinks.html&quot; class=&quot;wikilink&quot;&gt;wikilinks</a></code> zur Verknüpfung untereinander (mindestens 2 ausgehende Links pro Seite).</li>
+<li>Bei Updates: &lt;code class=&quot;inline-code&quot;&gt;updated</code>-Datum immer aktualisieren.</li>
+<li>Neue Seiten: müssen zu &lt;code class=&quot;inline-code&quot;&gt;index.md</code> unter korrekter Sektion hinzugefügt werden.</li>
+<li>Jede Aktion: in &lt;code class=&quot;inline-code&quot;&gt;log.md</code> eintragen.</li>
+<li>Rohquellen (&lt;code class=&quot;inline-code&quot;&gt;raw/</code>) sind <strong>immutable</strong> — Korrekturen nur in Wiki-Seiten.</li>
+
+<h2>Frontmatter (Wiki-Seiten)</h2>
+<pre class="codeblock"><code class="language-yaml">
+
+</pre>
+
+<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: high</code> nur bei breiter Quellenbasis.</li>
+<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: medium</code> bei Einzelquellen oder schnell bewegten Themen.</li>
+<li>&lt;code class=&quot;inline-code&quot;&gt;confidence: low</code> bei ungesicherten Behauptungen / in Bearbeitung.</li>
+<li>Auf Seiten mit 3+ Quellen: Provenienz-Marker &lt;code class=&quot;inline-code&quot;&gt;^[raw/articles/quelle.md]</code> am Ende von Absätzen.</li>
+
+<h2>Frontmatter (Rohquellen)</h2>
+<p>Jede Datei in &lt;code class=&quot;inline-code&quot;&gt;raw/</code> erhält gleiche Frontmatter, damit spätere Re-Ingests Drift erkennen:</p>
+
+<pre class="codeblock"><code class="language-yaml">
+---
+source_url: https://beispiel.de/artikel   # ursprüngliche URL, falls zutreffend
+ingested: YYYY-MM-DD
+sha256: &lt;hex digest des Inhalts unterhalb des Frontmatter-Blocks&gt;
+---
+</pre>
+<p>sha256: über den Körper (alles nach der schließenden &lt;code class=&quot;inline-code&quot;&gt;---</code>) — ermöglicht Skipping bei identischer Quelle.</p>
+
+<h2>Tag-Taxonomie</h2>
+<p>Folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen werden.</p>
+
+<h3>Themengebiete</h3>
+<li>vulkanismus — Vulkanismus, Vulkanformen, Prozesse, Förderprodukte</li>
+<li>glazialmorphologie — Gletscher, Eiszeiten, Moränen, glaziale Serie, Permafrost</li>
+<li>vulnerabilitaet — Vulnerabilität, Resilienz, Risiko, Naturgefahren</li>
+<li>bildungsplan — Bildungsplan 2016, Kompetenzen, LK-Struktur</li>
+<li>abitur — Abiturformat, Operatoren, Prüfungsanforderungen</li>
+<li>raumbeispiele — konkrete geographische Räume als Lernfeld</li>
+<li>prozesse — endogene / exogene Prozesse</li>
+<li>methodik — Kartennutzung, Analyse, Modellbildung</li>
+<li>skizzen — Zeichenvorlagen für Abitur/Prüfung</li>
+<li>uebung — Übungsaufgaben, Kompetenzstufen</li>
+<li>vulkan-raumbeispiele — Vulkanraum-Beispiele (Vesuv, Kilauea, Laacher See, Eyafjöll)</li>
+<li>glazial-raumbeispiele — Glazialraum-Beispiele (Alpen, Norddeutschland, Island)</li>
+
+<h3>Entitätstypen</h3>
+<li>vulkan — ein Vulkan / Vulkanismo-Objekt</li>
+<li>gletscher — ein Gletscher / Eisform</li>
+<li>landschaft — Landschaftstyp (vulkanisch, glazial, küstennah etc.)</li>
+<li>modell — konzeptionelles Modell (z.B. BBC, Risiko-Rahmen)</li>
+<li>aufgabe — Abitur- oder Übungsaufgabe</li>
+
+<h3>Entitätstypen</h3>
+<li>vulkan — ein Vulkan / Vulkanismo-Objekt</li>
+<li>gletscher — ein Gletscher / Eisform</li>
+<li>landschaft — Landschaftstyp (vulkanisch, glazial, küstennah etc.)</li>
+<li>modell — konzeptionelles Modell (z.B. BBC, Risiko-Rahmen)</li>
+
+<h2>Seiten-Grenzen</h2>
+<li>Seite erstellen, wenn Entität/Konzept in 2+ Quellen vorkommt ODER zentrale Bedeutung hat.</li>
+<li>Seite NICHT erstellen für nebenbei erwähnte Details.</li>
+<li>Seite aufspalten bei &gt;200 Zeilen — in Teilthemen mit Cross-Links.</li>
+<li>Seite archivieren, wenn outdated: nach &lt;code class=&quot;inline-code&quot;&gt;_archive/</code> verschieben, aus Index entfernen.</li>
+
+<h2>Entity-Seiten</h2>
+<p>Je Entität: Überblick, Kernfakten/Daten, Beziehungen zu anderen Entitäten (<a href=&quot;wikilink.html&quot; class=&quot;wikilink&quot;&gt;wikilink</a>), Quellen.</p>
+
+<h2>Konzept-Seiten</h2>
+<p>Je Konzept: Definition, Erklärung, aktueller Wissensstand, offene Fragen, verwandte Konzepte.</p>
+
+<h2>Vergleichs-Seiten</h2>
+<p>Seite-Seite-Analysen: Was wird verglichen und warum, Vergleichsdimensionen (Tabelle bevorzugt),</p>
+<p>Urteil/Synthese, Quellen.</p>
+
+<h2>Update-Politik bei Widersprüchen</h2>
+<li>Daten prüfen — neuere Quellen überwiegen.</li>
+<li>Bei echtem Widerspruch: Beide Positionen mit Daten und Quellen darstellen.</li>
+<li>Im Frontmatter markieren: &lt;code class=&quot;inline-code&quot;&gt;contradictions: [andere-seite]</code> + &lt;code class=&quot;inline-code&quot;&gt;contested: true</code>.</li>
+<li>Im Lint-Bericht als Prüfling aufführen — Nutzer entscheidet.</li>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><span class="no-link">Keine weiteren Verknüpfungen</span></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

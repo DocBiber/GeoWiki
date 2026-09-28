@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="moränen-und-gletscherformen.html"><strong>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</strong></a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span>|</span>
+      <span>Dateigröße: 4789 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">glazialmorphologie</span><span class="tag-badge">prozesse</span></span>
+    </div>
+    
+
+<h1>Moränen und Gletscherforms — Typen, Entstehung und Bedeutung</h1>
+
+<h2>Moränen (Gletscher-Lockerablagerungen)</h2>
+
+<h3>Definition</h3>
+
+<p>Moränen sind die <strong>schüttungsdynorgt-argigen Ablagerungen</strong>, die ein Gletscher hinterlässt —</p>
+<p>Eine Mischung aus allen Größen (vom Gestein bis Kleinst-Block), meist **ungeordnet und</p>
+<p>ungegliedert**, im Gegensatz zu geschichtetem Gerölle (z.B. Sander, Flussablagerungen).</p>
+<p>Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne&quot; überhaupt verwendet</p>
+<p>(Grundmoräne, Seitenmoräne, Endmoräne).</p>
+
+<hr/>
+
+<h2>Haupt-Moränen-Typen</h2>
+
+<h3>1. Grundmoräne (Ground Moraine / Boden-Moräne)</h3>
+
+<li><strong>Position:</strong> Unter dem Gletscher — also flächendeckend vorhanden, wo der Gletscher abzog.</li>
+<li><strong>Entstehung:</strong> Langsame Ablagerung von Schotter/Erosions-material am Gletscherboden;</li>
+<p>  Gletscher „schleift&quot; zusammen und Ablagerung steilem Moränenhügel.</p>
+<li><strong>Charakter:</strong> Uneben, meist undurchbrochen, dicht; oft später landwirtschaftliche Nutzung</li>
+<p>  (boden-günstig nach Verwitterung)</p>
+<li><strong>Typisches Bild:</strong> flache bis leicht wellige, kreidestrichig bis gelblich — den „gräsern&quot; das</li>
+<p>  Landschaft nach Eisabzug.</p>
+
+<h3>2. Seitenmoräne (Lateral Moräne)</h3>
+
+<li><strong>Position:</strong> Am Rand des Gletschers, an der Berghang-Seite.</li>
+<li><strong>Entstehung:</strong> Material (Steine, aktive, losbröckeliges Gesteins- / Schutt) am Hang</li>
+<p>  → wird an Gletscher-Rand transportiert und anGrenz zusammen hinterlegt.</p>
+<li><strong>Charakter:</strong> Entlang dem Gletscher-Schulterbahn, oft lange Linie parallel zum Tal.</li>
+<li><strong>Wirkung:</strong> Weist auf frühere, größere Gletscherfläche hin.</li>
+
+<h3>3. Endmoräne (Terminal Moräne / Stossmoräne)</h3>
+
+<li><strong>Position:</strong> Am Vorderende des Gletschers — dort wo das Eis vorstarr-zeitlich stabilisiert.</li>
+<li><strong>Entstehung:</strong> Über Jahr-zu-Jahr Anreicherung (Steine, Schutt) am stärksten</li>
+<p>  Vorderrand-Kontakt. Wenn der Gletscher vor ein größeren Schusbild endet</p>
+<p>  (Eiszunge traben), entsteht am Ende die Kamm-/Wall-Höhe.</p>
+<li><strong>Bedeutung:</strong> Kenn-Zeichen für die maximale Ausdehnung des Gletschers</li>
+<p>  zu einer bestimmten Zeitphase. → ggf. mehrere Endmoränen-Sätze (für verschiedene</p>
+<p>  Phasen der Eiszeit).</p>
+<li>Im Bildungsplan genannt als „Endmoräne&quot;.</li>
+
+<hr/>
+
+<h2>Weitere Glazial-Landformen (explizit im Bildungsplan oder üblich)</h2>
+
+<h3>Talgletscher / Tal-Gletscher</h3>
+
+<li><strong>Form:</strong> Ein Gletscher, der ein Tal ausfüllt, von höheren Niederschlagsgebieten (Zehrgebiet / Nährgebiet)</li>
+<p>  nach Talab fließt (Abflussrichtung).</p>
+<li><strong>Beispiele:</strong> Grosser Aletsch (Schweiz, 23 km lang), Gletscher an den Alpen.</li>
+
+<h3>Trogtal (glaziale Talstruktur)</h3>
+
+<li><strong>Form:</strong> Steil, U-T-förmig, typische Talform durch Gletscherabtrag.</li>
+<li><strong>Entstehung:</strong> Eis schmilzt Runnen, Ab-trag tief; im Vergleich zu V-Tal des Flusses.</li>
+<li><strong>Bildungsplan:</strong> Trogtal als Begriff genannt.</li>
+
+<h3>Kar (Ker) / Zirkus (Cirque)</h3>
+
+<li><strong>Form:</strong> Halbschale-/ Kesselstruktur im Hochgebirge, oft mit steilen, gebrochenen</li>
+<p>  Felswänden, mit Moräne im unteren Teil.</p>
+<li><strong>Entstehung:</strong> Eis erodiert, runde Mulde an der Hochsee‑Region;</li>
+<p>  Entstehung durch Abrasion und Quarzmehl (Eisverdichtung zugespitzt).</p>
+<li><strong>Bildungsplan:</strong> <em>Kar</em> genannt (nicht zu verwechseln mit Karst!).</li>
+
+<h3>Zungenbecken</h3>
+
+<li><strong>Form:</strong> Mulde am Gletschervorderenden, oft rund, vor dem Endrand.</li>
+<li><strong>Vgl.:</strong> Glaziale Serie — <a href=&quot;glaziale-serie.html&quot; class=&quot;wikilink&quot;&gt;glaziale-serie</a>.</li>
+
+<hr/>
+
+<h2>Höhe, Nährgebeit, Zehrgebiet</h2>
+
+<p>Der Bildungsplan LK nennt: <strong>Nährgebiet</strong>, <strong>Zehrgebiet</strong></p>
+
+<li><strong>Zehrgebiet (Akkumulationszone):</strong> Bereich oberhalb der Schneegrenze, wo Schnee/Jahr</li>
+<p>  abgepufft und zu Firn/Eis wird → daraus kommt Gletscherzunahme.</p>
+<li><strong>Nährgebiet (Melt-/Abtragszone):</strong> Bereich, wo mehr Abtrag (Ablation) als Akkumulation</li>
+<p>  — Gletschermenge verringert.</p>
+<li><strong>Gleichgewichtslinie (Gl-Z-Linie):</strong> Linie, wo Akkumulation = Ablation — jährlicher</li>
+<p>  Balancepunkt. Wichtig für Gletscher-Monitoring.</p>
+
+<hr/>
+
+<h2>Kompetenzbezug LK</h2>
+
+<p>Wirkeiten, die im LK erwartet werden (§3.5.2.1):</p>
+
+<li>Verschiedene Moränen-Typen <strong>benennen, charakterisieren</strong> und <strong>erklären</strong> können.</li>
+<li>Die glaziale Serie im <strong>Zusammenhang</strong> vorstellen (Zungenbecken → Endmoräne → Sander → Urstromtal).</li>
+<li>Auf die Rolle von <strong>Vulnerabilität</strong> schließen können: Gletscher ablagerungen (Moränen)</li>
+<p>  können anfällig sein (Erosion, Hanginstabilität), Gletscherrückzug schafft</p>
+<p>  neue Gefährdungen (s. <a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a>).</p>
+
+<hr/>
+
+<h2>Verknüpfungen</h2>
+
+<li><a href=&quot;glazialmorphologie-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;glazialmorphologie-ueberblick</a> ← übergeordnet</li>
+<li><a href=&quot;glaziale-serie.html&quot; class=&quot;wikilink&quot;&gt;glaziale-serie</a> ← Serie im Detail</li>
+<li><a href=&quot;permafrost-und-solifluktion.html&quot; class=&quot;wikilink&quot;&gt;permafrost-und-solifluktion</a> ← Permafrost, Solifluktion (exogene Prozesse)</li>
+<li><a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a> ← Vulnerabilität Glazialräume</li>
+<li><a href=&quot;vulnerabilitaet-begriffe.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-begriffe</a> ← Konzept-Grundlage</li>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

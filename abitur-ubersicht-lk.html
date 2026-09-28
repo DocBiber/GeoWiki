@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li class="active"><a href="abitur-ubersicht-lk.html"><strong>Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</strong></a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</h1>
+    <div class="meta">
+      <span>Typ: summary</span>
+      <span>|</span>
+      <span>Dateigröße: 6449 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">abitur</span><span class="tag-badge">bildungsplan</span></span>
+    </div>
+    
+
+<h1>Abitur Geographie LK (Baden-Württemberg) — Übersicht</h1>
+
+<h2>Struktur des Abiturs</h2>
+
+<p>Im Fach Geographie LK (Gymnasium Baden-Württemberg, Bildungsplan 2016, Klasse 11/12,</p>
+<p>Leistungsfach) wird das Abitur durch folgende Komponenten geprägt:</p>
+
+<li><strong>Schriftliche Prüfung</strong> in der Kursstufe (Klassenstufen 11 und/oder 12):</li>
+<p>  Themen aus den Inhaltsbereichen 3.5.1–3.5.3, z.B. Reliefsphäre, Globale Herausforderungen.</p>
+<li><strong>Mündliche Prüfung</strong> (Gemeinschafts-prüfung oder Einzelprüfung) — je nach</li>
+<p>  Schulkonzeption.</p>
+<li><strong>Facharbeit / Projektarbeit</strong> (wenn angeboten): Inhaltlich ein eigenständigen</li>
+<p>  geographisches Thema bearbeiten.</p>
+
+<p>Genau Ablauf und Gewichtung sind schulrechtlich geregelt und werden Studierenden</p>
+<p>durch Lehrkräfte / Schulleitung bekannt gemacht. Der Bildungsplan gibt die</p>
+<p><strong>Anforderungsspiegel</strong> vor, nicht den konkreten Prüfungstermin.</p>
+
+<hr/>
+
+<h2>Operatoren (Handlungsanweisungen im Abitur)</h2>
+
+<p>Die im Bildungsplan angeführten Operatoren für das Fach Geographie sind wesentlich</p>
+<p>für die Abitur-Anforderungen. Typische Operatoren (Auszug):</p>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Operator</th>
+<th>Bedeutung (vereinfacht)</th>
+<th>Beispiele im Kontext (Reliefsphäre)</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Benennen</strong></td>
+<td>Begriff nennen</td>
+<td>Benennen Sie zwei Vulkantypen.</td>
+</tr>
+<tr>
+<td><strong>Beschreiben</strong></td>
+<td>Sachverhalt schildern</td>
+<td>Beschreiben Sie die Entstehung der glazialen Serie.</td>
+</tr>
+<tr>
+<td><strong>Erklären</strong></td>
+<td>Ursache/Wirkung/zusammenhang aufschlüssen</td>
+<td>Erklären Sie, warum Schildvulkane flacher sind als Schichtvulkane.</td>
+</tr>
+<tr>
+<td><strong>Charakterisieren</strong></td>
+<td>Eigenschaften herausarbeiten</td>
+<td>Charakterisieren Sie die Vulketandchaft ...  (im Bildungsplan: „Reliefformen charakterisieren und erklären&quot;)</td>
+</tr>
+<tr>
+<td><strong>Analysieren</strong></td>
+<td>in Bestandteile zerlegen, Muster/Bedeutung erkennen</td>
+<td>Analysieren Sie die Vulnerabilität einer vulkanischen Region.</td>
+</tr>
+<tr>
+<td><strong>Vergleichen</strong></td>
+<td>Gemeinsamkeiten und Unterschiede herausarbeiten</td>
+<td>Vergleichen Sie Vulkanismus und Glazialmorphologie als Prozesse.</td>
+</tr>
+<tr>
+<td><strong>Beurteilen</strong></td>
+<td>bewerten einige Kriterien</td>
+<td>Beurteilen Sie Maßnahmen zur Stärkung der Resilienz im Vulkan-Gebiet.</td>
+</tr>
+<tr>
+<td><strong>Erörtern</strong></td>
+<td>Pro/contra, begründete Position</td>
+<td>Erörtern Sie, ob Gletscherrückzug eine Vulnerabilitäts-Zunahme bedeutet.</td>
+</tr>
+<tr>
+<td><strong>Skizzieren</strong></td>
+<td>einfache Darstellung (skizze, Karte, Strich-Zeichnung)</td>
+<td>Skizziren Sie die glaziale Serie (Zungenbecken, Endmoräne, Sander, Urstromtal).</td>
+</tr>
+<tr>
+<td><strong>Darstellen</strong></td>
+<td>Informationen grafisch/schriftlich ordentlich strukturiert</td>
+<td>Darstellen Sie die Vulnerabilitätsfaktoren einer Vulkanregion.</td>
+</tr>
+</tbody></table>
+
+<blockquote>Diese Operatoren sind auch für die Prüfungsvorbereitung wichtig: Die Abitur-</blockquote>
+<p>  Aufgaben werden mit Operatoren formuliert; der Antwortstil muss dem entspricht.</p>
+
+<hr/>
+
+<h2>Themenfelder für das Abitur- LK Geographie BW</h2>
+
+<p>Aus dem Bildungsplan (Stand 2023, V2) lassen sich folgende Schwerpunkte für</p>
+<p>das LK-Abitur ableiten (insbesondere für „Formen und Prozesse der Reliefsphäre&quot; §3.5.2.1):</p>
+
+<li><strong>Vulkanlandschaft</strong></li>
+<li>Vulkanformen (Schildvulkan, Schichtvulkan, Caldera, Maar, Vulkanische Decke, Hot Spot)</li>
+<li>Explosiv vs. effusiv, Förderprodukte</li>
+<li>Gefahren, Vulnerabilität, Maßnahmen</li>
+<li><strong>Glaziallandschaft</strong></li>
+<li>Gletscher-Formen, glaziale Serie (Zungenbecken, Endmoräne, Sander, Urstromtal)</li>
+<li>Moränen-Typen (Grund-, Seiten-, Endmoräne, Altmoräne, Jungmoräne)</li>
+<li>Permafrost, Solifluktion, Kar</li>
+<li>Prozesse der Glazialmorphologie (Abtrag, Akkumulation, Ablagerung)</li>
+<li>Vulnerabilität: Gletscherrückzug, Lawinen, GLOF, Permafrost</li>
+<li><strong>Vulnerabilität und Resilienz</strong> (in §3.4.3.2 BK und auch in LK-Kontext)</li>
+<li>Begriffe: Risiko, Hazard, Vulnerabilität, Resilienz</li>
+<li>Anwendung auf mindestens eine Landschaft (z.B. Vulkan oder Glazial)</li>
+<li>Nachhaltige Entwicklung als Kriterium für Resilienz-Maßnahmen</li>
+<li><strong>Andere Landschaften</strong> (Fluss, Küste, Karst) — können auftreten,</li>
+<p>   da Bildungsplan alle fünf nennt.</p>
+
+<hr/>
+
+<h2>Praktische Anforderungen im LK-Abitur</h2>
+
+<li><strong>Kartennutzung:</strong> Schüler müssen Infokarten, Reliefkarten, Satellitenbilder</li>
+<p>  lesen und beschreiben können.</p>
+<li><strong>Modellbildung:</strong> z.B. glaziale Serie schematisch darstellen, Vulkanformen skizzieren.</li>
+<li><strong>Argumentationsketten:</strong> Begründungen, Pro/contra, Beurteilung auf Grundlage</li>
+<p>  von Fakten, nicht rein subjektiv.</p>
+<li><strong>Quellen-Nutzung:</strong> Prozess-/Inhaltswissen aus Lehrbuch/Arbeitsmaterialien.</li>
+<li><strong>Zusammenhänge:</strong> zwischen Prozessen, Formen, Vulnerabilität, Maßnahmen,</li>
+<p>  nachhaltiger Entwicklung herstellen.</p>
+
+<hr/>
+
+<h2>Vorbereitung (Schüler-Tipps)</h2>
+
+<li><strong>SCHEMA und Bildungsplan lesen</strong> kennen — mindestens abschnitte 3.5.2.1 und 3.4.3.2.</li>
+<li><strong>Karte</strong>: Skizzieren Sie die <strong>glaziale Serie</strong> so oft, bis die Abfolge</li>
+<p>   sitzt (Zungenbecken → Endmoräne → Sander → Urstromtal → Löss).</p>
+<li><strong>Vulkanformen</strong>: sicher unterscheiden Schichtvulkan vs. Schildvulkan (Form,</li>
+<p>   Magma, FZ-Kontext).</p>
+<li><strong>Vulnerabilität</strong>: die vier Begriffs-Paare (Risiko, Hazard, Vulnerabilität,</li>
+<p>   Resilienz) zusammenbringen und ein Beispiel konstruieren können.</p>
+<li><strong>Operatoren-Übung</strong>: Übungsaufgaben mit Operatoren (Erklären, Vergleichen,</li>
+<p>   Beurteilen) lösen, Antwortendform beachten.</p>
+<li><strong>Beispiele Reihen und Vergleiche</strong>: Vulkan vs. Glazial (Prozess-Vergleichs-</li>
+<p>   Seite <a href=&quot;vergleich-vulkan-gletscher-prozesse.html&quot; class=&quot;wikilink&quot;&gt;vergleich-vulkan-gletscher-prozesse</a>).</p>
+
+<hr/>
+
+<h2>Quellen</h2>
+
+<li>Bildungsplan Geographie LK BW: [BP2016BW_ALLG_GYM_GEO.V2_IK_LK](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK)</li>
+<li>Bildungsplan §3.4.3.2 (BK Vulnerabilität): [bildungsplaene-bw.de §3.4.3.2](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_11-12-BF_03_02)</li>
+<li>Operatoren-Liste BW Bildungsplan (Bildungsplan-Lehrerfortbildung): [lehrerfortbildung-bw.de](https://lehrerfortbildung-bw.de/u_gewi/geographie/gym/bp2016/fb4/1_grund/)</li>
+<li>KMK-Bedarfsanalyse 2020, Neuverhandlung ab 2025: [km.baden-wuerttemberg.de](https://km.baden-wuerttemberg.de/de/schule/allgemeine-informationen-1/bildungsplaene/bildungsplaene-2016-in-ueberarbeitung)</li>
+
+<hr/>
+
+<p>*Wiki-Seiten mit &lt;code class=&quot;inline-code&quot;&gt;[...]</code> kreuzverweise: <a href=&quot;bildungsplan-2016-lk.html&quot; class=&quot;wikilink&quot;&gt;bildungsplan-2016-lk</a>, <a href=&quot;vulkansimus-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;vulkansimus-ueberblick</a>,</p>
+<p><a href=&quot;vulkanarten.html&quot; class=&quot;wikilink&quot;&gt;vulkanarten</a>, <a href=&quot;vulkanprozesse.html&quot; class=&quot;wikilink&quot;&gt;vulkanprozesse</a>, <a href=&quot;glazialmorphologie-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;glazialmorphologie-ueberblick</a>, <a href=&quot;glaziale-serie.html&quot; class=&quot;wikilink&quot;&gt;glaziale-serie</a>,</p>
+<p><a href=&quot;moränen-und-gletscherformen.html&quot; class=&quot;wikilink&quot;&gt;moränen-und-gletscherformen</a>, <a href=&quot;permafrost-und-solifluktion.html&quot; class=&quot;wikilink&quot;&gt;permafrost-und-solifluktion</a>, <a href=&quot;vulnerabilitaet-begriffe.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-begriffe</a>,</p>
+<p><a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a>, <a href=&quot;resilienz-massnahmen.html&quot; class=&quot;wikilink&quot;&gt;resilienz-massnahmen</a>, <a href=&quot;vergleich-vulkan-gletscher-prozesse.html&quot; class=&quot;wikilink&quot;&gt;vergleich-vulkan-gletscher-prozesse</a>,</p>
+<p><a href=&quot;vulnerabilitaet-vulkanraume.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-vulkanraume</a>.*</p>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
