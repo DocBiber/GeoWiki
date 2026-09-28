@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Skizzen — Geographie LK (Zeichenvorlagen) — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="uebersicht-skizzen.html"><strong>Skizzen — Geographie LK (Zeichenvorlagen)</strong></a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Skizzen — Geographie LK (Zeichenvorlagen)</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span>|</span>
+      <span>Dateigröße: 15149 Bytes</span>
+      <span style="margin-left:auto"></span>
+    </div>
+    <h1>Skizzen — Geographie LK (Zeichenvorlagen)</h1>
+
+<blockquote>Zeichenvorlagen für Skizzen im Abitur / Unterricht.</blockquote>
+<blockquote>Jede Skizze wird als textbasierte Zeichenanleitung + Schülererläuterungen geliefert.</blockquote>
+<blockquote>Für Prüfungen: Skizzen müssen lesbar, beschriftet, maßstäblich (relativ) sein.</blockquote>
+
+
+
+<h2>2. Vulkanformen — Skizzen</h2>
+
+<h3>A. Schichtvulkan (Strato vulkan)</h3>
+
+<pre class="codeblock"><code class="language-">
+                ⋂  (Asche-Schicht)
+              ╱‾‾‾╲
+             ╱      ╲  ◄── eine Schicht (Lava-Schicht, hell)
+            ╱  ▲     ╲
+           ╱   │      ╲
+          ╱    │       ╲
+         ╱     │        ╲
+        ╱      │         ╲
+       ╱       │          ╲
+      ╱        │           ╲
+     ╱   ★     │            ╲   ◄── ★ = Krater / Spalte
+    ╱    │     │             ╲
+   ╱     │     │              ╲
+  ╱      │     │               ╲
+ ╱       ▼     ▼                ╲
+╱_____________________________╲
+         ▼
+(오) ↓ Lavastrom  (effusiv)
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Krater</li>
+<li>Schichtung (abwechselnd Lava / Tephra)</li>
+<li>Lavastrom (sehr langsam, hier abwärts)</li>
+<li>Flanke (steil, 30–35°)</li>
+<li>Magma-Kammer (unterirdisch, unten)</li>
+
+<p><strong>Eruptionstyp:</strong> Oft explosionsvulkanisch (Gase eingeschlossen, druckaufbau), mit Tephra, Asche.</p>
+
+<hr/>
+
+<h3>B. Schildvulkan</h3>
+
+<pre class="codeblock"><code class="language-">
+              ╱                                            ╲
+             ╱                                              ╲
+            ╱                                                ╲
+           ╱                                                  ╲
+          ╱                                                    ╲
+         ╱                                                      ╲
+        ╱                                                        ╲
+       ╱                                                          ╲
+      ╱                    (flach, 2–10°)                         ╲
+     ╱                                                              ╲
+    ╱                                                                ╲
+   ╱                                                                   ╲
+  ╱                                                                     ╲
+ ╱                                                                       ╲
+╱═════════════════════════════════════════════════════════════════════════╲
+                            ★ Krater / Spalte
+                        ◄── Lavastrom (effusiv, fließend)
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Krater / Spalte</li>
+<li>Lavastrom (effusiv, fließt leicht)</li>
+<li>Flanke (sehr flach, 2–10°)</li>
+<li>Basis (sehr breit)</li>
+<li>Magma: basaltisch, niedrig-viscos, geringen SiO₂</li>
+
+<p><strong>Eruptionstyp:</strong> Effusiv, ruhig, Lava fließt, nicht explosiv (selten).</p>
+
+<hr/>
+
+<h3>C. Caldera</h3>
+
+<pre class="codeblock"><code class="language-">
+       ╔══════════════════════╗
+       ║   OLD VOLCANO PEAK   ║  ← vor dem Ausbruch
+       ║    (laut hoch)       ║
+       ╚══════════╤═══════════╝
+                  │  │
+                  │  └── ★ Krater
+                  │      │ (Magma austritt)
+                  ▼      ▼
+               ╔════════╧════════╗
+               ║    CALDERA       ║  ← große kreisförmige Einsenkung
+               ║   (Kessel)       ║     (nach massiver Entfernung Magma-Raum)
+               ║                  ║
+               ║     ┌──────┐     ║
+               ║     │ SEE  │     ║  ← oft gefüllt
+               ║     └──────┘     ║
+               ╚══════════════════╝
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Caldera (Kessel, Kreis)</li>
+<li>Oft gefüllt mit Wasser (Kratersee)</li>
+<li>Magma-Kammer (unter, leer nach Ausbruch)</li>
+<li>Alter Vulkan (vor Ausbruch)</li>
+
+<hr/>
+
+<h3>D. Maar</h3>
+
+<pre class="codeblock"><code class="language-">
+        ┌─────────────────────────┐
+        │  RINGFÖRMIGE MULD E     │
+        │   (Kreis oder oval)     │
+        │    ╭──────────────╮     │
+        │    │   ★ Krater   │     │  ← mittel-teil (magma tritt aus)
+        │    └──────────────╘     │
+        │                          │
+        │ ╭──────────────────────╮ │  ← Tuff-Ring (Asche,
+        │ │  Tuffring (Ring)     │ │     gebrochen)
+        │ ╰──────────────────────╯ │
+        └──────────────────────────┘
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Mais (Kreisrunde Mulde)</li>
+<li>Krater / Eruptionszentrum</li>
+<li>Tuff-Ring (Asche-Ring)</li>
+<li>Oft gefüllt mit Wasser (→ Maar-See)</li>
+<li>Entstehung: phreatomagmatisch (Grundwasser + Magma)</li>
+
+<hr/>
+
+<h2>3. Vulnerabilitätsmodell (Risiko-Modell) — Skizze</h2>
+
+<h3>Variante A: Das Grundmodell</h3>
+
+<pre class="codeblock"><code class="language-">
+      [ HAZARD ]                          [ EXPOSITION ]
+   (Naturgewalten)                   (Was liegt in Gefahr?)
+
+         │                                   │
+         │  ┌───────────┐                    │
+         └──┤  Risiko   ├────────────────────┘
+            │           │
+            │ = Hazard  │
+            │   x        │
+            │ Exposition  │
+            │   x          │
+            │ Vulnerabilität│
+            └───────────────┘
+                        │
+                        ▼
+            ┌────────────────────┐
+            │   SCHADEN          │
+            │   (Tote, Sach-,   │
+            │    Umwelt)         │
+            └────────────────────┘
+</pre>
+
+<h3>Variante B: Mit Resilienz</h3>
+
+<pre class="codeblock"><code class="language-">
+      [ HAZARD ]
+         │
+         ▼
+   ┌─────────────┐
+   │ Exposition  │ ──→ Was liegt im Gefahrenbereich?
+   └─────────────┘
+         │
+         ▼
+   ┌─────────────┐
+   │ Vernderbarkeit  │ ──→ Wie anfällig?
+   └─────────────┘
+         │
+         ▼
+   ┌─────────────┐
+   │   RISIKO    │
+   └─────────────┘
+         │
+         ▼
+   ┌─────────────┐        ┌─────────────┐
+   │   SCHADE    │  ←──→  │  RESILIENZ  │
+   │             │        │ (Wiederher- │
+   └─────────────┘        │ stellung)   │
+                           └─────────────┘
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Hazard (Gefahrenquelle: Vulkan, Gletscher, etc.)</li>
+<li>Exposition (Betroffene Objekte: Menschen, Gebäude, Infrastruktur, Wirtschaft)</li>
+<li>Vulnerabilität (Anfälligkeit: sozial, physisch, ökonomisch)</li>
+<li>Risiko (Schadenswahrscheinlichkeit × Schadensumfang)</li>
+<li>Resilienz (Fähigkeit: widerstehen, anpassen, erholen)</li>
+
+<hr/>
+
+<h2>4. Gletscher — Querschnitt</h2>
+
+<pre class="codeblock"><code class="language-">
+   ^  (Hochgebirge)
+   │
+   │     ╱╲  ▲                     ▲  ←  ZERGREGBIET / NÄHRLING
+   │    ╱  ╲ │                     │    (Schnee → Firn → Eis)
+   │   ╱    ╲│                    │
+   │  ╱      ╲                    │      ◄──  GLETSCHER (Eisstrom)
+   │ ╱  GLETSCHER  ╲              │
+   │╱     (EIS)      ╲            │
+   │                   ╲          │
+   │  ╔══════════════╗  │         │
+   │  ║  MORÄNE      ║  │         │  ← Moränenrand
+   │  ║  (Seiten- oder End-)║   │
+   │  ╚══════════════╝  │         │
+   │         │          │         │
+   │         ▼          ▼         ▼
+   │     [ Talboden, Urstromtal ]
+</pre>
+
+<p><strong>Beschriftung:</strong></p>
+<li>Gletscher (Eisstrom)</li>
+<li>Zehrgebiet / Akkumulationszone (Schnee → Firn → Eis)</li>
+<li>Gleichgewichtslinie (Grenzlinie, wo Akkumulation = Ablation)</li>
+<li>Ablationszone (Schmelzwasser, Abtrag)</li>
+<li>Moräne (Seiten- oder Endmoräne)</li>
+<li>Trogtal (U-förmig)</li>
+<li>Schmelzwasser (Abfluss)</li>
+
+<hr/>
+
+<h2>5. Vergleich Trogtal (glazial) vs. Flusstal (V-formig)</h2>
+
+<pre class="codeblock"><code class="language-">
+GLAZIALES TRogTAL (U-förmig)        FLUSS-TAL (V-formig)
+
+   ▲                                      ▲
+   │  ╱╲                                  │   ╱╲
+   │ ╱  ╲╲                                │  ╱  ╲
+   │╱    ╲╲                               │ ╱    ╲
+   │      ╲╲                              │╱      ╲
+   │       ╲╲                               │       ╲
+   │        ╲╲                              │        ╲
+   │         ╲╲                              │         ╲
+   │          \                               │             │           ╲                              │           ╲
+   │            \                              │               │             \                             │                │              \                            │                 └──────────────┘                            └──────────────┘
+   breit, abgerundet,                         steil, V-förmig,
+   U-Form                                      V-Form
+   geglättete Wände                           schroffe Wände
+   (Eis hat abgetragen)                        (Wasser hat erodiert)
+</pre>
+
+<hr/>
+
+<h2>6. Vulkan-Ausbruch-Schema (Hazard-Stufen)</h2>
+
+<pre class="codeblock"><code class="language-">
+     OROPHE / MAGMA
+          │
+          ▼
+   ┌─────────────┐
+   │  MAGMA-     │
+   │  KAMMER     │  ← Druckaufbau (Gase: CO₂, SO₂, H₂O)
+   └──────┬──────┘
+          │  (Drücke ↑)
+          ▼
+   ┌─────────────┐
+   │  AUSBRUCH   │  ← Explosion / Lavafluss
+   │  (ERUPTION) │
+   └──────┬──────┘
+          │
+    ┌─────┴─────┐
+    │  HAZARD   │
+    │  Pyroklast, │
+    │  Aschefall │
+    │  Lahar     │
+    └─────┬─────┘
+          │
+   ┌──────┴───────┐
+   │     RISIKO   │  ← Exposition × Verwundbarkeit
+   │  Bevölkerung │
+   │  Infrastruktur│
+   └──────┬───────┘
+          │
+    ┌─────┴─────┐
+    │ SCHADE    │
+    │ Tote,     │
+    │ Sachschade│
+    └───────────┘
+</pre>
+
+<hr/>
+
+<h2>Skizzen-Office-Hinweise</h2>
+
+<li>Skizzen müssen <strong>nicht perfekt gezeichnet</strong> sein, aber sie müssen <strong>beschriftet</strong> sein</li>
+<p>  und die <strong>wichtigsten Elemente</strong> enthalten.</p>
+<li>Pfeile zeigen <strong>Richtungen</strong> (Eisstrom, Lavafluss, Schmelzwasser).</li>
+<li>Einheitliche Schrift (lesbar) ist wichtiger als künstlerische Qualität.</li>
+<li>Farben helfen (z.B. <strong>blau</strong> für Wasser/Eis, <strong>rot</strong> für Gefahr, <strong>braun</strong> für Moränen).</li>
+<li>Im Abitur muss nicht immer alles gezeichnet werden, was möglich ist — aber die</li>
+<p>  Kernbegriffe müssen klar erkennbar sein.</p>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

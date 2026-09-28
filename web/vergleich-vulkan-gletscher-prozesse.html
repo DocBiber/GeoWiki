@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung) — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li class="active"><a href="vergleich-vulkan-gletscher-prozesse.html"><strong>Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</strong></a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</h1>
+    <div class="meta">
+      <span>Typ: comparison</span>
+      <span>|</span>
+      <span>Dateigröße: 5490 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">vulkanismus</span><span class="tag-badge">glazialmorphologie</span><span class="tag-badge">prozesse</span></span>
+    </div>
+    
+
+<h1>Vergleich — Vulkanismus und Glazialmorphologie: prozessuale Gegenüberstellung</h1>
+
+<h2>Einordnung</h2>
+
+<p>Sowohl <strong>Vulkanismus</strong> als auch <strong>Glazialmorphologie</strong> sind im Bildungsplan Geographie LK §3.5.2.1</p>
+<p>„Formen und Prozesse der Reliefsphäre&quot; explizit zusammengefasst. Der Vergleich hilft,</p>
+<p>die jeweiligen <strong>Prozessmechanismen</strong> (Endoge vs. Exogen), die <strong>Hazard-Typen</strong></p>
+<p>(aktiver Vulkanausbruch vs. „passive&quot; exogene Gefahr durch Rückzug/Erosion) und</p>
+<p>die <strong>Vulnerabilitäts-Strukturen</strong> zu kontrastieren.</p>
+
+<hr/>
+
+<h2>Prozessart</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Aspekt</th>
+<th>Vulkanismus</th>
+<th>Glazialmorphologie</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Prozess-Typ</strong></td>
+<td>Endogen (vom Erdinnern gespeist, Wärme, Magmen)</td>
+<td>Exogen (durch Eis, Schmelzwasser, Temperatur, Wind — nach der Eiszeit noch andauernd)</td>
+</tr>
+<tr>
+<td><strong>Antrieb</strong></td>
+<td>Magmen-Druck, Gasdruck, Plattenkontext</td>
+<td>Temperaturunterschied, Schneeakkumulation, Schmelze, Schwerkraft, Wasser</td>
+</tr>
+<tr>
+<td><strong>Geschwindigkeit</strong></td>
+<td>Ereignisartig, kurzfristig (Jahre bis Minuten für Ausbrüche)</td>
+<td>Langfristig, über tausende Jahre; aber certains Teilprozesse (Lahre, Lawinen) kurzfristig</td>
+</tr>
+<tr>
+<td><strong>Repetitions-wahrscheinlichkeit</strong></td>
+<td>Wiederkehrend (zyklisch), aber unvorhersehbar für einen bestimmen Vulkan</td>
+<td>Eiszeit-Phasen sind global (Langzeitrhythmus); interaktive Gravitationssprozesse lauf endend</td>
+</tr>
+<tr>
+<td><strong>Wirkungsart auf Relief</strong></td>
+<td>Aufwölbend, kumulativ (Berge aufbauen, Lava erschließt Fläche)</td>
+<td>Abtragend (Erosion, Mulden, Talbildung), Neuanlage durch Ablagerung (Moränen)</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>charakteristische Formen</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th></th>
+<th>Vulkanismus-Formen</th>
+<th>Glazialmorphologie-Formen</th>
+</tr></thead><tbody>
+<tr>
+<td>Typische Formen</td>
+<td>Schildvulkan, Schichtvulkan, Caldera, Maar, Lava-Decke</td>
+<td>Trogtal, Cirque, Moränen (Grund-, Seiten-, End-), Zungenbecken, Urstromtal, Sander</td>
+</tr>
+<tr>
+<td>Relief-Höhe</td>
+<td>Kommen mehr (Berge)</td>
+<td>Oft flachere, Eben-Landschaften mit Moränenwellen</td>
+</tr>
+<tr>
+<td>Material</td>
+<td>Lava, Tephra, Brecher</td>
+<td>Gestein-Fragment, Schotter, Löss, Eis</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>Naturgefahren-Hazard-Typen</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th></th>
+<th>Vulkanismus</th>
+<th>Glazialmorphologie</th>
+</tr></thead><tbody>
+<tr>
+<td>Main-Hazard</td>
+<td>Eruption, Pyroklastische Ströme, Aschefall, Lahare, Gas</td>
+<td>Gletscherlawinen, GLOFs (Gletscherseeausbruch), Steinschlag weil Eisfall, Permafrost-Schwund (→ Hanginst), Solifluktion</td>
+</tr>
+<tr>
+<td>Startpunkte der Gefahr</td>
+<td>Ausbruch / Ereignis</td>
+<td>Retrospektiv / Prozesse aus Vortagen, aktuell, oder Schmelze</td>
+</tr>
+<tr>
+<td>Vorhersagebarkeit</td>
+<td>Teils besser (aktiver Vulkan → Seismometrie, bevor; andere unbestimmt)</td>
+<td>Schmelz-Gefahren durch Temperatur-/Schneemessung, Lawinen-Einschätzung</td>
+</tr>
+<tr>
+<td>Reichweite</td>
+<td>Vulkanasche global reichend (Luftschifffahrt, Klima)</td>
+<td>Örtlich begrenzter, aber gefährlich für tal-nahe Siedlungen</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>Vulnerabilitätsstruktur</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th></th>
+<th>Vulkanische Räume</th>
+<th>Glazialräume</th>
+</tr></thead><tbody>
+<tr>
+<td>Typische exponierte Gemeinschaften</td>
+<td>Bevölkerung in Vulkan-Nähe; Landwirtschaft auf Vulkanboden (oft fruchtbar)</td>
+<td>Tourismus, Landwirtschaft, Hochgebirgs-Lebensstätten</td>
+</tr>
+<tr>
+<td>Wirtschaftliche Bedeutung</td>
+<td>Oft landwirtschaftlich wertvoll (vulkanische Böden); Tourismus (Ätna, Island)</td>
+<td>Tourismus (Skigebiete, Gletschertour), Landwirtschaft (Moränenböden)</td>
+</tr>
+<tr>
+<td>Vulnerabilitätsfaktoren (ausgewählt)</td>
+<td>Dichte Besiedlung, Flugverkehr (Asche), wirtschaftliche Abhängigkeit von Tourismus/Ag, mangelnde Evakuierungsplan</td>
+<td>Touristenansiedlung, Abhängigkeit vom Gletscher, Infrastruktur an Gletscher-Rand, Permafrost / Böschungsrisiko</td>
+</tr>
+<tr>
+<td>Maßnahmen (Kurz)</td>
+<td>Frühwarnsystem, Evakuierung, Siedlungsschutz, Observatorien</td>
+<td>Überwachung, Lawinenabwehr, Rückzugs-Strategie, touristische Diversifizierung</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>Interdependenzen im Bildungsplan</h2>
+
+<p>Der Bildungsplan LK §3.5.2.1 nennt beide Landschaften nebeneinander — typischerweise</p>
+<p>als <strong>Themenfeld Reliefsphäre</strong>. In den Abitur-Hauptaufgaben kann es vorkommen,</p>
+<p>dass Schülerinnen und Schüler z.B. eine Venn-Matrix mit zwei Landschaften erstellen oder</p>
+<p>Vergleichen zwischen Vulkan und Glazial erstellen müssen. Das ist das, was dieser</p>
+<p>Vergleichs-Artikel abruft.</p>
+
+<p><strong>Vgl. auch:</strong></p>
+<li><a href=&quot;glaziale-serie.html&quot; class=&quot;wikilink&quot;&gt;glaziale-serie</a> — genaue Abfolge der glazialen Serie.</li>
+<li><a href=&quot;vulkanarten.html&quot; class=&quot;wikilink&quot;&gt;vulkanarten</a> — Detail zu Vulkan-Typen.</li>
+<li><a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a> — Vulnerabilität für beide Räume.</li>
+<li><a href=&quot;resilienz-massnahmen.html&quot; class=&quot;wikilink&quot;&gt;resilienz-massnahmen</a> — Maßnahmen.</li>
+
+<hr/>
+
+<h2>Raumbeispiele für den Vergleich</h2>
+
+<li><strong>Island:</strong> Vulkan (Hot Spot, SZ) + Glazial (Gletscher, Jökulhlaup) → besonders</li>
+<p>  lehrreich für Komplexe-Vulkan-Gletscher-Interaktion.</p>
+<li><strong>Alpen (Sizilien, Italien):</strong> Ätna = Vulkan, aber Nähe-Gletscher im Nebel —</li>
+<p>  gute Kontrastbeispiele.</p>
+<li><strong>Indonesien (Vulkan-Kette) vs. Himalaya-Gletscher:</strong> extreme große Unterschiede in</li>
+<p>  Vulnerabilität und Maßnahmen (Indonesien: Bevölkerungsdichte, Vulkan; Himalaya: Tourismus,</p>
+<p>  Schmelze, GLOF).</p>
+
+<hr/>
+
+<h2>Zusammenfassung (Schülernahe Fazit)</h2>
+
+<p>Vulkanismus und Glazialmorphologie sind die zwei „Architekten&quot; der Reliefsphäre, die im</p>
+<p>Leistungskurs Geographie BW zusammengefasst sind:</p>
+
+<li>Vulkanismus <strong>baut auf</strong> — endogen, magmen-getsucht, formt Hochformen (Berge, Kegel),</li>
+<p>  gefährlich durch explosive Ereignisse.</p>
+<li>Glazialmorphologie <strong>schält und formt</strong> — exogen, verändernd, zerschlägt und legt ab,</li>
+<p>  gefährlich durch Lawinen, Schmelze, Säure, Permafrost-Veränderungen.</p>
+
+<p>Beide können die Vulnerabilität von Räumen und ihrer Gesellschaft beeinflussen —</p>
+<p>und in der Abitur-Thematik kann man sie vergleichend bearbeiten.</p>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

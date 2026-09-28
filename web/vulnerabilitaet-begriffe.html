@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="vulnerabilitaet-begriffe.html"><strong>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</strong></a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span>|</span>
+      <span>Dateigröße: 7051 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">vulnerabilitaet</span><span class="tag-badge">bildungsplan</span></span>
+    </div>
+    
+
+<h1>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</h1>
+
+<h2>Einordnung</h2>
+
+<p>Der Bildungsplan Geographie LK BW (§3.5.3 — Globale Herausforderungen) und insbesondere</p>
+<p>der Basiskompetenz-Bereich <strong>§3.4.3.2 „Vulnerabilität und Resilienz von Mensch und Raum&quot;</strong></p>
+<p>führt die Begriffe <strong>Vulnerabilität (Verwundbarkeit)</strong> und <strong>Resilienz (Widerstandsfähigkeit)</strong> ein.</p>
+
+<p>Ziel: Schülerinnen und Schüler können die **Verwundbarkeit von Räumen durch Naturgefahren</p>
+<p>erläutern<strong> und </strong>Maßnahmen zur Stärkung der Resilienz im Rahmen einer nachhaltigen</p>
+<p>Entwicklung beurteilen**.</p>
+
+<hr/>
+
+<h2>Kernbegriffs-Definitionen</h2>
+
+<h3>Risiko (Risk)</h3>
+
+<p>Das <strong>Risiko</strong> beschreibt die <strong>Wahrscheinlichkeit × Auswirkung</strong> eines schädigenden Ereignisses</p>
+<p>auf Leben, Substanz, Nutzung, Umwelt. In der Geographie (Naturgefahrenforschung) wird</p>
+<p>oft folgender Zusammenhang verwendet:</p>
+
+<blockquote><strong>Risiko = Hazard × Exposition × Vulnerabilität</strong></blockquote>
+
+<li><strong>Hazard</strong> (Gefahr des Ereignisses selbst — naturerkraftlich), <strong>Exposition</strong> (was liegt in Gefahr),</li>
+<p>  <strong>Vulnerabilität</strong> (wie gefährdet ist das, was exponiert ist).</p>
+
+<p>Oder vereinfacht (in Schulbüchern üblich):</p>
+
+<blockquote><strong>Risiko = Gefahr × Verwundbarkeit</strong>   (bzw. Hazard × Verwundbarkeit)</blockquote>
+
+<h3>Hazard (Gefahrencereignis)</h3>
+
+<p>Ein <strong>Hazard</strong> (dt. oft „Gefährdung&quot; oder „Gefahrenquelle&quot;) ist die <strong>Naturgewalt</strong> oder das</p>
+<p>Ereignis selbst — unabhängig davon, ob Menschen oder Sachgüter in seiner Wirkungsfläche liegen</p>
+<p>(z.B. Vulkanausbruch, Überschwemmung, Erdrutsch).</p>
+
+<p>In der Bildungsplanterminologie: Naturgefahren sind die Hazard-Quellen, z.B.:</p>
+<p>Vulkanismus, Gletscherflutung, Küstenerosion, Überschwemmung.</p>
+
+<h3>Vulnerabilität / Verwundbarkeit (Vulnerability)</h3>
+
+<p>Die <strong>Vulnerabilität</strong> (dt. „Verwundbarkeit&quot;) bezeichnet die **inneren Eigenschaften eines</p>
+<p>Objekts oder Raumes (Gemeinwohl, Infrastruktur, Ökosystem, Bevölkerung)**, die festlegen,</p>
+<p>wie stark ein Hazard-Ereignis Schaden verursachen würde.</p>
+
+<p>Beispiel: Zwei Dörfer liegen beide in der Flussnähe (gleiche Hazard-Wahrscheinlichkeit).</p>
+<p>Ein Dorf hat erhöhte Häuser, Evakuierungs-plan, Sandbags; das andere hat</p>
+<p>niedrige Flussschläuche und sehr wenig Vorsorge → unterschiedliche Vulnerabilität.</p>
+
+<p><strong>Komponenten der Vulnerabilität</strong> (nach verschiedenen Modellen, bspw. UN/ISDR, IPCC, Cutter):</p>
+
+<li><strong>Physische Vulnerabilität:</strong> Baustandard, Lage, Bauweisen, Standortwahl</li>
+<li><strong>Soziale Vulnerabilität:</strong> Alter, Gesundheit, Bildung, Information, soziale Netzwerke</li>
+<li><strong>Ökonomische Vulnerabilität:</strong> Vermögen, Versicherungsschutz, Infrastruktur-Abhängigkeiten</li>
+<li><strong>Ökologische Vulnerabilität:</strong> Ökosystem-Schutz, Biodiversität, Funktion der Natur (z.B.</li>
+<p>  Auwald als Retention)</p>
+
+<p>In der Bildungsplan-(BW-)Deutung heißt es: „die Verwundbarkeit von Räumen durch Naturgefahren&quot;</p>
+<p>— also Schwerpunkt auf den <strong>räumlich-gesellschaftlichen</strong> Aspekt (Raum + Leute).</p>
+
+<h3>Resilienz (Widerstandsfähigkeit / Resilienz)</h3>
+
+<p><strong>Resilienz</strong> bezeichnet die <strong>Fähigkeit eines Systems</strong> — Gemeinschaft, Raum, Ökosystem,</p>
+<p>Infrastruktur — <strong>Schäden zu widerstehen, zu verkraften, sich zu erholen</strong> und ggf.</p>
+<p>aus dem Ereignis zu lernen. Es ist das „konstruktive Gegenstück&quot; zur Vulnerabilität.</p>
+
+<p>In der Geographie / Naturgefahrenforschung wird Resilienz oft in drei Ebenen unterteilt:</p>
+
+<li><strong>Robustheit (Widerstands-fähigkeit):</strong> Das System bleibt auch unter Schock-Status funktionsfähig (z.B. Hochwasserschutz).</li>
+<li><strong>Anpassungsfähigkeit (Flexibilität):</strong> Können schnell reagieren, Lücken schließen, anpassen.</li>
+<li><strong>Erholungsfähigkeit (Recovery):</strong> Nach dem Ereignis: Wiederaufbau, Rückkehr in Arbeitsfähigkeit.</li>
+
+<p>In Bildungsplan-Minima: „Mögliche Maßnahmen zur Stärkung der Resilienz im Rahmen einer</p>
+<p>nachhaltigen Entwicklung beurteilen&quot;.</p>
+
+<hr/>
+
+<h2>Modelle und Rahmen</h2>
+
+<h3>BBC-Modell (Bogardi-Birkmann-Cardona)</h3>
+
+<p>Das BBC-Konzept (Bogardi, Birkmann, Cardona) ist ein gebräuchliches Modell,</p>
+<p>das Vulnerabilität in den <strong>Hazard–Vulnerabilitäts-Kontext</strong> einbetten:</p>
+<p>→ Vulnerabilität ist nicht unabhängig von Hazard, sondern **abhängig von Risiko und</p>
+<p>Exposition<strong> und </strong>system-Umwelt-Kontext**.</p>
+
+<p>Im Bildungsplan BW wird dies praktisch angewendet: Aufgabe (2) in §3.4.3.2 lautet:</p>
+<p>„an mindestens einer der ausgewählten Landschaften die Verwundbarkeit dieses Raumes und der</p>
+<p>dort lebenden Gesellschaft durch Naturgefahren erläutern sowie mögliche Maßnahmen zur Stärkung</p>
+<p>der Resilienz im Rahmen einer nachhaltigen Entwicklung beurteilen.&quot;</p>
+
+<h3>IPCC-Bezug (Klimawandel)</h3>
+
+<p>Der IPCC (Weltklimarat) verwendet Vulnerabilität als **Funktion aus Sensitivität +</p>
+<p>Exposition – Anpassungsfähigkeit**. In LK-Themen (z.B. §3.5.3.2 Klimawandel) ist das</p>
+<p>konzeptionell relevant.</p>
+
+<hr/>
+
+<h2>Zusammenhang: Risiko—Vulnerabilität—Resilienz im Überblick</h2>
+
+<pre class="codeblock"><code class="language-">
+[ Naturgefahren-Hazard ] ──▶ [ Exposition: was liegt im Gefahrenbereich? ]
+                                     │
+                                     ▼
+                          [ Vulnerabilität: wie anfällig ist das Exponierte? ]
+                                     │
+                                     ▼
+                          [ Risiko: Wahrscheinlichkeit × Schadensausmaß ]
+                                     │
+                                     ▼
+                          [ Resilienz: Fähigkeit widerstehen + erholen ]
+                                     ↑
+                          Maßnahmen: Vorsorge, Nachhaltigkeit, Reduktion,
+                          Anpassung, Bürgerinformation, Infrastruktur
+</pre>
+
+<hr/>
+
+<h2>Abgrenzung Nachhaltige Entwicklung</h2>
+
+<p>Der Bildungsplan bringt auch die Leitperspektive **BNE (Bedeutung und Gefährdungen einer</p>
+<p>nachhaltigen Entwicklung)** ein. Beim Thema „Vulnerabilität und Resilienz&quot; wird daher</p>
+<p>gefordert, <strong>nachhaltige Entwicklung</strong> als Entwicklungsziel einzubeziehen:</p>
+
+<li><strong>Risikominimierung</strong> (Gefahrenreduzierung): Bahnhöfe höher bauen, Gefahrenpunkte vermeiden,</li>
+<p>  Evakuierungswege.</p>
+<li><strong>Entwicklung von Sicherheit:</strong> Risiko-Info einbeziehen in Planung.</li>
+<li><strong>Nachhaltigkeit:</strong> Sozialen Ausgleich, ökologische Stabilität, ökonomische Tragbarkeit.</li>
+
+<hr/>
+
+<h2>Kompetenzbezug LK / BK</h2>
+
+<li>BK (Basisfach) §3.4.3.2: Explizit „Vulnerabilität und Resilienz von Mensch und Raum&quot;.</li>
+<li>LK (Leistungskurs): Tiefer gehend in §3.5 (Sphären, Globale Herausforderungen) —</li>
+<p>  aufgabenbezogen, analytischer, abstrakter.</p>
+<li>Schülerinnen und Schüler sollen zum einen <strong>erläutern</strong> (Vulnerabilität eines Raumes),</li>
+<p>  zum anderen <strong>beurteilen</strong> (Maßnahmen für Resilienz).</p>
+
+<hr/>
+
+<h2>Weiterführende Seiten</h2>
+
+<li><a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a> ← konkrete Raumbeispiele</li>
+<li><a href=&quot;resilienz-massnahmen.html&quot; class=&quot;wikilink&quot;&gt;resilienz-massnahmen</a> ← Maßnahmen im Detail</li>
+<li><a href=&quot;vulnerabilitaet-vulkanraume.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-vulkanraume</a> ← V/a vulkanischer Räume</li>
+<li><a href=&quot;vulkansimus-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;vulkansimus-ueberblick</a> ← Vulkanismus (Hazard-Quelle)</li>
+<li><a href=&quot;glazialmorphologie-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;glazialmorphologie-ueberblick</a> ← Glazial (Hazard-Quelle)</li>
+<li><a href=&quot;bildungsplan-2016-lk.html&quot; class=&quot;wikilink&quot;&gt;bildungsplan-2016-lk</a> ← Bildungsplan-Kontext</li>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>

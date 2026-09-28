@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Vulnerabilität vulkanischer Räume — Beispiele und Analyse — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="vulnerabilitaet-vulkanraume.html"><strong>Vulnerabilität vulkanischer Räume — Beispiele und Analyse</strong></a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Vulnerabilität vulkanischer Räume — Beispiele und Analyse</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span>|</span>
+      <span>Dateigröße: 6594 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">vulnerabilitaet</span><span class="tag-badge">vulkanismus</span><span class="tag-badge">raumbeispiele</span></span>
+    </div>
+    
+
+<h1>Vulnerabilität vulkanischer Räume — Beispiele und Analyse</h1>
+
+<h2>Einleitung</h2>
+
+<p>Im Bildungsplan LK BW §3.5.2.1 (Reliefsphäre) ist die <strong>Vulkanlandschaft</strong> als eine</p>
+<p>der fünf explizit genannten Landschaftstypen angesprochen. Zusammen mit der</p>
+<p>Aufgabe aus §3.4.3.2 BK (Vulnerabilität und Resilienz) ergibt sich zumindest ein</p>
+<p>Lehrplan-Rahmen für eine Analyse der <strong>Verwundbarkeit vulkanischer Räume</strong> —</p>
+<p>sowohl für das Basisfach als auch vertieft für das LK-Abitur.</p>
+
+<hr/>
+
+<h2>Hazard im vulkanischen Raum</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Gefahrentyp</th>
+<th>Beschreibung</th>
+<th>Reichweite</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Eruption / explosionsvulkanisch</strong></td>
+<td>Magmen-Druck-Explosion, Tephra-Auswurf, Pyroklastische Ströme</td>
+<td>Lokal-wiklich, kurzfristig</td>
+</tr>
+<tr>
+<td><strong>Pyroklastische Ströme (Pyroclastic Flow)</strong></td>
+<td>Gas+Tephra-Mischung, 300–700°C, bis 700 km/h, vollständige Zerstörung</td>
+<td>Hoch lokal-reichweitiger, nicht ausweichbar</td>
+</tr>
+<tr>
+<td><strong>Aschefall</strong></td>
+<td>Feine Partikel (&lt;2 mm) fliegen weit (hunderte km), betreffen Luftfahrt, Gesundheit, Dächer</td>
+<td>Regional, flugweg-relevant (Eyafjöll 2010 Europa)</td>
+</tr>
+<tr>
+<td><strong>Lahar (Vulkan-Schlamm)</strong></td>
+<td>Wasser + Asche-Vermischung, Schlammlawinen, durch Regen oder Schmelze</td>
+<td>Täler, Flussläufe, weit ausbreitend</td>
+</tr>
+<tr>
+<td><strong>Gasemission</strong></td>
+<td>CO₂, SO₂, HF — tödlich in Mulden, physiologisch lähmend, klima-wirksam SO₂</td>
+<td>Lokal-reichweitiger, SO₂ auch stratosphärisch</td>
+</tr>
+<tr>
+<td><strong>Jökulhlaup (Gletscher-Flut)</strong></td>
+<td>Vulkan schmilzt Gletscher → Druckwasser-Lawine (Island, Vatnajökull-Ereignisse)</td>
+<td>Lokal, plötzlich</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>Vulnerabilitäts-Variablen in Vulkan-Räumen</h2>
+
+<h3>A. Sozio-ökonomische Variablen</h3>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Variable</th>
+<th>Bedeutung</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Bevölkerungsdichte nahe Vulkan</strong></td>
+<td>Dichte Bevölkerung nahe Gefahrenbereich → mehr Leben gefährdet (z.B. Vesuv, Flughafen, Campania-Region)</td>
+</tr>
+<tr>
+<td><strong>Wirtschaftliche Struktur</strong></td>
+<td>Landwirtschaft auf vulkanischen Böden (fruchtbar, zugleich niedrig ersatz) → Abhängigkeit; auch Tourismus auf Vulkan (Ätna, Hawaii)</td>
+</tr>
+<tr>
+<td><strong>Infrastruktur</strong></td>
+<td>Autobahnen, Eisenbahn, Flughäfen in Gefahrenzone</td>
+</tr>
+<tr>
+<td><strong>Evakuierungs-Möglichkeit</strong></td>
+<td>Wohlhabend, Erfahrung, Warnsystem, mobil → geringere Vulnerabilität</td>
+</tr>
+<tr>
+<td><strong>Erkenntnis, Vorbereitung</strong></td>
+<td>Frühere Erfahrung → greater awareness, bessere Planung; Beispiele: Japan (Mt. Fuji, Sakurajima), Island (Überwachung)</td>
+</tr>
+<tr>
+<td><strong>Politik, Verwaltung</strong></td>
+<td>staatliche Frühwarnsystem, Evakuierungs-Massnahmen, Katastrophenvorsorge</td>
+</tr>
+</tbody></table>
+
+<h3>B. Physische Variablen</h3>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Variable</th>
+<th>Bedeutung</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Standorts-Eigenschaften</strong></td>
+<td>Insteich/Ab-Sturz in Tälern (Lahar-Anfälligkeit), Hangneigung (Lawinen, pyroklastisch), Entfernung zum Zentrum</td>
+</tr>
+<tr>
+<td><strong>Boden-Typ (Andosole/Vulkanböden)</strong></td>
+<td>Fruchtbar, aber in manchen Teilen instabil (Kollaps, Versandung nach Eruption)</td>
+</tr>
+<tr>
+<td><strong>Flusssysteme / hydrologische Lage</strong></td>
+<td>Lahar-Pfade, Überschwemmungszone, Fluss-Anbindung</td>
+</tr>
+<tr>
+<td><strong>Bergetyp / Höhenlage</strong></td>
+<td>Steilhang vs. flacher Hang: Steilhänge erlauben Lawinen; flache Ebenen: Asche-Verteilung und Lahar-Ausbreitung größer</td>
+</tr>
+</tbody></table>
+
+<hr/>
+
+<h2>Raumbeispiele</h2>
+
+<h3>Beispiel 1: Mount Vesuv, Italien (Subduktionszone, Schichtvulkan)</h3>
+
+<p><strong>Hazard:</strong></p>
+<li>Explosiven Eruptionen möglich, historisch 79 n. Chr. (Pompeji, Herculaneum),</li>
+<p>  1631 (&gt;4000 Tote), 1906 (&gt;100 Tote), 1944, 1999, 2000er (Vulkan im Wartezustand).</p>
+
+<p><strong>Vulnerabilität:</strong></p>
+<li>Sehr hohe Bevölkerungsdichte (Ca million Menschen in „Rote Zone&quot; — Vesu-Lujo,</li>
+<p>  Camalerina-Gebiet); wirtschaftliche Abhängigkeit von Landwirtschaft und Tourismus.</p>
+<li>Siedlung in Gefahrenzone nicht unkritisch — aber schwer vermeidbar (Stadt-Kontinuum).</li>
+<li>Frühe Warnsysteme vorhanden (seismisch, Gas), aber spontane, unvorhersehbare Eruption möglich.</li>
+<li>Widerstandsfähigkeit?: Evakuierungsplanung, übungen, Schutzpläne — aber maßgefährlich,</li>
+<p>  da Bevölkerungsdichte extrem und das Hazard-Niveau hoch.</p>
+
+<p><strong>Resilienz-Maßnahmen:</strong></p>
+<li>Observation, Monitoring, Warnstufen, Simulationen und Planung.</li>
+<li>Kritisch: Bewirtschaftspolitik und Raumplanung; steuerliche Middle-World, lokale</li>
+<p>  Entwicklung von Resilienz (Ausbildung, Veraltung von Sanierung bundes).</p>
+<li>BNE-Einbeziehung: Nachhaltige Entwicklung = Balance zwischen Schutz, Lebensqualität,</li>
+<p>  Wirtschaftlichkeit im Langzeitrahmen.</p>
+
+<hr/>
+
+<h3>Beispiel 2: Kilauea, Hawaii (Hot Spot, Schildvulkan)</h3>
+
+<p><strong>Hazard:</strong></p>
+<li>Häufige effusive Ausbrüche, Lavaflüsse (strömend, langsam, oft manövrierbar),</li>
+<p>  Gasemissionen, Asche geringer bis moderate.</p>
+<li>2018 Eruption → großer Schaden (Haus-Schauer, Straßen, erhöhtes CO₂-Risiko).</li>
+
+<p><strong>Vulnerabilität:</strong></p>
+<li>Touristen-Abhängigkeit (gibt lokale Wirtschaft, zugleich Gefahr-anwesenheit).</li>
+<li>Bevölkerungsdichte weniger als Vesuv, aber Teile von Höheling-Westphalia nahe bei,</li>
+<p>  Gas-Fähigkeit (CO₂ in Mulden).</p>
+<li>Frühe Warnzeichen (Seismogramme, Verwerfung, Gas) genutzt → Hoch Resilienz.</li>
+
+<p><strong>Resilienz-Maßnahmen:</strong></p>
+<li>Höchstes Observatorium (Hawaiian Volcano Observatory), Frühwarnsystem, Evakuierung,</li>
+<p>  Zugangskontrolle, Tourismus-Management, Atemschutz, Infrastruktur-Anpassung.</p>
+
+<hr/>
+
+<h3>Beispiel 3: Eyafjöll (Island), 2010</h3>
+
+<p><strong>Hazard:</strong></p>
+<li>Asche: Wolken nach oben → Flugverkehr-Störung, weit reichend.</li>
+<li>Italien, Europa: mehrere hunderttausend Flüge abgesetzt, Wirtschaft, Tourismus,</li>
+<p>  Logistik → globale Vulnerabilität.</p>
+
+<p><strong>Vulnerabilität:</strong></p>
+<li>Abhängigkeit von Luftverkehr → Europa, nördliche Länder, exportorientierte</li>
+<p>  Wirtschaft (eR-Güter, Vögel, Fisch, etc.)</p>
+<li>Starke wirtschaftliche Vulnerabilität, jedoch begrenzte direkte physische Gefahrens</li>
+<p>  weil Vulkan in Island ( dünn besiedelt) → besonders <strong>transnationale Vulnerabilität</strong> .</p>
+<li>Resilienz-Maßnahmen: Asche-Verfolgung, Wetter-Vorhersage, Verkehrskommunikation,</li>
+<p>  Kooperation Länder; BNE-Aspekt: Verkehr+global.</p>
+
+<hr/>
+
+<h2>LK-Abitur-Anforderung (operationalisiert)</h2>
+
+<p>Für eine LK-Aufgabe kann man:</p>
+
+<li><strong>Beispiel auswählen</strong> (z.B. Vesuv oder Hawaii).</li>
+<li><strong>Hazard</strong> und <strong>Vulnerabilität</strong> analysieren: wer liegt in der Gefahrenzone,</li>
+<p>  was ist betroffen, durch was genau.</p>
+<li><strong>Maßnahmen</strong> beurteilen: was gibt es, was hilft, was fehlt, wie nachhaltig.</li>
+<li><strong>Übertragung</strong>: auf andere Vulkanräume.</li>
+
+<hr/>
+
+<h2>Verknüpfungen</h2>
+
+<li><a href=&quot;vulnerabilitaet-begriffe.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-begriffe</a> ← Begriffsapparat</li>
+<li><a href=&quot;vulnerabilitaet-raumbeispiele.html&quot; class=&quot;wikilink&quot;&gt;vulnerabilitaet-raumbeispiele</a> ← andere Landschaftstypen (Glazial, Fluss, Küste, Karst)</li>
+<li><a href=&quot;resilienz-massnahmen.html&quot; class=&quot;wikilink&quot;&gt;resilienz-massnahmen</a> ← Maßnahmen-Kompendium</li>
+<li><a href=&quot;vulkansimus-ueberblick.html&quot; class=&quot;wikilink&quot;&gt;vulkansimus-ueberblick</a> ← Vulkanismus-Überblick</li>
+<li><a href=&quot;vulkanarten.html&quot; class=&quot;wikilink&quot;&gt;vulkanarten</a> ← Vulkanforma</li>
+<li><a href=&quot;bildungsplan-2016-lk.html&quot; class=&quot;wikilink&quot;&gt;bildungsplan-2016-lk</a> ← Bildungsplan-Kontext</li>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
