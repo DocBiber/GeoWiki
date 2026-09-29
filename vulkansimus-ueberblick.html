@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Vulkanismus — Überblick (Geographie LK) — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .sidebar li {
+      margin: 0.2rem 0;
+      font-size: 0.9rem;
+    }
+    .sidebar li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.1rem 0;
+    }
+    .sidebar li a:hover {
+      color: var(--link);
+    }
+    .sidebar li.active {
+      background: var(--active-bg);
+      border-radius: 3px;
+      padding-left: 0.3rem;
+    }
+    .tag {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-weight: normal;
+    }
+    .main {
+      flex: 1;
+      padding: 2rem 3rem;
+      max-width: 900px;
+      min-width: 0;
+    }
+    .main h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      border-bottom: 2px solid var(--link);
+      padding-bottom: 0.4rem;
+    }
+    .main .meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+    .tag-badge {
+      display: inline-block;
+      background: #e6eef6;
+      color: var(--link);
+      font-size: 0.75rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-right: 0.3rem;
+    }
+    .wikilink {
+      color: var(--wikilink);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .wikilink:hover {
+      color: #8a4400;
+    }
+    .wiki-table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .wiki-table th, .wiki-table td {
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .wiki-table th {
+      background: #f0f0f0;
+      font-weight: 600;
+    }
+    .wiki-table tr:nth-child(even) td {
+      background: #fafafa;
+    }
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding: 0.5rem 1rem;
+      margin: 1rem 0;
+      background: #f9f9f9;
+      color: var(--muted);
+      font-style: italic;
+    }
+    pre.codeblock {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 0.8rem;
+      overflow-x: auto;
+      font-size: 0.85rem;
+      line-height: 1.3;
+      white-space: pre;
+    }
+    code.inline-code {
+      background: var(--code-bg);
+      padding: 0.1rem 0.2rem;
+      border-radius: 2px;
+      font-size: 0.9em;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.5rem 0;
+    }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .backlinks h3 {
+      font-size: 0.95rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .backlinks ul {
+      columns: 2;
+      column-gap: 1.5rem;
+      padding-left: 0.5rem;
+    }
+    .backlinks li {
+      margin: 0.15rem 0;
+      break-inside: avoid;
+    }
+    .no-link {
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <aside class="sidebar">
+    <h2>Wiki navigieren</h2>
+    <ul>
+      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
+    </ul>
+    <h2>Seiten nach Typ</h2>
+    <ul>
+      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
+<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
+<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
+<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
+<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
+<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
+<li class="active"><a href="vulkanismus-ueberblick.html"><strong>Vulkanismus — Überblick (Geographie LK)</strong></a> <span class="tag">[concept]</span></li>
+<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
+<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
+<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
+<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
+<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
+<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
+<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
+<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
+<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h1>Vulkanismus — Überblick (Geographie LK)</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span>|</span>
+      <span>Dateigröße: 6094 Bytes</span>
+      <span style="margin-left:auto"><span class="tag-badge">vulkanismus</span><span class="tag-badge">prozesse</span><span class="tag-badge">raumbeispiele</span></span>
+    </div>
+    
+
+<h1>Vulkanismus — Grundlagen und Überblick</h1>
+
+<h2>Definition</h2>
+
+<p><strong>Vulkanismus</strong> (lat. <em>vulcanus</em> = Feuer) bezeichnet alle Prozesse, bei denen Magma</p>
+<p>(brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort</p>
+<p>abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der</p>
+<p><strong>endogenen (tiefengeschoffen) Prozesse</strong>, die die Erdoberfläche formen.</p>
+
+<p>Man unterscheidet:</p>
+<li><strong>Effusiver Vulkanismus:</strong> flüssige Lava, geringe Fragmentierung, z.B. Schildvulkane (Hawaii)</li>
+<li><strong>Explosiver Vulkanismus:</strong> hoher gasförmiger Druck, fragmentierte Eruption (Tephra), z.B. Schichtvulkane</li>
+
+<h2>Ursachen und geodynamische Kontexte</h2>
+
+<p>Der Magma-Aufstieg ist an Plattentektonik gebunden. Die drei Hauptkontexte (raumbezogen im LK):</p>
+
+<h3>1. Divergierende Plattenränder (Riftsysteme)</h3>
+<li>Platten trennen sich → Mantelmaterial steigt auf → Partialschmelze durch Druckabbau</li>
+<li><strong>Beispiele:</strong> Ostafrika-Rift (Ostafrikanisches Grabenbruchsystem), mittelozeanische Rückensysteme (MOR)</li>
+<li>Vulkan-Typ: oft effusive Basaltlavas, Schildvulkane, Riftvulkane</li>
+
+<h3>2. Konvergente Plattenränder (Subduktionszonen)</h3>
+<li>Eine Platte schiebt sich unter eine andere → wassertragende lithosphäre schmilzt → Magma entsteht</li>
+<li><strong>Beispiele:</strong> Pazifischer Feuerring (Japan, Alaska, Kascade, Andes, Philippinen)</li>
+<li>Vulkan-Typ: Schichtvulkane (Strato vulkanen), oft explosiv, undeutsche/wasseralkalische Magmen</li>
+
+<h3>3. Hot Spots ( Plumpunkte)</h3>
+<li>Lokale, fromen Mantelplümpchen (Plumes) schmelzen die Lithosphäre an einem Punkt über dem</li>
+<p>  normalen Plattengleiten</p>
+<li>Platte bewegt sich über den Hot Spot → Vulkankette entsteht (Hawaii-Emperor-Kette)</li>
+<li><strong>Beispiele:</strong> Hawaii, Island, Yellowstone, Kanarische Inseln (kontinentaler Hot Spot)</li>
+
+<p><strong>Hot Spot vs. FZ:</strong> Hot Spots können auch unter Kontinentalkruste auftreten (z.B. Yellowstone);</p>
+<p>in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.</p>
+
+<h2>Vulkanische Förderprodukte</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Produkt</th>
+<th>Beschreibung</th>
+</tr></thead><tbody>
+<tr>
+<td><strong>Lava (vulkanische Flüssigkeit)</strong></td>
+<td>Abhängig von Silikategehalt &amp; Temperatur: Basalt (bis 1200°C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös)</td>
+</tr>
+<tr>
+<td><strong>Tephra (fragmentierte Produkte)</strong></td>
+<td>Asche (&lt;2 mm), Lapilli (2–64 mm), Brocken/Bomben (&gt;64 mm) — bei explosionsvulkanischem Ausbruch</td>
+</tr>
+<tr>
+<td><strong>Pyroklastische Ströme</strong></td>
+<td>Heiße, dichte Mischung aus Gas+Tephra, bis 700 km/h — tödlichste Gefahr</td>
+</tr>
+<tr>
+<td><strong>Pyroklastische Fälle</strong></td>
+<td>Fällende Tephra (Aschefall, , Lahare)</td>
+</tr>
+<tr>
+<td><strong>Gase</strong></td>
+<td>H₂O, CO₂, SO₂, HCl, HF — lokales + regionales Klima-Gas (Aerosol)</td>
+</tr>
+<tr>
+<td><strong>Lahare</strong></td>
+<td>Vulkanischer Schlammfluss (Gemisch Asche+Wasser nach Regen oder Schmelze eines Gletschers)</td>
+</tr>
+</tbody></table>
+
+<h2>Vulkanformen (Formen-Typen)</h2>
+
+<p><strong>Grundformen</strong> (im Bildungsplan LK erwähnt):</p>
+
+<li><strong>Schichtvulkan (Strato vulkan):</strong> Aufbau aus abwechselnden Lava- und Tephra-Schichten,</li>
+<p>  steile Hänge (bis 30–35°), typisch für Subduktionszonen. Explosive Eruptionen bevorzugt.</p>
+<p>  Beispiele: Mount St. Helens, Mt. Fuji, Ätna, Vesuv, Cotopaxi.</p>
+<li><strong>Schildvulkan:</strong> Ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Abbürtungen,</li>
+<p>  effusive Eruption, wenig explosiv. Beispiele: Kilauea (Hawaii), Mauna Loa, Island.</p>
+<li><strong>Caldera:</strong> Einsenkung nach Sturz der Magmakammer / nach großem Ausbruch (Kollaps)</li>
+<p>  → Kruemme, oft gefüllt mit Wasser. Beispiele: Crater Lake (Oregon), Santorin, Krakatau.</p>
+<li><strong>Maar:</strong> Eruption durch Gasdruck in unterem Grundwasserspiegel → Explosion, kreisrunde</li>
+<p>  Mulde, oft gefüllt mit Wasser. Beispiele: Laacher See (Eifel — auch hier relevant!),</p>
+<p>  Daun Maare (Eifel).</p>
+<li><strong>Vulkanische Decke (Lava-Decke):</strong> Ausgedehnte flache Lava-Abfolgen, oft Basalt, z.B.</li>
+<p>  Deccan-Traps (Indien), Columbia River Basalt Group (USA).</p>
+<li><strong>Hot-Spot-Vulkan:</strong> Zusammenhang Hot Spot (s. oben) — kein eigener Formtyp, sondern</li>
+<p>  geodynamischer Kontext; typisch ist Schildvulkan; bei Kontinentalhotspot auch andere Formen.</p>
+
+<h2>Kompetenzerwartung LK (Bildungsplan §3.5.2.1)</h2>
+
+<p>Die Schülerinnen und Schüler können:</p>
+
+<li>Reliefformen als Ergebnis endogener Prozesse <strong>charakterisieren und erklären</strong> —</li>
+<p>   das heißt: Vulkanformen benennen, ihre Entstehung nach Prozessmechanismen (explosiv/effusiv,</p>
+<p>   Plattenkontext, Magmazusammensetzung) erklären.</p>
+<li><strong>Vulkanische Förderprodukte</strong> benennen und einordnen.</li>
+<li>Die Verwundbarkeit vulkanischer Räume durch Naturgefahren <strong>erläutern</strong> und</li>
+<p>   <strong>Maßnahmen zur Stärkung der Resilienz beurteilen</strong> (s. <a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a>,</p>
+<p>   <a href="vulnerabilitaet-vulkanraume.html" class="wikilink"&gt;vulnerabilitaet-vulkanraume</a>).</p>
+
+<h2>Raumbeispiele (LK-relevant)</h2>
+
+<table class='wiki-table'>
+<thead><tr>
+<th>Raum</th>
+<th>Typ</th>
+<th>Plattenkontext</th>
+<th>Bemerkung</th>
+</tr></thead><tbody>
+<tr>
+<td>Hawaii (Kilauea, Mauna Loa)</td>
+<td>Schildvulkan</td>
+<td>Hot Spot (Pazifik)</td>
+<td>Aktiver, effusiv, gut beobachtet</td>
+</tr>
+<tr>
+<td>Island</td>
+<td>Schildvulkan + Hot-Spot+Rift</td>
+<td>Hot Spot + MOR-Rift</td>
+<td>Eisfläche+ Vulkanismus, hitzeführend</td>
+</tr>
+<tr>
+<td>Ätna (Sizilien)</td>
+<td>Schichtvulkan (mixed)</td>
+<td>Subduktion Afrika in Eukras</td>
+<td>Häufig aktiv, monument</td>
+</tr>
+<tr>
+<td>Vesuv (Italien)</td>
+<td>Schichtvulkan</td>
+<td>Subduktion Afra in Eukras</td>
+<td>Historisch wichtig (79 n. Chr., Pompeji)</td>
+</tr>
+<tr>
+<td>Laacher See (Eifel)</td>
+<td>Maar / Caldera</td>
+<td>Kein FZ, aber intraplattform</td>
+<td>Letzter Ausbruch ca. 13.000 J. — Bsp. für deutsche Vulkanologie</td>
+</tr>
+<tr>
+<td>Pazifischer Feuerring</td>
+<td>Schichtvulkane-Kette</td>
+<td>Subduktionszonen um Pazifik</td>
+<td>Gipfel der Vulkanitätsdichte</td>
+</tr>
+</tbody></table>
+
+<h2>Zusammenhang mit Glazialmorphologie und Vulnerabilität</h2>
+
+<li>Vulkanausbrüche unter Gletschern → <strong>Jökulhlaup</strong> (Gletscherflutung nach Schmelze durch Magmaenergie)</li>
+<li>Vulkanische Asche → Bodenbildung, langfristig fruchtbare Andosole (Vulkanböden)</li>
+<li>Vulnerabilität vulkanischer Räume: Bevölkerungsdichte, Wirtschaft, Flugverkehr, Lahar-Gefahr</li>
+<p>  → <a href="vulnerabilitaet-vulkanraume.html" class="wikilink"&gt;vulnerabilitaet-vulkanraume</a></p>
+
+<h2>Weiterführende Seiten</h2>
+
+<li><a href="vulkanarten.html" class="wikilink"&gt;vulkanarten</a> — Detail zu einzelnen Vulkantypen</li>
+<li><a href="vulkanprozesse.html" class="wikilink"&gt;vulkanprozesse</a> — Explosiv vs. effusiv, Förderprodukte im Detail</li>
+<li><a href="vulkanbeispiele.html" class="wikilink"&gt;vulkanbeispiele</a> — Raumbeispiele im Detail</li>
+<li><a href="vulnerabilitaet-vulkanraume.html" class="wikilink"&gt;vulnerabilitaet-vulkanraume</a> — Vulnerabilität vulkanischer Räume</li>
+
+    <div class="backlinks">
+      <h3>Verknüpft von</h3>
+      <ul>
+        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
