@@ -1,185 +1,145 @@
 ---
-title: Raumbeispiele — Glazialmorphologie (Geographie LK)
+title: Kompetenzen LK Geographie — Prozessbezogene und inhaltsbezogene Kompetenzen
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
-tags: [raumbeispiele, glazialmorphologie, glazial-raumbeispiele]
+tags: [kompetenzen, bildungsplan, abitur, lk]
 sources: []
 ---
 
-# Raumbeispiele — Glazialmorphologie (Geographie LK)
+# Kompetenzen LK Geographie — Prozessbezogene und inhaltsbezogene Kompetenzen
 
-> Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage.
-> Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz.
+## Einordnung
+
+Der Bildungsplan 2016 für das Gymnasium (BW) differenziert zwischen **prozessbezogenen Kompetenzen** (generell, über alle Inhalte) und **inhaltsbezogenen Kompetenzen** (fachspezifisch, z.B. §3.5.2.1 für die Reliefsphäre im LK).
+
+Diese Seite fasst beide Bereiche für den Leistungskurs zusammen. Quelle: Bildungsplan 2016 Gymnasium, Fassung V2 (22.02.2023), LK-Inhaltsbereich 3.5.
 
 ---
 
-## 1. Alpen — Schweiz (Grosser Aletsch-Gletscher)
+## Prozessbezogene Kompetenzen (alle 5 Kompetenzbereiche)
 
-### Grunddaten
+Der Bildungsplan definiert fünf prozessbezogene Kompetenzbereiche, die in allen Inhaltsbereichen geübt werden:
 
-| Merkmal | Angabe |
+### 1. Orientierungskompetenz (OK)
+
+Fähigkeit, geographische Räume einzuordnen und Informationen aus geographischen Medien zu erschließen.
+
+| Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
+|---|---|---|
+| **Orientierung im Raum** | Räume und ihre Strukturen lokalisieren, einordnen, vergleichen | Alpen vs. Norddeutsches Tiefland im Vergleich einordnen |
+| **Kartenkompetenz** | Informationskarten, Themenkarten, Satellitenbilder lesen und deuten | Reliefkarten einer Vulkanregion deuten |
+| **Medien nutzen** | Geographische Informationssysteme (GIS), Modelle, Diagramme nutzen | Gletscherretreat-Daten aus Satellitenbildern analysieren |
+
+**LK-spezifisch:** Selbstständige Kartenerstellung, Analyse komplexer Kartenwerke, GIS-Einsatz in Schülerprojekten.
+
+### 2. Analysekompetenz (AK)
+
+Fähigkeit, geographische Zusammenhänge zu erkennen, zu strukturieren und zu analysieren.
+
+| Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
+|---|---|---|
+| **Erschließen** | Informationen aus verschiedenen Quellen erschließen und zusammenführen | Vulnerabilitätsdaten aus Statistiken + Karten erschließen |
+| **Analysieren** | Zusammenhänge erkennen, Ursache-Wirkung-Gefüge analysieren | Vulkanausbruch → Aschefall → landwirtschaftliche Folgen analysieren |
+| **Vergleichen** | Phänomene und Räume systematisch vergleichen | Vulkanismus vs. Glazialmorphologie prozessual vergleichen |
+| **Strukturieren** | Geographische Sachverhalte gliedern und strukturieren | Physische + sozioökonomische Faktoren einer Vulnerabilitätsanalyse gliedern |
+
+### 3. Urteilskompetenz (UK)
+
+Fähigkeit, geographische Aussagen und Maßnahmen zu beurteilen und zu bewerten.
+
+| Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
+|---|---|---|
+| **Bewerten** | Sachverhalte, Handlungen und Maßnahmen unter Berücksichtigung von Kriterien bewerten | Resilienz-Maßnahmen am Vesuv: ausreichend oder kritisch? |
+| **Argumentieren** | Begründete Positionen entwickeln, Pro- und Contra-Argumente abwägen | Erörtern: Soll Tourismus in gefährdeten Vulkanregionen gefördert werden? |
+| **Kritisch reflektieren** | Eigene und fremde Urteile hinterfragen, Perspektiven wechseln | Nachhaltigkeitskriterien auf Vulnerabilitätsmaßnahmen anwenden |
+
+### 4. Handlungskompetenz (HK)
+
+Fähigkeit, Handlungsoptionen im geographischen Kontext zu entwickeln und zu beurteilen.
+
+| Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
+|---|---|---|
+| **Handlungen reflektieren** | Eigene und gesellschaftliche Handlungen im ökologisch-sozialen Kontext betrachten | Siedlungsentwicklung in Gletschervorstädten reflektieren |
+| **Lösungsvorschläge** | Handlungsoptionen unter Nachhaltigkeitskriterien entwickeln | Maßnahmen gegen GLOFs (Gletscherseeausbrüche) entwickeln |
+| **Partizipation** | Mitwirkungsmöglichkeiten in Entscheidungsprozessen erkennen | Bürgerbeteiligung bei Raumplanung in vulkangefährdeten Zonen |
+
+### 5. Methodenkompetenz (MK)
+
+Fähigkeit, geographische Methoden angemessen anzuwenden.
+
+| Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
+|---|---|---|
+| **Kartierung** | Themenkarten erstellen, kartographische Symbole anwenden | Vulnerabilitätskarte einer Vulkanregion erstellen |
+| **Datenanalyse** | Quantitative Daten erheben, auswerten, interpretieren | Gletscherrückzug-Raten aus Zeitreihen berechnen |
+| **Modellbildung** | Einfache Modelle und Konstruktionen entwickeln | Modell der glazialen Serie skizzieren und erläutern |
+
+---
+
+## Inhaltsbezogene Kompetenzen — Reliefsphäre (§3.5.2.1 LK)
+
+Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der Reliefsphäre".
+
+### Vulkanismus
+
+| Kompetenz | Beschreibung |
 |---|---|
-| Landschaftstyp | Alpengletscher / Talgletscher |
-| Glaziale Formen | Trogtal, Zungenbecken, Seitenmoräne, Kar (Cirque), glaziale Serie-Anzeichen |
-| Gletscher | Grosser Aletsch-Gletscher (längster Gletscher der Alpen, ~23 km, Fläche ~82 km²) |
-| Region | Berner Oberland, Schweiz (Wallis, Valais) |
+| **Vulkanformen** | Vulkanformen (Schildvulkan, Schichtvulkan, Caldera, Maar, vulkanische Decke, Hot Spot) benennen und charakterisieren |
+| **Eruptionsstile** | Explosiver und effusiver Vulkanismus unterscheiden, Förderprodukte benennen und zuordnen |
+| **Entstehung** | Vulkanismus in Subduktionszonen und an Hot Spots erklären, geodynamischen Kontext |
+| **Gefahren** | Vulkanische Gefahren (Pyroklastische Ströme, Lahare, Aschefall, Gase) charakterisieren und ihre Wirkung analysieren |
+| **Raumbeispiele** | Vulkangebiete (z.B. Vesuv, Island, Hawaii) beschreiben, Gefahren und Vulnerabilität analysieren |
 
-### Glaziale Formen (beobachtbar)
+### Glazialmorphologie
 
-- **Trogtal**: Das Aletsch-Tal ist ein U-förmiges Tal, tief erodiert durch Eiskeise während der Eiszeit
-- **Kar (Cirque)**: Mehrere Kär am Kopf des Gletschers (z.B. "Konkordiaplatz" — Zunge-Zusammenführung)
-- **Seitenmoräne**: An den Gletscherseiten erkennbar (Höhenzüge, Felsen)
-- **Zungenbecken**: Am Gletscherende (Aletsch-Fuß, aktuell ca. 2400 m ü. M.)
-- **Endmoräne-Vorfahren**: Ältere Endmoränen in der Talebene (z.B. "Unterer Aletsch" — alte Endmoränen)
-- **Glaziale Serie**: Ideal beobachtbar in der umliegenden Landschaft (Talstufen, Sandr-Reflexe)
-
-### Prozesse
-
-- **Abtrag (Abrasion)**: Gletscher poliert Felsen, hinterlässt striate (Abspritzungen)
-- **Transport**: Material wird durch den Gletscher transportiert (Ende der Eiszeit zurückgelassen als Moränen)
-- **Akkumulation**: Schnee in den Zehrgebieten (>2400 m) → Firn → Eis → Gletscher
-- **Gleichgewichtslinie**: Aktuell ca. 3800 m (Aletsch) — unterhalb: Schmelze > Akkumulation
-- **Gletscherrückzug**: Seit Ende der Kleinen Eiszeit (1850) kontinuierlicher Rückzug — aktuell ca. 50–70 m/Jahr
-
-### Vulnerabilität
-
-**Ökonomisch:**
-- **Tourismus**: Skigebiete, Alpenvereinshütten, Wanderungen — wirtschaftlich abhängig von Gletscher (Attraktion)
-- **Wasserressourcen**: Gletscherschmelze trägt Frischwasser für Mitteldeutsche (niedrigere Regionen, Landwirtschaft, Trinkwasser) — Rückzug → Verschiebung
-
-**Ökologisch:**
-- **Gletschermikroökosystem**: wissenschaftlich einzigartig (Organismen im Eis) — Gletscherrückzug gefährdet Lebensräume
-
-**Sozial:**
-- Siedlungen am Talrand (z.B. Bettmeralp, Riederalp) — Tourismus-infrastruktur, aber keine hohe Siedlungsgefährdung
-- Gefahren durch Lawinen, Felssturz, Gletscherbrechen → touristisch relevant
-
-### Resilienz-Maßnahmen
-
-- **Gletscherüberwachung**: Schweizer Gletscherkommission (GLAMOS), Messungen, Satelliten-Observationen
-- **Pisten-Sicherung**: Lawinen-Abfanganlagen, Schnee-Überwachung, Abschneideprogramme an Alpengletscher-Gleitbahnen
-- **Abstieg**: Abstieg von Gletschergipfeln (z.B. Ski-Pisten an Aletsch-Gletscher)
-- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternativer Tourismus), Hütten-Nachhaltigkeit
-- **Wasser-Management**: Aufbereitung von Schmelzwasser (Trinkwasser, Landwirtschaft, Strategie für hartnäckigen Zustand)
-
-**Beurteilung (LK):** Resilienz hoch für lokal bewohnte Gebiete, aber **wirtschaftliche Vulnerabilität** durch Gletscherrückzug steigend (Tourismus, Wasserreservoir). Nachhaltigkeit: Strukturwandel notwendig.
-
----
-
-## 2. Norddeutsches Tiefland — Skandisches Inlandeis
-
-### Grunddaten
-
-| Merkmal | Angabe |
+| Kompetenz | Beschreibung |
 |---|---|
-| Landschaftstyp | Ehemaliges Inlandeis-Gebiet (Skandisches Eis) |
-| Glaziale Formen | Urstromtäler, Moränen, Sander, Löss, Grundmoräne |
-| Region | Norddeutschland (Schleswig-Holstein, Niedersachsen, Bremen, Hamburg, Berlin/Brandenburg-Region) |
+| **Gletscherformen** | Gletscherformen (Cirque, Trogtal, Moränen, Zungenbecken, Urstromtal, Sander) erkennen und charakterisieren |
+| **Glaziale Serie** | Die glaziale Serie (nach Penck) erklären und skizzieren |
+| **Moränentypen** | Moränen-Typen (Grundmoräne, Seitenmoräne, Endmoräne, Altmoräne, Jungmoräne) unterscheiden und zuordnen |
+| **Permafrost** | Permafrost-Bedingungen, Thermokarst, Solifluktion, Geliturbation erklären und ihre Auswirkungen auf die Reliefbildung analysieren |
+| **Prozesse** | Exogene Prozesse (Abtrag, Akkumulation, Schmelzwasser-Erosion) bei Gletschern beschreiben |
+| **Raumbeispiele** | Glazialräume (z.B. Alpen/Aletschgletscher, Norddeutsches Tiefland, Island/Vatnajökull) beschreiben, Vulnerabilität bei Gletscherrückzug |
 
-### Glaziale Formen (im Landesverlauf)
+### Vulnerabilität und Resilienz (Bildungsplan 3.4.3.2 + LK §3.5.2.1 Bezug)
 
-- **Urstromtäler**: Besonders bekannt: **Berliner Urstromtal** (Havelland, Spree-Spreewald-Gebiet), **Elbe-Ästungen**, **Meklenburger Urstromtal**, **Emsland** — Weitläufige, flache Talböden
-- **Endmoränen**: "Havelländer Endmoräne", "Baden-Württemberg-Endmoränen", "Rügen-Moräne", Dünenlinien
-- **Sander**: Schotterfelder an den Endmoränenzäunen (z.B. Fläming-Sandr, Lüneburger-Heck-Sandr)
-- **Löss**: Löss-Decken in Mitteleuropa (z.B. an den Flüssen Elbe, Weser, Oder) — windgetragen von Schmelzflächen der Eisgrenze
-- **Grundmoräne**: Grundwomöglich für landwirtschaftliche Böden (z.B. Schleswig-Holstein, Mecklenburgische Seenplatte)
-
-### Prozesse
-
-- **Inlandsis-Vorfahrt**: Vor ~20.000 Jahren (Letztes Maximum, Weichsel-Kaltzeit) deckte skandinavisches Inlandeis weite Teile des heutigen Norddeutschlands
-- **Schmelzphase**: Eis schmolz, Gletscherrückzug, Urstromtäler ausgebildet
-- **Wind-Transport**: Löss aus freiliegenden Schotterdecken → Löss-Ablagerungen in Flachland
-- **Stille Landschaft**: nach der Eiszeit — Formen verbleiben als Relikt
-
-### Vulnerabilitat (heutige)
-
-- **Boden**: Löss-Böden (Acker, fruchtbar) — ggf. Erosion, Umstellung (Löss-Erosion, Abgrabung)
-- **Grundwasser**: in Urstromtalen (Leitungswasser, Grundwasser, Nähe) → Vulnerabilitat: Verschmutzung, Übernutzung, Klimawandel-Auswirkungen
-- **Infrastruktur**: Viele Städte / Industrie in Urstromtalnähe (z.B. Berlin, Hamburg, Bremen) — ggf. Gefährdung durch Hochwasser (Spree, Elbe)
-- **Klimawandel**: Niederschlagsänderung, Grundwasserspiegel, Verschiebung in ländlichen Gebieten
-
-### Resilienz-Maßnahmen
-
-- **Grundwassermanagement**: Quantitative Nutzung, Schutz-Flächen, Wasserschutzgebiete
-- **Löss-Erosionsschutz**: nachhaltige Landwirtschaft, Decking, Waldbau (Wiederaufforstung)
-- **Hochwasserschutz**: Deiche, Rückhaltung (z.B. "Elbe-Hochwasserschutz"), Hochwasser-Planung (Rückhaltung im Gelände)
-- **Raumplanung**: Konstruktive Nutzung, wertvolle Böden schützen, Lössdecken erhalten
-
-**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher Vulnerabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
-
----
-
-## 3. Island — Gletscher-Vulkan-Interaktion
-
-### Grunddaten
-
-| Merkmal | Angabe |
+| Kompetenz | Beschreibung |
 |---|---|
-| Landschaftstyp | Vulkan × Glazial (Gletscher auf Vulkanen) |
-| Vulkan-Gletscher-Paare | Vatnajökull (largest glaciers) über Vulkanen (Bárðarbunga, Grímsvötn), Mýrdalsjökull über Katla, Eyjafjallajökull |
-| Region | Süd-Island, Zentral-Island |
-
-### Glaziale Formen
-
-- **Gletscher**: Vatnajökull (Fläche ca. 8100 km² — größtes Gletscher-Eis der Island), Jakobshavn-is, Langjökull, Hofsjökull
-- **Jökull**: Gletscher-Teil, insbesondere "Öræfi" (Vatnajökull-Südspitze)
-- **Moränen**: an Gletscherrändern (Seitenmoränen, Endmoränen, Sander)
-- **Urstromtäler**: Schmelzwasser-Täler, oft bleiben trocken (z.B. Skeiðará, Skaftá)
-
-### Vulkan × Glazial Interaktion
-
-- **Jökulhlaup** (isländisch = "Gletscherflutung"): Ein Vulkanausbruch unter dem Gletscher schmilzt Eis → Wasser + Asche → Lawine-Flut
-  - 1996: Gjálp-Eruption (Vatnajökull) → 400 Mio. m³ Wasser, Skeiðarársandur (Sandur) überschwemmt, Highway 1 (Ringstraße) beschädigt
-  - 2010: Eyafjöll → kleinere Jökulhlaup-Ereignisse
-- **Asche + Schnee / Gletscher**: Vulkanasche auf Schnee beschleunigt Schmelze (positive Feedback-Schleife)
-- **Gletscherverlagerung** durch Vulkan-Eruption: Lokal, später, nicht allgemein
-
-### Vulnerabilität
-
-**Ökonomisch:**
-- **Tourismus**: islandische Wirtschaft stark tourismus-abhängig (besonders "Golden Circle", Gletscher, Vulkane als Attraktionen)
-- **Landwirtschaft**: Südlische Ebenen (Rehkreis, Húnavatn) — Asche, Lahar, Überflutung-Gefährdung
-
-**Infrastruktur:**
-- **Ringstraße (Highway 1)**: wichtigste Verbindung — Jökulhlaup-Schäden, Überbrückungs-Maßnahmen
-- **Flugverkehr**: Island ist wichtig für transatlantischen Flugverkehr → Asche beeinträchtigt
-- **Energie**: Geothermie/Nutzung, Schmelzwasser
-
-**Sozial:**
-- Siedlungen in Gefahrenzone (z.B. Kirkjubæjarklaustur, Vík í Mýrdal — sehr vulnerabel für Katla-Jökulhlaup)
-- Evakuierungspläne vorhanden (Island hat Red-Out-System, Sirenen, Warnkette)
-
-### Resilienz-Maßnahmen
-
-- **Überwachung**: IMO (Icelandic Met Office), Seismometer-Netz, Gasmessung, GPS, Gletscherbewegungsmessung (GPS auf Eis)
-- **Jökulhlaup-Frühwarnung**: Evakuierung, Sirene, Warnungen an Autobahn-Nutzer
-- **Ringstraße**: temporäre Überquerungsbrücken, Sperrungen, Sturm-Schutz
-- **Tourismus-Management**: Atemschutzempfehlungen für Asche, Schließungen, Weiterleitungen
-- **Langfristige:** Island arbeitet an natürlichen Gefahren-Reduktion: keine vollständige Lösung, aber gebrauchliche Anpassung
-
-**Beurteilung (LK):** Island = einzigartiger **Vulkan × Glazial** Kontext — ideal für LK-Aufgaben, da Prozesse der Reliefsphäre direkt miteinander verknüpft. Vulnerabilität ist lokal gering, aber wirtschaftlich und infrastrukturell relevant. Resilienz: gute Überwachung, aber Naturabwehr (Te phreatomagmatisch/Jökulhlaup) ist kraftlos.
+| **Begriffe** | Vulnerabilität, Resilienz, Risiko, Hazard definieren und ihre Beziehung zueinander erklären |
+| **Analyse** | Vulnerabilität von Räumen analysieren (physisch, sozial, ökonomisch) |
+| **Maßnahmen** | Resilienz-Maßnahmen gegen Naturgefahren entwickeln, auf Nachhaltigkeit prüfen |
+| **Raumbeispiele** | Vulnerabilität vulkanischer und glazialer Räume analysieren |
 
 ---
 
-## 4. Vergleichstabelle: Glazial-Raumbeispiele
+## Operatoren — Abitur-Relevante Handlungsanweisungen
 
-| Kriterium | Alpen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
-|---|---|---|---|
-| **Landschaftstyp** | Alpengletscher / Talgletscher | Ehemaliges Inlandeis-Gelände (Relikt) | Vulkan × Glazial Gegenwart |
-| **Haupt-Formen** | Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen | Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne | Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen |
-| **Gegenwartige Aktivität** | Gletscherrückzug, Schmelze, Abrasion | Statisch (Relikt-Landschaft, keine aktive Eisbewegung) | Aktive Gletscher + aktive Vulkane + Jökulhlaup-Ereignisse |
-| **Hauptgefahren** | Gletscherlawinen, Felssturz, Jökulgare-Abfluss (GLOF) | Grundwasser-Verschmutzung, Löss-Erosion, Hochwasser | Jökulhlaup, Asche, Lava, Lahare, Flugstörung |
-| **Vulnerabilität** | Tourismus-abhängig, Wasserressourcen, ökologische | Landnutzung (Boden, Wasser), Infrastruktur in Urstromtälern | Tourismus, Ringstraße, Landwirtschaft, Flugverkehr |
-| **Resilienz-Maßnahmen** | Überwachung, Lawinenabwehr, Tourismus-Umstellung, Wasser-Management | Grundwasser-Schutz, Löss-Erosionsschutz, Hochwasserschutz | Überwachung, Jökulhlaup-Warnung, Ringstraße-Anpassung |
-| **Abitur-Beispiel** | "Gletscherrückzug und Vulnerabilität (Tourismus)" | "ehemalige Eiszeit-Gefahren durch Nutzung → sekundäre Vulnerabilität" | "Vulkan × Glazial-Interaktion, Jökulhlaup, transnationale Tourismus-Abhängigkeit" |
+Die im Bildungsplan für das Abitur relevanten Operatoren:
+
+| Operator | Kompetenzbereich | Typisches LK-Niveau |
+|---|---|---|
+| **Benennen** | OK | Vulkanformen, Gletscherformen |
+| **Beschreiben** | OK, AK | Eine Vulkanlandschaft beschreiben |
+| **Erklären** | AK, UK | Warum Schildvulkane flacher sind als Schichtvulkane |
+| **Charakterisieren** | AK, UK | Eigenschaften einer vulkanischen Landschaft |
+| **Analysieren** | AK, UK | Vulnerabilität einer vulkanischen Region |
+| **Vergleichen** | AK, UK | Vulkanismus vs. Glazialmorphologie |
+| **Beurteilen** | UK, HK | Resilienz-Maßnahmen beurteilen |
+| **Erörtern** | UK, HK, MK | Ist die Vulnerabilität durch Gletscherrückzug steigend? |
+| **Skizzieren** | MK, OK | Glaziale Serie skizzieren |
+| **Darstellen** | OK, MK | Ergebnisse strukturiert darstellen |
+
+> Abitur-Aufgaben verwenden diese Operatoren. Die Kompetenzstufen 1–3 (BF → LK) in [[uebungsaufgaben]] entsprechen diesem Operator-Set.
 
 ---
 
-## Raumbeispiele — Hinweise für LK-Abitur
+## Quellen
 
-- **Alpen-Gletscher**: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)
-- **Norddeutsches Tiefland**: "Sekundäre Vulnerabilität" (durch Nutzung, nicht durch Natur direkt) — Löss, Grundwasser, Hochwasser/Klimawandel
-- **Island**: "Vulkan × Glazial" — einmaliges Beispiel für Prozess-Interdependenzen (§3.5.2.1), Jökulhlaup als Gefahrenprozess, gute Überwachung aber begrenzte Kontrolle
+- Bildungsplan 2016 Gymnasium Geographie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2
+- LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK
 
-Verknüpfungen: [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[permafrost-und-solifluktion]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[bildungsplan-2016-lk]]
+---
+
+*Zu [[bildungsplan-2016-lk]] — übergeordnete Dokumentation des Bildungsplans.*
+*Zu [[vulnerabilitaet-begriffe]] — Vulnerabilitätskonzept im Detail.*
+*Zu [[exercises/abitur-aufgaben]] — Abitur-Aufgaben mit diesen Kompetenzen.*
