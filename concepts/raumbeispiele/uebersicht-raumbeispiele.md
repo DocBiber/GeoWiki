@@ -1,3 +1,12 @@
+---
+title: Übersicht Raumbeispiele — Geographie LK BW
+created: 2026-09-27
+updated: 2026-09-27
+type: summary
+tags: [raumbeispiele, uebersicht, bildungsplan]
+sources: []
+---
+
 # Übersicht Raumbeispiele — Geographie LK BW
 
 > Zentrale Übersicht aller Raumbeispiele im Wiki.
