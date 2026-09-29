@@ -1,3 +1,12 @@
+---
+title: Übungsaufgaben — Geographie LK (Bildungsplan 2016)
+created: 2026-09-27
+updated: 2026-09-27
+type: summary
+tags: [uebung, aufgaben, bildungsplan, kompetenzen]
+sources: []
+---
+
 # Übungsaufgaben — Geographie LK (Bildungsplan 2016)
 
 > Übungsaufgaben für LK-Niveau (und Übergang BF→LK), nach Kompetenzstufen und Operatoren gegliedert.
