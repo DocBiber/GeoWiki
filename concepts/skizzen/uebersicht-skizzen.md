@@ -1,3 +1,12 @@
+---
+title: Skizzen — Geographie LK (Zeichenvorlagen)
+created: 2026-09-27
+updated: 2026-09-27
+type: concept
+tags: [skizzen, methodik, abitur]
+sources: []
+---
+
 # Skizzen — Geographie LK (Zeichenvorlagen)
 
 > Zeichenvorlagen für Skizzen im Abitur / Unterricht.
