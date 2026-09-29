@@ -1,3 +1,12 @@
+---
+title: Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)
+created: 2026-09-27
+updated: 2026-09-27
+type: summary
+tags: [abitur, uebung, aufgaben, bildungsplan]
+sources: []
+---
+
 # Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)
 
 > Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können.
