@@ -9,8 +9,7 @@
 
 - [[bildungsplan-2016-lk]]
 - [[kompenenzen-lk]] — Bildungsplan 2016 Leistungskurs Geographie Baden-Württemberg (Übersicht)
-- [[kompetenzen-lk]] — Prozess- und inhaltsbezogene Kompetenzen LK (§3.5)
-- [[abitur-ubersicht-lk]] — Abiturformat LK Geographie BW (Anforderungen, Operatoren, Beispiele)
+- - [[abitur-ubersicht-lk]] — Abiturformat LK Geographie BW (Anforderungen, Operatoren, Beispiele)
 
 ## VULKANSISMUS (Formen und Prozesse)
 
