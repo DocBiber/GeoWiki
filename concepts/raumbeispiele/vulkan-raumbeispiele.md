@@ -1,3 +1,12 @@
+---
+title: Raumbeispiele — Vulkanismus (Geographie LK)
+created: 2026-09-27
+updated: 2026-09-27
+type: concept
+tags: [raumbeispiele, vulkanismus, vulkan-raumbeispiele]
+sources: []
+---
+
 # Raumbeispiele — Vulkanismus (Geographie LK)
 
 > Konkrete Länder, Vulkane und Regionen als Prüfungs- und Vergleichsgrundlage.
