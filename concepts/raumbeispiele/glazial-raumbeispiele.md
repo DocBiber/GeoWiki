@@ -1,3 +1,12 @@
+---
+title: Raumbeispiele — Glazialmorphologie (Geographie LK)
+created: 2026-09-27
+updated: 2026-09-27
+type: concept
+tags: [raumbeispiele, glazialmorphologie, glazial-raumbeispiele]
+sources: []
+---
+
 # Raumbeispiele — Glazialmorphologie (Geographie LK)
 
 > Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage.
