@@ -3,7 +3,7 @@
 > Persönliche Wissensbasis zu Geographie im Leistungskurs an Gymnasien in Baden-Württemberg,
 > ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).
 > Domain: Physische Geographie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
-> Letztes Update: 2026-09-27 | Gesamtseiten: 20
+> Letztes Update: 2026-09-30 | Gesamtseiten: 24
 
 ## BILDUNGSPLAN-RAHMEN
 
@@ -31,11 +31,22 @@
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume (Vesuv, Island, Eifel, Hawaii)
 - [[resilienz-massnahmen]] — Maßnahmen zur Stärkung der Resilienz, nachhaltige Entwicklung, Gefahrenreduzierung
 
+## ATMOSPHÄRE & KLIMA (3.5.2.2)
+
+- [[atmosphaere-wetter-klima]] — Atmosphäre, Wetter und Klima: Grundlagen, Wetterkarten, globale Zirkulation, Klimatypen, Hochgebirge/Wüste
+- [[klimawandel]] — Klimawandel: Ursachen, Dimensionen, Auswirkungen im Erden-System, Anpassungsstrategien, Klimaschutz (3.5.3.2)
+
+## GLOBALISIERUNG & ENTWICKLUNG (3.5.2.6 + 3.5.3.4)
+
+- [[globalisierung-anthroposphaere]] — Globalisierung: Weltbevölkerungsentwicklung, Treiber, Global Cities, Freihandelszonen, Standortfaktoren, Raumstrukturen
+- [[disparitaet-entwicklungen]] — Disparitäre Entwicklungen: Ursachen, Folgen, Entwicklungstheorien, SDGs, Entwicklungszusammenarbeit (3.5.3.4)
+
 ## RAUMBEISPIELE (für Abitur)
 
 - [[uebersicht-raumbeispiele]] — Übersicht alle 5 Landschaften + Auswahl-Tabelle LK-Abitur
 - [[vulkan-raumbeispiele]] — Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island)
 - [[glazial-raumbeispiele]] — Alpen (Aletsch, Schweiz), Norddeutsches Tiefland, Island (Vatnajökull)
+- [[karstlandschaft]] — Karstlandschaft: Polje, Dolinen, Karren, Höhlen, chemische Verwitterung — Grundlagen und Raumbeispiele
 
 ## SKIZZEN (Zeichenvorlagen für Abitur)
 
@@ -54,4 +65,4 @@
 
 - Flusslandschaft (Raumbeispiele: Elbe, Rhein, Donau) — noch nicht angelegt
 - Küstenlandschaft (Raumbeispiele: Nordsee, Ostsee) — noch nicht angelegt
-- Karstlandschaft (Raumbeispiele: Rhön, Fränkische Schweiz) — noch nicht angelegt
+- Karstlandschaft als Raumbeispieldatei (derzeit nur Konzeptseite; konkrete Beispiele wie Eifel, Slowenien, Yucatán fehlen)
