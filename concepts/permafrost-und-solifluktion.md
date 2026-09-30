@@ -1,5 +1,5 @@
 ---
-title: Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen
+title: Permafrost und Solifluktion — exogene Prozesse in kalten Zonen
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -7,11 +7,11 @@ tags: [glazialmorphologie, prozesse, vulnerabilitaet]
 sources: []
 ---
 
-# Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen
+# Permafrost und Solifluktion — exogene Prozesse in kalten Zonen
 
 ## Einordnung im Bildungsplan
 
-Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre") wird für die Glaziallandschaft
+Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre“) wird für die Glaziallandschaft
 **Permafrost** und **Solifluktion** explizit genannt. Beide sind **exogene Prozesse** —
 geprägt durch Temperaturbedingungen und Wasser —, die nach der eigentlichen Eiszeitzeit noch
 die Reliefgestaltung bestimmen. Sie gehören also nicht primär zur Glazialabtragung,
@@ -24,23 +24,23 @@ sondern zur morphologischen Aufarbeitung in kalten Klimata.
 ### Definition
 
 **Permafrost** (permanenter Frostboden) = Boden oder Gestein, der mindestens zwei Jahre
-durchgehend **gefroren** bleibt (temp. <0°C im Boden). Er kann zusätzlich einen
-„aktiven Schicht" (= oberste Schicht, die im Sommer schmilzt) aufweisen.
+durchgehend **gefroren** bleibt (temp. <0 °C im Boden). Er kann zusätzlich einen
+„aktiven Schicht“ (= oberste Schicht, die im Sommer schmilzt) aufweisen.
 
 ### Vorkommen
 
 - **Breitengrad-Permafrost** (kontinental): hohe Breiten (Siberie, Kanada, Alaska,
   Nord-Grönland) — auch nahe am Äquator (hohe Gebirge).
-- **Gletscher-Permafrost:** Jetzt im Vorderrand von Gletschergebieten (Alpen) — ehemals weiter verbreitet.
+- **Gletscher-Permafrost:** jetzt im Vorderrand von Gletschergebieten (Alpen) — ehemals weiter verbreitet.
 - **Island, Norwegen (Hochebenen), Schweiz (hohe Lagen).**
 
 ### Arten
 
 | Typ | Beschreibung | Bedeutung |
 |---|---|---|
-| **Kontinuierlicher Permafrost** | Überall gefroren, kein größeres talgefrorenes Areal | Tiefste Zonen, weit verbreitet |
+| **kontinuierlicher Permafrost** | Überall gefroren, kein größeres talgefrorenes Areal | Tiefste Zonen, weit verbreitet |
 | **Diskontinierlicher Permafrost** | Nur lokal, Oasen von nicht-Frost | Solide Stellen — Inseln im Frost |
-| **Saisonal / Aktive-layer** | Nur oberste cm/m schmilzt im Sommer → solifl. | Verantwortlich für Hangbewegung |
+| **saisonal / Aktive-layer** | Nur oberste cm/m schmilzt im Sommer → solifl. | Verantwortlich für Hangbewegung |
 
 ### Gefährdungsprozesse mit Permafrost
 
@@ -49,7 +49,7 @@ durchgehend **gefroren** bleibt (temp. <0°C im Boden). Er kann zusätzlich eine
 - **Geliturbation:** Verlagerung von Bodenmaterial durch tausende Frost-/Schmelz-Zyklen —
   langsame Hangbewegung.
 - **Palsa:** kleines, runder Moränen-Hügel mit permanent gefrorener Kern, oft in Feuchtbodenzonen.
-- **Infrastruktur-Gefährdung:** Straßen, Pipelines,Siedlungen in Permafrost-affine Zonen
+- **Infrastruktur-Gefährdung:** Straßen, Pipelines, Siedlungen in Permafrost-affine Zonen
   → durch tauende Boden erodiert (Beispiel: Transsibirische Eisenbahn, Okmad.
 
 ---
@@ -60,7 +60,7 @@ durchgehend **gefroren** bleibt (temp. <0°C im Boden). Er kann zusätzlich eine
 
 **Solifluktion** (von lat. *solum* = Boden, *fluere* = fließen) = langsame, schubweise
 Hangabtragung in **frostgeprägtem, feuchtem Boden**. Dabei bewegt sich eine feine,
-schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fließkeils".
+schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fließkeils“.
 
 ### Mechanik
 
@@ -69,14 +69,14 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
    noch gefrorenen Bereich) — präfekulter Schmierungsschicht.
 3. Resultat: Lose Schicht schmilzt → schiebt sich unter dem schweren Boden massen,
    **Hangab-druck** → langsame Hangflucht.
-4. Geschwindigkeit: cm/Jahr bis m/Jahr — im Vergleich zu Rutschungen schnell, aber
-   unter normal-gefährdeten.
+4. GEschwindigkeit: cm/Jahr bis m/Jahr — im Vergleich zu Rutschungen schnell, aber
+ unter normal-gefährdeten.
 
 ### Typische Landschaftserscheinungen
 
-- **Solifluktionskeile:** Kegel- oder Wellenform des Abgetragenen — am Hang als „Krawall",
+- **Solifluktionskeile:** Kegel- oder Wellenform des Abgetragenen — am Hang als „Krawall“,
   Wulst-Kegel.
-- **Stufen / Schüpp-Boden-Ebenen:** „Stufen-Landschaft" (Löschufen) Buk-Darstellung.
+- **Stufen / Schüpp-Boden-Ebenen:** „Stufen-Landschaft“ (Löschufen) Buk-Darstellung.
 - **Terrainbhänge-in-Kalpern:** Pro Lönche am Hang.
 
 ---
@@ -86,7 +86,7 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 - Solifluktion und Permafrost sind **nach-glaziale Prozesse**, die am Ende der Eiszeit
   oder in permanenten Kaltzonen noch die Reliefgestaltung begleiten.
 - Sie gehören zu den Prozessen, die der Bildungsplan LK zusammenfasst:
-  **„formen und Prozesse der Reliefsphäre"** — also neben Vulkanismus,
+  **„formen und Prozesse der Reliefsphäre“** — also neben Vulkanismus,
   Glazialmorphologie, Flusslandschaft, Küsten, Karst.
 - Im Lernziel: Schüler sollen diese Prozesse **beschreiben** und in den
   Kontext **Vulnerabilität und Resilienz** stellen.
@@ -127,3 +127,38 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 - [[vulnerabilitaet-begriffe]] ← Vulnerabilität-Grundlagen
 - [[vulnerabilitaet-raumbeispiele]] ← V/a Vulnerabilität Räume
 - [[resilienz-massnahmen]] ← Maßnahmen
+
+---
+
+## Visuelle Darstellungen & Animationen
+
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+
+#### 🎬 Permafrost – Was ist das? (Educational, ~4 Min.)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen title="Permafrost – Was ist das? (Educational, ~4 Min.)"></iframe>
+
+*Definition, aktive Schicht, Eisspalten-Polygone, Eiswedgede-Entwicklung, Verbreitung (25% der Landfläche NH).*
+
+#### 🎬 Was passiert, wenn das arktische Permafrost schmilzt? – Brendan Rogers & Jessica Howard (TED-Ed)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7VV4s4uiwLY" frameborder="0" allowfullscreen title="Was passiert, wenn das arktische Permafrost schmilzt? – Brendan Rogers & Jessica Howard (TED-Ed)"></iframe>
+
+*Klimawandel, Auftauen, Methanfreisetzung, Bodeninstabilität, Rückkopplungseffekte.*
+
+#### 📸 Fotogalerie: Permafrost, arktische Tundra (Unsplash)
+
+[Freie Fotos von Permafrost-Landschaften, Tundra, Eisspalten.](https://unsplash.com/s/photos/permafrost)
+
+#### 📸 Fotogalerie: Solifluction, gelifluktive Landformen (Unsplash)
+
+[Freie Fotos von Solifluction-Lappen und gelifluktiven Terrassen.](https://unsplash.com/s/photos/solifluction)
+
+
+---
+## Animationen
+
+### 🎬 Permafrost – was ist das? – Alfred Wegener Institut Animation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen></iframe>
+

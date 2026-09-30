@@ -23,7 +23,7 @@ sources: []
 
 ## Explosivität: Steuernde Faktoren
 
-1. **Silikategehalt (SiO₂):** Höher → mehr Polymerisation → höhere Viskosität → Gas kann nicht entweichen → Druckaufbau. Rhyolit (>70% SiO₂) → stark explosiv.
+1. **Silikategehalt (SiO₂):** höher → mehr Polymerisation → höhere Viskosität → Gas kann nicht entweichen → Druckaufbau. Rhyolit (>70 % SiO₂) → stark explosiv.
 2. **Gasgehalt des Magmas:** Gase (H₂O, CO₂, SO₂) lösen sich in Magmen unter Druck. Steigt Magmen auf, geringerer Umgebungs-druck → Gas löst sich aus → Blasen → Volumenausdehnung → Druck auf Magmagestein.
 3. **Grundwasserkontakt:** Wasser + Magma → Phreatomagmatische Explosion (Maare, auch bei mafischem Magma möglich).
 4. **Plattenkontext:** Subduktionszonen-Magma trägt Wasser aus abtauchendender Platte → explosive Komponente.
@@ -36,7 +36,7 @@ sources: []
 
 | Form | Beschreibung |
 |---|---|
-| **Basaltlava (Pāhoehoe / ʻAʻā)** | Pāhoehoe: glatte, gewundene Lava mit „Ropengas"-Oberfläche; ʻAʻā: schroffe, zersplitterte Lava (klatschen-like); Beide gut bei Hawaii sichtbar |
+| **Basaltlava (Pāhoehoe / ʻAʻā)** | Pāhoehoe: glatte, gewundene Lava mit „Ropengas“-Oberfläche; ʻAʻā: schroffe, zersplitterte Lava (klatschen-like); beide gut bei Hawaii sichtbar |
 | **Lava-Strom** | Ausfließende Flutung — kann km ausbreiten; oft gut vorhersagbar und überlebbar |
 | **Lava-Decke** | Große flache Flutung |
 | **Lava-Höhlen / Lavagänge** | Hohlräume unter kalzifizierten Lavaströmen |
@@ -50,17 +50,17 @@ sources: []
 | **Asche (<2 mm)** | Feinste Partikel | Aschefall über 1000 km; Flugverkehrs-Abschaltungen, Lungen-Belastung, Motor-Schäden |
 | **Lapilli (2–64 mm)** | Korngröße | Fallgefahr, Dachbelastung, lokale Verletzungsgefahr |
 | **Brocken/Bomben (>64 mm)** | Schwere Teile | Verletzungsgefahr in der Nähe; Bomben können >1 km fliegen (je nach Eruption) |
-| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700°C, Geschwindigkeiten bis 700 km/h | Vollständige Zerstörung im Wegbereich — NA SOB (1902 Mt. Pelée, St. Pierre, 28.000 Tote); nicht ausweichbar |
+| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700 °C, Geschwindigkeiten bis 700 km/h | Vollständige Zerstörung im Wegbereich — NA SOB (1902 Mt. Pelée, St. Pierre, 28.000 Tote); nicht ausweichbar |
 | **Pyroklastische Wellen / Surges** | Ähnlich wie Ströme, aber mit mehr Gas, höhere Reichweite | Verletzungsgefahr, Gebäudebeschädigung |
-| **Lahare (Vulkanischer Schlammfluss)** | Gemisch aus Wasser + Vulkanasche/Brocken; entweder durch Regen oder Schmelze von E Grav an Vulkan | Hohe Zerstörungskraft, oft Flüsse verfolgend; Beispiele: Nevado del Ruiz 1985 (Armero, 23.000 Tote); oft bei Schichtvulkanen in Voralpen/-Gletscherselbst |
+| **Lahare (Vulkanischer Schlammfluss)** | Gemisch Aus Wasser + Vulkanasche/Brocken; entweder durch Regen oder Schmelze von E Grav an Vulkan | Hohe Zerstörungskraft, oft Flüsse verfolgend; Beispiele: Nevado del Ruiz 1985 (Armero, 23.000 Tote); oft bei Schichtvulkanen in Voralpen/-Gletscherselbst |
 
 ### Gase
 
 | Gas | Effekt |
 |---|---|
-| **Wasserdampf (H₂O)** | Meist Hauptgas (>60%); wetterlich aufsteigen — lokal Niederschlag möglich |
+| **Wasserdampf (H₂O)** | Meist Hauptgas (>60 %); wetterlich aufsteigen — lokal Niederschlag möglich |
 | **Kohlendioxid (CO₂)** | Treibhausgas; in Mulden/Schluchten kann sich CO₂ sammeln und ersticken (z.B. Nyiragongo, Küsten-Antillen) |
-| **Schwefeldioxid (SO₂)** | Bildet mit H₂O zu Schwefelsäure-Aerosole; kühlt stratosphärische Luft kurzfristig (z.B. El Chichón 1982, Pinatubo 1991 — global temp. –0,5°C); sauert zu Säureregen |
+| **Schwefeldioxid (SO₂)** | Bildet mit H₂O zu Schwefelsäureaerosolen; kühlt stratosphärische Luft kurzfristig (z.B. El Chichón 1982, Pinatubo 1991 — global temp. –0,5 °C); sauert zu Säureregen |
 | **Wasserstofffluorid (HF), Chlor (HCl)** | Extremätzend für Pflanzen, Tiere, Gebäude (Flusspartie, Aschegestein-Niederlegung) |
 
 ---
@@ -79,7 +79,7 @@ sources: []
 
 1. **Flugverkehr:** Vulkanasche in Flugzeug-Engines → Schmelzgefahr, Abschaltungen (Eyafallajökull 2010 → 100.000+ Flüge abgesagt in Europa).
 2. **Klimatologische Auswirkungen:** SO₂ → Aerosol → kühlt kurzeitlich (Jahre).
-3. **Hungrern / Nährstoffversorgung:** Vulkanische Böden (Andosole) z.B. Kallte langfristig sehr produktiv (Jawa, Italien, Islands Moos-Agrar).
+3. **Hungrern / Nährstoffversorgung:** vulkanische Böden (Andosole) z.B. Kallte langfristig sehr produktiv (Jawa, Italien, Islands Moos-Agrar).
 4. **Bodensediment / Dauer** — Asche mit Regen → Ascheverdeckung und Säure.
 
 ---
@@ -88,12 +88,11 @@ sources: []
 
 Wenn Vulkanausbrüche unter oder in Nachbarschaft zu Gletschern stattfinden:
 
-- **Jökulhlaup** (isländisch = „Gletscherfloodung"): Druckausbruch schmilzt Gletscher schnell → Wasser + Asche-Lahare-flutung. Klassisches Beispiel: Vulkan-Gletscher-Interaktion in Island → 1996 Gjálp-Eruption → 400 Mio. m³ Wasser-Entladeung des Skeiðará-Gletschers.
+- **Jökulhlaup** (isländisch = „Gletscherfloodung“): Druckausbruch schmilzt Gletscher schnell → Wasser + Asche-Lahare-flutung. Klassisches Beispiel: Vulkan-Gletscher-Interaktion in Island → 1996 Gjálp-Eruption → 400 Mio. m³ Wasser-Entladeung des Skeiðará-Gletschers.
 - **Asche + Schnee/Glaz:** Asche auf schmelzendem Schnee nimmt Absorption ↑ → spätes Schmelzen → verstärkte Abfluss-Phase.
 - **Vulkan-Säure-Schnee:** Einwirkung von SO₂ → Sulfate → Säureeintrag in Schmelzwasser.
 
-→ **Vulnerabilität  
-: [[vulnerabilitaet-vulkanraume]] / [[vulnerabilitaet-begriffe]]**
+→ **Vulnerabilität: [[vulnerabilitaet-vulkanraume]] / [[vulnerabilitaet-begriffe]]**
 
 ---
 
@@ -113,4 +112,49 @@ Für das Leistungskurs-Leistungsbewertung (§3.5.2.1) müssen Schülerinnen und 
 - [[vulkanismus-ueberblick]] ← Einleitung
 - [[vulkanarten]] ← Vulkanformen im Detail
 - [[vulnerabilitaet-vulkanraume]] ← Vulnerabilität an Vulkanarealen
-- [[vulnerabilitaet-begriffe]] ← Allgemeine Begriffsbestimmung
+- [[vulnerabilitaet-begriffe]] ← allgemeine Begriffsbestimmung
+
+---
+
+## Visuelle Darstellungen & Animationen
+
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+
+#### 🎬 A Day in Pompeii – Vollständige Animation der Eruption des Vesuvs (79 n. Chr.)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dY_3ggKg0Bc" frameborder="0" allowfullscreen title="A Day in Pompeii – Vollständige Animation der Eruption des Vesuvs (79 n. Chr.)"></iframe>
+
+*330.000 Besucher, immersive 3D-Therie-Installation; zeigt den 24-Stunden-Zyklus von Aschenfall, Pyroklastikströmen und Kollaps des Kamins.*
+
+#### 🎬 Die kolossalen Folgen von Supervulkanen – Alex Gendler (TED-Ed)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hDNlu7Qf6_E" frameborder="0" allowfullscreen title="Die kolossalen Folgen von Supervulkanen – Alex Gendler (TED-Ed)"></iframe>
+
+*Erklärt Plinianische Eruptionen, Ascheentwicklung, Klimaauswirkungen (Tambora 1815, Mt. Mazama, Yellowstone-Kaldera).*
+
+#### 🎬 Typen von Vulkanen – Next Generation Science
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pKhas3rw-eU" frameborder="0" allowfullscreen title="Typen von Vulkanen – Next Generation Science"></iframe>
+
+*Schildvulkan, Stratovulkan, Caldera, Cinder Cone, Fissur – Übersicht mit Beispielen (Hawaii, Vesuv, Fuji, Crater Lake).*
+
+#### 🖼️ Vulkanausbruch (Public Domain, Motography 1914)
+
+[Historische Illustration eines eruptiven Vulkans.](https://commons.wikimedia.org/wiki/File:Volcanic_eruption.jpg)
+
+#### 📸 Fotogalerie: Vulkanausbrüche (Unsplash)
+
+[Freie Fotos von aktiven und eruptiven Vulkanen.](https://unsplash.com/s/photos/volcano-eruption)
+
+
+---
+## Animationen
+
+### 🎬 Explosive vs. Effusive Vulkanausbrüche – Léon Frey (Volcanology #8)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5Z1XC__06c" frameborder="0" allowfullscreen></iframe>
+
+### 🎬 Magma-Viskosität, Gasgehalt & Vulkane – Magnitudes of Science
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2iaqE0xmsHI" frameborder="0" allowfullscreen></iframe>
+

@@ -1,5 +1,5 @@
 ---
-title: Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)
+title: Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)
 created: 2026-09-27
 updated: 2026-09-27
 type: summary
@@ -7,7 +7,7 @@ tags: [abitur, uebung, aufgaben, bildungsplan]
 sources: []
 ---
 
-# Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)
+# Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)
 
 > Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können.
 > Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte.
@@ -26,7 +26,7 @@ sources: []
 > **Materialien:**
 > - Skizze: Schichtvulkan (mit Schichtaufbau, Krater, Lavastrom)
 > - Text: Vesuv (Kampanien, Italien) — Bevölkerungsdichte, Gefahren, Überwachung
-> - Graphik: Seismische Aktivität am Vesuv (letzte 2 Jahre)
+> - Grafik: Seismische Aktivität am Vesuv (letzte 2 Jahre)
 >
 > **Aufgaben:**
 >
@@ -60,7 +60,7 @@ sources: []
 
 **(2) Explosiv vs. Effusiv:**
 
-- **Explosiv:** hohe Viskosität (felsisches Magma), Gase eingeschlossen, Druckaufbau →
+- **explosiv:** hohe Viskosität (felsisches Magma), Gase eingeschlossen, Druckaufbau →
   explosive Freisetzung (Tephra, pyroklastische Ströme, Asche); Schichtvulkane.
 - **Effusiv:** niedrige Viskosität (basaltisch), Gase entweichen gleichmäßig → Lavaflüsse,
   Fontänen; Schildvulkane. Beispiel: Kilauea.
@@ -68,11 +68,11 @@ sources: []
 
 **(3) Vulnerabilitäts-Analyse (Vesuv):**
 
-- **Physisch:** Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;
+- **physisch:** Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;
   Infrastruktur (Autobahn A3, S-Bahn, Flughafen); Lava/Tephra/Asche-Schäden.
-- **Sozial:** Sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,
-  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei Warnungen.
-- **Ökonomisch:** Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft
+- **sozial:** sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,
+  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei WarnunGen.
+- **ökonomisch:** Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft
   (vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus + Landwirtschaft + lokale Wirtschaft).
 
 **(4) Beurteilung Resilienz-Maßnahmen:**
@@ -81,7 +81,7 @@ sources: []
   Evakuierungsplan (Rouge Zone, Wege, Notfallkommunikation); "Plan Vesuv" (Katastrophenschutz).
 - **Beurteilung:**
   - **Positiv:** Überwachung, Evakuierung, Schutzplan existieren — besser als früher.
-  - **Kritisch:** Extrem hohe Bevölkerungsdichte → trotz Planung "keine vollständige Sicherheit";
+  - **kritisch:** Extrem hohe Bevölkerungsdichte → trotz Planung "keine vollständige Sicherheit";
     Raumplanung (Siedlungsbildung in Gefahrenzone) bleibt ungelöst → Vulnerabilität strukturell hoch.
     Nachhaltigkeit: nachhaltige Lösung würde Siedlungsverzicht bedeuten — aber wirtschaftlich und sozial
     kaum realisierbar. **Fazit:** Maßnahmen verbessern Resilienz, aber Vulnerabilität bleibt hoch —
@@ -109,7 +109,7 @@ sources: []
 > **Materialien:**
 > - Skizze: Glaziale Serie (Zungenbecken, Endmoräne, Sander, Urstromtal)
 > - Text: Grosser Aletsch-Gletscher (Schweiz) — Rückzug, Tourismus, Wasser
-> - Graphik: Gletscher-Flächenveränderung (Schweiz, 1850–heute)
+> - Grafik: Gletscher-Flächenveränderung (Schweiz, 1850–heute)
 >
 > **Aufgaben:**
 >
@@ -144,20 +144,20 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 **(2) Trogtal erklären:**
 
-- **Entstehung:** Gletscher erodiert ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,
+- **Entstehung:** Gletscher erodiErt Ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,
   U-förmiges Tal (im Gegensatz zu V-förmigem Flusstal). Abtrag durch Abrasion und Quarzstaub.
-- **Weitere Erosionsformen:**
+- **weitere Erosionsformen:**
   - **Kar (Cirque):** Kesselartige Mulde im Hochgebirge (Eis stagnation, Abrasion, oft mit Moräne unten)
   - **Seitenmoräne:** an den Gletscherseiten (Gesteinsmaterial am Hang → transportiert und abgelagert)
 
 **(3) Vulnerabilitäts-Analyse (Aletsch):**
 
-- **Ökonomisch:** Tourismus (Skigebiete, Wanderungen, Hochtourismus) — Rückzug bedroht Wirtschaft;
+- **ökonomisch:** Tourismus (Skigebiete, Wanderungen, Hochtourismus) — Rückzug bedroht Wirtschaft;
   Wasserressourcen (Gletscher = Frischwasser für untere Regionen, Landwirtschaft, Trinkwasser) —
   Rückzug → Veränderung Wasserhaushalt.
-- **Ökologisch:** Gletschermikroökosystem (einmalige Lebensräume) — Rückzug gefährdet;
+- **ökologisch:** Gletschermikroökosystem (einmalige Lebensräume) — Rückzug gefährdet;
   Alpengletscher = Referenzobjekt für Klimafolgen.
-- **Sozial / Lebensqualität:** Alpenvereinshütten, Tourismus-Infrastruktur, aber
+- **sozial / Lebensqualität:** Alpenvereinshütten, Tourismus-Infrastruktur, aber
   keine hohe direkte Gefahrenanfälligkeit (Lawinen, Felssturz, Schmelzwasser-Flut — aber lokal).
 
 **(4) Vergleich (Alpengletscher vs. Vesuv):**
@@ -199,7 +199,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 > [**Charakterisieren**]
 >
 > **(2) Vergleichen** Sie die typischen Gefahren in Vulkan- und Glaziallandschaften.
-> **Benennen** Sie jeweils zwei Gefahrentypen und **erklären** Sie deren Entstehung.
+> **Benennen** Sie jeweils zwei Gefahren-Typen und **erklären** Sie deren Entstehung.
 > [**Vergleichen, Benennen, Erklären**]
 >
 > **(3) Beurteilen** Sie, welche der beiden Landschaften (Vulkan vs. Glazial)
@@ -216,7 +216,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 - **Vulkanismus:** Endogen (Erdinnern, Magmen, Wärme, Gasdruck);
   Wirkung: Aufbau (Magma, Lava, Tephra), kumulativ, erhöht Relief-Höhe;
   Geschwindigkeit: Ereignisartig, kurzfristig (Jahre/Minuten); Wiederholung zyklisch, aber unvorhersehbar.
-- **Glazialmorphologie:** Exogen (durch Eis, Schmelzwasser, Temperatur, Wind nach Eiszeit noch wirksam);
+- **Glazialmorphologie:** exogen (durch Eis, Schmelzwasser, Temperatur, Wind nach Eiszeit noch wirksam);
   Wirkung: Abtrag (Erosion) und Ablagerung (Moränen, Sander); langfristig (tausende Jahre),
   aber Teilprozesse (Lahre, Lawinen) kurzfristig; im Rückzugs-Zeitalter aktuell.
 
@@ -224,21 +224,21 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 | Landschaft | Gefahren-Typ 1 | Gefahren-Typ 2 |
 |---|---|---|
-| **Vulkanismus** | **Pyroklastische Ströme:** Gas+Tephra-Mischung, 300–700°C, bis 700 km/h, vollständige Zerstörung — Entstehung: explosive Freisetzung, hoher Gasdruck, felsisches Magma | **Aschefall:** feine Tephra-Partikel (<2mm), fliegen weit, Schäden: Luftfahrt, Gesundheit, Gebäude, Landwirtschaft — Entstehung: explosionsvulkanische Eruption, Asche-Säule |
-| **Glazial** | **Jökulhlaup (Gletscherflut):** Vulkan schmilzt Gletscher → Wasser+Sand-Asche → Lawine-Flut — Entstehung: Vulkan × Glazial-Interaktion (Island) | **Gletscherlawinen / Felssturz:** Eis oder Fels bricht ab — Entstehung: Gletscherrückzug, Instabilität |
+| **Vulkanismus** | **Pyroklastische Ströme:** Gas+Tephra-Mischung, 300–700 °C, bis 700 km/h, vollständige Zerstörung — Entstehung: explosive Freisetzung, hoher Gasdruck, felsisches Magma | **Aschefall:** feine Tephra-Partikel (<2 mm), fliegen weit, Schäden: Luftfahrt, Gesundheit, Gebäude, Landwirtschaft — Entstehung: explosionsvulkanische Eruption, Asche-Säule |
+| **glazial** | **Jökulhlaup (Gletscherflut):** Vulkan schmilzt Gletscher → Wasser+Sand-Asche → Lawine-Flut — Entstehung: Vulkan × Glazial-Interaktion (Island) | **Gletscherlawinen / Felssturz:** Eis oder Fels bricht ab — Entstehung: Gletscherrückzug, Instabilität |
 
 **(3) Beurteilung Vulnerabilität (Vulkan vs. Glazial):**
 
 - **Vulkan:** oft höhere unmittelbare Todesgefahr (pyroklastische Ströme), plötzlich,
   schwer zu fliehen; Vulnerabilität hoch bei Bevölkerungsdichte (z.B. Vesuv: 3 Mio. in Gefahrenzone).
-- **Glazial:** Gefährdung ist eher langsam / indirekt (Rückzug, Wasser, Tourismus);
+- **glazial:** Gefährdung ist eher langsam / indirekt (Rückzug, Wasser, Tourismus);
   aber lokale Gefahren (Jökulhlaup, Lawinen) können schwer sein; Vulnerabilität
   hängt stark vom Entwicklungsstand und Tourismus-Abhängigkeit.
 - **Beispiel:** Vesuv (Vulkan) — extrem hohe Vulnerabilität trotz Resilienz-Maßnahmen;
   Alpengletscher (Glazial) — Vulnerabilität wirtschaftlich (Tourismus, Wasser), aber
   keine "tödliche Gefahr" wie Vulkan.
 - **Fazit:** Vulkanlandschaft kann Vulnerabilität höher sein, wenn Bevölkerungsdichte hoch
-  und Ausbruch nicht vorhersehbar; Glazial meist niedriger unmittelbarer Tod, aber
+  und Ausbruch nicht vorhersehbar; glazial meist niedriger unmittelbarer Tod, aber
   langfristige Vulnerabilität (Tourismus, Wasser).
 
 ---
@@ -260,7 +260,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 > **Thema:** Maßnahmen zur Stärkung der Resilienz im Kontext Naturgefahren
 >
 > **Materialien:**
-> - Schema: Risiko-Modell (Hazard × Exposition × Vulnerabilität = Risiko, Resilienz als Gegenstück)
+> - Schema: Risiko-Modell (Hazard × Exposition × Vulnerabilität = RISiko, Resilienz als Gegenstück)
 > - Text: Maßnahmen-Kompendium (Gefahrenreduzierung, Vulnerabilitätsverringerung, Anpassung/Erholung)
 >
 > **Aufgaben:**
@@ -320,7 +320,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
     Verzicht würden Wirtschaft schädigen.
   - Nachhaltigkeit: nachhaltige Lösung muss alle drei Komponenten (Sozial, Ökonomisch,
     Ökologisch) berücksichtigen. Maßnahmen nur auf Schutz zu legen, ignoriert
-    Entwicklung. Maßnahmen, die Entwicklung berücksichtigen, sind nachhaltiger,
+    Entwicklung. Maßnahmen, die Entwicklung berücksichtigen, sind Nachhaltiger,
     aber möglicherweise weniger "sicher" im kurzfristigen Hazard.
 - **Beurteilung:** Zielkonflikt zwischen perfekter Sicherheit (vollständige Vermeidung)
   und nachhaltiger Entwicklung (Lebensqualität, Wirtschaft, Ökologie). LK-Aufgabe
@@ -336,8 +336,8 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
   Vulnerabilität umfasst auch Sozial, Ökonomie, Planung — nicht nur Information.
 - **Position:** These ist **unvollständig / überzeichnet**, aber **nicht grundsätzlich falsch**:
   Überwachung trägt bei, senkt aber nur einen Teil der Vulnerabilität. Vollständigere
-  Senkung erfordert auch Raumplanung, Siedlungsstruktur, Soziale Faktoren.
-- **Lösung erwartet:** Nicht nur "Ja/Nein", sondern differenzierte Erörterung:
+  Senkung erfordert auch Raumplanung, Siedlungsstruktur, soziale Faktoren.
+- **Lösung erwartet:** nicht nur "Ja/Nein", sondern differenzierte Erörterung:
   Überwachung = Teil der Vulnerabilitätsminderung, aber nicht Voll-Lösung.
 
 ---

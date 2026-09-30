@@ -12,13 +12,13 @@ confidence: high
 
 ## Überblick
 
-**Disparität** bezeichnet die Ungleichheit von Räumen (und Gesellschaften) in ihrer Entwicklung — ökonomisch, sozial, ökologisch, politisch. Für den Geographie-LK (Bildungsplan 2016, Kap. 3.5.3.4) sind drei Kompetenzbereiche zentral:
+**Disparität** bezeichnet die Ungleichheit von Räumen (und Gesellschaften) in ihrer Entwicklung — ökonomisch, sozial, ökologisch, politisch. Für den Geografie-LK (Bildungsplan 2016, Kap. 3.5.3.4) sind drei Kompetenzbereiche zentral:
 
 1. **Räume unterschiedlichen Entwicklungsstandes im Globalisierungsprozess analysieren**
 2. **Ursachen und Folgen disparitärer Entwicklungen erklären + Entwicklungstheorien und -strategien erläutern**
 3. **Projekte der Entwicklungszusammenarbeit vor dem Hintergrund von Entwicklungsstrategien bewerten**
 
-> Bezug zum Bildungsplan 2016 LK Geographie BW: Kap. 3.5.3.4 „Globale Herausforderungen: Disparitäre Entwicklungen" — SuS können die Ursachen für disparäre Entwicklungen in der Einen Welt und deren Auswirkungen erläutern sowie Maßnahmen der Entwicklungszusammenarbeit bewerten.
+> Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.3.4 „Globale Herausforderungen: Disparitäre Entwicklungen“ — SuS können die Ursachen für disparäre Entwicklungen in der Einen Welt und deren Auswirkungen erläutern sowie Maßnahmen der Entwicklungszusammenarbeit bewerten.
 
 ## Räume unterschiedlichen Entwicklungsstandes
 
@@ -32,15 +32,15 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 
 ### Klassifikation von Räumen
 
-- **Globaler Norden / Globale Süden**: Vereinfachtes Modell, unterscheidet Industrie-/Schwellenländer (oft globale Nordhälften) von ärmeren Entwicklungsländern (oft globale Südhalften) — nicht geographisch, sondern entwicklungspolitisch definiert
+- **Globaler Norden / Globale Süden**: Vereinfachtes Modell, unterscheidet Industrie-/Schwellenländer (oft globale Nordhälften) von ärmeren Entwicklungsländern (oft globale Südhalften) — nicht geografisch, sondern entwicklungspolitisch definiert
 - **Schildkrötenmodell / Dreiteilung**: Industrieländer (ADL), Schwellenländer (SWC — Newly Industrialized Countries), Entwicklungsländer (EL, auch LIC — Low Income Countries)
 - **Nach HDI**: sehr hoher HDI, hoher HDI, mittlerer HDI, niedriger HDI
 
 ### Beispiele für räume unterschiedlichen Entwicklungsstandes
 
-- **Hoher Entwicklungsstand**: Deutschland, Japan, Skandinavien, Kanada, Australien — hohes Einkommen, gute soziale Systeme, langlebige, niedrige Geburtenrate, hohe Bildung
-- **Mittlerer Entwicklungsstand**: viele lateinamerikanische Länder, Südafrika, Teile Asiens (z. B. Thailand, Brasilien, Mexiko, Indien — letzteres sehr ungleich intern)
-- **Niedriger Entwicklungsstand**: viele Länder Subsahara-Afrikas (z. B. Niger, Angola, Tschad), einige Länder Südasiens und kleines Inselstaaten
+- **hoher Entwicklungsstand**: Deutschland, Japan, Skandinavien, Kanada, Australien — hohes Einkommen, gute soziale Systeme, langlebige, niedrige Geburtenrate, hohe Bildung
+- **Mittlerer Entwicklungsstand**: viele lateinamerikanische Länder, Südafrika, Teile Asiens (z. B. Thailand, Brasilien, Mexiko, Indien — letzteres Sehr ungleich intern)
+- **niedriger Entwicklungsstand**: viele Länder Subsahara-Afrikas (z. B. Niger, Angola, Tschad), einige Länder Südasiens und kleines Inselstaaten
 
 ### Ursachen für disparäre Entwicklungen
 
@@ -50,8 +50,8 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 - Korruption, schwache Institutionen, Rechtsunsicherheit
 - Mangelnde Infrastruktur, Bildung, Gesundheitssysteme
 - Ungleichverteilung von Ressourcen und Einkommen (innen)
-- Geographische Faktoren: Binnenlandlockung, ungünstige Lage, klimatische Extreme, Krankheitslast (Malaria, etc.)
-- Fehlende Diversifizierung der Wirtschaft (einseitige Rohstoffabhängigkeit → „Ressourcenfluch" in manchen Fällen)
+- Geografische Faktoren: Binnenlandlockung, ungünstige Lage, klimatische Extreme, Krankheitslast (Malaria, etc.)
+- Fehlende Diversifizierung der Wirtschaft (einseitige Rohstoffabhängigkeit → „Ressourcenfluch“ in manchen Fällen)
 
 #### Exogene Ursachen (äußerlich)
 
@@ -80,7 +80,7 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 ### Modernisierungstheorie
 
 - **Kernthese**: Entwicklung erfolgt durch den Übergang von traditionellen zu modernen Gesellschaften; Industrialisierung, Technologie, Bildung, Kapitalinvestition sind Schüssel diese Entwicklung; Entwicklungsländer können und sollten den Weg der industrialisierten Länder nachvollziehen
-- **Implikation**: Transfer von Kapital, Technologie, Institutionenhilfe → Entwicklung durch Markt und Modernisierung
+- **Implikation**: Transfer von Kapital, Technologie, Institutionenhilfe → EntwIcklung durch Markt und Modernisierung
 
 ### Fragmentierungstheorie
 
@@ -106,7 +106,7 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 - **Nachholende Entwicklung**: Unterstützung von Ländern, um Entwicklungsrückstände einzuholen
 - **Befriedigung der Grundbedürfnisse**: Fokus auf basisse Grundversorgung (Wasser, Nahrung, Gesundheit, Bildung, Wohnen)
 - **Dissoziationsstrategie**: Abkehr von Abhängigkeiten, eigenständige Entwicklung, Verknüpfung mit Dependenztheorie
-- **Land Grabbing**: Geschichte und Kritik — große Ländereien des Anderen gekaufte oder angeborgte Land etwa ausländische Investore greifen — risks for local communities and food security
+- **Land Grabbing**: Geschichte und Kritik — große Ländereien des Anderen gekaufte oder angeborgte Land etwa ausländische Investore greifen — risks for local Communitys and food security
 
 ## Bewertung von Entwicklungsprojekten
 
@@ -131,9 +131,17 @@ Bei der Bewertung von Entwicklungsprojekten im Abitur (Kompetenz 3.5.3.4 (3)) si
 - [[globalisierung-anthroposphaere]] — Globalisierung und Raumstruktur: Treiber, Begriffe, Ungleichheiten
 - [[vulnerabilitaet-begriffe]] — Vulnerabilität und Resilienz: Ungleichheit als Vulnerabilitätsfaktor
 - [[klimawandel]] — Klimawandel als globale Herausforderung: disparate Auswirkungen
-- [[bildungsplan-2016-lk]] — Bildungsplan 2016: Kompetenzkontext LK Geographie
+- [[bildungsplan-2016-lk]] — Bildungsplan 2016: Kompetenzkontext LK Geografie
 
 ## Offene Fragen
 
 - Welche konkreten Projekte (Deutschland, UNICEF, Welthungerhilfe, etc.) für Abiturbewertung?
 - Wo gibt es aktuelle Daten (HDI-Liste, Weltbank-Indikatoren, UNDP-Berichte) für Grafiken und Vergleich?
+
+---
+## Bildmaterial
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Städte, Disparität (Unsplash)](https://unsplash.com/s/photos/urban-landscape)
+

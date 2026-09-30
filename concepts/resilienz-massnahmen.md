@@ -12,11 +12,11 @@ sources: []
 ## Bezug zum Bildungsplan LK
 
 Bildungsplan LK BW §3.5.2.1 (Reliefsphäre) + §3.5.3 (Globale Herausforderungen)
-fordern: „möglich Maßnahmen zur Stärkung der Resilienz im Rahmn einer nachhaltigen
-Entwicklung beurteilen."
+fordern: „Möglich Maßnahmen zur Stärkung der Resilienz im Rahmn einer nachhaltigen
+Entwicklung beurteilen.“
 
 Konkret geht es nicht nur um Schutz-Infrastruktur, sondern um einen **ganzheitlichen,
-nachhaltigen Ansatz**: Sozial, Ökonomisch, Ökologisch (S-O-K).
+nachhaltigen Ansatz**: Sozial, Ökonomisch, ökologisch (S-O-K).
 
 ---
 
@@ -24,9 +24,9 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, Ökologisch (S-O-K).
 
 ### 1. Gefahren-Reduzierung (hazard reduction) / Gefahrenvermeidung
 
-- **Räumliche Planung:** Gefährdete Gebiete identifizieren (Risikokarten, Gefahrenzonen);
+- **räumliche Planung:** gefährdete Gebiete identifizieren (Risikokarten, Gefahrenzonen);
   Siedlungsschutz in Hoch-Risikogebieten beschränken/moratorium.
-- **Strukturelle Maßnahmen:** Deiche, Dämme, Hürden an Vulkan-Gefäßen, Lawinenabwehrwälle,
+- **strukturelle Maßnahmen:** Deiche, Dämme, Hürden an Vulkan-Gefäßen, Lawinenabwehrwälle,
   Überschwemmungsrückhaltung.
 - **Wasser-Management:** Rückhaltebecken, Regenwasser-Rückführung, Maßnahmen an Flussufern.
 - **Vulkan-Overwachung:** Seismische-stationen, Gasmessung, Satelliten (InSAR), Thermal-Bild;
@@ -36,26 +36,26 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, Ökologisch (S-O-K).
 ### 2. Vulnerabilitäts-Verringerung (exposition verringern)
 
 - **Bauvorschriften:** Hochwasser-resistente Gebäude, erhöhte Grundrisse, geeignete
-  Materialien (Asch-widerstandsfähi-ge against Vulkanasche).
+ Materialien (Asch-widerstandsfähi-ge against Vulkanasche).
 - **Evakuierungsplanung:** Evakuierungsrouten, -muster, -zeiten; Notfall-Kommunikation,
   vernetzte Warnsysteme.
 - **Information und Schulung:** Bevölkerung auffräen, Schulübungen, Infomaterial,
   Risikobewusstsein.
-- **Versicherungen, Rückstellungs:** Ökonomische Resilienz, Katastrophenversicherungen,
+- **Versicherungen, Rückstellungs:** ökonomische Resilienz, Katastrophenversicherungen,
   Rückstellung-Modell.
-- **Soziale Netze:** Gemeinschaftshilfe, benachrichtigungssystem, vulnerable-Gruppen-Schutz.
+- **soziale Netze:** Gemeinschaftshilfe, benachrichtigungssystem, vulnerable-Gruppen-Schutz.
 - **Wirtschaft-Diversifizierung:** Abhängigkeit von einem einzigen Sekotor verringern,
   für Regionen, die stark gefährdeter Ereignisse sind (z.B. Vulkan-Ausbruch →Wirtschaftsschwerpunkt
   zurückhaltend).
 
 ### 3. Anpassungsfähigkeit und Erholung (adaptive capacity + recovery)
 
-- **Monitoring und Monitoring-Ströme:** Langfristiges Monitoring (Gletscherkrümmung,
+- **Monitoring und Monitoring-Ströme:** langfristiges Monitoring (Gletscherkrümmung,
   Vulkan-Tätigkeit), Wiederherstellung.
 - **Anpassung an Klimawandel-Bedingungen:** im Gletscher-Land: Nassausgleich,
   rechtswaffen Wirtschaft (höhere Höhe, Wasserkraft).
 - **Back-up-System, Redundanz:** Kommunikation, Strom, Versorgung bei Ausfall.
-- **Nachhaltigkeit:** Keine Überlastung von Natur-Gewässer, ökologische
+- **Nachhaltigkeit:** keine Überlastung von Natur-Gewässer, ökologische
   Puffer (Auen, Wälder als Rückhalte).
 - **Lernen aus Ereignissen:** Kataster-Rekonstruktions, Vulnerabilitäts-Auswertungen,
   überarbeitete Pläne.
@@ -64,15 +64,15 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, Ökologisch (S-O-K).
 
 ## Nachhaltige Entwicklung als Kriterium
 
-Der Bildungsplan LK bringt die **BNE-Leitperspektive** ein. Maßnahmen zur Resilienz sollen
+Der Bildungsplan LK bringt die **BNE-Leitperspektive** ein. Maßnahmen zur ResilieNz sollen
 daher **nachhaltig sein** — d.h. nicht nur kurzfristig schützen, sondern auch
 den langfristigen Entwicklungsweg einer Gemeinde nicht gefährden.
 
 Beispiele für Konfliktpotentiale / Nachhaltigkeits-Komponente:
 
-- **Trend gegen Schutz vs. Anpassung:** Ein Wild-Deich schützt besser als hart,
-  aber kostspieliger; je nach Geldnet-Ökologie, Mauert + Naturschutz.
-- **Tourismus-Wirtschaft von glazial/rückzug:** Wenn Gletscher verschwinden, was dann
+- **Trend gegen Schutz vs. Anpassung:** ein Wild-Deich schützt besser als hart,
+  aber kostspieliger; je nach Geldnet-Ökologie, mauert + Naturschutz.
+- **Tourismus-Wirtschaft von glazial/rückzug:** wenn Gletscher verschwinden, was dann
   für Gemeinde? Strukturierung-Umstellung → Politik + Wirtschaft.
 - **Vulnerabilitätsprinzip:** Bevölkerung in gefährlichen Bereichen (Risiko-Selten) —
   Auswahl, Siedlungsentwicklung nicht dort.
@@ -109,3 +109,11 @@ Beispielbezug: [[vulnerabilitaet-raumbeispiele]] Raumbeispiele zu Vulkan + Glazi
 - [[vulnerabilitaet-raumbeispiele]] ← konkrete Räume
 - [[vulnerabilitaet-vulkanraume]] ← Vulkanräume speziell
 - [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext
+
+---
+## Bildmaterial
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Resilienz, Anpassung, Katastrophenschutz (Unsplash)](https://unsplash.com/s/photos/disaster-resilience)
+

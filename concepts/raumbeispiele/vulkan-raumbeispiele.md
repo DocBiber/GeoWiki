@@ -1,5 +1,5 @@
 ---
-title: Raumbeispiele — Vulkanismus (Geographie LK)
+title: Raumbeispiele — Vulkanismus (Geografie LK)
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -7,7 +7,7 @@ tags: [raumbeispiele, vulkanismus, vulkan-raumbeispiele]
 sources: []
 ---
 
-# Raumbeispiele — Vulkanismus (Geographie LK)
+# Raumbeispiele — Vulkanismus (Geografie LK)
 
 > Konkrete Länder, Vulkane und Regionen als Prüfungs- und Vergleichsgrundlage.
 > Jedes Beispiel enthält: Vulkan-Typ, geodynamischer Kontext, Hazard, Vulnerabilität, Resilienz.
@@ -21,7 +21,7 @@ sources: []
 | Merkmal | Angabe |
 |---|---|
 | Vulkan-Typ | Schichtvulkan (Strato vulkan) |
-| Geodynamik | Subduktionszone: Afrikanische Platte schiebt sich unter die Eurasische Platte (Kampanien-Graben) |
+| Geodynamik | Subduktionszone: Afrikanische Platte schiebt sich unter die eurasische Platte (Kampanien-Graben) |
 | Höhe | 1281 m (aktuell, nach 1944-Eruption) |
 | Letzte große Eruption | 1944 (heute aktivitätsarm, aber eingestuft als "bedroht") |
 | Provinz | Campania, Neapel-Naher |
@@ -36,7 +36,7 @@ sources: []
 ### Vulnerabilität
 
 **Physisch:**
-- Siedlungen direkt am Fuß des Vulkans (Torre del Greco, San Giorgio, Pompei, Herculaneum)
+- Siedlungen direkt am Fuß des Vulkans (Torre del Greco, San Giorgio, Pompeji, Herculaneum)
 - Geringe Höhenlage → affin für Lahare
 - Infrastruktur (Autobahn A3, S-Bahn, Flughafen Naples) in Gefahrenzone
 
@@ -102,7 +102,7 @@ sources: []
 - Notfallkommunikation (Sirene, SMS-Warnung, Medien)
 - Tourismusmanagement: Zugangskontrolle bei Gefährdung
 
-**Beurteilung:** Resilienz deutlich höher als bei Vesuv — geringere Bevölkerungsdichte, lokale Erfahrung, gut ausgebauter Überwachung. Effusive Glaubhaft → meist hinnehmbar. Effusive vs. explosive: geringer Schaden, aber Wirtschaft (Tourismus) ist vulkanis-abhängig.
+**Beurteilung:** Resilienz deutlich höher als bei Vesuv — geringere Bevölkerungsdichte, lokale Erfahrung, gut ausgebauter Überwachung. Effusive glaubhaft → meist hinnehmbar. Effusive vs. explosive: geringer Schaden, aber Wirtschaft (Tourismus) ist vulkanis-abhängig.
 
 ---
 
@@ -120,7 +120,7 @@ sources: []
 
 ### Hazard
 
-- **Verlängerte Gefahr**: Magmenzündung gestoppt, aber möglicherweise noch keine vollständige Deaktivierung
+- **verlängerte Gefahr**: Magmenzündung gestoppt, aber möglicherweise noch keine vollständige Deaktivierung
 - **Seismische Aktivität**: Bodenbeben in der Eifel (z.B. 2019, 2020 — unklar ob vulkanischen oder tektonisch)
 - **Gasemissionen**: CO₂-Ausstieg in der Eifel (Todesfall durch CO₂-Anhäufung in Mulden bekannt)
 
@@ -128,7 +128,7 @@ sources: []
 
 **Physisch:**
 - Das Nähe-Gebiet ist nicht so dicht bevölkert wie Vesuv (Eifel: ländliche Region, niedrige Bevölkerungsdichte)
-- Aber: Infrastruktur (A4/M5 Bundesautobahn,Bahnhöfe), kleine Orte
+- Aber: Infrastruktur (A4/M5 Bundesautobahn, Bahnhöfe), kleine Orte
 
 **Sozial:**
 - Bevölkerung ist kaum vulkanisch-vorerfahren → niedriges Gefahrenbewusstsein
@@ -142,7 +142,7 @@ sources: []
 - begrenzte Überwachung (Bodenwesen-Abteilung, geologen)
 - CO₂-Warnungen in bestimmten Bereichen
 - Bewusstseinsbildung / Schulung (vulkanische Vergangenheit der Eifel)
-- Raumplanung: kein großer Vulkan-faktor, aber ggf. lokale Regeln
+- Raumplanung: kein großer Vulkan-faktor, aber ggf. lokalE Regeln
 
 **Beurteilung:** Vulnerabilität moderat bis niedrig durch niedrige Bevölkerungsdichte, aber **hohe Informationsdefizite**. Die passive Überwachung ist unzureichend für vulkanische Gefahren. LK-Abitur: prägnantes Beispiel für "verdrängte Gefahr" durch fehlendes Bewusstsein.
 
@@ -162,7 +162,7 @@ sources: []
 
 ### Hazard
 
-- **Explosive Eruption 2010**: hohe Asche-Säule (→ Stratosphäre), feine Aschepartikel
+- **explosive Eruption 2010**: hohe Asche-Säule (→ Stratosphäre), feine Aschepartikel
 - **Aschewolke** über Europa: 100.000+ Flüge in Europa abgesagt, ca. 10 Millionen Reisende betroffen
 - **Jökulhlaup** (Gletscherflut): bei Ausbruch unter dem Eis schmilzt → Gutgraben-Entladung (2010: mehrere Wellen)
 
@@ -194,8 +194,8 @@ sources: []
 | **Vulkan-Typ** | Schichtvulkan | Schildvulkan (effusiv) | Maar / Caldera | Schichtvulkan (unter Gletscher) |
 | **Geodynamik** | Subduktion (Afrika unter Europa) | Hot Spot (Pazifik) | Intraplattformal (Eifel) | Hot Spot + MOR-Spreadung |
 | **Bevölkerungsdichte nahe Vulkan** | Sehr hoch (Kampanien, 3 Mio. in Gefahrenzone) | Moderat, lokal dicht | Gering (ländliche Eifel) | Gering (Island dünn besiedelt) |
-| **Haupthazards** | Explosion, Pyroklastische Ströme, Lahar, Asche | Effusive Lava, Gas (Vog), (selten explosionsvulkanisch) | CO₂, (möglicherweise) seismische Aktivität, kein aktueller Ausbruch | Explosive Asche, Jökulhlaup, trans-nationaler Flugbetrieb-Störung |
-| **Vulnerabilität** | Sehr hoch (Bevölkerungsdichte, Infrastruktur, Erfahrung) | Mittel (Tourismus-abhängig, lokale Siedlungen) | Gering, aber Informationsdefizit | Lokal gering, aber **transnational sehr hoch** (Luftverkehr) |
+| **Haupthazards** | Explosion, Pyroklastische Ströme, Lahar, Asche | Effusive Lava, Gas (Vog), (selten explosionsvulkanisch) | CO₂, (möglicherwEise) seismische Aktivität, kein aktueller Ausbruch | Explosive Asche, Jökulhlaup, trans-nationaler Flugbetrieb-Störung |
+| **Vulnerabilität** | Sehr hoch (Bevölkerungsdichte, Infrastruktur, Erfahrung) | Mittel (Tourismus-abhängig, lokale Siedlungen) | Gering, aber Informationsdefizit | Lokal gering, aber **trans-national sehr hoch** (Luftverkehr) |
 | **Resilienz** | Mittel (Überwachung, Evakuierungsplan, aber Bevölkerungsdruck) | Hoch (Observatorien, Lokalwissen, Evakuierung) | Gering bis moderat (begrenzte Überwachung, niedriges Bewusstsein) | Hoch lokal, aber keine Lösung für globale Luftverkehr-Vulnerabilität |
 | **Abitur-Beispiel** | Klassisch, "Vulnerabilität hoch" | "Effusiv vs. explosiv" Vergleich | "Verdrängte Gefahr", lokales Beispiel | "Transnationale Vulnerabilität, Infrastruktur-Resilienz" |
 
@@ -209,3 +209,11 @@ sources: []
 - **Eyafjöll**: "Transnationale Auswirkung" — Asche, Luftraum, Wirtschaft, globale Kette
 
 Verknüpfungen: [[vulnerabilitaet-vulkanraume]], [[vulkanprozesse]], [[vulnerabilitaet-begriffe]], [[bildungsplan-2016-lk]]
+
+---
+## Bildmaterial
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Vulkanlandschaften (Unsplash)](https://unsplash.com/s/photos/volcano-landscape)
+

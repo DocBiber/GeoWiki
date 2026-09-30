@@ -1,5 +1,5 @@
 ---
-title: Kompetenzen LK Geographie — Prozessbezogene und inhaltsbezogene Kompetenzen
+title: Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -7,7 +7,7 @@ tags: [kompetenzen, bildungsplan, abitur, lk]
 sources: []
 ---
 
-# Kompetenzen LK Geographie — Prozessbezogene und inhaltsbezogene Kompetenzen
+# Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen
 
 ## Einordnung
 
@@ -23,40 +23,40 @@ Der Bildungsplan definiert fünf prozessbezogene Kompetenzbereiche, die in allen
 
 ### 1. Orientierungskompetenz (OK)
 
-Fähigkeit, geographische Räume einzuordnen und Informationen aus geographischen Medien zu erschließen.
+Fähigkeit, geografische Räume einzuordnen und Informationen aus geografischen Medien zu erschließen.
 
 | Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
 |---|---|---|
 | **Orientierung im Raum** | Räume und ihre Strukturen lokalisieren, einordnen, vergleichen | Alpen vs. Norddeutsches Tiefland im Vergleich einordnen |
 | **Kartenkompetenz** | Informationskarten, Themenkarten, Satellitenbilder lesen und deuten | Reliefkarten einer Vulkanregion deuten |
-| **Medien nutzen** | Geographische Informationssysteme (GIS), Modelle, Diagramme nutzen | Gletscherretreat-Daten aus Satellitenbildern analysieren |
+| **Medien nutzen** | Geografische Informationssysteme (GIS), Modelle, Diagramme nutzen | Gletscherretreat-Daten aus Satellitenbildern analysieren |
 
 **LK-spezifisch:** Selbstständige Kartenerstellung, Analyse komplexer Kartenwerke, GIS-Einsatz in Schülerprojekten.
 
 ### 2. Analysekompetenz (AK)
 
-Fähigkeit, geographische Zusammenhänge zu erkennen, zu strukturieren und zu analysieren.
+Fähigkeit, geografische Zusammenhänge zu erkennen, zu strukturieren und zu analysieren.
 
 | Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
 |---|---|---|
 | **Erschließen** | Informationen aus verschiedenen Quellen erschließen und zusammenführen | Vulnerabilitätsdaten aus Statistiken + Karten erschließen |
 | **Analysieren** | Zusammenhänge erkennen, Ursache-Wirkung-Gefüge analysieren | Vulkanausbruch → Aschefall → landwirtschaftliche Folgen analysieren |
 | **Vergleichen** | Phänomene und Räume systematisch vergleichen | Vulkanismus vs. Glazialmorphologie prozessual vergleichen |
-| **Strukturieren** | Geographische Sachverhalte gliedern und strukturieren | Physische + sozioökonomische Faktoren einer Vulnerabilitätsanalyse gliedern |
+| **Strukturieren** | Geografische Sachverhalte gliedern und strukturieren | Physische + sozioökonomische Faktoren einer Vulnerabilitätsanalyse gliedern |
 
 ### 3. Urteilskompetenz (UK)
 
-Fähigkeit, geographische Aussagen und Maßnahmen zu beurteilen und zu bewerten.
+Fähigkeit, geografische Aussagen und Maßnahmen zu beurteilen und zu bewerten.
 
 | Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
 |---|---|---|
 | **Bewerten** | Sachverhalte, Handlungen und Maßnahmen unter Berücksichtigung von Kriterien bewerten | Resilienz-Maßnahmen am Vesuv: ausreichend oder kritisch? |
 | **Argumentieren** | Begründete Positionen entwickeln, Pro- und Contra-Argumente abwägen | Erörtern: Soll Tourismus in gefährdeten Vulkanregionen gefördert werden? |
-| **Kritisch reflektieren** | Eigene und fremde Urteile hinterfragen, Perspektiven wechseln | Nachhaltigkeitskriterien auf Vulnerabilitätsmaßnahmen anwenden |
+| **kritisch reflektieren** | Eigene und fremde Urteile hinterfragen, Perspektiven wechseln | NachhaltigkeitskRiterien auf Vulnerabilitätsmaßnahmen anwenden |
 
 ### 4. Handlungskompetenz (HK)
 
-Fähigkeit, Handlungsoptionen im geographischen Kontext zu entwickeln und zu beurteilen.
+Fähigkeit, Handlungsoptionen im geografischen Kontext zu entwickeln und zu beurteilen.
 
 | Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
 |---|---|---|
@@ -66,11 +66,11 @@ Fähigkeit, Handlungsoptionen im geographischen Kontext zu entwickeln und zu beu
 
 ### 5. Methodenkompetenz (MK)
 
-Fähigkeit, geographische Methoden angemessen anzuwenden.
+Fähigkeit, geografische Methoden angemessen anzuwenden.
 
 | Subkompetenz | Beschreibung | LK-Niveau-Beispiel |
 |---|---|---|
-| **Kartierung** | Themenkarten erstellen, kartographische Symbole anwenden | Vulnerabilitätskarte einer Vulkanregion erstellen |
+| **Kartierung** | Themenkarten erstellen, kartografische Symbole anwenden | Vulnerabilitätskarte einer Vulkanregion erstellen |
 | **Datenanalyse** | Quantitative Daten erheben, auswerten, interpretieren | Gletscherrückzug-Raten aus Zeitreihen berechnen |
 | **Modellbildung** | Einfache Modelle und Konstruktionen entwickeln | Modell der glazialen Serie skizzieren und erläutern |
 
@@ -78,7 +78,7 @@ Fähigkeit, geographische Methoden angemessen anzuwenden.
 
 ## Inhaltsbezogene Kompetenzen — Reliefsphäre (§3.5.2.1 LK)
 
-Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der Reliefsphäre".
+Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der Reliefsphäre“.
 
 ### Vulkanismus
 
@@ -96,7 +96,7 @@ Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der R
 |---|---|
 | **Gletscherformen** | Gletscherformen (Cirque, Trogtal, Moränen, Zungenbecken, Urstromtal, Sander) erkennen und charakterisieren |
 | **Glaziale Serie** | Die glaziale Serie (nach Penck) erklären und skizzieren |
-| **Moränentypen** | Moränen-Typen (Grundmoräne, Seitenmoräne, Endmoräne, Altmoräne, Jungmoräne) unterscheiden und zuordnen |
+| **Moränentypen** | Moränentypen (Grundmoräne, Seitenmoräne, Endmoräne, Altmoräne, Jungmoräne) unterscheiden und zuordnen |
 | **Permafrost** | Permafrost-Bedingungen, Thermokarst, Solifluktion, Geliturbation erklären und ihre Auswirkungen auf die Reliefbildung analysieren |
 | **Prozesse** | Exogene Prozesse (Abtrag, Akkumulation, Schmelzwasser-Erosion) bei Gletschern beschreiben |
 | **Raumbeispiele** | Glazialräume (z.B. Alpen/Aletschgletscher, Norddeutsches Tiefland, Island/Vatnajökull) beschreiben, Vulnerabilität bei Gletscherrückzug |
@@ -135,11 +135,11 @@ Die im Bildungsplan für das Abitur relevanten Operatoren:
 
 ## Quellen
 
-- Bildungsplan 2016 Gymnasium Geographie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2
-- LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK
+- Bildungsplan 2016 Gymnasium Geografie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2
+- LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2_IK_LK
 
 ---
 
 *Zu [[bildungsplan-2016-lk]] — übergeordnete Dokumentation des Bildungsplans.*
-*Zu [[vulnerabilitaet-begriffe]] — Vulnerabilitätskonzept im Detail.*
-*Zu [[exercises/abitur-aufgaben]] — Abitur-Aufgaben mit diesen Kompetenzen.*
+*zu [[vulnerabilitaet-begriffe]] — Vulnerabilitätskonzept im Detail.*
+*zu [[exercises/abitur-aufgaben]] — Abitur-Aufgaben mit diesen Kompetenzen.*

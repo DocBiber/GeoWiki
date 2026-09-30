@@ -3,7 +3,7 @@ title: Atmosphäre, Wetter und Klima — Grundlagen und Prozesse
 created: 2026-09-30
 updated: 2026-09-30
 type: concept
-tags: [atmosphaere, klima, wetter, prozesse, methodik]
+tags: [atmosphaere, klima, Wetter, prozesse, methodik]
 sources: []
 confidence: medium
 ---
@@ -12,20 +12,20 @@ confidence: medium
 
 ## Einleitung
 
-Die Atmosphäre ist die gasförmige Hülle der Erde und das Medium, in dem Wetter und Klima entstehen. Für den Geographie-LK sind drei Ebenen zentral:
+Die Atmosphäre ist die gasförmige Hülle der Erde und das Medium, in dem Wetter und Klima entstehen. Für den Geografie-LK sind drei Ebenen zentral:
 
 1. **Wetter** — der augenblickliche Zustand der Atmosphäre an einem Ort (kurzfristig, minuten- bis tagesakt)
 2. **Klima** — die langfristige Durchschnittswetterstatistik (Jahre bis Jahrzehnte)
 3. **Globale atmosphärische Prozesse** — die großräumigen Zirkulationsmuster, die das Klima der Erde steuern
 
-> Bezug zum Bildungsplan 2016 LK Geographie BW: Kap. 3.5.2.2 „Prozesse in der Atmosphäre" — SuS können die Dynamik lokaler und globaler atmosphärischer Prozesse erklären und in ihrer Ausprägung charakterisieren. Sie können für ausgewählte Lebensräume die ökologische Bedeutung des Klimas beurteilen.
+> Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.2.2 „Prozesse in der Atmosphäre“ — SuS können die Dynamik lokaler und globaler atmosphärischer Prozesse erklären und in ihrer Ausprägung charakterisieren. Sie können für ausgewählte Lebensräume die ökologische Bedeutung des Klimas beurteilen.
 
 ## Grundbegriffe
 
 ### Wetter vs. Witterung vs. Klima
 
 - **Wetter** (weather): Aktueller Zustand der Atmosphäre an einem Ort — Temperatur, Luftdruck, Wind, Niederschlag, Wolken. Läuft in Minuten bis Tagen ab.
-- **Witterung** (season/weather pattern): Die charakteristische Abfolge von Wetterlagen über eine Saison oder ein Jahr. Hängt von der geographischen Lage ab.
+- **Witterung** (season/weather pattern): Die charakteristische Abfolge von Wetterlagen über eine Saison oder ein Jahr. Hängt von der geografischen Lage ab.
 - **Klima** (climate): Statistischer Mittelwert des Wetters über lange Zeiträume (typisch 30 Jahre nach WMO). Klimaklassifikationen (z. B. Köppen-Geiger) ordnen Räume nach Temperatur und Niederschlag.
 
 ### Wetterfaktoren
@@ -41,15 +41,15 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 
 ### Adiabate Prozesse
 
-- **Trockenadiabatisch**: Temperaturabnahme trockener Luft bei Aufstieg (ca. 1°C/100 m); kein Kondensationswärmeeffekt
-- **Feuchtadiabatisch**: Temperaturabnahme feuchter Luft bei Aufstieg (ca. 0,6°C/100 m); Kondensation setzt latente Wärme frei, die Abkühlung wird milder
+- **Trockenadiabatisch**: Temperaturabnahme trockener Luft bei Aufstieg (ca. 1 °C/100 m); kein Kondensationswärmeeffekt
+- **Feuchtadiabatisch**: Temperaturabnahme feuchter Luft bei Aufstieg (ca. 0,6 °C/100 m); Kondensation setzt latente Wärme frei, die Abkühlung wird milder
 
 ## Lokale Wetterprozesse und Wetterlagen
 
 ### Wetterkarten und Satellitenbilder
 
 - **Bodenwetterkarte**: Zeigt isobaren, Hoch-/Tiefdruckgebiete, Fronten, Windrichtung und -stärke, Temperatur, Niederschlag am Boden
-- **Höhenwetterkarte**: Zeigt Zustände in einer bestimmten Höhe (z. B. 500 hPa-Ebene); wichtig für Vorhersage der großräumigen Strömung
+- **Höhenwetterkarte**: Zeigt Zustände in einer bestimmten Höhe (z. B. 500 hPa-Ebene); wichtig Für Vorhersage der großräumigen Strömung
 - **Satellitenbilder** (Infrarot, sichtbar, Wasserstrahlband): Zeigen Wolkenfelder, Großwetterlage, Fronten; IR zeigt Wolkenoberflächentemperatur (hohe Wolken = hell auf IR)
 
 ### Wetterlagen und Fronten
@@ -89,7 +89,7 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 
 ### Klima-Parameter und -Klassifikation
 
-- **Kontinentalität**: Grad der Abkehr von maritimer Modifikation; große Landmassen haben extreme Temperaturen (Kalte Winter, warme Sommer), Küsten mildere
+- **Kontinentalität**: Grad der Abkehr von maritimer ModifiKation; große Landmassen haben extreme Temperaturen (Kalte Winter, warme Sommer), Küsten mildere
 - **Maritimität**: Küstennahkeit, modifikatorischen Einfluss des Ozeans auf Temperatur und Niederschlag
 - **Gebirgsklima**: Höhenabhängigkeit (Temperaturabnahme mit Höhe, exponierte Lage), Regenschatteneffekt (Föhn auf Windabseite), lokale Windsysteme
 - **Meeresströmungen**: Transport von Wärme (z. B. Golfstrom → mildes Europa); auch kaltende Strömungen (Humboldt-Strom → Kostenliche Ergüssen)
@@ -121,14 +121,14 @@ Für den Abiturbezug (Kompetenz 3.5.2.2 (1)): SuS sollen lokale Wetterlagen anha
 **Praktischer Ablauf:**
 
 1. Bodenwetterkarte betrachten: Isobaren-Verlauf (→ Druckverteilung), Hoch-/Tiefdrucklage, Fronten (Einstichlinien mit Symbolen: Warmfront = Halbmond, Kaltfront = Dreieck, Okklusion = Kombination)
-2. Windrichtung und -stärke: Wind pfeift parallel zu Isobaren (gegen den Uhrzeigersinn um Tief in NH, mit Uhrzeigersinn um Hoch); Isobaren-Abstand gibt Windstärke an (enger = stärker)
+2. Windrichtung und -stärke: Wind pfeift parallel zu isobaren (gegen den Uhrzeigersinn um Tief in NH, mit Uhrzeigersinn um Hoch); Isobaren-Abstand gibt Windstärke an (enger = stärker)
 3. Temperaturfelder identifizieren: Warmseitige / kälteseitige Lagen; Fronten als Grenzlagen
 4. Satellitenbild: Wolkenstruktur erkennen — z. B. kreisende Wolken um Tiefdruckzentrum, Warmfront-Cloud-Banke, Kaltfront-Schauerfront; IR-Bilder zeigen Wolkenhöhe über Temperatur
 5. Prognose: System-Bewegung (Westwindzone: Tiefdrucksysteme wandern von West nach Ost), Frontfortschritt, Wolken-Auftakt
 
 ## Bezug zum Abitur (Bildungsplan-Kompetenzen)
 
-- **3.5.2.2 (1)**: Lokale Wetterlagen anhand von Wetterkarten und Satellitenbildern erklären — Wetterkarten lesen, Fronten erkennen, Wettervorhersage erstellen
+- **3.5.2.2 (1)**: Lokale Wetterlagen anhand von Wetterkarten und SatellitenbildeRn erklären — Wetterkarten lesen, Fronten erkennen, Wettervorhersage erstellen
 - **3.5.2.2 (2)**: Klimate als Folge solarer Einstrahlung und atmosphärischer Prozesse erklären — globale Zirkulation, ITCZ, Passat, Monsun, Coriolis, Jetstream, außertropische Westwindzone, Kontinentalität, Maritimität, Meeresströmungen, Gebirgsklima
 - **3.5.2.2 (5)**: Spezifisches Klima eines Lebensraums (Hochgebirge oder Wüste) erklären — Höhenstufen, Baumgrenze, Schneegrenze, Berg-Tal-Wind, Föhn, Wüstenklima
 

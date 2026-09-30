@@ -1,5 +1,5 @@
 ---
-title: Raumbeispiele — Glazialmorphologie (Geographie LK)
+title: Raumbeispiele — Glazialmorphologie (Geografie LK)
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -7,7 +7,7 @@ tags: [raumbeispiele, glazialmorphologie, glazial-raumbeispiele]
 sources: []
 ---
 
-# Raumbeispiele — Glazialmorphologie (Geographie LK)
+# Raumbeispiele — Glazialmorphologie (Geografie LK)
 
 > Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage.
 > Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz.
@@ -31,7 +31,7 @@ sources: []
 - **Kar (Cirque)**: Mehrere Kär am Kopf des Gletschers (z.B. "Konkordiaplatz" — Zunge-Zusammenführung)
 - **Seitenmoräne**: An den Gletscherseiten erkennbar (Höhenzüge, Felsen)
 - **Zungenbecken**: Am Gletscherende (Aletsch-Fuß, aktuell ca. 2400 m ü. M.)
-- **Endmoräne-Vorfahren**: Ältere Endmoränen in der Talebene (z.B. "Unterer Aletsch" — alte Endmoränen)
+- **Endmoräne-Vorfahren**: ältere Endmoränen in der Talebene (z.B. "Unterer Aletsch" — alte Endmoränen)
 - **Glaziale Serie**: Ideal beobachtbar in der umliegenden Landschaft (Talstufen, Sandr-Reflexe)
 
 ### Prozesse
@@ -40,7 +40,7 @@ sources: []
 - **Transport**: Material wird durch den Gletscher transportiert (Ende der Eiszeit zurückgelassen als Moränen)
 - **Akkumulation**: Schnee in den Zehrgebieten (>2400 m) → Firn → Eis → Gletscher
 - **Gleichgewichtslinie**: Aktuell ca. 3800 m (Aletsch) — unterhalb: Schmelze > Akkumulation
-- **Gletscherrückzug**: Seit Ende der Kleinen Eiszeit (1850) kontinuierlicher Rückzug — aktuell ca. 50–70 m/Jahr
+- **Gletscherrückzug**: Seit Ende der kleinen Eiszeit (1850) kontinuierlicher Rückzug — aktuell ca. 50–70 m/Jahr
 
 ### Vulnerabilität
 
@@ -60,7 +60,7 @@ sources: []
 - **Gletscherüberwachung**: Schweizer Gletscherkommission (GLAMOS), Messungen, Satelliten-Observationen
 - **Pisten-Sicherung**: Lawinen-Abfanganlagen, Schnee-Überwachung, Abschneideprogramme an Alpengletscher-Gleitbahnen
 - **Abstieg**: Abstieg von Gletschergipfeln (z.B. Ski-Pisten an Aletsch-Gletscher)
-- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternativer Tourismus), Hütten-Nachhaltigkeit
+- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternAtiver Tourismus), Hütten-Nachhaltigkeit
 - **Wasser-Management**: Aufbereitung von Schmelzwasser (Trinkwasser, Landwirtschaft, Strategie für hartnäckigen Zustand)
 
 **Beurteilung (LK):** Resilienz hoch für lokal bewohnte Gebiete, aber **wirtschaftliche Vulnerabilität** durch Gletscherrückzug steigend (Tourismus, Wasserreservoir). Nachhaltigkeit: Strukturwandel notwendig.
@@ -79,7 +79,7 @@ sources: []
 
 ### Glaziale Formen (im Landesverlauf)
 
-- **Urstromtäler**: Besonders bekannt: **Berliner Urstromtal** (Havelland, Spree-Spreewald-Gebiet), **Elbe-Ästungen**, **Meklenburger Urstromtal**, **Emsland** — Weitläufige, flache Talböden
+- **Urstromtäler**: Besonders bekannt: **Berliner Urstromtal** (Havelland, Spree-Spreewald-Gebiet), **Elbe-Ästungen**, **Meklenburger Urstromtal**, **Emsland** — weitläufige, flache Talböden
 - **Endmoränen**: "Havelländer Endmoräne", "Baden-Württemberg-Endmoränen", "Rügen-Moräne", Dünenlinien
 - **Sander**: Schotterfelder an den Endmoränenzäunen (z.B. Fläming-Sandr, Lüneburger-Heck-Sandr)
 - **Löss**: Löss-Decken in Mitteleuropa (z.B. an den Flüssen Elbe, Weser, Oder) — windgetragen von Schmelzflächen der Eisgrenze
@@ -104,9 +104,9 @@ sources: []
 - **Grundwassermanagement**: Quantitative Nutzung, Schutz-Flächen, Wasserschutzgebiete
 - **Löss-Erosionsschutz**: nachhaltige Landwirtschaft, Decking, Waldbau (Wiederaufforstung)
 - **Hochwasserschutz**: Deiche, Rückhaltung (z.B. "Elbe-Hochwasserschutz"), Hochwasser-Planung (Rückhaltung im Gelände)
-- **Raumplanung**: Konstruktive Nutzung, wertvolle Böden schützen, Lössdecken erhalten
+- **Raumplanung**: Konstruktive Nutzung, wertvolle Böden schützen, Löss-Decken erhalten
 
-**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher Vulnerabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
+**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher VulneRabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
 
 ---
 
@@ -127,7 +127,7 @@ sources: []
 - **Moränen**: an Gletscherrändern (Seitenmoränen, Endmoränen, Sander)
 - **Urstromtäler**: Schmelzwasser-Täler, oft bleiben trocken (z.B. Skeiðará, Skaftá)
 
-### Vulkan × Glazial Interaktion
+### Vulkan × glazial Interaktion
 
 - **Jökulhlaup** (isländisch = "Gletscherflutung"): Ein Vulkanausbruch unter dem Gletscher schmilzt Eis → Wasser + Asche → Lawine-Flut
   - 1996: Gjálp-Eruption (Vatnajökull) → 400 Mio. m³ Wasser, Skeiðarársandur (Sandur) überschwemmt, Highway 1 (Ringstraße) beschädigt
@@ -164,9 +164,9 @@ sources: []
 
 ## 4. Vergleichstabelle: Glazial-Raumbeispiele
 
-| Kriterium | Alpen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
+| Kriterium | AlPen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
 |---|---|---|---|
-| **Landschaftstyp** | Alpengletscher / Talgletscher | Ehemaliges Inlandeis-Gelände (Relikt) | Vulkan × Glazial Gegenwart |
+| **Landschaftstyp** | Alpengletscher / Talgletscher | Ehemaliges Inlandeis-Gelände (Relikt) | Vulkan × glazial Gegenwart |
 | **Haupt-Formen** | Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen | Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne | Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen |
 | **Gegenwartige Aktivität** | Gletscherrückzug, Schmelze, Abrasion | Statisch (Relikt-Landschaft, keine aktive Eisbewegung) | Aktive Gletscher + aktive Vulkane + Jökulhlaup-Ereignisse |
 | **Hauptgefahren** | Gletscherlawinen, Felssturz, Jökulgare-Abfluss (GLOF) | Grundwasser-Verschmutzung, Löss-Erosion, Hochwasser | Jökulhlaup, Asche, Lava, Lahare, Flugstörung |
@@ -178,8 +178,22 @@ sources: []
 
 ## Raumbeispiele — Hinweise für LK-Abitur
 
-- **Alpen-Gletscher**: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)
+- **Alpengletscher**: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)
 - **Norddeutsches Tiefland**: "Sekundäre Vulnerabilität" (durch Nutzung, nicht durch Natur direkt) — Löss, Grundwasser, Hochwasser/Klimawandel
 - **Island**: "Vulkan × Glazial" — einmaliges Beispiel für Prozess-Interdependenzen (§3.5.2.1), Jökulhlaup als Gefahrenprozess, gute Überwachung aber begrenzte Kontrolle
 
 Verknüpfungen: [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[permafrost-und-solifluktion]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[bildungsplan-2016-lk]]
+
+---
+## Bildmaterial
+
+### 🖼️ Bild (Wikimedia Commons)
+
+![Fjord in Norwegen – glaziale Erosion (CC BY-SA)](https://commons.wikimedia.org/wiki/File:Fjord_Romund-Oome_Fjord_Norway.jpg)
+
+*Quelle: Fjord in Norwegen – glaziale Erosion (CC BY-SA)*
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Gletscher und glaziale Landschaften (Unsplash)](https://unsplash.com/s/photos/glacier)
+

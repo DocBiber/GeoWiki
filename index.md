@@ -1,21 +1,21 @@
-# Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)
+# Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)
 
-> Persönliche Wissensbasis zu Geographie im Leistungskurs an Gymnasien in Baden-Württemberg,
+> Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg,
 > ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).
-> Domain: Physische Geographie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
+> Domain: Physische Geografie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
 > Letztes Update: 2026-09-30 | Gesamtseiten: 24
 
 ## BILDUNGSPLAN-RAHMEN
 
 - [[bildungsplan-2016-lk]]
-- [[kompenenzen-lk]] — Bildungsplan 2016 Leistungskurs Geographie Baden-Württemberg (Übersicht)
-- - [[abitur-ubersicht-lk]] — Abiturformat LK Geographie BW (Anforderungen, Operatoren, Beispiele)
+- [[kompenenzen-lk]] — Bildungsplan 2016 Leistungskurs Geografie Baden-Württemberg (Übersicht)
+- - [[abitur-ubersicht-lk]] — Abiturformat LK Geografie BW (Anforderungen, Operatoren, Beispiele)
 
 ## VULKANSISMUS (Formen und Prozesse)
 
 - [[vulkansimus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
 - [[vulkanarten]] — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot
-- [[vulkanprozesse]] — Explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren
+- [[vulkanprozesse]] — explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren
 
 ## GLAZIALMORPHOLOGIE (Formen und Prozesse)
 
@@ -31,10 +31,20 @@
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume (Vesuv, Island, Eifel, Hawaii)
 - [[resilienz-massnahmen]] — Maßnahmen zur Stärkung der Resilienz, nachhaltige Entwicklung, Gefahrenreduzierung
 
+## BODEN & WASSER (3.5.2.1 + 3.5.2.4)
+
+- [[boden-und-boden]] — Boden: Bodenhorizont, Bodenarten, Bodentypen, Bodenentstehung, Bodenschutz, Landschaftsökologie
+- [[wasserhaushalt]] — Wasserhaushalt: Komponenten, Wasserhaushalts-Gleichung, Einflüsse, anthropogene Veränderungen, Hochwasser/Trockenheit
+
 ## ATMOSPHÄRE & KLIMA (3.5.2.2)
 
 - [[atmosphaere-wetter-klima]] — Atmosphäre, Wetter und Klima: Grundlagen, Wetterkarten, globale Zirkulation, Klimatypen, Hochgebirge/Wüste
 - [[klimawandel]] — Klimawandel: Ursachen, Dimensionen, Auswirkungen im Erden-System, Anpassungsstrategien, Klimaschutz (3.5.3.2)
+
+## GEOGRAPHISCHE METHODEN
+
+- [[methoden-gis-fernerkundung]] — GIS, Fernerkundung, Kartographie: Geographische Methoden für Datenanalyse, Satellitenbilder, Kartenerstellung
+- [[stadtgeographie]] — Stadtgeographie: Urbanisierung, Stadtstruktur, Stadtprobleme, Stadtplanung, Nachhaltige Stadtentwicklung
 
 ## GLOBALISIERUNG & ENTWICKLUNG (3.5.2.6 + 3.5.3.4)
 
@@ -50,7 +60,7 @@
 
 ## SKIZZEN (Zeichenvorlagen für Abitur)
 
-- [[uebersicht-skizzen]] — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema
+- [[uEbersIcht-skizzen]] — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema
 
 ## VERGLEICHE
 

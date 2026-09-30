@@ -12,13 +12,13 @@ confidence: high
 
 ## Überblick
 
-Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbesondere die beobachtete globale Erwärmung des 20. und 21. Jahrhunderts. Für den Geographie-LK sind drei Aspekte zentral:
+Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbesondere die beobachtete globale Erwärmung des 20. und 21. Jahrhunderts. Für den Geografie-LK sind drei Aspekte zentral:
 
-1. **Ursachen und Dimensionen** — Was treibt den Klimawandel an? Wie groß ist der menschengemachte Anteil?
-2. **Auswirkungen auf das Erden-System** — Wie wirkt sich der Klimawandel auf verschiedene Komponenten (Atmosphäre, Ozean, Biosphäre, Kryosphäre, Reliefformen) aus?
-3. **Maßnahmen und Anpassungsstrategien** — Wie wird gesteuert (Klimaschutz) und wie passt man sich an (Anpassung), unter dem Ziel nachhaltiger Entwicklung?
+1. **Ursachen und Dimensionen** — was treibt den Klimawandel an? Wie groß ist der menschengemachte Anteil?
+2. **Auswirkungen auf das Erden-System** — wie wirkt sich der Klimawandel auf verschiedene Komponenten (Atmosphäre, Ozean, Biosphäre, Kryosphäre, Reliefformen) aus?
+3. **Maßnahmen und Anpassungsstrategien** — wie wird gesteuert (Klimaschutz) und wie passt man sich an (Anpassung), unter dem Ziel nachhaltiger Entwicklung?
 
-> Bezug zum Bildungsplan 2016 LK Geographie BW: Kap. 3.5.3.2 „Globale Herausforderung: Klimawandel" — SuS können Auswirkungen des Klimawandels im System Erde beurteilen.
+> Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.3.2 „Globale Herausforderung: Klimawandel“ — SuS können Auswirkungen des Klimawandels im System Erde beurteilen.
 
 ## Ursachen und Dimensionen (Kompetenz 3.5.3.2 (1))
 
@@ -26,7 +26,7 @@ Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbes
 
 - Die Erde empfängt kurzwellige Sonnenstrahlung; ein Teil wird reflektiert (Albedo), ein Teil absorbiert und als langwellige Wärmestrahlung abgegeben
 - Bestimmte Gase in der Atmosphäre — **Treibhausgase (THG)**: Wasserdampf, CO₂, Methan (CH₄), Lachgas (N₂O), Ozon (O₃), Fluorgase — absorbieren langwellige Wärme und senden sie in alle Richtungen zurück, u. a. zur Erde
-- Ohne den natürlichen Treibhauseffekt wäre die globale Durchschnittstemperatur ca. -18°C statt dem aktuellen +15°C → Leben, wie wir es kennen, wäre nicht möglich
+- Ohne den natürlichen Treibhauseffekt wäre die globale Durchschnittstemperatur ca. -18 °C statt dem aktuellen +15 °C → Leben, wie wir es kennen, wäre nicht möglich
 
 ### Der anthropogene Treibhauseffekt (menschengemacht)
 
@@ -40,11 +40,11 @@ Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbes
 
 Gemessen wird der Klimawandel an mehreren Indikatoren:
 
-- **Globale Durchschnittstemperatur** — Anstieg über historische Niveaus; besonders starke Erwärmung an Land, im Arktisbereich, in der Lithosphäre
+- **globale Durchschnittstemperatur** — Anstieg über historische Niveaus; besonders starke Erwärmung an Land, im Arktisbereich, in der Lithosphäre
 - **Treibhausgaskonzentrationen** — CO₂-Konzentration in der Atmosphäre stieg von ca. 280 ppm vor der Industrialisierung auf über 420 ppm (2020s)
 - **Meeresspiegelanstieg** — Thermalausdehnung (wärmeres Wasser dehnt sich aus) + Schmelzen von Landeis (Gletscher, Grönland, Antarktis)
 - **Veränderungen im Kryosphäre**: Gletscherschmelze, Meereisrückgang, Permafrosttauen
-- **Extremereignisse**: Hitzewellen, Dürren, Starkregenereignisse, Hurrikane/Tyfone (stärker werdend oder häufiger?)
+- **Extremereignisse**: HitZewellen, Dürren, Starkregenereignisse, Hurrikane/Tyfone (stärker werdend oder häufiger?)
 - **Ozeanversauerung**: CO₂ löst sich im Ozean → Bildung von Kohlensäure → pH-Wert sinkt → Folgen für Kalkschalentiere (korall, Muscheln, Plankton)
 
 ## Auswirkungen im Erden-System
@@ -85,19 +85,19 @@ Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander ve
 ### Klimaschutz (Mitigation) — Reduktion der Treibhausgase
 
 **Auf internationaler Ebene:**
-- **Klimaziele**: Pariser Abkommen (2015) — Ziel, globale Erwärmung auf deutlich unter 2°C zu begrenzen, beständig anzustreben 1,5°C; Nationale Beiträge (NDCs) der Staaten
-- **Klimaschutzabkommen**, internationale Klimarahmenkonvention (UNFCCC), COP-Treffen (Conference of the Parties)
+- **Klimaziele**: Pariser Abkommen (2015) — Ziel, globale Erwärmung auf deutlich unter 2 °C zu begrenzen, beständig anzustreben 1,5 °C; nationale Beiträge (NDCs) der Staaten
+- **Klimaschutzabkommen**, internationale Klimarahmenkonvention (UNFCCC), COP-Treffen (Conference of the Partys)
 
 **Auf nationaler Ebene:**
 - CO₂-Reduktionsziele (Deutschland: Klimaneutralität bis 2045, Zwischenziele)
 - **Reduktion der Treibhausgase**: Energieerzeugung von fossilen auf erneuerbare Energien (Wind, Solar, Wasser, Geothermie, Biomasse), Energieeffizienz, elektrischer Verkehr, CO₂-Preise (EU-ETS, nationale CO₂-Bepreisung)
 - **Kohlenstoffdioxid-Senke**: Speicherung und Bindung von CO₂
 
-  - **Natürliche Senken**: Wälder (Aufbau von Biomasse, Schutz bestehender Wälder), Ozeane (Phytoplankton), Böden (Humusaufbau, Moore schützen)
+ - **natürliche Senken**: Wälder (Aufbau von Biomasse, Schutz bestehender Wälder), Ozeane (Phytoplankton), Böden (Humusaufbau, Moore schützen)
   - **Technische Senken**: CO₂-Abscheidung und -Speicherung (CCS — Carbon Capture and Storage), Direktluftabscheidung (DAC)
 
 **Auf lokaler Ebene:**
-- Energieeffizienz in Gebäuden, Stadtplanung (Klimaanpassung: Hitze reduzieren durch Grünflächen, Albedo, Lüftungsgänge), Mobilitätswende
+- Energieeffizienz in Gebäuden, Stadtplanung (Klimaanpassung: HitZe reduzieren durch Grünflächen, Albedo, Lüftungsgänge), Mobilitätswende
 
 ### Anpassungsstrategien (Adaptation)
 
@@ -105,7 +105,7 @@ Anpassung an die bereits eingetretenen und unvermeidbaren Folgen des Klimawandel
 
 - **Hochwasserschutz**: Deiche, Rückhalteräume, Räumung von Flussauen, nachhaltige Landnutzung
 - **Trockenheits- und Hitzeanpassung**: Bewässerungseffizienz, trockenresistente Kulturpflanzen, Stadtgestaltung (Schatten, Grün, Albedo)
-- **Küstenschutz**: Deiche, Wellenbrecher, Mangroven (natürliche Küstenabsicherung), Rückzug aus gefährdeten Zonen („managed retreat")
+- **Küstenschutz**: Deiche, Wellenbrecher, Mangroven (natürliche Küstenabsicherung), Rückzug aus gefährdeten Zonen („managed retreat“)
 - **Landwirtschaft**: Anpassung der Anbauzeiten, Sortenwahl, Bewässerung, Agroforst, Bodenverbesserung
 - **Gesundheit**: Hitzewarnungen, Anpassung des Gesundheitssystems an Hitzebelastung und vektorübertragene Krankheiten
 
@@ -124,7 +124,7 @@ Die Bewertung von Maßnahmen und Anpassungsstrategien nach Maßstabsebenen:
   - Solare Strahlung management (z. B. Aerosol-Injektion in der Stratosphäre zur Reflexion von Sonnenlicht — kontrovers, unvorhersehbare Nebenwirkungen)
   - CO₂-Entfernung (CCS, DAC, Biochar, verstärkte Wetterung)
   - Ozeanversauerungs-Bekämpfung
-- **Kontroverse**: Risiken, unerwartete Folgen, ethische Fragen, „Moral Hazard" (dass Geo-Engineering als Ausweg von Klimaschutz gesehen wird, der andere Prioritäten vernachlässigt)
+- **Kontroverse**: Risiken, unerwartete Folgen, ethische Fragen, „Moral Hazard“ (dass Geo-Engineering als Ausweg von Klimaschutz gesehen wird, der andere Prioritäten vernachlässigt)
 
 ## Nachhaltigkeit als Bewertungsrahmen
 
@@ -132,8 +132,8 @@ Nachhaltige Entwicklung (nach Brundtland-Bericht, 1987): Entwicklung, die die Be
 
 Im Klimawandel-Kontext bedeutet das:
 
-- **Klimaschutz und nachhaltige Entwicklung sind verzahnt**: Reduktion der THG, Erhalt der Ökosysteme, soziale Gerechtigkeit (Klimajustiz: wer ist betroffen? wer hat am meisten verursacht?)
-- **SDGs (Sustainable Development Goals)**: 17 globale Ziele der UN (2015–2030), darunter Ziel 13 „Klimaaction" — eng verknüpft mit Energie, Wasser, Landnutzung, Gerechtigkeit
+- **Klimaschutz und nachhaltige Entwicklung sind verzahnt**: Reduktion der THG, Erhalt der Ökosysteme, soziale Gerechtigkeit (Klimajustiz: wer ist betroffen? Wer hat am meisten verursacht?)
+- **SDGs (Sustainable Development Goals)**: 17 globale Ziele der UN (2015–2030), darunter Ziel 13 „Klimaaction“ — eng verknüpft mit Energie, Wasser, Landnutzung, Gerechtigkeit
 
 ## Verwandte Seiten
 
@@ -147,3 +147,11 @@ Im Klimawandel-Kontext bedeutet das:
 
 - Welche aktuellen Zahlen (IPCC AR6, globale Temperatur, CO₂-Konzentration, Meeresspiegel, Gletscherverlust) für Abituraufgaben?
 - Wie konkret können Anpassungsbeispiele (z. B. deutsche Kommunen, Länder) im Abitur geübt werden?
+
+---
+## Bildmaterial
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung (Unsplash)](https://unsplash.com/s/photos/global-warming)
+

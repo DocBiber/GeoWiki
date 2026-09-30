@@ -1,5 +1,5 @@
 ---
-title: Skizzen — Geographie LK (Zeichenvorlagen)
+title: Skizzen — Geografie LK (Zeichenvorlagen)
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -7,7 +7,7 @@ tags: [skizzen, methodik, abitur]
 sources: []
 ---
 
-# Skizzen — Geographie LK (Zeichenvorlagen)
+# Skizzen — Geografie LK (Zeichenvorlagen)
 
 > Zeichenvorlagen für Skizzen im Abitur / Unterricht.
 > Jede Skizze wird als textbasierte Zeichenanleitung + Schülererläuterungen geliefert.
@@ -23,41 +23,41 @@ sources: []
                          SCHÜTTRICHTUNG (Eisstrom-Richtung)
                          ↓ (Gletscher fließt von oben nach unten auf dieser Seite)
 
-    [HOCHBERG / ZERGREGBIET]  ← Gletscher wird geboren (Schnee, Firn)
+ [HOCHBERG / ZERGREGBIET] ← Gletscher wird geboren (Schnee, Firn)
               │
-              │  Talgletscher fließt abwärts
+              │ Talgletscher fließt abwärts
               │
               ▼
     ╔═════════════════════════════════╗
-    ║         TROG TAL                ║  ← U-förmiges Tal, glazial erodiert
-    ║  ╱‾‾‾‾‾‾‾‾‾╲                    ║
-    ║ ╱            ╲  ◄── steile Wand ║
-    ║╱              ╲╱                 ║
+    ║ TROG TAL ║ ← U-förmiges Tal, glazial erodiert
+    ║ ╱‾‾‾‾‾‾‾‾‾╲ ║
+    ║ ╱ ╲ ◄── steile Wand ║
+    ║╱ ╲╱ ║
     ╚═════════╤══════╤════════════════╝
-              │      │   ↑
-              │      └───┼── Endmoräne (junges Endmoränenkamm)
-              │          │   ── schräg verlaufend
-              ▼          ▼
+              │ │ ↑
+              │ └───┼── Endmoräne (junges Endmoränenkamm)
+              │ │ ── schräg verlaufend
+              ▼ ▼
     ╔═════════╧════════╧═══════════════╗
-    ║      ZUNGENBECKEN                ║  ← Mulde am Gletscherende, oft tief,
-    ║   ( oft mit See gefüllt )        ║     rund, abgerundete Rand
+    ║ ZUNGENBECKEN ║ ← Mulde am Gletscherende, oft tief,
+    ║ (oft mit See gefüllt) ║ rund, abgerundete Rand
     ╚══════════════════╤═══════════════╝
                        │
-                       ▼  Richtung: Eis war bis hier vorgedrungen
-    ╔══════════════════╧══════════════════════════════╗
-    ║        ENDMORAÑEN-GÜRTEL (halbrunder Bogen)      ║  ← letzte Gletscherausdehnung
+                       ▼ Richtung: Eis war bis hier vorgedrungen
+ ╔══════════════════╧══════════════════════════════╗
+    ║ ENDMORAÑEN-GÜRTEL (halbrunder Bogen) ║ ← letzte Gletscherausdehnung
     ╚════════════════════╤════════════════════════════╝
                        │
                        ▼
     ╔══════════════════╧══════════════════════════════╗
-    ║       SANDER / SANDER (Schotterfeld)             ║  ← vor dem Endmoränengürtel,
-    ║   (gerundete Felder, Kiese, Blöcke)             ║     von Schmelzwasser aufgestaut
+    ║ SANDER / SANDER (Schotterfeld) ║ ← vor dem Endmoränengürtel,
+    ║ (gerundete Felder, Kiese, Blöcke) ║ von Schmelzwasser aufgestaut
     ╚══════════════════╤═══════════════════════════════╝
                        │
-                       ▼  (Weites Tal, Schmelzwasser-Linie)
+                       ▼ (Weites Tal, Schmelzwasser-Linie)
     ╔══════════════════╧═══════════════════════════════╗
-    ║          URROMSTAL (längliches Tal)              ║  ← Schmelzwasser-Rinn,
-    ║   (oft weit, flach, Talboden eben)              ║     trägt ab, weit ausgedehnt
+    ║ URROMSTAL (längliches Tal) ║ ← Schmelzwasser-Rinn,
+    ║ (oft weit, flach, Talboden eben) ║ trägt ab, weit ausgedehnt
     ╚══════════════════╤═══════════════════════════════╝
                        │
                        ▼
@@ -71,7 +71,7 @@ sources: []
 - Endmoräne (Jungmoräne)
 - Sander / Sandr
 - Urstromtal
-- Eisstromrichtung (Pfeil)
+- Eisstrom-Richtung (Pfeil)
 - Gletscherzunge (Verlängerung)
 - Oder: Alt-Endmoräne (ältere Stufe) — ggf. zusätzlich
 
@@ -87,24 +87,24 @@ sources: []
 ### A. Schichtvulkan (Strato vulkan)
 
 ```
-                ⋂  (Asche-Schicht)
-              ╱‾‾‾╲
-             ╱      ╲  ◄── eine Schicht (Lava-Schicht, hell)
-            ╱  ▲     ╲
-           ╱   │      ╲
-          ╱    │       ╲
-         ╱     │        ╲
-        ╱      │         ╲
-       ╱       │          ╲
-      ╱        │           ╲
-     ╱   ★     │            ╲   ◄── ★ = Krater / Spalte
-    ╱    │     │             ╲
-   ╱     │     │              ╲
-  ╱      │     │               ╲
- ╱       ▼     ▼                ╲
+                ⋂ (Asche-Schicht)
+ ╱‾‾‾╲
+             ╱ ╲ ◄── eine Schicht (Lava-Schicht, hell)
+            ╱ ▲ ╲
+           ╱ │ ╲
+          ╱ │ ╲
+         ╱ │ ╲
+        ╱ │ ╲
+       ╱ │ ╲
+      ╱ │ ╲
+ ╱ ★ │ ╲ ◄── ★ = Krater / Spalte
+    ╱ │ │ ╲
+   ╱ │ │ ╲
+  ╱ │ │ ╲
+ ╱ ▼ ▼ ╲
 ╱_____________________________╲
          ▼
-(오) ↓ Lavastrom  (effusiv)
+(오) ↓ Lavastrom (effusiv)
 ```
 
 **Beschriftung:**
@@ -114,27 +114,27 @@ sources: []
 - Flanke (steil, 30–35°)
 - Magma-Kammer (unterirdisch, unten)
 
-**Eruptionstyp:** Oft explosionsvulkanisch (Gase eingeschlossen, druckaufbau), mit Tephra, Asche.
+**Eruptionstyp:** oft explosionsvulkanisch (Gase eingeschlossen, druckaufbau), mit Tephra, Asche.
 
 ---
 
 ### B. Schildvulkan
 
 ```
-              ╱                                            ╲
-             ╱                                              ╲
-            ╱                                                ╲
-           ╱                                                  ╲
-          ╱                                                    ╲
-         ╱                                                      ╲
-        ╱                                                        ╲
-       ╱                                                          ╲
-      ╱                    (flach, 2–10°)                         ╲
-     ╱                                                              ╲
-    ╱                                                                ╲
-   ╱                                                                   ╲
-  ╱                                                                     ╲
- ╱                                                                       ╲
+              ╱ ╲
+             ╱ ╲
+            ╱ ╲
+           ╱ ╲
+          ╱ ╲
+         ╱ ╲
+        ╱ ╲
+       ╱ ╲
+      ╱ (flach, 2–10°) ╲
+     ╱ ╲
+    ╱ ╲
+ ╱ ╲
+  ╱ ╲
+ ╱ ╲
 ╱═════════════════════════════════════════════════════════════════════════╲
                             ★ Krater / Spalte
                         ◄── Lavastrom (effusiv, fließend)
@@ -155,20 +155,20 @@ sources: []
 
 ```
        ╔══════════════════════╗
-       ║   OLD VOLCANO PEAK   ║  ← vor dem Ausbruch
-       ║    (laut hoch)       ║
+       ║ OLD VOLCANO PEAK ║ ← vor dem Ausbruch
+       ║ (laut hoch) ║
        ╚══════════╤═══════════╝
-                  │  │
-                  │  └── ★ Krater
-                  │      │ (Magma austritt)
-                  ▼      ▼
+                  │ │
+                  │ └── ★ Krater
+                  │ │ (Magma austritt)
+                  ▼ ▼
                ╔════════╧════════╗
-               ║    CALDERA       ║  ← große kreisförmige Einsenkung
-               ║   (Kessel)       ║     (nach massiver Entfernung Magma-Raum)
-               ║                  ║
-               ║     ┌──────┐     ║
-               ║     │ SEE  │     ║  ← oft gefüllt
-               ║     └──────┘     ║
+               ║ CALDERA ║ ← große kreisförmige Einsenkung
+               ║ (Kessel) ║ (nach massiver Entfernung Magma-Raum)
+               ║ ║
+               ║ ┌──────┐ ║
+               ║ │ SEE │ ║ ← oft gefüllt
+               ║ └──────┘ ║
                ╚══════════════════╝
 ```
 
@@ -184,14 +184,14 @@ sources: []
 
 ```
         ┌─────────────────────────┐
-        │  RINGFÖRMIGE MULD E     │
-        │   (Kreis oder oval)     │
-        │    ╭──────────────╮     │
-        │    │   ★ Krater   │     │  ← mittel-teil (magma tritt aus)
-        │    └──────────────╘     │
-        │                          │
-        │ ╭──────────────────────╮ │  ← Tuff-Ring (Asche,
-        │ │  Tuffring (Ring)     │ │     gebrochen)
+        │ RINGFÖRMIGE MULD E │
+        │ (Kreis oder oval) │
+        │ ╭──────────────╮ │
+        │ │ ★ Krater │ │ ← mittel-teil (magma tritt aus)
+        │ └──────────────╘ │
+        │ │
+        │ ╭──────────────────────╮ │ ← Tuff-Ring (Asche,
+        │ │ Tuff-Ring (Ring) │ │ gebrochen)
         │ ╰──────────────────────╯ │
         └──────────────────────────┘
 ```
@@ -210,53 +210,53 @@ sources: []
 ### Variante A: Das Grundmodell
 
 ```
-      [ HAZARD ]                          [ EXPOSITION ]
-   (Naturgewalten)                   (Was liegt in Gefahr?)
+      [ HAZARD ] [ EXPOSITION ]
+   (Naturgewalten) (Was liegt in Gefahr?)
 
-         │                                   │
-         │  ┌───────────┐                    │
-         └──┤  Risiko   ├────────────────────┘
-            │           │
-            │ = Hazard  │
-            │   x        │
-            │ Exposition  │
-            │   x          │
+ │ │
+         │ ┌───────────┐ │
+         └──┤ Risiko ├────────────────────┘
+            │ │
+            │ = Hazard │
+            │ x │
+            │ Exposition │
+            │ x │
             │ Vulnerabilität│
             └───────────────┘
                         │
                         ▼
             ┌────────────────────┐
-            │   SCHADEN          │
-            │   (Tote, Sach-,   │
-            │    Umwelt)         │
-            └────────────────────┘
+            │ SCHADEN │
+            │ (Tote, Sach-, │
+            │ Umwelt) │
+  └────────────────────┘
 ```
 
 ### Variante B: Mit Resilienz
 
 ```
       [ HAZARD ]
-         │
+ │
          ▼
    ┌─────────────┐
-   │ Exposition  │ ──→ Was liegt im Gefahrenbereich?
+   │ Exposition │ ──→ Was liegt im Gefahrenbereich?
    └─────────────┘
          │
          ▼
    ┌─────────────┐
-   │ Vernderbarkeit  │ ──→ Wie anfällig?
+   │ Vernderbarkeit │ ──→ Wie anfällig?
    └─────────────┘
          │
          ▼
    ┌─────────────┐
-   │   RISIKO    │
+   │ RISIKO │
    └─────────────┘
          │
          ▼
-   ┌─────────────┐        ┌─────────────┐
-   │   SCHADE    │  ←──→  │  RESILIENZ  │
-   │             │        │ (Wiederher- │
-   └─────────────┘        │ stellung)   │
+   ┌─────────────┐ ┌─────────────┐
+   │ SCHADE │ ←──→ │ RESILIENZ │
+   │ │ │ (Wiederher- │
+   └─────────────┘ │ stellung) │
                            └─────────────┘
 ```
 
@@ -272,22 +272,22 @@ sources: []
 ## 4. Gletscher — Querschnitt
 
 ```
-   ^  (Hochgebirge)
+   ^ (Hochgebirge)
    │
-   │     ╱╲  ▲                     ▲  ←  ZERGREGBIET / NÄHRLING
-   │    ╱  ╲ │                     │    (Schnee → Firn → Eis)
-   │   ╱    ╲│                    │
-   │  ╱      ╲                    │      ◄──  GLETSCHER (Eisstrom)
-   │ ╱  GLETSCHER  ╲              │
-   │╱     (EIS)      ╲            │
-   │                   ╲          │
-   │  ╔══════════════╗  │         │
-   │  ║  MORÄNE      ║  │         │  ← Moränenrand
-   │  ║  (Seiten- oder End-)║   │
-   │  ╚══════════════╝  │         │
-   │         │          │         │
-   │         ▼          ▼         ▼
-   │     [ Talboden, Urstromtal ]
+   │ ╱╲ ▲ ▲ ← ZERGREGBIET / NÄHRLING
+   │ ╱ ╲ │ │ (Schnee → Firn → Eis)
+   │ ╱ ╲│ │
+   │ ╱ ╲ │ ◄── GLETSCHER (Eisstrom)
+   │ ╱ GLETSCHER ╲ │
+   │╱ (EIS) ╲ │
+   │ ╲ │
+   │ ╔══════════════╗ │ │
+   │ ║ MORÄNE ║ │ │ ← Moränenrand
+   │ ║ (Seiten- oder End-)║ │
+   │ ╚══════════════╝ │ │
+   │ │ │ │
+   │ ▼ ▼ ▼
+   │ [ Talboden, Urstromtal ]
 ```
 
 **Beschriftung:**
@@ -304,22 +304,22 @@ sources: []
 ## 5. Vergleich Trogtal (glazial) vs. Flusstal (V-formig)
 
 ```
-GLAZIALES TRogTAL (U-förmig)        FLUSS-TAL (V-formig)
+GLAZIALES TRogTAL (U-förmig) Flusstal (V-formig)
 
-   ▲                                      ▲
-   │  ╱╲                                  │   ╱╲
-   │ ╱  ╲╲                                │  ╱  ╲
-   │╱    ╲╲                               │ ╱    ╲
-   │      ╲╲                              │╱      ╲
-   │       ╲╲                               │       ╲
-   │        ╲╲                              │        ╲
-   │         ╲╲                              │         ╲
-   │          \                               │             │           ╲                              │           ╲
-   │            \                              │               │             \                             │                │              \                            │                 └──────────────┘                            └──────────────┘
-   breit, abgerundet,                         steil, V-förmig,
-   U-Form                                      V-Form
-   geglättete Wände                           schroffe Wände
-   (Eis hat abgetragen)                        (Wasser hat erodiert)
+ ▲ ▲
+   │ ╱╲ │ ╱╲
+   │ ╱ ╲╲ │ ╱ ╲
+   │╱ ╲╲ │ ╱ ╲
+   │ ╲╲ │╱ ╲
+   │ ╲╲ │ ╲
+   │ ╲╲ │ ╲
+   │ ╲╲ │ ╲
+   │ \ │ │ ╲ │ ╲
+   │ \ │ │ \ │ │ \ │ └──────────────┘ └──────────────┘
+   breit, abgerundet, steil, V-förmig,
+   U-Form V-Form
+   geglättete Wände schroffe Wände
+   (Eis hat abgetragen) (Wasser hat erodiert)
 ```
 
 ---
@@ -328,35 +328,35 @@ GLAZIALES TRogTAL (U-förmig)        FLUSS-TAL (V-formig)
 
 ```
      OROPHE / MAGMA
-          │
+ │
           ▼
    ┌─────────────┐
-   │  MAGMA-     │
-   │  KAMMER     │  ← Druckaufbau (Gase: CO₂, SO₂, H₂O)
+   │ MAGMA- │
+   │ KAMMER │ ← Druckaufbau (Gase: CO₂, SO₂, H₂O)
    └──────┬──────┘
-          │  (Drücke ↑)
+          │ (Drücke ↑)
           ▼
    ┌─────────────┐
-   │  AUSBRUCH   │  ← Explosion / Lavafluss
-   │  (ERUPTION) │
+   │ AUSBRUCH │ ← Explosion / Lavafluss
+   │ (ERUPTION) │
    └──────┬──────┘
           │
     ┌─────┴─────┐
-    │  HAZARD   │
-    │  Pyroklast, │
-    │  Aschefall │
-    │  Lahar     │
+    │ HAZARD │
+    │ Pyroklast, │
+    │ Aschefall │
+    │ Lahar │
     └─────┬─────┘
           │
    ┌──────┴───────┐
-   │     RISIKO   │  ← Exposition × Verwundbarkeit
-   │  Bevölkerung │
-   │  Infrastruktur│
+   │ RISIKO │ ← Exposition × Verwundbarkeit
+   │ Bevölkerung │
+   │ Infrastruktur│
    └──────┬───────┘
           │
     ┌─────┴─────┐
-    │ SCHADE    │
-    │ Tote,     │
+    │ SCHADE │
+    │ Tote, │
     │ Sachschade│
     └───────────┘
 ```

@@ -12,12 +12,12 @@ confidence: high
 
 ## Überblick
 
-Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — die räumliche und zeitliche Dimension menschlichen Handelns, Wirtschaftens und Siedelns. Für den Geographie-LK (Bildungsplan 2016, Kap. 3.5.2.6) sind zwei Kompetenzbereiche zentral:
+Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — die räumliche und zeitliche Dimension menschlichen Handelns, Wirtschaftens und Siedelns. Für den Geografie-LK (Bildungsplan 2016, Kap. 3.5.2.6) sind zwei Kompetenzbereiche zentral:
 
 1. **Räumlich-zeitliche Entwicklung der Weltbevölkerung**
 2. **Raumwirksamkeit des Globalisierungsprozesses** — wie verändert sich die räumliche Struktur von Wirtschaftsregionen durch wirtschaftliches Handeln im Kontext der Globalisierung?
 
-> Bezug zum Bildungsplan 2016 LK Geographie BW: Kap. 3.5.2.6 „Entwicklungen in der Anthroposphäre" — SuS können die raum-zeitliche Entwicklung der Weltbevölkerung darstellen. Sie können die weltweiten Verflechtungen und Raumwirksamkeit des Globalisierungsprozesses erläutern.
+> Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.2.6 „Entwicklungen in der Anthroposphäre“ — SuS können die raum-zeitliche Entwicklung der Weltbevölkerung darstellen. Sie können die weltweiten Verflechtungen und Raumwirksamkeit des Globalisierungsprozesses erläutern.
 
 ## Weltbevölkerungsentwicklung (raum-zeitlich)
 
@@ -25,7 +25,7 @@ Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — d
 
 - **Bevölkerungswachstum**: Weltbevölkerung wuchs stark im 20. Jahrhundert (von ~1,6 Mrd. 1900 auf über 8 Mrd. 2020s) — das Wachstum verlangsamt sich, aber die absolute Zahl steigt weiter
 - **Demografischer Übergang**: Modell, das den Übergang von hoher Geburten- und Sterberate (vorindustriell) zu niedriger Geburten- und Sterberate (industrialisiert) beschreibt — geht einher mit gesellschaftlichem und wirtschaftlichem Entwicklungsprozess
-- **Regional ungleiche Entwicklung**: Bevölkerungswachstum konzentriert sich zunehmend auf Afrika (Subsahara) und Teile Asiens; viele Industrieländer haben stagnierende oder schrumpfende Bevölkerung
+- **regional ungleiche Entwicklung**: Bevölkerungswachstum konzentriert sich zunehmend auf Afrika (Subsahara) und Teile Asiens; viele Industrieländer haben stagnierende oder schrumpfende Bevölkerung
 
 ### Demografische Struktur
 
@@ -91,8 +91,8 @@ Globalisierung verändert die räumliche Gliederung der Welt:
 ### Dezentralisierung und Konzentration zugleich
 
 - **Konzentration**: Global Cities und spezialisierte Cluster (z. B. Tech-Hubs: Silicon Valley, Berlin, London) werden immer wichtiger
-- **Verlagerung**: Produktionsstandorte werden an „gunstige" Orte (niedrige Löhne, gute Standortfaktoren) verlegt; Verlagerung von Industrie aus Industrieländern in Entwicklungsländer (Outsourcing, offshoring)
-- **Räumliche Fragmentierung**: Einige Regionen profitieren stark (Cluster, Städte), andere verlieren an Bedeutung („left behind" Regionen)
+- **Verlagerung**: Produktionsstandorte werden an „gunstige“ Orte (niedrige Löhne, gute Standortfaktoren) verlegt; Verlagerung von Industrie aus Industrieländern in Entwicklungsländer (Outsourcing, offshoring)
+- **räumliche Fragmentierung**: Einige Regionen profitieren stark (Cluster, Städte), andere verlieren an Bedeutung („left behind“ Regionen)
 
 ### Neue räumliche Muster
 
@@ -109,7 +109,7 @@ Globalisierung verändert die räumliche Gliederung der Welt:
 
 - [[disparitaet-entwicklungen]] — Disparitäre Entwicklungen und Entwicklungszusammenarbeit (3.5.3.4)
 - [[vulnerabilitaet-begriffe]] — Vulnerabilität und Resilienz: Globale Ungleichheit als Vulnerabilitätsfaktor
-- [[bildungsplan-2016-lk]] — Bildungsplan 2016: Kompetenzrahmen für LK Geographie
+- [[bildungsplan-2016-lk]] — Bildungsplan 2016: Kompetenzrahmen für LK Geografie
 - [[vulkanismus-ueberblick]] — Endogene Prozesse: Gegenstück zu anthroposphärischen Themen
 
 ## Offene Fragen

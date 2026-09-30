@@ -11,9 +11,9 @@ sources: []
 
 ## Rahmen (Bildungsplan LK §3.5.2.1)
 
-Der Bildungsplan Geographie LK BW konkretisiert die Verwundbarkeits-Aufgabe so:
+Der Bildungsplan Geografie LK BW konkretisiert die Verwundbarkeits-Aufgabe so:
 
-> **(2)** An mindestens einer der ausgewählten Landschaften (Vulkan, Fluss,
+> **(2)** an mindestens einer der ausgewählten Landschaften (Vulkan, Fluss,
 > Glazial, Küste, Karst) die **Verwundbarkeit dieses Raumes und der dort lebenden Gesellschaft
 > durch Naturgefahren erläutern** sowie **mögliche Maßnahmen zur Stärkung der Resilienz
 > im Rahmen einer nachhaltigen Entwicklung beurteilen**.
@@ -44,11 +44,10 @@ Kurz:
   Infrastrukturen, Touristen.
 - **Gletschersperrsee-Ausbruch (GLOF — Gletschersee-Überlauf):** Gletscherrückzug →
   entstandene See, durch Eisbarriere, Barriere bricht → Hochwasser-Schock. Ge-fährliche
-  Ereignisse in den Alpen, Himalaya, Anden.
+ Ereignisse in den Alpen, Himalaya, Anden.
 - **Permafrostthaw-bedingt:** Steinschlag-Hangrutsch, Bodeninstabilität, Infrastrukturschäden
   (Hohe Pässe, Straßen, Skilifte).
-- **Solifluktion:** Langsame Hangflucht, erhöhte Erosion, Einfluss auf Schotterflächen, ein
-  schrittweises Prozess — betrifft Landwirtschaft, Straßen.
+- **Solifluktion:** langsame Hangflucht, erhöhte Erosion, Einfluss auf Schotterflächen, ein schrittweiser Prozess — betrifft Landwirtschaft, Straßen.
 
 ### Vulnerabilitätsfaktoren in Glazialräumen
 
@@ -76,7 +75,7 @@ Kurz:
 ## Beispiel 3: Flusslandschaft (Überschwemmung)
 
 (Hier als Vergleichs-Element, auch wenn nicht explizit im engeren Themenfeld des Nutzers,
-aber bildungsplankonform. Der Bildungsplan nennt „Flusslandschaft" explizit.)
+aber bildungsplankonform. Der Bildungsplan nennt „Flusslandschaft“ explizit.)
 
 - **Hazard:** Überflutung, Hochwasser, jährliche/über die Jahre.
 - **Vulnerabilität:** Siedlung in flachen Tälern, Landwirtschaft (abhängig von Wasser),
@@ -112,7 +111,7 @@ aber bildungsplankonform. Der Bildungsplan nennt „Flusslandschaft" explizit.)
 ## Weiterführende Seiten
 
 - [[vulnerabilitaet-begriffe]] ← Begriffe: Risiko, Hazard, Vulnerabilität, Resilienz
-- [[vulnerabilitaet-vulkanraume]] ← Vulkanische Räume
+- [[vulnerabilitaet-vulkanraume]] ← vulkanische Räume
 - [[resilienz-massnahmen]] ← Maßnahmen-Katalog
 - [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext
 - [[vulkanismus-ueberblick]] ← Vulkanismus

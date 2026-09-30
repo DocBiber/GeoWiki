@@ -20,13 +20,13 @@ Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische
 
 ### Chemische Verwitterung (lösender Prozess)
 
-- **Karstifizierung**: Das Prozess, bei dem leicht saures Wasser (natürlich durch atmosphärische CO₂, biologischen CO₂ aus Boden, organische Säuren) Kalkgestein auflöst
+- **Karstifizierung**: Dass Prozess, bei dem leicht saures Wasser (natürlich durch atmosphärische CO₂, biologischen CO₂ aus Boden, organische Säuren) Kalkgestein auflöst
 - Reaktion: CaCO₃ (Kalkstein) + H₂O + CO₂ → Ca(HCO₃)₂ (Calciumbicarbonat, löslich) — Kalk wird aufgelöst und mit dem Wasser abtransportiert
 - Die Lösung geschwindigkeit hängt von: Wassermenge, CO₂-Gehalt, Temperatur (kälteres Wasser weniger löslich i. d. R.), Oberfläche des Gesteins
 
 ### Unterirdische Wasserführung
 
-- **Humid Karst**: Oberfläche hat oft beträchtliche Wasser (Bäche, Quellwasser), das sickert in Karst
+- **humid Karst**: Oberfläche hat oft beträchtliche Wasser (Bäche, Quellwasser), das sickert in Karst
 - **Epikarst**: Oberste, durchlässige Schicht des Karstgesteins, wo Durchströmung und Lösung besonders stark
 - **Horizontale und vertikale Wasserführung**: Wasser sucht den leichtesten Weg im Gestein — oft entlang Schichten, Risse, Klüfte, Knicklinien
 
@@ -43,7 +43,7 @@ Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische
 #### Unterirdische Formen
 
 - **Höhlen (Höhlen, Verstärke)**: Die bekannte Unterform — Räume, die durch Lösungstorung im Kalkgestein entstanden; oft Sekundärrohre, Höhlenverzweigungen
-- **Sturzhöhlen**: Einsturz von Höhlendecken
+- **Sturzhöhlen**: Einsturz von HöhlEndecken
 - **Abflüsse / Karstquellen**: Wasser spurst unterirdisch, erscheint an bestimmten Stellen als Quellöffnung — oft fleischfressend (Al Poré), rasch verändernd
 - **Speleothem — Höhleminerals**: Stalaktite (von Decke wachsend), Stalagmit (von Boden wachsend), Säulen (beides zusammen), Schalen, etc. — durch Ausfällung von CaCO₃ aus Wasser (wenn CO₂ entweicht, wird Kalk unlöslich und fällt aus)
 
@@ -78,7 +78,7 @@ Zwei bekannte Karst-Spektren:
 
 ## Verwandte Seiten
 
-- [[vulkan-prozesse]] — Vulkanprozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
+- [[vulkan-prozesse]] — vulkan-prozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
 - [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Vergleich mit Karst als Wind-/Wasserform
 - [[vulnerabilitaet-raumbeispiele]] — Vulnerabilität von Karsträumen (Gefährdung durch Wasser, etc.)
 - [[atmosphaere-wetter-klima]] — Niederschlag und Wasser als wichtiger Faktor für Karstbildung
@@ -86,4 +86,35 @@ Zwei bekannte Karst-Spektren:
 ## Offene Fragen
 
 - Beste Abitur-Beispiel (Eifel, Slowenien, Frankreich) für LK?
-- Braucht Karst ein eigene Raumbeispieldatei oder reicht Konzept?
+- Braucht Karst eine eigene Raumbeispieldatei oder reicht Konzept?
+
+---
+
+## Visuelle Darstellungen & Fotos
+
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+
+#### 📸 Fotogalerie: Karstlandschaften (Unsplash)
+
+[Freie Fotos von Karst-Formen, Poljen, Dolinen, Felsformationen.](https://unsplash.com/s/photos/karst-landscape)
+
+#### 📸 Fotogalerie: Höhlen, Karst-Höhlen (Unsplash)
+
+[Freie Fotos von Tropfsteinhöhlen, unterirdischen Karst-Formen.](https://unsplash.com/s/photos/cave-formation)
+
+#### 📸 Fotogalerie: Dolinen, Sinkholes (Unsplash)
+
+[Freie Fotos von Dolinen und anderen Karstabsackungen.](https://unsplash.com/s/photos/doline)
+
+#### 🖼️ Kategorie: Karst – Wikimedia Commons
+
+[Fotos und Diagramme zu Karst-Landschaften, Höhlen, Dolinen, Poljen, Tropfsteinen.](https://commons.wikimedia.org/wiki/Category:Karst)
+
+
+---
+## Animationen
+
+### 🎬 Wasserleitung im Karst – Kurz-Animation (Karst Landscape Animation, Minnesota)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vAOcqHgwTfg" frameborder="0" allowfullscreen></iframe>
+

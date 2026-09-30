@@ -22,14 +22,14 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 
 ### Merkmale
 
-- **Aufbau:** Abwechselnde Schichten von Lava (dunkel, härter) und pyroklastischem Material
-  (hell, löchrig) — daher „Schicht".
+- **Aufbau:** abwechselnde Schichten von Lava (dunkel, härter) und pyroklastischem Material
+  (hell, löchrig) — daher „Schicht“.
 - **Form:** Kegel/α Konus, steile Hänge (bis 30–35°), oft symmetrisch.
 - **Magma:** Mittelhoch-visköses Magma (Andesit, Dacit, Rhyolit) — hoher Silikategehalt,
   hoher Gasdruck → explosiv.
 - **Eruptionsstil:** Wechsel zwischen effusiven und explosiven Phasen; bei explosionsvulkanischer
   Eruption Pyroklastische Ströme, Aschefall, Lahare möglich.
-- **Größe:** Bis zu 3.000–4.000 m Höhe, z.B. Mt. Fuji (3776 m), Cotopaxi (5897 m).
+- **Größe:** bis zu 3.000–4.000 m Höhe, z.B. Mt. Fuji (3776 m), Cotopaxi (5897 m).
 
 ### Entstehungsmechanismus (Subduktionszone)
 
@@ -56,18 +56,18 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 ### Merkmale
 
 - **Form:** Flach, breit (Durchmesser oft >100 km), Flanke 2–10°, kuppelförmig
-  (Schild = runder Kuppel — daher „Schildvulkan").
-- **Magma:** Niedrig-visköses Basalt (Ca 1100–1200°C, mafisch, geringer SiO₂-Gehalt <52%).
+  (Schild = runder Kuppel — daher „Schildvulkan“).
+- **Magma:** Niedrig-visköses Basalt (Ca 1100–1200 °C, mafisch, geringer SiO₂-Gehalt <52 %).
   Fließt leicht, breitet sich aus → dünne Lava-Strom-Ablagerungen.
-- **Eruptionsstil:** Überwiegend effusive (stille geste, Lavastrom-Abbürtung), Gase leicht entweichen;
+- **Eruptionsstil:** überwiegend effusive (stille geste, Lavastrom-Abbürtung), Gase leicht entweichen;
   Explosionen selten, aber möglich (Feuerfontäne, gasgetriebene Ausbrüche).
-- **Typische Größe:** Vulkankegel können trotz flacher Flanke enorm sein — Mauna Loa
+- **typische Größe:** Vulkankegel können trotz flacher Flanke enorm sein — Mauna Loa
   (Hawaii): Höhe vom Meeresboden aus >9000 m, Oberfläche 5271 m.
 
 ### Entstehung (Hot Spot +/oder Rift)
 
-- Hot-Spot-Mantelplume oder Rift-Zonen → Basalt-Magma tritt in großen Mengen auf.
-- Lava breitet sich aus, kühlt schnell → viele dünne „Schild"-Schichten.
+- Hot-Spot-Mantelplume oder RIfT-Zonen → Basalt-Magma tritt in großen Mengen auf.
+- Lava breitet sich aus, kühlt schnell → viele dünne „Schild“-Schichten.
 - Platte bewegt sich über den Hot Spot (z.B. Pazifik-Platte über Hawaii-Hot-Spot) →
   Vulkankette entsteht: Hawaii-Vulkankette (Kilauea, Mauna Loa, Mauna Kea, frühere Vulkane
   wie Haulopepe, Midway, Emperor-Seeberg-Kette).
@@ -96,7 +96,7 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 - **Entstehungsmechanismus:**
   1. Kollektive Magmenansammlung → massiver Ausbruch (super Junge oder große finale Phase).
   2. Entleerung + Magmaraum Kollaps → Oberflächenstück bricht ein + in den leeren Raum fällt.
-  3. Späteres Aufgefüllt mit Wasser oder jungen Lava-Ausbrüchen.
+  3. Späteres aufgefüllt mit Wasser oder jungen Lava-Ausbrüchen.
 - **Unterscheidung zu einem einfachen Krater:** Krater = kleineres, direkt über dem Vent;
   Caldera = groß, strukturell, oft nach super Junge.
 
@@ -116,20 +116,20 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 
 ### Merkmale
 
-- **Definition:** Kreisrunde, oft gefüllte Mulde (durch explosiven Grubenausbruch entstanden).
-- **Typische Größe:** 1–5 km Durchmesser, Tiefe wenige × 100 m.
-- **Entstehung:** Explosive Phreatomagmatische Eruption — trinkendes Grundwasser oder
+- **Definition:** kreisrunde, oft gefüllte Mulde (durch explosiven Grubenausbruch entstanden).
+- **typische Größe:** 1–5 km Durchmesser, Tiefe wenige × 100 m.
+- **Entstehung:** explosive Phreatomagmatische Eruption — trinkendes Grundwasser oder
   Oberflächenwasser trifft auf Magma → explosiver Druckausbruch → kreisförmige Mulde
   mit Einschlagring (Tuffring).
-- **Ausfüllung:** Oft gefüllt mit Wasser → Maar-See.
-- **Geologischer Kontext:** Häufig in intraplattformal-Zonen (z.B. Eifel, Oberrheinische
+- **Ausfüllung:** oft gefüllt mit Wasser → Maar-See.
+- **geologischer Kontext:** häufig in intraplattformal-Zonen (z.B. Eifel, Oberrheinische
   Senke), nicht zwangsläufig an FZ.
 
 ### Beispiele
 
 | Maar | Region | Durchmesser | Bemerkung |
 |---|---|---|---|
-| Laacher See | Eifel, Deutschland | ~1,7 km | Letzter Ausbruch ~12.900 v. Chr.; Vulkanischer Asch in weiten Teilen N-Europas sichtbar |
+| Laacher See | Eifel, Deutschland | ~1,7 km | Letzter Ausbruch ~12.900 v. Chr.; vulkanischer Asch in weiten Teilen N-Europas sichtbar |
 | Daun Maare (Diezel, Betschause, Manderscheid) | Eifel, Deutschland | Divers | Komplexes Maar-Feld, z.B. Laacher-Zeit (magmatisch aktive Eifel) |
 | Kilbourne Hole | New Mexico, USA | ~1,6 km | Kleines Maar mit gutem xenolith-Erhalt für Mantelstudien |
 | Zume (Bollin) | Island | Divers | Määrä-Formen durch Grundwasserkontakt an Vulkanen |
@@ -157,7 +157,7 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 
 ## 6. Hot Spot (als Kontext-Kategorie im Bildungsplan)
 
-Im Bildungsplan LK wird „Hot Spot" neben Vulkanformen genannt — als **vulkanischen Förderkontext**,
+Im Bildungsplan LK wird „Hot Spot“ neben Vulkanformen genannt — als **vulkanischen Förderkontext**,
 nicht als eigene Form. Ein Hot-Spot-Vulkan hat meist Schildvulkan-Form; bei Kontinental-Platten
 kann aber auch andere Formen entstehen (z.B. Yellowstone mit Rhyolit-Kaldera-Wandlung).
 
@@ -165,7 +165,7 @@ kann aber auch andere Formen entstehen (z.B. Yellowstone mit Rhyolit-Kaldera-Wan
 1. Mantelplume (von Kern-Mantel-Grenze oder tief im Mantel) → lokale Hitzequelle → Schmelze.
 2. Magma dringt auf → Eruption an einer lokal festen Stelle.
 3. Die lithosphärische Platte bewegt sich über den Hot Spot → Vulkankette mit Alterungsgradient:
-   Älteste Vulkan weiter weg vom Hot-Spot-Zentrum.
+   älteste Vulkan weiter weg vom Hot-Spot-Zentrum.
 
 ## Vergleichstabelle: Vulkantypen
 
@@ -181,15 +181,55 @@ kann aber auch andere Formen entstehen (z.B. Yellowstone mit Rhyolit-Kaldera-Wan
 
 ## Quellen
 
-- Bildungsplan 2016 §3.4.3.2 (BK) und §3.5.2.1 (LK): [Vulkanischen Förderprodukte, Vulkanformen](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_11-12-BF_03_02)
+- Bildungsplan 2016 §3.4.3.2 (BK) und §3.5.2.1 (LK): [Vulkanischen Förderprodukte, Vulkanformen](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2_IK_11-12-BF_03_02)
 - ESKP Themenspezial: [Vulkane unterscheiden](https://themenspezial.eskp.de/vulkanismus-und-gesellschaft/inhalt/vulkanische-phaenomene/vulkane-unterscheiden-937235/)
-- Serlo Geographie: [Vulkanismus](https://de.serlo.org/geographie/166757/vulkanismus)
+- Serlo Geografie: [Vulkanismus](https://de.serlo.org/geographie/166757/vulkanismus)
 - Wikipedia: [Glacial series](https://en.wikipedia.org/wiki/Glacial_series) — für glaziale Serie, Vergleichsmaterial
 
 ## Verknüpfungen
 
 - [[vulkanismus-ueberblick]] ← Überblick
-- [[vulkanprozesse]] ← Explosiv/effusiv, Förderprodukte im Detail
+- [[vulkanprozesse]] ← explosiv/effusiv, Förderprodukte im Detail
 - [[vulkanbeispiele]] ← Einzelraum-Beispiele
 - [[vulnerabilitaet-vulkanraume]] ← Vulnerabilität dieser Räume
 - [[vulnerabilitaet-begriffe]] ← Vulnerabilität-Konzept
+
+---
+
+## Bildreferenzen & Animationen
+
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+
+#### 🎬 Typen von Vulkanen – Übersicht (Next Generation Science)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pKhas3rw-eU" frameborder="0" allowfullscreen title="Typen von Vulkanen – Übersicht (Next Generation Science)"></iframe>
+
+*Schildvulkan, Stratovulkan, Caldera, Cinder Cone, Fissur – mit Erklärung und Beispielen.*
+
+#### 📸 Fotogalerie: Vulkanformen (Unsplash)
+
+[Freie Fotos von Schildvulkanen, Stratovulkanen und Calderas.](https://unsplash.com/s/photos/volcano-landscape)
+
+#### 🖼️ Diagramme der Vulkanformen – Wikimedia Commons
+
+[Schemazeichnungen zu verschiedenen Vulkanformen.](https://commons.wikimedia.org/wiki/Category:Diagrams_of_volcanoes_by_type)
+
+---
+## Bildmaterial
+
+### 🖼️ Bild (Wikimedia Commons)
+
+![Stratovulkan Mount St. Helens, USA (Public Domain / USGS)](https://commons.wikimedia.org/wiki/File:Mount_St_Helens,_2004.jpg)
+
+*Quelle: Stratovulkan Mount St. Helens, USA (Public Domain / USGS)*
+
+### 🖼️ Bild (Wikimedia Commons)
+
+![Olympus Mons auf dem Mars – größter bekannte Schildvulkan (NASA, Public Domain)](https://commons.wikimedia.org/wiki/File:Olympus_Mons.jpg)
+
+*Quelle: Olympus Mons auf dem Mars – größter bekannte Schildvulkan (NASA, Public Domain)*
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Vulkanlandschaften (Unsplash)](https://unsplash.com/s/photos/volcano-landscape)
+

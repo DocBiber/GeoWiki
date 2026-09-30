@@ -24,7 +24,7 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 | Gefahrentyp | Beschreibung | Reichweite |
 |---|---|---|
 | **Eruption / explosionsvulkanisch** | Magmen-Druck-Explosion, Tephra-Auswurf, Pyroklastische Ströme | Lokal-wiklich, kurzfristig |
-| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700°C, bis 700 km/h, vollständige Zerstörung | Hoch lokal-reichweitiger, nicht ausweichbar |
+| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700 °C, bis 700 km/h, vollständige Zerstörung | Hoch lokal-reichweitiger, nicht ausweichbar |
 | **Aschefall** | Feine Partikel (<2 mm) fliegen weit (hunderte km), betreffen Luftfahrt, Gesundheit, Dächer | Regional, flugweg-relevant (Eyafjöll 2010 Europa) |
 | **Lahar (Vulkan-Schlamm)** | Wasser + Asche-Vermischung, Schlammlawinen, durch Regen oder Schmelze | Täler, Flussläufe, weit ausbreitend |
 | **Gasemission** | CO₂, SO₂, HF — tödlich in Mulden, physiologisch lähmend, klima-wirksam SO₂ | Lokal-reichweitiger, SO₂ auch stratosphärisch |
@@ -39,7 +39,7 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 | Variable | Bedeutung |
 |---|---|
 | **Bevölkerungsdichte nahe Vulkan** | Dichte Bevölkerung nahe Gefahrenbereich → mehr Leben gefährdet (z.B. Vesuv, Flughafen, Campania-Region) |
-| **Wirtschaftliche Struktur** | Landwirtschaft auf vulkanischen Böden (fruchtbar, zugleich niedrig ersatz) → Abhängigkeit; auch Tourismus auf Vulkan (Ätna, Hawaii) |
+| **wirtschaftliche Struktur** | Landwirtschaft auf vulkanischen Böden (fruchtbar, zugleich niedrig ersatz) → Abhängigkeit; auch Tourismus auf Vulkan (Ätna, Hawaii) |
 | **Infrastruktur** | Autobahnen, Eisenbahn, Flughäfen in Gefahrenzone |
 | **Evakuierungs-Möglichkeit** | Wohlhabend, Erfahrung, Warnsystem, mobil → geringere Vulnerabilität |
 | **Erkenntnis, Vorbereitung** | Frühere Erfahrung → greater awareness, bessere Planung; Beispiele: Japan (Mt. Fuji, Sakurajima), Island (Überwachung) |
@@ -65,7 +65,7 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
   1631 (>4000 Tote), 1906 (>100 Tote), 1944, 1999, 2000er (Vulkan im Wartezustand).
 
 **Vulnerabilität:**
-- Sehr hohe Bevölkerungsdichte (Ca million Menschen in „Rote Zone" — Vesu-Lujo,
+- Sehr hohe Bevölkerungsdichte (Ca million Menschen in „Rote Zone“ — Vesu-Lujo,
   Camalerina-Gebiet); wirtschaftliche Abhängigkeit von Landwirtschaft und Tourismus.
 - Siedlung in Gefahrenzone nicht unkritisch — aber schwer vermeidbar (Stadt-Kontinuum).
 - Frühe Warnsysteme vorhanden (seismisch, Gas), aber spontane, unvorhersehbare Eruption möglich.
@@ -91,7 +91,7 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 **Vulnerabilität:**
 - Touristen-Abhängigkeit (gibt lokale Wirtschaft, zugleich Gefahr-anwesenheit).
 - Bevölkerungsdichte weniger als Vesuv, aber Teile von Höheling-Westphalia nahe bei,
-  Gas-Fähigkeit (CO₂ in Mulden).
+ Gas-Fähigkeit (CO₂ in Mulden).
 - Frühe Warnzeichen (Seismogramme, Verwerfung, Gas) genutzt → Hoch Resilienz.
 
 **Resilienz-Maßnahmen:**
@@ -110,8 +110,7 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 **Vulnerabilität:**
 - Abhängigkeit von Luftverkehr → Europa, nördliche Länder, exportorientierte
   Wirtschaft (eR-Güter, Vögel, Fisch, etc.)
-- Starke wirtschaftliche Vulnerabilität, jedoch begrenzte direkte physische Gefahrens
-  weil Vulkan in Island ( dünn besiedelt) → besonders **transnationale Vulnerabilität** .
+- Starke wirtschaftliche Vulnerabilität, jedoch begrenzte direkte physische Gefahrens, weil Vulkan in Island (dünn besiedelt) → besonders **transnationale Vulnerabilität**.
 - Resilienz-Maßnahmen: Asche-Verfolgung, Wetter-Vorhersage, Verkehrskommunikation,
   Kooperation Länder; BNE-Aspekt: Verkehr+global.
 
@@ -124,7 +123,7 @@ Für eine LK-Aufgabe kann man:
 - **Beispiel auswählen** (z.B. Vesuv oder Hawaii).
 - **Hazard** und **Vulnerabilität** analysieren: wer liegt in der Gefahrenzone,
   was ist betroffen, durch was genau.
-- **Maßnahmen** beurteilen: was gibt es, was hilft, was fehlt, wie nachhaltig.
+- **Maßnahmen** beurteilen: was gibt es, was hilft, wAs fehlt, wie nachhaltig.
 - **Übertragung**: auf andere Vulkanräume.
 
 ---

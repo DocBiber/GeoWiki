@@ -1,5 +1,5 @@
 ---
-title: Vulkanismus — Überblick (Geographie LK)
+title: Vulkanismus — Überblick (Geografie LK)
 created: 2026-09-27
 updated: 2026-09-27
 type: concept
@@ -31,10 +31,10 @@ Der Magma-Aufstieg ist an Plattentektonik gebunden. Die drei Hauptkontexte (raum
 
 ### 2. Konvergente Plattenränder (Subduktionszonen)
 - Eine Platte schiebt sich unter eine andere → wassertragende lithosphäre schmilzt → Magma entsteht
-- **Beispiele:** Pazifischer Feuerring (Japan, Alaska, Kascade, Andes, Philippinen)
+- **Beispiele:** pazifischer Feuerring (Japan, Alaska, Kascade, Andes, Philippinen)
 - Vulkan-Typ: Schichtvulkane (Strato vulkanen), oft explosiv, undeutsche/wasseralkalische Magmen
 
-### 3. Hot Spots ( Plumpunkte)
+### 3. Hot Spots (Plumpunkte)
 - Lokale, fromen Mantelplümpchen (Plumes) schmelzen die Lithosphäre an einem Punkt über dem
   normalen Plattengleiten
 - Platte bewegt sich über den Hot Spot → Vulkankette entsteht (Hawaii-Emperor-Kette)
@@ -47,10 +47,10 @@ in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 
 | Produkt | Beschreibung |
 |---|---|
-| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200°C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös) |
+| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200 °C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös) |
 | **Tephra (fragmentierte Produkte)** | Asche (<2 mm), Lapilli (2–64 mm), Brocken/Bomben (>64 mm) — bei explosionsvulkanischem Ausbruch |
 | **Pyroklastische Ströme** | Heiße, dichte Mischung aus Gas+Tephra, bis 700 km/h — tödlichste Gefahr |
-| **Pyroklastische Fälle** | Fällende Tephra (Aschefall, , Lahare) |
+| **Pyroklastische Fälle** | Fällende Tephra (Aschefall, Lahare) |
 | **Gase** | H₂O, CO₂, SO₂, HCl, HF — lokales + regionales Klima-Gas (Aerosol) |
 | **Lahare** | Vulkanischer Schlammfluss (Gemisch Asche+Wasser nach Regen oder Schmelze eines Gletschers) |
 
@@ -59,16 +59,16 @@ in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 **Grundformen** (im Bildungsplan LK erwähnt):
 
 - **Schichtvulkan (Strato vulkan):** Aufbau aus abwechselnden Lava- und Tephra-Schichten,
-  steile Hänge (bis 30–35°), typisch für Subduktionszonen. Explosive Eruptionen bevorzugt.
+  steile Hänge (bis 30–35°), typisch für SubduktionsZonen. Explosive Eruptionen bevorzugt.
   Beispiele: Mount St. Helens, Mt. Fuji, Ätna, Vesuv, Cotopaxi.
-- **Schildvulkan:** Ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Abbürtungen,
+- **Schildvulkan:** ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Abbürtungen,
   effusive Eruption, wenig explosiv. Beispiele: Kilauea (Hawaii), Mauna Loa, Island.
 - **Caldera:** Einsenkung nach Sturz der Magmakammer / nach großem Ausbruch (Kollaps)
   → Kruemme, oft gefüllt mit Wasser. Beispiele: Crater Lake (Oregon), Santorin, Krakatau.
 - **Maar:** Eruption durch Gasdruck in unterem Grundwasserspiegel → Explosion, kreisrunde
   Mulde, oft gefüllt mit Wasser. Beispiele: Laacher See (Eifel — auch hier relevant!),
   Daun Maare (Eifel).
-- **Vulkanische Decke (Lava-Decke):** Ausgedehnte flache Lava-Abfolgen, oft Basalt, z.B.
+- **vulkanische Decke (Lava-Decke):** ausgedehnte flache Lava-Abfolgen, oft Basalt, z.B.
   Deccan-Traps (Indien), Columbia River Basalt Group (USA).
 - **Hot-Spot-Vulkan:** Zusammenhang Hot Spot (s. oben) — kein eigener Formtyp, sondern
   geodynamischer Kontext; typisch ist Schildvulkan; bei Kontinentalhotspot auch andere Formen.
@@ -106,6 +106,20 @@ Die Schülerinnen und Schüler können:
 ## Weiterführende Seiten
 
 - [[vulkanarten]] — Detail zu einzelnen Vulkantypen
-- [[vulkanprozesse]] — Explosiv vs. effusiv, Förderprodukte im Detail
+- [[vulkanprozesse]] — explosiv vs. effusiv, Förderprodukte im Detail
 - [[vulkanbeispiele]] — Raumbeispiele im Detail
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume
+
+---
+## Bildmaterial
+
+### 🖼️ Bild (Wikimedia Commons)
+
+![Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)](https://commons.wikimedia.org/wiki/File:Mauna_Loa_2012.jpg)
+
+*Quelle: Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)*
+
+### 📸 Fotos (Unsplash)
+
+[Fotogalerie: Fotogalerie: Vulkanausbrüche (Unsplash)](https://unsplash.com/s/photos/volcano-eruption)
+

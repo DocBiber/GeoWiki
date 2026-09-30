@@ -14,9 +14,9 @@ sources: []
 ### Definition
 
 Moränen sind die **schüttungsdynorgt-argigen Ablagerungen**, die ein Gletscher hinterlässt —
-Eine Mischung aus allen Größen (vom Gestein bis Kleinst-Block), meist **ungeordnet und
+eine Mischung aus allen Größen (vom Gestein bis Kleinst-Block), meist **ungeordnet und
 ungegliedert**, im Gegensatz zu geschichtetem Gerölle (z.B. Sander, Flussablagerungen).
-Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne" überhaupt verwendet
+Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne“ überhaupt verwendet
 (Grundmoräne, Seitenmoräne, Endmoräne).
 
 ---
@@ -25,46 +25,46 @@ Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne" überhaupt verwendet
 
 ### 1. Grundmoräne (Ground Moraine / Boden-Moräne)
 
-- **Position:** Unter dem Gletscher — also flächendeckend vorhanden, wo der Gletscher abzog.
-- **Entstehung:** Langsame Ablagerung von Schotter/Erosions-material am Gletscherboden;
-  Gletscher „schleift" zusammen und Ablagerung steilem Moränenhügel.
-- **Charakter:** Uneben, meist undurchbrochen, dicht; oft später landwirtschaftliche Nutzung
+- **Position:** unter dem Gletscher — also flächendeckend vorhanden, wo der Gletscher abzog.
+- **Entstehung:** langsame Ablagerung von Schotter/Erosions-material am Gletscherboden;
+  Gletscher „schleift“ zusammen und Ablagerung steilem Moränenhügel.
+- **Charakter:** uneben, meist undurchbrochen, dicht; oft später landwirtschaftliche Nutzung
   (boden-günstig nach Verwitterung)
-- **Typisches Bild:** flache bis leicht wellige, kreidestrichig bis gelblich — den „gräsern" das
+- **Typisches Bild:** flache bis leicht wellige, kreidestrichig bis gelblich — den „gräsern“ das
   Landschaft nach Eisabzug.
 
 ### 2. Seitenmoräne (Lateral Moräne)
 
-- **Position:** Am Rand des Gletschers, an der Berghang-Seite.
+- **Position:** am Rand des Gletschers, an der Berghang-Seite.
 - **Entstehung:** Material (Steine, aktive, losbröckeliges Gesteins- / Schutt) am Hang
   → wird an Gletscher-Rand transportiert und anGrenz zusammen hinterlegt.
-- **Charakter:** Entlang dem Gletscher-Schulterbahn, oft lange Linie parallel zum Tal.
-- **Wirkung:** Weist auf frühere, größere Gletscherfläche hin.
+- **Charakter:** entlang des Gletscherschulterbahn, oft lange Linie parallel zum Tal.
+- **Wirkung:** weist auf frühere, größere Gletscherfläche hin.
 
 ### 3. Endmoräne (Terminal Moräne / Stossmoräne)
 
-- **Position:** Am Vorderende des Gletschers — dort wo das Eis vorstarr-zeitlich stabilisiert.
-- **Entstehung:** Über Jahr-zu-Jahr Anreicherung (Steine, Schutt) am stärksten
+- **Position:** am Vorderende des Gletschers — dort wo das Eis vorstarr-zeitlich stabilisiert.
+- **Entstehung:** über Jahr-zu-Jahr Anreicherung (Steine, Schutt) am stärksten
   Vorderrand-Kontakt. Wenn der Gletscher vor ein größeren Schusbild endet
   (Eiszunge traben), entsteht am Ende die Kamm-/Wall-Höhe.
 - **Bedeutung:** Kenn-Zeichen für die maximale Ausdehnung des Gletschers
   zu einer bestimmten Zeitphase. → ggf. mehrere Endmoränen-Sätze (für verschiedene
   Phasen der Eiszeit).
-- Im Bildungsplan genannt als „Endmoräne".
+- Im Bildungsplan genannt als „Endmoräne“.
 
 ---
 
 ## Weitere Glazial-Landformen (explizit im Bildungsplan oder üblich)
 
-### Talgletscher / Tal-Gletscher
+### Talgletscher / Talgletscher
 
-- **Form:** Ein Gletscher, der ein Tal ausfüllt, von höheren Niederschlagsgebieten (Zehrgebiet / Nährgebiet)
+- **Form:** ein Gletscher, der ein Tal ausfüllt, von höheren Niederschlagsgebieten (Zehrgebiet / Nährgebiet)
   nach Talab fließt (Abflussrichtung).
 - **Beispiele:** Grosser Aletsch (Schweiz, 23 km lang), Gletscher an den Alpen.
 
 ### Trogtal (glaziale Talstruktur)
 
-- **Form:** Steil, U-T-förmig, typische Talform durch Gletscherabtrag.
+- **Form:** steil, U-T-förmig, typische Talform durch Gletscherabtrag.
 - **Entstehung:** Eis schmilzt Runnen, Ab-trag tief; im Vergleich zu V-Tal des Flusses.
 - **Bildungsplan:** Trogtal als Begriff genannt.
 
@@ -73,13 +73,13 @@ Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne" überhaupt verwendet
 - **Form:** Halbschale-/ Kesselstruktur im Hochgebirge, oft mit steilen, gebrochenen
   Felswänden, mit Moräne im unteren Teil.
 - **Entstehung:** Eis erodiert, runde Mulde an der Hochsee‑Region;
-  Entstehung durch Abrasion und Quarzmehl (Eisverdichtung zugespitzt).
+ Entstehung durch Abrasion und Quarzmehl (Eisverdichtung zugespitzt).
 - **Bildungsplan:** *Kar* genannt (nicht zu verwechseln mit Karst!).
 
 ### Zungenbecken
 
 - **Form:** Mulde am Gletschervorderenden, oft rund, vor dem Endrand.
-- **Vgl.:** Glaziale Serie — [[glaziale-serie]].
+- **vgl.:** Glaziale Serie — [[glaziale-serie]].
 
 ---
 
@@ -115,3 +115,40 @@ Wirkeiten, die im LK erwartet werden (§3.5.2.1):
 - [[permafrost-und-solifluktion]] ← Permafrost, Solifluktion (exogene Prozesse)
 - [[vulnerabilitaet-raumbeispiele]] ← Vulnerabilität Glazialräume
 - [[vulnerabilitaet-begriffe]] ← Konzept-Grundlage
+
+---
+
+## Bildreferenzen & Animationen
+
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+
+#### 🎬 Wie formen Gletscher die Landschaft? – Animation (geog.1)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/loI584OFVpE" frameborder="0" allowfullscreen title="Wie formen Gletscher die Landschaft? – Animation (geog.1)"></iframe>
+
+*Erosionsprozesse, Abrasion, Trogtal, Moränen, U-förmige Täler.*
+
+#### 📸 Fotogalerie: Moränen, Gletscherformen (Unsplash)
+
+[Freie Fotos von Endmoränen, Seitenmoränen, medialen Moränen.](https://unsplash.com/s/photos/glacier-moraine)
+
+#### 📸 Fotogalerie: Drumlins und glaziale Hügelformen (Unsplash)
+
+[Freie Fotos von Drumlins und vergleichbaren glazialen Formen.](https://unsplash.com/s/photos/drumlin)
+
+#### 🖼️ Kategorie: Glaziale Landformen – Wikimedia Commons
+
+[Bilder von Moränen, Drumlins, Urstromtäler, Zungenbecken und weiteren glazialen Formen.](https://commons.wikimedia.org/wiki/Category:Glacial_landforms)
+
+
+---
+## Animationen
+
+### 🎬 Gletscher verstehen – Mike Sammartano (moraines, drumlins, kessel)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HEStq4VYJ2Y" frameborder="0" allowfullscreen></iframe>
+
+### 🎬 Drumlins – Gletscherformen (drumlin identification demo)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cDeaNBWK0UA" frameborder="0" allowfullscreen></iframe>
+

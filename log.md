@@ -6,7 +6,7 @@
 > Bei >500 Einträgen: rotieren → `log-YYYY.md`, neu starten.
 
 ## [2026-09-27] create | Wiki initialisiert
-- Domain: Physische Geographie LK BW (Vulkansimus, Glazialmorphologie, Vulnerabilität)
+- Domain: Physische Geografie LK BW (Vulkansimus, Glazialmorphologie, Vulnerabilität)
 - Bildungsplan 2016-Leistungskurs (Gymnasium), Fassung V2 2023
 - Aufbau: SCHEMA.md, index.md, log.md + Unterordner für Rohquellen und Wiki-Ebenen
 - Quelle: bildungsplaene-bw.de (Vulv.-/Glaz.-Kompetenzen §3.4.3.2, §3.5)
