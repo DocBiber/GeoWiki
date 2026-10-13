@@ -32,9 +32,8 @@ Wichtige Typen:
 | **Eisschild (Kontinental-Gletscher)** | Massiver, kontinentaler Eismantel, tausende km² | Inlandsis Grönland, Antarktika |
 | **Eistrom (Eisstromnetz)** | Gletscher, der vom Eisschild abfließt | Einzelsysteme der Antarktika-Plattform |
 | **Hang-Gletscher** | An steilen Hängen haftender Eisstreifen | Steile Alpengletscher |
-| **Karbälge / Firnfeld / Zehrgebiet** | Bereich wo Schnee kompensiert (Schneehaupthöhe) und den Gletscher speist | Zehrgebiet des Aletsch-Gletschers |
-| **Eisfeld / Tal-Gletscher / Thal-Gletscher** | Landes-Gletscher | Zunge, Endfläche |
-| **Nährgebiet / Zehrgebiet** | Oberhalb Firnlinie — Menge anschießt | — |
+| **Kar / Firnfeld** | Kesselförmige Eintiefung am Gebirgsfuß; Firnfeld = Ansammlungsgebiet von Firn oberhalb der Schneegrenze | Kar und Firnfeld des Aletsch-Gebiets |
+| **Tal-Gletscher** | Gletscher, der ein Tal ausfüllt und talab fließt | Aletsch-Gletscher (Schweiz) |
 
 ### Grundlagen: Kaltzeit vs. Warmzeit
 
@@ -79,7 +78,7 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 
 | Prozess | Mechanismus | Formen |
 |---|---|---|
-| **Abtrag / Abrasion / Schleifung** | Gletscher-Granit (Schotter, Felsblöcke) schleift Gestein unter dem Gletscher ab → glatte, Kante; **striATIONS** (Schrammen) als Beweise | Polierter Fels, Glanzplanen (z.B. an Felsfläche) |
+| **Abrasion / Schleifung** | Mit Eis beladene Gesteinstrümmer (Geschiebe) schleifen das Gestein unter dem Gletscher ab → glatte, polierte Flächen; **Striemungen** (Schrammen) als Beweis | Polierter Fels, Glanzflächen (z.B. an Felswänden) |
 | **Zertrümmerung / Freeze & Thaw** | Eis im Gesteinsporen dehnt Geste ein → bricht ab | Produziert Blockmaterial |
 | **Anriss / Quarzmehl** | Mikroskopisches Quarzmehl → Feinstkruste | Glazialstreifen / lineierte Reliefform |
 
@@ -97,7 +96,7 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 |---|---|---|
 | **Grundmoräne** (Till-Lage) | Einbruch am Gletscherboden, schleifmäßige Ablagerung, ungeschichtet | Unter dem Gletscher (zentrales Flachland) |
 | **Seitenmoräne** | Material am Gletscherseiten (Gesteinskarren, Block) → an den Beckenlinien | am Gletscher-Rand → auffangmäßig |
-| **Endmoräne / Stossmoräne** | Ablagerung am Vorderrand des Gletscherspitzens, EoZ-Linie | am Gletscher-Rand |
+| **Endmoräne / Stossmoräne** | Ablagerung am vorderen Endrand der Gletscherzunge, wo das Eis über längere Zeit stationär war | am Gletscher-Endrand |
 | **Zungenbecken** | Mulde am Vorderende des Gletschers (oft das gespeicherte Schmelzwasser des Gletschers) | am Ende der Gletscherzunge |
 | **Sander (Sandr)** | Schotter-/Sandfeld vor moränen-typischen Linien, vom Schmelzwasser aufgestaut | vor dem Endrand (Knöllchenfront) |
 | **Urstromtal** | Tal druch Schmelzgering (Meltwater) → liegt vor dem Gletscher | hinter den Sandrhänner, bettw. Fluordnung |
@@ -117,7 +116,7 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 
 ### Erosions-Großformen
 
-- **Trogtal** — typisch glazial geformtes, spitz Zungen-Form; im Bildungsplan genannt
+- **Trogtal** — typisch glazial geformtes Tal: U-förmig, breit, mit steilen Wänden (Gegenstück zum V-förmigen Kerbtal des Flusses); im Bildungsplan genannt
 - **Cirque (Kar)** — kesselartiges Frischtal (Berg, felsig), birnenförmige, Randmoränen
 - **Mur** (glazial geformter Bergrücken, Hangmulde)
 - **Areth** (Arotte schmaler Gletscherwand)

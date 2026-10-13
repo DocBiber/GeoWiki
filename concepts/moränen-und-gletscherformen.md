@@ -83,15 +83,15 @@ Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne“ überhaupt verwendet
 
 ---
 
-## Höhe, Nährgebeit, Zehrgebiet
+## Höhe, Nährgebiet, Zehrgebiet
 
 Der Bildungsplan LK nennt: **Nährgebiet**, **Zehrgebiet**
 
-- **Zehrgebiet (Akkumulationszone):** Bereich oberhalb der Schneegrenze, wo Schnee/Jahr
-  abgepufft und zu Firn/Eis wird → daraus kommt Gletscherzunahme.
-- **Nährgebiet (Melt-/Abtragszone):** Bereich, wo mehr Abtrag (Ablation) als Akkumulation
-  — Gletschermenge verringert.
-- **Gleichgewichtslinie (Gl-Z-Linie):** Linie, wo Akkumulation = Ablation — jährlicher
+- **Nährgebiet (Akkumulationsgebiet):** Bereich oberhalb der Gleichgewichtslinie, wo die
+  Schneemenge die Ablation übersteigt — Schnee wird zu Firn und Eis, der Gletscher wächst.
+- **Zehrgebiet (Ablationsgebiet):** Bereich unterhalb der Gleichgewichtslinie, wo mehr
+  Ablation (Schmelze) als Akkumulation herrscht — die Gletschermasse nimmt ab.
+- **Gleichgewichtslinie (ELA):** Linie, wo Akkumulation = Ablation — der jährliche
   Balancepunkt. Wichtig für Gletscher-Monitoring.
 
 ---

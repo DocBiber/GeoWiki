@@ -57,3 +57,15 @@
 - SCHEMA.md: Tag kuesten-raumbeispiele in Taxonomie eingetragen
 - Medien: Unsplash-/Commons-Galerien verlinkt; YouTube-Animationen folgen beim nächsten Medienlauf (M3-Muster)
 - Nächste Schritte: Karstlandschaft-Raumbeispiele, YouTube-Medien für Fluss- und Küstenseite
+
+## [2026-10-13] fix | Fachfehler in Glazial-Seiten korrigiert (QA-Nacharbeit Punkt 1)
+- moränen-und-gletscherformen.md: Nährgebiet/Zehrgebiet waren vertauscht — korrigiert
+  (Nährgebiet = Akkumulationsgebiet oberhalb ELA; Zehrgebiet = Ablationsgebiet darunter)
+- glaziale-serie.md: Trogtal war als „V-förmig" beschrieben (Gegenbeispiel!) — korrigiert auf
+  „U-förmig, breit, steile Wände"; Serien-Beschreibung „links vom Gletscher" präzisiert
+  (quer vor der Gletscherzunge, Richtung Vorland)
+- glazialmorphologie-ueberblick.md: Trogtal „spitz Zungen-Form" korrigiert; erfundenes
+  „Karbälge" durch „Kar" ersetzt; „Gletscher-Granit" → Geschiebe; „EoZ-Linie" korrigiert;
+  wirre Gletschertyp-Tabelle bereinigt (Kar/Firnfeld, Tal-Gletscher)
+- index.md: „Karbälge" in der Seitenbeschreibung durch „Endmoräne, Kar" ersetzt
+- Nächste Schritte: Sprachputz der Glazial-Seiten (Punkt 2), HTML-Export-Neubau (Punkt 3)

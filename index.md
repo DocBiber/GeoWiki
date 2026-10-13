@@ -21,7 +21,7 @@
 
 - [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Grundlagen, Kalt-/Warmzeit, Permafrost
 - [[glaziale-serie]] — Glaziale Serie: Zungenbecken → Endmoräne → Sander → Urstromtal (Penck)
-- [[moränen-und-gletscherformen]] — Altmoräne, Jungmoräne, Grundmoräne, Seitenmoräne, Karbälge, Dreikanter
+- [[moränen-und-gletscherformen]] — Altmoräne, Jungmoräne, Grundmoräne, Seitenmoräne, Endmoräne, Kar, Dreikanter
 - [[permafrost-und-solifluktion]] — Permafrost, Thermokarst, Solifluktion, Geliturbation
 
 ## VULNERABILITÄT & RESILIENZ

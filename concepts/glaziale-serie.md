@@ -12,11 +12,11 @@ sources: []
 ## Hintergrund
 
 Der Geograf **Albrecht Penck** (österreichisch, 1858–1945) beschrieb 1882 als Erster eine
-räumlich-gliederte Abfolge von Landformen, die durch das Inlandeis (oder einen großen
-Tal-Gletscher) im Laufe einer Eiszeitfront entsteht und sich in einer bestimmten
-rasterlichen Reihenfolge links vom Gletscher sieht. Diese **Glaziale Serie** ist bis heute
+räumlich gegliederte Abfolge von Landformen, die durch das Inlandeis (oder einen großen
+Tal-Gletscher) im Laufe einer Eiszeit entsteht. Die Elemente liegen **quer vor der
+Gletscherzunge** — vom Endrand aus Richtung Vorland. Diese **Glaziale Serie** ist bis heute
 ein Standardlehrstück im geografischen Schulunterricht — auch im Leistungskurs BW
-(§3.5.2.1: „glaziale Serie“ explizit genannt).
+(§3.5.2.1: „glaziale Serie" explizit genannt).
 
 > **wichtig:** die Serie ist selbst die Modelbedingung, also beobachtbare Flächen in einem
 > vollständigen System — nicht alle Gebiete zeigen die VollSerie, aber Studienobjekte wie
@@ -105,7 +105,7 @@ und Schüler:
 | **Seitenmoräne** | an Gletscher-Seiten geformte Berge / Schotter-Linie (Rand-Erosions-Zone) |
 | **Loess/Loß** | Windgetragen Feinschluff/Sand, oft an Flachländern der ehemaligen eiszeitlichen Schmelzraumen |
 | **Solifluktion** | Hangabtrag in Permafrostzonen (wässriger Film, kreeping) — auch exogen |
-| **Trogtal** | Glazial geformte Talstruktur — V-förmig, steil, erosionsgeresidual |
+| **Trogtal** | Glazial geformte Talstruktur — U-förmig (breit, steile Wände), typisches Erosionsrelikt des Gletschers |
 | **Permafrost** | Dauer-GEFROREN Wärme/Untergrund — notfalls Habitat |
 
 ---
