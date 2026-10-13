@@ -1,7 +1,7 @@
 ---
 title: Raumbeispiele — Vulkanismus (Geografie LK)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-13
 type: concept
 tags: [raumbeispiele, vulkanismus, vulkan-raumbeispiele]
 sources: []
@@ -15,6 +15,10 @@ sources: []
 ---
 
 ## 1. Mount Vesuv — Italien
+
+![Mount Vesuv, Kampanien (Italien)](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg/1280px-Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg)
+
+*Bild: Wikimedia Commons — Aerial image of Pompeii and Mount Vesuvius (view from the southeast).jpg (CC BY-SA 4.0)*
 
 ### Grunddaten
 
@@ -63,6 +67,10 @@ sources: []
 
 ## 2. Kilauea — Hawaii, USA
 
+![Kilauea, Hawaii (USA)](https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Glowing_Lava_at_Kilauea_Vulcano1.jpg/1280px-Glowing_Lava_at_Kilauea_Vulcano1.jpg)
+
+*Bild: Wikimedia Commons — Glowing Lava at Kilauea Vulcano1.jpg (CC BY-SA 2.0)*
+
 ### Grunddaten
 
 | Merkmal | Angabe |
@@ -108,6 +116,10 @@ sources: []
 
 ## 3. Laacher See — Eifel, Deutschland
 
+![Laacher See, Eifel (Deutschland)](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/20160813_Laacher_See_11.jpg/1280px-20160813_Laacher_See_11.jpg)
+
+*Bild: Wikimedia Commons — 20160813 Laacher See 11.jpg (CC BY-SA 3.0)*
+
 ### Grunddaten
 
 | Merkmal | Angabe |
@@ -149,6 +161,10 @@ sources: []
 ---
 
 ## 4. Eyafjöll (Eyjafjallajökull) — Island
+
+![Eyjafjallajökull, Island](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Eyjafjallaj%C3%B6kull%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_111.JPG/1280px-Eyjafjallaj%C3%B6kull%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_111.JPG)
+
+*Bild: Wikimedia Commons — Eyjafjallajökull, Suðurland, Islandia, 2014-08-17, DD 111.JPG (CC BY-SA 4.0)*
 
 ### Grunddaten
 

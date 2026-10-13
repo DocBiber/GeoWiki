@@ -19,6 +19,10 @@ confidence: medium
 
 ## 1. Elbe — Hochwasser 2002 (Sommerhochwasser, Mitteleuropa)
 
+![Elbe-Hochwasser 2002, Dresden](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg/1280px-20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg)
+
+*Bild: Wikimedia Commons — 20020815220NR Dresden Hochwasser Carolabrücke.jpg (CC BY-SA 4.0)*
+
 ### Grunddaten
 
 || Merkmal | Angabe |
@@ -58,6 +62,10 @@ confidence: medium
 ---
 
 ## 2. Rhein — Flussregulierung und Rückhaltebecken
+
+![Rhein (Oberrhein)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg/1280px-2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg)
+
+*Bild: Wikimedia Commons — 2018-06-15 09-35-06 River Rhine and Loog in Dörflingen.jpg (CC BY-SA 4.0)*
 
 ### Grunddaten
 
@@ -101,6 +109,10 @@ confidence: medium
 ---
 
 ## 3. Donau — Donaudelta (Transferzone Fluss ↔ Meer)
+
+![Donaudelta bei Sulina (Rumänien)](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Danube_in_Sulina%2C_Romania.02.jpg/1280px-Danube_in_Sulina%2C_Romania.02.jpg)
+
+*Bild: Wikimedia Commons — Danube in Sulina, Romania.02.jpg (CC BY-SA 4.0)*
 
 ### Grunddaten
 

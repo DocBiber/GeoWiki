@@ -316,10 +316,33 @@ def collect_pages():
 
 
 def first_paragraph(body):
-    """Kurzbeschreibung: erster Absatz nach dem ersten H1."""
-    for line in body.splitlines():
+    """Kurzbeschreibung: Blockquote-Einleitung nach dem ersten H1,
+    sonst erster echter Prosa-Absatz (Bild-/Quellen-/Tabellenzeilen werden übersprungen)."""
+    # 1) Einleitungs-Blockquote direkt nach dem ersten H1
+    lines = body.split("\n")
+    h1_seen = False
+    for i, line in enumerate(lines):
         s = line.strip()
-        if not s or s.startswith("#") or s.startswith("---") or s.startswith(">"):
+        if s.startswith("# ") and not h1_seen:
+            h1_seen = True
+            continue
+        if h1_seen and s.startswith(">"):
+            parts = []
+            for l in lines[i:]:
+                ls = l.strip()
+                if not ls.startswith(">"):
+                    if not ls:
+                        continue
+                    break
+                parts.append(ls.lstrip("> ").strip())
+            if parts:
+                return " ".join(p for p in parts if p)[:220]
+    # 2) erster Prosa-Absatz
+    for line in lines:
+        s = line.strip()
+        if not s or s.startswith(("#", "---", ">", "![", "|")):
+            continue
+        if s.startswith("*Bild:") or s.startswith("*Quelle:"):
             continue
         s = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", lambda m: m.group(2) or m.group(1), s)
         s = re.sub(r"[*`]", "", s)

@@ -19,6 +19,10 @@ confidence: medium
 
 ## 1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)
 
+![Wattenmeer, Nordsee](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg/1280px-13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg)
+
+*Bild: Wikimedia Commons — 13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg (CC BY-SA 3.0)*
+
 ### Grunddaten
 
 || Merkmal | Angabe |
@@ -64,6 +68,10 @@ confidence: medium
 
 ## 2. Sylt — Inselwanderung, Sandaufspülung, Tourismus
 
+![Sylt, Nordsee (Deutschland)](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg/1280px-Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg)
+
+*Bild: Wikimedia Commons — Feuerwehr Kampen (Sylt) 2018 NE.jpg (CC BY-SA 4.0)*
+
 ### Grunddaten
 
 || Merkmal | Angabe |
@@ -103,6 +111,10 @@ confidence: medium
 ---
 
 ## 3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung
+
+![Steilküste, Ostsee (Rügen)](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Abgest%C3%BCrzte_B%C3%A4ume_Steilk%C3%BCste_R%C3%BCgen_-_Nationalpark_Jasmund.jpg/1280px-Abgest%C3%BCrzte_B%C3%A4ume_Steilk%C3%BCste_R%C3%BCgen_-_Nationalpark_Jasmund.jpg)
+
+*Bild: Wikimedia Commons — Abgestürzte Bäume Steilküste Rügen - Nationalpark Jasmund.jpg (CC0)*
 
 ### Grunddaten
 
@@ -145,6 +157,10 @@ confidence: medium
 ---
 
 ## 4. Internationales Referenzbeispiel: Niederlande — Deltawerke
+
+![Oosterscheldekering (Deltawerke, Niederlande)](https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Oosterscheldekering-pohled.jpg/1280px-Oosterscheldekering-pohled.jpg)
+
+*Bild: Wikimedia Commons — Oosterscheldekering-pohled.jpg (CC BY 3.0)*
 
 > Kurzbeispiel als Kontrast zur deutschen Nordsee-Küste: Die Niederlande haben nach der
 > Sturmflut 1953 (1.836 Tote) das **Deltaprogramm** umgesetzt — Sperrwerke (Oosterschelde,

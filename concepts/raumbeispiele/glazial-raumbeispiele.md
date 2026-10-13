@@ -1,7 +1,7 @@
 ---
 title: Raumbeispiele — Glazialmorphologie (Geografie LK)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-13
 type: concept
 tags: [raumbeispiele, glazialmorphologie, glazial-raumbeispiele]
 sources: []
@@ -15,6 +15,10 @@ sources: []
 ---
 
 ## 1. Alpen — Schweiz (Grosser Aletsch-Gletscher)
+
+![Grosser Aletschgletscher, Berner Alpen (Schweiz)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg/1280px-Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg)
+
+*Bild: Wikimedia Commons — Aletschgletscher, Aletschwald und Wannenhörner (2017).jpg (CC BY-SA 4.0)*
 
 ### Grunddaten
 
@@ -69,6 +73,10 @@ sources: []
 
 ## 2. Norddeutsches Tiefland — Skandisches Inlandeis
 
+![Endmoräne Gontenschwil (Schweiz) — beispielhafte Moränenform](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Endmor%C3%A4ne_Gontenschwil.jpg/1280px-Endmor%C3%A4ne_Gontenschwil.jpg)
+
+*Bild: Wikimedia Commons — Endmoräne Gontenschwil.jpg (CC BY 4.0)*
+
 ### Grunddaten
 
 | Merkmal | Angabe |
@@ -111,6 +119,10 @@ sources: []
 ---
 
 ## 3. Island — Gletscher-Vulkan-Interaktion
+
+![Vatnajökull, Island](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Island_Vatnaj%C3%B6kull_02.JPG/1280px-Island_Vatnaj%C3%B6kull_02.JPG)
+
+*Bild: Wikimedia Commons — Island Vatnajökull 02.JPG (CC BY-SA 3.0)*
 
 ### Grunddaten
 
