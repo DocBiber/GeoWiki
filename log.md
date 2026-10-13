@@ -160,3 +160,19 @@
   docs/-Ordner (September-Handexporte, nicht Teil des aktuellen Builds — enthalten
   noch den alten Dateinamen docs/vulkansimus-ueberblick.html; Bereinigung auf Wunsch)
 - Gegenprobe: 0 broken wikilinks, keine Slug-Duplikate mehr, HTML neu gebaut
+
+## [2026-10-13] feat | Raumbeispiel-Fotos direkt bei den Beispielen
+- Auftrag: Fotografien sollen direkt bei den Raumbeispielen angezeigt werden
+- Recherche via Commons-API (keine erfundenen URLs — jede URL aus imageinfo der API;
+  Lizenzen in einer Abfrage für alle 14 Dateien geholt): 14 echte Bilder, je eines pro
+  Raumbeispiel: Vesuv, Kilauea, Laacher See, Eyjafjallajökull (Vulkan); Aletschgletscher,
+  Endmoräne, Vatnajökull (Glazial); Elbe-Hochwasser 2002 Dresden, Rhein, Donaudelta/Sulina
+  (Fluss); Wattenmeer, Sylt/Kampen, Steilküste Rügen (Jasmund), Oosterscheldekering (Küste)
+- Lizenzen: CC BY-SA 4.0/3.0/2.0, CC BY 4.0/3.0, CC0 — alle frei mit Namensnennung;
+  jedes Bild mit Quellenzeile (Dateiname + Lizenz) versehen
+- Bilder stehen direkt unter der jeweiligen ##-Abschnittsüberschrift (vor „### Grunddaten")
+- Thumbnails 1200px (iiurlwidth), utm-Parameter entfernt
+- Builder-Fix nötig geworden: first_paragraph() erfasste die neue Bildzeile als
+  Kurzbeschreibung → Rohtext im Seitenkopf; Funktion überspringt jetzt Bild-/
+  Quellen-/Tabellenzeilen und nutzt die Einleitung
+- Browser-Test: alle 14 Bilder laden (naturalWidth 1280), Rohtext weg, Layout sauber
