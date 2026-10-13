@@ -64,6 +64,7 @@ folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen 
 - uebung — Übungsaufgaben, Kompetenzstufen
 - vulkan-raumbeispiele — Vulkanraum-Beispiele (Vesuv, Kilauea, Laacher See, Eyafjöll)
 - glazial-raumbeispiele — Glazialraum-Beispiele (Alpen, Norddeutschland, Island)
+- fluss-raumbeispiele — Flussraum-Beispiele (Elbe-Hochwasser 2002, Rhein-Regulierung, Donaudelta)
 
 ### Entitätstypen
 - vulkan — ein Vulkan / Vulkanismo-Objekt

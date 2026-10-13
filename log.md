@@ -41,3 +41,11 @@
 - exercises/abitur-aufgaben.md — 4 Abitur-Muster-Aufgaben mit Lösungshinweisen + Bewertungsaspekte
 - exercises/uebungsaufgaben.md — 16 Übungsaufgaben (Stufen 1–3, nach Operatoren gegliedert)
 - Nächste Schritte: Flusslandschaft, Küstenlandschaft, Karstlandschaft (Raumbeispiele), ggf. JSON-Export für Obsidian
+
+## [2026-10-13] create | Flusslandschaft als Raumbeispiel angelegt (M5 begonnen)
+- concepts/raumbeispiele/fluss-raumbeispiele.md — 3 Beispiele: Elbe-Hochwasser 2002 (Vb-Wetterlage, Verwundbarkeit der Aue), Rhein (Tulla-Regulierung, Sohlenerosion, Rückhaltebecken, IKSR), Donaudelta (Sedimentstau, Überschwemmungspulse, Ökosystemleistungen) + Vergleichstabelle + LK-Hinweisen
+- index.md: Eintrag ergänzt, aus „NOCH LEER" entfernt
+- uebersicht-raumbeispiele.md: Flusszeile auf Live-Status gesetzt, Verknüpfung ergänzt
+- SCHEMA.md: Tag fluss-raumbeispiele in Taxonomie eingetragen
+- Medien: Unsplash-/Commons-Galerien verlinkt; YouTube-Animationen folgen beim nächsten Medienlauf (M3-Muster)
+- Nächste Schritte: Küstenlandschaft, Karstlandschaft-Raumbeispiele, YouTube-Medien für Flussseite

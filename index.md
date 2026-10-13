@@ -3,7 +3,7 @@
 > Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg,
 > ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).
 > Domain: Physische Geografie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
-> Letztes Update: 2026-09-30 | Gesamtseiten: 24
+> Letztes Update: 2026-10-13 | Gesamtseiten: 25
 
 ## BILDUNGSPLAN-RAHMEN
 
@@ -56,6 +56,7 @@
 - [[uebersicht-raumbeispiele]] — Übersicht alle 5 Landschaften + Auswahl-Tabelle LK-Abitur
 - [[vulkan-raumbeispiele]] — Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island)
 - [[glazial-raumbeispiele]] — Alpen (Aletsch, Schweiz), Norddeutsches Tiefland, Island (Vatnajökull)
+- [[fluss-raumbeispiele]] — Flusslandschaften: Elbe (Hochwasser 2002), Rhein (Regulierung/Rückhaltebecken), Donau-Delta
 - [[karstlandschaft]] — Karstlandschaft: Polje, Dolinen, Karren, Höhlen, chemische Verwitterung — Grundlagen und Raumbeispiele
 
 ## SKIZZEN (Zeichenvorlagen für Abitur)
@@ -73,6 +74,5 @@
 
 ## NOCH LEER (ausstehend)
 
-- Flusslandschaft (Raumbeispiele: Elbe, Rhein, Donau) — noch nicht angelegt
 - Küstenlandschaft (Raumbeispiele: Nordsee, Ostsee) — noch nicht angelegt
 - Karstlandschaft als Raumbeispieldatei (derzeit nur Konzeptseite; konkrete Beispiele wie Eifel, Slowenien, Yucatán fehlen)
