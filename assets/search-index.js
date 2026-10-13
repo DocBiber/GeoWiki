@@ -149,14 +149,14 @@ window.SEARCH_INDEX = [
 {
 "t": "Vulkanismus — Überblick (Geografie LK)",
 "u": "vulkanismus-ueberblick.html",
-"c": "Vulkansismus",
+"c": "Vulkanismus",
 "d": "Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma",
 "x": "Vulkanismus — Grundlagen und Überblick Definition Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma (brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der endogenen (tiefengeschoffen) Prozesse , die die Erdoberfläche formen. Man unterscheidet: - Effusiver V"
 },
 {
 "t": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren",
 "u": "vulkanprozesse.html",
-"c": "Vulkansismus",
+"c": "Vulkanismus",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
 "x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolit, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstärke Leise, stromend (Font"
 },
@@ -254,7 +254,7 @@ window.SEARCH_INDEX = [
 {
 "t": "Vulkanarten — Formen und Typen",
 "u": "vulkanarten.html",
-"c": "Vulkansismus",
+"c": "Vulkanismus",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
 "x": "Vulkanarten — Formen und Typen Einordnung Die Form eines Vulkans ist das sichtbare Ergebnis von Magmazusammensetzung, Eruptionsstil, Plattenkontext und geologischer Geschichte. Der Bildungsplan LK §3.5.2.1 nennt folgende Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Caldera, Hot Spot (welcher letzterer ein geodynamischer Kontext ist, keine eigene Form, aber als Kateg"
 },

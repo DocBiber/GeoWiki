@@ -401,8 +401,8 @@ def sidebar_html(pages, cats, current_slug):
             open_default = any(s == current_slug for s, _ in cat["pages"])
             panel_id = f"cat-panel-{idx}"
             items.append(
-                f'<button class="cat-toggle" aria-expanded="{"true" if open_default else "false"}" '
-                f'aria-controls="{panel_id}">{ICONS["chevron"]}'
+                f'<button class="cat-toggle cat-{idx}" aria-expanded="{"true" if open_default else "false"}" '
+                f'aria-controls="{panel_id}">{ICONS["chevron"]}<span class="cat-dot"></span>'
                 f'<span>{html.escape(nice_cat_name(cat["name"]))}</span>'
                 f'<span class="cat-count">{len(cat["pages"])}</span></button>')
             lis = []
@@ -462,10 +462,11 @@ def meta_html(p, cat_name):
 </div>'''
 
 
-def breadcrumb_html(cat_name, title):
+def breadcrumb_html(cat_name, title, cat_idx=None):
     parts = ['<a href="index.html">Startseite</a>']
     if cat_name:
-        parts.append(f'<a href="index.html#cat-{slugify(cat_name)}">{html.escape(nice_cat_name(cat_name))}</a>')
+        chip_cls = f'cat-chip cat-{cat_idx}' if cat_idx is not None else "cat-chip"
+        parts.append(f'<a class="{chip_cls}" href="index.html#cat-{slugify(cat_name)}">{html.escape(nice_cat_name(cat_name))}</a>')
     parts.append(f'<span class="current">{html.escape(title)}</span>')
     return '<nav class="breadcrumb" aria-label="Brotkrumen">' + \
         ' <span class="sep">/</span> '.join(parts) + "</nav>"
@@ -505,12 +506,12 @@ def build_home(pages, cats, backlinks):
 
     # Kategorien-Karten
     cards = []
-    for cat in cats:
+    for idx, cat in enumerate(cats):
         anchor = f"cat-{slugify(cat['name'])}"
         sample = cat["pages"][0][1] if cat["pages"] and cat["pages"][0][1] else ""
         first_slug = cat["pages"][0][0] if cat["pages"] else "index.html"
         cards.append(
-            f'<a class="cat-card" id="{anchor}" href="{first_slug}.html">'
+            f'<a class="cat-card cat-{idx}" id="{anchor}" href="{first_slug}.html">'
             f'<div class="cat-name">{html.escape(nice_cat_name(cat["name"]))}</div>'
             f'<div class="cat-n">{len(cat["pages"])} Artikel</div>'
             f'<div class="cat-sample">{html.escape(sample[:110])}</div></a>')
@@ -593,6 +594,14 @@ def build_article(p, pages, cats, backlinks):
     body_html = md_to_html(p["body"], known, p["title"])
     desc = first_paragraph(p["body"])
 
+    cat_name = None
+    cat_idx = None
+    for i, cat in enumerate(cats):
+        if p["slug"] in [s for s, _ in cat["pages"]]:
+            cat_name = cat["name"]
+            cat_idx = i
+            break
+
     h23 = re.findall(r"<h([23]) id=\"([^\"]+)\">(.*?)</h\1>", body_html, re.S)
     toc_mobile = ""
     if h23:
@@ -616,7 +625,7 @@ def build_article(p, pages, cats, backlinks):
 {sidebar_html(pages, cats, p["slug"])}
   <main class="content">
     <div class="content-inner">
-      {breadcrumb_html(cat_name, p["title"])}
+      {breadcrumb_html(cat_name, p["title"], cat_idx)}
       <div class="page-head">
         <div class="page-title-row">
           <h1>{html.escape(p["title"])}</h1>

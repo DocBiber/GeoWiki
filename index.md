@@ -11,7 +11,7 @@
 - [[kompenenzen-lk]] — Bildungsplan 2016 Leistungskurs Geografie Baden-Württemberg (Übersicht)
 - - [[abitur-ubersicht-lk]] — Abiturformat LK Geografie BW (Anforderungen, Operatoren, Beispiele)
 
-## VULKANSISMUS (Formen und Prozesse)
+## VULKANISMUS (Formen und Prozesse)
 
 - [[vulkanismus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
 - [[vulkanarten]] — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot

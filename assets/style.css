@@ -98,7 +98,99 @@ a:hover { text-decoration: underline; }
 
 button { font: inherit; color: inherit; }
 
-/* ============ Header ============ */
+/* ============ Kategorie-Farbcodierung (12 Themen) ============ */
+
+.cat-0  { --cat: #1d5fd6; }  /* Bildungsplan-Rahmen — Blau */
+.cat-1  { --cat: #dc2626; }  /* Vulkanismus — Rot */
+.cat-2  { --cat: #0e7490; }  /* Glazialmorphologie — Petrol */
+.cat-3  { --cat: #7c3aed; }  /* Vulnerabilität & Resilienz — Violett */
+.cat-4  { --cat: #a16207; }  /* Boden & Wasser — Amber */
+.cat-5  { --cat: #0284c7; }  /* Atmosphäre & Klima — Himmelblau */
+.cat-6  { --cat: #059669; }  /* Geographische Methoden — Smaragd */
+.cat-7  { --cat: #db2777; }  /* Globalisierung & Entwicklung — Pink */
+.cat-8  { --cat: #65a30d; }  /* Raumbeispiele — Lindgrün */
+.cat-9  { --cat: #ea580c; }  /* Skizzen — Orange */
+.cat-10 { --cat: #4f46e5; }  /* Vergleiche — Indigo */
+.cat-11 { --cat: #0891b2; }  /* Abitur & Übung — Cyan */
+
+[data-theme="dark"] .cat-0  { --cat: #6ea8fe; }
+[data-theme="dark"] .cat-1  { --cat: #f87171; }
+[data-theme="dark"] .cat-2  { --cat: #22d3ee; }
+[data-theme="dark"] .cat-3  { --cat: #a78bfa; }
+[data-theme="dark"] .cat-4  { --cat: #fbbf24; }
+[data-theme="dark"] .cat-5  { --cat: #38bdf8; }
+[data-theme="dark"] .cat-6  { --cat: #34d399; }
+[data-theme="dark"] .cat-7  { --cat: #f472b6; }
+[data-theme="dark"] .cat-8  { --cat: #a3e635; }
+[data-theme="dark"] .cat-9  { --cat: #fb923c; }
+[data-theme="dark"] .cat-10 { --cat: #818cf8; }
+[data-theme="dark"] .cat-11 { --cat: #22d3ee; }
+
+/* Farbpunkt in der Sidebar vor dem Kategorienamen */
+.cat-dot {
+  flex-shrink: 0;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--cat, var(--accent));
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--cat, var(--accent)) 20%, transparent);
+}
+.sidebar .cat-toggle .chev { color: var(--cat, var(--muted)); }
+.sidebar .cat-items a.active { border-left: 2px solid var(--cat, var(--accent)); }
+
+/* Startseiten-Karten: farbiger Akzent oben + Punkt am Namen */
+.cat-card {
+  border-top: 3px solid var(--cat, var(--accent));
+}
+.cat-card:hover {
+  border-color: var(--cat, var(--accent-strong));
+  border-top-color: var(--cat, var(--accent-strong));
+}
+.cat-card .cat-name::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 7px;
+  border-radius: 50%;
+  background: var(--cat, var(--accent));
+  vertical-align: 1px;
+}
+
+/* Breadcrumb-Kategorie-Chip in Kategorienfarbe */
+.breadcrumb .cat-chip {
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cat, var(--accent)) 14%, transparent);
+  color: var(--cat, var(--accent-ink));
+  font-weight: 600;
+}
+[data-theme="dark"] .breadcrumb .cat-chip {
+  background: color-mix(in srgb, var(--cat, var(--accent)) 22%, transparent);
+}
+
+/* Kategorie-Zähler in Kategorienfarbe */
+.sidebar .cat-count { color: var(--cat, var(--muted)); font-weight: 600; }
+
+/* Rechte Spalte: TOC-Zähler farbig */
+.toc-rail h3 { color: var(--accent); }
+
+/* Typ-Badge etwas kräftiger */
+.type-badge {
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-weight: 650;
+}
+
+/* Startseiten-Hero: dezenter farbiger Akzentbalken */
+.hero {
+  padding-top: 4px;
+  border-top: 3px solid transparent;
+  border-image: linear-gradient(90deg,
+    #1d5fd6 0%, #dc2626 16%, #ea580c 32%, #a16207 48%,
+    #059669 64%, #0e7490 80%, #7c3aed 100%) 1;
+  padding-top: 14px;
+}
 
 .header {
   position: sticky;
@@ -825,4 +917,12 @@ button { font: inherit; color: inherit; }
   .hero h1 { font-size: 1.55rem; }
   .header-search { max-width: none; }
   .brand span.brand-name { display: none; }
+}
+
+/* ============ Kategorie-Farben: Override nach .catcard-Basisregel ============ */
+/* (muss NACH der Basis-.cat-card-Regel stehen, damit border-top gewinnt) */
+.cat-card { border-top: 3px solid var(--cat, var(--accent)); }
+.cat-card:hover {
+  border-color: var(--cat, var(--accent-strong));
+  border-top-color: var(--cat, var(--accent-strong));
 }
