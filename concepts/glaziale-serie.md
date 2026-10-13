@@ -18,9 +18,9 @@ Gletscherzunge** — vom Endrand aus Richtung Vorland. Diese **Glaziale Serie** 
 ein Standardlehrstück im geografischen Schulunterricht — auch im Leistungskurs BW
 (§3.5.2.1: „glaziale Serie" explizit genannt).
 
-> **wichtig:** die Serie ist selbst die Modelbedingung, also beobachtbare Flächen in einem
-> vollständigen System — nicht alle Gebiete zeigen die VollSerie, aber Studienobjekte wie
-> das **norddeutsche Plainland**, Teile der **Alpenplättler** und **Skandinavien** sind
+> **wichtig:** Die Serie ist ein Modell — also beobachtbare Flächen in einem
+> vollständigen System. Nicht alle Gebiete zeigen die Vollserie, aber Studienobjekte wie
+> das **norddeutsche Tiefland**, Teile des **Alpenvorlands** und **Skandinavien** sind
 > hervorragende Beispiele.
 
 ---
@@ -50,35 +50,36 @@ Die Serie verläuft **vom Gletscherzentrum in Richtung Vorland**, wo das Schmelz
 
 ---
 
-### 1. Zungenbecken (Tonguing / Gletscherzungenmulde)
+### 1. Zungenbecken (Gletscherzungenmulde)
 
-- **Position:** direkt am Gletschervordere, dort wo die Eiszone endet.
-- **Ursprung:** Formur durch Vergletscherung: Eis erodiert Becken, hCu halu, Stauung
-  geschmolzenes Wasser → ggf. See.
-- **Charakter:** oft runde, tiefer Mulde, ulenförmig, Rundungen, gleichmäßigabgerundet.
+- **Position:** direkt am vorderen Ende der Gletscherzunge, dort wo die Eiszone endet.
+- **Ursprung:** Erosion durch das Gletschereis; vorgelagerte Moräne staut das Schmelzwasser
+  → es kann ein See entstehen.
+- **Charakter:** oft runde, tieferliegende Mulde, gleichmäßig abgerundet.
 
 ### 2. Endmoräne (Stossmoräne / Randkamm)
 
-- **was:** eine holz-Line / labforme (Bögen) am Endrand des Gletschers.
-- **Entstehung:** Gletscher bricht in Minimalform an in Gummiboden — Produkt am Endrand, aber
-  meistens schmal; im Normalbrief nach dem Laschrigen, Gletscherabmarkt — die Endmoräne
-  weist die größte Ausdehnung des Gletschers zu einer Zeit an.
-- **Form:** Halbrunder Bogen, oft für eine Weile am Autobahngürtel ähnlich.
+- **Was:** eine wallartige Linie (Bogenform) am Endrand des Gletschers.
+- **Entstehung:** Das Eis transportiert Gesteinsschutt an seinen Endrand; bleibt der Gletscher
+  über längere Zeit stationär, häuft sich das Material zu einem Wall an. Die Endmoräne
+  weist die größte Ausdehnung des Gletschers zu einer bestimmten Zeit aus.
+- **Form:** halbkreisförmiger Bogen, der das Zungenbecken umschließt.
 
-### 3. Sandr (Sander / Schottervorfeld)
+### 3. Sander (Schottervorfeld)
 
-- **Definition:** Gergelenk-Grundlage von Schutt-Schotter (Block, Stein, Schlick) vor der Moränengrenze,
-  abgelagert beim Schmelzen (Schmelzwassererosion, Schotteraufschüttung).
-- **Charakter:** dehnend wie eine boom-alähnliChe Zone vor dem End-glasig.
-- **Entstehung:** Schmelzwasser trägt transportierte Gesteins-, Ablagerungen am Rand.
-  Je nach Materialentwicklung: Blockrücken, Geschiebe.
+- **Definition:** Schutt- und Schotterfläche (Blöcke, Steine, Sand) vor der Moränengrenze,
+  abgelagert vom Schmelzwasser beim Abschmelzen des Gletschers.
+- **Charakter:** flächige, fächerartige Zone vor dem Gletscherrand.
+- **Entstehung:** Das Schmelzwasser transportiert Gestein und lagert es am Gletscherrand ab.
+  Je nach Material: Blockrücken, Geschiebefelder.
 
-### 4. Urstromtal (Rinn des Schmelzwassers)
+### 4. Urstromtal (Schmelzwassertal)
 
-- **Definition:** das längliche, fließförmige Tal, das vom Schmelzwasser (Mischan Wasserausfluss als
-  „Groß-Schmelzusammenfluss“) aufgeschnitten/gefördert wurde.
-- **Charakter:** oft weit, abgeflacht, ebene Talwalle (Cirque-Tal nicht starker Nachbild).
-- **Beispiele:** Vielzahl im Norddeutschen (z.B. die große Berliner Urstromtalsysteme).
+- **Definition:** das längliche, flache Tal, das das Schmelzwasser während des Eisrückzugs
+  als großer Abfluss vor dem Gletscher ausgebildet hat.
+- **Charakter:** oft weit, abgeflacht, mit ebenen Talböden.
+- **Beispiele:** zahlreich im Norddeutschen Tiefland (z. B. das Berliner Urstromtal,
+  Elbe-Ästuare).
 
 ---
 
@@ -121,8 +122,8 @@ und Schüler:
 | Karstlandschaft | Exogen (Wasserdarstellung chemische Auflösung von Kalk) | Doline, Polje, Karstquelle, Höhlen | explizit genannt |
 
 Die Glaziallandschaft differenziert sich in der _Leistungskurs-Perspektive_ dadurch, dass sie
-Information von früheren Eiszeiten mit aktuellen Klimaprozessen (Gletscherrückzug,
-Schmelzwasseränderung) verknÜpfen lässt — ein Bindeglied zu Vulnerabilität.
+Informationen von früheren Eiszeiten mit aktuellen Klimaprozessen (Gletscherrückzug,
+veränderte Schmelzwasserführung) verknüpfen lässt — ein Bindeglied zur Vulnerabilität.
 
 ---
 
@@ -181,7 +182,7 @@ Schmelzwasseränderung) verknÜpfen lässt — ein Bindeglied zu Vulnerabilität
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HEStq4VYJ2Y" frameborder="0" allowfullscreen></iframe>
 
-### 🎬 Glatzeal Landforms – Gletscherformen 복습
+### 🎬 Glaziale Landformen – Gletscherformen (Übersicht)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OvRXWbTZ8YY" frameborder="0" allowfullscreen></iframe>
 

@@ -24,8 +24,8 @@ sondern zur morphologischen Aufarbeitung in kalten Klimata.
 ### Definition
 
 **Permafrost** (permanenter Frostboden) = Boden oder Gestein, der mindestens zwei Jahre
-durchgehend **gefroren** bleibt (temp. <0 °C im Boden). Er kann zusätzlich einen
-„aktiven Schicht“ (= oberste Schicht, die im Sommer schmilzt) aufweisen.
+durchgehend **gefroren** bleibt (Temperatur < 0 °C im Boden). Darüber liegt die
+**aktive Schicht** — die oberste Schicht, die im Sommer auftaut.
 
 ### Vorkommen
 
@@ -49,8 +49,9 @@ durchgehend **gefroren** bleibt (temp. <0 °C im Boden). Er kann zusätzlich ei
 - **Geliturbation:** Verlagerung von Bodenmaterial durch tausende Frost-/Schmelz-Zyklen —
   langsame Hangbewegung.
 - **Palsa:** kleines, runder Moränen-Hügel mit permanent gefrorener Kern, oft in Feuchtbodenzonen.
-- **Infrastruktur-Gefährdung:** Straßen, Pipelines, Siedlungen in Permafrost-affine Zonen
-  → durch tauende Boden erodiert (Beispiel: Transsibirische Eisenbahn, Okmad.
+- **Infrastruktur-Gefährdung:** Straßen, Pipelines und Siedlungen in der Permafrostzone
+  werden durch tauenden Boden geschädigt (Beispiele: Transsibirische Eisenbahn,
+  Dalton Highway in Alaska).
 
 ---
 
@@ -64,20 +65,18 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 ### Mechanik
 
-1. Im Winter / dauerfreufrost-Monate: Boden gefroren → kein Wasser — kein Fließen.
-2. Im Sommer: Aktive Schicht schmilzt → Wasser setzt sich unten fest (im untersten
-   noch gefrorenen Bereich) — präfekulter Schmierungsschicht.
-3. Resultat: Lose Schicht schmilzt → schiebt sich unter dem schweren Boden massen,
-   **Hangab-druck** → langsame Hangflucht.
-4. GEschwindigkeit: cm/Jahr bis m/Jahr — im Vergleich zu Rutschungen schnell, aber
- unter normal-gefährdeten.
+1. Im Winter / in der Frostperiode: Der Boden ist gefroren — kein Wasser, kein Fließen.
+2. Im Sommer: Die obere „aktive Schicht" taut auf; das Wasser staut sich auf dem darunter
+   liegenden, noch gefrorenen Boden.
+3. Resultat: Die wassergesättigte Schicht gleitet unter dem Gewicht der auflastenden
+   Bodenmasse langsam hangabwärts (**Hangabtragung**).
+4. Geschwindigkeit: wenige cm bis wenige m pro Jahr — langsam, aber dauerhaft.
 
 ### Typische Landschaftserscheinungen
 
-- **Solifluktionskeile:** Kegel- oder Wellenform des Abgetragenen — am Hang als „Krawall“,
-  Wulst-Kegel.
-- **Stufen / Schüpp-Boden-Ebenen:** „Stufen-Landschaft“ (Löschufen) Buk-Darstellung.
-- **Terrainbhänge-in-Kalpern:** Pro Lönche am Hang.
+- **Solifluktionsloben:** zungen- oder wogenförmige Ablagerungen am Hangfuß
+- **Terrassen / Stufen:** abgestufte Hangflanken („Stufenlandschaft")
+- **Streifenböden:** durch Frostwechsel sortierte Steinmuster an der Oberfläche
 
 ---
 
@@ -97,13 +96,13 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 ## Vulnerabilität
 
-- **Boden-Stabilität:** Gelände kann dauerhaft-unregelmäßig werden, Hangkataster,
-  Straßen-/ EisenbahnSchadens, Infrastrukturrisiko.
-- **Siedlung:** Nord-Siedlungen, Aborigines-Dörfern in Permafrostzone → Gefährdung
-  durch permafrost-Toth.
-- **Wirtschaft:** Infrastruktur, SPIG-Collection (Pipeline), Bahnverbindungen —
-  Sozialvorgänge.
-- **Wasser:** Solifluction-water → Oberflächenwasser, Änderung im Feuchtigkeitshaushalt.
+- **Boden-Stabilität:** Das Gelände kann dauerhaft unregelmäßig werden; Hangrutschungen,
+  Straßen- und Eisenbahnschäden, Infrastrukturrisiko.
+- **Siedlung:** Nordsiedlungen und Dörfer in der Permafrostzone → Gefährdung durch tauenden
+  Permafrost.
+- **Wirtschaft:** Infrastruktur, Pipelines, Bahnverbindungen — soziale und ökonomische
+  Folgeschäden.
+- **Wasser:** Solifluktionswasser → Oberflächenabfluss, Veränderungen im Feuchtehaushalt.
 
 ---
 
@@ -111,11 +110,11 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 | Region | Permafrost-Typ | Besonderheit |
 |---|---|---|
-| Sowjetland, Sibirien (z.B. Jenissei, Lena) | kontinuierlich | Thermokarst-Landschaft weit verbreitet, verflucht große Seen (z.B. Bulun-Thermo-Karstseen) |
+| Sibirien (Russland, z. B. Jenissei, Lena) | kontinuierlich | Thermokarst-Landschaft weit verbreitet, zahlreiche Thermokarst-Seen |
 | Alaska (Nord-Alaska, Brooks-Berge) | kontinuierlich–diskontinuierlich | Infrastruktur betroffen, z.B. Dalton-Pipeline |
 | Kanada (Yukon, Nordwest-Territorien, Nunavut) | kontinuierlich | Siedlungen-Klima, z.B. Inuvik, Tuktoyaktuk |
 | Hochalpen (Schweiz, Italien, Österreich) | diskontinuierlich (Auftau-Grenze) | Gletscher-Vorderrand-Smandliche Bereiche, Gelisol |
-| Island (Högelände) | lokal Permafrost / Isolierte Frostbögen | Keine permanenten großen Fl^-zonen |
+| Island (Hochland) | lokal Permafrost / isolierte Frostböden | Keine großflächigen Permafrostzonen |
 
 ---
 
@@ -125,7 +124,7 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 - [[glaziale-serie]] ← Glaziale Serie
 - [[moränen-und-gletscherformen]] ← Moränen und Gletscher-Formen
 - [[vulnerabilitaet-begriffe]] ← Vulnerabilität-Grundlagen
-- [[vulnerabilitaet-raumbeispiele]] ← V/a Vulnerabilität Räume
+- [[vulnerabilitaet-raumbeispiele]] ← Vulnerabilität in Räumen
 - [[resilienz-massnahmen]] ← Maßnahmen
 
 ---
@@ -134,11 +133,11 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 > Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
 
-#### 🎬 Permafrost – Was ist das? (Educational, ~4 Min.)
+### 🎬 Permafrost – Was ist das? (Erklärvideo, ca. 4 Min.)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen title="Permafrost – Was ist das? (Educational, ~4 Min.)"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen title="Permafrost – Was ist das?"></iframe>
 
-*Definition, aktive Schicht, Eisspalten-Polygone, Eiswedgede-Entwicklung, Verbreitung (25% der Landfläche NH).*
+*Definition, aktive Schicht, Eiskeil-Polygone, Verbreitung (ca. 25 % der Landfläche der Nordhemisphäre).*
 
 #### 🎬 Was passiert, wenn das arktische Permafrost schmilzt? – Brendan Rogers & Jessica Howard (TED-Ed)
 

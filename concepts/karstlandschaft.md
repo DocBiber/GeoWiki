@@ -72,7 +72,7 @@ Zwei bekannte Karst-Spektren:
 ## Regionen als Abitur-Beispiel
 
 - **Eifel (Deutschland)**: Eifeler Karst — Biste vulkanischen Ursprung, aber auch Karst (z. B. Burtscheid, Kylltal, Rur); als Beispiel für deutschen Karst
-- **Höhlen im Harzregionen (z. B. 바트뒤셀도르프, Adelsberg)**: Beispiel für Sloweniens Karst/Höhlen (Postojna, Škocjan — UNESCO-Welterbe)
+- **Höhlen im Karst (z. B. Postojna, Škocjan, Slowenien — UNESCO-Welterbe; Adelsberg)**: Beispiele für slowenischen Karst und Höhlen
 - **Hohe Provence / Gorges du Verdon (Frankreich)**: Schöne Karpate, bewusst durch geologische Prozesse
 - **Yucatan Halbinsel/Karibik**: Tropischer Karst — Höhlen, Cenotes (unterirdische Seen, oft mit Wasser gefüllt), Maya-Region
 

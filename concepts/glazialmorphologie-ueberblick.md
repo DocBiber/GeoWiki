@@ -22,8 +22,8 @@ Reliefsphäre“) ist die **Glaziallandschaft** als eine der fünf Landschaftsgr
 ### Gletscher
 
 Ein **Gletscher** ist ein dauerhaft existierender Eisstrom (grob >25 m dick, langsam fließend),
-bestehend aus Schnee, Firn und synergetismo Eiseinheit. Er entsteht dort, wo einä Jahresabfluss
-Schneemenge die Abtretung übersteigt (Schneehaupthöhe/**Kontinentalgrenze**).
+bestehend aus Schnee, Firn und Eis. Er entsteht dort, wo die jährliche Schneemenge die
+Ablation übersteigt (oberhalb der **Schneegrenze**).
 Wichtige Typen:
 
 | Typ | Beschreibung | Beispiel |
@@ -37,28 +37,28 @@ Wichtige Typen:
 
 ### Grundlagen: Kaltzeit vs. Warmzeit
 
-- **Kaltzeit (Glazial, Eiszeit):** Eisdecke dehnt sich aus (Inlandsis vergrößert), Gletscherstände weit nach vorne, Reliefformen der Vergangenheit werden aktiv geformt.
-  - In Mitteleuropa: mehrere Glazial der Weichseleiszeit (letzte Eiszeit, vor ca. 115.000–11.700 Jahren).
+- **Kaltzeit (Glazial, Eiszeit):** Eisdecke dehnt sich aus (Inlandeis vergrößert sich), Gletscherstände reichen weit nach vorne, die Reliefformen der Vergangenheit werden aktiv geformt.
+  - In Mitteleuropa: mehrere Glaziale der Weichsel-Kaltzeit (letzte Eiszeit, vor ca. 115.000–11.700 Jahren).
 - **Warmzeit (Interglazial):** Eisdecke schwindet, Gletscher ziehen sich zurück, Reliefformen der Eiszeit bleiben als Relikt bestehen.
-  - Aktuelle Warmzeit = Holozän (vor ca. 11.700 Jahren).
-  - Gegenwartliche globale Erwärmung → beschleunigter Gletscherschwund → Aktuelle Thematik für LK.
+  - Aktuelle Warmzeit = Holozän (seit ca. 11.700 Jahren).
+  - Gegenwärtige globale Erwärmung → beschleunigter Gletscherschwund → aktuelles Thema für den LK.
 
 ### Permafrost / Permafrostboden
 
-**Permafrost** = Boden/ Gestein, der an der Oberfläche dauerhaft gefroren bleibt (temp. < 0 °C
-über mindestens 2 Jahre). Wichtig für Relief-Prozesse in kalten Regionen:
-- Subarktik / Tundra: rootnige Böden, hoehe Vegetation.
-- **Thermokarst:** Schmelzung von Permafrost-Eis → Hohlformen, Senken (z.B. in Sibirien, Alaska, Kanada).
-- **Solifluktion:** Schmelzwasser-Hang-Cremierung in Permafrost-Gebiete (Seitengestein fließt langsam ab).
-- Permafrost ist ein wichtiges Thema der _Exogenen Prozesse_ → auch in der Pedosphäre (§3.5.2.5)
+**Permafrost** = Boden oder Gestein, der an der Oberfläche dauerhaft gefroren bleibt (Temperatur < 0 °C
+über mindestens 2 Jahre). Wichtig für Reliefprozesse in kalten Regionen:
+- Subarktis / Tundra: gefrorene Böden, niedrige Vegetation.
+- **Thermokarst:** Schmelzung von Permafrost-Eis → Hohlformen, Senken (z. B. in Sibirien, Alaska, Kanada).
+- **Solifluktion:** langsame Hangabtragung in Permafrostgebieten (siehe [[permafrost-und-solifluktion]]).
+- Permafrost ist ein wichtiges Thema der exogenen Prozesse → auch in der Pedosphäre (§3.5.2.5)
 
 ---
 
 ## Die glaziale Serie (Penck)
 
-Die **glaziale Serie** (auch "Alpen-Golassereie-Series" oder "Veilchen-Penck" genannt) wird
-zentrales Lehrstück in der Gymnasialgeografie. Sie beschreibt die räumlich-forale Abfolge
-der vom Eis und den Schmelzwässern gestalteten Elemente einer **ideal-typischen
+Die **glaziale Serie** (auch „Penck-Serie" genannt) wird
+ein zentrales Lehrstück in der Gymnasialgeografie. Sie beschreibt die räumliche Abfolge
+der vom Eis und den Schmelzwässern gestalteten Elemente einer **idealtypischen
 Eiszeitfront** (auch auf Skizzen in Lehrbüchern gezeigt).
 
 ### Elemente der glazialen Serie (im Bildungsplan LK §3.5.2.1 aufgegriffen)
@@ -79,8 +79,8 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 | Prozess | Mechanismus | Formen |
 |---|---|---|
 | **Abrasion / Schleifung** | Mit Eis beladene Gesteinstrümmer (Geschiebe) schleifen das Gestein unter dem Gletscher ab → glatte, polierte Flächen; **Striemungen** (Schrammen) als Beweis | Polierter Fels, Glanzflächen (z.B. an Felswänden) |
-| **Zertrümmerung / Freeze & Thaw** | Eis im Gesteinsporen dehnt Geste ein → bricht ab | Produziert Blockmaterial |
-| **Anriss / Quarzmehl** | Mikroskopisches Quarzmehl → Feinstkruste | Glazialstreifen / lineierte Reliefform |
+| **Zertrümmerung / Frostsprengung** | In Gesteinsspalten eindringendes Wasser gefriert, dehnt sich aus und sprengt Gestein ab | Blockschutt an Felswänden |
+| **Quarzmehl / Gletschermehl** | Feinster Gesteinsabrieb beim Schleifvorgang | Milchig-trübes Schmelzwasser |
 
 ### Transportprozesse
 
@@ -94,13 +94,13 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 
 | Form | Entstehung | Position |
 |---|---|---|
-| **Grundmoräne** (Till-Lage) | Einbruch am Gletscherboden, schleifmäßige Ablagerung, ungeschichtet | Unter dem Gletscher (zentrales Flachland) |
-| **Seitenmoräne** | Material am Gletscherseiten (Gesteinskarren, Block) → an den Beckenlinien | am Gletscher-Rand → auffangmäßig |
+| **Grundmoräne** (Till) | Ungeschichtete Ablagerung am Gletscherboden, wird beim Abschmelzen flächig abgelagert | Unter dem Gletscher (zentrale Flachländer) |
+| **Seitenmoräne** | Material, das dem Gletscher an den Rändern zugeführt und an den Gletscherkanten abgelagert wird | am Gletscherrand |
 | **Endmoräne / Stossmoräne** | Ablagerung am vorderen Endrand der Gletscherzunge, wo das Eis über längere Zeit stationär war | am Gletscher-Endrand |
-| **Zungenbecken** | Mulde am Vorderende des Gletschers (oft das gespeicherte Schmelzwasser des Gletschers) | am Ende der Gletscherzunge |
-| **Sander (Sandr)** | Schotter-/Sandfeld vor moränen-typischen Linien, vom Schmelzwasser aufgestaut | vor dem Endrand (Knöllchenfront) |
-| **Urstromtal** | Tal druch Schmelzgering (Meltwater) → liegt vor dem Gletscher | hinter den Sandrhänner, bettw. Fluordnung |
-| **Löss** | Wind-transportierten Schluff/Sand, aus Eiszeit-zu-Fräse-Flächen | in Flachlagen, besonders Zentraleuropa (Lössdecke an Elbe/Oder) |
+| **Zungenbecken** | Mulde am Vorderende des Gletschers, oft mit Schmelzwasser gefüllt (z. B. Zungenbeckenseen) | am Ende der Gletscherzunge |
+| **Sander (Sandr)** | Schotter- und Sandfeld vor dem Endmoränengürtel, vom Schmelzwasser abgelagert | vor dem Endrand des Gletschers |
+| **Urstromtal** | Tal, das das Schmelzwasser während des Eisrückzugs vor dem Gletscher ausgebildet hat | vor dem Sander, in Fließrichtung des Schmelzwassers |
+| **Löss** | Vom Wind verwehter Feinschluff und Feinsand aus den Schmelzwasserflächen der Eiszeit | in Flachlagen, besonders in Mitteleuropa (Lössdecken an Elbe und Oder) |
 
 ---
 
@@ -108,34 +108,31 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 
 ### Erosions-Kleinformen
 
-- **Parabelrisse** (T-förmige Tal, flach, eckig — typisch)
-- **Kerbtal** (stufenförmig — Wechsel Erosion/Ablagerung)
-- **Muldental / Kiglental** (langgestreckt, bogenförmig)
-- **Rostrand, GlatzeSlack** (Beispiele)
-- **Felsenkarren**, Schrammenstreifen
+- **Rundhöcker** — dem Gletscher zugewandte, glatte und abgerundete Seite; leeseitiger Abbruchkegel
+- **Kare / Kessel** — kesselförmige Hohlformen am Gebirgsfuß (siehe Großformen)
+- **Felskanzel, Schrammen** (Striemungen auf Gletscherschliffen)
 
 ### Erosions-Großformen
 
 - **Trogtal** — typisch glazial geformtes Tal: U-förmig, breit, mit steilen Wänden (Gegenstück zum V-förmigen Kerbtal des Flusses); im Bildungsplan genannt
-- **Cirque (Kar)** — kesselartiges Frischtal (Berg, felsig), birnenförmige, Randmoränen
-- **Mur** (glazial geformter Bergrücken, Hangmulde)
-- **Areth** (Arotte schmaler Gletscherwand)
+- **Kar (Cirque)** — kesselförmige Eintiefung mit steilen Felswänden im Hochgebirge
+- **Hängetal** — Seitental, das nach der Eiszeit hoch über dem Haupttal „hängt" (Nebenfluss-Einschneidung)
 
-### Diagnose von Gletscherschmuggel
+### Erkennungsmerkmale für frühere Vergletscherung
 
-- **Chert-strata** auf Felswänden und Gletscherunterboden: Schul-Standard-Bewiesen.
-- **Cirque** (Karsa, Rac).
+- **Striemungen** (Schrammen) auf Felswänden und Gletscherunterlage — Standardbeleg für Gletschertransport
+- **Rundhöcker** mit Abbruchkegel — zeigen die Fließrichtung des Eises an
 
 ---
 
 ## Vulnerabilität glazialer Räume
 
-Glazial-landschaften und Gletscherorte sind **vulnerabel** durch:
-- **Klimawandel** (Gletscherrückzug, Schmelzwasseränderung, Felssturzrisiko),
-- **Naturgefahren** (Gletscherlawine, Gletschersperrungseis+Schmelzersturz-Seeausbrüche — GLOF),
-- **Boden-Flux** (Solifluktion → Hanginstabilität; Permafrostthaw → Infrastrukturschäden).
+Glazial-Landschaften und Gletscherorte sind **vulnerabel** durch:
+- **Klimawandel** (Gletscherrückzug, veränderte Schmelzwasserführung, Felssturzrisiko),
+- **Naturgefahren** (Gletscherlawinen, Gletscherrandseen mit Ausbruchsgefahr — GLOFs),
+- **Boden-Dynamik** (Solifluktion → Hanginstabilität; Permafrosttau → Infrastrukturschäden).
 
-→ ===[[vulnerabilitaet-raumbeispiele]]=== // ===[[resilienz-massnahmen]]===
+→ [[vulnerabilitaet-raumbeispiele]] und [[resilienz-massnahmen]]
 
 ---
 
@@ -144,10 +141,10 @@ Glazial-landschaften und Gletscherorte sind **vulnerabel** durch:
 | Raum | Typ | Besonderheit im LK |
 |---|---|---|
 | Alpen (Schweiz, Italien, Österreich) | Alpengletscher, Tal-Gletscher, moränen-reiche Landschaft | Gletscherrückzug-Trend, Tourismus-Vulnerabilität |
-| Skandinavien (Norwegen, Schweden) | Urstromtäler, Löss-Vergesellschaftung, Moräne | Skandische Wiirde-Formen: Hochmoore, Landstrich-Form |
-| Nordamerika (Kanada, Nordwest-USA) | Glaziale Serie (Penck-Karte), Sander, Urstromtal | Gram-Penck-Karte einer Voll-Serie (Kanadische Inlandeiss) |
-| Island | Vulkan × Glazial (Jökull, Jökulhlaup) | Interaktion glazial–Vulkan — im Bildungsplan erwähnenswert |
-| Deutschland (Bayern, Schwarzwald, Hochsulu) | Altrand-Gletscherrelikte, Blockschutzhänge, Löss-Decken (zentral) | Bezug auf Synopse des Bildungsplans: BW-relevant |
+| Skandinavien (Norwegen, Schweden) | Urstromtäler, Lössdecken, Moränen | Skandinavische Eiszeit-Formen: Hochmoore, wellige Moränenlandschaften |
+| Nordamerika (Kanada, Nordwest-USA) | Glaziale Serie (Penck), Sander, Urstromtäler | Kanadisches Schild mit vollständiger Serie (ehemalige Inlandeis-Gebiete) |
+| Island | Vulkan × Glazial (Jökull, Jökulhlaup) | Interaktion glazial–vulkanisch — im Bildungsplan erwähnenswert |
+| Deutschland (Bayern, Schwarzwald, Alpenvorland) | Altmoränen-Relikte, Blockschutthänge, zentrale Lössdecken | Bezug zur Synopse des Bildungsplans: BW-relevant |
 
 ---
 

@@ -13,9 +13,9 @@ sources: []
 
 ### Definition
 
-Moränen sind die **schüttungsdynorgt-argigen Ablagerungen**, die ein Gletscher hinterlässt —
-eine Mischung aus allen Größen (vom Gestein bis Kleinst-Block), meist **ungeordnet und
-ungegliedert**, im Gegensatz zu geschichtetem Gerölle (z.B. Sander, Flussablagerungen).
+Moränen sind die **ungeschichteten Ablagerungen**, die ein Gletscher hinterlässt —
+eine Mischung aus allen Korngrößen (vom Ton bis zum Großblock), meist **unsortiert und
+ungeschichtet**, im Gegensatz zu geschichtetem Geröll (z. B. Sander, Flussablagerungen).
 Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne“ überhaupt verwendet
 (Grundmoräne, Seitenmoräne, Endmoräne).
 
@@ -26,27 +26,25 @@ Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne“ überhaupt verwendet
 ### 1. Grundmoräne (Ground Moraine / Boden-Moräne)
 
 - **Position:** unter dem Gletscher — also flächendeckend vorhanden, wo der Gletscher abzog.
-- **Entstehung:** langsame Ablagerung von Schotter/Erosions-material am Gletscherboden;
-  Gletscher „schleift“ zusammen und Ablagerung steilem Moränenhügel.
-- **Charakter:** uneben, meist undurchbrochen, dicht; oft später landwirtschaftliche Nutzung
-  (boden-günstig nach Verwitterung)
-- **Typisches Bild:** flache bis leicht wellige, kreidestrichig bis gelblich — den „gräsern“ das
-  Landschaft nach Eisabzug.
+- **Entstehung:** langsame Ablagerung von Schutt und Erosionsmaterial am Gletscherboden;
+  die Gletschersohle sammelt das Material und lagert es beim Abschmelzen flächig ab.
+- **Charakter:** uneben, dicht gelagert; nach der Verwitterung oft günstige Böden
+- **Typisches Bild:** flache bis leicht wellige Flächen, graugelblich — die Grundmoräne
+  prägt weite Teile der Landschaft nach dem Eisrückzug
 
 ### 2. Seitenmoräne (Lateral Moräne)
 
 - **Position:** am Rand des Gletschers, an der Berghang-Seite.
-- **Entstehung:** Material (Steine, aktive, losbröckeliges Gesteins- / Schutt) am Hang
-  → wird an Gletscher-Rand transportiert und anGrenz zusammen hinterlegt.
-- **Charakter:** entlang des Gletscherschulterbahn, oft lange Linie parallel zum Tal.
-- **Wirkung:** weist auf frühere, größere Gletscherfläche hin.
+- **Entstehung:** Material (Steine, Schutt) wird an den Gletscherrand transportiert und
+  dort an der Gletscherkante abgelagert.
+- **Charakter:** entlang des Gletscherrands, oft eine lange Linie parallel zum Tal.
+- **Wirkung:** weist auf die frühere, größere Ausdehnung des Gletschers hin.
 
 ### 3. Endmoräne (Terminal Moräne / Stossmoräne)
 
-- **Position:** am Vorderende des Gletschers — dort wo das Eis vorstarr-zeitlich stabilisiert.
-- **Entstehung:** über Jahr-zu-Jahr Anreicherung (Steine, Schutt) am stärksten
-  Vorderrand-Kontakt. Wenn der Gletscher vor ein größeren Schusbild endet
-  (Eiszunge traben), entsteht am Ende die Kamm-/Wall-Höhe.
+- **Position:** am vorderen Ende des Gletschers — dort, wo das Eis über längere Zeit stationär bleibt.
+- **Entstehung:** Das Eis transportiert Schutt an seinen Endrand; bleibt es stationär,
+  häuft sich das Material zu einem Wall (Kamm) an.
 - **Bedeutung:** Kenn-Zeichen für die maximale Ausdehnung des Gletschers
   zu einer bestimmten Zeitphase. → ggf. mehrere Endmoränen-Sätze (für verschiedene
   Phasen der Eiszeit).
@@ -98,7 +96,7 @@ Der Bildungsplan LK nennt: **Nährgebiet**, **Zehrgebiet**
 
 ## Kompetenzbezug LK
 
-Wirkeiten, die im LK erwartet werden (§3.5.2.1):
+Folgende Kompetenzen werden im LK erwartet (§3.5.2.1):
 
 - Verschiedene Moränen-Typen **benennen, charakterisieren** und **erklären** können.
 - Die glaziale Serie im **Zusammenhang** vorstellen (Zungenbecken → Endmoräne → Sander → Urstromtal).
