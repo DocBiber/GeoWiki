@@ -104,7 +104,7 @@ Der Boden ist ein Landschaftsmerkmal, das mit anderen Faktoren interagiert:
 
 #### 📸 Fotogalerie: Bodenarten – Sand, Lehm, Ton (Unsplash)
 
-[Freie Fotos von verschiedenen Boden 텍스투ren und Böden.](https://unsplash.com/s/photos/soil)
+[Freie Fotos von verschiedenen Bodenarten und Bodenprofilen.](https://unsplash.com/s/photos/soil)
 
 #### 📸 Fotogalerie: Bodenkunde, Bodenproben, Geomorphologie (Unsplash)
 

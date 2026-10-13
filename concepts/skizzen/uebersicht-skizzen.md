@@ -104,7 +104,7 @@ sources: []
  ╱ ▼ ▼ ╲
 ╱_____________________________╲
          ▼
-(오) ↓ Lavastrom (effusiv)
+(○) ↓ Lavastrom (effusiv)
 ```
 
 **Beschriftung:**

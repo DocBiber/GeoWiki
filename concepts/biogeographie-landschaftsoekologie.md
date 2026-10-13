@@ -38,7 +38,7 @@ confidence: 0.9
 - Tropischer Regenwald (äquatoriales Klima, hohe Biodiversität, komplexe Ökosysteme).
 - Savanne (tropisch, trockenheit angepasst, Grasland-Überschuss, Feuer als Störung).
 - Wüste (subtropisch-trocken, endemische Anpassungen, Wasserknappheit).
-- Mediterrane Gebiete (mediterranes Klima, 겨울trocken, Sommerfeuer, angepasste Pflanzengesellschaften).
+- Mediterrane Gebiete (mediterranes Klima, wintertrocken, Sommerfeuer, angepasste Pflanzengesellschaften).
 - Gemäßigte Laub- und Mischwald (gemäßigtes Klima, vier Jahreszeiten, hoher Nährstoffumsatz).
 - Taiga (subarktischer Nadelwald, kurze Vegetationsperiode, dünne Humusschicht).
 - Tundra (arktisch, kurze Vegetationsperiode, Pergel/Gelifluction, überwiegender Wasserüberschuss durch Permafrost).

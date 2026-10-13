@@ -18,7 +18,7 @@ Der Vulkanismus umfasst alle Prozesse, bei denen Magma (flüssiges Gestein im In
 ## Ursachen
 
 - **Plattentektonik:** Subduktionzonen (Andes-Typ, marginale Becken), Riftsysteme (effusive Basalt), Hotspots (Plume-Theorie).
-- **Magma-Entstehung:** 부분mantelpartiale Schmelze, Wasserfreisetzung bei Subduktion, Druckentlastung beim Aufstieg.
+- **Magma-Entstehung:** partielle Schmelze des Mantels, Wasserfreisetzung bei der Subduktion, Druckentlastung beim Aufstieg.
 - **Gasdruck:** Eruptionstyp vom Gasgehalt und Ausgasungsverhalten abhängig.
 
 ## Magmatypen & Eruptionsstile

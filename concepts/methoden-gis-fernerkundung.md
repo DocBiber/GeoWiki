@@ -82,7 +82,7 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 - **Wasser / Überschwemmung:** Sentinel-1 (Radar) — flüssiges Wasser reflektiert anders als trockene Fläche; gut für Hochwasserkartierung
 - **Temperatur:** TIR — städtische Hitzeinseln, Landwirtschaft (Wasserstress), Vulkanismus (Thermalflächen)
 
-** 한계 (für Abitur relevant):**
+** Grenzen (für das Abitur relevant):**
 - Auflösung (räumlich: Pixelgröße; zeitlich: Wiederholung) — höhere Auflösung = kleinere Fläche, aber weniger Abdeckung
 - Wolken (optisch) — Radar beim Durchdringen
 - Daten aufbereiten (Kalibrierung, Atmosphären-Korrektur, geometrische Korrektur)
