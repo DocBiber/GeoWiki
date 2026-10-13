@@ -142,7 +142,7 @@ sources: []
 - begrenzte Überwachung (Bodenwesen-Abteilung, geologen)
 - CO₂-Warnungen in bestimmten Bereichen
 - Bewusstseinsbildung / Schulung (vulkanische Vergangenheit der Eifel)
-- Raumplanung: kein großer Vulkan-faktor, aber ggf. lokalE Regeln
+- Raumplanung: kein großer Vulkan-faktor, aber ggf. lokale Regeln
 
 **Beurteilung:** Vulnerabilität moderat bis niedrig durch niedrige Bevölkerungsdichte, aber **hohe Informationsdefizite**. Die passive Überwachung ist unzureichend für vulkanische Gefahren. LK-Abitur: prägnantes Beispiel für "verdrängte Gefahr" durch fehlendes Bewusstsein.
 
@@ -194,7 +194,7 @@ sources: []
 | **Vulkan-Typ** | Schichtvulkan | Schildvulkan (effusiv) | Maar / Caldera | Schichtvulkan (unter Gletscher) |
 | **Geodynamik** | Subduktion (Afrika unter Europa) | Hot Spot (Pazifik) | Intraplattformal (Eifel) | Hot Spot + MOR-Spreadung |
 | **Bevölkerungsdichte nahe Vulkan** | Sehr hoch (Kampanien, 3 Mio. in Gefahrenzone) | Moderat, lokal dicht | Gering (ländliche Eifel) | Gering (Island dünn besiedelt) |
-| **Haupthazards** | Explosion, Pyroklastische Ströme, Lahar, Asche | Effusive Lava, Gas (Vog), (selten explosionsvulkanisch) | CO₂, (möglicherwEise) seismische Aktivität, kein aktueller Ausbruch | Explosive Asche, Jökulhlaup, trans-nationaler Flugbetrieb-Störung |
+| **Haupthazards** | Explosion, Pyroklastische Ströme, Lahar, Asche | Effusive Lava, Gas (Vog), (selten explosionsvulkanisch) | CO₂, (möglicherweise) seismische Aktivität, kein aktueller Ausbruch | Explosive Asche, Jökulhlaup, trans-nationaler Flugbetrieb-Störung |
 | **Vulnerabilität** | Sehr hoch (Bevölkerungsdichte, Infrastruktur, Erfahrung) | Mittel (Tourismus-abhängig, lokale Siedlungen) | Gering, aber Informationsdefizit | Lokal gering, aber **trans-national sehr hoch** (Luftverkehr) |
 | **Resilienz** | Mittel (Überwachung, Evakuierungsplan, aber Bevölkerungsdruck) | Hoch (Observatorien, Lokalwissen, Evakuierung) | Gering bis moderat (begrenzte Überwachung, niedriges Bewusstsein) | Hoch lokal, aber keine Lösung für globale Luftverkehr-Vulnerabilität |
 | **Abitur-Beispiel** | Klassisch, "Vulnerabilität hoch" | "Effusiv vs. explosiv" Vergleich | "Verdrängte Gefahr", lokales Beispiel | "Transnationale Vulnerabilität, Infrastruktur-Resilienz" |

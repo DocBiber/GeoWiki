@@ -60,13 +60,13 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 
 **Sensor-Typen:**
 - **Passive Sensoren:** Empfangen natürliche Strahlung (Sonnenlicht, Wärmestrahlung) — z. B. optische Kameras, multispektrale Scanner (Landsat, Sentinel-2), thermische Sensoren
-- **Aktive Sensoren:** Senden eigene Strahlung aus und messen Rückkehr — z. B. Radar (Synthetic Aperture Radar, SAR — kann durch Wolken durchdringen), LidR (Laser) für Höhenmodelle
+- **Aktive Sensoren:** Senden eigene Strahlung aus und messen Rückkehr — z. B. Radar (Synthetic Aperture Radar, SAR — kann durch Wolken durchdringen), LiDAR (Laser) für Höhenmodelle
 
 **Wellenlängen-Bereiche:**
 - **Sichtbares Licht (VIS):** RGB — natürliche Farben, gut für Landnutzung, Vegetation (Grün), Wasser (blau)
 - **Infrarot (NIR, SWIR):** Nahinfrarot (Pflanzengesundheit / NDVI), kurzwelliges Infrarot (Wasserinhalt, Mineralogie)
 - **Thermal Infrared (TIR):** Temperaturmessung (Oberflächentemperatur, städtische Hitzeinseln, Feuer)
-- **Mikrowelle (Radar):** Durchdringt Wolken, Nutzung bei Wolken/Hitze, Höhenmessung (LidR)
+- **Mikrowelle (Radar):** Durchdringt Wolken, Nutzung bei Wolken/Hitze, Höhenmessung (LiDAR)
 
 **Satelliten-Beispiele:**
 - **Landsat (USA):** Lange Zeitreihe seit 1972, 30 m Auflösung, gut für Veränderungsanalyse (z. B. Entwaldung, städtisches Wachstum, Urbanisierung)
@@ -78,7 +78,7 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 **Anwendungen:**
 - **Vegetationsindizes:** NDVI (Normalized Difference Vegetation Index) = (NIR - R) / (NIR + R) — zeigt Vegetationsdichte, -gesundheit; hoher Wert = dicht, gesund (Vorteil: einfach, gut verständlich)
 - **Veränderungsdetektion:** Vorher/Nachher Vergleich: Z. B. Epidemie-Detekektion, Degradierung, Urbanisierung
-- **Höhenmodelle:** LidR, Radar-Uplink — liefert digitales Höhenmodell (DEM), Hangneigung, Geländeanalyse
+- **Höhenmodelle:** LiDAR, Radar-Uplink — liefert digitales Höhenmodell (DEM), Hangneigung, Geländeanalyse
 - **Wasser / Überschwemmung:** Sentinel-1 (Radar) — flüssiges Wasser reflektiert anders als trockene Fläche; gut für Hochwasserkartierung
 - **Temperatur:** TIR — städtische Hitzeinseln, Landwirtschaft (Wasserstress), Vulkanismus (Thermalflächen)
 

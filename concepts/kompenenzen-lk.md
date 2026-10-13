@@ -52,7 +52,7 @@ Fähigkeit, geografische Aussagen und Maßnahmen zu beurteilen und zu bewerten.
 |---|---|---|
 | **Bewerten** | Sachverhalte, Handlungen und Maßnahmen unter Berücksichtigung von Kriterien bewerten | Resilienz-Maßnahmen am Vesuv: ausreichend oder kritisch? |
 | **Argumentieren** | Begründete Positionen entwickeln, Pro- und Contra-Argumente abwägen | Erörtern: Soll Tourismus in gefährdeten Vulkanregionen gefördert werden? |
-| **kritisch reflektieren** | Eigene und fremde Urteile hinterfragen, Perspektiven wechseln | NachhaltigkeitskRiterien auf Vulnerabilitätsmaßnahmen anwenden |
+| **kritisch reflektieren** | Eigene und fremde Urteile hinterfragen, Perspektiven wechseln | Nachhaltigkeitskriterien auf Vulnerabilitätsmaßnahmen anwenden |
 
 ### 4. Handlungskompetenz (HK)
 

@@ -54,7 +54,7 @@ P = ET + Abfluss (Gesamt) ± ΔSpeicher
 - **Abfluss (Q = Qo + Qg):** Abfluss zum nächsten Gewässer / Ozean
 - **ΔS (Speicheränderung):** Kann positiv (z. B. Schneetrend, Eisende, Grundwasseranstieg) oder negativ (Trockenland, Grundwasserentnahme) sein
 
-**Wasserhaushaltskurvе (Hydrograph):** Der zeitliche Verlauf des Abflusses (Stromer) nach Niederschlagsereignis: Steiler Anstieg (oberflächenabfluss-dominiert), Plateauphase, allmähliche Abnahme (Grundwasserabfluss dominant) — Dickinson-Modell / Multiplikative Überschwemmungsmodelle.
+**Wasserhaushaltskurve (Hydrograph):** Der zeitliche Verlauf des Abflusses (Ströme) nach Niederschlagsereignis: Steiler Anstieg (oberflächenabfluss-dominiert), Plateauphase, allmähliche Abnahme (Grundwasserabfluss dominant) — Dickinson-Modell / Multiplikative Überschwemmungsmodelle.
 
 ## Einflüsse auf den Wasserhaushalt
 

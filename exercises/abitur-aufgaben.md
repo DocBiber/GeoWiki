@@ -71,7 +71,7 @@ sources: []
 - **physisch:** Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;
   Infrastruktur (Autobahn A3, S-Bahn, Flughafen); Lava/Tephra/Asche-Schäden.
 - **sozial:** sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,
-  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei WarnunGen.
+  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei Warnungen.
 - **ökonomisch:** Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft
   (vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus + Landwirtschaft + lokale Wirtschaft).
 
@@ -144,7 +144,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 **(2) Trogtal erklären:**
 
-- **Entstehung:** Gletscher erodiErt Ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,
+- **Entstehung:** Gletscher erodiert Ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,
   U-förmiges Tal (im Gegensatz zu V-förmigem Flusstal). Abtrag durch Abrasion und Quarzstaub.
 - **weitere Erosionsformen:**
   - **Kar (Cirque):** Kesselartige Mulde im Hochgebirge (Eis stagnation, Abrasion, oft mit Moräne unten)

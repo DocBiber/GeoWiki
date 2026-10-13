@@ -56,7 +56,7 @@ Aus dem Bildungsplan (Stand 2023, V2) lassen sich folgende Schwerpunkte für
 das LK-Abitur ableiten (insbesondere für „Formen und Prozesse der Reliefsphäre“ §3.5.2.1):
 
 1. **Vulkanlandschaft**
-   - VulkanFormen (Schildvulkan, Schichtvulkan, Caldera, Maar, vulkanische Decke, Hot Spot)
+   - Vulkanformen (Schildvulkan, Schichtvulkan, Caldera, Maar, vulkanische Decke, Hot Spot)
    - Explosiv vs. effusiv, Förderprodukte
  - Gefahren, Vulnerabilität, Maßnahmen
 2. **Glaziallandschaft**

@@ -60,7 +60,7 @@ sources: []
 - **Gletscherüberwachung**: Schweizer Gletscherkommission (GLAMOS), Messungen, Satelliten-Observationen
 - **Pisten-Sicherung**: Lawinen-Abfanganlagen, Schnee-Überwachung, Abschneideprogramme an Alpengletscher-Gleitbahnen
 - **Abstieg**: Abstieg von Gletschergipfeln (z.B. Ski-Pisten an Aletsch-Gletscher)
-- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternAtiver Tourismus), Hütten-Nachhaltigkeit
+- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternativer Tourismus), Hütten-Nachhaltigkeit
 - **Wasser-Management**: Aufbereitung von Schmelzwasser (Trinkwasser, Landwirtschaft, Strategie für hartnäckigen Zustand)
 
 **Beurteilung (LK):** Resilienz hoch für lokal bewohnte Gebiete, aber **wirtschaftliche Vulnerabilität** durch Gletscherrückzug steigend (Tourismus, Wasserreservoir). Nachhaltigkeit: Strukturwandel notwendig.
@@ -106,7 +106,7 @@ sources: []
 - **Hochwasserschutz**: Deiche, Rückhaltung (z.B. "Elbe-Hochwasserschutz"), Hochwasser-Planung (Rückhaltung im Gelände)
 - **Raumplanung**: Konstruktive Nutzung, wertvolle Böden schützen, Löss-Decken erhalten
 
-**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher VulneRabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
+**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher Vulnerabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
 
 ---
 
@@ -164,7 +164,7 @@ sources: []
 
 ## 4. Vergleichstabelle: Glazial-Raumbeispiele
 
-| Kriterium | AlPen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
+| Kriterium | Alpen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
 |---|---|---|---|
 | **Landschaftstyp** | Alpengletscher / Talgletscher | Ehemaliges Inlandeis-Gelände (Relikt) | Vulkan × glazial Gegenwart |
 | **Haupt-Formen** | Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen | Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne | Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen |

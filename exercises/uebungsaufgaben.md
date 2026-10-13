@@ -152,7 +152,7 @@ sources: []
 
 > **Aufgabe:** Vergleichen Sie Grundmoräne und Endmoräne. Welche Position haben sie jeweils und woraus bestehen sie?
 >
-> **OpeRator:** Vergleichen
+> **Operator:** Vergleichen
 >
 > **Lösungshinweis:**
 > - **Grundmoräne:** unter dem Gletscher — Schotter/Ablagerung vom Gletscherboden; flächendeckend,
@@ -216,7 +216,7 @@ sources: []
 > **Lösungshinweis:**
 > - **Hazard:** die Naturgewalten selbst (Vulkanausbruch, Gletscherflut, Überschwemmung, etc.) —
 > unabhängig davon, ob Menschen im Gefahrenbereich sind.
-> - **Exposition:** was liegt in der Gefahrenzone? Menschen, Gebäude, Infrastruktur, WirtschafT,
+> - **Exposition:** was liegt in der Gefahrenzone? Menschen, Gebäude, Infrastruktur, Wirtschaft,
 > Ökosysteme. Wenn nichts exponiert ist, kein Risiko.
 > - **Vulnerabilität:** wie anfällig ist das Exponierte? (Sozial, physisch, ökonomisch, ökologisch).
 > Gleiche Exposition und Hazard → unterschiedliches Risiko je nach Vulnerabilität.

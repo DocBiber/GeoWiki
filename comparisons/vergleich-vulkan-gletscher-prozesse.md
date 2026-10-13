@@ -56,7 +56,7 @@ die **Vulnerabilitäts-Strukturen** zu kontrastieren.
 
 | | Vulkanische Räume | Glazialräume |
 |---|---|---|
-| Typische exponierte Gemeinschaften | Bevölkerung in Vulkan-Nähe; Landwirtschaft auf Vulkanboden (oft fruchtbar) | Tourismus, LandwirtschafT, Hochgebirgs-Lebensstätten |
+| Typische exponierte Gemeinschaften | Bevölkerung in Vulkan-Nähe; Landwirtschaft auf Vulkanboden (oft fruchtbar) | Tourismus, Landwirtschaft, Hochgebirgs-Lebensstätten |
 | Wirtschaftliche Bedeutung | Oft landwirtschaftlich wertvoll (vulkanische Böden); Tourismus (Ätna, Island) | Tourismus (Skigebiete, Gletschertour), Landwirtschaft (Moränenböden) |
 | Vulnerabilitätsfaktoren (ausgewählt) | Dichte Besiedlung, Flugverkehr (Asche), wirtschaftliche Abhängigkeit von Tourismus/Ag, mangelnde Evakuierungsplan | Touristenansiedlung, Abhängigkeit vom Gletscher, Infrastruktur an Gletscher-Rand, Permafrost / Böschungsrisiko |
 | Maßnahmen (Kurz) | Frühwarnsystem, Evakuierung, Siedlungsschutz, Observatorien | Überwachung, Lawinenabwehr, Rückzugs-Strategie, touristische Diversifizierung |

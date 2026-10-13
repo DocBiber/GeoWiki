@@ -66,7 +66,7 @@ Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Cal
 
 ### Entstehung (Hot Spot +/oder Rift)
 
-- Hot-Spot-Mantelplume oder RIfT-Zonen → Basalt-Magma tritt in großen Mengen auf.
+- Hot-Spot-Mantelplume oder RIFT-Zonen → Basalt-Magma tritt in großen Mengen auf.
 - Lava breitet sich aus, kühlt schnell → viele dünne „Schild“-Schichten.
 - Platte bewegt sich über den Hot Spot (z.B. Pazifik-Platte über Hawaii-Hot-Spot) →
   Vulkankette entsteht: Hawaii-Vulkankette (Kilauea, Mauna Loa, Mauna Kea, frühere Vulkane

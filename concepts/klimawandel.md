@@ -44,7 +44,7 @@ Gemessen wird der Klimawandel an mehreren Indikatoren:
 - **Treibhausgaskonzentrationen** — CO₂-Konzentration in der Atmosphäre stieg von ca. 280 ppm vor der Industrialisierung auf über 420 ppm (2020s)
 - **Meeresspiegelanstieg** — Thermalausdehnung (wärmeres Wasser dehnt sich aus) + Schmelzen von Landeis (Gletscher, Grönland, Antarktis)
 - **Veränderungen im Kryosphäre**: Gletscherschmelze, Meereisrückgang, Permafrosttauen
-- **Extremereignisse**: HitZewellen, Dürren, Starkregenereignisse, Hurrikane/Tyfone (stärker werdend oder häufiger?)
+- **Extremereignisse**: Hitzewellen, Dürren, Starkregenereignisse, Hurrikane/Tyfone (stärker werdend oder häufiger?)
 - **Ozeanversauerung**: CO₂ löst sich im Ozean → Bildung von Kohlensäure → pH-Wert sinkt → Folgen für Kalkschalentiere (korall, Muscheln, Plankton)
 
 ## Auswirkungen im Erden-System
@@ -97,7 +97,7 @@ Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander ve
   - **Technische Senken**: CO₂-Abscheidung und -Speicherung (CCS — Carbon Capture and Storage), Direktluftabscheidung (DAC)
 
 **Auf lokaler Ebene:**
-- Energieeffizienz in Gebäuden, Stadtplanung (Klimaanpassung: HitZe reduzieren durch Grünflächen, Albedo, Lüftungsgänge), Mobilitätswende
+- Energieeffizienz in Gebäuden, Stadtplanung (Klimaanpassung: Hitze reduzieren durch Grünflächen, Albedo, Lüftungsgänge), Mobilitätswende
 
 ### Anpassungsstrategien (Adaptation)
 

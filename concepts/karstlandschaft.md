@@ -43,7 +43,7 @@ Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische
 #### Unterirdische Formen
 
 - **Höhlen (Höhlen, Verstärke)**: Die bekannte Unterform — Räume, die durch Lösungstorung im Kalkgestein entstanden; oft Sekundärrohre, Höhlenverzweigungen
-- **Sturzhöhlen**: Einsturz von HöhlEndecken
+- **Sturzhöhlen**: Einsturz von Höhlendecken
 - **Abflüsse / Karstquellen**: Wasser spurst unterirdisch, erscheint an bestimmten Stellen als Quellöffnung — oft fleischfressend (Al Poré), rasch verändernd
 - **Speleothem — Höhleminerals**: Stalaktite (von Decke wachsend), Stalagmit (von Boden wachsend), Säulen (beides zusammen), Schalen, etc. — durch Ausfällung von CaCO₃ aus Wasser (wenn CO₂ entweicht, wird Kalk unlöslich und fällt aus)
 

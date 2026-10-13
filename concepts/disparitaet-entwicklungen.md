@@ -80,7 +80,7 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 ### Modernisierungstheorie
 
 - **Kernthese**: Entwicklung erfolgt durch den Übergang von traditionellen zu modernen Gesellschaften; Industrialisierung, Technologie, Bildung, Kapitalinvestition sind Schüssel diese Entwicklung; Entwicklungsländer können und sollten den Weg der industrialisierten Länder nachvollziehen
-- **Implikation**: Transfer von Kapital, Technologie, Institutionenhilfe → EntwIcklung durch Markt und Modernisierung
+- **Implikation**: Transfer von Kapital, Technologie, Institutionenhilfe → Entwicklung durch Markt und Modernisierung
 
 ### Fragmentierungstheorie
 

@@ -304,7 +304,7 @@ sources: []
 ## 5. Vergleich Trogtal (glazial) vs. Flusstal (V-formig)
 
 ```
-GLAZIALES TRogTAL (U-förmig) Flusstal (V-formig)
+GLAZIALES TROGTAL (U-förmig) Flusstal (V-formig)
 
  ▲ ▲
    │ ╱╲ │ ╱╲

@@ -1,0 +1,2 @@
+concepts\raumbeispiele\kuesten-raumbeispiele.md:119	dm	dem
+concepts\wirtschaftsgeographie-standort.md:55	High-Tech	Hightech

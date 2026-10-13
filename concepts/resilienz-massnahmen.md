@@ -64,7 +64,7 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, ökologisch (S-O-K).
 
 ## Nachhaltige Entwicklung als Kriterium
 
-Der Bildungsplan LK bringt die **BNE-Leitperspektive** ein. Maßnahmen zur ResilieNz sollen
+Der Bildungsplan LK bringt die **BNE-Leitperspektive** ein. Maßnahmen zur Resilienz sollen
 daher **nachhaltig sein** — d.h. nicht nur kurzfristig schützen, sondern auch
 den langfristigen Entwicklungsweg einer Gemeinde nicht gefährden.
 

@@ -136,7 +136,7 @@ gefordert, **nachhaltige Entwicklung** als Entwicklungsziel einzubeziehen:
 - **Risikominimierung** (Gefahrenreduzierung): Bahnhöfe höher bauen, Gefahrenpunkte vermeiden,
   Evakuierungswege.
 - **Entwicklung von Sicherheit:** Risiko-Info einbeziehen in Planung.
-- **NachhaltigkEit:** sozialen Ausgleich, ökologische Stabilität, ökonomische Tragbarkeit.
+- **Nachhaltigkeit:** sozialen Ausgleich, ökologische Stabilität, ökonomische Tragbarkeit.
 
 ---
 

@@ -89,7 +89,7 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 
 ### Klima-Parameter und -Klassifikation
 
-- **Kontinentalität**: Grad der Abkehr von maritimer ModifiKation; große Landmassen haben extreme Temperaturen (Kalte Winter, warme Sommer), Küsten mildere
+- **Kontinentalität**: Grad der Abkehr von maritimer Modifikation; große Landmassen haben extreme Temperaturen (Kalte Winter, warme Sommer), Küsten mildere
 - **Maritimität**: Küstennahkeit, modifikatorischen Einfluss des Ozeans auf Temperatur und Niederschlag
 - **Gebirgsklima**: Höhenabhängigkeit (Temperaturabnahme mit Höhe, exponierte Lage), Regenschatteneffekt (Föhn auf Windabseite), lokale Windsysteme
 - **Meeresströmungen**: Transport von Wärme (z. B. Golfstrom → mildes Europa); auch kaltende Strömungen (Humboldt-Strom → Kostenliche Ergüssen)
@@ -128,7 +128,7 @@ Für den Abiturbezug (Kompetenz 3.5.2.2 (1)): SuS sollen lokale Wetterlagen anha
 
 ## Bezug zum Abitur (Bildungsplan-Kompetenzen)
 
-- **3.5.2.2 (1)**: Lokale Wetterlagen anhand von Wetterkarten und SatellitenbildeRn erklären — Wetterkarten lesen, Fronten erkennen, Wettervorhersage erstellen
+- **3.5.2.2 (1)**: Lokale Wetterlagen anhand von Wetterkarten und Satellitenbildern erklären — Wetterkarten lesen, Fronten erkennen, Wettervorhersage erstellen
 - **3.5.2.2 (2)**: Klimate als Folge solarer Einstrahlung und atmosphärischer Prozesse erklären — globale Zirkulation, ITCZ, Passat, Monsun, Coriolis, Jetstream, außertropische Westwindzone, Kontinentalität, Maritimität, Meeresströmungen, Gebirgsklima
 - **3.5.2.2 (5)**: Spezifisches Klima eines Lebensraums (Hochgebirge oder Wüste) erklären — Höhenstufen, Baumgrenze, Schneegrenze, Berg-Tal-Wind, Föhn, Wüstenklima
 

@@ -59,7 +59,7 @@ in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 **Grundformen** (im Bildungsplan LK erwähnt):
 
 - **Schichtvulkan (Strato vulkan):** Aufbau aus abwechselnden Lava- und Tephra-Schichten,
-  steile Hänge (bis 30–35°), typisch für SubduktionsZonen. Explosive Eruptionen bevorzugt.
+  steile Hänge (bis 30–35°), typisch für Subduktionszonen. Explosive Eruptionen bevorzugt.
   Beispiele: Mount St. Helens, Mt. Fuji, Ätna, Vesuv, Cotopaxi.
 - **Schildvulkan:** ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Abbürtungen,
   effusive Eruption, wenig explosiv. Beispiele: Kilauea (Hawaii), Mauna Loa, Island.
