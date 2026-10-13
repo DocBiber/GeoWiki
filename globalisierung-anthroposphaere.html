@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Globalisierung und Entwicklungen in der Anthroposphäre — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li class="active"><a href="globalisierung-anthroposphaere.html"><strong>Globalisierung und Entwicklungen in der Anthroposphäre</strong></a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Globalisierung und Entwicklungen in der Anthroposphäre</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">globalisierung</span><span class="tag-badge">anthroposphaere</span><span class="tag-badge">wirtschaft</span><span class="tag-badge">raumstruktur</span><span class="tag-badge">entwicklungen</span></span>
+    </div>
+    <h1>Globalisierung und Entwicklungen in der Anthroposphäre</h1>
+<h2>Überblick</h2>
+<p>Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — die räumliche und zeitliche Dimension menschlichen Handelns, Wirtschaftens und Siedelns. Für den Geografie-LK (Bildungsplan 2016, Kap. 3.5.2.6) sind zwei Kompetenzbereiche zentral:</p>
+<ol>
+<li><strong>Räumlich-zeitliche Entwicklung der Weltbevölkerung</strong></li>
+<li><strong>Raumwirksamkeit des Globalisierungsprozesses</strong> — wie verändert sich die räumliche Struktur von Wirtschaftsregionen durch wirtschaftliches Handeln im Kontext der Globalisierung?</li>
+</ol>
+<blockquote>Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.2.6 „Entwicklungen in der Anthroposphäre“ — SuS können die raum-zeitliche Entwicklung der Weltbevölkerung darstellen. Sie können die weltweiten Verflechtungen und Raumwirksamkeit des Globalisierungsprozesses erläutern.</blockquote>
+<h2>Weltbevölkerungsentwicklung (raum-zeitlich)</h2>
+<h3>Globale Trends</h3>
+<ul>
+<li><strong>Bevölkerungswachstum</strong>: Weltbevölkerung wuchs stark im 20. Jahrhundert (von ~1,6 Mrd. 1900 auf über 8 Mrd. 2020s) — das Wachstum verlangsamt sich, aber die absolute Zahl steigt weiter</li>
+<li><strong>Demografischer Übergang</strong>: Modell, das den Übergang von hoher Geburten- und Sterberate (vorindustriell) zu niedriger Geburten- und Sterberate (industrialisiert) beschreibt — geht einher mit gesellschaftlichem und wirtschaftlichem Entwicklungsprozess</li>
+<li><strong>regional ungleiche Entwicklung</strong>: Bevölkerungswachstum konzentriert sich zunehmend auf Afrika (Subsahara) und Teile Asiens; viele Industrieländer haben stagnierende oder schrumpfende Bevölkerung</li>
+</ul>
+<h3>Demografische Struktur</h3>
+<ul>
+<li><strong>Bevölkerungspyramide</strong>: Visualisiert Altersstruktur und Geschlechterverhältnis; Form gibt Auskunft über Wachstumstrends (breite Basis = hohes Wachstum, schmale Basis = Schrumpfung)</li>
+<li><strong>Alternder Gesellschaft</strong>: In vielen Industrieländern (Deutschland, Japan, viele EU-Staaten) schreitet die Alterung voran → Auswirkungen auf Rentensysteme, Arbeitskräfte, Gesundheitswesen, Raumstruktur</li>
+</ul>
+<h3>Räumliche Verteilung</h3>
+<ul>
+<li><strong>Urbanisierung</strong>: Zunahme des Anteils der Stadtbevölkerung; Megacities (&gt;10 Mio. Einwohner) entstehen vor allem in Entwicklungsländern</li>
+<li><strong>Rural-urban Wanderung</strong>: Abwanderung vom Land in die Stadt → Veränderung der Raumstruktur, Peripherisierung des ländlichen Raums</li>
+</ul>
+<h2>Globalisierung</h2>
+<h3>Definition</h3>
+<p><strong>Globalisierung</strong> bezeichnet die zunehmende Vernetzung und Integration von Wirtschaft, Politik, Kultur und Kommunikation über nationalen Grenzen hinweg auf globaler Ebene.</p>
+<h3>Treiber der Globalisierung</h3>
+<ul>
+<li><strong>Kommunikationstechnologie</strong>: Internet, Mobilfunk, Satellitenkommunikation → Information fließt grenzübersetzt nahezu realzeit; reduziert Transaktionskosten, ermöglicht globale Lieferketten, Arbeitsmarkt-Veränderungen (Remote Work)</li>
+<li><strong>Transport</strong>: Containerization, Kreuzfahrt, Luftfracht → Waren können günstig und schnell über lange Distanzen transportiert werden</li>
+<li><strong>Politik/Institutionen</strong>: Liberalisierung des Handels (WTO, Freihandelsabkommen), Deregulierung, Offshore, Finanzmärkte</li>
+<li><strong>Wirtschaftliche Faktoren</strong>: Wettbewerb, Kostendruck, Standortwahl</li>
+</ul>
+<h3>Wirtschaftliche Globalisierung — Schlüsselbegriffe</h3>
+<h4>Welthandel und internationale Arbeitsteilung</h4>
+<ul>
+<li><strong>Welthandel</strong>: Handel über Landesgrenzen hinweg; ist ein Kernbestandteil der Globalisierung</li>
+<li><strong>Internationale Arbeitsteilung</strong>: Länder spezialisieren sich auf Tätigkeiten, bei denen sie komparative Vorteile haben (Kosten, Ressourcen, Qualifikationen); Ergebnis ist Effizienzgewinn und Wohlstandssteigerung, aber auch Abhängigkeiten</li>
+</ul>
+<h4>Global Player</h4>
+<ul>
+<li><strong>Definition</strong>: Große, oft multinationale Konzerne, die in vielen Ländern operieren und globale Märkte dominieren (z. B. Apple, Siemens, Toyota, Coca-Cola)</li>
+<li>Rolle: Investitionen, Technologietransfer, Arbeitsplätze (aber auch Verlagerung, Ausbeutungsvorwürfe, Marktmacht), Entscheidungen auf globaler Ebene</li>
+</ul>
+<h4>Global City</h4>
+<ul>
+<li><strong>Definition</strong>: Städte, die als Knotenpunkte der globalen Wirtschaft, Finanzmärkte, Informationsflüsse und Kultur fungieren (z. B. New York, London, Tokio, Shanghai, Frankfurt)</li>
+<li>Rolle: Finanzplatz, Kopfhochbetrieb, globale Unternehmen, internationale Organisationen, Kreativwirtschaft; ziehen qualifizierte Arbeitskräfte an</li>
+</ul>
+<h4>Freihandelszone</h4>
+<ul>
+<li><strong>Definition</strong>: Gebiet mit niedrigeren oder keinen Zöllen und Handelshemmnissen zwischen den beteiligten Ländern</li>
+<li><strong>Beispiele</strong>: EU-Binnenmarkt, NAFTA (jetzt USMCA), ASEAN, Mercosur, AfCFTA (Afrikanische Kontinentalfreihandelszone)</li>
+<li>Effekte: Handel wird erleichtert, Märkte werden größer, Wettbewerb steigt</li>
+</ul>
+<h4>Standortfaktor</h4>
+<ul>
+<li><strong>Definition</strong>: Merkmale eines Ortes, die für wirtschaftliche Aktivitäten attraktiv oder unattraktiv sind</li>
+<li><strong>Klassische Standortfaktoren</strong>: Arbeitskräfte (Kosten, Qualifikation), Rohstoffe, Infrastruktur (Verkehr, Energie, Internet), Nachbarschaft zu Märkten, Politik (Rechtssicherheit, Steuern, Subventionen), Umwelt, Lebensqualität</li>
+<li>Globalisierung hat den Standortwettbewerb intensiviert: Standorte konkurrieren global um Investitionen, Unternehmen</li>
+</ul>
+<h4>Protektionismus vs. Freihandel</h4>
+<ul>
+<li><strong>Freihandel</strong>: Idee, Handel möglichst ungehindert zu gestalten (wenig Zölle, wenig Handelshemmnisse); Vorteile: Spezialisierung, Effizienz, Wohlstand; Risiken: Verlust von Industrien in einigen Regionen, Abhängigkeit</li>
+<li><strong>Protektionismus</strong>: Schutz der einheimischen Wirtschaft vor ausländischer Konkurrenz durch Zölle, Quoten, Subventionen, Handelshemmnisse; Vorteile: Schutz von Industrien/Arbeitsplätzen; Risiken: Wohlstandsverlust, Handelskriege, Ineffizienz</li>
+</ul>
+<h2>Veränderung der Raumstrukturen durch Globalisierung</h2>
+<p>Globalisierung verändert die räumliche Gliederung der Welt:</p>
+<h3>Dezentralisierung und Konzentration zugleich</h3>
+<ul>
+<li><strong>Konzentration</strong>: Global Cities und spezialisierte Cluster (z. B. Tech-Hubs: Silicon Valley, Berlin, London) werden immer wichtiger</li>
+<li><strong>Verlagerung</strong>: Produktionsstandorte werden an „gunstige“ Orte (niedrige Löhne, gute Standortfaktoren) verlegt; Verlagerung von Industrie aus Industrieländern in Entwicklungsländer (Outsourcing, offshoring)</li>
+<li><strong>räumliche Fragmentierung</strong>: Einige Regionen profitieren stark (Cluster, Städte), andere verlieren an Bedeutung („left behind“ Regionen)</li>
+</ul>
+<h3>Neue räumliche Muster</h3>
+<ul>
+<li><strong>Glocalisierung</strong>: Globalisierung findet nicht nur als Egalisierung statt, sondern auch mit lokalen Akzenten — Märkte, Produkte, Kultur werden lokal angepasst</li>
+<li><strong>Netzwerkgesellschaft</strong>: Räumliche Strukturen orientieren sich weniger an traditioneller Hierarchie, sondern an Netzwerken und Vernetzung</li>
+</ul>
+<h3>Wirkung auf die Stadt- und Regionalplanung</h3>
+<ul>
+<li>Städte konkurrieren global um Kapital, Unternehmenssitz, qualifizierte Arbeitskräfte → Standortmarketing</li>
+<li>Infrastrukturinvestitionen (Flughäfen, Bahn, digitale Infrastruktur) haben globale Bedeutung</li>
+<li>Gentrification, Segregation: Globalisierungsgewinner vs. -verlierer im Stadtquartier</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> — Disparitäre Entwicklungen und Entwicklungszusammenarbeit (3.5.3.4)</li>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilität und Resilienz: Globale Ungleichheit als Vulnerabilitätsfaktor</li>
+<li><a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a> — Bildungsplan 2016: Kompetenzrahmen für LK Geografie</li>
+<li><a class="wikilink" href="vulkanismus-ueberblick.html">vulkanismus-ueberblick</a> — Endogene Prozesse: Gegenstück zu anthroposphärischen Themen</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Gibt es konkrete Beispiele für Standortverlagerungen oder Global-City-Beispiele, die im Abitur besonders relevant sind?</li>
+<li>Welche Fallstudien (z. B. Tata Steel in Port Talbot / Großbritannien, oder Automobilindustrie in Mexiko) als Abitur-Beispiel geeignet sind?</li>
+</ul>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Bevölkerungsgeographie&quot;</li><li>&quot;Politische Geographie &amp; Geopolitik&quot;</li><li>&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Stadtgeographie — Grundlagen und Themen</li></ul></div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>&quot;Biogeographie &amp; Landschaftsökologie&quot; — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li class="active"><a href="biogeographie-landschaftsoekologie.html"><strong>&quot;Biogeographie &amp; Landschaftsökologie&quot;</strong></a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>&quot;Biogeographie &amp; Landschaftsökologie&quot;</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">biogeographie</span><span class="tag-badge">landschaftsoekologie</span><span class="tag-badge">oekosysteme</span><span class="tag-badge">biose</span><span class="tag-badge">biom</span><span class="tag-badge">biodiversitaet</span><span class="tag-badge">vertikalzonierung</span><span class="tag-badge">oekologische-gradienten</span><span class="tag-badge">oekologie</span><span class="tag-badge">klima</span><span class="tag-badge">boden</span><span class="tag-badge">relief</span></span>
+    </div>
+    <h2>Definition</h2>
+<p><strong>Biogeographie</strong> ist die wissenschaftliche Disziplin, die die räumliche Verteilung von Lebewesen (Floren und Faunen) und deren Ursachen untersucht. Sie verbindet Ökologie, Geographie, Evolutionsbiologie und Geologie und betrachtet:</p>
+<ul>
+<li><strong>Artenverteilungen</strong> (räumliche Muster von Pflanzen und Tieren).</li>
+<li><strong>Biozönotische Zusammenhänge</strong> (Gemeinschaften, Ökosysteme).</li>
+<li><strong>Historische Entwicklung</strong> (Wanderungen, Kontinentaldrift, Klimawandel als Ursache).</li>
+</ul>
+<p><strong>Landschaftsökologie</strong> betrachtet die Landschaft als räumliches Mosaik (Patch-Corridor-Matrix) mit Funktionen, Struktur und Dynamik. Sie fragt nach:</p>
+<ul>
+<li><strong>Struktur</strong> (Aufbau und räumliche Anordnung von Landschaftselementen).</li>
+<li><strong>Funktion</strong> (Stoffkreisläufe, Energieflüsse, ökologische Dienstleistungen).</li>
+<li><strong>Dynamik</strong> (Veränderung durch Störungen, Nutzung, Klimawandel).</li>
+<li><strong>Räumliche Muster</strong> (Fragmentierung, Korridore, Edge-Effekte, Metapopulations-Dynamik).</li>
+</ul>
+<h2>Biome</h2>
+<p><strong>Biom</strong> = großes ökologisches Ganzes, das durch Klima, Vegetationstyp, Boden und typische Tiergemeinschaften charakterisiert ist. Entscheidende Faktoren:</p>
+<ul>
+<li><strong>Klima:</strong> Temperatur, Niederschlag, Saisonalität → Klimadiagramme nach Walter/Lauer.</li>
+<li><strong>Boden:</strong> Bodenart, Nährstoffgehalt, pH-Wert.</li>
+<li><strong>Relief:</strong> Höhenlage, Exposition, Geländeform.</li>
+<li><strong>Historische Faktoren:</strong> Kontinentaldrift, Ice-Age-Wechsel, Wanderungswege.</li>
+<li><strong>Anthropogene Einflüsse:</strong> Landnutzung, Eingriffe, Fragmentierung.</li>
+</ul>
+<p><strong>Wichtige Biome (LKS BW Bezug):</strong></p>
+<ul>
+<li>Tropischer Regenwald (äquatoriales Klima, hohe Biodiversität, komplexe Ökosysteme).</li>
+<li>Savanne (tropisch, trockenheit angepasst, Grasland-Überschuss, Feuer als Störung).</li>
+<li>Wüste (subtropisch-trocken, endemische Anpassungen, Wasserknappheit).</li>
+<li>Mediterrane Gebiete (mediterranes Klima, wintertrocken, Sommerfeuer, angepasste Pflanzengesellschaften).</li>
+<li>Gemäßigte Laub- und Mischwald (gemäßigtes Klima, vier Jahreszeiten, hoher Nährstoffumsatz).</li>
+<li>Taiga (subarktischer Nadelwald, kurze Vegetationsperiode, dünne Humusschicht).</li>
+<li>Tundra (arktisch, kurze Vegetationsperiode, Pergel/Gelifluction, überwiegender Wasserüberschuss durch Permafrost).</li>
+</ul>
+<h2>Biogeographische Gradienten</h2>
+<ul>
+<li><strong>Breitengrad-Gradient:</strong> Zunahme der Biodiversität von Pol zu Äquator (wohlwarme Hypothese, Produktivitäts-Hypothese).</li>
+<li><strong>Höhen-Gradient:</strong> Artenvielfalt nimmt mit Höhe typischerweise ab (ähnlich Breitengrad-Gradient, aber mit speziellen Hochland-Anpassungen).</li>
+<li><strong>Substrat-Gradient:</strong> Bodenbeschaffenheit, pH-Wert, Nährstoffverfügbarkeit → spezifische Pflanzengesellschaften (z. B. kalkliebend vs. kalkmeidend).</li>
+<li><strong>Ozeanisch-Kontinental-Gradient:</strong> Feuchtigkeitsgradient, maritime vs. kontinentale Klimazonen.</li>
+</ul>
+<h2>Landschaftsökologische Struktur-Metriken</h2>
+<ul>
+<li><strong>Patch:</strong> räumlich homogene Einheit (z. B. Waldparzelle, Agrarfeld, Siedlungsinsel).</li>
+<li><strong>Corridor:</strong> Linear verbindende Struktur (z. B. Bachlauf, Hecken, Waldbrücken, Säume).</li>
+<li><strong>Matrix:</strong> dominierende Umgebung (z. B. landwirtschaftliche Fläche, urbanes Gebiet).</li>
+<li><strong>Edge:</strong> Übergangszone zwischen Patches → erhöhte Diversität, microklimatische Effekte, erhöhte Störungsempfindlichkeit.</li>
+<li><strong>Fragmentierung:</strong> Zersplitterung von Habitatflächen durch Landnutzung → Inzucht, lokale Ausrottungsrisiken, geringere Resilienz.</li>
+<li><strong>Landschaftsindizes:</strong> Patch-Dichte, Konnektivität, Edge-to-Area-Verhältnis, Fragmentierungsindex.</li>
+</ul>
+<h2>Ökologische Dienstleistungen (Ecosystem Services)</h2>
+<ul>
+<li><strong>Versorgungsleistungen:</strong> Nahrung, Wasser, Holz, Pflanzenstoffe.</li>
+<li><strong>Regulierungsleistungen:</strong> Klimaregulierung, Wasserfilterung, Bestäubung, Schädlingskontrolle, Hochwassschutz.</li>
+<li><strong>Kulturelle Leistungen:</strong> Erholung, Bildung, Spiritualität, Tourismus.</li>
+<li><strong>Stützende Leistungen:</strong> Bodenbildung, Nährstoffkreisläufe, Primärproduktion.</li>
+</ul>
+<h2>Bezug zum Klimawandel</h2>
+<p>Klimawandel verschiebt die Verbreitungs-areale, verändert die hieroglyphen-Schichtung, erhöht die Fragmentierung und kann invasive Arten begünstigen. Landschaftsökologie arbeitet an Anpassungsstrategien:</p>
+<ul>
+<li>Erhalt von Korridoren und Metapopulations-Habitaten.</li>
+<li>Wiederherstellung von Ökosystemen (Restaurierung, Renaturierung).</li>
+<li>Erhöhung der strukturellen Diversität (Mosaik, extensive Nutzung, Ruhezonen).</li>
+</ul>
+<h2>Bezug LK BW – Bildungsplan</h2>
+<ul>
+<li>Bildungsplan 2016 BW LK Geo 3.5.3.1 (Atmosphäre/Klima mit ökologischen Auswirkungen).</li>
+<li>3.5.2.5 (Ökosysteme/Vulnerabilität).</li>
+<li>Bezug zu Globalisierungsfolgen (Habitatsverlust, Invasionswellen).</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> (Klimaänderung als Hauptstressor).</li>
+<li><a class="wikilink" href="boden-und-boden.html">boden-und-boden</a> (Boden als Standortfaktor).</li>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> (Verteilung, Ungleichheit, Vulnerabilität).</li>
+</ul>
+<h2>Weiterführende Quellen</h2>
+<ul>
+<li>https://www.spektrum.de/lexikon/geographie/biogeographie/1044</li>
+<li>https://www.spektrum.de/lexikon/geographie/landschaftsoekologie/5216</li>
+<li>https://de.wikipedia.org/wiki/Landschafts%C3%B6kologie</li>
+</ul>
+    
+  </main>
+</body>
+</html>

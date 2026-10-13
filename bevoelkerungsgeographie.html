@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>&quot;Bevölkerungsgeographie&quot; — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li class="active"><a href="bevoelkerungsgeographie.html"><strong>&quot;Bevölkerungsgeographie&quot;</strong></a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>&quot;Bevölkerungsgeographie&quot;</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">bevolkerung</span><span class="tag-badge">demographie</span><span class="tag-badge">migrationsbewegungen</span><span class="tag-badge">alterung</span><span class="tag-badge">bevölkerungsentwicklung</span><span class="tag-badge">diskrepanz</span><span class="tag-badge">wachstum</span><span class="tag-badge">schrumpfung</span><span class="tag-badge">raeumliche-verteilung</span><span class="tag-badge">strukturwandel</span></span>
+    </div>
+    <h2>Definition</h2>
+<p>Die <strong>Bevölkerungsgeographie</strong> untersucht die räumliche Verteilung, Struktur, Dynamik und Veränderung der Bevölkerung. Zentrale Fragestellungen:</p>
+<ul>
+<li>Wie verteilen sich Menschen über den Raum?</li>
+<li>Wie verändern sich Bevölkerungsgrößen, -strukturen und -bewegungen?</li>
+<li>Welche Faktoren (natürliche, wirtschaftliche, politische, soziale) beeinflussen diese Dynamik?</li>
+</ul>
+<h2>Demographische Entwicklung &amp; Übergangsmodelle</h2>
+<h3>Demographischer Übergang</h3>
+<p>Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedrigen Raten in modernen Gesellschaften:</p>
+<ol>
+<li><strong>Starkes Wachstum</strong>: hohe Geburtenrate, sinkende Sterberate (Medizin, Hygiene) → Bevölkerungswachstum.</li>
+<li><strong>Übergangsstufe</strong>: sinkende Geburtenrate (Verstädterung, Bildung, Emanzipation, Kindererziehungskosten), weiter sinkende Sterberate.</li>
+<li><strong>Zustand niedriger Raten</strong>: niedrige Geburten- und Sterberaten, alternde Bevölkerung, ggf. negative Naturalzuwachsrate.</li>
+</ol>
+<h3>Naturliche Bevölkerungsveränderung</h3>
+<ul>
+<li><strong>Geburtenrate</strong> (Bruttogeburtenrate, Total Fertility Rate, Kinder pro Frau).</li>
+<li><strong>Sterberate</strong> (Lebenserwartung, Säuglingssterblichkeit, Altersspezifische Rate).</li>
+<li><strong>Naturalzuwachs</strong> = Geburten – Sterbefälle.</li>
+</ul>
+<h3>Migration</h3>
+<ul>
+<li><strong>Bevölkerungswanderungen</strong> (Binnenmigration, Binnenverteilung, Urbanisierung, Suburbanisierung).</li>
+<li><strong>Internationale Migration</strong>: Arbeitsmigration, Flucht/Asyl, zwangsweise Migration, Familienzusammenführung.</li>
+<li><strong>Räumliche Muster</strong>: Schwerpunkte, Quells- und Zielregionen, Push- und Pull-Faktoren.</li>
+</ul>
+<h2>Räumliche Verteilung</h2>
+<ul>
+<li><strong>Bevölkerungsdichte</strong>: Menschen pro Flächeneinheit (hohe Dichte in Städten, Subsahara-Afrika, Südasien; niedrige Dichte in Polarregionen, Wüsten, Hochgebirgen).</li>
+<li><strong>Bevölkerungsverteilung nach Höhenlagen</strong>: konzentrierte Besiedlung im Tiefland bis mittleren Höhen, Abnahme mit Zunahme der Höhe.</li>
+<li><strong>Verstädterung</strong>: Wachstum von Städten, Urbanisierungsraten, Megacities, Ballungsräume.</li>
+</ul>
+<h2>Struktur &amp; Alterung</h2>
+<ul>
+<li><strong>Altersstruktur</strong> (Alterspyramide): Diese beinhaltet die Alters- und Geschlechterverteilung.</li>
+<li><strong>Alternde Gesellschaft</strong> (Deutschland, viele Industrieländer): mehr ältere Menschen, sinkende Geburten, größer werdender Anteil der über 60-Jährigen.</li>
+<li><strong>Shrinking</strong> (Bevölkerungsschrumpfung): Regionen mit negativer Naturalzuwachsrate + Abwanderung → Wohnungsüberschuss, Infrastrukturprobleme, ältere Bevölkerung.</li>
+<li><strong>Junge Bevölkerung</strong> (Subsahara-Afrika, Teile Südasiens): hohe Kinderquote, schnelles Wachstum, Herausforderungen (Bildung, Arbeitsmarkt, Ressourcen).</li>
+</ul>
+<h2>Bevölkerungsentwicklung und Disparität</h2>
+<ul>
+<li><strong>Bildungsplan 2016 BW LK Geo 3.5.2.5/3.5.3.4</strong>: demographische Entwicklung, Disparität, Ungleichheit.</li>
+<li>Globale Herausforderungen: Bevölkerungswachstum in Entwicklungsländern vs. Schrumpfung in Industrieländern.</li>
+<li>Migration als Folge und Lösung (Wissensmigranten, Fachkräftemangel, Flüchtlingsströme).</li>
+</ul>
+<h2>Regionale Muster (Beispiele)</h2>
+<ul>
+<li><strong>Europa</strong>: alternde Population, geringe Geburtenraten, Zuwanderung aus dem Ausland, Nord-Süd-Verschiebung.</li>
+<li><strong>Deutschland</strong>: Schrumpfung in ländlichen Regionen, Zuwanderung in Ballungsräume, Alterung in Ostdeutschland.</li>
+<li><strong>Afrika</strong>: hohes Wachstum, junge Bevölkerung, Urbanisierung, Herausforderungen im Bereich Bildung und Arbeit.</li>
+<li><strong>Asien</strong>: extremes Wachstum in einigen Regionen, Schieflage, intensive Landnutzung, Verstädterung (China, Indien, Südostasien).</li>
+</ul>
+<h2>Methoden &amp; Daten</h2>
+<ul>
+<li><strong>Bevölkerungszählung</strong> (census): Vollständige Erfassung, alle X Jahre.</li>
+<li><strong>Statistische Erhebungen</strong> (Mikrozensus, Demographische Statistik).</li>
+<li><strong>GIS &amp; Karten</strong>: Räumliche Visualisierung (Choroplethen, Punktkarten, Heatmaps).</li>
+<li><strong>Indikatoren</strong>: Bevölkerungsdichte, Naturalzuwachs, Alphabetisierungsrate, Lebenserwartung, Human Development Index (HDI).</li>
+</ul>
+<h2>Bezug LK BW</h2>
+<ul>
+<li>Bildungsplan 2016 BW LK Geo 3.5.3.4 (Disparität, globale Entwicklung, soziale Ungleichheit).</li>
+<li>3.5.2.5 (Klima, Ökosysteme, menschliche Auswirkungen).</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> (globale Ungleichheit, Entwicklungspiioniere, Disparitätsfaktoren).</li>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> (beeinflusst Migrationsbewegungen und Vulnerabilität).</li>
+<li><a class="wikilink" href="globalisierung-anthroposphaere.html">globalisierung-anthroposphaere</a> (Globalisierung als Treiber von Migration und Wirtschaftsentwicklung).</li>
+</ul>
+<h2>Weiterführende Quellen</h2>
+<ul>
+<li>https://www.spektrum.de/lexikon/geographie/bevölkerungsgeographie/742</li>
+<li>https://de.wikipedia.org/wiki/Bev%C3%B6lkerungsgeographie</li>
+<li>https://de.wikipedia.org/wiki/Demographie</li>
+<li>https://www.spektrum.de/lexikon/geographie/demographischer-%C3%BCbergang/3335</li>
+</ul>
+    
+  </main>
+</body>
+</html>

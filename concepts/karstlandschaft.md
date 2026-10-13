@@ -78,7 +78,7 @@ Zwei bekannte Karst-Spektren:
 
 ## Verwandte Seiten
 
-- [[vulkan-prozesse]] — vulkan-prozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
+- [[vulkanprozesse]] — vulkan-prozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
 - [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Vergleich mit Karst als Wind-/Wasserform
 - [[vulnerabilitaet-raumbeispiele]] — Vulnerabilität von Karsträumen (Gefährdung durch Wasser, etc.)
 - [[atmosphaere-wetter-klima]] — Niederschlag und Wasser als wichtiger Faktor für Karstbildung

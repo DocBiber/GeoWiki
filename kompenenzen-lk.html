@@ -1,142 +1,148 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kompetenzen LK Geographie — GeoWiki</title>
-<style>
-  body {{ font-family: system-ui, sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; line-height: 1.6; color: #333; }}
-  h1 {{ border-bottom: 2px solid #555; padding-bottom: 0.3em; }}
-  h2 {{ border-bottom: 1px solid #ccc; padding-bottom: 0.2em; }}
-  table {{ border-collapse: collapse; width: 100%; margin: 1em 0; }}
-  th, td {{ border: 1px solid #ccc; padding: 0.4em; text-align: left; }}
-  th {{ background: #f5f5f5; }}
-  code {{ background: #f5f5f5; padding: 0.1em 0.3em; border-radius: 3px; }}
-  pre {{ background: #222; color: #eee; padding: 1em; border-radius: 5px; overflow-x: auto; }}
-  .tag {{ display: inline-block; background: #e0e0e0; padding: 0.1em 0.5em; border-radius: 3px; margin-right: 0.3em; font-size: 0.9em; }}
-  .meta {{ color: #888; font-size: 0.9em; margin-bottom: 1em; }}
-  a {{ color: #0366d6; }}
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
 </style>
 </head>
 <body>
-<h1>Kompetenzen LK Geographie — Prozessbezogene und inhaltsbezogene Kompetenzen</h1>
-<div class="meta">
-  <span>Erstellt: 2026-09-27</span> |
-  <span>Aktualisiert: 2026-09-29</span>
-  <div><span class="tag">kompetenzen</span><span class="tag">bildungsplan</span><span class="tag">abitur</span><span class="tag">lk</span></div>
-</div>
-<main>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li class="active"><a href="kompenenzen-lk.html"><strong>Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</strong></a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">kompetenzen</span><span class="tag-badge">bildungsplan</span><span class="tag-badge">abitur</span><span class="tag-badge">lk</span></span>
+    </div>
+    <h1>Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</h1>
+<h2>Einordnung</h2>
 <p>Der Bildungsplan 2016 für das Gymnasium (BW) differenziert zwischen <strong>prozessbezogenen Kompetenzen</strong> (generell, über alle Inhalte) und <strong>inhaltsbezogenen Kompetenzen</strong> (fachspezifisch, z.B. §3.5.2.1 für die Reliefsphäre im LK).</p>
 <p>Diese Seite fasst beide Bereiche für den Leistungskurs zusammen. Quelle: Bildungsplan 2016 Gymnasium, Fassung V2 (22.02.2023), LK-Inhaltsbereich 3.5.</p>
-
+<hr/>
 <h2>Prozessbezogene Kompetenzen (alle 5 Kompetenzbereiche)</h2>
 <p>Der Bildungsplan definiert fünf prozessbezogene Kompetenzbereiche, die in allen Inhaltsbereichen geübt werden:</p>
-
 <h3>1. Orientierungskompetenz (OK)</h3>
-<p>Fähigkeit, geographische Räume einzuordnen und Informationen aus geographischen Medien zu erschließen.</p>
-<table>
-<tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr>
-<tr><td><strong>Orientierung im Raum</strong></td><td>Räume und ihre Strukturen lokalisieren, einordnen, vergleichen</td><td>Alpen vs. Norddeutsches Tiefland im Vergleich einordnen</td></tr>
-<tr><td><strong>Kartenkompetenz</strong></td><td>Informationskarten, Themenkarten, Satellitenbilder lesen und deuten</td><td>Reliefkarten einer Vulkanregion deuten</td></tr>
-<tr><td><strong>Medien nutzen</strong></td><td>Geographische Informationssysteme (GIS), Modelle, Diagramme nutzen</td><td>Gletscherretreat-Daten aus Satellitenbildern analysieren</td></tr>
-</table>
+<p>Fähigkeit, geografische Räume einzuordnen und Informationen aus geografischen Medien zu erschließen.</p>
+<table class="wiki-table"><thead><tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr></thead><tbody><tr><td><strong>Orientierung im Raum</strong></td><td>Räume und ihre Strukturen lokalisieren, einordnen, vergleichen</td><td>Alpen vs. Norddeutsches Tiefland im Vergleich einordnen</td></tr><tr><td><strong>Kartenkompetenz</strong></td><td>Informationskarten, Themenkarten, Satellitenbilder lesen und deuten</td><td>Reliefkarten einer Vulkanregion deuten</td></tr><tr><td><strong>Medien nutzen</strong></td><td>Geografische Informationssysteme (GIS), Modelle, Diagramme nutzen</td><td>Gletscherretreat-Daten aus Satellitenbildern analysieren</td></tr></tbody></table>
 <p><strong>LK-spezifisch:</strong> Selbstständige Kartenerstellung, Analyse komplexer Kartenwerke, GIS-Einsatz in Schülerprojekten.</p>
-
 <h3>2. Analysekompetenz (AK)</h3>
-<p>Fähigkeit, geographische Zusammenhänge zu erkennen, zu strukturieren und zu analysieren.</p>
-<table>
-<tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr>
-<tr><td><strong>Erschließen</strong></td><td>Informationen aus verschiedenen Quellen erschließen und zusammenführen</td><td>Vulnerabilitätsdaten aus Statistiken + Karten erschließen</td></tr>
-<tr><td><strong>Analysieren</strong></td><td>Zusammenhänge erkennen, Ursache-Wirkung-Gefüge analysieren</td><td>Vulkanausbruch → Aschefall → landwirtschaftliche Folgen analysieren</td></tr>
-<tr><td><strong>Vergleichen</strong></td><td>Phänomene und Räume systematisch vergleichen</td><td>Vulkanismus vs. Glazialmorphologie prozessual vergleichen</td></tr>
-<tr><td><strong>Strukturieren</strong></td><td>Geographische Sachverhalte gliedern und strukturieren</td><td>Physische + sozioökonomische Faktoren einer Vulnerabilitätsanalyse gliedern</td></tr>
-</table>
-
+<p>Fähigkeit, geografische Zusammenhänge zu erkennen, zu strukturieren und zu analysieren.</p>
+<table class="wiki-table"><thead><tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr></thead><tbody><tr><td><strong>Erschließen</strong></td><td>Informationen aus verschiedenen Quellen erschließen und zusammenführen</td><td>Vulnerabilitätsdaten aus Statistiken + Karten erschließen</td></tr><tr><td><strong>Analysieren</strong></td><td>Zusammenhänge erkennen, Ursache-Wirkung-Gefüge analysieren</td><td>Vulkanausbruch → Aschefall → landwirtschaftliche Folgen analysieren</td></tr><tr><td><strong>Vergleichen</strong></td><td>Phänomene und Räume systematisch vergleichen</td><td>Vulkanismus vs. Glazialmorphologie prozessual vergleichen</td></tr><tr><td><strong>Strukturieren</strong></td><td>Geografische Sachverhalte gliedern und strukturieren</td><td>Physische + sozioökonomische Faktoren einer Vulnerabilitätsanalyse gliedern</td></tr></tbody></table>
 <h3>3. Urteilskompetenz (UK)</h3>
-<p>Fähigkeit, geographische Aussagen und Maßnahmen zu beurteilen und zu bewerten.</p>
-<table>
-<tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr>
-<tr><td><strong>Bewerten</strong></td><td>Sachverhalte, Handlungen und Maßnahmen unter Berücksichtigung von Kriterien bewerten</td><td>Resilienz-Maßnahmen am Vesuv: ausreichend oder kritisch?</td></tr>
-<tr><td><strong>Argumentieren</strong></td><td>Begründete Positionen entwickeln, Pro- und Contra-Argumente abwägen</td><td>Erörtern: Soll Tourismus in gefährdeten Vulkanregionen gefördert werden?</td></tr>
-<tr><td><strong>Kritisch reflektieren</strong></td><td>Eigene und fremde Urteile hinterfragen, Perspektiven wechseln</td><td>Nachhaltigkeitskriterien auf Vulnerabilitätsmaßnahmen anwenden</td></tr>
-</table>
-
+<p>Fähigkeit, geografische Aussagen und Maßnahmen zu beurteilen und zu bewerten.</p>
+<table class="wiki-table"><thead><tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr></thead><tbody><tr><td><strong>Bewerten</strong></td><td>Sachverhalte, Handlungen und Maßnahmen unter Berücksichtigung von Kriterien bewerten</td><td>Resilienz-Maßnahmen am Vesuv: ausreichend oder kritisch?</td></tr><tr><td><strong>Argumentieren</strong></td><td>Begründete Positionen entwickeln, Pro- und Contra-Argumente abwägen</td><td>Erörtern: Soll Tourismus in gefährdeten Vulkanregionen gefördert werden?</td></tr><tr><td><strong>kritisch reflektieren</strong></td><td>Eigene und fremde Urteile hinterfragen, Perspektiven wechseln</td><td>NachhaltigkeitskRiterien auf Vulnerabilitätsmaßnahmen anwenden</td></tr></tbody></table>
 <h3>4. Handlungskompetenz (HK)</h3>
-<p>Fähigkeit, Handlungsoptionen im geographischen Kontext zu entwickeln und zu beurteilen.</p>
-<table>
-<tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr>
-<tr><td><strong>Handlungen reflektieren</strong></td><td>Eigene und gesellschaftliche Handlungen im ökologisch-sozialen Kontext betrachten</td><td>Siedlungsentwicklung in Gletschervorstädten reflektieren</td></tr>
-<tr><td><strong>Lösungsvorschläge</strong></td><td>Handlungsoptionen unter Nachhaltigkeitskriterien entwickeln</td><td>Maßnahmen gegen GLOFs (Gletscherseeausbrüche) entwickeln</td></tr>
-<tr><td><strong>Partizipation</strong></td><td>Mitwirkungsmöglichkeiten in Entscheidungsprozessen erkennen</td><td>Bürgerbeteiligung bei Raumplanung in vulkangefährdeten Zonen</td></tr>
-</table>
-
+<p>Fähigkeit, Handlungsoptionen im geografischen Kontext zu entwickeln und zu beurteilen.</p>
+<table class="wiki-table"><thead><tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr></thead><tbody><tr><td><strong>Handlungen reflektieren</strong></td><td>Eigene und gesellschaftliche Handlungen im ökologisch-sozialen Kontext betrachten</td><td>Siedlungsentwicklung in Gletschervorstädten reflektieren</td></tr><tr><td><strong>Lösungsvorschläge</strong></td><td>Handlungsoptionen unter Nachhaltigkeitskriterien entwickeln</td><td>Maßnahmen gegen GLOFs (Gletscherseeausbrüche) entwickeln</td></tr><tr><td><strong>Partizipation</strong></td><td>Mitwirkungsmöglichkeiten in Entscheidungsprozessen erkennen</td><td>Bürgerbeteiligung bei Raumplanung in vulkangefährdeten Zonen</td></tr></tbody></table>
 <h3>5. Methodenkompetenz (MK)</h3>
-<p>Fähigkeit, geographische Methoden angemessen anzuwenden.</p>
-<table>
-<tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr>
-<tr><td><strong>Kartierung</strong></td><td>Themenkarten erstellen, kartographische Symbole anwenden</td><td>Vulnerabilitätskarte einer Vulkanregion erstellen</td></tr>
-<tr><td><strong>Datenanalyse</strong></td><td>Quantitative Daten erheben, auswerten, interpretieren</td><td>Gletscherrückzug-Raten aus Zeitreihen berechnen</td></tr>
-<tr><td><strong>Modellbildung</strong></td><td>Einfache Modelle und Konstruktionen entwickeln</td><td>Modell der glazialen Serie skizzieren und erläutern</td></tr>
-</table>
-
+<p>Fähigkeit, geografische Methoden angemessen anzuwenden.</p>
+<table class="wiki-table"><thead><tr><th>Subkompetenz</th><th>Beschreibung</th><th>LK-Niveau-Beispiel</th></tr></thead><tbody><tr><td><strong>Kartierung</strong></td><td>Themenkarten erstellen, kartografische Symbole anwenden</td><td>Vulnerabilitätskarte einer Vulkanregion erstellen</td></tr><tr><td><strong>Datenanalyse</strong></td><td>Quantitative Daten erheben, auswerten, interpretieren</td><td>Gletscherrückzug-Raten aus Zeitreihen berechnen</td></tr><tr><td><strong>Modellbildung</strong></td><td>Einfache Modelle und Konstruktionen entwickeln</td><td>Modell der glazialen Serie skizzieren und erläutern</td></tr></tbody></table>
+<hr/>
 <h2>Inhaltsbezogene Kompetenzen — Reliefsphäre (§3.5.2.1 LK)</h2>
-<p>Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der Reliefsphäre".</p>
-
+<p>Für das LK-Abitur zentral. Bildungsplan §3.5.2.1: „Formen und Prozesse der Reliefsphäre“.</p>
 <h3>Vulkanismus</h3>
-<table>
-<tr><th>Kompetenz</th><th>Beschreibung</th></tr>
-<tr><td><strong>Vulkanformen</strong></td><td>Vulkanformen (Schildvulkan, Schichtvulkan, Caldera, Maar, vulkanische Decke, Hot Spot) benennen und charakterisieren</td></tr>
-<tr><td><strong>Eruptionsstile</strong></td><td>Explosiver und effusiver Vulkanismus unterscheiden, Förderprodukte benennen und zuordnen</td></tr>
-<tr><td><strong>Entstehung</strong></td><td>Vulkanismus in Subduktionszonen und an Hot Spots erklären, geodynamischen Kontext</td></tr>
-<tr><td><strong>Gefahren</strong></td><td>Vulkanische Gefahren (Pyroklastische Ströme, Lahare, Aschefall, Gase) charakterisieren und ihre Wirkung analysieren</td></tr>
-<tr><td><strong>Raumbeispiele</strong></td><td>Vulkangebiete (z.B. Vesuv, Island, Hawaii) beschreiben, Gefahren und Vulnerabilität analysieren</td></tr>
-</table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Beschreibung</th></tr></thead><tbody><tr><td><strong>Vulkanformen</strong></td><td>Vulkanformen (Schildvulkan, Schichtvulkan, Caldera, Maar, vulkanische Decke, Hot Spot) benennen und charakterisieren</td></tr><tr><td><strong>Eruptionsstile</strong></td><td>Explosiver und effusiver Vulkanismus unterscheiden, Förderprodukte benennen und zuordnen</td></tr><tr><td><strong>Entstehung</strong></td><td>Vulkanismus in Subduktionszonen und an Hot Spots erklären, geodynamischen Kontext</td></tr><tr><td><strong>Gefahren</strong></td><td>Vulkanische Gefahren (Pyroklastische Ströme, Lahare, Aschefall, Gase) charakterisieren und ihre Wirkung analysieren</td></tr><tr><td><strong>Raumbeispiele</strong></td><td>Vulkangebiete (z.B. Vesuv, Island, Hawaii) beschreiben, Gefahren und Vulnerabilität analysieren</td></tr></tbody></table>
 <h3>Glazialmorphologie</h3>
-<table>
-<tr><th>Kompetenz</th><th>Beschreibung</th></tr>
-<tr><td><strong>Gletscherformen</strong></td><td>Gletscherformen (Cirque, Trogtal, Moränen, Zungenbecken, Urstromtal, Sander) erkennen und charakterisieren</td></tr>
-<tr><td><strong>Glaziale Serie</strong></td><td>Die glaziale Serie (nach Penck) erklären und skizzieren</td></tr>
-<tr><td><strong>Moränentypen</strong></td><td>Moränen-Typen (Grundmoräne, Seitenmoräne, Endmoräne, Altmoräne, Jungmoräne) unterscheiden und zuordnen</td></tr>
-<tr><td><strong>Permafrost</strong></td><td>Permafrost-Bedingungen, Thermokarst, Solifluktion, Geliturbation erklären und ihre Auswirkungen auf die Reliefbildung analysieren</td></tr>
-<tr><td><strong>Prozesse</strong></td><td>Exogene Prozesse (Abtrag, Akkumulation, Schmelzwasser-Erosion) bei Gletschern beschreiben</td></tr>
-<tr><td><strong>Raumbeispiele</strong></td><td>Glazialräume (z.B. Alpen/Aletschgletscher, Norddeutsches Tiefland, Island/Vatnajökull) beschreiben, Vulnerabilität bei Gletscherrückzug</td></tr>
-</table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Beschreibung</th></tr></thead><tbody><tr><td><strong>Gletscherformen</strong></td><td>Gletscherformen (Cirque, Trogtal, Moränen, Zungenbecken, Urstromtal, Sander) erkennen und charakterisieren</td></tr><tr><td><strong>Glaziale Serie</strong></td><td>Die glaziale Serie (nach Penck) erklären und skizzieren</td></tr><tr><td><strong>Moränentypen</strong></td><td>Moränentypen (Grundmoräne, Seitenmoräne, Endmoräne, Altmoräne, Jungmoräne) unterscheiden und zuordnen</td></tr><tr><td><strong>Permafrost</strong></td><td>Permafrost-Bedingungen, Thermokarst, Solifluktion, Geliturbation erklären und ihre Auswirkungen auf die Reliefbildung analysieren</td></tr><tr><td><strong>Prozesse</strong></td><td>Exogene Prozesse (Abtrag, Akkumulation, Schmelzwasser-Erosion) bei Gletschern beschreiben</td></tr><tr><td><strong>Raumbeispiele</strong></td><td>Glazialräume (z.B. Alpen/Aletschgletscher, Norddeutsches Tiefland, Island/Vatnajökull) beschreiben, Vulnerabilität bei Gletscherrückzug</td></tr></tbody></table>
 <h3>Vulnerabilität und Resilienz (Bildungsplan 3.4.3.2 + LK §3.5.2.1 Bezug)</h3>
-<table>
-<tr><th>Kompetenz</th><th>Beschreibung</th></tr>
-<tr><td><strong>Begriffe</strong></td><td>Vulnerabilität, Resilienz, Risiko, Hazard definieren und ihre Beziehung zueinander erklären</td></tr>
-<tr><td><strong>Analyse</strong></td><td>Vulnerabilität von Räumen analysieren (physisch, sozial, ökonomisch)</td></tr>
-<tr><td><strong>Maßnahmen</strong></td><td>Resilienz-Maßnahmen gegen Naturgefahren entwickeln, auf Nachhaltigkeit prüfen</td></tr>
-<tr><td><strong>Raumbeispiele</strong></td><td>Vulnerabilität vulkanischer und glazialer Räume analysieren</td></tr>
-</table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Beschreibung</th></tr></thead><tbody><tr><td><strong>Begriffe</strong></td><td>Vulnerabilität, Resilienz, Risiko, Hazard definieren und ihre Beziehung zueinander erklären</td></tr><tr><td><strong>Analyse</strong></td><td>Vulnerabilität von Räumen analysieren (physisch, sozial, ökonomisch)</td></tr><tr><td><strong>Maßnahmen</strong></td><td>Resilienz-Maßnahmen gegen Naturgefahren entwickeln, auf Nachhaltigkeit prüfen</td></tr><tr><td><strong>Raumbeispiele</strong></td><td>Vulnerabilität vulkanischer und glazialer Räume analysieren</td></tr></tbody></table>
+<hr/>
 <h2>Operatoren — Abitur-Relevante Handlungsanweisungen</h2>
-<table>
-<tr><th>Operator</th><th>Kompetenzbereich</th><th>Typisches LK-Niveau</th></tr>
-<tr><td><strong>Benennen</strong></td><td>OK</td><td>Vulkanformen, Gletscherformen</td></tr>
-<tr><td><strong>Beschreiben</strong></td><td>OK, AK</td><td>Eine Vulkanlandschaft beschreiben</td></tr>
-<tr><td><strong>Erklären</strong></td><td>AK, UK</td><td>Warum Schildvulkane flacher sind als Schichtvulkane</td></tr>
-<tr><td><strong>Charakterisieren</strong></td><td>AK, UK</td><td>Eigenschaften einer vulkanischen Landschaft</td></tr>
-<tr><td><strong>Analysieren</strong></td><td>AK, UK</td><td>Vulnerabilität einer vulkanischen Region</td></tr>
-<tr><td><strong>Vergleichen</strong></td><td>AK, UK</td><td>Vulkanismus vs. Glazialmorphologie</td></tr>
-<tr><td><strong>Beurteilen</strong></td><td>UK, HK</td><td>Resilienz-Maßnahmen beurteilen</td></tr>
-<tr><td><strong>Erörtern</strong></td><td>UK, HK, MK</td><td>Ist die Vulnerabilität durch Gletscherrückzug steigend?</td></tr>
-<tr><td><strong>Skizzieren</strong></td><td>MK, OK</td><td>Glaziale Serie skizzieren</td></tr>
-<tr><td><strong>Darstellen</strong></td><td>OK, MK</td><td>Ergebnisse strukturiert darstellen</td></tr>
-</table>
-
-<p><em>Abitur-Aufgaben verwenden diese Operatoren. Die Kompetenzstufen 1–3 (BF → LK) in Übungsaufgaben entsprechen diesem Operator-Set.</em></p>
-
+<p>Die im Bildungsplan für das Abitur relevanten Operatoren:</p>
+<table class="wiki-table"><thead><tr><th>Operator</th><th>Kompetenzbereich</th><th>Typisches LK-Niveau</th></tr></thead><tbody><tr><td><strong>Benennen</strong></td><td>OK</td><td>Vulkanformen, Gletscherformen</td></tr><tr><td><strong>Beschreiben</strong></td><td>OK, AK</td><td>Eine Vulkanlandschaft beschreiben</td></tr><tr><td><strong>Erklären</strong></td><td>AK, UK</td><td>Warum Schildvulkane flacher sind als Schichtvulkane</td></tr><tr><td><strong>Charakterisieren</strong></td><td>AK, UK</td><td>Eigenschaften einer vulkanischen Landschaft</td></tr><tr><td><strong>Analysieren</strong></td><td>AK, UK</td><td>Vulnerabilität einer vulkanischen Region</td></tr><tr><td><strong>Vergleichen</strong></td><td>AK, UK</td><td>Vulkanismus vs. Glazialmorphologie</td></tr><tr><td><strong>Beurteilen</strong></td><td>UK, HK</td><td>Resilienz-Maßnahmen beurteilen</td></tr><tr><td><strong>Erörtern</strong></td><td>UK, HK, MK</td><td>Ist die Vulnerabilität durch Gletscherrückzug steigend?</td></tr><tr><td><strong>Skizzieren</strong></td><td>MK, OK</td><td>Glaziale Serie skizzieren</td></tr><tr><td><strong>Darstellen</strong></td><td>OK, MK</td><td>Ergebnisse strukturiert darstellen</td></tr></tbody></table>
+<blockquote>Abitur-Aufgaben verwenden diese Operatoren. Die Kompetenzstufen 1–3 (BF → LK) in <a class="wikilink" href="uebungsaufgaben.html">uebungsaufgaben</a> entsprechen diesem Operator-Set.</blockquote>
+<hr/>
 <h2>Quellen</h2>
 <ul>
-<li>Bildungsplan 2016 Gymnasium Geographie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2</li>
-<li>LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK</li>
+<li>Bildungsplan 2016 Gymnasium Geografie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2</li>
+<li>LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2_IK_LK</li>
 </ul>
-
-<p><em>Zu <a href="#">Bildungsplan-2016-lk</a> — übergeordnete Dokumentation des Bildungsplans.</em><br>
-<em>Zu <a href="#">Vulnerabilitätsbegriffe</a> — Vulnerabilitätskonzept im Detail.</em></p>
-</main>
+<hr/>
+<p><em>Zu <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a> — übergeordnete Dokumentation des Bildungsplans.</em></p>
+<p><em>zu <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilitätskonzept im Detail.</em></p>
+<p><em>zu <a class="wikilink" href="abitur-aufgaben.html">abitur-aufgaben</a> — Abitur-Aufgaben mit diesen Kompetenzen.</em></p>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li></ul></div>
+  </main>
 </body>
 </html>

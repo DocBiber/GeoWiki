@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Raumbeispiele — Flusslandschaften (Geografie LK BW) — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li class="active"><a href="fluss-raumbeispiele.html"><strong>Raumbeispiele — Flusslandschaften (Geografie LK BW)</strong></a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Raumbeispiele — Flusslandschaften (Geografie LK BW)</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">raumbeispiele</span><span class="tag-badge">fluss-raumbeispiele</span><span class="tag-badge">vulnerabilitaet</span><span class="tag-badge">wasserhaushalt</span></span>
+    </div>
+    <h1>Raumbeispiele — Flusslandschaften (Geografie LK BW)</h1>
+<blockquote>Flusslandschaft ist eine der fünf Landschaften des Bildungsplans §3.5.2.1.</blockquote>
+<blockquote>Jedes Beispiel enthält: Grunddaten, Flussprozesse/Reliefformen, Hochwasser-Dynamik,</blockquote>
+<blockquote>Vulnerabilität, Resilienz-Maßnahmen — nach dem LK-Anforderungsschema</blockquote>
+<blockquote>(Wählen → Erklären → Erläutern → Beurteilen).</blockquote>
+<hr/>
+<h2>1. Elbe — Hochwasser 2002 (Sommerhochwasser, Mitteleuropa)</h2>
+<h3>Grunddaten</h3>
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Flusslandschaft (mitteleuropäischer Strom)</td></tr><tr><td>Ereignis</td><td>Jahrhunderthochwasser August 2002 („Jahrhundertflut")</td></tr><tr><td>Niederschlagsursache</td><td>Vb-Wetterlage (Tief „Ilse"/„Carolin"): feuchte Mittelmeerluft staut sich an Alpen/Erzgebirge → extreme Dauerregen (bis 350 mm in 2–3 Tagen)</td></tr><tr><td>Betroffene Länder</td><td>Tschechien (Prag, Ústí nad Labem), Österreich, Deutschland (Sachsen, Sachsen-Anhalt: Dresden, Magdeburg, Hitzacker)</td></tr><tr><td>Schäden</td><td>ca. 3,3 Mrd. € (damals); Dresden: Elbe-Pegel 9,40 m (höchster Stand seit 1845); Prag: Evakuierung ganzer Stadtteile</td></tr></tbody></table>
+<h3>Flussprozesse und Formen (Hochwasser-Dynamik)</h3>
+<ul>
+<li><strong>Vb-Wetterlage</strong>: Mediterranes Tief wandert über Adria → Alpenbogen → nach Osteuropa; orografischer Dauerregen im Riesengebirge/Erzgebirge fließt verzögert (Schneeschmelze fehlte, aber gesättigte Böden) in die Elbe</li>
+<li><strong>Fließgewässer-Dynamik</strong>: Die Elbe führt bei Normalabfluss in Dresden ca. 300 m³/s, beim Hochwasser 2002 über 4.500 m³/s — rund 15-fache Steigerung</li>
+<li><strong>Überschwemmungsgefahr</strong>: In der Elbaue (natürlicher Retentionsraum) kann sich das Wasser ausbreiten; begradigte und eingedeichte Abschnitte beschleunigen die Abflusskonzentration und erhöhen den Scheitel</li>
+<li><strong>Erosion und Sedimentation</strong>: Ausufernde Strömung erodiert Ufer, baggert Kolke, lagert nach Rückgang Schlick und Geschiebe ab (Auenlehme — Fruchtbarkeit der Aue)</li>
+<li><strong>Grundwasser-Anstieg</strong>: Rückstau aus dem Grundwasser, Kellervolllaufen — besonders in der Dresdner Elbaue</li>
+</ul>
+<h3>Vulnerabilität</h3>
+<ul>
+<li><strong>Siedlungen in der Aue</strong>: Dresden (Altstadt, UNESCO-Welterbe), Hitzacker (Schleuse), Dörfer in der Elbaue — jahrhundertelange Besiedlung am Fluss (Verkehr, Wasser, fruchtbare Böden)</li>
+<li><strong>Kulturdenkmäler</strong>: Semperoper, Zwinger, Schloss — Schäden an unersetzlichen Kulturgütern (Dresden)</li>
+<li><strong>Infrastruktur</strong>: Bahnstrecken (u. a. Strecke nach Prag), Straßen, Strom-, Wasser- und Kläranlagen</li>
+<li><strong>Wirtschaft</strong>: Einzelhandel, Tourismus, Industrie (z. B. Elbtal bei Aussig)</li>
+</ul>
+<h3>Resilienz-Maßnahmen</h3>
+<ul>
+<li><strong>Hochwasserrückhalt in der Fläche</strong>: Renaturierung von Auen, Deichrückverlegung (z. B. im Landkreis Wittenberg), Wiederanbindung von Altarmen</li>
+<li><strong>Deichbau und -erhöhung</strong>: Neue Deiche mit technischen Standards (z. B. HQ100 bis HQ200 in Sachsen)</li>
+<li><strong>Retentionsräume</strong>: Gestaltung von Poldern (Flutmulden, Steuerung bei Hochwasser)</li>
+<li><strong>Hochwasservorhersage</strong>: Landeshochwasserportale (LHWZ/LfU), Pegel-Messnetz, Vorwarnzeiten 24–72 h</li>
+<li><strong>Kritische Infrastruktur</strong>: Anpassung von Kläranlagen, Trinkwasserbrunnen, Kellerschutz</li>
+<li><strong>Gebäudeschutz</strong>: Hochwasserschutzfenster, mobile Wände (Dresdner Altstadt: Elbwiesen als Entlastung)</li>
+</ul>
+<p><strong>Beurteilung (LK):</strong> Elbe-Hochwasser 2002 = Musterbeispiel für die <strong>Verwundbarkeit durch Nutzung der Aue</strong> — der Fluss selbst ist der „normale" Prozess, die Siedlung in der Aue macht das Ereignis zur Katastrophe. Resilienz heute technisch (Deiche, Prognose) UND ökologisch (Renaturierung, Rückhalt in der Fläche) — nachhaltige Strategie verlagert den Schwerpunkt vom „Schutz vor" zum „Raum für den Fluss".</p>
+<hr/>
+<h2>2. Rhein — Flussregulierung und Rückhaltebecken</h2>
+<h3>Grunddaten</h3>
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Flusslandschaft (alpine Flussbiogeozönose, Mittel- und Niederrhein)</td></tr><tr><td>Strecke</td><td>Alpenrhein → Bodensee → Hochrhein → Oberrhein → Mittelrhein → Niederrhein → Mündung (Rotterdam)</td></tr><tr><td>Länge</td><td>ca. 1.230 km</td></tr><tr><td>Besonderheit</td><td>Eine der meistregulierten und meistgenutzten Wasserstraßen der Welt: Schifffahrt (Binnenverkehr EU), Wasserkraft, Trinkwasser, Industrie</td></tr></tbody></table>
+<h3>Flussprozesse und Formen (vor und nach der Regulierung)</h3>
+<ul>
+<li><strong>Mäander, Altarme, Aue</strong>: Ursprünglich stark mäandrierend mit Überschwemmungsauen (z. B. Oberrhein-Aue) — heute großenteils eingedeicht und begradigt („Rheinbegradigung" Tulla, 19. Jh.: Flusslänge bei Mannheim von 270 auf 130 km verkürzt)</li>
+<li><strong>Erosion und Sohlenbauwerk</strong>: Eindeichung erhöht Fließgeschwindigkeit → Sohlenerosion (Rhein sinkt bis zu 3 m seit der Regulierung) → Ufer- und Grundwasserprobleme (trockenfallende Brunnen, Absenkung des Grundwasserspiegels)</li>
+<li><strong>Hochwasser</strong>: Scheitel werden durch die Begradigung flussabwärts beschleunigt und erhöht (weniger Retentionsvermögen) → Hochwassergefahr steigt</li>
+<li><strong>Geschiebehaushalt</strong>: Kiesentnahme, Staustufen (Iffezheim) unterbrechen den natürlichen Geschiebetrieb → strukturlose, „tote" Sohle</li>
+</ul>
+<h3>Hochwasser-Rückhalt (Resilienz-Strategie am Rhein)</h3>
+<ul>
+<li><strong>Rückhaltebecken / Polder</strong>: Geplante und gebaute Rückhalteräume am Oberrhein (z. B. Bechtolsheim, Wörth, Hüfingen) — gezieltes Fluten bei HQ schützt flussabwärts (z. B. Köln, Düsseldorf)</li>
+<li><strong>Deichsysteme</strong>: Verstärkte Deiche nach Rheinhochwassern (1993/1995: „Jahrhundertfluten" am Rhein: Köln-Pegel über 10 m)</li>
+<li><strong>Staustufen &amp; Laufkraftwerke</strong>: Regulierung des Abflusses, Hochwasserschutz, Energiegewinnung</li>
+<li><strong>Internationales Hochwasserrisikomanagement</strong>: „Aktionsplan Hochwasser" der IKSR (Internationale Kommission zum Schutz des Rheins) — grenzüberschreitend</li>
+</ul>
+<h3>Vulnerabilität</h3>
+<ul>
+<li><strong>Dichte Besiedlung im Rheintal</strong>: Metropolregionen (Basel, Straßburg, Karlsruhe, Mannheim/Ludwigshafen, Köln, Düsseldorf, Rotterdam) — Industrie (Chemie, Raffinerien), Verkehr (Binnenwasserstraße)</li>
+<li><strong>Wirtschaftliche Abhängigkeit</strong>: Transportweg für Massengüter; Trinkwassergewinnung für Millionen (Rheinuferfiltration)</li>
+<li><strong>Hochwasser-Flutkatastrophen</strong>: 1993/1995 zeigten die Anfälligkeit — industrielle Schadstoffe in überfluteten Gebieten als Sekundärgefahr</li>
+</ul>
+<h3>Resilienz-Maßnahmen</h3>
+<ul>
+<li><strong>Flussaufweitung</strong>: Wiederherstellung von Aue und Retentionsraum („Rheinauen-Programm")</li>
+<li><strong>Rückhaltebecken-Netz</strong>: Polderkette am Oberrhein mit gesteuertem Fluten</li>
+<li><strong>Sturzflut-/Hochwasser-Vorhersage</strong>: grenzüberschreitende Pegel-Kommunikation</li>
+<li><strong>Lösung des Erosion-Senkung-Teufelskreises</strong>: Geschiebezugaben, Sohlgleiten, Uferstabilisierung</li>
+<li><strong>Klimaanpassung</strong>: Szenarien für häufigere Extremhochwasser (Klimawandel verstärkt winterliche Niederschläge)</li>
+</ul>
+<p><strong>Beurteilung (LK):</strong> Der Rhein ist das <strong>Paradebeispiel für Flussregulierung als ambivalente Strategie</strong>: Die Begradigung (Tulla) diente der Hochwasser-Sicherung, erzeugte aber neue Probleme (Erosion, höhere Scheitel, ökologische Verarmung). Moderne Resilienz setzt auf <strong>Raum für den Fluss</strong> — Rückhaltung, Auenrenaturierung, ökologische Durchgängigkeit. LK-relevant für die Beurteilung: „technische" vs. „ökologische" Strategien der Flussbewirtschaftung.</p>
+<hr/>
+<h2>3. Donau — Donaudelta (Transferzone Fluss ↔ Meer)</h2>
+<h3>Grunddaten</h3>
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Flusslandschaft (Delta, Übergang zum Meer)</td></tr><tr><td>Lage</td><td>Mündung ins Schwarze Meer (Rumänien/Ukraine)</td></tr><tr><td>Größe</td><td>Größtes zusammenhängendes Feuchtgebiet Europas (ca. 5.800 km², davon 4.150 km² Schutzgebiete)</td></tr><tr><td>Charakteristik</td><td>Deltabildung, Mäanderarme (Armsystem Chilia, Sulina, Sfântu Gheorghe), Auen, Seen, Salzmarschen</td></tr></tbody></table>
+<h3>Flussprozesse und Formen</h3>
+<ul>
+<li><strong>Deltabildung</strong>: Ablagerung von Geschiebe und Schwebstoffen an der Mündung → Umlagerung der Flussarme, Inselbildung (z. B. Letea, Sfântu Gheorghe)</li>
+<li><strong>Rückstau-Überschwemmung</strong>: Frühjahrs-Hochwasser aus den Karpaten (Schneeschmelze) — große Sedimentfrachten, periodische Überflutung der Auen („Überschwemmungspulse")</li>
+<li><strong>Mäanderbildung</strong>: Donau mäandriert in der Aue stark (Altarme, tote Arme — Tote Arme)</li>
+<li><strong>Ökosystem-Leistungen</strong>: Filterung (Schwebstoffe), Nährstoff-Rückhalt, Fisch-Laichplätze (Stör, Karpfen), Vogelschutz (Zugvögel, Rosapelikan)</li>
+</ul>
+<h3>Vulnerabilität</h3>
+<ul>
+<li><strong>Eingriffe in den Fluss</strong>: Stauwehre (z. B. Eisernes Tor am serbisch-rumänischen Grenzabschnitt), Begradigungen → Unterbrechung des Sediment- und Fischtransports, Absenkung des Deltas</li>
+<li><strong>Landwirtschaft</strong>: Trockenlegung der Auen für Ackerbau → Verlust der natürlichen Überschwemmungsgebiete</li>
+<li><strong>Verschmutzung</strong>: Industrie, Landwirtschaft (Dünger) flussaufwärts → Nährstoffeinträge, Eutrophierung</li>
+<li><strong>Klimawandel</strong>: Meeresspiegel-Anstieg → Versalzung des Deltas, Rückstau</li>
+</ul>
+<h3>Resilienz-Maßnahmen</h3>
+<ul>
+<li><strong>Schutzgebiet-Status</strong>: Biosphärenreservat, Ramsar-Gebiet, UNESCO-Welterbe (1991)</li>
+<li><strong>Renaturierung</strong>: Wiederherstellung von Überschwemmungsflächen (z. B. im Donaudelta-Projekt)</li>
+<li><strong>Grenzüberschreitender Schutz</strong>: Internationale Kommissionen (Donaukommission, EU-WRRL)</li>
+<li><strong>Ökologischer Mindestabfluss</strong>: Sicherung von Sediment- und Wassertransport</li>
+</ul>
+<p><strong>Beurteilung (LK):</strong> Das Donaudelta zeigt die <strong>Zusammenhänge zwischen Flussregulierung flussaufwärts und Delta-Degradation flussabwärts</strong> — Eingriffe fernab des Deltas verändern das Ökosystem an der Mündung (Sedimentstau, fehlende Überschwemmungspulse). LK-relevant für die Frage: „Wie wirken sich Eingriffe in den Flusslauf auf stromab gelegene Räume aus?"</p>
+<hr/>
+<h2>4. Vergleichstabelle: Fluss-Raumbeispiele</h2>
+<table class="wiki-table"><thead><tr><th>Kriterium</th><th>Elbe (Hochwasser 2002)</th><th>Rhein (Regulierung)</th><th>Donau-Delta</th></tr></thead><tbody><tr><td><strong>Landschaftstyp</strong></td><td>Flussaue, mitteleuropäischer Strom</td><td>Regulierter Strom (Aue begradigt)</td><td>Delta, Übergangsökosystem</td></tr><tr><td><strong>Hauptprozesse</strong></td><td>Vb-Wetterlage, Hochwasser-Welle, Überschwemmung</td><td>Erosion, Sohlenbauwerk, Geschiebestau, Hochwasser-Scheitel</td><td>Deltabildung, Überschwemmungspulse, Sedimenttransport</td></tr><tr><td><strong>Hauptgefahren</strong></td><td>Hochwasser (Extremniederschlag)</td><td>Hochwasser + Sekundärgefahren (Industrie)</td><td>Ökosystem-Verlust, Versalzung, Sedimentmangel</td></tr><tr><td><strong>Vulnerabilität</strong></td><td>Siedlungen/Kulturdenkmäler in der Aue</td><td>Metropolregionen, Industrie, Verkehr</td><td>Ökosystem, Landwirtschaft, Klimawandel</td></tr><tr><td><strong>Resilienz</strong></td><td>Rückhalt in der Fläche, Deiche, Vorhersage</td><td>Polder, Flussaufweitung, IKSR</td><td>Schutzgebiete, Renaturierung, Mindestabfluss</td></tr><tr><td><strong>Abitur-Beispiel</strong></td><td>„Jahrhunderthochwasser — Verwundbarkeit der Aue"</td><td>„Regulierung als Ursache neuer Probleme — Raum für den Fluss"</td><td>„Eingriffe flussaufwärts wirken ins Delta"</td></tr></tbody></table>
+<hr/>
+<h2>Hinweise für LK-Abitur</h2>
+<ul>
+<li><strong>Elbe 2002</strong>: Ideal für Aufgaben zu „Naturgefahr durch Nutzung" und „Risikomanagement" — die Verwundbarkeit liegt nicht im Fluss, sondern in der Lage der Siedlung in der Aue</li>
+<li><strong>Rhein</strong>: Ideal für die Beurteilung technischer vs. ökologischer Flussbewirtschaftung — Rückhaltebecken und Renaturierung als Resilienz</li>
+<li><strong>Donaudelta</strong>: Ideal für die Frage nach „räumlichen Verknüpfungen" (fluviale Prozesse bis zur Mündung) und nach Ökosystemleistungen</li>
+</ul>
+<p>Verknüpfungen: <a class="wikilink" href="wasserhaushalt.html">wasserhaushalt</a>, <a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a>, <a class="wikilink" href="klimawandel.html">klimawandel</a>, <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a>, <a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a>, <a class="wikilink" href="uebersicht-raumbeispiele.html">uebersicht-raumbeispiele</a>, <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a></p>
+<hr/>
+<h2>Visuelle Darstellungen &amp; Fotos</h2>
+<blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
+<h4>📸 Fotogalerie: Flusslandschaften, Auen (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/river-floodplain">Freie Fotos von Flussauen, Mäandern, Überschwemmungsgebieten.</a></p>
+<h4>📸 Fotogalerie: Hochwasser, Überschwemmungen (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/flooding">Freie Fotos von Hochwasser-Szenarien, überschwemmten Städten.</a></p>
+<h4>🖼️ Kategorie: Flüsse &amp; Auen – Wikimedia Commons</h4>
+<p><a href="https://commons.wikimedia.org/wiki/Category:Rivers">Fotos und Diagramme zu Flüssen, Auen, Deltas, Mäandern.</a></p>
+<hr/>
+<h2>Animationen</h2>
+<blockquote>Passende Erklärvideos (Flussdynamik, Hochwasser-Entstehung, Vb-Wetterlage, Donaudelta)</blockquote>
+<blockquote>werden beim nächsten Medienlauf analog zu M3 ergänzt — mit geprüften YouTube-IDs.</blockquote>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
+  </main>
+</body>
+</html>

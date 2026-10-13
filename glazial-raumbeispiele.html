@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Raumbeispiele — Glazialmorphologie (Geographie LK) — Geographie Wiki LK BW</title>
+  <title>Raumbeispiele — Glazialmorphologie (Geografie LK) — Geographie Wiki LK BW</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -45,398 +45,202 @@
       padding-bottom: 0.25rem;
       border-bottom: 1px solid var(--border);
     }
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .sidebar li {
-      margin: 0.2rem 0;
-      font-size: 0.9rem;
-    }
-    .sidebar li a {
-      color: var(--text);
-      text-decoration: none;
-      display: block;
-      padding: 0.1rem 0;
-    }
-    .sidebar li a:hover {
-      color: var(--link);
-    }
-    .sidebar li.active {
-      background: var(--active-bg);
-      border-radius: 3px;
-      padding-left: 0.3rem;
-    }
-    .tag {
-      font-size: 0.75rem;
-      color: var(--muted);
-      font-weight: normal;
-    }
-    .main {
-      flex: 1;
-      padding: 2rem 3rem;
-      max-width: 900px;
-      min-width: 0;
-    }
-    .main h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.3rem;
-      border-bottom: 2px solid var(--link);
-      padding-bottom: 0.4rem;
-    }
-    .main .meta {
-      color: var(--muted);
-      font-size: 0.85rem;
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-    .tag-badge {
-      display: inline-block;
-      background: #e6eef6;
-      color: var(--link);
-      font-size: 0.75rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
-      margin-right: 0.3rem;
-    }
-    .wikilink {
-      color: var(--wikilink);
-      text-decoration: underline;
-      text-decoration-style: dotted;
-    }
-    .wikilink:hover {
-      color: #8a4400;
-    }
-    .wiki-table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-    .wiki-table th, .wiki-table td {
-      border: 1px solid var(--border);
-      padding: 0.4rem 0.6rem;
-      text-align: left;
-      vertical-align: top;
-    }
-    .wiki-table th {
-      background: #f0f0f0;
-      font-weight: 600;
-    }
-    .wiki-table tr:nth-child(even) td {
-      background: #fafafa;
-    }
-    blockquote {
-      border-left: 3px solid var(--blockquote-border);
-      padding: 0.5rem 1rem;
-      margin: 1rem 0;
-      background: #f9f9f9;
-      color: var(--muted);
-      font-style: italic;
-    }
-    pre.codeblock {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 0.8rem;
-      overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.3;
-      white-space: pre;
-    }
-    code.inline-code {
-      background: var(--code-bg);
-      padding: 0.1rem 0.2rem;
-      border-radius: 2px;
-      font-size: 0.9em;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 1.5rem 0;
-    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
     h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
     h3 { font-size: 1.1rem; margin-top: 1.2rem; }
     h4 { font-size: 1rem; margin-top: 1rem; }
     p { margin: 0.6rem 0; }
-    ul { padding-left: 1.5rem; }
+    ul, ol { padding-left: 1.5rem; }
     li { margin: 0.2rem 0; }
     a { color: var(--link); }
     a:hover { text-decoration: underline; }
-    .backlinks {
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-    .backlinks h3 {
-      font-size: 0.95rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.5rem;
-    }
-    .backlinks ul {
-      columns: 2;
-      column-gap: 1.5rem;
-      padding-left: 0.5rem;
-    }
-    .backlinks li {
-      margin: 0.15rem 0;
-      break-inside: avoid;
-    }
-    .no-link {
-      color: var(--muted);
-      font-style: italic;
-    }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
     @media (max-width: 768px) {
       body { flex-direction: column; }
       .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
       .main { padding: 1rem; }
       .backlinks ul { columns: 1; }
     }
-  </style>
+</style>
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>Wiki navigieren</h2>
-    <ul>
-      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
-    </ul>
-    <h2>Seiten nach Typ</h2>
-    <ul>
-      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
-<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
-<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
-<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
-<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
-<li class="active"><a href="glazial-raumbeispiele.html"><strong>Raumbeispiele — Glazialmorphologie (Geographie LK)</strong></a> <span class="tag">[concept]</span></li>
-<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanismus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
-<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
-<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
-<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
-<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
-<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
-    </ul>
-  </aside>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li class="active"><a href="glazial-raumbeispiele.html"><strong>Raumbeispiele — Glazialmorphologie (Geografie LK)</strong></a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
   <main class="main">
-    <h1>Raumbeispiele — Glazialmorphologie (Geographie LK)</h1>
+    <h1>Raumbeispiele — Glazialmorphologie (Geografie LK)</h1>
     <div class="meta">
       <span>Typ: concept</span>
-      <span>|</span>
-      <span>Dateigröße: 11302 Bytes</span>
-      <span style="margin-left:auto"></span>
+      <span style="margin-left:auto"><span class="tag-badge">raumbeispiele</span><span class="tag-badge">glazialmorphologie</span><span class="tag-badge">glazial-raumbeispiele</span></span>
     </div>
-    <h1>Raumbeispiele — Glazialmorphologie (Geographie LK)</h1>
-
+    <h1>Raumbeispiele — Glazialmorphologie (Geografie LK)</h1>
 <blockquote>Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage.</blockquote>
 <blockquote>Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz.</blockquote>
-
-
-
-<h2>2. Norddeutsches Tiefland — Skandisches Inlandeis</h2>
-
+<hr/>
+<h2>1. Alpen — Schweiz (Grosser Aletsch-Gletscher)</h2>
 <h3>Grunddaten</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Merkmal</th>
-<th>Angabe</th>
-</tr></thead><tbody>
-<tr>
-<td>Landschaftstyp</td>
-<td>Ehemaliges Inlandeis-Gebiet (Skandisches Eis)</td>
-</tr>
-<tr>
-<td>Glaziale Formen</td>
-<td>Urstromtäler, Moränen, Sander, Löss, Grundmoräne</td>
-</tr>
-<tr>
-<td>Region</td>
-<td>Norddeutschland (Schleswig-Holstein, Niedersachsen, Bremen, Hamburg, Berlin/Brandenburg-Region)</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Alpengletscher / Talgletscher</td></tr><tr><td>Glaziale Formen</td><td>Trogtal, Zungenbecken, Seitenmoräne, Kar (Cirque), glaziale Serie-Anzeichen</td></tr><tr><td>Gletscher</td><td>Grosser Aletsch-Gletscher (längster Gletscher der Alpen, ~23 km, Fläche ~82 km²)</td></tr><tr><td>Region</td><td>Berner Oberland, Schweiz (Wallis, Valais)</td></tr></tbody></table>
+<h3>Glaziale Formen (beobachtbar)</h3>
+<ul>
+<li><strong>Trogtal</strong>: Das Aletsch-Tal ist ein U-förmiges Tal, tief erodiert durch Eiskeise während der Eiszeit</li>
+<li><strong>Kar (Cirque)</strong>: Mehrere Kär am Kopf des Gletschers (z.B. "Konkordiaplatz" — Zunge-Zusammenführung)</li>
+<li><strong>Seitenmoräne</strong>: An den Gletscherseiten erkennbar (Höhenzüge, Felsen)</li>
+<li><strong>Zungenbecken</strong>: Am Gletscherende (Aletsch-Fuß, aktuell ca. 2400 m ü. M.)</li>
+<li><strong>Endmoräne-Vorfahren</strong>: ältere Endmoränen in der Talebene (z.B. "Unterer Aletsch" — alte Endmoränen)</li>
+<li><strong>Glaziale Serie</strong>: Ideal beobachtbar in der umliegenden Landschaft (Talstufen, Sandr-Reflexe)</li>
+</ul>
+<h3>Prozesse</h3>
+<ul>
+<li><strong>Abtrag (Abrasion)</strong>: Gletscher poliert Felsen, hinterlässt striate (Abspritzungen)</li>
+<li><strong>Transport</strong>: Material wird durch den Gletscher transportiert (Ende der Eiszeit zurückgelassen als Moränen)</li>
+<li><strong>Akkumulation</strong>: Schnee in den Zehrgebieten (&gt;2400 m) → Firn → Eis → Gletscher</li>
+<li><strong>Gleichgewichtslinie</strong>: Aktuell ca. 3800 m (Aletsch) — unterhalb: Schmelze &gt; Akkumulation</li>
+<li><strong>Gletscherrückzug</strong>: Seit Ende der kleinen Eiszeit (1850) kontinuierlicher Rückzug — aktuell ca. 50–70 m/Jahr</li>
+</ul>
+<h3>Vulnerabilität</h3>
+<p><strong>Ökonomisch:</strong></p>
+<ul>
+<li><strong>Tourismus</strong>: Skigebiete, Alpenvereinshütten, Wanderungen — wirtschaftlich abhängig von Gletscher (Attraktion)</li>
+<li><strong>Wasserressourcen</strong>: Gletscherschmelze trägt Frischwasser für Mitteldeutsche (niedrigere Regionen, Landwirtschaft, Trinkwasser) — Rückzug → Verschiebung</li>
+</ul>
+<p><strong>Ökologisch:</strong></p>
+<ul>
+<li><strong>Gletschermikroökosystem</strong>: wissenschaftlich einzigartig (Organismen im Eis) — Gletscherrückzug gefährdet Lebensräume</li>
+</ul>
+<p><strong>Sozial:</strong></p>
+<ul>
+<li>Siedlungen am Talrand (z.B. Bettmeralp, Riederalp) — Tourismus-infrastruktur, aber keine hohe Siedlungsgefährdung</li>
+<li>Gefahren durch Lawinen, Felssturz, Gletscherbrechen → touristisch relevant</li>
+</ul>
+<h3>Resilienz-Maßnahmen</h3>
+<ul>
+<li><strong>Gletscherüberwachung</strong>: Schweizer Gletscherkommission (GLAMOS), Messungen, Satelliten-Observationen</li>
+<li><strong>Pisten-Sicherung</strong>: Lawinen-Abfanganlagen, Schnee-Überwachung, Abschneideprogramme an Alpengletscher-Gleitbahnen</li>
+<li><strong>Abstieg</strong>: Abstieg von Gletschergipfeln (z.B. Ski-Pisten an Aletsch-Gletscher)</li>
+<li><strong>Tourismus-Umstellung</strong>: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternAtiver Tourismus), Hütten-Nachhaltigkeit</li>
+<li><strong>Wasser-Management</strong>: Aufbereitung von Schmelzwasser (Trinkwasser, Landwirtschaft, Strategie für hartnäckigen Zustand)</li>
+</ul>
+<p><strong>Beurteilung (LK):</strong> Resilienz hoch für lokal bewohnte Gebiete, aber <strong>wirtschaftliche Vulnerabilität</strong> durch Gletscherrückzug steigend (Tourismus, Wasserreservoir). Nachhaltigkeit: Strukturwandel notwendig.</p>
+<hr/>
+<h2>2. Norddeutsches Tiefland — Skandisches Inlandeis</h2>
+<h3>Grunddaten</h3>
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Ehemaliges Inlandeis-Gebiet (Skandisches Eis)</td></tr><tr><td>Glaziale Formen</td><td>Urstromtäler, Moränen, Sander, Löss, Grundmoräne</td></tr><tr><td>Region</td><td>Norddeutschland (Schleswig-Holstein, Niedersachsen, Bremen, Hamburg, Berlin/Brandenburg-Region)</td></tr></tbody></table>
 <h3>Glaziale Formen (im Landesverlauf)</h3>
-
-<li><strong>Urstromtäler</strong>: Besonders bekannt: <strong>Berliner Urstromtal</strong> (Havelland, Spree-Spreewald-Gebiet), <strong>Elbe-Ästungen</strong>, <strong>Meklenburger Urstromtal</strong>, <strong>Emsland</strong> — Weitläufige, flache Talböden</li>
+<ul>
+<li><strong>Urstromtäler</strong>: Besonders bekannt: <strong>Berliner Urstromtal</strong> (Havelland, Spree-Spreewald-Gebiet), <strong>Elbe-Ästungen</strong>, <strong>Meklenburger Urstromtal</strong>, <strong>Emsland</strong> — weitläufige, flache Talböden</li>
 <li><strong>Endmoränen</strong>: "Havelländer Endmoräne", "Baden-Württemberg-Endmoränen", "Rügen-Moräne", Dünenlinien</li>
 <li><strong>Sander</strong>: Schotterfelder an den Endmoränenzäunen (z.B. Fläming-Sandr, Lüneburger-Heck-Sandr)</li>
 <li><strong>Löss</strong>: Löss-Decken in Mitteleuropa (z.B. an den Flüssen Elbe, Weser, Oder) — windgetragen von Schmelzflächen der Eisgrenze</li>
 <li><strong>Grundmoräne</strong>: Grundwomöglich für landwirtschaftliche Böden (z.B. Schleswig-Holstein, Mecklenburgische Seenplatte)</li>
-
+</ul>
 <h3>Prozesse</h3>
-
+<ul>
 <li><strong>Inlandsis-Vorfahrt</strong>: Vor ~20.000 Jahren (Letztes Maximum, Weichsel-Kaltzeit) deckte skandinavisches Inlandeis weite Teile des heutigen Norddeutschlands</li>
 <li><strong>Schmelzphase</strong>: Eis schmolz, Gletscherrückzug, Urstromtäler ausgebildet</li>
 <li><strong>Wind-Transport</strong>: Löss aus freiliegenden Schotterdecken → Löss-Ablagerungen in Flachland</li>
 <li><strong>Stille Landschaft</strong>: nach der Eiszeit — Formen verbleiben als Relikt</li>
-
+</ul>
 <h3>Vulnerabilitat (heutige)</h3>
-
+<ul>
 <li><strong>Boden</strong>: Löss-Böden (Acker, fruchtbar) — ggf. Erosion, Umstellung (Löss-Erosion, Abgrabung)</li>
 <li><strong>Grundwasser</strong>: in Urstromtalen (Leitungswasser, Grundwasser, Nähe) → Vulnerabilitat: Verschmutzung, Übernutzung, Klimawandel-Auswirkungen</li>
 <li><strong>Infrastruktur</strong>: Viele Städte / Industrie in Urstromtalnähe (z.B. Berlin, Hamburg, Bremen) — ggf. Gefährdung durch Hochwasser (Spree, Elbe)</li>
 <li><strong>Klimawandel</strong>: Niederschlagsänderung, Grundwasserspiegel, Verschiebung in ländlichen Gebieten</li>
-
+</ul>
 <h3>Resilienz-Maßnahmen</h3>
-
+<ul>
 <li><strong>Grundwassermanagement</strong>: Quantitative Nutzung, Schutz-Flächen, Wasserschutzgebiete</li>
 <li><strong>Löss-Erosionsschutz</strong>: nachhaltige Landwirtschaft, Decking, Waldbau (Wiederaufforstung)</li>
 <li><strong>Hochwasserschutz</strong>: Deiche, Rückhaltung (z.B. "Elbe-Hochwasserschutz"), Hochwasser-Planung (Rückhaltung im Gelände)</li>
-<li><strong>Raumplanung</strong>: Konstruktive Nutzung, wertvolle Böden schützen, Lössdecken erhalten</li>
-
-<p><strong>Beurteilung:</strong> "Alte Gefahr" (Eiszeit) ist heute <strong>Vulnerabilität durch Nutzung</strong> — nicht durch Naturgefahren direkt, sondern durch <strong>sekundäre Auswirkungen</strong> (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher Vulnerabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).</p>
-
+<li><strong>Raumplanung</strong>: Konstruktive Nutzung, wertvolle Böden schützen, Löss-Decken erhalten</li>
+</ul>
+<p><strong>Beurteilung:</strong> "Alte Gefahr" (Eiszeit) ist heute <strong>Vulnerabilität durch Nutzung</strong> — nicht durch Naturgefahren direkt, sondern durch <strong>sekundäre Auswirkungen</strong> (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher VulneRabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).</p>
 <hr/>
-
 <h2>3. Island — Gletscher-Vulkan-Interaktion</h2>
-
 <h3>Grunddaten</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Merkmal</th>
-<th>Angabe</th>
-</tr></thead><tbody>
-<tr>
-<td>Landschaftstyp</td>
-<td>Vulkan × Glazial (Gletscher auf Vulkanen)</td>
-</tr>
-<tr>
-<td>Vulkan-Gletscher-Paare</td>
-<td>Vatnajökull (largest glaciers) über Vulkanen (Bárðarbunga, Grímsvötn), Mýrdalsjökull über Katla, Eyjafjallajökull</td>
-</tr>
-<tr>
-<td>Region</td>
-<td>Süd-Island, Zentral-Island</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Vulkan × Glazial (Gletscher auf Vulkanen)</td></tr><tr><td>Vulkan-Gletscher-Paare</td><td>Vatnajökull (largest glaciers) über Vulkanen (Bárðarbunga, Grímsvötn), Mýrdalsjökull über Katla, Eyjafjallajökull</td></tr><tr><td>Region</td><td>Süd-Island, Zentral-Island</td></tr></tbody></table>
 <h3>Glaziale Formen</h3>
-
+<ul>
 <li><strong>Gletscher</strong>: Vatnajökull (Fläche ca. 8100 km² — größtes Gletscher-Eis der Island), Jakobshavn-is, Langjökull, Hofsjökull</li>
 <li><strong>Jökull</strong>: Gletscher-Teil, insbesondere "Öræfi" (Vatnajökull-Südspitze)</li>
 <li><strong>Moränen</strong>: an Gletscherrändern (Seitenmoränen, Endmoränen, Sander)</li>
 <li><strong>Urstromtäler</strong>: Schmelzwasser-Täler, oft bleiben trocken (z.B. Skeiðará, Skaftá)</li>
-
-<h3>Vulkan × Glazial Interaktion</h3>
-
+</ul>
+<h3>Vulkan × glazial Interaktion</h3>
+<ul>
 <li><strong>Jökulhlaup</strong> (isländisch = "Gletscherflutung"): Ein Vulkanausbruch unter dem Gletscher schmilzt Eis → Wasser + Asche → Lawine-Flut</li>
 <li>1996: Gjálp-Eruption (Vatnajökull) → 400 Mio. m³ Wasser, Skeiðarársandur (Sandur) überschwemmt, Highway 1 (Ringstraße) beschädigt</li>
 <li>2010: Eyafjöll → kleinere Jökulhlaup-Ereignisse</li>
 <li><strong>Asche + Schnee / Gletscher</strong>: Vulkanasche auf Schnee beschleunigt Schmelze (positive Feedback-Schleife)</li>
 <li><strong>Gletscherverlagerung</strong> durch Vulkan-Eruption: Lokal, später, nicht allgemein</li>
-
+</ul>
 <h3>Vulnerabilität</h3>
-
 <p><strong>Ökonomisch:</strong></p>
+<ul>
 <li><strong>Tourismus</strong>: islandische Wirtschaft stark tourismus-abhängig (besonders "Golden Circle", Gletscher, Vulkane als Attraktionen)</li>
 <li><strong>Landwirtschaft</strong>: Südlische Ebenen (Rehkreis, Húnavatn) — Asche, Lahar, Überflutung-Gefährdung</li>
-
+</ul>
 <p><strong>Infrastruktur:</strong></p>
+<ul>
 <li><strong>Ringstraße (Highway 1)</strong>: wichtigste Verbindung — Jökulhlaup-Schäden, Überbrückungs-Maßnahmen</li>
 <li><strong>Flugverkehr</strong>: Island ist wichtig für transatlantischen Flugverkehr → Asche beeinträchtigt</li>
 <li><strong>Energie</strong>: Geothermie/Nutzung, Schmelzwasser</li>
-
+</ul>
 <p><strong>Sozial:</strong></p>
+<ul>
 <li>Siedlungen in Gefahrenzone (z.B. Kirkjubæjarklaustur, Vík í Mýrdal — sehr vulnerabel für Katla-Jökulhlaup)</li>
 <li>Evakuierungspläne vorhanden (Island hat Red-Out-System, Sirenen, Warnkette)</li>
-
+</ul>
 <h3>Resilienz-Maßnahmen</h3>
-
+<ul>
 <li><strong>Überwachung</strong>: IMO (Icelandic Met Office), Seismometer-Netz, Gasmessung, GPS, Gletscherbewegungsmessung (GPS auf Eis)</li>
 <li><strong>Jökulhlaup-Frühwarnung</strong>: Evakuierung, Sirene, Warnungen an Autobahn-Nutzer</li>
 <li><strong>Ringstraße</strong>: temporäre Überquerungsbrücken, Sperrungen, Sturm-Schutz</li>
 <li><strong>Tourismus-Management</strong>: Atemschutzempfehlungen für Asche, Schließungen, Weiterleitungen</li>
 <li><strong>Langfristige:</strong> Island arbeitet an natürlichen Gefahren-Reduktion: keine vollständige Lösung, aber gebrauchliche Anpassung</li>
-
+</ul>
 <p><strong>Beurteilung (LK):</strong> Island = einzigartiger <strong>Vulkan × Glazial</strong> Kontext — ideal für LK-Aufgaben, da Prozesse der Reliefsphäre direkt miteinander verknüpft. Vulnerabilität ist lokal gering, aber wirtschaftlich und infrastrukturell relevant. Resilienz: gute Überwachung, aber Naturabwehr (Te phreatomagmatisch/Jökulhlaup) ist kraftlos.</p>
-
 <hr/>
-
 <h2>4. Vergleichstabelle: Glazial-Raumbeispiele</h2>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Kriterium</th>
-<th>Alpen (Schweiz, Aletsch)</th>
-<th>Norddeutsches Tiefland</th>
-<th>Island (Vatnajökull etc.)</th>
-</tr></thead><tbody>
-<tr>
-<td><strong>Landschaftstyp</strong></td>
-<td>Alpengletscher / Talgletscher</td>
-<td>Ehemaliges Inlandeis-Gelände (Relikt)</td>
-<td>Vulkan × Glazial Gegenwart</td>
-</tr>
-<tr>
-<td><strong>Haupt-Formen</strong></td>
-<td>Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen</td>
-<td>Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne</td>
-<td>Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen</td>
-</tr>
-<tr>
-<td><strong>Gegenwartige Aktivität</strong></td>
-<td>Gletscherrückzug, Schmelze, Abrasion</td>
-<td>Statisch (Relikt-Landschaft, keine aktive Eisbewegung)</td>
-<td>Aktive Gletscher + aktive Vulkane + Jökulhlaup-Ereignisse</td>
-</tr>
-<tr>
-<td><strong>Hauptgefahren</strong></td>
-<td>Gletscherlawinen, Felssturz, Jökulgare-Abfluss (GLOF)</td>
-<td>Grundwasser-Verschmutzung, Löss-Erosion, Hochwasser</td>
-<td>Jökulhlaup, Asche, Lava, Lahare, Flugstörung</td>
-</tr>
-<tr>
-<td><strong>Vulnerabilität</strong></td>
-<td>Tourismus-abhängig, Wasserressourcen, ökologische</td>
-<td>Landnutzung (Boden, Wasser), Infrastruktur in Urstromtälern</td>
-<td>Tourismus, Ringstraße, Landwirtschaft, Flugverkehr</td>
-</tr>
-<tr>
-<td><strong>Resilienz-Maßnahmen</strong></td>
-<td>Überwachung, Lawinenabwehr, Tourismus-Umstellung, Wasser-Management</td>
-<td>Grundwasser-Schutz, Löss-Erosionsschutz, Hochwasserschutz</td>
-<td>Überwachung, Jökulhlaup-Warnung, Ringstraße-Anpassung</td>
-</tr>
-<tr>
-<td><strong>Abitur-Beispiel</strong></td>
-<td>"Gletscherrückzug und Vulnerabilität (Tourismus)"</td>
-<td>"ehemalige Eiszeit-Gefahren durch Nutzung → sekundäre Vulnerabilität"</td>
-<td>"Vulkan × Glazial-Interaktion, Jökulhlaup, transnationale Tourismus-Abhängigkeit"</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Kriterium</th><th>AlPen (Schweiz, Aletsch)</th><th>Norddeutsches Tiefland</th><th>Island (Vatnajökull etc.)</th></tr></thead><tbody><tr><td><strong>Landschaftstyp</strong></td><td>Alpengletscher / Talgletscher</td><td>Ehemaliges Inlandeis-Gelände (Relikt)</td><td>Vulkan × glazial Gegenwart</td></tr><tr><td><strong>Haupt-Formen</strong></td><td>Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen</td><td>Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne</td><td>Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen</td></tr><tr><td><strong>Gegenwartige Aktivität</strong></td><td>Gletscherrückzug, Schmelze, Abrasion</td><td>Statisch (Relikt-Landschaft, keine aktive Eisbewegung)</td><td>Aktive Gletscher + aktive Vulkane + Jökulhlaup-Ereignisse</td></tr><tr><td><strong>Hauptgefahren</strong></td><td>Gletscherlawinen, Felssturz, Jökulgare-Abfluss (GLOF)</td><td>Grundwasser-Verschmutzung, Löss-Erosion, Hochwasser</td><td>Jökulhlaup, Asche, Lava, Lahare, Flugstörung</td></tr><tr><td><strong>Vulnerabilität</strong></td><td>Tourismus-abhängig, Wasserressourcen, ökologische</td><td>Landnutzung (Boden, Wasser), Infrastruktur in Urstromtälern</td><td>Tourismus, Ringstraße, Landwirtschaft, Flugverkehr</td></tr><tr><td><strong>Resilienz-Maßnahmen</strong></td><td>Überwachung, Lawinenabwehr, Tourismus-Umstellung, Wasser-Management</td><td>Grundwasser-Schutz, Löss-Erosionsschutz, Hochwasserschutz</td><td>Überwachung, Jökulhlaup-Warnung, Ringstraße-Anpassung</td></tr><tr><td><strong>Abitur-Beispiel</strong></td><td>"Gletscherrückzug und Vulnerabilität (Tourismus)"</td><td>"ehemalige Eiszeit-Gefahren durch Nutzung → sekundäre Vulnerabilität"</td><td>"Vulkan × Glazial-Interaktion, Jökulhlaup, transnationale Tourismus-Abhängigkeit"</td></tr></tbody></table>
 <hr/>
-
 <h2>Raumbeispiele — Hinweise für LK-Abitur</h2>
-
-<li><strong>Alpen-Gletscher</strong>: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)</li>
+<ul>
+<li><strong>Alpengletscher</strong>: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)</li>
 <li><strong>Norddeutsches Tiefland</strong>: "Sekundäre Vulnerabilität" (durch Nutzung, nicht durch Natur direkt) — Löss, Grundwasser, Hochwasser/Klimawandel</li>
 <li><strong>Island</strong>: "Vulkan × Glazial" — einmaliges Beispiel für Prozess-Interdependenzen (§3.5.2.1), Jökulhlaup als Gefahrenprozess, gute Überwachung aber begrenzte Kontrolle</li>
-
-<p>Verknüpfungen: <a href="glazialmorphologie-ueberblick.html" class="wikilink"&gt;glazialmorphologie-ueberblick</a>, <a href="glaziale-serie.html" class="wikilink"&gt;glaziale-serie</a>, <a href="moränen-und-gletscherformen.html" class="wikilink"&gt;moränen-und-gletscherformen</a>, <a href="permafrost-und-solifluktion.html" class="wikilink"&gt;permafrost-und-solifluktion</a>, <a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a>, <a href="vulnerabilitaet-raumbeispiele.html" class="wikilink"&gt;vulnerabilitaet-raumbeispiele</a>, <a href="bildungsplan-2016-lk.html" class="wikilink"&gt;bildungsplan-2016-lk</a></p>
-
-    <div class="backlinks">
-      <h3>Verknüpft von</h3>
-      <ul>
-        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a></li>
-      </ul>
-    </div>
+</ul>
+<p>Verknüpfungen: <a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a>, <a class="wikilink" href="glaziale-serie.html">glaziale-serie</a>, <a class="wikilink" href="moränen-und-gletscherformen.html">moränen-und-gletscherformen</a>, <a class="wikilink" href="permafrost-und-solifluktion.html">permafrost-und-solifluktion</a>, <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a>, <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a></p>
+<hr/>
+<h2>Bildmaterial</h2>
+<h3>🖼️ Bild (Wikimedia Commons)</h3>
+<p><img alt="Fjord in Norwegen – glaziale Erosion (CC BY-SA)" src="https://commons.wikimedia.org/wiki/File:Fjord_Romund-Oome_Fjord_Norway.jpg"/></p>
+<p><em>Quelle: Fjord in Norwegen – glaziale Erosion (CC BY-SA)</em></p>
+<h3>📸 Fotos (Unsplash)</h3>
+<p><a href="https://unsplash.com/s/photos/glacier">Fotogalerie: Fotogalerie: Gletscher und glaziale Landschaften (Unsplash)</a></p>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
   </main>
 </body>
 </html>

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Geographische Methoden — GIS, Fernerkundung, Kartographie — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li class="active"><a href="methoden-gis-fernerkundung.html"><strong>Geographische Methoden — GIS, Fernerkundung, Kartographie</strong></a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Geographische Methoden — GIS, Fernerkundung, Kartographie</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">methodik</span><span class="tag-badge">gis</span><span class="tag-badge">fernerkundung</span><span class="tag-badge">kartographie</span><span class="tag-badge">analyse</span><span class="tag-badge">technologie</span></span>
+    </div>
+    <h1>Geographische Methoden — GIS, Fernerkundung, Kartographie</h1>
+<h2>Überblick</h2>
+<p>Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfassen, zu analysieren, zu visualisieren und zu interpretieren. Für den Leistungskurs sind besonders diese drei Methodenfamilien relevant:</p>
+<ol>
+<li><strong>Geographische Informationssysteme (GIS):</strong> Digitale Systeme zur Erfassung, Speicherung, Analyse und Darstellung räumlicher Daten</li>
+<li><strong>Fernerkundung (Remote Sensing):</strong> Erfassung von Erdoberflächen-Informationen aus der Ferne (Satelliten, Flugzeuge)</li>
+<li><strong>Kartographie:</strong> Wissenschaft und Praxis der Kartenerstellung — Visualisierung räumlicher Informationen</li>
+</ol>
+<blockquote>Bezug zum Spektrum Lexikon der Geographie: Kartographie / GIS / Fernerkundung / Methoden</blockquote>
+<h2>Geographische Informationssysteme (GIS)</h2>
+<p><strong>Definition:</strong> Ein GIS ist ein softwarebasiertes System zur Erfassung, Verwaltung, Analyse und Darstellung geographischer Daten — sowohl räumlicher Lage (Koordinaten) als auch Attributdaten (Eigenschaften von Orten, Einheiten).</p>
+<p><strong>Kernkomponenten:</strong></p>
+<ul>
+<li><strong>Geodatenspeicherung:</strong> Vektordaten (Punkte, Linien, Flächen — Polygone) + Rasterdaten (Gitter, Pixel — z. B. Höhenmodelle, Satellitenbilder)</li>
+<li><strong>Datenbank:</strong> Verknüpfung von Geometrie + Attributen (Tabellen)</li>
+<li><strong>Analyse-Funktionen:</strong> Layer-Analyse, Overlay, Puffer, Distanzberechnung, räumliche Interpolation, Netzwerk-Analyse, statistische Analyse</li>
+<li><strong>Darstellung:</strong> Kartenerstellung, symbolische Darstellung, Layout</li>
+</ul>
+<p><strong>Anwendungen:</strong></p>
+<ul>
+<li>Landwirtschaft: Feldbetrieb, Bodenkarte, Wassermanagement</li>
+<li>Stadtplanung: Flächennutzung, Infrastruktur, Bauleitpläne</li>
+<li>Umwelt: Umweltverträglichkeit, Gefahrenanalyse, Naturschutz</li>
+<li>Notfall: Katastrophenmanagement, Evakuierung, Ressourcenverteilung</li>
+<li>Wirtschaft: Marktanalyse, Standortwahl, Lieferkette</li>
+</ul>
+<p><strong>Beispiele GIS-Layer:</strong></p>
+<ul>
+<li>Höhenmodell (DEM = Digital Elevation Model) — Raster, Höhen information</li>
+<li>Landnutzung (Landbedeckung — Wälder, Acker, Siedlung, Wasser)</li>
+<li>Bodenkarte (Bodentypen, Bodenart)</li>
+<li>Infrastruktur (Straßen, Eisenbahn, Gebäude, Schienen)</li>
+<li>Gewässer (Flüsse, Seen, Grundwasser)</li>
+<li>Bevölkerungsdichte (Attribute)</li>
+<li>Klimadaten (Temperatur, Niederschlag — Punkte, Raster)</li>
+</ul>
+<p><strong>Fähigkeiten (relevant für Abitur):</strong></p>
+<ul>
+<li>Layer-Überlagerung (Overlay-Analyse): Z. B. Flächennutzung mit Landschaftsschutzgebiet überschneiden</li>
+<li>Pufferanalyse: Z. B. Puffer um Fluss (Flussnahe Siedlungen innerhalb 500 m)</li>
+<li>Distanz- und Nähe-Analyse: Z. B. Entfernung zu Next City, Schulen, Krankenhäuser</li>
+<li>Räumliche Interpolation: Z. B. Temperatur oder Niederschlag von Messstationen auf ganze Fläche interpolieren (IDW, Kriging)</li>
+<li>Netzwerk-Analyse: Z. B. Fahrzeit, Wege im Verkehrsnetz</li>
+<li>Attributabfrage: Z. B. "Welche Flächen sind waldreich und innerhalb 1 km vom Fluss?"</li>
+</ul>
+<h2>Fernerkundung (Remote Sensing)</h2>
+<p><strong>Definition:</strong> Fernerkundung bezeichnet das Erfassen von Informationen über Objekte oder Flächen ohne physische Berührung — meist mit Sensoren an Bord von Satelliten, Flugzeugen, Drohnen.</p>
+<p><strong>Sensor-Typen:</strong></p>
+<ul>
+<li><strong>Passive Sensoren:</strong> Empfangen natürliche Strahlung (Sonnenlicht, Wärmestrahlung) — z. B. optische Kameras, multispektrale Scanner (Landsat, Sentinel-2), thermische Sensoren</li>
+<li><strong>Aktive Sensoren:</strong> Senden eigene Strahlung aus und messen Rückkehr — z. B. Radar (Synthetic Aperture Radar, SAR — kann durch Wolken durchdringen), LidR (Laser) für Höhenmodelle</li>
+</ul>
+<p><strong>Wellenlängen-Bereiche:</strong></p>
+<ul>
+<li><strong>Sichtbares Licht (VIS):</strong> RGB — natürliche Farben, gut für Landnutzung, Vegetation (Grün), Wasser (blau)</li>
+<li><strong>Infrarot (NIR, SWIR):</strong> Nahinfrarot (Pflanzengesundheit / NDVI), kurzwelliges Infrarot (Wasserinhalt, Mineralogie)</li>
+<li><strong>Thermal Infrared (TIR):</strong> Temperaturmessung (Oberflächentemperatur, städtische Hitzeinseln, Feuer)</li>
+<li><strong>Mikrowelle (Radar):</strong> Durchdringt Wolken, Nutzung bei Wolken/Hitze, Höhenmessung (LidR)</li>
+</ul>
+<p><strong>Satelliten-Beispiele:</strong></p>
+<ul>
+<li><strong>Landsat (USA):</strong> Lange Zeitreihe seit 1972, 30 m Auflösung, gut für Veränderungsanalyse (z. B. Entwaldung, städtisches Wachstum, Urbanisierung)</li>
+<li><strong>Sentinel-2 (ESA):</strong> Kostenlos, 10–20 m Auflösung, 5-Tage Wiederholung — standard für Landbedeckung, Vegetationsmonitoring</li>
+<li><strong>MODIS (NASA):</strong> Grob aufgelöst (250–1000 m), täglich — globale Monitoring (Vegetationsindex, Temperatur, Wolken)</li>
+<li><strong>Sentinel-1 (Radar):</strong> Durch Wolken, tagsüber/nachts, 5–20 m — Überschwemmungserkennung, Bodendisplacement</li>
+<li><strong>Sentinel-3 (Optical + Altimeter):</strong> Ozean, Land, Atmosphäre</li>
+</ul>
+<p><strong>Anwendungen:</strong></p>
+<ul>
+<li><strong>Vegetationsindizes:</strong> NDVI (Normalized Difference Vegetation Index) = (NIR - R) / (NIR + R) — zeigt Vegetationsdichte, -gesundheit; hoher Wert = dicht, gesund (Vorteil: einfach, gut verständlich)</li>
+<li><strong>Veränderungsdetektion:</strong> Vorher/Nachher Vergleich: Z. B. Epidemie-Detekektion, Degradierung, Urbanisierung</li>
+<li><strong>Höhenmodelle:</strong> LidR, Radar-Uplink — liefert digitales Höhenmodell (DEM), Hangneigung, Geländeanalyse</li>
+<li><strong>Wasser / Überschwemmung:</strong> Sentinel-1 (Radar) — flüssiges Wasser reflektiert anders als trockene Fläche; gut für Hochwasserkartierung</li>
+<li><strong>Temperatur:</strong> TIR — städtische Hitzeinseln, Landwirtschaft (Wasserstress), Vulkanismus (Thermalflächen)</li>
+</ul>
+<p><strong> Grenzen (für das Abitur relevant):</strong></p>
+<ul>
+<li>Auflösung (räumlich: Pixelgröße; zeitlich: Wiederholung) — höhere Auflösung = kleinere Fläche, aber weniger Abdeckung</li>
+<li>Wolken (optisch) — Radar beim Durchdringen</li>
+<li>Daten aufbereiten (Kalibrierung, Atmosphären-Korrektur, geometrische Korrektur)</li>
+<li>Interpretation: NDVI ist nicht direkt "Biomasse" — Interpretation braucht Kontext</li>
+</ul>
+<h2>Kartographie</h2>
+<p><strong>Definition:</strong> Kartographie ist die Kunst und Wissenschaft der Kartenerstellung — Abbildung räumlicher Informationen auf Papier oder Bildschirm.</p>
+<p><strong>Grundarten von Karten:</strong></p>
+<ul>
+<li><strong>Allgemeine Karte:</strong> Zeigt viele Elemente (Topographische Karte: Höhen, Gewässer, Straßen, Siedlungen, Vegetation) — z. B. Topographische Karte 1:25.000, 1:50.000</li>
+<li><strong>Spezielle Karte (Themenkarte):</strong> Ein Thema im Fokus — z. B. Bevölkerungsdichte, Niederschlag, Vegetation, Bodenkarte, Verkehrskarte</li>
+<li><strong>Digitale Karten:</strong> Interaktiv (Web-GIS, OpenStreetMap, Google Maps) — Zoom, Layerwahl, Messung</li>
+<li><strong>Satellitenbild (falschfarbig / Natural Color):</strong> Optisches Bild — nicht primär "Karte", aber geographische Information</li>
+</ul>
+<p><strong>Kartenelemente:</strong></p>
+<ul>
+<li><strong>Titel.</strong> Was wird dargestellt?</li>
+<li><strong>Legend (Erklärung).</strong> Symbole, Farben, Werte</li>
+<li><strong>Maßstab.</strong> Verhältnis (1:50.000 = 1 cm = 500 m) oder grafische Strecke</li>
+<li><strong>Koordinaten / Bezugssystem:</strong> (z. B. UTM, Gauß-Krüger, WGS84)</li>
+<li><strong>Nordpfeil / Richtung</strong></li>
+<li><strong>Kartennetz:</strong> Gitternetz (Längen- und Breitengrade) für Referenz</li>
+<li><strong>Quellenangabe</strong> (wichtig für wissenschaftliche Arbeit!)</li>
+</ul>
+<p><strong>Projektionen (Abbildung der Kugel auf Ebene):</strong></p>
+<ul>
+<li><strong>Problem:</strong> Kugel → ebene Fläche = Verzerrung (entweder Fläche, Form, Abstand, Richtung bleibt richtig)</li>
+<li><strong>Beispiele:</strong></li>
+<li>Mercator-Projektion: Winkeltreue (Conform), gut für Navigation — aber polare Länder stark vergrößert (Grüneland vs. Afrika)</li>
+<li>Kugelkeil / Lambertsche Kreiskegelprojektion: Flächentreue in Polaren — gut für mittlere Breiten (Deutschland)</li>
+<li>Gauß-Krüger (UTM): Konform, für kleine Gebiete — Standard in Deutschland (3-Grad-Sektoren)</li>
+<li>Robinson / Winkel tripel: Kompromiss, für Weltkarten</li>
+</ul>
+<p><strong>Kartografische Gestaltprinzipien:</strong></p>
+<ul>
+<li><strong>Generalisierung:</strong> Vereinfachung bei kleinerem Maßstab (weniger Details)</li>
+<li><strong>Visual Hierarchy:</strong> Wichtige Elemente hervorstechen</li>
+<li><strong>Leichtigkeit:</strong> Klar ohne Überladung</li>
+<li><strong>Farbgebung:</strong> Sinnvoll, einprägsam, nicht irreführend</li>
+</ul>
+<p><strong>Fähigkeiten (Abitur):</strong></p>
+<ul>
+<li>Karten lesen und interpretieren (Topographische Karte, Themenkarte, Satellitenbild)</li>
+<li>Eigene Karten erstellen (simple Layout: Layer, Symbole, Legende, Maßstab, Titel)</li>
+<li>Bei GIS: Layer kombinieren, Analyse durchführen, Ergebnis kartieren</li>
+</ul>
+<h2>Beziehung zwischen Methoden</h2>
+<p>GIS, Fernerkundung und Kartographie sind sich ergänzend:</p>
+<ul>
+<li><strong>Fernerkundung</strong> liefert Daten (Satellitenbilder, LiDAR, Radar)</li>
+<li><strong>GIS</strong> analysiert diese Daten (Overlay, Klassifikation, Modellierung)</li>
+<li><strong>Kartographie</strong> stellt Ergebnisse dar (Karten, Diagramme, 3D-Visualisierung)</li>
+</ul>
+<p>Beispiel: Landnutzungsänderung:</p>
+<ol>
+<li>Fernerkundung: Satellite-Bilder aus 1990 und 2020 herunterladen (Landsat)</li>
+<li>GIS: NDVI berechnen, Landbedeckung klassifizieren, Overlay-Vergleich</li>
+<li>Kartographie: Karte erstellen mit Landbedeckung 1990, 2020, Änderung, Legende, Maßstab, Quelle</li>
+</ol>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> — Entwicklungszusammenarbeit: GIS in Entwicklungsländern, Geoinformations-Technologie</li>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> — Überwachung: Fernerkundung von Eis, Vegetation, Temperatur</li>
+<li><a class="wikilink" href="boden-und-boden.html">boden-und-boden</a> — Bodenkarten, GIS-Analyse Boden</li>
+<li><a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a> — Wetterkarten, Satellitenbilder lesen</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Welche konkreten GIS-Übungen / Map-Aufgaben für Abitur? (z. B. ArcGIS, QGIS, OpenStreetMap-basiert?)</li>
+<li>Welche Satellitenbilder-Beispiele für Abitur? (z. B. Google Earth, Sentinel Hub, USGS EarthExplorer)</li>
+</ul>
+<hr/>
+<h2>Visuelle Darstellungen &amp; Beispiele</h2>
+<blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
+<h4>📸 Fotogalerie: GIS, Kartierung, digitale Karten (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/gis-mapping">Freie Fotos von GIS-Desktop, digitale Karten, Geoinformationssysteme.</a></p>
+<h4>📸 Fotogalerie: Satellitenbilder, Fernerkundung (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/satellite-imagery">Freie Fotos von Satellitenbildern, Erdbeobachtung, Fernerkundung.</a></p>
+<h4>📸 Fotogalerie: Kartographie, Landkarten, Kartenherstellung (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/cartography">Freie Fotos von Kartographie, alten und neuen Karten, Kartendesign.</a></p>
+<h4>📸 Fotogalerie: Topographische Karten, Höhenmodelle (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/topographic-map">Freie Fotos von topographischen Karten, Geländemodellen, Höhenlinien.</a></p>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li></ul></div>
+  </main>
+</body>
+</html>

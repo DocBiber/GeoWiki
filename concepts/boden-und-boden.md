@@ -81,11 +81,10 @@ Der Boden ist ein Landschaftsmerkmal, das mit anderen Faktoren interagiert:
 
 ## Verwandte Seiten
 
-- [[geologie-grundlagen]] — Gesteine, Geologie-Grundlagen (Muttergestein)
-- [[geomorphologie-ueberblick]] — Geomorphologie: Relief, Prozesse, Landschaftsformen
 - [[vulkanprozesse]] — Vulkanische Prozesse: Entstehung von Boden aus vulkanischem Material (Andosole etc.)
 - [[glaziale-serie]] — Glaziale Serie: Eiszeit-Gestaltungen, die Bodenbildung beeinflussen
 - [[atmosphaere-wetter-klima]] — Klima als Faktor der Bodenentstehung
+- [[wasserhaushalt]] — Wasserhaushalt als Bodeneigenschaft
 
 ## Offene Fragen
 

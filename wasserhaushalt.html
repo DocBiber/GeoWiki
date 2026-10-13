@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Wasserhaushalt und Hydrologie — Grundlagen — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li class="active"><a href="wasserhaushalt.html"><strong>Wasserhaushalt und Hydrologie — Grundlagen</strong></a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Wasserhaushalt und Hydrologie — Grundlagen</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">wasser</span><span class="tag-badge">hydrologie</span><span class="tag-badge">wasserhaushalt</span><span class="tag-badge">hydrogeographie</span><span class="tag-badge">umwelt</span></span>
+    </div>
+    <h1>Wasserhaushalt und Hydrologie</h1>
+<h2>Überblick</h2>
+<p>Der Wasserhaushalt (Hydrologischer Kreislauf) beschreibt, wie Wasser in allen Aggregatszuständen durch die Systeme der Erde zirkuliert: von Ozeanen über Atmosphäre, Land und Rückkehr zu Ozeanen. Die Hydrologie ist die Wissenschaft vom Wasser — severe quantitativer, spatialer und zeitlicher Aspekte.</p>
+<blockquote>Bezug zum Spektrum Lexikon der Geographie: Hydrologie / Hydrogeographie / Klimageographie</blockquote>
+<h2>Der Wasserhaushalt: Komponenten</h2>
+<p><strong>Einträge (Zuflüsse zum Land):</strong></p>
+<ul>
+<li><strong>Niederschlag:</strong> Regen, Schnee, Graupel — Wasser von der Atmosphäre auf die Landfläche; Hauptquelle für Süßwasser auf dem Land; Niederschlagsmenge und -verteilung variieren stark (z. B. tropische Konvektionszone vs. Wüsten)</li>
+<li><strong>Schneeschmelze:</strong> Gletscher, Schnee (Kryosphäre) — liefert saisonal Frischwasser (z. B. Sommerhochwasser in Alpen, Himalaya)</li>
+</ul>
+<p><strong>Abflüsse (Wasser vom Land):</strong></p>
+<ul>
+<li><strong>Oberflächenabfluss:</strong> Wasser fließt oberhalb des Bodens in Bach, Fluss, See — direkt nach Niederschlag, wenn Boden gesättigt oder versiegelt</li>
+<li><strong>Simultane Infiltration und Percolation:</strong> Wasser sickert in Boden und Grundwasser — Infiltration (Eintritt ins Erdmaterial), Percolation (weiter transport im Boden, zum Grundwasser)</li>
+<li><strong>Grundwasserabfluss:</strong> Grundwasser fließt zu Flüssen, Seen, Ozeanen — verlangsamte, verzögerte Ausfluss (Grundwasserlaufzeit Monate bis Jahrzehnte)</li>
+<li><strong>Evapotranspiration (Verdunstung):</strong> Wasser verdunstet von Boden und Wasserflächen, Pflanzen geben Wasser ab (Transpiration) — Gesamtverlust vom Land in die Atmosphäre; dominant in wärmeren Klimazonen</li>
+</ul>
+<p><strong>Speicher (Wo Wasser vorübergehend gespeichert wird):</strong></p>
+<ul>
+<li><strong>Atmosphäre:</strong> Wasserdampf, Wolken — kurze Verweilzeit (Tage), aber zentral für Transport</li>
+<li><strong>Oberflächenwasser:</strong> Flüsse, Seen, Teiche — kurz bis mittelfristig</li>
+<li><strong>Grundwasser:</strong> Aquifere (durchlässige Schichten) — langfristige Speicher, wichtig für Trinkwasser, Landwirtschaft (Brunnen)</li>
+<li><strong>Kryosphäre:</strong> Gletscher, Eisdecke, Schnee — langfristige Speicher, klima-abhängig (Schmelzen bei Erwärmung)</li>
+<li><strong>Boden:</strong> Bodenfeuchte — kurz- bis mittelfristig, wichtig für Landwirtschaft und Ökosysteme</li>
+</ul>
+<h2>Der Wasserhaushalt eines Einzugsgebiets (Wasserhaushalts-Gleichung)</h2>
+<p>Ein Einzugsgebiet (Einlaufgebiet, Wasserscheide) ist das Gebiet, aus dem ein Gewässer (Fluss, See) Wasser sammelt. Der Wasserhaushalt eines Einzugsgebiets lässt sich bilanzieren:</p>
+<p><strong>Wasserhaushalts-Gleichung:</strong></p>
+<pre class="codeblock">Niederschlag (P) = Evapotranspiration (ET) + Oberflächenabfluss (Qo) + Grundwasserabfluss (Qg) ± Änderung Speicherung (ΔS)</pre>
+<p>Oder einfacher:</p>
+<pre class="codeblock">P = ET + Abfluss (Gesamt) ± ΔSpeicher</pre>
+<ul>
+<li><strong>P (Niederschlag):</strong> Zufluss</li>
+<li><strong>ET (Verdunstung + Transpiration):</strong> Verlust in Atmosphäre</li>
+<li><strong>Abfluss (Q = Qo + Qg):</strong> Abfluss zum nächsten Gewässer / Ozean</li>
+<li><strong>ΔS (Speicheränderung):</strong> Kann positiv (z. B. Schneetrend, Eisende, Grundwasseranstieg) oder negativ (Trockenland, Grundwasserentnahme) sein</li>
+</ul>
+<p><strong>Wasserhaushaltskurvе (Hydrograph):</strong> Der zeitliche Verlauf des Abflusses (Stromer) nach Niederschlagsereignis: Steiler Anstieg (oberflächenabfluss-dominiert), Plateauphase, allmähliche Abnahme (Grundwasserabfluss dominant) — Dickinson-Modell / Multiplikative Überschwemmungsmodelle.</p>
+<h2>Einflüsse auf den Wasserhaushalt</h2>
+<p><strong>Klimafaktoren:</strong></p>
+<ul>
+<li>Niederschlagsmenge und -verteilung (Jahreszeit, Böden)</li>
+<li>Temperatur (Steuert Verdunstung, Schneegrenze, Schnee-Schmelze)</li>
+<li>Wind (beeinflusst Verdunstung, Transport von Feuchtigkeit)</li>
+</ul>
+<p><strong>Räumliche / physikalische Faktoren:</strong></p>
+<ul>
+<li><strong>Topographie:</strong> Hänge, Exposition — Hangflächen: schnelle Oberflächenabflus, wenig Infiltration; Tieflagen: Ablauf, Gewässer</li>
+<li><strong>Boden (Textur, Struktur, Organik):</strong> Sandig = schnelle Infiltration, wenig Speicher; Tonig = langsame Infiltration, hohe Speicher; Humus = gute Infiltration und Speicherung</li>
+<li><strong>Vegetation:</strong> Kann Infiltration erhöhen (Wurzelkanäle), Verdunstung erhöhen (Transpiration), Oberflächenabfluss verringern (Pflanzen bedeckt Boden, Schutz vor Splash)</li>
+<li><strong>Beschaffenheit:</strong> Versiegelung (Stadt) = keine Infiltration, stark Oberflächenabfluss, Hochwasserrisiko; landwirtschaftliche Bodenbearbeitung (Fallende Fruchtfolge, Mulch) = Infiltration ±</li>
+</ul>
+<p><strong>Anthropogene Eingriffe:</strong></p>
+<ul>
+<li><strong>Wassermanagement:</strong> Staudämme (Speicher, Hochwasserentlastung, Energie, Bewässerung), Entnahme (Trinkwasser, Industrie, Landwirtschaft — Grundwasserentnahme, Flussabfluss verändern)</li>
+<li><strong>Bodenversiegung:</strong> Siedlung, Impermeabilisierung — Oberflächenabfluss erhöht, Grundwasserneubildung sinkt</li>
+<li><strong>Änderung Landnutzung:</strong> Entwaldung (weniger Interception, mehr Abfluss), Urbarmachung</li>
+<li><strong>Klimawandel:</strong> Erwärmung (mehr Verdunstung, weniger Schnee, veränderte Niederschläge), Extreme (Trockenheit und Hochwasser)</li>
+</ul>
+<h2>Begriffe und Methoden</h2>
+<p><strong>Quantifizierung:</strong></p>
+<ul>
+<li><strong>Niederschlag:</strong> mm (Millimeter) als Höhe auf Fläche — 1 mm = 1 Liter pro m²</li>
+<li><strong>Abfluss:</strong> m³/s (Durchfluss / Strohmenge), oder mm/t (abflussäquivalent)</li>
+<li><strong>Verdunstung (PT / ET0):</strong> Referenz-Evaporationsrate, oft nach Penman-Monteith</li>
+<li><strong>Wasserhaushaltsbilanz:</strong> Berechnung über Daten (Niederschlag messen mit Regenmesser, Abfluss mit Stromer/Hydrometrie, Verdunstung mit Eddy-Korrelation oder Modell)</li>
+</ul>
+<p><strong>Hydrologische Modelle:</strong> SWAT, HBV, PRMS — simulieren Abfluss, Grundwasser, Beeinflussung von Landnutzung und Klima.</p>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> — Klimawandel: Auswirkungen auf Niederschlag, Verdunstung, Hochwasser, Trockenheit</li>
+<li><a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a> — Atmosphäre: Niederschlag, Verdunstung, Klimatypen</li>
+<li><a class="wikilink" href="boden-und-boden.html">boden-und-boden</a> — Boden: Infiltration, Wasserhaltevermögen, Erosionsanfälligkeit</li>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilität: Gefährdung durch Wasser (Hochwasser, Trockenheit, Überschwemmung)</li>
+<li><a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a> — Maßnahmen: Hochwasserschutz, Wasserhaushalt, Nachhaltigkeit</li>
+</ul>
+<h2>Raumbeispiele (für Abitur)</h2>
+<ul>
+<li><strong>Alpen:</strong> Gletscher, Schneeschmelze als Wasserquelle für tiefere Lagen (z. B. Donau, Rhein, Rhone, Po); saisonale Abflussmuster; Klimawandel: Gletscherschmelze, veränderter Wasserhaushalt</li>
+<li><strong>Norddeutsches Tiefland:</strong> Grundwasser dominiert, langsame Abflüsse (Norden — viele Feuchtgebiete), wenig Reliefien, Grundwasserneubildung wichtig</li>
+<li><strong>Trockene Gebiete (Wüste):</strong> extrem wenig Niederschlag, hohe Verdunstung, knappe Wasserresourcen; Wasserangebote oft knapp, Grundwasser wichtig</li>
+<li><strong>Bevölkerungsdichte / Landwirtschaft:</strong> Wasserbedarf und -verfügbarkeit oft unausgewogen (z. B. Indien — viele Menschen, schwankender Monsun, Grundwasser-Entnahme)</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Welche konkreten Hochwasser- oder Trockenheitsfälle (z. B. Flusshochwasser Elbe 2002, Rhein 1995, Donau 2013) für Abitur?</li>
+<li>Raumbeispiel Flusslandschaft (Elbe, Rhein, Donau) — noch ausstehend im Wiki, aber hier wiederverbindbar</li>
+</ul>
+<hr/>
+<h2>Visuelle Darstellungen &amp; Animationen</h2>
+<blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
+<h4>🎬 Der Wasserkreislauf – Wie funktioniert er? (National Geographic, ~4 Min.)</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdk6sPCL5nI" frameborder="0" allowfullscreen title="Der Wasserkreislauf – Wie funktioniert er? (National Geographic, ~4 Min.)"></iframe>
+<p><em>Niederschlag, Verdunstung, Transpiration, Oberflächenabfluss, Grundwasser – der gesamte Wasserhaushalt.</em></p>
+<h4>📸 Fotogalerie: Wasserzyklus, Wasser in der Natur (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/water-cycle">Freie Fotos von Wasserfall, Fluss, Regen, Grundwasser, Wasserkreislauf.</a></p>
+<h4>📸 Fotogalerie: Hydrologie, Flussläufe, Einzugsgebiete (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/hydrology">Freie Fotos von Flüssen, Einzugsgebieten, Oberflächenabfluss.</a></p>
+<hr/>
+<h2>Animationen</h2>
+<h3>🎬 Wasserhaushalt – Wie der Hydrologische Kreislauf funktioniert (Wasserzyklen, Freshwater)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/al-do-HGuIk" frameborder="0" allowfullscreen></iframe>
+<h3>🎬 Wasserzyklus-Demonstration – Schritt für Schritt (MooMooMath &amp; Science)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z6HPQBws5mM" frameborder="0" allowfullscreen></iframe>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Boden und Bodengeographie — Grundlagen</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Raumbeispiele — Flusslandschaften (Geografie LK BW)</li><li>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</li><li>Stadtgeographie — Grundlagen und Themen</li></ul></div>
+  </main>
+</body>
+</html>

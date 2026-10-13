@@ -77,4 +77,4 @@ Der Bildungsplan definiert fünf Kompetenzbereiche:
 ---
 
 *Kompatibel mit dem nachfolgenden Schema des vgl.-Wiki: alle inhaltsbezogenen Kompetenzen (IK)
-werden in den zugehörigen Wiki-Seiten (Vulkan, Glazial, Vulnerabilität) mit [[wikilinks]] verknüpft.*
+werden in den zugehörigen Wiki-Seiten (Vulkan, Glazial, Vulnerabilität) mit Wikilinks verknüpft.*

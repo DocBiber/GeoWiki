@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Geographie Wiki — Leistungskurs BW (Bildungsplan 2016) — Geographie Wiki LK BW</title>
+  <title>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016) — Geographie Wiki LK BW</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -45,265 +45,134 @@
       padding-bottom: 0.25rem;
       border-bottom: 1px solid var(--border);
     }
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .sidebar li {
-      margin: 0.2rem 0;
-      font-size: 0.9rem;
-    }
-    .sidebar li a {
-      color: var(--text);
-      text-decoration: none;
-      display: block;
-      padding: 0.1rem 0;
-    }
-    .sidebar li a:hover {
-      color: var(--link);
-    }
-    .sidebar li.active {
-      background: var(--active-bg);
-      border-radius: 3px;
-      padding-left: 0.3rem;
-    }
-    .tag {
-      font-size: 0.75rem;
-      color: var(--muted);
-      font-weight: normal;
-    }
-    .main {
-      flex: 1;
-      padding: 2rem 3rem;
-      max-width: 900px;
-      min-width: 0;
-    }
-    .main h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.3rem;
-      border-bottom: 2px solid var(--link);
-      padding-bottom: 0.4rem;
-    }
-    .main .meta {
-      color: var(--muted);
-      font-size: 0.85rem;
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-    .tag-badge {
-      display: inline-block;
-      background: #e6eef6;
-      color: var(--link);
-      font-size: 0.75rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
-      margin-right: 0.3rem;
-    }
-    .wikilink {
-      color: var(--wikilink);
-      text-decoration: underline;
-      text-decoration-style: dotted;
-    }
-    .wikilink:hover {
-      color: #8a4400;
-    }
-    .wiki-table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-    .wiki-table th, .wiki-table td {
-      border: 1px solid var(--border);
-      padding: 0.4rem 0.6rem;
-      text-align: left;
-      vertical-align: top;
-    }
-    .wiki-table th {
-      background: #f0f0f0;
-      font-weight: 600;
-    }
-    .wiki-table tr:nth-child(even) td {
-      background: #fafafa;
-    }
-    blockquote {
-      border-left: 3px solid var(--blockquote-border);
-      padding: 0.5rem 1rem;
-      margin: 1rem 0;
-      background: #f9f9f9;
-      color: var(--muted);
-      font-style: italic;
-    }
-    pre.codeblock {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 0.8rem;
-      overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.3;
-      white-space: pre;
-    }
-    code.inline-code {
-      background: var(--code-bg);
-      padding: 0.1rem 0.2rem;
-      border-radius: 2px;
-      font-size: 0.9em;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 1.5rem 0;
-    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
     h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
     h3 { font-size: 1.1rem; margin-top: 1.2rem; }
     h4 { font-size: 1rem; margin-top: 1rem; }
     p { margin: 0.6rem 0; }
-    ul { padding-left: 1.5rem; }
+    ul, ol { padding-left: 1.5rem; }
     li { margin: 0.2rem 0; }
     a { color: var(--link); }
     a:hover { text-decoration: underline; }
-    .backlinks {
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-    .backlinks h3 {
-      font-size: 0.95rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.5rem;
-    }
-    .backlinks ul {
-      columns: 2;
-      column-gap: 1.5rem;
-      padding-left: 0.5rem;
-    }
-    .backlinks li {
-      margin: 0.15rem 0;
-      break-inside: avoid;
-    }
-    .no-link {
-      color: var(--muted);
-      font-style: italic;
-    }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
     @media (max-width: 768px) {
       body { flex-direction: column; }
       .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
       .main { padding: 1rem; }
       .backlinks ul { columns: 1; }
     }
-  </style>
+</style>
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>Wiki navigieren</h2>
-    <ul>
-      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
-    </ul>
-    <h2>Seiten nach Typ</h2>
-    <ul>
-      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
-<li class="active"><a href="index.html"><strong>Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</strong></a> <span class="tag">[concept]</span></li>
-<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
-<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
-<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
-<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
-<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanismus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
-<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
-<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
-<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
-<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
-<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
-    </ul>
-  </aside>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li class="active"><a href="index.html"><strong>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</strong></a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
   <main class="main">
-    <h1>Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</h1>
+    <h1>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</h1>
     <div class="meta">
       <span>Typ: concept</span>
-      <span>|</span>
-      <span>Dateigröße: 3170 Bytes</span>
       <span style="margin-left:auto"></span>
     </div>
-    <h1>Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</h1>
-
-<blockquote>Persönliche Wissensbasis zu Geographie im Leistungskurs an Gymnasien in Baden-Württemberg,</blockquote>
+    <h1>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</h1>
+<blockquote>Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg,</blockquote>
 <blockquote>ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).</blockquote>
-<blockquote>Domain: Physische Geographie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.</blockquote>
-<blockquote>Letztes Update: 2026-09-27 | Gesamtseiten: 20</blockquote>
-
+<blockquote>Domain: Physische Geografie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.</blockquote>
+<blockquote>Letztes Update: 2026-10-13 | Gesamtseiten: 26</blockquote>
 <h2>BILDUNGSPLAN-RAHMEN</h2>
-
-<li><a href="bildungsplan-2016-lk.html" class="wikilink"&gt;bildungsplan-2016-lk</a> — Bildungsplan 2016 Leistungskurs Geographie Baden-Württemberg (Übersicht)</li>
-<li><a href="kompetenzen-lk.html" class="wikilink"&gt;kompetenzen-lk</a> — Prozess- und inhaltsbezogene Kompetenzen LK (§3.5)</li>
-<li><a href="abitur-ubersicht-lk.html" class="wikilink"&gt;abitur-ubersicht-lk</a> — Abiturformat LK Geographie BW (Anforderungen, Operatoren, Beispiele)</li>
-
+<ul>
+<li><a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a></li>
+<li><a class="wikilink" href="kompenenzen-lk.html">kompenenzen-lk</a> — Bildungsplan 2016 Leistungskurs Geografie Baden-Württemberg (Übersicht)</li>
+<li>- <a class="wikilink" href="abitur-ubersicht-lk.html">abitur-ubersicht-lk</a> — Abiturformat LK Geografie BW (Anforderungen, Operatoren, Beispiele)</li>
+</ul>
 <h2>VULKANSISMUS (Formen und Prozesse)</h2>
-
-<li><a href="vulkanismus-ueberblick.html" class="wikilink"&gt;vulkanismus-ueberblick</a> — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht</li>
-<li><a href="vulkanarten.html" class="wikilink"&gt;vulkanarten</a> — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot</li>
-<li><a href="vulkanprozesse.html" class="wikilink"&gt;vulkanprozesse</a> — Explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren</li>
-
+<ul>
+<li><a class="wikilink" href="vulkansimus-ueberblick.html">vulkansimus-ueberblick</a> — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht</li>
+<li><a class="wikilink" href="vulkanarten.html">vulkanarten</a> — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot</li>
+<li><a class="wikilink" href="vulkanprozesse.html">vulkanprozesse</a> — explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren</li>
+</ul>
 <h2>GLAZIALMORPHOLOGIE (Formen und Prozesse)</h2>
-
-<li><a href="glazialmorphologie-ueberblick.html" class="wikilink"&gt;glazialmorphologie-ueberblick</a> — Glazialmorphologie: Grundlagen, Kalt-/Warmzeit, Permafrost</li>
-<li><a href="glaziale-serie.html" class="wikilink"&gt;glaziale-serie</a> — Glaziale Serie: Zungenbecken → Endmoräne → Sander → Urstromtal (Penck)</li>
-<li><a href="moränen-und-gletscherformen.html" class="wikilink"&gt;moränen-und-gletscherformen</a> — Altmoräne, Jungmoräne, Grundmoräne, Seitenmoräne, Karbälge, Dreikanter</li>
-<li><a href="permafrost-und-solifluktion.html" class="wikilink"&gt;permafrost-und-solifluktion</a> — Permafrost, Thermokarst, Solifluktion, Geliturbation</li>
-
+<ul>
+<li><a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a> — Glazialmorphologie: Grundlagen, Kalt-/Warmzeit, Permafrost</li>
+<li><a class="wikilink" href="glaziale-serie.html">glaziale-serie</a> — Glaziale Serie: Zungenbecken → Endmoräne → Sander → Urstromtal (Penck)</li>
+<li><a class="wikilink" href="moränen-und-gletscherformen.html">moränen-und-gletscherformen</a> — Altmoräne, Jungmoräne, Grundmoräne, Seitenmoräne, Endmoräne, Kar, Dreikanter</li>
+<li><a class="wikilink" href="permafrost-und-solifluktion.html">permafrost-und-solifluktion</a> — Permafrost, Thermokarst, Solifluktion, Geliturbation</li>
+</ul>
 <h2>VULNERABILITÄT &amp; RESILIENZ</h2>
-
-<li><a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a> — Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat und Modelle</li>
-<li><a href="vulnerabilitaet-raumbeispiele.html" class="wikilink"&gt;vulnerabilitaet-raumbeispiele</a> — Verwundbarkeit von Räumen durch Naturgefahren (Bsp. Vulkan, Gletscher, Küstenerosion)</li>
-<li><a href="vulnerabilitaet-vulkanraume.html" class="wikilink"&gt;vulnerabilitaet-vulkanraume</a> — Vulnerabilität vulkanischer Räume (Vesuv, Island, Eifel, Hawaii)</li>
-<li><a href="resilienz-massnahmen.html" class="wikilink"&gt;resilienz-massnahmen</a> — Maßnahmen zur Stärkung der Resilienz, nachhaltige Entwicklung, Gefahrenreduzierung</li>
-
+<ul>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat und Modelle</li>
+<li><a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a> — Verwundbarkeit von Räumen durch Naturgefahren (Bsp. Vulkan, Gletscher, Küstenerosion)</li>
+<li><a class="wikilink" href="vulnerabilitaet-vulkanraume.html">vulnerabilitaet-vulkanraume</a> — Vulnerabilität vulkanischer Räume (Vesuv, Island, Eifel, Hawaii)</li>
+<li><a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a> — Maßnahmen zur Stärkung der Resilienz, nachhaltige Entwicklung, Gefahrenreduzierung</li>
+</ul>
+<h2>BODEN &amp; WASSER (3.5.2.1 + 3.5.2.4)</h2>
+<ul>
+<li><a class="wikilink" href="boden-und-boden.html">boden-und-boden</a> — Boden: Bodenhorizont, Bodenarten, Bodentypen, Bodenentstehung, Bodenschutz, Landschaftsökologie</li>
+<li><a class="wikilink" href="wasserhaushalt.html">wasserhaushalt</a> — Wasserhaushalt: Komponenten, Wasserhaushalts-Gleichung, Einflüsse, anthropogene Veränderungen, Hochwasser/Trockenheit</li>
+</ul>
+<h2>ATMOSPHÄRE &amp; KLIMA (3.5.2.2)</h2>
+<ul>
+<li><a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a> — Atmosphäre, Wetter und Klima: Grundlagen, Wetterkarten, globale Zirkulation, Klimatypen, Hochgebirge/Wüste</li>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> — Klimawandel: Ursachen, Dimensionen, Auswirkungen im Erden-System, Anpassungsstrategien, Klimaschutz (3.5.3.2)</li>
+</ul>
+<h2>GEOGRAPHISCHE METHODEN</h2>
+<ul>
+<li><a class="wikilink" href="methoden-gis-fernerkundung.html">methoden-gis-fernerkundung</a> — GIS, Fernerkundung, Kartographie: Geographische Methoden für Datenanalyse, Satellitenbilder, Kartenerstellung</li>
+<li><a class="wikilink" href="stadtgeographie.html">stadtgeographie</a> — Stadtgeographie: Urbanisierung, Stadtstruktur, Stadtprobleme, Stadtplanung, Nachhaltige Stadtentwicklung</li>
+</ul>
+<h2>GLOBALISIERUNG &amp; ENTWICKLUNG (3.5.2.6 + 3.5.3.4)</h2>
+<ul>
+<li><a class="wikilink" href="globalisierung-anthroposphaere.html">globalisierung-anthroposphaere</a> — Globalisierung: Weltbevölkerungsentwicklung, Treiber, Global Cities, Freihandelszonen, Standortfaktoren, Raumstrukturen</li>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> — Disparitäre Entwicklungen: Ursachen, Folgen, Entwicklungstheorien, SDGs, Entwicklungszusammenarbeit (3.5.3.4)</li>
+</ul>
 <h2>RAUMBEISPIELE (für Abitur)</h2>
-
-<li><a href="uebersicht-raumbeispiele.html" class="wikilink"&gt;uebersicht-raumbeispiele</a> — Übersicht alle 5 Landschaften + Auswahl-Tabelle LK-Abitur</li>
-<li><a href="vulkan-raumbeispiele.html" class="wikilink"&gt;vulkan-raumbeispiele</a> — Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island)</li>
-<li><a href="glazial-raumbeispiele.html" class="wikilink"&gt;glazial-raumbeispiele</a> — Alpen (Aletsch, Schweiz), Norddeutsches Tiefland, Island (Vatnajökull)</li>
-
+<ul>
+<li><a class="wikilink" href="uebersicht-raumbeispiele.html">uebersicht-raumbeispiele</a> — Übersicht alle 5 Landschaften + Auswahl-Tabelle LK-Abitur</li>
+<li><a class="wikilink" href="vulkan-raumbeispiele.html">vulkan-raumbeispiele</a> — Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island)</li>
+<li><a class="wikilink" href="glazial-raumbeispiele.html">glazial-raumbeispiele</a> — Alpen (Aletsch, Schweiz), Norddeutsches Tiefland, Island (Vatnajökull)</li>
+<li><a class="wikilink" href="fluss-raumbeispiele.html">fluss-raumbeispiele</a> — Flusslandschaften: Elbe (Hochwasser 2002), Rhein (Regulierung/Rückhaltebecken), Donau-Delta</li>
+<li><a class="wikilink" href="kuesten-raumbeispiele.html">kuesten-raumbeispiele</a> — Küstenlandschaften: Nordsee (Sturmfluten/Deiche), Sylt (Inselwanderung/Sandaufspülung), Ostsee (Steilküste Fehmarn/Waabs), Niederlande (Deltawerke)</li>
+<li><a class="wikilink" href="karstlandschaft.html">karstlandschaft</a> — Karstlandschaft: Polje, Dolinen, Karren, Höhlen, chemische Verwitterung — Grundlagen und Raumbeispiele</li>
+</ul>
 <h2>SKIZZEN (Zeichenvorlagen für Abitur)</h2>
-
-<li><a href="uebersicht-skizzen.html" class="wikilink"&gt;uebersicht-skizzen</a> — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema</li>
-
+<ul>
+<li><a class="wikilink" href="uebersicht-skizzen.html">uebersicht-skizzen</a> — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema</li>
+</ul>
 <h2>VERGLEICHE</h2>
-
-<li><a href="vergleich-vulkan-gletscher-prozesse.html" class="wikilink"&gt;vergleich-vulkan-gletscher-prozesse</a> — Vulkanismus vs. Glazialmorphologie: prozessuelle Gegenüberstellung</li>
-
+<ul>
+<li><a class="wikilink" href="vergleich-vulkan-gletscher-prozesse.html">vergleich-vulkan-gletscher-prozesse</a> — Vulkanismus vs. Glazialmorphologie: prozessuelle Gegenüberstellung</li>
+</ul>
 <h2>ABITUR &amp; ÜBUNG</h2>
-
-<li><a href="abitur-aufgaben.html" class="wikilink"&gt;abitur-aufgaben</a> — 4 Muster-Abituraufgaben LK (Vulkan, Glazial, Vergleich, Resilienz-Massnahmen) mit Lösungshinweisen + Bewertungsaspekten</li>
-<li><a href="uebungsaufgaben.html" class="wikilink"&gt;uebungsaufgaben</a> — 16 Übungsaufgaben (Stufen 1–3, nach Operatoren gegliedert) mit Lösungshinweisen</li>
-
+<ul>
+<li><a class="wikilink" href="abitur-aufgaben.html">abitur-aufgaben</a> — 4 Muster-Abituraufgaben LK (Vulkan, Glazial, Vergleich, Resilienz-Massnahmen) mit Lösungshinweisen + Bewertungsaspekten</li>
+<li><a class="wikilink" href="uebungsaufgaben.html">uebungsaufgaben</a> — 16 Übungsaufgaben (Stufen 1–3, nach Operatoren gegliedert) mit Lösungshinweisen</li>
+</ul>
 <h2>NOCH LEER (ausstehend)</h2>
-
-<li>Flusslandschaft (Raumbeispiele: Elbe, Rhein, Donau) — noch nicht angelegt</li>
-<li>Küstenlandschaft (Raumbeispiele: Nordsee, Ostsee) — noch nicht angelegt</li>
-<li>Karstlandschaft (Raumbeispiele: Rhön, Fränkische Schweiz) — noch nicht angelegt</li>
-
-    <div class="backlinks">
-      <h3>Verknüpft von</h3>
-      <ul>
-        <li><span class="no-link">Keine weiteren Verknüpfungen</span></li>
-      </ul>
-    </div>
+<ul>
+<li>Karstlandschaft als Raumbeispieldatei (derzeit nur Konzeptseite; konkrete Beispiele wie Eifel, Slowenien, Yucatán fehlen)</li>
+</ul>
+    
   </main>
 </body>
 </html>

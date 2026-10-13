@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen — Geographie Wiki LK BW</title>
+  <title>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen — Geographie Wiki LK BW</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -45,372 +45,187 @@
       padding-bottom: 0.25rem;
       border-bottom: 1px solid var(--border);
     }
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .sidebar li {
-      margin: 0.2rem 0;
-      font-size: 0.9rem;
-    }
-    .sidebar li a {
-      color: var(--text);
-      text-decoration: none;
-      display: block;
-      padding: 0.1rem 0;
-    }
-    .sidebar li a:hover {
-      color: var(--link);
-    }
-    .sidebar li.active {
-      background: var(--active-bg);
-      border-radius: 3px;
-      padding-left: 0.3rem;
-    }
-    .tag {
-      font-size: 0.75rem;
-      color: var(--muted);
-      font-weight: normal;
-    }
-    .main {
-      flex: 1;
-      padding: 2rem 3rem;
-      max-width: 900px;
-      min-width: 0;
-    }
-    .main h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.3rem;
-      border-bottom: 2px solid var(--link);
-      padding-bottom: 0.4rem;
-    }
-    .main .meta {
-      color: var(--muted);
-      font-size: 0.85rem;
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-    .tag-badge {
-      display: inline-block;
-      background: #e6eef6;
-      color: var(--link);
-      font-size: 0.75rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
-      margin-right: 0.3rem;
-    }
-    .wikilink {
-      color: var(--wikilink);
-      text-decoration: underline;
-      text-decoration-style: dotted;
-    }
-    .wikilink:hover {
-      color: #8a4400;
-    }
-    .wiki-table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-    .wiki-table th, .wiki-table td {
-      border: 1px solid var(--border);
-      padding: 0.4rem 0.6rem;
-      text-align: left;
-      vertical-align: top;
-    }
-    .wiki-table th {
-      background: #f0f0f0;
-      font-weight: 600;
-    }
-    .wiki-table tr:nth-child(even) td {
-      background: #fafafa;
-    }
-    blockquote {
-      border-left: 3px solid var(--blockquote-border);
-      padding: 0.5rem 1rem;
-      margin: 1rem 0;
-      background: #f9f9f9;
-      color: var(--muted);
-      font-style: italic;
-    }
-    pre.codeblock {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 0.8rem;
-      overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.3;
-      white-space: pre;
-    }
-    code.inline-code {
-      background: var(--code-bg);
-      padding: 0.1rem 0.2rem;
-      border-radius: 2px;
-      font-size: 0.9em;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 1.5rem 0;
-    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
     h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
     h3 { font-size: 1.1rem; margin-top: 1.2rem; }
     h4 { font-size: 1rem; margin-top: 1rem; }
     p { margin: 0.6rem 0; }
-    ul { padding-left: 1.5rem; }
+    ul, ol { padding-left: 1.5rem; }
     li { margin: 0.2rem 0; }
     a { color: var(--link); }
     a:hover { text-decoration: underline; }
-    .backlinks {
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-    .backlinks h3 {
-      font-size: 0.95rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.5rem;
-    }
-    .backlinks ul {
-      columns: 2;
-      column-gap: 1.5rem;
-      padding-left: 0.5rem;
-    }
-    .backlinks li {
-      margin: 0.15rem 0;
-      break-inside: avoid;
-    }
-    .no-link {
-      color: var(--muted);
-      font-style: italic;
-    }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
     @media (max-width: 768px) {
       body { flex-direction: column; }
       .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
       .main { padding: 1rem; }
       .backlinks ul { columns: 1; }
     }
-  </style>
+</style>
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>Wiki navigieren</h2>
-    <ul>
-      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
-    </ul>
-    <h2>Seiten nach Typ</h2>
-    <ul>
-      <li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
-<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
-<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
-<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
-<li class="active"><a href="permafrost-und-solifluktion.html"><strong>Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</strong></a> <span class="tag">[concept]</span></li>
-<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanismus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
-<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
-<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
-<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
-<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
-<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
-    </ul>
-  </aside>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li class="active"><a href="permafrost-und-solifluktion.html"><strong>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</strong></a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
   <main class="main">
-    <h1>Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</h1>
+    <h1>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</h1>
     <div class="meta">
       <span>Typ: concept</span>
-      <span>|</span>
-      <span>Dateigröße: 5724 Bytes</span>
       <span style="margin-left:auto"><span class="tag-badge">glazialmorphologie</span><span class="tag-badge">prozesse</span><span class="tag-badge">vulnerabilitaet</span></span>
     </div>
-    
-
-<h1>Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</h1>
-
+    <h1>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</h1>
 <h2>Einordnung im Bildungsplan</h2>
-
-<p>Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre") wird für die Glaziallandschaft</p>
+<p>Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre“) wird für die Glaziallandschaft</p>
 <p><strong>Permafrost</strong> und <strong>Solifluktion</strong> explizit genannt. Beide sind <strong>exogene Prozesse</strong> —</p>
 <p>geprägt durch Temperaturbedingungen und Wasser —, die nach der eigentlichen Eiszeitzeit noch</p>
 <p>die Reliefgestaltung bestimmen. Sie gehören also nicht primär zur Glazialabtragung,</p>
 <p>sondern zur morphologischen Aufarbeitung in kalten Klimata.</p>
-
 <hr/>
-
 <h2>Permafrost (Dauerfrostboden)</h2>
-
 <h3>Definition</h3>
-
 <p><strong>Permafrost</strong> (permanenter Frostboden) = Boden oder Gestein, der mindestens zwei Jahre</p>
-<p>durchgehend <strong>gefroren</strong> bleibt (temp. &lt;0°C im Boden). Er kann zusätzlich einen</p>
-<p>„aktiven Schicht" (= oberste Schicht, die im Sommer schmilzt) aufweisen.</p>
-
+<p>durchgehend <strong>gefroren</strong> bleibt (Temperatur &lt; 0 °C im Boden). Darüber liegt die</p>
+<p><strong>aktive Schicht</strong> — die oberste Schicht, die im Sommer auftaut.</p>
 <h3>Vorkommen</h3>
-
+<ul>
 <li><strong>Breitengrad-Permafrost</strong> (kontinental): hohe Breiten (Siberie, Kanada, Alaska,</li>
-<p>  Nord-Grönland) — auch nahe am Äquator (hohe Gebirge).</p>
-<li><strong>Gletscher-Permafrost:</strong> Jetzt im Vorderrand von Gletschergebieten (Alpen) — ehemals weiter verbreitet.</li>
+</ul>
+<p>Nord-Grönland) — auch nahe am Äquator (hohe Gebirge).</p>
+<ul>
+<li><strong>Gletscher-Permafrost:</strong> jetzt im Vorderrand von Gletschergebieten (Alpen) — ehemals weiter verbreitet.</li>
 <li><strong>Island, Norwegen (Hochebenen), Schweiz (hohe Lagen).</strong></li>
-
+</ul>
 <h3>Arten</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Typ</th>
-<th>Beschreibung</th>
-<th>Bedeutung</th>
-</tr></thead><tbody>
-<tr>
-<td><strong>Kontinuierlicher Permafrost</strong></td>
-<td>Überall gefroren, kein größeres talgefrorenes Areal</td>
-<td>Tiefste Zonen, weit verbreitet</td>
-</tr>
-<tr>
-<td><strong>Diskontinierlicher Permafrost</strong></td>
-<td>Nur lokal, Oasen von nicht-Frost</td>
-<td>Solide Stellen — Inseln im Frost</td>
-</tr>
-<tr>
-<td><strong>Saisonal / Aktive-layer</strong></td>
-<td>Nur oberste cm/m schmilzt im Sommer → solifl.</td>
-<td>Verantwortlich für Hangbewegung</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Typ</th><th>Beschreibung</th><th>Bedeutung</th></tr></thead><tbody><tr><td><strong>kontinuierlicher Permafrost</strong></td><td>Überall gefroren, kein größeres talgefrorenes Areal</td><td>Tiefste Zonen, weit verbreitet</td></tr><tr><td><strong>Diskontinierlicher Permafrost</strong></td><td>Nur lokal, Oasen von nicht-Frost</td><td>Solide Stellen — Inseln im Frost</td></tr><tr><td><strong>saisonal / Aktive-layer</strong></td><td>Nur oberste cm/m schmilzt im Sommer → solifl.</td><td>Verantwortlich für Hangbewegung</td></tr></tbody></table>
 <h3>Gefährdungsprozesse mit Permafrost</h3>
-
+<ul>
 <li><strong>Thermokarst:</strong> Absacken des Bodens nach Schmelzen von Eisporen im Permafrost →</li>
-<p>  Hohlformungen, Senken, Seen (typisch Sibirien, Alaska).</p>
+</ul>
+<p>Hohlformungen, Senken, Seen (typisch Sibirien, Alaska).</p>
+<ul>
 <li><strong>Geliturbation:</strong> Verlagerung von Bodenmaterial durch tausende Frost-/Schmelz-Zyklen —</li>
-<p>  langsame Hangbewegung.</p>
+</ul>
+<p>langsame Hangbewegung.</p>
+<ul>
 <li><strong>Palsa:</strong> kleines, runder Moränen-Hügel mit permanent gefrorener Kern, oft in Feuchtbodenzonen.</li>
-<li><strong>Infrastruktur-Gefährdung:</strong> Straßen, Pipelines,Siedlungen in Permafrost-affine Zonen</li>
-<p>  → durch tauende Boden erodiert (Beispiel: Transsibirische Eisenbahn, Okmad.</p>
-
+<li><strong>Infrastruktur-Gefährdung:</strong> Straßen, Pipelines und Siedlungen in der Permafrostzone</li>
+</ul>
+<p>werden durch tauenden Boden geschädigt (Beispiele: Transsibirische Eisenbahn,</p>
+<p>Dalton Highway in Alaska).</p>
 <hr/>
-
 <h2>Solifluktion (Schlupf, Geliflution)</h2>
-
 <h3>Definition</h3>
-
 <p><strong>Solifluktion</strong> (von lat. <em>solum</em> = Boden, <em>fluere</em> = fließen) = langsame, schubweise</p>
 <p>Hangabtragung in <strong>frostgeprägtem, feuchtem Boden</strong>. Dabei bewegt sich eine feine,</p>
-<p>schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fließkeils".</p>
-
+<p>schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fließkeils“.</p>
 <h3>Mechanik</h3>
-
-<li>Im Winter / dauerfreufrost-Monate: Boden gefroren → kein Wasser — kein Fließen.</li>
-<li>Im Sommer: Aktive Schicht schmilzt → Wasser setzt sich unten fest (im untersten</li>
-<p>   noch gefrorenen Bereich) — präfekulter Schmierungsschicht.</p>
-<li>Resultat: Lose Schicht schmilzt → schiebt sich unter dem schweren Boden massen,</li>
-<p>   <strong>Hangab-druck</strong> → langsame Hangflucht.</p>
-<li>Geschwindigkeit: cm/Jahr bis m/Jahr — im Vergleich zu Rutschungen schnell, aber</li>
-<p>   unter normal-gefährdeten.</p>
-
+<ol>
+<li>Im Winter / in der Frostperiode: Der Boden ist gefroren — kein Wasser, kein Fließen.</li>
+<li>Im Sommer: Die obere „aktive Schicht" taut auf; das Wasser staut sich auf dem darunter</li>
+</ol>
+<p>liegenden, noch gefrorenen Boden.</p>
+<ol>
+<li>Resultat: Die wassergesättigte Schicht gleitet unter dem Gewicht der auflastenden</li>
+</ol>
+<p>Bodenmasse langsam hangabwärts (<strong>Hangabtragung</strong>).</p>
+<ol>
+<li>Geschwindigkeit: wenige cm bis wenige m pro Jahr — langsam, aber dauerhaft.</li>
+</ol>
 <h3>Typische Landschaftserscheinungen</h3>
-
-<li><strong>Solifluktionskeile:</strong> Kegel- oder Wellenform des Abgetragenen — am Hang als „Krawall",</li>
-<p>  Wulst-Kegel.</p>
-<li><strong>Stufen / Schüpp-Boden-Ebenen:</strong> „Stufen-Landschaft" (Löschufen) Buk-Darstellung.</li>
-<li><strong>Terrainbhänge-in-Kalpern:</strong> Pro Lönche am Hang.</li>
-
+<ul>
+<li><strong>Solifluktionsloben:</strong> zungen- oder wogenförmige Ablagerungen am Hangfuß</li>
+<li><strong>Terrassen / Stufen:</strong> abgestufte Hangflanken („Stufenlandschaft")</li>
+<li><strong>Streifenböden:</strong> durch Frostwechsel sortierte Steinmuster an der Oberfläche</li>
+</ul>
 <hr/>
-
 <h2>Zusammenhang mit der Glazialmorphologie (Bildungsplan-LK)</h2>
-
+<ul>
 <li>Solifluktion und Permafrost sind <strong>nach-glaziale Prozesse</strong>, die am Ende der Eiszeit</li>
-<p>  oder in permanenten Kaltzonen noch die Reliefgestaltung begleiten.</p>
+</ul>
+<p>oder in permanenten Kaltzonen noch die Reliefgestaltung begleiten.</p>
+<ul>
 <li>Sie gehören zu den Prozessen, die der Bildungsplan LK zusammenfasst:</li>
-<p>  <strong>„formen und Prozesse der Reliefsphäre"</strong> — also neben Vulkanismus,</p>
-<p>  Glazialmorphologie, Flusslandschaft, Küsten, Karst.</p>
+</ul>
+<p><strong>„formen und Prozesse der Reliefsphäre“</strong> — also neben Vulkanismus,</p>
+<p>Glazialmorphologie, Flusslandschaft, Küsten, Karst.</p>
+<ul>
 <li>Im Lernziel: Schüler sollen diese Prozesse <strong>beschreiben</strong> und in den</li>
-<p>  Kontext <strong>Vulnerabilität und Resilienz</strong> stellen.</p>
+</ul>
+<p>Kontext <strong>Vulnerabilität und Resilienz</strong> stellen.</p>
+<ul>
 <li>Beispiel: Permafrost-Territorien mit Siedlungen → Vulnerabilität durch</li>
-<p>  thawing (<a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a>, <a href="vulnerabilitaet-raumbeispiele.html" class="wikilink"&gt;vulnerabilitaet-raumbeispiele</a>).</p>
-
+</ul>
+<p>thawing (<a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a>).</p>
 <hr/>
-
 <h2>Vulnerabilität</h2>
-
-<li><strong>Boden-Stabilität:</strong> Gelände kann dauerhaft-unregelmäßig werden, Hangkataster,</li>
-<p>  Straßen-/ EisenbahnSchadens, Infrastrukturrisiko.</p>
-<li><strong>Siedlung:</strong> Nord-Siedlungen, Aborigines-Dörfern in Permafrostzone → Gefährdung</li>
-<p>  durch permafrost-Toth.</p>
-<li><strong>Wirtschaft:</strong> Infrastruktur, SPIG-Collection (Pipeline), Bahnverbindungen —</li>
-<p>  Sozialvorgänge.</p>
-<li><strong>Wasser:</strong> Solifluction-water → Oberflächenwasser, Änderung im Feuchtigkeitshaushalt.</li>
-
+<ul>
+<li><strong>Boden-Stabilität:</strong> Das Gelände kann dauerhaft unregelmäßig werden; Hangrutschungen,</li>
+</ul>
+<p>Straßen- und Eisenbahnschäden, Infrastrukturrisiko.</p>
+<ul>
+<li><strong>Siedlung:</strong> Nordsiedlungen und Dörfer in der Permafrostzone → Gefährdung durch tauenden</li>
+</ul>
+<p>Permafrost.</p>
+<ul>
+<li><strong>Wirtschaft:</strong> Infrastruktur, Pipelines, Bahnverbindungen — soziale und ökonomische</li>
+</ul>
+<p>Folgeschäden.</p>
+<ul>
+<li><strong>Wasser:</strong> Solifluktionswasser → Oberflächenabfluss, Veränderungen im Feuchtehaushalt.</li>
+</ul>
 <hr/>
-
 <h2>Raumbeispiele</h2>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Region</th>
-<th>Permafrost-Typ</th>
-<th>Besonderheit</th>
-</tr></thead><tbody>
-<tr>
-<td>Sowjetland, Sibirien (z.B. Jenissei, Lena)</td>
-<td>kontinuierlich</td>
-<td>Thermokarst-Landschaft weit verbreitet, verflucht große Seen (z.B. Bulun-Thermo-Karstseen)</td>
-</tr>
-<tr>
-<td>Alaska (Nord-Alaska, Brooks-Berge)</td>
-<td>kontinuierlich–diskontinuierlich</td>
-<td>Infrastruktur betroffen, z.B. Dalton-Pipeline</td>
-</tr>
-<tr>
-<td>Kanada (Yukon, Nordwest-Territorien, Nunavut)</td>
-<td>kontinuierlich</td>
-<td>Siedlungen-Klima, z.B. Inuvik, Tuktoyaktuk</td>
-</tr>
-<tr>
-<td>Hochalpen (Schweiz, Italien, Österreich)</td>
-<td>diskontinuierlich (Auftau-Grenze)</td>
-<td>Gletscher-Vorderrand-Smandliche Bereiche, Gelisol</td>
-</tr>
-<tr>
-<td>Island (Högelände)</td>
-<td>lokal Permafrost / Isolierte Frostbögen</td>
-<td>Keine permanenten großen Fl^-zonen</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Region</th><th>Permafrost-Typ</th><th>Besonderheit</th></tr></thead><tbody><tr><td>Sibirien (Russland, z. B. Jenissei, Lena)</td><td>kontinuierlich</td><td>Thermokarst-Landschaft weit verbreitet, zahlreiche Thermokarst-Seen</td></tr><tr><td>Alaska (Nord-Alaska, Brooks-Berge)</td><td>kontinuierlich–diskontinuierlich</td><td>Infrastruktur betroffen, z.B. Dalton-Pipeline</td></tr><tr><td>Kanada (Yukon, Nordwest-Territorien, Nunavut)</td><td>kontinuierlich</td><td>Siedlungen-Klima, z.B. Inuvik, Tuktoyaktuk</td></tr><tr><td>Hochalpen (Schweiz, Italien, Österreich)</td><td>diskontinuierlich (Auftau-Grenze)</td><td>Gletscher-Vorderrand-Smandliche Bereiche, Gelisol</td></tr><tr><td>Island (Hochland)</td><td>lokal Permafrost / isolierte Frostböden</td><td>Keine großflächigen Permafrostzonen</td></tr></tbody></table>
 <hr/>
-
 <h2>Weiterführende Seiten</h2>
-
-<li><a href="glazialmorphologie-ueberblick.html" class="wikilink"&gt;glazialmorphologie-ueberblick</a> ← Einleitung</li>
-<li><a href="glaziale-serie.html" class="wikilink"&gt;glaziale-serie</a> ← Glaziale Serie</li>
-<li><a href="moränen-und-gletscherformen.html" class="wikilink"&gt;moränen-und-gletscherformen</a> ← Moränen und Gletscher-Formen</li>
-<li><a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a> ← Vulnerabilität-Grundlagen</li>
-<li><a href="vulnerabilitaet-raumbeispiele.html" class="wikilink"&gt;vulnerabilitaet-raumbeispiele</a> ← V/a Vulnerabilität Räume</li>
-<li><a href="resilienz-massnahmen.html" class="wikilink"&gt;resilienz-massnahmen</a> ← Maßnahmen</li>
-
-    <div class="backlinks">
-      <h3>Verknüpft von</h3>
-      <ul>
-        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a></li><li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a></li>
-      </ul>
-    </div>
+<ul>
+<li><a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a> ← Einleitung</li>
+<li><a class="wikilink" href="glaziale-serie.html">glaziale-serie</a> ← Glaziale Serie</li>
+<li><a class="wikilink" href="moränen-und-gletscherformen.html">moränen-und-gletscherformen</a> ← Moränen und Gletscher-Formen</li>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> ← Vulnerabilität-Grundlagen</li>
+<li><a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a> ← Vulnerabilität in Räumen</li>
+<li><a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a> ← Maßnahmen</li>
+</ul>
+<hr/>
+<h2>Visuelle Darstellungen &amp; Animationen</h2>
+<blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
+<h3>🎬 Permafrost – Was ist das? (Erklärvideo, ca. 4 Min.)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen title="Permafrost – Was ist das?"></iframe>
+<p><em>Definition, aktive Schicht, Eiskeil-Polygone, Verbreitung (ca. 25 % der Landfläche der Nordhemisphäre).</em></p>
+<h4>🎬 Was passiert, wenn das arktische Permafrost schmilzt? – Brendan Rogers &amp; Jessica Howard (TED-Ed)</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7VV4s4uiwLY" frameborder="0" allowfullscreen title="Was passiert, wenn das arktische Permafrost schmilzt? – Brendan Rogers & Jessica Howard (TED-Ed)"></iframe>
+<p><em>Klimawandel, Auftauen, Methanfreisetzung, Bodeninstabilität, Rückkopplungseffekte.</em></p>
+<h4>📸 Fotogalerie: Permafrost, arktische Tundra (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/permafrost">Freie Fotos von Permafrost-Landschaften, Tundra, Eisspalten.</a></p>
+<h4>📸 Fotogalerie: Solifluction, gelifluktive Landformen (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/solifluction">Freie Fotos von Solifluction-Lappen und gelifluktiven Terrassen.</a></p>
+<hr/>
+<h2>Animationen</h2>
+<h3>🎬 Permafrost – was ist das? – Alfred Wegener Institut Animation</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lxixy1u8GjY" frameborder="0" allowfullscreen></iframe>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</li><li>Glazialmorphologie — Überblick und Grundlagen</li><li>Klimawandel — Ursachen, Dimensionen und Anpassung</li><li>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</li><li>Raumbeispiele — Glazialmorphologie (Geografie LK)</li></ul></div>
   </main>
 </body>
 </html>

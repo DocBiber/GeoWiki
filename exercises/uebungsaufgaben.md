@@ -324,4 +324,4 @@ sources: []
   dem entsprehen (z.B. "Erklären" erfordert Ursache-Wirkung, nicht nur Beschreibung;
   "Beurteilen" erfordert Wertung mit Begründung).
 
-Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkanismus-ueberblick]], [[vulkanprozesse]], [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[reSilienz-massnahmen]], [[abitur-aufgaben]]
+Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkanismus-ueberblick]], [[vulkanprozesse]], [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[resilienz-massnahmen]], [[abitur-aufgaben]]

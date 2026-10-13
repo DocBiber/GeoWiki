@@ -107,7 +107,7 @@ Die Schülerinnen und Schüler können:
 
 - [[vulkanarten]] — Detail zu einzelnen Vulkantypen
 - [[vulkanprozesse]] — explosiv vs. effusiv, Förderprodukte im Detail
-- [[vulkanbeispiele]] — Raumbeispiele im Detail
+- [[vulkan-raumbeispiele]] — Raumbeispiele im Detail
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume
 
 ---

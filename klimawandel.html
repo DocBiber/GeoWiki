@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Klimawandel — Ursachen, Dimensionen und Anpassung — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li class="active"><a href="klimawandel.html"><strong>Klimawandel — Ursachen, Dimensionen und Anpassung</strong></a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Klimawandel — Ursachen, Dimensionen und Anpassung</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">klimawandel</span><span class="tag-badge">klima</span><span class="tag-badge">treibhausgas</span><span class="tag-badge">nachhaltigkeit</span><span class="tag-badge">global</span></span>
+    </div>
+    <h1>Klimawandel</h1>
+<h2>Überblick</h2>
+<p>Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbesondere die beobachtete globale Erwärmung des 20. und 21. Jahrhunderts. Für den Geografie-LK sind drei Aspekte zentral:</p>
+<ol>
+<li><strong>Ursachen und Dimensionen</strong> — was treibt den Klimawandel an? Wie groß ist der menschengemachte Anteil?</li>
+<li><strong>Auswirkungen auf das Erden-System</strong> — wie wirkt sich der Klimawandel auf verschiedene Komponenten (Atmosphäre, Ozean, Biosphäre, Kryosphäre, Reliefformen) aus?</li>
+<li><strong>Maßnahmen und Anpassungsstrategien</strong> — wie wird gesteuert (Klimaschutz) und wie passt man sich an (Anpassung), unter dem Ziel nachhaltiger Entwicklung?</li>
+</ol>
+<blockquote>Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.3.2 „Globale Herausforderung: Klimawandel“ — SuS können Auswirkungen des Klimawandels im System Erde beurteilen.</blockquote>
+<h2>Ursachen und Dimensionen (Kompetenz 3.5.3.2 (1))</h2>
+<h3>Der natürliche Treibhauseffekt</h3>
+<ul>
+<li>Die Erde empfängt kurzwellige Sonnenstrahlung; ein Teil wird reflektiert (Albedo), ein Teil absorbiert und als langwellige Wärmestrahlung abgegeben</li>
+<li>Bestimmte Gase in der Atmosphäre — <strong>Treibhausgase (THG)</strong>: Wasserdampf, CO₂, Methan (CH₄), Lachgas (N₂O), Ozon (O₃), Fluorgase — absorbieren langwellige Wärme und senden sie in alle Richtungen zurück, u. a. zur Erde</li>
+<li>Ohne den natürlichen Treibhauseffekt wäre die globale Durchschnittstemperatur ca. -18 °C statt dem aktuellen +15 °C → Leben, wie wir es kennen, wäre nicht möglich</li>
+</ul>
+<h3>Der anthropogene Treibhauseffekt (menschengemacht)</h3>
+<ul>
+<li>Seit der Industrialisierung (ca. 1750) hat der Mensch die Konzentration der THG in der Atmosphäre deutlich erhöht</li>
+<li>Hauptquelle CO₂: Verbrennung fossiler Energien (Kohle, Öl, Gas), Entwaldung, industrielle Prozesse (Zementproduktion)</li>
+<li>Hauptquellen Methan: Landwirtschaft (Rinderhaltung, Reisfelder), Energieerzeugung (Gasförderung, -transport), Mülldeponien</li>
+<li>Hauptquelle Lachgas: Landwirtschaft (Düngemittel), industrielle Prozesse</li>
+<li><strong>Globaler Anstieg der Durchschnittstemperatur</strong>: IPCC belegt, dass der größte Teil der Erwärmung seit 1950 auf menschliche Aktivitäten zurückzuführen ist (konsensorientiert, sehr hohe Wahrscheinlichkeit)</li>
+</ul>
+<h3>Dimensionen des Klimawandels</h3>
+<p>Gemessen wird der Klimawandel an mehreren Indikatoren:</p>
+<ul>
+<li><strong>globale Durchschnittstemperatur</strong> — Anstieg über historische Niveaus; besonders starke Erwärmung an Land, im Arktisbereich, in der Lithosphäre</li>
+<li><strong>Treibhausgaskonzentrationen</strong> — CO₂-Konzentration in der Atmosphäre stieg von ca. 280 ppm vor der Industrialisierung auf über 420 ppm (2020s)</li>
+<li><strong>Meeresspiegelanstieg</strong> — Thermalausdehnung (wärmeres Wasser dehnt sich aus) + Schmelzen von Landeis (Gletscher, Grönland, Antarktis)</li>
+<li><strong>Veränderungen im Kryosphäre</strong>: Gletscherschmelze, Meereisrückgang, Permafrosttauen</li>
+<li><strong>Extremereignisse</strong>: HitZewellen, Dürren, Starkregenereignisse, Hurrikane/Tyfone (stärker werdend oder häufiger?)</li>
+<li><strong>Ozeanversauerung</strong>: CO₂ löst sich im Ozean → Bildung von Kohlensäure → pH-Wert sinkt → Folgen für Kalkschalentiere (korall, Muscheln, Plankton)</li>
+</ul>
+<h2>Auswirkungen im Erden-System</h2>
+<p>Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander verknüpften Komponenten:</p>
+<h3>Atmosphäre</h3>
+<ul>
+<li>Veränderung der großräumigen Zirkulation (z. B. Verstärkung des Jetstreams?, Verschiebung der ITCZ, Änderungen im Monsun)</li>
+<li>Veränderung von Extremwetterstatistiken (Hitzewellen, Dürren, Starkregen)</li>
+</ul>
+<h3>Hydrosphäre (Ozean und Wasser)</h3>
+<ul>
+<li>Meeresspiegelanstieg (detailliert oben); Küstenerosion, Überschwemmungsrisiko für Inselstaaten und küstennahe Siedlungen</li>
+<li>Veränderung der Meeresströmungen (z. B. Gefährdung des Golfstroms / AMOC durch Schmelzwasser aus Grönland?)</li>
+<li>Wasserknappheit in some Regionen, Überflutungen in anderen</li>
+</ul>
+<h3>Kryosphäre</h3>
+<ul>
+<li>Schmelzen von Gletschern (Alpen, Anden, Himalaya) → Wasserzufuhränderung für nachströmende Flüsse (Indus, Ganges, Brahmaputra → sehr viele Menschen betroffen)</li>
+<li>Schmelzen des Grönland- und Antarktiseises → langfristiger Meeresspiegelanstieg (mehr als 70 m, wenn vollständig schmilzt — aber über Jahrhunderte)</li>
+<li>Rückgang Meereis (Arktis) → Albedo-Rückkopplung (dunkleres Wasser → mehr Absorption → noch mehr Erwärmung)</li>
+</ul>
+<h3>Biosphäre</h3>
+<ul>
+<li>Verschiebung von Ökozonen, Vegetationszonen</li>
+<li>Korallenbleiche (durch Erwärmung + Versauerung)</li>
+<li>Artenschwund, veränderte ökologische Zusammenhänge</li>
+</ul>
+<h3>Reliefformen und Prozesse</h3>
+<ul>
+<li>Änderung der glazialen Prozesse: Gletscher zurückgehend, glaziale Serie verändert sich</li>
+<li>Permafrosttauen → Freisetzung von Methan und CO₂ aus gefrorenem Boden (positive Feedback-Schleife)</li>
+<li>Veränderung der Erosion, von Überschwemmungen, von Küstendynamik</li>
+</ul>
+<h2>Maßnahmen und Anpassungsstrategien (Kompetenz 3.5.3.2 (3))</h2>
+<h3>Klimaschutz (Mitigation) — Reduktion der Treibhausgase</h3>
+<p><strong>Auf internationaler Ebene:</strong></p>
+<ul>
+<li><strong>Klimaziele</strong>: Pariser Abkommen (2015) — Ziel, globale Erwärmung auf deutlich unter 2 °C zu begrenzen, beständig anzustreben 1,5 °C; nationale Beiträge (NDCs) der Staaten</li>
+<li><strong>Klimaschutzabkommen</strong>, internationale Klimarahmenkonvention (UNFCCC), COP-Treffen (Conference of the Partys)</li>
+</ul>
+<p><strong>Auf nationaler Ebene:</strong></p>
+<ul>
+<li>CO₂-Reduktionsziele (Deutschland: Klimaneutralität bis 2045, Zwischenziele)</li>
+<li><strong>Reduktion der Treibhausgase</strong>: Energieerzeugung von fossilen auf erneuerbare Energien (Wind, Solar, Wasser, Geothermie, Biomasse), Energieeffizienz, elektrischer Verkehr, CO₂-Preise (EU-ETS, nationale CO₂-Bepreisung)</li>
+<li><strong>Kohlenstoffdioxid-Senke</strong>: Speicherung und Bindung von CO₂</li>
+</ul>
+<ul>
+<li><strong>natürliche Senken</strong>: Wälder (Aufbau von Biomasse, Schutz bestehender Wälder), Ozeane (Phytoplankton), Böden (Humusaufbau, Moore schützen)</li>
+<li><strong>Technische Senken</strong>: CO₂-Abscheidung und -Speicherung (CCS — Carbon Capture and Storage), Direktluftabscheidung (DAC)</li>
+</ul>
+<p><strong>Auf lokaler Ebene:</strong></p>
+<ul>
+<li>Energieeffizienz in Gebäuden, Stadtplanung (Klimaanpassung: HitZe reduzieren durch Grünflächen, Albedo, Lüftungsgänge), Mobilitätswende</li>
+</ul>
+<h3>Anpassungsstrategien (Adaptation)</h3>
+<p>Anpassung an die bereits eingetretenen und unvermeidbaren Folgen des Klimawandels:</p>
+<ul>
+<li><strong>Hochwasserschutz</strong>: Deiche, Rückhalteräume, Räumung von Flussauen, nachhaltige Landnutzung</li>
+<li><strong>Trockenheits- und Hitzeanpassung</strong>: Bewässerungseffizienz, trockenresistente Kulturpflanzen, Stadtgestaltung (Schatten, Grün, Albedo)</li>
+<li><strong>Küstenschutz</strong>: Deiche, Wellenbrecher, Mangroven (natürliche Küstenabsicherung), Rückzug aus gefährdeten Zonen („managed retreat“)</li>
+<li><strong>Landwirtschaft</strong>: Anpassung der Anbauzeiten, Sortenwahl, Bewässerung, Agroforst, Bodenverbesserung</li>
+<li><strong>Gesundheit</strong>: Hitzewarnungen, Anpassung des Gesundheitssystems an Hitzebelastung und vektorübertragene Krankheiten</li>
+</ul>
+<h3>Maßstabsebenen</h3>
+<p>Die Bewertung von Maßnahmen und Anpassungsstrategien nach Maßstabsebenen:</p>
+<ul>
+<li><strong>Global</strong>: Internationale Abkommen, globale Emissionsbilanz, Klimafinanzierung für Entwicklungsländer</li>
+<li><strong>National</strong>: Nationale Klimaschutzpläne, CO₂-Preise, Förderung erneuerbarer Energien, Anpassungstrategien im nationalen Rahmen</li>
+<li><strong>Regional/Lokal</strong>: Kommunale Klimaanpassungspläne (z. B. Hitzeschutz in Städten, Anpassung des Wassermanagements, lokale Landwirtschaft)</li>
+</ul>
+<h3>Geo-Engineering</h3>
+<ul>
+<li><strong>Definition</strong>: Eingriffe in das Erden-System, um den Klimawandel zu bekämpfen, oft auf großem Maßstab und mit technologischen Methoden</li>
+<li><strong>Beispiele</strong>:</li>
+<li>Solare Strahlung management (z. B. Aerosol-Injektion in der Stratosphäre zur Reflexion von Sonnenlicht — kontrovers, unvorhersehbare Nebenwirkungen)</li>
+<li>CO₂-Entfernung (CCS, DAC, Biochar, verstärkte Wetterung)</li>
+<li>Ozeanversauerungs-Bekämpfung</li>
+<li><strong>Kontroverse</strong>: Risiken, unerwartete Folgen, ethische Fragen, „Moral Hazard“ (dass Geo-Engineering als Ausweg von Klimaschutz gesehen wird, der andere Prioritäten vernachlässigt)</li>
+</ul>
+<h2>Nachhaltigkeit als Bewertungsrahmen</h2>
+<p>Nachhaltige Entwicklung (nach Brundtland-Bericht, 1987): Entwicklung, die die Bedürfnisse der Gegenwart befriedigt, ohne zu riskieren, dass künftige Generationen ihre Bedürfnisse nicht befriedigen können.</p>
+<p>Im Klimawandel-Kontext bedeutet das:</p>
+<ul>
+<li><strong>Klimaschutz und nachhaltige Entwicklung sind verzahnt</strong>: Reduktion der THG, Erhalt der Ökosysteme, soziale Gerechtigkeit (Klimajustiz: wer ist betroffen? Wer hat am meisten verursacht?)</li>
+<li><strong>SDGs (Sustainable Development Goals)</strong>: 17 globale Ziele der UN (2015–2030), darunter Ziel 13 „Klimaaction“ — eng verknüpft mit Energie, Wasser, Landnutzung, Gerechtigkeit</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a> — Grundlagen der Atmosphäre, Wetter, Klima (Vorkenntnisse)</li>
+<li><a class="wikilink" href="permafrost-und-solifluktion.html">permafrost-und-solifluktion</a> — Permafrost: Rückzug als Klimafolgen</li>
+<li><a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a> — Gletscherschmelze, cryosphäre</li>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilität, Risiko, Resilienz — Bewertungsrahmen für Klimafolgen</li>
+<li><a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a> — Maßnahmen zur Stärkung der Resilienz (auch im Klimakontext)</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Welche aktuellen Zahlen (IPCC AR6, globale Temperatur, CO₂-Konzentration, Meeresspiegel, Gletscherverlust) für Abituraufgaben?</li>
+<li>Wie konkret können Anpassungsbeispiele (z. B. deutsche Kommunen, Länder) im Abitur geübt werden?</li>
+</ul>
+<hr/>
+<h2>Bildmaterial</h2>
+<h3>📸 Fotos (Unsplash)</h3>
+<p><a href="https://unsplash.com/s/photos/global-warming">Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung (Unsplash)</a></p>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Bevölkerungsgeographie&quot;</li><li>&quot;Biogeographie &amp; Landschaftsökologie&quot;</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Geographische Methoden — GIS, Fernerkundung, Kartographie</li><li>Raumbeispiele — Flusslandschaften (Geografie LK BW)</li><li>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</li><li>Stadtgeographie — Grundlagen und Themen</li><li>Wasserhaushalt und Hydrologie — Grundlagen</li></ul></div>
+  </main>
+</body>
+</html>

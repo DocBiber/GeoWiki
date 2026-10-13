@@ -142,4 +142,4 @@ Die im Bildungsplan für das Abitur relevanten Operatoren:
 
 *Zu [[bildungsplan-2016-lk]] — übergeordnete Dokumentation des Bildungsplans.*
 *zu [[vulnerabilitaet-begriffe]] — Vulnerabilitätskonzept im Detail.*
-*zu [[exercises/abitur-aufgaben]] — Abitur-Aufgaben mit diesen Kompetenzen.*
+*zu [[abitur-aufgaben]] — Abitur-Aufgaben mit diesen Kompetenzen.*

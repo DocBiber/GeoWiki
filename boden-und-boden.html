@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Boden und Bodengeographie — Grundlagen — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li class="active"><a href="boden-und-boden.html"><strong>Boden und Bodengeographie — Grundlagen</strong></a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Boden und Bodengeographie — Grundlagen</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">boden</span><span class="tag-badge">bodengeographie</span><span class="tag-badge">geomorphologie</span><span class="tag-badge">prozesse</span><span class="tag-badge">umwelt</span></span>
+    </div>
+    <h1>Boden und Bodengeographie</h1>
+<h2>Überblick</h2>
+<p>Der Boden ist die oberste Schicht der Erdkruste, die durch die Wechselwirkung von Klima, Vegetation, Tiere, Mikroorganismen und Gelä materialisiert wird. In der Geographie ist der Boden ein zentrales Thema der Physischen Geographie und Landschaftsökologie, weil er als Medium zwischen Lithosphäre, Hydrosphäre, Atmosphäre und Biosphäre fungiert.</p>
+<blockquote>Bezug zum Spektrum Lexikon der Geographie: Bodenkunde / Geomorphologie / Landschaftsökologie</blockquote>
+<h2>Grundlagen: Was ist Boden?</h2>
+<p><strong>Definition:</strong> Der Boden (Pedosphäre) ist die festigte, minerale und organische Substanz, die sich an der Grenze zwischen Lithosphäre und Biosphäre/Atmosphäre bildet. Er entsteht durch Verwitterung des Gesteins (eluviale und kumulive Prozesse) und Ansammlung von organischem Material.</p>
+<p><strong>Bodenhorizont (Schwarz):</strong> Die vertikale Schichtung des Bodens:</p>
+<ul>
+<li><strong>Horizont O (Organiqueschicht):</strong> Fruchtbarkeitsschicht aus zersetzter Pflanzenresten, Korx, Laubhumus — wichtig für Nährstoffe</li>
+<li><strong>Horizont A (Nutzbareschicht / Apodermin):</strong> Oberste minerale Schicht; intensive Verwitterung, Wurzeln, Mikroorganismen; oft dunkler durch Humus</li>
+<li><strong>Horizont B (Unterboden / Pedolac):</strong> Akkumulationsschicht — ausgewaschene Stoffe aus A werden hier abgelagert (z. B. Eisen, Aluminium, Kalk); oft stärker mechanic, weniger Humus</li>
+<li><strong>Horizont C (Muttergestein / Saprolith):</strong> Verwittertes, aber noch erkennbar Gesteinsmaterial; Übergang zum unverwitterten Fels</li>
+<li><strong>Horizont R (Rock / Fels):</strong> Unverwittertes Muttergestein</li>
+</ul>
+<p><strong>Bodenprofil:</strong> Der vertikale Schnitt durch alle Horizonten — zeigt die Bodenhistorie und Bodenentwicklung.</p>
+<h2>Bodenentstehung (Pedogenese)</h2>
+<p><strong>Faktoren der Bodenentstehung (nach Jenny, 5 Faktoren):</strong></p>
+<ol>
+<li><strong>Klima:</strong> Temperatur und Niederschlag steuern Verwitterungsrate, Chemismus, Humusbildung</li>
+<li><strong>Organismen:</strong> Vegetation, Tiere, Mikroorganismen (Humus, Struktur, Nährstoffkreisläufe)</li>
+<li><strong>Topographie / Relief:</strong> Hanglage, Exposition, Abflussweg — beeinflusst Wasserhaushalt, Erosion, Ablagerung</li>
+<li><strong>Muttergestein (Eluvia):</strong> Grundlage für Mineralogie, Textur, Nährstoffinhalt</li>
+<li><strong>Zeit:</strong> Bodenbildung ist langsam — je älter die Landschaft, desto stärker entwickelter Boden (solange keine Unterbrechung)</li>
+</ol>
+<p><strong>Bodenarten (Klassifikation nach Textur):</strong></p>
+<p>Die Bodenart beschreibt das Verhältnis von Sand, Schluff (Silt) und Ton in der Bodenmasse:</p>
+<ul>
+<li><strong>Sandiger Boden:</strong> Viel Sand (&gt; 50%), wenig Schluff/Ton — gut durchlässig, wenig wasserhaltend, few nutrients — Schwierigkeiten für Pflanzen ohne Bewässerung</li>
+<li><strong>Schluffiger Boden (Staub / Schluff):</strong> Zwischen sandig und tonig — gute Kulturfolge, moderate Wasserhaltung</li>
+<li><strong>Toniger Boden:</strong> Viel Ton (&gt; 20-30%), viele kleine Partikel — gute Nährstoff- und Wasserhaltung, aber schlechte Drainage, verdichtet</li>
+<li><strong>Lehm:</strong> Balance von Sand, Schluff, Ton — ideale Ackerfurche, gut für Landwirtschaft (Boden der Wahl)</li>
+</ul>
+<p><strong>Bodenart vs. Bodentyp:</strong></p>
+<ul>
+<li><strong>Bodenart:</strong> Physikalisch-texturelle Zusammensetzung (Sand, Schluff, Ton-Verhältnis)</li>
+<li><strong>Bodentyp:</strong> Klassifikation nach Faktoren (z. B. Podsol, Chernozem, Parabraunerde, Ranker) — kombiniert Bodenart, Horizonten, Entstehung</li>
+</ul>
+<h2>Wichtige Bodentypen (Beispiele für Geographie LK)</h2>
+<ul>
+<li><strong>Podosol (Verschlagener Boden):</strong> Entsteht unter Kiefern/Hartlaub in ausgewaschenen, sauren Milieus (Kaltzeit, Humid-Klima) — stark bleiched, A-Horizont hell (Eluvial), B-Horizont gilb/braun (Akumulativ von Eisen/Al); weiter Verbreitung in Nadelwäldern, Sandgebiete</li>
+<li><strong>Chernozem (Schwarzer Boden):</strong> Vorkommen in Steppengebieten (zentralasiatische Ebene, Ukraine, Prairie-USA) — hohe Humus- und Nährstoffsättigung durch Grasvegetation, hohe Fruchtbarkeit; dunkle, morsche A-Horizont</li>
+<li><strong>Parabraunerde (Deccan-Boden / Übergangs-boden):</strong> Übergangs-boden zwischen Podsol und Chernozem — mittlere bis hohe Fruchtbarkeit; verbreitet in gemäßigtem Klima mit Grasland</li>
+<li><strong>Ranker:</strong> Kurz- bis immaturer Boden auf Fels oder karglem Material — dünn, oft nur wenige cm; auf Hochgebirgen, Hochalpen, Polarregionen</li>
+<li><strong>Gleye / Pseudogley:</strong> Boden mit schlechtem Wasserabfluss, stagnierendem Wasser — blau-graue Farbe durch Sauerstoffmangel (Redoxprozesse), oft in Tiefland, Niederungen</li>
+</ul>
+<h2>Boden und Landschaft (Landschaftsökologie)</h2>
+<p>Der Boden ist ein Landschaftsmerkmal, das mit anderen Faktoren interagiert:</p>
+<ul>
+<li><strong>Boden als Indikator:</strong> Bodenart und Bodentyp verraten Klima, Relief, Vegetation der Entstehungszeit (z. B. Podsol = feucht-kalt, Nadelwald; Chernozem = trocken-warm, Steppe)</li>
+<li><strong>Boden und Vegetation:</strong> Vegetation beeinflusst Boden (Humus, Wurzeln, Litter) — und umgekehrt begrenzt Boden die Vegetation (Wasser, Nährstoffe)</li>
+<li><strong>Erosion und Bodenschutz:</strong> Abnutzung des Bodens durch Wasser (Splash-Erosion, Rillierung, Gilgelung) oder Wind (Winderosion) — Folgen: Fruchtbarkeitsverlust, Sedimentation von Gewässern, Sabung von Ackerland; Risiko bei Hanglagen, abgeholztem Gebiet</li>
+</ul>
+<p><strong>Geographische Bodenkartierung:</strong> Bodenkarten (z. B. Bodenkarte Baden-Württemberg, Bodenübertragungskarte) zeigen Bodentypen, Bodenart, Eignung für Landwirtschaft, Erosionsanfälligkeit.</p>
+<h2>Boden als Resource und Gefährdung</h2>
+<ul>
+<li><strong>Agrarisch:</strong> Nahrungsmittelproduktion (Futter, Getreide, Gemüse) — 95% des Menschenunterhalts beruht auf Boden; Bodenfruchtbarkeit entscheidend für Ernährungssicherheit</li>
+<li><strong>Ökologisch:</strong> Kohlenstoffspeicher (Humus bindet CO₂), Wasserfilter und -speicher, Lebensraum für Bodenorganismen (Biodiversität)</li>
+<li><strong>Gefährdungen:</strong> Erosion, Verdichtung (landwirtschaftliche Maschinen), Verschmutzung (Schwermetalle, Pestizide, Industrieabfälle), Versiegelung (Siedlung, Straße), Klimaänderung (Trockenheit, Verwitterung)</li>
+<li><strong>Bodenschutz:</strong> Nachhaltige Landwirtschaft (mulchen, direkter Sitz, Fruchtfolge, Terrassierung an Hängen), Wiederherstellung degradierter Böden, Reduktion von Inputs</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="vulkanprozesse.html">vulkanprozesse</a> — Vulkanische Prozesse: Entstehung von Boden aus vulkanischem Material (Andosole etc.)</li>
+<li><a class="wikilink" href="glaziale-serie.html">glaziale-serie</a> — Glaziale Serie: Eiszeit-Gestaltungen, die Bodenbildung beeinflussen</li>
+<li><a class="wikilink" href="atmosphaere-wetter-klima.html">atmosphaere-wetter-klima</a> — Klima als Faktor der Bodenentstehung</li>
+<li><a class="wikilink" href="wasserhaushalt.html">wasserhaushalt</a> — Wasserhaushalt als Bodeneigenschaft</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Welche Bodentypen sind für Abitur konkret relevant (z. B. Chernozem als Beispiel für Steppen-Klima)?</li>
+<li>Raumbeispiele: Boden in BW (z. B. Bodenzonen in den Vogesen, im Schwarzwald, in der Schwäbischen Alb)?</li>
+</ul>
+<hr/>
+<h2>Visuelle Darstellungen &amp; Fotos</h2>
+<blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
+<h4>📸 Fotogalerie: Bodenhorizonte, Bodenprofile (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/soil-horizon">Freie Fotos von Bodenprofilen, Schichten, Humus, verschiedenen Bodenarten.</a></p>
+<h4>📸 Fotogalerie: Bodenarten – Sand, Lehm, Ton (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/soil">Freie Fotos von verschiedenen Bodenarten und Bodenprofilen.</a></p>
+<h4>📸 Fotogalerie: Bodenkunde, Bodenproben, Geomorphologie (Unsplash)</h4>
+<p><a href="https://unsplash.com/s/photos/pedology">Freie Fotos von Bodenuntersuchungen, Geländemodell, Bodenerosion.</a></p>
+<hr/>
+<h2>Animationen</h2>
+<h3>🎬 Bodenbildung &amp; Bodenkunde – AP Umweltwissenschaft (Horizonten, Eluvierung, Akkumulation)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TSPPLXMsDZs" frameborder="0" allowfullscreen></iframe>
+<h3>🎬 Verwitterung – Crash Course Geography #22 (Gesteinszerfall, Sediment, Bodenerosion)</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pmF41T52nJs" frameborder="0" allowfullscreen></iframe>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Biogeographie &amp; Landschaftsökologie&quot;</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Geographische Methoden — GIS, Fernerkundung, Kartographie</li><li>Wasserhaushalt und Hydrologie — Grundlagen</li></ul></div>
+  </main>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016) — Geographie Wiki LK BW</title>
+  <title>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016) — Geographie Wiki LK BW</title>
   <style>
     :root {
       --bg: #fafafa;
@@ -45,289 +45,151 @@
       padding-bottom: 0.25rem;
       border-bottom: 1px solid var(--border);
     }
-    .sidebar ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-    .sidebar li {
-      margin: 0.2rem 0;
-      font-size: 0.9rem;
-    }
-    .sidebar li a {
-      color: var(--text);
-      text-decoration: none;
-      display: block;
-      padding: 0.1rem 0;
-    }
-    .sidebar li a:hover {
-      color: var(--link);
-    }
-    .sidebar li.active {
-      background: var(--active-bg);
-      border-radius: 3px;
-      padding-left: 0.3rem;
-    }
-    .tag {
-      font-size: 0.75rem;
-      color: var(--muted);
-      font-weight: normal;
-    }
-    .main {
-      flex: 1;
-      padding: 2rem 3rem;
-      max-width: 900px;
-      min-width: 0;
-    }
-    .main h1 {
-      font-size: 1.8rem;
-      margin-bottom: 0.3rem;
-      border-bottom: 2px solid var(--link);
-      padding-bottom: 0.4rem;
-    }
-    .main .meta {
-      color: var(--muted);
-      font-size: 0.85rem;
-      margin-bottom: 1.5rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-    .tag-badge {
-      display: inline-block;
-      background: #e6eef6;
-      color: var(--link);
-      font-size: 0.75rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 3px;
-      margin-right: 0.3rem;
-    }
-    .wikilink {
-      color: var(--wikilink);
-      text-decoration: underline;
-      text-decoration-style: dotted;
-    }
-    .wikilink:hover {
-      color: #8a4400;
-    }
-    .wiki-table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-      font-size: 0.9rem;
-    }
-    .wiki-table th, .wiki-table td {
-      border: 1px solid var(--border);
-      padding: 0.4rem 0.6rem;
-      text-align: left;
-      vertical-align: top;
-    }
-    .wiki-table th {
-      background: #f0f0f0;
-      font-weight: 600;
-    }
-    .wiki-table tr:nth-child(even) td {
-      background: #fafafa;
-    }
-    blockquote {
-      border-left: 3px solid var(--blockquote-border);
-      padding: 0.5rem 1rem;
-      margin: 1rem 0;
-      background: #f9f9f9;
-      color: var(--muted);
-      font-style: italic;
-    }
-    pre.codeblock {
-      background: var(--code-bg);
-      border: 1px solid var(--border);
-      padding: 0.8rem;
-      overflow-x: auto;
-      font-size: 0.85rem;
-      line-height: 1.3;
-      white-space: pre;
-    }
-    code.inline-code {
-      background: var(--code-bg);
-      padding: 0.1rem 0.2rem;
-      border-radius: 2px;
-      font-size: 0.9em;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 1.5rem 0;
-    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
     h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
     h3 { font-size: 1.1rem; margin-top: 1.2rem; }
     h4 { font-size: 1rem; margin-top: 1rem; }
     p { margin: 0.6rem 0; }
-    ul { padding-left: 1.5rem; }
+    ul, ol { padding-left: 1.5rem; }
     li { margin: 0.2rem 0; }
     a { color: var(--link); }
     a:hover { text-decoration: underline; }
-    .backlinks {
-      margin-top: 2rem;
-      padding-top: 1rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.85rem;
-    }
-    .backlinks h3 {
-      font-size: 0.95rem;
-      color: var(--muted);
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 0.5rem;
-    }
-    .backlinks ul {
-      columns: 2;
-      column-gap: 1.5rem;
-      padding-left: 0.5rem;
-    }
-    .backlinks li {
-      margin: 0.15rem 0;
-      break-inside: avoid;
-    }
-    .no-link {
-      color: var(--muted);
-      font-style: italic;
-    }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
     @media (max-width: 768px) {
       body { flex-direction: column; }
       .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
       .main { padding: 1rem; }
       .backlinks ul { columns: 1; }
     }
-  </style>
+</style>
 </head>
 <body>
-  <aside class="sidebar">
-    <h2>Wiki navigieren</h2>
-    <ul>
-      <li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>
-    </ul>
-    <h2>Seiten nach Typ</h2>
-    <ul>
-      <li class="active"><a href="abitur-aufgaben.html"><strong>Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</strong></a> <span class="tag">[concept]</span></li>
-<li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geographie Leistungskurs BW</a> <span class="tag">[concept]</span></li>
-<li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li>
-<li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li>
-<li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li>
-<li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — Exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li>
-<li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-skizzen.html">Skizzen — Geographie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanismus-ueberblick.html">Vulkanismus — Überblick (Geographie LK)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li>
-<li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li>
-<li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li>
-<li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geographie LK BW</a> <span class="tag">[concept]</span></li>
-<li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li>
-<li><a href="SCHEMA.html">Seiten-Titel (deutsch, kurz)</a> <span class="tag">[entity]</span></li>
-<li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li>
-<li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li>
-<li><a href="abitur-ubersicht-lk.html">Abitur Geographie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li>
-    </ul>
-  </aside>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li class="active"><a href="abitur-aufgaben.html"><strong>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</strong></a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
   <main class="main">
-    <h1>Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</h1>
+    <h1>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</h1>
     <div class="meta">
-      <span>Typ: concept</span>
-      <span>|</span>
-      <span>Dateigröße: 17600 Bytes</span>
-      <span style="margin-left:auto"></span>
+      <span>Typ: summary</span>
+      <span style="margin-left:auto"><span class="tag-badge">abitur</span><span class="tag-badge">uebung</span><span class="tag-badge">aufgaben</span><span class="tag-badge">bildungsplan</span></span>
     </div>
-    <h1>Abitur-Aufgaben — Geographie LK (BW, Bildungsplan 2016)</h1>
-
+    <h1>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</h1>
 <blockquote>Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können.</blockquote>
 <blockquote>Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte.</blockquote>
-
 <blockquote>Hinweis: diese sind <strong>Muster</strong> — echte Aufgaben variieren je nach Prüfung, Schuljahr, Themenauswahl.</blockquote>
 <blockquote>Die Operatoren und Anforderungsebenen folgen dem Bildungsplan LK.</blockquote>
-
-
-
+<hr/>
+<h2>Aufgabe 1 — Vulkanlandschaft (Reliefsphäre + Vulnerabilität)</h2>
+<h3>Aufgabenstellung</h3>
+<blockquote><strong>Thema:</strong> Vulkanlandschaft — Formen, Prozesse, Vulnerabilität</blockquote>
+<blockquote></blockquote>
+<blockquote><strong>Materialien:</strong></blockquote>
+<blockquote>- Skizze: Schichtvulkan (mit Schichtaufbau, Krater, Lavastrom)</blockquote>
+<blockquote>- Text: Vesuv (Kampanien, Italien) — Bevölkerungsdichte, Gefahren, Überwachung</blockquote>
+<blockquote>- Grafik: Seismische Aktivität am Vesuv (letzte 2 Jahre)</blockquote>
+<blockquote></blockquote>
+<blockquote><strong>Aufgaben:</strong></blockquote>
+<blockquote></blockquote>
+<blockquote><strong>(1) Benennen</strong> Sie zwei Vulkanformen und <strong>charakterisieren</strong> Sie deren Entstehung.</blockquote>
+<blockquote>[<strong>Benennen, Charakterisieren</strong> — 2 Kompetenzstufen]</blockquote>
+<blockquote></blockquote>
+<blockquote><strong>(2) Erklären</strong> Sie den Unterschied zwischen explosiver und effusiver Eruption</blockquote>
+<blockquote>und <strong>nennen</strong> Sie jeweils ein Beispiel.</blockquote>
+<blockquote>[<strong>Erklären, Benennen</strong>]</blockquote>
+<blockquote></blockquote>
+<blockquote><strong>(3) Analysieren</strong> Sie die Vulnerabilität der Vesuv-Region: Welche Faktoren machen</blockquote>
+<blockquote>den Raum verwundbar? <strong>Gehen Sie auf</strong> mindestens drei Dimensionen (physisch,</blockquote>
+<blockquote>sozial, ökonomisch).</blockquote>
+<blockquote>[<strong>Analysieren</strong>]</blockquote>
+<blockquote></blockquote>
+<blockquote><strong>(4) Beurteilen</strong> Sie, ob die Maßnahmen zur Stärkung der Resilienz in der</blockquote>
+<blockquote>Vesuv-Region ausreichen. <strong>Beziehen</strong> Sie die Perspektive der nachhaltigen Entwicklung ein.</blockquote>
+<blockquote>[<strong>Beurteilen, Nachhaltigkeit</strong>]</blockquote>
+<hr/>
 <h3>Lösungshinweise</h3>
-
 <p><strong>(1) Benennen + Charakterisieren:</strong></p>
-
+<ul>
 <li><strong>Schichtvulkan (Strato vulkan):</strong> Aufbau aus abwechselnd Lava- und Tephra-Schichten;</li>
-<p>  Entstehung in Subduktionszonen (z.B. Pazifik-Feuer, Vesuv); steile Flanke (30–35°);</p>
-<p>  oft explosionsvulkanisch (Andesit/Dacit-Magma, hoher SiO₂).</p>
+</ul>
+<p>Entstehung in Subduktionszonen (z.B. Pazifik-Feuer, Vesuv); steile Flanke (30–35°);</p>
+<p>oft explosionsvulkanisch (Andesit/Dacit-Magma, hoher SiO₂).</p>
+<ul>
 <li><strong>Schildvulkan:</strong> Flache Flanke (2–10°), basaltisches Magma (niedriger SiO₂, niedrig-viscos),</li>
-<p>  effusive Eruption; Hot Spot oder Rift (z.B. Hawaii, Kilauea).</p>
-
+</ul>
+<p>effusive Eruption; Hot Spot oder Rift (z.B. Hawaii, Kilauea).</p>
 <p><strong>(2) Explosiv vs. Effusiv:</strong></p>
-
-<li><strong>Explosiv:</strong> hohe Viskosität (felsisches Magma), Gase eingeschlossen, Druckaufbau →</li>
-<p>  explosive Freisetzung (Tephra, pyroklastische Ströme, Asche); Schichtvulkane.</p>
+<ul>
+<li><strong>explosiv:</strong> hohe Viskosität (felsisches Magma), Gase eingeschlossen, Druckaufbau →</li>
+</ul>
+<p>explosive Freisetzung (Tephra, pyroklastische Ströme, Asche); Schichtvulkane.</p>
+<ul>
 <li><strong>Effusiv:</strong> niedrige Viskosität (basaltisch), Gase entweichen gleichmäßig → Lavaflüsse,</li>
-<p>  Fontänen; Schildvulkane. Beispiel: Kilauea.</p>
+</ul>
+<p>Fontänen; Schildvulkane. Beispiel: Kilauea.</p>
+<ul>
 <li>Unterschiedlicher SiO₂-Gehalt, Gasgehalt, Plattenkontext (Subduktion → explosiv; Hot Spot/Rift → effusiv).</li>
-
+</ul>
 <p><strong>(3) Vulnerabilitäts-Analyse (Vesuv):</strong></p>
-
-<li><strong>Physisch:</strong> Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;</li>
-<p>  Infrastruktur (Autobahn A3, S-Bahn, Flughafen); Lava/Tephra/Asche-Schäden.</p>
-<li><strong>Sozial:</strong> Sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,</li>
-<p>  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei Warnungen.</p>
-<li><strong>Ökonomisch:</strong> Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft</li>
-<p>  (vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus + Landwirtschaft + lokale Wirtschaft).</p>
-
+<ul>
+<li><strong>physisch:</strong> Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;</li>
+</ul>
+<p>Infrastruktur (Autobahn A3, S-Bahn, Flughafen); Lava/Tephra/Asche-Schäden.</p>
+<ul>
+<li><strong>sozial:</strong> sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,</li>
+</ul>
+<p>aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei WarnunGen.</p>
+<ul>
+<li><strong>ökonomisch:</strong> Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft</li>
+</ul>
+<p>(vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus + Landwirtschaft + lokale Wirtschaft).</p>
 <p><strong>(4) Beurteilung Resilienz-Maßnahmen:</strong></p>
-
+<ul>
 <li><strong>Maßnahmen vorhanden:</strong> Vesuv-Beobachtung (INGV), Seismometer, GPS, Gasmessung;</li>
-<p>  Evakuierungsplan (Rouge Zone, Wege, Notfallkommunikation); "Plan Vesuv" (Katastrophenschutz).</p>
+</ul>
+<p>Evakuierungsplan (Rouge Zone, Wege, Notfallkommunikation); "Plan Vesuv" (Katastrophenschutz).</p>
+<ul>
 <li><strong>Beurteilung:</strong></li>
 <li><strong>Positiv:</strong> Überwachung, Evakuierung, Schutzplan existieren — besser als früher.</li>
-<li><strong>Kritisch:</strong> Extrem hohe Bevölkerungsdichte → trotz Planung "keine vollständige Sicherheit";</li>
-<p>    Raumplanung (Siedlungsbildung in Gefahrenzone) bleibt ungelöst → Vulnerabilität strukturell hoch.</p>
-<p>    Nachhaltigkeit: nachhaltige Lösung würde Siedlungsverzicht bedeuten — aber wirtschaftlich und sozial</p>
-<p>    kaum realisierbar. <strong>Fazit:</strong> Maßnahmen verbessern Resilienz, aber Vulnerabilität bleibt hoch —</p>
-<p>    nachhaltige Entwicklung erfordert langfristige Raumentwicklung, die aktuell nicht umgesetzt wird.</p>
-
+<li><strong>kritisch:</strong> Extrem hohe Bevölkerungsdichte → trotz Planung "keine vollständige Sicherheit";</li>
+</ul>
+<p>Raumplanung (Siedlungsbildung in Gefahrenzone) bleibt ungelöst → Vulnerabilität strukturell hoch.</p>
+<p>Nachhaltigkeit: nachhaltige Lösung würde Siedlungsverzicht bedeuten — aber wirtschaftlich und sozial</p>
+<p>kaum realisierbar. <strong>Fazit:</strong> Maßnahmen verbessern Resilienz, aber Vulnerabilität bleibt hoch —</p>
+<p>nachhaltige Entwicklung erfordert langfristige Raumentwicklung, die aktuell nicht umgesetzt wird.</p>
 <hr/>
-
 <h3>Bewertungsaspekte</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Kompetenz</th>
-<th>Erwartungshorizont</th>
-</tr></thead><tbody>
-<tr>
-<td>Benennen/Charakterisieren</td>
-<td>Correct Vulkanformen, Entstehung, Kontext</td>
-</tr>
-<tr>
-<td>Erklären (explosiv/effusiv)</td>
-<td>SiO₂, Gas, Druck, Beispiel-Kontext</td>
-</tr>
-<tr>
-<td>Analysieren (Vulnerabilität)</td>
-<td>3 Dimensionen, konkret, mit Beispielen</td>
-</tr>
-<tr>
-<td>Beurteilen (Resilienz)</td>
-<td>Maßnahmen benennen UND kritisieren; Nachhaltigkeit einbeziehen</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Erwartungshorizont</th></tr></thead><tbody><tr><td>Benennen/Charakterisieren</td><td>Correct Vulkanformen, Entstehung, Kontext</td></tr><tr><td>Erklären (explosiv/effusiv)</td><td>SiO₂, Gas, Druck, Beispiel-Kontext</td></tr><tr><td>Analysieren (Vulnerabilität)</td><td>3 Dimensionen, konkret, mit Beispielen</td></tr><tr><td>Beurteilen (Resilienz)</td><td>Maßnahmen benennen UND kritisieren; Nachhaltigkeit einbeziehen</td></tr></tbody></table>
 <hr/>
-
 <h2>Aufgabe 2 — Glazialmorphologie + Vulnerabilität</h2>
-
 <h3>Aufgabenstellung</h3>
-
 <blockquote><strong>Thema:</strong> Glazialmorphologie — Formen, Prozesse, Vulnerabilität</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>Materialien:</strong></blockquote>
 <blockquote>- Skizze: Glaziale Serie (Zungenbecken, Endmoräne, Sander, Urstromtal)</blockquote>
 <blockquote>- Text: Grosser Aletsch-Gletscher (Schweiz) — Rückzug, Tourismus, Wasser</blockquote>
-<blockquote>- Graphik: Gletscher-Flächenveränderung (Schweiz, 1850–heute)</blockquote>
+<blockquote>- Grafik: Gletscher-Flächenveränderung (Schweiz, 1850–heute)</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>Aufgaben:</strong></blockquote>
 <blockquote></blockquote>
@@ -346,101 +208,48 @@
 <blockquote><strong>(4) Vergleichen</strong> Sie die Vulnerabilität einer Alpengletscher-Region mit</blockquote>
 <blockquote>einer vulkanischen Region (z.B. Vesuv). <strong>Begründen</strong> Sie die Unterschiede.</blockquote>
 <blockquote>[<strong>Vergleichen, Begründen</strong>]</blockquote>
-
 <hr/>
-
 <h3>Lösungshinweise</h3>
-
 <p><strong>(1) Glaziale Serie (räumliche Ordnung, vom Eis weg):</strong></p>
-
+<ol>
 <li><strong>Zungenbecken</strong> — Mulde am Gletscherende (oft tief, oft mit See)</li>
 <li><strong>Endmoräne</strong> (Jungmoräne) — halbrunder Kamm, letzte Vorstoss-Grenze</li>
 <li><strong>Sander / Sandr</strong> — Schotterfeld vor der Endmoräne (Schmelzwasser-Ablagerung)</li>
 <li><strong>Urstromtal</strong> — längliches Tal, Schmelzwasser-Rinn, weit ausgedehnt (häufig weit im Vorland)</li>
-
+</ol>
 <p>Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.</p>
-
 <p><strong>(2) Trogtal erklären:</strong></p>
-
-<li><strong>Entstehung:</strong> Gletscher erodiert ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,</li>
-<p>  U-förmiges Tal (im Gegensatz zu V-förmigem Flusstal). Abtrag durch Abrasion und Quarzstaub.</p>
-<li><strong>Weitere Erosionsformen:</strong></li>
+<ul>
+<li><strong>Entstehung:</strong> Gletscher erodiErt Ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,</li>
+</ul>
+<p>U-förmiges Tal (im Gegensatz zu V-förmigem Flusstal). Abtrag durch Abrasion und Quarzstaub.</p>
+<ul>
+<li><strong>weitere Erosionsformen:</strong></li>
 <li><strong>Kar (Cirque):</strong> Kesselartige Mulde im Hochgebirge (Eis stagnation, Abrasion, oft mit Moräne unten)</li>
 <li><strong>Seitenmoräne:</strong> an den Gletscherseiten (Gesteinsmaterial am Hang → transportiert und abgelagert)</li>
-
+</ul>
 <p><strong>(3) Vulnerabilitäts-Analyse (Aletsch):</strong></p>
-
-<li><strong>Ökonomisch:</strong> Tourismus (Skigebiete, Wanderungen, Hochtourismus) — Rückzug bedroht Wirtschaft;</li>
-<p>  Wasserressourcen (Gletscher = Frischwasser für untere Regionen, Landwirtschaft, Trinkwasser) —</p>
-<p>  Rückzug → Veränderung Wasserhaushalt.</p>
-<li><strong>Ökologisch:</strong> Gletschermikroökosystem (einmalige Lebensräume) — Rückzug gefährdet;</li>
-<p>  Alpengletscher = Referenzobjekt für Klimafolgen.</p>
-<li><strong>Sozial / Lebensqualität:</strong> Alpenvereinshütten, Tourismus-Infrastruktur, aber</li>
-<p>  keine hohe direkte Gefahrenanfälligkeit (Lawinen, Felssturz, Schmelzwasser-Flut — aber lokal).</p>
-
+<ul>
+<li><strong>ökonomisch:</strong> Tourismus (Skigebiete, Wanderungen, Hochtourismus) — Rückzug bedroht Wirtschaft;</li>
+</ul>
+<p>Wasserressourcen (Gletscher = Frischwasser für untere Regionen, Landwirtschaft, Trinkwasser) —</p>
+<p>Rückzug → Veränderung Wasserhaushalt.</p>
+<ul>
+<li><strong>ökologisch:</strong> Gletschermikroökosystem (einmalige Lebensräume) — Rückzug gefährdet;</li>
+</ul>
+<p>Alpengletscher = Referenzobjekt für Klimafolgen.</p>
+<ul>
+<li><strong>sozial / Lebensqualität:</strong> Alpenvereinshütten, Tourismus-Infrastruktur, aber</li>
+</ul>
+<p>keine hohe direkte Gefahrenanfälligkeit (Lawinen, Felssturz, Schmelzwasser-Flut — aber lokal).</p>
 <p><strong>(4) Vergleich (Alpengletscher vs. Vesuv):</strong></p>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Aspekt</th>
-<th>Alpengletscher (Aletsch)</th>
-<th>Vesuv (Vulkan)</th>
-</tr></thead><tbody>
-<tr>
-<td><strong>Hauptgefahren</strong></td>
-<td>Gletscherlawinen, Felssturz, Schmelzwasser, langfristig Wasser-Veränderung</td>
-<td>Explosive Eruption, Pyroklastische Ströme, Lahare, Asche, (kurzfristig katastrophal)</td>
-</tr>
-<tr>
-<td><strong>Vulnerabilitätsfaktoren</strong></td>
-<td>Tourismus-abhängig, Wasserressourcen, ökologische Einzigartigkeit</td>
-<td>Sehr hohe Bevölkerungsdichte, Infrastruktur, Landwirtschaft, Tourismus</td>
-</tr>
-<tr>
-<td><strong>Resilienz</strong></td>
-<td>Überwachung (GLAMOS), Lawinen-Abfang, Tourismus-Umstellung, Wasser-Management</td>
-<td>Überwachung (INGV), Evakuierungsplan, aber Bevölkerungsdruck</td>
-</tr>
-<tr>
-<td><strong>Beurteilung</strong></td>
-<td>Vulnerabilität steigend (tourismus, Wasser), aber kein "tödlicher Shock"; Resilienz vorhanden</td>
-<td>Vulnerabilität extrem hoch (Bevölkerungsdruck), Resilienz teils vorhanden, aber strukturell begrenzt</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Aspekt</th><th>Alpengletscher (Aletsch)</th><th>Vesuv (Vulkan)</th></tr></thead><tbody><tr><td><strong>Hauptgefahren</strong></td><td>Gletscherlawinen, Felssturz, Schmelzwasser, langfristig Wasser-Veränderung</td><td>Explosive Eruption, Pyroklastische Ströme, Lahare, Asche, (kurzfristig katastrophal)</td></tr><tr><td><strong>Vulnerabilitätsfaktoren</strong></td><td>Tourismus-abhängig, Wasserressourcen, ökologische Einzigartigkeit</td><td>Sehr hohe Bevölkerungsdichte, Infrastruktur, Landwirtschaft, Tourismus</td></tr><tr><td><strong>Resilienz</strong></td><td>Überwachung (GLAMOS), Lawinen-Abfang, Tourismus-Umstellung, Wasser-Management</td><td>Überwachung (INGV), Evakuierungsplan, aber Bevölkerungsdruck</td></tr><tr><td><strong>Beurteilung</strong></td><td>Vulnerabilität steigend (tourismus, Wasser), aber kein "tödlicher Shock"; Resilienz vorhanden</td><td>Vulnerabilität extrem hoch (Bevölkerungsdruck), Resilienz teils vorhanden, aber strukturell begrenzt</td></tr></tbody></table>
 <hr/>
-
 <h3>Bewertungsaspekte</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Kompetenz</th>
-<th>Erwartungshorizont</th>
-</tr></thead><tbody>
-<tr>
-<td>Benennen/Ordnen (Serie)</td>
-<td>Korrekte Reihenfolge, korrekte Bezeichnungen</td>
-</tr>
-<tr>
-<td>Erklären (Trogtal)</td>
-<td>Gletscher-Abtrag, U-formig, Vergleich Flusstal</td>
-</tr>
-<tr>
-<td>Analysieren (Vulnerabilität)</td>
-<td>2–3 Aspekte, konkret, Aletsch-Beispiel</td>
-</tr>
-<tr>
-<td>Vergleichen (Alpen vs. Vulkan)</td>
-<td>Gegenüberstellung, begründet, mit Beispielen</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Erwartungshorizont</th></tr></thead><tbody><tr><td>Benennen/Ordnen (Serie)</td><td>Korrekte Reihenfolge, korrekte Bezeichnungen</td></tr><tr><td>Erklären (Trogtal)</td><td>Gletscher-Abtrag, U-formig, Vergleich Flusstal</td></tr><tr><td>Analysieren (Vulnerabilität)</td><td>2–3 Aspekte, konkret, Aletsch-Beispiel</td></tr><tr><td>Vergleichen (Alpen vs. Vulkan)</td><td>Gegenüberstellung, begründet, mit Beispielen</td></tr></tbody></table>
 <hr/>
-
 <h2>Aufgabe 3 — Vergleich Vulkanismus und Glazialmorphologie</h2>
-
 <h3>Aufgabenstellung</h3>
-
 <blockquote><strong>Thema:</strong> Vergleich der Reliefsphäre — Vulkanismus vs. Glazialmorphologie</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>Materialien:</strong></blockquote>
@@ -454,94 +263,58 @@
 <blockquote>[<strong>Charakterisieren</strong>]</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>(2) Vergleichen</strong> Sie die typischen Gefahren in Vulkan- und Glaziallandschaften.</blockquote>
-<blockquote><strong>Benennen</strong> Sie jeweils zwei Gefahrentypen und <strong>erklären</strong> Sie deren Entstehung.</blockquote>
+<blockquote><strong>Benennen</strong> Sie jeweils zwei Gefahren-Typen und <strong>erklären</strong> Sie deren Entstehung.</blockquote>
 <blockquote>[<strong>Vergleichen, Benennen, Erklären</strong>]</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>(3) Beurteilen</strong> Sie, welche der beiden Landschaften (Vulkan vs. Glazial)</blockquote>
 <blockquote>eine höhere Vulnerabilität für die dort lebende Gesellschaft darstellt —</blockquote>
 <blockquote><strong>beziehen</strong> Sie mindestens ein konkretes Raumbeispiel ein.</blockquote>
 <blockquote>[<strong>Beurteilen, Raumbeispiel</strong>]</blockquote>
-
 <hr/>
-
 <h3>Lösungshinweise</h3>
-
 <p><strong>(1) Prozess-Charakterisierung:</strong></p>
-
+<ul>
 <li><strong>Vulkanismus:</strong> Endogen (Erdinnern, Magmen, Wärme, Gasdruck);</li>
-<p>  Wirkung: Aufbau (Magma, Lava, Tephra), kumulativ, erhöht Relief-Höhe;</p>
-<p>  Geschwindigkeit: Ereignisartig, kurzfristig (Jahre/Minuten); Wiederholung zyklisch, aber unvorhersehbar.</p>
-<li><strong>Glazialmorphologie:</strong> Exogen (durch Eis, Schmelzwasser, Temperatur, Wind nach Eiszeit noch wirksam);</li>
-<p>  Wirkung: Abtrag (Erosion) und Ablagerung (Moränen, Sander); langfristig (tausende Jahre),</p>
-<p>  aber Teilprozesse (Lahre, Lawinen) kurzfristig; im Rückzugs-Zeitalter aktuell.</p>
-
+</ul>
+<p>Wirkung: Aufbau (Magma, Lava, Tephra), kumulativ, erhöht Relief-Höhe;</p>
+<p>Geschwindigkeit: Ereignisartig, kurzfristig (Jahre/Minuten); Wiederholung zyklisch, aber unvorhersehbar.</p>
+<ul>
+<li><strong>Glazialmorphologie:</strong> exogen (durch Eis, Schmelzwasser, Temperatur, Wind nach Eiszeit noch wirksam);</li>
+</ul>
+<p>Wirkung: Abtrag (Erosion) und Ablagerung (Moränen, Sander); langfristig (tausende Jahre),</p>
+<p>aber Teilprozesse (Lahre, Lawinen) kurzfristig; im Rückzugs-Zeitalter aktuell.</p>
 <p><strong>(2) Gefahren-Vergleich:</strong></p>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Landschaft</th>
-<th>Gefahren-Typ 1</th>
-<th>Gefahren-Typ 2</th>
-</tr></thead><tbody>
-<tr>
-<td><strong>Vulkanismus</strong></td>
-<td><strong>Pyroklastische Ströme:</strong> Gas+Tephra-Mischung, 300–700°C, bis 700 km/h, vollständige Zerstörung — Entstehung: explosive Freisetzung, hoher Gasdruck, felsisches Magma</td>
-<td><strong>Aschefall:</strong> feine Tephra-Partikel (&lt;2mm), fliegen weit, Schäden: Luftfahrt, Gesundheit, Gebäude, Landwirtschaft — Entstehung: explosionsvulkanische Eruption, Asche-Säule</td>
-</tr>
-<tr>
-<td><strong>Glazial</strong></td>
-<td><strong>Jökulhlaup (Gletscherflut):</strong> Vulkan schmilzt Gletscher → Wasser+Sand-Asche → Lawine-Flut — Entstehung: Vulkan × Glazial-Interaktion (Island)</td>
-<td><strong>Gletscherlawinen / Felssturz:</strong> Eis oder Fels bricht ab — Entstehung: Gletscherrückzug, Instabilität</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Landschaft</th><th>Gefahren-Typ 1</th><th>Gefahren-Typ 2</th></tr></thead><tbody><tr><td><strong>Vulkanismus</strong></td><td><strong>Pyroklastische Ströme:</strong> Gas+Tephra-Mischung, 300–700 °C, bis 700 km/h, vollständige Zerstörung — Entstehung: explosive Freisetzung, hoher Gasdruck, felsisches Magma</td><td><strong>Aschefall:</strong> feine Tephra-Partikel (&lt;2 mm), fliegen weit, Schäden: Luftfahrt, Gesundheit, Gebäude, Landwirtschaft — Entstehung: explosionsvulkanische Eruption, Asche-Säule</td></tr><tr><td><strong>glazial</strong></td><td><strong>Jökulhlaup (Gletscherflut):</strong> Vulkan schmilzt Gletscher → Wasser+Sand-Asche → Lawine-Flut — Entstehung: Vulkan × Glazial-Interaktion (Island)</td><td><strong>Gletscherlawinen / Felssturz:</strong> Eis oder Fels bricht ab — Entstehung: Gletscherrückzug, Instabilität</td></tr></tbody></table>
 <p><strong>(3) Beurteilung Vulnerabilität (Vulkan vs. Glazial):</strong></p>
-
+<ul>
 <li><strong>Vulkan:</strong> oft höhere unmittelbare Todesgefahr (pyroklastische Ströme), plötzlich,</li>
-<p>  schwer zu fliehen; Vulnerabilität hoch bei Bevölkerungsdichte (z.B. Vesuv: 3 Mio. in Gefahrenzone).</p>
-<li><strong>Glazial:</strong> Gefährdung ist eher langsam / indirekt (Rückzug, Wasser, Tourismus);</li>
-<p>  aber lokale Gefahren (Jökulhlaup, Lawinen) können schwer sein; Vulnerabilität</p>
-<p>  hängt stark vom Entwicklungsstand und Tourismus-Abhängigkeit.</p>
+</ul>
+<p>schwer zu fliehen; Vulnerabilität hoch bei Bevölkerungsdichte (z.B. Vesuv: 3 Mio. in Gefahrenzone).</p>
+<ul>
+<li><strong>glazial:</strong> Gefährdung ist eher langsam / indirekt (Rückzug, Wasser, Tourismus);</li>
+</ul>
+<p>aber lokale Gefahren (Jökulhlaup, Lawinen) können schwer sein; Vulnerabilität</p>
+<p>hängt stark vom Entwicklungsstand und Tourismus-Abhängigkeit.</p>
+<ul>
 <li><strong>Beispiel:</strong> Vesuv (Vulkan) — extrem hohe Vulnerabilität trotz Resilienz-Maßnahmen;</li>
-<p>  Alpengletscher (Glazial) — Vulnerabilität wirtschaftlich (Tourismus, Wasser), aber</p>
-<p>  keine "tödliche Gefahr" wie Vulkan.</p>
+</ul>
+<p>Alpengletscher (Glazial) — Vulnerabilität wirtschaftlich (Tourismus, Wasser), aber</p>
+<p>keine "tödliche Gefahr" wie Vulkan.</p>
+<ul>
 <li><strong>Fazit:</strong> Vulkanlandschaft kann Vulnerabilität höher sein, wenn Bevölkerungsdichte hoch</li>
-<p>  und Ausbruch nicht vorhersehbar; Glazial meist niedriger unmittelbarer Tod, aber</p>
-<p>  langfristige Vulnerabilität (Tourismus, Wasser).</p>
-
+</ul>
+<p>und Ausbruch nicht vorhersehbar; glazial meist niedriger unmittelbarer Tod, aber</p>
+<p>langfristige Vulnerabilität (Tourismus, Wasser).</p>
 <hr/>
-
 <h3>Bewertungsaspekte</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Kompetenz</th>
-<th>Erwartungshorizont</th>
-</tr></thead><tbody>
-<tr>
-<td>Charakterisieren</td>
-<td>Prozeßtyp, Antrieb, Geschwindigkeit, Wirkung korrekt</td>
-</tr>
-<tr>
-<td>Vergleichen/Benennen/Erklären</td>
-<td>2 Gefahren-Typen je Landschaft, Entstehung, Vergleich nicht oberflächlich</td>
-</tr>
-<tr>
-<td>Beurteilen (Vulnerabilität)</td>
-<td>Begründet, Beispiel eingebracht, nicht pauschal</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Erwartungshorizont</th></tr></thead><tbody><tr><td>Charakterisieren</td><td>Prozeßtyp, Antrieb, Geschwindigkeit, Wirkung korrekt</td></tr><tr><td>Vergleichen/Benennen/Erklären</td><td>2 Gefahren-Typen je Landschaft, Entstehung, Vergleich nicht oberflächlich</td></tr><tr><td>Beurteilen (Vulnerabilität)</td><td>Begründet, Beispiel eingebracht, nicht pauschal</td></tr></tbody></table>
 <hr/>
-
 <h2>Aufgabe 4 — Maßnahmen zur Stärkung der Resilienz (LK-Niveau)</h2>
-
 <h3>Aufgabenstellung</h3>
-
 <blockquote><strong>Thema:</strong> Maßnahmen zur Stärkung der Resilienz im Kontext Naturgefahren</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>Materialien:</strong></blockquote>
-<blockquote>- Schema: Risiko-Modell (Hazard × Exposition × Vulnerabilität = Risiko, Resilienz als Gegenstück)</blockquote>
+<blockquote>- Schema: Risiko-Modell (Hazard × Exposition × Vulnerabilität = RISiko, Resilienz als Gegenstück)</blockquote>
 <blockquote>- Text: Maßnahmen-Kompendium (Gefahrenreduzierung, Vulnerabilitätsverringerung, Anpassung/Erholung)</blockquote>
 <blockquote></blockquote>
 <blockquote><strong>Aufgaben:</strong></blockquote>
@@ -561,13 +334,10 @@
 <blockquote><strong>(4) Erörtern</strong> Sie die These: "Je besser die Überwachung eines Naturgefahrens,</blockquote>
 <blockquote>desto geringer die Vulnerabilität des Raumes." <strong>Nehmen</strong> Sie position.</blockquote>
 <blockquote>[<strong>Erörtern, These</strong>]</blockquote>
-
 <hr/>
-
 <h3>Lösungshinweise</h3>
-
 <p><strong>(1) Drei Ebenen + konkrete Maßnahme:</strong></p>
-
+<ul>
 <li><strong>Gefahrenreduzierung / Vermeidung:</strong></li>
 <li>Gefahrenzonen-Raumplanung (Siedlungsverbot in Hochrisikogebieten),</li>
 <li>Strukturelle Schutzanlagen (Deiche, Rückhaltebecken, Lawinen-Abfangaufbau),</li>
@@ -580,92 +350,79 @@
 <li>Monitoring und daten-basierte Anpassung, Redundanz (Back-up Systeme),</li>
 <li>Wirtschaft-Umstellung / Diversifizierung, Wiederherstellung nach Ereignis,</li>
 <li>Lernen aus Ereignissen (Kataster-Rekonstruktion, Pläne überarbeiten).</li>
-
+</ul>
 <p><strong>(2) Analyse (Maßnahme → Vulnerabilitätsminderung, Beispiel):</strong></p>
-
+<ul>
 <li><strong>Beispiel Kilauea:</strong> Überwachung (HVO: Seismometer, GPS, Gasmessung) →</li>
-<p>  Frühwarnung möglich (Vor eruptive Phase erkennbar) → Evakuierung möglich →</p>
-<p>  Exposition (Menschen im Gefahrenbereich) bleibt, aber <strong>Vulnerabilität sinkt</strong>:</p>
-<p>  Menschen haben Zeit, sind nicht überrascht, können fliehen → Todesfall-Wahrscheinlichkeit sinkt.</p>
+</ul>
+<p>Frühwarnung möglich (Vor eruptive Phase erkennbar) → Evakuierung möglich →</p>
+<p>Exposition (Menschen im Gefahrenbereich) bleibt, aber <strong>Vulnerabilität sinkt</strong>:</p>
+<p>Menschen haben Zeit, sind nicht überrascht, können fliehen → Todesfall-Wahrscheinlichkeit sinkt.</p>
+<ul>
 <li><strong>Beispiel Vesuv:</strong> Evakuierungsplan + Warnsystem → vergleichbar: Exposition bleibt</li>
-<p>  (Siedlung in Gefahrenzone existiert weiter), aber Vulnerabilität sinkt durch</p>
-<p>  Vorbereitung, Evakuierung, Planung.</p>
-
+</ul>
+<p>(Siedlung in Gefahrenzone existiert weiter), aber Vulnerabilität sinkt durch</p>
+<p>Vorbereitung, Evakuierung, Planung.</p>
 <p><strong>(3) Zielkonflikt + Beurteilung:</strong></p>
-
+<ul>
 <li><strong>Beispiel:</strong> Siedlungsverzicht in Hochrisikogebiet (Gefahrenzone) wäre effektiv</li>
-<p>  für Vulnerabilitätssenkung, aber konflikthaft mit <strong>nachhaltiger Entwicklung</strong>:</p>
+</ul>
+<p>für Vulnerabilitätssenkung, aber konflikthaft mit <strong>nachhaltiger Entwicklung</strong>:</p>
+<ul>
 <li>Sozial: Verdrängung, Lebensqualität, lokale Gemeinschaft (Zwang?); Evakuierung</li>
-<p>    ohne Siedlungsverzicht → Notgedrungene Anpassung, aber (mühsam).</p>
+</ul>
+<p>ohne Siedlungsverzicht → Notgedrungene Anpassung, aber (mühsam).</p>
+<ul>
 <li>Ökonomisch: TOURISMUS/Agrar in Gefahrenzone (Vulgar, Unterschied) —</li>
-<p>    Verzicht würden Wirtschaft schädigen.</p>
+</ul>
+<p>Verzicht würden Wirtschaft schädigen.</p>
+<ul>
 <li>Nachhaltigkeit: nachhaltige Lösung muss alle drei Komponenten (Sozial, Ökonomisch,</li>
-<p>    Ökologisch) berücksichtigen. Maßnahmen nur auf Schutz zu legen, ignoriert</p>
-<p>    Entwicklung. Maßnahmen, die Entwicklung berücksichtigen, sind nachhaltiger,</p>
-<p>    aber möglicherweise weniger "sicher" im kurzfristigen Hazard.</p>
+</ul>
+<p>Ökologisch) berücksichtigen. Maßnahmen nur auf Schutz zu legen, ignoriert</p>
+<p>Entwicklung. Maßnahmen, die Entwicklung berücksichtigen, sind Nachhaltiger,</p>
+<p>aber möglicherweise weniger "sicher" im kurzfristigen Hazard.</p>
+<ul>
 <li><strong>Beurteilung:</strong> Zielkonflikt zwischen perfekter Sicherheit (vollständige Vermeidung)</li>
-<p>  und nachhaltiger Entwicklung (Lebensqualität, Wirtschaft, Ökologie). LK-Aufgabe</p>
-<p>  erwartet Begriffsklärung (was ist "nachhaltig"?), Beispiele, differenzierte Beurteilung.</p>
-
+</ul>
+<p>und nachhaltiger Entwicklung (Lebensqualität, Wirtschaft, Ökologie). LK-Aufgabe</p>
+<p>erwartet Begriffsklärung (was ist "nachhaltig"?), Beispiele, differenzierte Beurteilung.</p>
 <p><strong>(4) Erörterung (These):</strong></p>
-
+<ul>
 <li>"Überwachung sinkt Vulnerabilität" — <strong>teils richtig</strong>: Verbesserter Vorlauf ermöglicht</li>
-<p>  Evakuierung, Senkung der Todeszahlen (Exposition existeirt weiter, aber Vulnerabilität sinkt</p>
-<p>  durch Reduktion der "Überraschung").</p>
+</ul>
+<p>Evakuierung, Senkung der Todeszahlen (Exposition existeirt weiter, aber Vulnerabilität sinkt</p>
+<p>durch Reduktion der "Überraschung").</p>
+<ul>
 <li><strong>Aber:</strong> Überwachung allein senkt <strong>nicht die strukturelle Vulnerabilität</strong> (Bevölkerungsdichte,</li>
-<p>  Infrastruktur, Ökonomie). Sie senkt nur die <strong>akute Gefährdung</strong> durch frühe Warnung.</p>
-<p>  Vulnerabilität umfasst auch Sozial, Ökonomie, Planung — nicht nur Information.</p>
+</ul>
+<p>Infrastruktur, Ökonomie). Sie senkt nur die <strong>akute Gefährdung</strong> durch frühe Warnung.</p>
+<p>Vulnerabilität umfasst auch Sozial, Ökonomie, Planung — nicht nur Information.</p>
+<ul>
 <li><strong>Position:</strong> These ist <strong>unvollständig / überzeichnet</strong>, aber <strong>nicht grundsätzlich falsch</strong>:</li>
-<p>  Überwachung trägt bei, senkt aber nur einen Teil der Vulnerabilität. Vollständigere</p>
-<p>  Senkung erfordert auch Raumplanung, Siedlungsstruktur, Soziale Faktoren.</p>
-<li><strong>Lösung erwartet:</strong> Nicht nur "Ja/Nein", sondern differenzierte Erörterung:</li>
-<p>  Überwachung = Teil der Vulnerabilitätsminderung, aber nicht Voll-Lösung.</p>
-
+</ul>
+<p>Überwachung trägt bei, senkt aber nur einen Teil der Vulnerabilität. Vollständigere</p>
+<p>Senkung erfordert auch Raumplanung, Siedlungsstruktur, soziale Faktoren.</p>
+<ul>
+<li><strong>Lösung erwartet:</strong> nicht nur "Ja/Nein", sondern differenzierte Erörterung:</li>
+</ul>
+<p>Überwachung = Teil der Vulnerabilitätsminderung, aber nicht Voll-Lösung.</p>
 <hr/>
-
 <h3>Bewertungsaspekte</h3>
-
-<table class='wiki-table'>
-<thead><tr>
-<th>Kompetenz</th>
-<th>Erwartungshorizont</th>
-</tr></thead><tbody>
-<tr>
-<td>Benennen/Beschreiben</td>
-<td>3 Ebenen, konkrete Maßnahmen</td>
-</tr>
-<tr>
-<td>Analysieren</td>
-<td>Beispiel, Mechanismus (wie Maßnahme → Vulnerabilitäts-senkung), Systematik</td>
-</tr>
-<tr>
-<td>Beurteilen (Zielkonflikt)</td>
-<td>Nachhaltigkeit ausdifferenziert (Sozial, Ökonomisch, Ökologisch), Konflikt benennen, begründet</td>
-</tr>
-<tr>
-<td>Erörtern (These)</td>
-<td>Differenzierte Position, Begründung, Einschränkungen, keine pauschalen Aussagen</td>
-</tr>
-</tbody></table>
-
+<table class="wiki-table"><thead><tr><th>Kompetenz</th><th>Erwartungshorizont</th></tr></thead><tbody><tr><td>Benennen/Beschreiben</td><td>3 Ebenen, konkrete Maßnahmen</td></tr><tr><td>Analysieren</td><td>Beispiel, Mechanismus (wie Maßnahme → Vulnerabilitäts-senkung), Systematik</td></tr><tr><td>Beurteilen (Zielkonflikt)</td><td>Nachhaltigkeit ausdifferenziert (Sozial, Ökonomisch, Ökologisch), Konflikt benennen, begründet</td></tr><tr><td>Erörtern (These)</td><td>Differenzierte Position, Begründung, Einschränkungen, keine pauschalen Aussagen</td></tr></tbody></table>
 <hr/>
-
 <h2>Abitur-Hinweise</h2>
-
+<ul>
 <li>Diese Muster-Aufgaben folgen dem Bildungsplan LK (§3.5.2.1 + §3.4.3.2 BK).</li>
 <li>Operatoren sind inkonsistent — manche Aufgaben nutzen mehrere Operatoren in einer Teilaufgabe.</li>
 <li>LK-Aufgaben verlangen meist <strong>mehr</strong> als BK: Vergleich, Beurteilung, Erörterung,</li>
-<p>  Raumbeispiel, Nachhaltigkeitsbezug.</p>
+</ul>
+<p>Raumbeispiel, Nachhaltigkeitsbezug.</p>
+<ul>
 <li>Dokumentieren Sie Ihre Überlegungen, zeichnen Sie Skizzen, wenn gefragt.</li>
-
-<p>Verknüpfungen: <a href="bildungsplan-2016-lk.html" class="wikilink"&gt;bildungsplan-2016-lk</a>, <a href="vulkanprozesse.html" class="wikilink"&gt;vulkanprozesse</a>, <a href="glazialmorphologie-ueberblick.html" class="wikilink"&gt;glazialmorphologie-ueberblick</a>, <a href="glaziale-serie.html" class="wikilink"&gt;glaziale-serie</a>, <a href="vulnerabilitaet-begriffe.html" class="wikilink"&gt;vulnerabilitaet-begriffe</a>, <a href="vulnerabilitaet-raumbeispiele.html" class="wikilink"&gt;vulnerabilitaet-raumbeispiele</a>, <a href="resilienz-massnahmen.html" class="wikilink"&gt;resilienz-massnahmen</a>, <a href="vulkan-raumbeispiele.html" class="wikilink"&gt;vulkan-raumbeispiele</a>, <a href="glazial-raumbeispiele.html" class="wikilink"&gt;glazial-raumbeispiele</a></p>
-
-    <div class="backlinks">
-      <h3>Verknüpft von</h3>
-      <ul>
-        <li><a href="index.html">Geographie Wiki — Leistungskurs BW (Bildungsplan 2016)</a></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geographie LK (Bildungsplan 2016)</a></li>
-      </ul>
-    </div>
+</ul>
+<p>Verknüpfungen: <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a>, <a class="wikilink" href="vulkanprozesse.html">vulkanprozesse</a>, <a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a>, <a class="wikilink" href="glaziale-serie.html">glaziale-serie</a>, <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a>, <a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a>, <a class="wikilink" href="vulkan-raumbeispiele.html">vulkan-raumbeispiele</a>, <a class="wikilink" href="glazial-raumbeispiele.html">glazial-raumbeispiele</a></p>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</li><li>Übungsaufgaben — Geografie LK (Bildungsplan 2016)</li></ul></div>
   </main>
 </body>
 </html>

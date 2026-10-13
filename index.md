@@ -62,7 +62,7 @@
 
 ## SKIZZEN (Zeichenvorlagen für Abitur)
 
-- [[uEbersIcht-skizzen]] — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema
+- [[uebersicht-skizzen]] — 6 Skizzen: Glaziale Serie, Vulkanformen, Vulnerabilitätsmodell, Gletscher-Querschnitt, Trogtal vs. Flusstal, Vulkan-Ausbruch-Schema
 
 ## VERGLEICHE
 

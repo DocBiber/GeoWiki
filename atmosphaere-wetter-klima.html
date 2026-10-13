@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse — Geographie Wiki LK BW</title>
+  <style>
+    :root {
+      --bg: #fafafa;
+      --sidebar-bg: #f4f4f4;
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --link: #1a5fb4;
+      --wikilink: #b45f06;
+      --active-bg: #e8e8e8;
+      --code-bg: #f0f0f0;
+      --blockquote-border: #ccc;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      width: 280px;
+      background: var(--sidebar-bg);
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      overflow-y: auto;
+      flex-shrink: 0;
+    }
+    .sidebar h2 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin: 0 0 0.75rem 0;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .sidebar ul { list-style: none; padding: 0; margin: 0; }
+    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
+    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
+    .sidebar li a:hover { color: var(--link); }
+    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
+    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
+    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
+    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
+    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
+    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
+    .wikilink:hover { color: #8a4400; }
+    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
+    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+    .wiki-table th { background: #f0f0f0; font-weight: 600; }
+    .wiki-table tr:nth-child(even) td { background: #fafafa; }
+    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
+    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
+    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
+    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
+    h4 { font-size: 1rem; margin-top: 1rem; }
+    p { margin: 0.6rem 0; }
+    ul, ol { padding-left: 1.5rem; }
+    li { margin: 0.2rem 0; }
+    a { color: var(--link); }
+    a:hover { text-decoration: underline; }
+    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
+    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
+    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
+    .no-link { color: var(--muted); font-style: italic; }
+    img { max-width: 100%; }
+    @media (max-width: 768px) {
+      body { flex-direction: column; }
+      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
+      .main { padding: 1rem; }
+      .backlinks ul { columns: 1; }
+    }
+</style>
+</head>
+<body>
+  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li class="active"><a href="atmosphaere-wetter-klima.html"><strong>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</strong></a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
+  <main class="main">
+    <h1>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</h1>
+    <div class="meta">
+      <span>Typ: concept</span>
+      <span style="margin-left:auto"><span class="tag-badge">atmosphaere</span><span class="tag-badge">klima</span><span class="tag-badge">Wetter</span><span class="tag-badge">prozesse</span><span class="tag-badge">methodik</span></span>
+    </div>
+    <h1>Atmosphäre, Wetter und Klima</h1>
+<h2>Einleitung</h2>
+<p>Die Atmosphäre ist die gasförmige Hülle der Erde und das Medium, in dem Wetter und Klima entstehen. Für den Geografie-LK sind drei Ebenen zentral:</p>
+<ol>
+<li><strong>Wetter</strong> — der augenblickliche Zustand der Atmosphäre an einem Ort (kurzfristig, minuten- bis tagesakt)</li>
+<li><strong>Klima</strong> — die langfristige Durchschnittswetterstatistik (Jahre bis Jahrzehnte)</li>
+<li><strong>Globale atmosphärische Prozesse</strong> — die großräumigen Zirkulationsmuster, die das Klima der Erde steuern</li>
+</ol>
+<blockquote>Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.2.2 „Prozesse in der Atmosphäre“ — SuS können die Dynamik lokaler und globaler atmosphärischer Prozesse erklären und in ihrer Ausprägung charakterisieren. Sie können für ausgewählte Lebensräume die ökologische Bedeutung des Klimas beurteilen.</blockquote>
+<h2>Grundbegriffe</h2>
+<h3>Wetter vs. Witterung vs. Klima</h3>
+<ul>
+<li><strong>Wetter</strong> (weather): Aktueller Zustand der Atmosphäre an einem Ort — Temperatur, Luftdruck, Wind, Niederschlag, Wolken. Läuft in Minuten bis Tagen ab.</li>
+<li><strong>Witterung</strong> (season/weather pattern): Die charakteristische Abfolge von Wetterlagen über eine Saison oder ein Jahr. Hängt von der geografischen Lage ab.</li>
+<li><strong>Klima</strong> (climate): Statistischer Mittelwert des Wetters über lange Zeiträume (typisch 30 Jahre nach WMO). Klimaklassifikationen (z. B. Köppen-Geiger) ordnen Räume nach Temperatur und Niederschlag.</li>
+</ul>
+<h3>Wetterfaktoren</h3>
+<p>Die <strong>Wetterfaktoren</strong> sind die messbaren Zustandsgrößen der Atmosphäre:</p>
+<ul>
+<li><strong>Temperatur</strong> — Wärmegehalt der Luft; gemessen in °C, zentral für alle anderen Prozesse</li>
+<li><strong>Luftdruck</strong> — Kraft pro Flächeneinheit, verursacht durch die Gewichtskraft der Luft über einem Punkt; Isobaren verbinden gleiche Druckstellen auf Wetterkarten</li>
+<li><strong>Luftfeuchtigkeit</strong> — absolute und relative Feuchte; Kondensation findet bei Sättigung statt</li>
+<li><strong>Niederschlag</strong> — Wasser in festen oder flüssigen Formen, die aus Wolken auf die Erdoberfläche fallen (Regen, Schnee, Graupel, Hagel)</li>
+<li><strong>Wind</strong> — Luftbewegung infolge von Druckunterschieden; wird auf Wetterkarten mit Pfeilen und Isobaren dargestellt</li>
+<li><strong>Bewölkung / Wolkentypen</strong> — Stratus, Cumulus, Cumulonimbus etc.; geben Aufschluss über atmosphärische Stabilität</li>
+</ul>
+<h3>Adiabate Prozesse</h3>
+<ul>
+<li><strong>Trockenadiabatisch</strong>: Temperaturabnahme trockener Luft bei Aufstieg (ca. 1 °C/100 m); kein Kondensationswärmeeffekt</li>
+<li><strong>Feuchtadiabatisch</strong>: Temperaturabnahme feuchter Luft bei Aufstieg (ca. 0,6 °C/100 m); Kondensation setzt latente Wärme frei, die Abkühlung wird milder</li>
+</ul>
+<h2>Lokale Wetterprozesse und Wetterlagen</h2>
+<h3>Wetterkarten und Satellitenbilder</h3>
+<ul>
+<li><strong>Bodenwetterkarte</strong>: Zeigt isobaren, Hoch-/Tiefdruckgebiete, Fronten, Windrichtung und -stärke, Temperatur, Niederschlag am Boden</li>
+<li><strong>Höhenwetterkarte</strong>: Zeigt Zustände in einer bestimmten Höhe (z. B. 500 hPa-Ebene); wichtig Für Vorhersage der großräumigen Strömung</li>
+<li><strong>Satellitenbilder</strong> (Infrarot, sichtbar, Wasserstrahlband): Zeigen Wolkenfelder, Großwetterlage, Fronten; IR zeigt Wolkenoberflächentemperatur (hohe Wolken = hell auf IR)</li>
+</ul>
+<h3>Wetterlagen und Fronten</h3>
+<ul>
+<li><strong>Zyklone</strong> (Tiefdruckgebiete): Kreisieren in der außertropischen Westwindzone; verbinden sich mit Fronten; Existenz nach Polarfront-Theorie (eks. Zyklone über Fronten)</li>
+<li><strong>Antizyklone</strong> (Hochdruckgebiete): Absenkung, klare Luft, oft stabile Wetterlage</li>
+<li><strong>Warmfront</strong>: Warme Luft überkühlt kalte Luft; schmale, ausgedehnte Wolkenschicht (Nimbostratus), gleichmäßiger Dauerregen</li>
+<li><strong>Kaltfront</strong>: Kalte Luft schiebt sich unter warme Luft; steile Aufwinde, Gewitter, kurz intensiver Regen, oft mit Cumulonimbus</li>
+<li><strong>Okklusion</strong>: Kaltfront hat Warmfront eingeholt; komplexe Lage, oft Mischform</li>
+</ul>
+<h3>Konvektion und Advektion</h3>
+<ul>
+<li><strong>Konvektion</strong>: Vertikale Luftbewegung durch Auftrieb (Wärme, Feuchtigkeit); zentral für Gewitter und Cumulus-Entstehung</li>
+<li><strong>Advektion</strong>: Horizontale Transport von Luftmassen (z. B. warmer Luft von Süd, kalter Luft von Nord); wichtig für Temperaturänderungen ohne konvektive Prozesse</li>
+</ul>
+<h3>Lokale Windsysteme</h3>
+<ul>
+<li><strong>Land-Seewind-System</strong>: Tagsüber Seewind (vom kälteren Meer zum wärmeren Land), nachts Landwind (vom kälteren Land zum meeres); klassisches Küstenphänomen</li>
+<li><strong>Föhn</strong>: Trockener, warmer Fallwind auf der Windab-Luftseite eines Gebirges; durch trockenadiabate Erwärmung beim Abstieg (Beispiel: Alpenföhn in Süddeutschland)</li>
+<li><strong>Berg-Tal-Wind-System</strong>: Tagsüber Talwind (aufsteigend, wärmer), nachts Bergwind (absteigend, kälter) — wichtig für Hochgebirge</li>
+</ul>
+<h2>Globale Klimaprozesse</h2>
+<h3>Solare Einstrahlung und Albedo</h3>
+<ul>
+<li>Die <strong>solare Einstrahlung</strong> (Sonneneinstrahlung) ist die primäre Energiequelle des Klimasystems</li>
+<li><strong>Albedo</strong>: Der Reflexionsgrad der Erdoberfläche — Schnee/Eis hat hohes Albedo (~0,8–0,9), Ozean/Wald niedrig (~0,05–0,15); Albedo-Rückkopplung ist ein zentraler Klima-Feedback-Prozess</li>
+</ul>
+<h3>Globale atmosphärische Zirkulation</h3>
+<ul>
+<li><strong>ITCZ (Intertropische Konvergenzzone)</strong>: Konvergenz von Nord- und Südosthandwind; betont konvektive Aktivität, Niederschlag; wandert mit der Sonne (saisonale Verschiebung)</li>
+<li><strong>Passatzirkulation</strong>: Trade Winds (Nordost- und Südosthandwind) zwischen ITCZ und Subtropischen Hochdruckgürtel</li>
+<li><strong>Monsun</strong>: Saisonale Windumkehr — Sommer: feuchte Luft vom Ozean an Land (Niederschlag), Winter: trockene Luft vom Land zum Ozean (trocken); zentral für Süd- und Südostasien</li>
+<li><strong>Coriolis-Ablenkung</strong>: Ablenkung von Luftströmungen durch Erdrotation; Rechtsseitig in NH, links in SH; verantwortlich für Zirkulationstruktur</li>
+<li><strong>Jetstream</strong>: Starke Windbänder in der oberen Troposphäre (vor allem Polarjet und Subtrop jet); lenkt Tiefdrucksysteme in der Westwindzone</li>
+<li><strong>Außertropische Westwindzone</strong>: Mittelbreiten; dominante Bewegungsrichtung Westwind; Tiefdrucksysteme wandern ostwärts</li>
+</ul>
+<h3>Klima-Parameter und -Klassifikation</h3>
+<ul>
+<li><strong>Kontinentalität</strong>: Grad der Abkehr von maritimer ModifiKation; große Landmassen haben extreme Temperaturen (Kalte Winter, warme Sommer), Küsten mildere</li>
+<li><strong>Maritimität</strong>: Küstennahkeit, modifikatorischen Einfluss des Ozeans auf Temperatur und Niederschlag</li>
+<li><strong>Gebirgsklima</strong>: Höhenabhängigkeit (Temperaturabnahme mit Höhe, exponierte Lage), Regenschatteneffekt (Föhn auf Windabseite), lokale Windsysteme</li>
+<li><strong>Meeresströmungen</strong>: Transport von Wärme (z. B. Golfstrom → mildes Europa); auch kaltende Strömungen (Humboldt-Strom → Kostenliche Ergüssen)</li>
+<li><strong>Tageszeitenklima / Jahreszeitenklima</strong>: Tageslänge und Winkel der Sonneneinstrahlung (Auf-/Abstand der Sonne) bestimmen Saisonalität</li>
+</ul>
+<h2>Klima eines ausgewählten Lebensraums</h2>
+<h3>Hochgebirge (z. B. Anden, Himalaya, Alpen)</h3>
+<p>Das spezifische Klima des Hochgebirges ist geprägt von:</p>
+<ul>
+<li><strong>Höhenstufen / Höhenzonen</strong>: Vegetationszonen mit zunehmender Höhe (Küsten → Laubwald → Nadelwald → Gebüsch → Alm / Gletscher → Nasseis); Zonen kommen auch mit Breitengrad vor, aber in Tropen sehr komprimiert</li>
+<li><strong>Berg-Tal-Wind-System</strong>: Tagsüber Talwind (luftfeuchter Aufstieg aus Tal), nachts Bergwind (kalte Abwinde)</li>
+<li><strong>Fallwind und Föhn</strong>: Auf der Lee-Seite trockenadiabate Abkühlung → wärmer und trockener → Föhnphänomene (z. B. Chinook in Nordamerika, Alpenföhn)</li>
+<li><strong>Baumgrenze (Krummholzgrenze)</strong>: Höhe, ab der Baumwachstum kaum möglich ist (Temperatur, Wind, Schneedecke); Übergang zu alpinen Vegetationszonen</li>
+<li><strong>Schneegrenze</strong>: Höhe, ab der Schnee ganzjährig verbleibt; variabel je nach Breitengrad und Klima; wichtige Grenze für Gletscherbildung</li>
+</ul>
+<h3>Wüste (z. B. Sahara, Atacama, Arabische Wüste)</h3>
+<ul>
+<li>Extrem trocken, große Temperaturamplituden (tagsüber heiß, nachts kalt)</li>
+<li>Sehr geringe Wolkenbildung, häufig klare Luft</li>
+<li>Oft subtropische Hochdruckzone (ca. 30° Breitengrad), wo absinkende Luft aus der Konvektion erwärmt wird → trocken</li>
+<li>Wenige Niederschläge, oft unter 250 mm/Jahr</li>
+</ul>
+<h2>Methodik: Wetterkarten und Satellitenbilder lesen</h2>
+<p>Für den Abiturbezug (Kompetenz 3.5.2.2 (1)): SuS sollen lokale Wetterlagen anhand von Wetterkarten und Satellitenbildern erklären können.</p>
+<p><strong>Praktischer Ablauf:</strong></p>
+<ol>
+<li>Bodenwetterkarte betrachten: Isobaren-Verlauf (→ Druckverteilung), Hoch-/Tiefdrucklage, Fronten (Einstichlinien mit Symbolen: Warmfront = Halbmond, Kaltfront = Dreieck, Okklusion = Kombination)</li>
+<li>Windrichtung und -stärke: Wind pfeift parallel zu isobaren (gegen den Uhrzeigersinn um Tief in NH, mit Uhrzeigersinn um Hoch); Isobaren-Abstand gibt Windstärke an (enger = stärker)</li>
+<li>Temperaturfelder identifizieren: Warmseitige / kälteseitige Lagen; Fronten als Grenzlagen</li>
+<li>Satellitenbild: Wolkenstruktur erkennen — z. B. kreisende Wolken um Tiefdruckzentrum, Warmfront-Cloud-Banke, Kaltfront-Schauerfront; IR-Bilder zeigen Wolkenhöhe über Temperatur</li>
+<li>Prognose: System-Bewegung (Westwindzone: Tiefdrucksysteme wandern von West nach Ost), Frontfortschritt, Wolken-Auftakt</li>
+</ol>
+<h2>Bezug zum Abitur (Bildungsplan-Kompetenzen)</h2>
+<ul>
+<li><strong>3.5.2.2 (1)</strong>: Lokale Wetterlagen anhand von Wetterkarten und SatellitenbildeRn erklären — Wetterkarten lesen, Fronten erkennen, Wettervorhersage erstellen</li>
+<li><strong>3.5.2.2 (2)</strong>: Klimate als Folge solarer Einstrahlung und atmosphärischer Prozesse erklären — globale Zirkulation, ITCZ, Passat, Monsun, Coriolis, Jetstream, außertropische Westwindzone, Kontinentalität, Maritimität, Meeresströmungen, Gebirgsklima</li>
+<li><strong>3.5.2.2 (5)</strong>: Spezifisches Klima eines Lebensraums (Hochgebirge oder Wüste) erklären — Höhenstufen, Baumgrenze, Schneegrenze, Berg-Tal-Wind, Föhn, Wüstenklima</li>
+</ul>
+<h2>Verwandte Seiten</h2>
+<ul>
+<li><a class="wikilink" href="klimawandel.html">klimawandel</a> — Klimawandel: Ursachen, Dimensionen, Anpassungsstrategien (3.5.3.2)</li>
+<li><a class="wikilink" href="globalisierung-anthroposphaere.html">globalisierung-anthroposphaere</a> — Globalisierung und Entwicklungen in der Anthroposphäre (3.5.2.6)</li>
+<li><a class="wikilink" href="disparitaet-entwicklungen.html">disparitaet-entwicklungen</a> — Disparitäre Entwicklungen und Entwicklungszusammenarbeit (3.5.3.4)</li>
+<li><a class="wikilink" href="vulkanismus-ueberblick.html">vulkanismus-ueberblick</a> — Vulkansimus als Gegenstück: endogene Prozesse</li>
+<li><a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a> — Glazialmorphologie: Eiszeiten und Klimageschichte</li>
+</ul>
+<h2>Offene Fragen</h2>
+<ul>
+<li>Welche konkreten Wetterlagen-Beispiele (z. B. Westwindfront, Alpenniederschlag) für Abituraufgaben denken?</li>
+<li>Können Satellitenbild-Auswertungen konkret geübt werden? (z. B. DWD-Satellitenbilder, Wetterkarten aus DWD oder ZAMG)</li>
+</ul>
+    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Boden und Bodengeographie — Grundlagen</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Geographische Methoden — GIS, Fernerkundung, Kartographie</li><li>Karstlandschaft — Formen, Prozesse, Bedeutung</li><li>Klimawandel — Ursachen, Dimensionen und Anpassung</li><li>Raumbeispiele — Flusslandschaften (Geografie LK BW)</li><li>Wasserhaushalt und Hydrologie — Grundlagen</li></ul></div>
+  </main>
+</body>
+</html>
