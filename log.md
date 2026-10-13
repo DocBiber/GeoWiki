@@ -124,3 +124,21 @@
 - Schönheitsfehler aus Punkt 4 miterledigt: Titel-Doppelung behoben (H1-Unterdrückung im
   Builder); Pferde-Emoji war ein Artefakt des Test-Browsers, nicht der Dateien
 - Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis
+
+## [2026-10-13] fix | Rechtschreibprüfung komplettes Wiki (LanguageTool + Heuristik)
+- LanguageTool (HTTP-API, Java 17) über alle 41 Live-.md-Dateien: 2 TYPOS-Meldungen —
+  „dm" (Fehlalarm: korrekte Einheit Dezimeter in „wenige dm bis m/Jahr") und „High-Tech"
+  (valide Schreibweise, nicht geändert) → keine LanguageTool-Autofixes nötig
+- Zusatz-Heuristik (Binnenmajuskel ohne Bindestrich, Fremdzeichen): 26 echte Tippfehler
+  gefunden, die LanguageTool nicht kennt (plausible Falschwörter), wortbasiert korrigiert:
+  LandwirtschafT, ModifiKation, SatellitenbildeRn, EntwIcklung, HöhlEndecken, HitZewellen,
+  HitZe, NachhaltigkeitskRiterien, alternAtiver, VulneRabilität, AlPen, lokalE,
+  möglicherwEise, ResilieNz, TRogTAL, SubduktionsZonen, NachhaltigkEit, VulkanFormen, RIfT,
+  WarnunGen, erodiErt, OpeRator, WirtschafT, LidR→LiDAR (3×)
+- Fremdzeichen: kyrillisches „е" in „Wasserhaushaltskurvе" (wasserhaushalt.md) → „kurve";
+  „(Stromer)" → „(Ströme)"
+- Bewusst NICHT geändert: log.md (dokumentarische Fehler-Zitate), chemische Formeln
+  (CaCO₃, Ca(HCO₃)₂), Formelzeichen (Δ, α), Eigennamen (AfCFTA, OpenStreetMap …)
+- Gegenprobe: keine Binnenmajuskel-Fehler mehr außerhalb der Formeln; HTML-Export neu
+  gebaut; 28 Korrekturen in 18 Dateien (Commit e21da74)
+- Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis
