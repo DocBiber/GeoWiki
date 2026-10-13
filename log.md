@@ -69,3 +69,25 @@
   wirre Gletschertyp-Tabelle bereinigt (Kar/Firnfeld, Tal-Gletscher)
 - index.md: „Karbälge" in der Seitenbeschreibung durch „Endmoräne, Kar" ersetzt
 - Nächste Schritte: Sprachputz der Glazial-Seiten (Punkt 2), HTML-Export-Neubau (Punkt 3)
+
+## [2026-10-13] fix | Sprachputz Glazial-Seiten + Fremdsprachen-Reste (QA-Punkt 2)
+- LanguageTool-Auto-Lauf über die 4 Glazial-Seiten getestet — verworfen: der Auto-Fixer
+  erzeugte schädliche Korrekturen („GletsCherrückzug", „boom-alÄhnliChe"). Manueller
+  Sprachputz stattdessen.
+- glazialmorphologie-ueberblick.md: „synergetismo Eiseinheit", „einä Jahresabfluss",
+  „Alpen-Golassereie-Series/Veilchen-Penck", „Parabelrisse/Kiglental/Areth/Rostrand",
+  „Diagnose von Gletscherschmuggel", „EoZ-Linie", „Wiirde-Formen", Moränen-Tabelle
+  („Knöllchenfront", „Sandrhänner", „Schmelzgering") — alles ersetzt durch korrekte Begriffe
+  (Geschiebe, Striemungen, Penck-Serie, Rundhöcker, Hängetal, Frostsprengung, …)
+- glaziale-serie.md: „hCu halu", „Holz-Line", „Gummiboden", „Laschrigen", „Gergelenk",
+  „boom-alähnliChe Zone", „Plainland/Alpenplättler", „verknÜpfen", „Glatzeal … 복습" —
+  bereinigt; Endmoräne/Sander/Urstromtal/Zungenbecken sauber neu formuliert
+- moränen-und-gletscherformen.md: „schüttungsdynorgt-argig", „anGrenz", „vorstarr-zeitlich",
+  „Gletscherschulterbahn", „Nährgebit", „Wirigkeiten", „gräsern/kreidestrichig" — bereinigt
+- permafrost-und-solifluktion.md: „präfekulter Schmierungsschicht", „Hangflucht",
+  „Krawall", „Löschufen", „Lönche", „SPIG-Collection", „Okmad.", „V/a", „Bulun",
+  „Fl^-zonen", „Gletscher-Vorderrand-Smandliche" — bereinigt
+- karstlandschaft.md: „바트뒤셀도르프" (korean. Zeichen) entfernt
+- Wiki-weite Zusatzsuche: weitere korean. Zeichen in Biogeographie, Boden, GIS,
+  Vulkanismus-Überblick, Skizzen entfernt (Commit 8d561c7)
+- Nächste Schritte: HTML-Export-Neubau (Punkt 3)
