@@ -22,7 +22,7 @@ sources: []
 | **Vulkanlandschaft** | Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island) | [[vulkan-raumbeispiele]] |
 | **Glaziallandschaft** | Alpen (Grosser Aletsch, Schweiz), Norddeutsches Tiefland (Skandisches Inlandeis), Island (Vatnajökull) | [[glazial-raumbeispiele]] |
 | **Flusslandschaft** | Elbe (Hochwasser 2002), Rhein (Regulierung/Rückhaltebecken), Donau-Delta | [[fluss-raumbeispiele]] |
-| **Küstenlandschaft** | Nordsee (Degerfors, St. Peter-Ording), Ostsee (Fehmarn) | ← kommt später |
+| **Küstenlandschaft** | Nordsee (Sturmfluten/Deiche), Sylt (Inselwanderung), Ostsee (Steilküste), Niederlande (Deltawerke) | [[kuesten-raumbeispiele]] |
 | **Karstlandschaft** | Karstgebiete (Rhön, Fränkische Schweiz), Slowenien (Postojna) | ← kommt später |
 
 ---
@@ -55,7 +55,6 @@ Der Bildungsplan LK verlangt konkret (§3.5.2.1 + §3.4.3.2 BK):
 
 ## Nächste Schritte
 
-- **Küstenlandschaft**: Raumbeispiele (Nordsee-Küste, Küstenschutz)
 - **Karstlandschaft**: Raumbeispiele (Rhön, Fränkische Schweiz, Slowenien)
 
-Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkan-raumbeispiele]], [[glazial-raumbeispiele]], [[fluss-raumbeispiele]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]]
+Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkan-raumbeispiele]], [[glazial-raumbeispiele]], [[fluss-raumbeispiele]], [[kuesten-raumbeispiele]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]]

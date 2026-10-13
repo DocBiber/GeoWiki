@@ -65,6 +65,7 @@ folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen 
 - vulkan-raumbeispiele — Vulkanraum-Beispiele (Vesuv, Kilauea, Laacher See, Eyafjöll)
 - glazial-raumbeispiele — Glazialraum-Beispiele (Alpen, Norddeutschland, Island)
 - fluss-raumbeispiele — Flussraum-Beispiele (Elbe-Hochwasser 2002, Rhein-Regulierung, Donaudelta)
+- kuesten-raumbeispiele — Küstenraum-Beispiele (Nordsee-Sturmflut, Sylt, Ostsee-Steilküste, Deltawerke)
 
 ### Entitätstypen
 - vulkan — ein Vulkan / Vulkanismo-Objekt

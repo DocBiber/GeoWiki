@@ -49,3 +49,11 @@
 - SCHEMA.md: Tag fluss-raumbeispiele in Taxonomie eingetragen
 - Medien: Unsplash-/Commons-Galerien verlinkt; YouTube-Animationen folgen beim nächsten Medienlauf (M3-Muster)
 - Nächste Schritte: Küstenlandschaft, Karstlandschaft-Raumbeispiele, YouTube-Medien für Flussseite
+
+## [2026-10-13] create | Küstenlandschaft als Raumbeispiel angelegt (M5 fortgesetzt)
+- concepts/raumbeispiele/kuesten-raumbeispiele.md — 4 Beispiele: Nordsee (Sturmfluten 1954/1962/Xaver, Deiche, Sperrwerke, Wattenmeer-Welterbe, „Schutz + Anpassung"), Sylt (Inselwanderung, Sandaufspülung, Dünenstabilisierung, Tourismus-Dauersiedlungen), Ostsee (Steilküste Fehmarn/Waabs, Wellenschlag-Abbruch, fehlende Tide, isostatische Landhebung), Niederlande (Deltawerke nach 1953, „Room for the River") + Vergleichstabelle + LK-Hinweisen
+- index.md: Eintrag ergänzt, aus „NOCH LEER" entfernt (nur Karst-Raumbeispieldatei bleibt offen)
+- uebersicht-raumbeispiele.md: Küstenzeile auf Live-Status gesetzt, Verknüpfung ergänzt
+- SCHEMA.md: Tag kuesten-raumbeispiele in Taxonomie eingetragen
+- Medien: Unsplash-/Commons-Galerien verlinkt; YouTube-Animationen folgen beim nächsten Medienlauf (M3-Muster)
+- Nächste Schritte: Karstlandschaft-Raumbeispiele, YouTube-Medien für Fluss- und Küstenseite
