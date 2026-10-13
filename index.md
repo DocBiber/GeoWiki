@@ -2,7 +2,7 @@
 
 > Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg,
 > ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).
-> Domain: Physische Geografie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
+> Domain: Physische Geografie (Vulkanismus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
 > Letztes Update: 2026-10-13 | Gesamtseiten: 26
 
 ## BILDUNGSPLAN-RAHMEN
@@ -13,7 +13,7 @@
 
 ## VULKANSISMUS (Formen und Prozesse)
 
-- [[vulkansimus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
+- [[vulkanismus-ueberblick]] — Vulkanismus: Grundbegriffe, Ursachen, Magma, Gesamtübersicht
 - [[vulkanarten]] — Vulkanformen: Schildvulkan, Schichtvulkan, Caldera, Maar, Hot Spot
 - [[vulkanprozesse]] — explosiver vs. effusiver Vulkanismus, Förderprodukte, Gefahren
 

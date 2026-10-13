@@ -137,7 +137,7 @@ Für den Abiturbezug (Kompetenz 3.5.2.2 (1)): SuS sollen lokale Wetterlagen anha
 - [[klimawandel]] — Klimawandel: Ursachen, Dimensionen, Anpassungsstrategien (3.5.3.2)
 - [[globalisierung-anthroposphaere]] — Globalisierung und Entwicklungen in der Anthroposphäre (3.5.2.6)
 - [[disparitaet-entwicklungen]] — Disparitäre Entwicklungen und Entwicklungszusammenarbeit (3.5.3.4)
-- [[vulkanismus-ueberblick]] — Vulkansimus als Gegenstück: endogene Prozesse
+- [[vulkanismus-ueberblick]] — Vulkanismus als Gegenstück: endogene Prozesse
 - [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Eiszeiten und Klimageschichte
 
 ## Offene Fragen

@@ -1,9 +1,9 @@
 ---
 title: Vulkanismus — Überblick (Geografie LK)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-13
 type: concept
-tags: [vulkanismus, prozesse, raumbeispiele]
+tags: [vulkanismus, prozesse, raumbeispiele, vulkan-raumbeispiele, tektonik, magma, lava]
 sources: []
 ---
 
@@ -20,6 +20,12 @@ Man unterscheidet:
 - **Effusiver Vulkanismus:** flüssige Lava, geringe Fragmentierung, z.B. Schildvulkane (Hawaii)
 - **Explosiver Vulkanismus:** hoher gasförmiger Druck, fragmentierte Eruption (Tephra), z.B. Schichtvulkane
 
+Nach dem Wirkungsbereich zusätzlich:
+- **Endokrater Vulkanismus** (subvolkanisch): Magmaintrusionen in der Kruste ohne
+  Oberflächenaktivität → plutonische Gesteine (Granit, Diorit, Gabbro)
+- **Exokrater Vulkanismus** (effusiv/explosiv): Magmaintritt an die Erdoberfläche →
+  Vulkanausbrüche, Lavaströme, Pyroklastik
+
 ## Ursachen und geodynamische Kontexte
 
 Der Magma-Aufstieg ist an Plattentektonik gebunden. Die drei Hauptkontexte (raumbezogen im LK):
@@ -30,8 +36,8 @@ Der Magma-Aufstieg ist an Plattentektonik gebunden. Die drei Hauptkontexte (raum
 - Vulkan-Typ: oft effusive Basaltlavas, Schildvulkane, Riftvulkane
 
 ### 2. Konvergente Plattenränder (Subduktionszonen)
-- Eine Platte schiebt sich unter eine andere → wassertragende lithosphäre schmilzt → Magma entsteht
-- **Beispiele:** pazifischer Feuerring (Japan, Alaska, Kascade, Andes, Philippinen)
+- Eine Platte schiebt sich unter eine andere → wassertragende Lithosphäre schmilzt → Magma entsteht
+- **Beispiele:** pazifischer Feuerring (Japan, Alaska, Kaskade, Andes, Philippinen)
 - Vulkan-Typ: Schichtvulkane (Strato vulkanen), oft explosiv, undeutsche/wasseralkalische Magmen
 
 ### 3. Hot Spots (Plumpunkte)
@@ -45,14 +51,29 @@ in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 
 ## Vulkanische Förderprodukte
 
-| Produkt | Beschreibung |
+|| Produkt | Beschreibung |
 |---|---|
-| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200 °C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös) |
-| **Tephra (fragmentierte Produkte)** | Asche (<2 mm), Lapilli (2–64 mm), Brocken/Bomben (>64 mm) — bei explosionsvulkanischem Ausbruch |
-| **Pyroklastische Ströme** | Heiße, dichte Mischung aus Gas+Tephra, bis 700 km/h — tödlichste Gefahr |
-| **Pyroklastische Fälle** | Fällende Tephra (Aschefall, Lahare) |
-| **Gase** | H₂O, CO₂, SO₂, HCl, HF — lokales + regionales Klima-Gas (Aerosol) |
-| **Lahare** | Vulkanischer Schlammfluss (Gemisch Asche+Wasser nach Regen oder Schmelze eines Gletschers) |
+|| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200 °C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös) |
+|| **Tephra (fragmentierte Produkte)** | Asche (<2 mm), Lapilli (2–64 mm), Brocken/Bomben (>64 mm) — bei explosionsvulkanischem Ausbruch |
+|| **Pyroklastische Ströme** | Heiße, dichte Mischung aus Gas+Tephra, bis 700 km/h — tödlichste Gefahr |
+|| **Pyroklastische Fälle** | Fällende Tephra (Aschefall, Lahare) |
+|| **Gase** | H₂O, CO₂, SO₂, HCl, HF — lokales + regionales Klima-Gas (Aerosol) |
+|| **Lahare** | Vulkanischer Schlammfluss (Gemisch Asche+Wasser nach Regen oder Schmelze eines Gletschers) |
+
+## Magmatypen & Eruptionsstile
+
+|| Magmatyp | SiO₂-Gehalt | Viskosität | Temperatur | Typische Eruption |
+|---|---|---|---|---|
+|| Felsit / Rhyolith | > 65 % | hoch | ~ 700–850 °C | Explosiv (Plinian, Peléan) |
+|| Dacit | 62–65 % | mittel-hoch | ~ 800–900 °C | Explosiv mit Lavaströmen |
+|| Andesit | 52–62 % | mittel | ~ 800–1000 °C | Grenzwertig, oft stratovulkanisch |
+|| Basalt | < 52 % | niedrig | ~ 1000–1200 °C | Effusiv (Schichtvulkan, Schildvulkan) |
+
+Eruptionsstile im Überblick (Details in [[vulkanprozesse]]):
+- **Explosiv:** Plinian (Hochkolonne, regionaler Aschenfall), Peléan (Lava-Dome, Kollaps),
+  Strombolianisch/Vulcanianisch (moderat, Bomben), phreatomagmatisch (Wasser-Magma-Interaktion, Maar-Bildung)
+- **Effusiv:** Lavaströme (Pahoehoe, Aa, Blocklava), Fissurausbrüche (Deccan-Trapp, Island),
+  Lavaseen
 
 ## Vulkanformen (Formen-Typen)
 
@@ -73,6 +94,14 @@ in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 - **Hot-Spot-Vulkan:** Zusammenhang Hot Spot (s. oben) — kein eigener Formtyp, sondern
   geodynamischer Kontext; typisch ist Schildvulkan; bei Kontinentalhotspot auch andere Formen.
 
+## Vulkanrisiken
+
+- Pyroklastische Strömungen.
+- Lahare (Vulkanmüller mit Wasser).
+- Vulkanasche (Flugzeug-Sicherheit, Klima).
+- Gase (SO₂, CO₂, Fluor).
+- Tsunamis (unterwasser Vulkanismus, Vulkankollaps).
+
 ## Kompetenzerwartung LK (Bildungsplan §3.5.2.1)
 
 Die Schülerinnen und Schüler können:
@@ -87,14 +116,17 @@ Die Schülerinnen und Schüler können:
 
 ## Raumbeispiele (LK-relevant)
 
-| Raum | Typ | Plattenkontext | Bemerkung |
+|| Raum | Typ | Plattenkontext | Bemerkung |
 |---|---|---|---|
-| Hawaii (Kilauea, Mauna Loa) | Schildvulkan | Hot Spot (Pazifik) | Aktiver, effusiv, gut beobachtet |
-| Island | Schildvulkan + Hot-Spot+Rift | Hot Spot + MOR-Rift | Eisfläche+ Vulkanismus, hitzeführend |
-| Ätna (Sizilien) | Schichtvulkan (mixed) | Subduktion Afrika in Eukras | Häufig aktiv, monument |
-| Vesuv (Italien) | Schichtvulkan | Subduktion Afra in Eukras | Historisch wichtig (79 n. Chr., Pompeji) |
-| Laacher See (Eifel) | Maar / Caldera | Kein FZ, aber intraplattform | Letzter Ausbruch ca. 13.000 J. — Bsp. für deutsche Vulkanologie |
-| Pazifischer Feuerring | Schichtvulkane-Kette | Subduktionszonen um Pazifik | Gipfel der Vulkanitätsdichte |
+|| Hawaii (Kilauea, Mauna Loa) | Schildvulkan | Hot Spot (Pazifik) | Aktiver, effusiv, gut beobachtet |
+|| Island | Schildvulkan + Hot-Spot+Rift | Hot Spot + MOR-Rift | Eisfläche+ Vulkanismus, hitzeführend |
+|| Ätna (Sizilien) | Schildvulkan (mixed) | Subduktion Afrika in Eukras | Häufig aktiv, monument |
+|| Vesuv (Italien) | Schichtvulkan | Subduktion Afra in Eukras | Historisch wichtig (79 n. Chr., Pompeji) |
+|| Laacher See (Eifel) | Maar / Caldera | Kein FZ, aber intraplattform | Letzter Ausbruch ca. 13.000 J. — Bsp. für deutsche Vulkanologie |
+|| Pazifischer Feuerring | Schichtvulkane-Kette | Subduktionszonen um Pazifik | Gipfel der Vulkanitätsdichte |
+
+Weitere Raumbezüge: **Pacific Ring of Fire** (~75 % der weltweiten Vulkane, subduktionsgetrieben),
+**Mittelozeanische Rücken** (effusive Basalt-Ausbrüche), **Hotspots** (Hawaii, Yellowstone, Island, Afar).
 
 ## Zusammenhang mit Glazialmorphologie und Vulnerabilität
 
@@ -110,6 +142,16 @@ Die Schülerinnen und Schüler können:
 - [[vulkan-raumbeispiele]] — Raumbeispiele im Detail
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume
 
+## Weiterführende Quellen
+
+- https://www.spektrum.de/lexikon/geographie/vulkanismus/430277
+- https://de.wikipedia.org/wiki/Vulkanismus
+
+## Offene Fragen
+
+- Wie beeinflussen Magmatyp und Tektonik den Eruptionstyp?
+- Welche Rolle spielt der Vulkanausbruch als Klimainteraktor?
+
 ---
 ## Bildmaterial
 
@@ -121,5 +163,4 @@ Die Schülerinnen und Schüler können:
 
 ### 📸 Fotos (Unsplash)
 
-[Fotogalerie: Fotogalerie: Vulkanausbrüche (Unsplash)](https://unsplash.com/s/photos/volcano-eruption)
-
+[Fotogalerie: Vulkanausbrüche (Unsplash)](https://unsplash.com/s/photos/volcano-eruption)

@@ -35,7 +35,7 @@ Grundlagen der Erddynamik, Komplexität des Systems, Wechselwirkungen.
 ### 3.5.2 Sphären im System Erde
 ausgehend vom Leitgedanken „Sphären“ werden die einzelnen Erdteilsysteme behandelt:
 
-- **3.5.2.1 Formen und Prozesse der Reliefsphäre** ← **Vulkansimus und Glazialmorphologie**
+- **3.5.2.1 Formen und Prozesse der Reliefsphäre** ← **Vulkanismus und Glazialmorphologie**
   behandelt hier: Vulkanlandschaft, Glaziallandschaft, Flusslandschaft, Küstenlandschaft, Karstlandschaft
 - **3.5.2.2 Prozesse in der Atmosphäre**
 - **3.5.2.3 Prozesse in der Hydrosphäre**

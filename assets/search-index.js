@@ -4,7 +4,7 @@ window.SEARCH_INDEX = [
 "u": "index.html",
 "c": "concept",
 "d": "- bildungsplan-2016-lk",
-"x": "Geografie Wiki — Leistungskurs BW (Bildungsplan 2016) Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg, ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023). Domain: Physische Geografie (Vulkansimus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen. Letztes Update: 2026-10-13 Gesamtseiten: 26 BILDUNGSPLAN-RAHMEN - bildungsplan-20"
+"x": "Geografie Wiki — Leistungskurs BW (Bildungsplan 2016) Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg, ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023). Domain: Physische Geografie (Vulkanismus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen. Letztes Update: 2026-10-13 Gesamtseiten: 26 BILDUNGSPLAN-RAHMEN - bildungsplan-20"
 },
 {
 "t": "Wiki Log",
@@ -147,18 +147,18 @@ window.SEARCH_INDEX = [
 "x": "Stadtgeographie — Grundlagen und Themen Überblick Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ökonomischen und kulturellen Einheiten — Struktur, Funktion, Entwicklung, Probleme und Zukunft urbaner Räume. Für den Geographie-LK (Bildungsplan 2016, BW) ist die Stadtgeographie relevant, besonders im Kontext von Globalisierung (3.5.2.6) und Urbanisierung. Bezug zum Spektr"
 },
 {
+"t": "Vulkanismus — Überblick (Geografie LK)",
+"u": "vulkanismus-ueberblick.html",
+"c": "Vulkansismus",
+"d": "Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma",
+"x": "Vulkanismus — Grundlagen und Überblick Definition Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma (brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der endogenen (tiefengeschoffen) Prozesse , die die Erdoberfläche formen. Man unterscheidet: - Effusiver V"
+},
+{
 "t": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren",
 "u": "vulkanprozesse.html",
 "c": "Vulkansismus",
 "d": "| Aspekt | Effusiver Vulkanismus | Explosiver Vulkanismus |",
 "x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolit, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstärke Leise, stromend (Font"
-},
-{
-"t": "Vulkanismus — Überblick (Geografie LK)",
-"u": "vulkansimus-ueberblick.html",
-"c": "Vulkansismus",
-"d": "Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma",
-"x": "Vulkanismus — Grundlagen und Überblick Definition Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma (brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der endogenen (tiefengeschoffen) Prozesse , die die Erdoberfläche formen. Man unterscheidet: - Effusiver V"
 },
 {
 "t": "Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat",
@@ -257,13 +257,6 @@ window.SEARCH_INDEX = [
 "c": "Vulkansismus",
 "d": "Die Form eines Vulkans ist das sichtbare Ergebnis von Magmazusammensetzung, Eruptionsstil,",
 "x": "Vulkanarten — Formen und Typen Einordnung Die Form eines Vulkans ist das sichtbare Ergebnis von Magmazusammensetzung, Eruptionsstil, Plattenkontext und geologischer Geschichte. Der Bildungsplan LK §3.5.2.1 nennt folgende Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Caldera, Hot Spot (welcher letzterer ein geodynamischer Kontext ist, keine eigene Form, aber als Kateg"
-},
-{
-"t": "\"Vulkanismus – Überblick\"",
-"u": "vulkanismus-ueberblick.html",
-"c": "concept",
-"d": "Der Vulkanismus umfasst alle Prozesse, bei denen Magma (flüssiges Gestein im Inneren der Erde) an die Oberfläche oder in die Erdkruste aufsteigt und dort erstarrt oder ausgasen. Man unterscheidet zwischen:",
-"x": "Definition Der Vulkanismus umfasst alle Prozesse, bei denen Magma (flüssiges Gestein im Inneren der Erde) an die Oberfläche oder in die Erdkruste aufsteigt und dort erstarrt oder ausgasen. Man unterscheidet zwischen: - Endokrater Vulkanismus (subvolkanisch): Magmaintrusionen in der Kruste ohne Oberflächenaktivität → plutonische Gesteine (Granit, Diorit, Gabbro). - Exokrater Vulkanismus (effusiv/ex"
 },
 {
 "t": "Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)",
