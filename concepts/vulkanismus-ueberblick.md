@@ -3,7 +3,7 @@ title: Vulkanismus — Überblick (Geografie LK)
 created: 2026-09-27
 updated: 2026-10-13
 type: concept
-tags: [vulkanismus, prozesse, raumbeispiele, vulkan-raumbeispiele, tektonik, magma, lava]
+tags: [vulkanismus, prozesse, raumbeispiele, vulkan-raumbeispiele, tektonik, magma]
 sources: []
 ---
 
@@ -12,16 +12,16 @@ sources: []
 ## Definition
 
 **Vulkanismus** (lat. *vulcanus* = Feuer) bezeichnet alle Prozesse, bei denen Magma
-(brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort
+(glutflüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort
 abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der
-**endogenen (tiefengeschoffen) Prozesse**, die die Erdoberfläche formen.
+**endogenen Prozesse**, die die Erdoberfläche formen.
 
 Man unterscheidet:
 - **Effusiver Vulkanismus:** flüssige Lava, geringe Fragmentierung, z.B. Schildvulkane (Hawaii)
 - **Explosiver Vulkanismus:** hoher gasförmiger Druck, fragmentierte Eruption (Tephra), z.B. Schichtvulkane
 
 Nach dem Wirkungsbereich zusätzlich:
-- **Endokrater Vulkanismus** (subvolkanisch): Magmaintrusionen in der Kruste ohne
+- **Endokrater Vulkanismus** (subvulkanisch): Magmaintrusionen in der Kruste ohne
   Oberflächenaktivität → plutonische Gesteine (Granit, Diorit, Gabbro)
 - **Exokrater Vulkanismus** (effusiv/explosiv): Magmaintritt an die Erdoberfläche →
   Vulkanausbrüche, Lavaströme, Pyroklastik
@@ -37,23 +37,23 @@ Der Magma-Aufstieg ist an Plattentektonik gebunden. Die drei Hauptkontexte (raum
 
 ### 2. Konvergente Plattenränder (Subduktionszonen)
 - Eine Platte schiebt sich unter eine andere → wassertragende Lithosphäre schmilzt → Magma entsteht
-- **Beispiele:** pazifischer Feuerring (Japan, Alaska, Kaskade, Andes, Philippinen)
-- Vulkan-Typ: Schichtvulkane (Strato vulkanen), oft explosiv, undeutsche/wasseralkalische Magmen
+- **Beispiele:** pazifischer Feuerring (Japan, Alaska, Kaskadenkette, Anden, Philippinen)
+- Vulkan-Typ: Schichtvulkane (Stratovulkanen), oft explosiv, unterschiedliche, wasserhaltige Magmen
 
-### 3. Hot Spots (Plumpunkte)
-- Lokale, fromen Mantelplümpchen (Plumes) schmelzen die Lithosphäre an einem Punkt über dem
+### 3. Hot Spots (Plumes)
+- Lokale, aufgeheizte Mantelplümpchen (Plumes) schmelzen die Lithosphäre an einem Punkt über dem
   normalen Plattengleiten
 - Platte bewegt sich über den Hot Spot → Vulkankette entsteht (Hawaii-Emperor-Kette)
 - **Beispiele:** Hawaii, Island, Yellowstone, Kanarische Inseln (kontinentaler Hot Spot)
 
 **Hot Spot vs. FZ:** Hot Spots können auch unter Kontinentalkruste auftreten (z.B. Yellowstone);
-in BW-relevanten Bespielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
+in BW-relevanten Beispielen ist Kilauea/Schildvulkan das Hauptreferenzobjekt.
 
 ## Vulkanische Förderprodukte
 
 || Produkt | Beschreibung |
 |---|---|
-|| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200 °C, niedrig-viskös), Andesit, Rhyolit/Dacit (hoch-viskös) |
+|| **Lava (vulkanische Flüssigkeit)** | Abhängig von Silikategehalt & Temperatur: Basalt (bis 1200 °C, niedrig-viskös), Andesit, Rhyolith/Dacit (hoch-viskös) |
 || **Tephra (fragmentierte Produkte)** | Asche (<2 mm), Lapilli (2–64 mm), Brocken/Bomben (>64 mm) — bei explosionsvulkanischem Ausbruch |
 || **Pyroklastische Ströme** | Heiße, dichte Mischung aus Gas+Tephra, bis 700 km/h — tödlichste Gefahr |
 || **Pyroklastische Fälle** | Fällende Tephra (Aschefall, Lahare) |
@@ -79,16 +79,16 @@ Eruptionsstile im Überblick (Details in [[vulkanprozesse]]):
 
 **Grundformen** (im Bildungsplan LK erwähnt):
 
-- **Schichtvulkan (Strato vulkan):** Aufbau aus abwechselnden Lava- und Tephra-Schichten,
+- **Schichtvulkan (Stratovulkan):** Aufbau aus abwechselnden Lava- und Tephra-Schichten,
   steile Hänge (bis 30–35°), typisch für Subduktionszonen. Explosive Eruptionen bevorzugt.
   Beispiele: Mount St. Helens, Mt. Fuji, Ätna, Vesuv, Cotopaxi.
-- **Schildvulkan:** ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Abbürtungen,
+- **Schildvulkan:** ausgedehnte, niedrige Flanke (2–10°), große Basaltlava-Austritte,
   effusive Eruption, wenig explosiv. Beispiele: Kilauea (Hawaii), Mauna Loa, Island.
 - **Caldera:** Einsenkung nach Sturz der Magmakammer / nach großem Ausbruch (Kollaps)
-  → Kruemme, oft gefüllt mit Wasser. Beispiele: Crater Lake (Oregon), Santorin, Krakatau.
+  → Krater, oft gefüllt mit Wasser. Beispiele: Crater Lake (Oregon), Santorin, Krakatau.
 - **Maar:** Eruption durch Gasdruck in unterem Grundwasserspiegel → Explosion, kreisrunde
   Mulde, oft gefüllt mit Wasser. Beispiele: Laacher See (Eifel — auch hier relevant!),
-  Daun Maare (Eifel).
+  Dauner Maare (Eifel).
 - **vulkanische Decke (Lava-Decke):** ausgedehnte flache Lava-Abfolgen, oft Basalt, z.B.
   Deccan-Traps (Indien), Columbia River Basalt Group (USA).
 - **Hot-Spot-Vulkan:** Zusammenhang Hot Spot (s. oben) — kein eigener Formtyp, sondern
@@ -119,9 +119,9 @@ Die Schülerinnen und Schüler können:
 || Raum | Typ | Plattenkontext | Bemerkung |
 |---|---|---|---|
 || Hawaii (Kilauea, Mauna Loa) | Schildvulkan | Hot Spot (Pazifik) | Aktiver, effusiv, gut beobachtet |
-|| Island | Schildvulkan + Hot-Spot+Rift | Hot Spot + MOR-Rift | Eisfläche+ Vulkanismus, hitzeführend |
-|| Ätna (Sizilien) | Schildvulkan (mixed) | Subduktion Afrika in Eukras | Häufig aktiv, monument |
-|| Vesuv (Italien) | Schichtvulkan | Subduktion Afra in Eukras | Historisch wichtig (79 n. Chr., Pompeji) |
+|| Island | Schildvulkan + Hot-Spot+Rift | Hot Spot + MOR-Rift | Eisfläche + Vulkanismus, Wärme führend |
+|| Ätna (Sizilien) | Schichtvulkan | Subduktion Afrikas unter Eurasien | Häufig aktiv, monumentaler Vulkan |
+|| Vesuv (Italien) | Schichtvulkan | Subduktion Afrikas unter Eurasien | Historisch wichtig (79 n. Chr., Pompeji) |
 || Laacher See (Eifel) | Maar / Caldera | Kein FZ, aber intraplattform | Letzter Ausbruch ca. 13.000 J. — Bsp. für deutsche Vulkanologie |
 || Pazifischer Feuerring | Schichtvulkane-Kette | Subduktionszonen um Pazifik | Gipfel der Vulkanitätsdichte |
 

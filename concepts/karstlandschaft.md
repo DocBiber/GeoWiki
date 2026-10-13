@@ -44,7 +44,7 @@ Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische
 
 - **Höhlen (Höhlen, Verstärke)**: Die bekannte Unterform — Räume, die durch Lösungstorung im Kalkgestein entstanden; oft Sekundärrohre, Höhlenverzweigungen
 - **Sturzhöhlen**: Einsturz von Höhlendecken
-- **Abflüsse / Karstquellen**: Wasser spurst unterirdisch, erscheint an bestimmten Stellen als Quellöffnung — oft fleischfressend (Al Poré), rasch verändernd
+- **Abflüsse / Karstquellen**: Wasser stürzt unterirdisch ab, erscheint an bestimmten Stellen als Quellöffnung — oft fleischfressend (Al Poré), rasch verändernd
 - **Speleothem — Höhleminerals**: Stalaktite (von Decke wachsend), Stalagmit (von Boden wachsend), Säulen (beides zusammen), Schalen, etc. — durch Ausfällung von CaCO₃ aus Wasser (wenn CO₂ entweicht, wird Kalk unlöslich und fällt aus)
 
 ## Englische Karst-Klassifikationen
@@ -78,7 +78,7 @@ Zwei bekannte Karst-Spektren:
 
 ## Verwandte Seiten
 
-- [[vulkanprozesse]] — vulkan-prozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
+- [[vulkanprozesse]] — Vulkanprozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
 - [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Vergleich mit Karst als Wind-/Wasserform
 - [[vulnerabilitaet-raumbeispiele]] — Vulnerabilität von Karsträumen (Gefährdung durch Wasser, etc.)
 - [[atmosphaere-wetter-klima]] — Niederschlag und Wasser als wichtiger Faktor für Karstbildung

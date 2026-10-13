@@ -96,7 +96,7 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 
 ### Sustainable Development Goals (SDGs — Agenda 2030)
 
-- 17 globale Ziele der Vereinten Nationen (2015–2030), die ein universelles Entwicklungsagenda für alle Länder (nicht nur Entwicklungsländer) definieren
+- 17 globale Ziele der Vereinten Nationen (2015–2030), die eine universelle Entwicklungsagenda für alle Länder (nicht nur Entwicklungsländer) definieren
 - Beispiele: Keine Armut (Ziel 1), Null-Hunger (2), Gesundheit (3), Bildung (4), Geschlechtergerechtigkeit (5), sauberes Wasser (6), nachhaltige Energie (7), menschenwürdige Arbeit (8), Industrie und Innovation (9), reduzierte Ungleichheiten (10), nachhaltige Städte (11), nachhaltiger Konsum (12), Klimahandlung (13), Leben unter Wasser (14), Leben an Land (15), Frieden und Institutionen (16), Partnerschaften (17)
 - **Grundidee**: Global, universell, integrativ — für alle Länder, mit Verankerung auch in Industrieländern
 

@@ -151,7 +151,7 @@ window.SEARCH_INDEX = [
 "u": "vulkanismus-ueberblick.html",
 "c": "Vulkanismus",
 "d": "Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma",
-"x": "Vulkanismus — Grundlagen und Überblick Definition Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma (brechanisches, flüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der endogenen (tiefengeschoffen) Prozesse , die die Erdoberfläche formen. Man unterscheidet: - Effusiver V"
+"x": "Vulkanismus — Grundlagen und Überblick Definition Vulkanismus (lat. vulcanus = Feuer) bezeichnet alle Prozesse, bei denen Magma (glutflüssiges Gestein) von innen der Erde an die Oberfläche tritt und dort abkühlt bzw. ausgasend in die Atmosphäre gelangt. Der Vulkanismus ist ein Teil der endogenen Prozesse , die die Erdoberfläche formen. Man unterscheidet: - Effusiver Vulkanismus: flüssige Lava, ger"
 },
 {
 "t": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren",

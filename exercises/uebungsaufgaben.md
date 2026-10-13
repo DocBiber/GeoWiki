@@ -275,7 +275,7 @@ sources: []
 >
 > **Lösungshinweis:**
 > - Maar = phreatomagmatische Explosion (Grundwasser Oder Oberflächenwasser trifft Magma) →
-> Explosion, kreisrunde Mulde. Typische Kontext: intraplattiform, nicht an FZ.
+> Explosion, kreisrunde Mulde. Typischer Kontext: intraplattiform, nicht an FZ.
 > - Subduktionszonen-Vulkane haben undeutsch/wechselnde Wasser-Injektion durch abtauchende Platte →
 > andere Mechanismen, andere Formen (Schichtvulkan). Maar in Eifel, Deutschland ist intraplattiform,
 > nicht in Subduktionszone.

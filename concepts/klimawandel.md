@@ -53,7 +53,7 @@ Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander ve
 
 ### Atmosphäre
 
-- Veränderung der großräumigen Zirkulation (z. B. Verstärkung des Jetstreams?, Verschiebung der ITCZ, Änderungen im Monsun)
+- Veränderung der großräumigen Zirkulation (z. B. Verstärkung des Jetstreams, Verschiebung der ITCZ, Änderungen im Monsun)
 - Veränderung von Extremwetterstatistiken (Hitzewellen, Dürren, Starkregen)
 
 ### Hydrosphäre (Ozean und Wasser)

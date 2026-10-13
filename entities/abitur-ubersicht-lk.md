@@ -50,7 +50,7 @@ für die Abitur-Anforderungen. Typische Operatoren (Auszug):
 
 ---
 
-## Themenfelder für das Abitur- LK Geografie BW
+## Themenfelder für das Abitur-LK Geografie BW
 
 Aus dem Bildungsplan (Stand 2023, V2) lassen sich folgende Schwerpunkte für
 das LK-Abitur ableiten (insbesondere für „Formen und Prozesse der Reliefsphäre“ §3.5.2.1):

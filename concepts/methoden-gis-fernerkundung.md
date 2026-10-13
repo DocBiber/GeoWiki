@@ -77,7 +77,7 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 
 **Anwendungen:**
 - **Vegetationsindizes:** NDVI (Normalized Difference Vegetation Index) = (NIR - R) / (NIR + R) — zeigt Vegetationsdichte, -gesundheit; hoher Wert = dicht, gesund (Vorteil: einfach, gut verständlich)
-- **Veränderungsdetektion:** Vorher/Nachher Vergleich: Z. B. Epidemie-Detekektion, Degradierung, Urbanisierung
+- **Veränderungsdetektion:** Vorher-Nachher-Vergleich: Z. B. Epidemie-Detekektion, Degradierung, Urbanisierung
 - **Höhenmodelle:** LiDAR, Radar-Uplink — liefert digitales Höhenmodell (DEM), Hangneigung, Geländeanalyse
 - **Wasser / Überschwemmung:** Sentinel-1 (Radar) — flüssiges Wasser reflektiert anders als trockene Fläche; gut für Hochwasserkartierung
 - **Temperatur:** TIR — städtische Hitzeinseln, Landwirtschaft (Wasserstress), Vulkanismus (Thermalflächen)

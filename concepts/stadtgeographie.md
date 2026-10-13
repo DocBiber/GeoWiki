@@ -18,7 +18,7 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 
 ## Urbanisierung: Die wachsende Städtewelt
 
-**Urbanisierung:** Zunahme des Anteils der städtischen Bevölkerung an der Gesamtbevölkerung; weltweit beschleunigt seit dem 20. Jahrhundert. Heute leben mehr als die Hälfte der Weltbevölkerung in Städten (Stand ca. 2025: > 55%).
+**Urbanisierung:** Zunahme des Anteils der städtischen Bevölkerung an der Gesamtbevölkerung; weltweit beschleunigt seit dem 20. Jahrhundert. Heute leben mehr als die Hälfte der Weltbevölkerung in Städten (Stand ca. 2025: > 55 %).
 
 **Treiber:**
 - Landflucht (Abwanderung von ländlichen in städtische Gebiete) — wirtschaftliche Perspektiven, Bildung, Gesundheit, Infrastruktur
@@ -106,7 +106,7 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 ## Offene Fragen
 
 - Welche konkreten Städte-Beispiele für Abitur LK BW? (z. B. Stuttgart als Beispiel für Verkehrsproblematik, Nachhaltigkeit, Ballungsraum?)
-- Welche Städte in Entwicklungsländern als Beispiel (z. B. Sao Paulo, Mumbai, Lagos — Slums, Wachstum)?
+- Welche Städte in Entwicklungsländern als Beispiel (z. B. São Paulo, Mumbai, Lagos — Slums, Wachstum)?
 
 ---
 

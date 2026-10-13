@@ -30,7 +30,7 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, ökologisch (S-O-K).
   Überschwemmungsrückhaltung.
 - **Wasser-Management:** Rückhaltebecken, Regenwasser-Rückführung, Maßnahmen an Flussufern.
 - **Vulkan-Overwachung:** Seismische-stationen, Gasmessung, Satelliten (InSAR), Thermal-Bild;
-  Frühwarnsystem, Evakuierungsplan → direkt Frages des Hazard-Überschreitung, unten Risiko ↓.
+  Frühwarnsystem, Evakuierungsplan → direkt Frages der Hazard-Überschreitung, unten Risiko ↓.
 - **Permafrost-Anpassung:** klimaangepasste Infrastruktur, Warnsysteme, Beobachtungsnetz.
 
 ### 2. Vulnerabilitäts-Verringerung (exposition verringern)

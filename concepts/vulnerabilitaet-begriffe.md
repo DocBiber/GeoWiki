@@ -76,7 +76,7 @@ aus dem Ereignis zu lernen. Es ist das „konstruktive Gegenstück“ zur Vulner
 
 In der Geografie / Naturgefahrenforschung wird Resilienz oft in drei Ebenen unterteilt:
 
-1. **Robustheit (Widerstands-fähigkeit):** das System bleibt auch unter Schock-Status funktionsfähig (z.B. Hochwasserschutz).
+1. **Robustheit (Widerstandsfähigkeit):** das System bleibt auch unter Schock-Status funktionsfähig (z.B. Hochwasserschutz).
 2. **Anpassungsfähigkeit (Flexibilität):** Können schnell reagieren, Lücken schließen, anpassen.
 3. **Erholungsfähigkeit (Recovery):** nach dem Ereignis: Wiederaufbau, Rückkehr in Arbeitsfähigkeit.
 

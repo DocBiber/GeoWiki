@@ -50,7 +50,7 @@ sources: []
 | **Asche (<2 mm)** | Feinste Partikel | Aschefall über 1000 km; Flugverkehrs-Abschaltungen, Lungen-Belastung, Motor-Schäden |
 | **Lapilli (2–64 mm)** | Korngröße | Fallgefahr, Dachbelastung, lokale Verletzungsgefahr |
 | **Brocken/Bomben (>64 mm)** | Schwere Teile | Verletzungsgefahr in der Nähe; Bomben können >1 km fliegen (je nach Eruption) |
-| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700 °C, Geschwindigkeiten bis 700 km/h | Vollständige Zerstörung im Wegbereich — NA SOB (1902 Mt. Pelée, St. Pierre, 28.000 Tote); nicht ausweichbar |
+| **Pyroklastische Ströme (Pyroclastic Flow)** | Gas+Tephra-Mischung, 300–700 °C, Geschwindigkeiten bis 700 km/h | Vvollständige Zerstörung im Wegbereich — NA SOB (1902 Mt. Pelée, St. Pierre, 28.000 Tote); nicht ausweichbar |
 | **Pyroklastische Wellen / Surges** | Ähnlich wie Ströme, aber mit mehr Gas, höhere Reichweite | Verletzungsgefahr, Gebäudebeschädigung |
 | **Lahare (Vulkanischer Schlammfluss)** | Gemisch Aus Wasser + Vulkanasche/Brocken; entweder durch Regen oder Schmelze von E Grav an Vulkan | Hohe Zerstörungskraft, oft Flüsse verfolgend; Beispiele: Nevado del Ruiz 1985 (Armero, 23.000 Tote); oft bei Schichtvulkanen in Voralpen/-Gletscherselbst |
 
@@ -69,7 +69,7 @@ sources: []
 
 ### Direkte Gefahren (primär durch den Ausbruch)
 
-1. **Pyroklastische Ströme** — Todesfälle, vollständige Zerstörung, keine Evakuierung möglich.
+1. **Pyroklastische Ströme** — Todesfälle, vvollständige Zerstörung, keine Evakuierung möglich.
 2. **Aschefall** — Atemwege, Gebäude, Verkehr, Elektrische, Landwirtschaft.
 3. **Lava-Flüsse** — Zerstörung bei langsamer Geschwindigkeit; meist verdrängbar.
 4. **Lahare** — Wetterseitige Schlammlawine, oft weit ausbreitend, gefährdet Talbevölkerung.
@@ -120,9 +120,9 @@ Für das Leistungskurs-Leistungsbewertung (§3.5.2.1) müssen Schülerinnen und 
 
 > Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
 
-#### 🎬 A Day in Pompeii – Vollständige Animation der Eruption des Vesuvs (79 n. Chr.)
+#### 🎬 A Day in Pompeii – Vvollständige Animation der Eruption des Vesuvs (79 n. Chr.)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dY_3ggKg0Bc" frameborder="0" allowfullscreen title="A Day in Pompeii – Vollständige Animation der Eruption des Vesuvs (79 n. Chr.)"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dY_3ggKg0Bc" frameborder="0" allowfullscreen title="A Day in Pompeii – Vvollständige Animation der Eruption des Vesuvs (79 n. Chr.)"></iframe>
 
 *330.000 Besucher, immersive 3D-Therie-Installation; zeigt den 24-Stunden-Zyklus von Aschenfall, Pyroklastikströmen und Kollaps des Kamins.*
 

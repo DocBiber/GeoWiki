@@ -99,7 +99,7 @@ confidence: medium
 ### Resilienz-Maßnahmen
 
 - **Flussaufweitung**: Wiederherstellung von Aue und Retentionsraum („Rheinauen-Programm")
-- **Rückhaltebecken-Netz**: Polderkette am Oberrhein mit gesteuertem Fluten
+- **Rückhaltebecken-Netz**: Polderkette am Oberrhein mit gesteuerten Fluten
 - **Sturzflut-/Hochwasser-Vorhersage**: grenzüberschreitende Pegel-Kommunikation
 - **Lösung des Erosion-Senkung-Teufelskreises**: Geschiebezugaben, Sohlgleiten, Uferstabilisierung
 - **Klimaanpassung**: Szenarien für häufigere Extremhochwasser (Klimawandel verstärkt winterliche Niederschläge)

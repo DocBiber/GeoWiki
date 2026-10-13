@@ -44,9 +44,9 @@ Der Boden ist die oberste Schicht der Erdkruste, die durch die Wechselwirkung vo
 
 Die Bodenart beschreibt das Verhältnis von Sand, Schluff (Silt) und Ton in der Bodenmasse:
 
-- **Sandiger Boden:** Viel Sand (> 50%), wenig Schluff/Ton — gut durchlässig, wenig wasserhaltend, few nutrients — Schwierigkeiten für Pflanzen ohne Bewässerung
+- **Sandiger Boden:** Viel Sand (> 50 %), wenig Schluff/Ton — gut durchlässig, wenig wasserhaltend, few nutrients — Schwierigkeiten für Pflanzen ohne Bewässerung
 - **Schluffiger Boden (Staub / Schluff):** Zwischen sandig und tonig — gute Kulturfolge, moderate Wasserhaltung
-- **Toniger Boden:** Viel Ton (> 20-30%), viele kleine Partikel — gute Nährstoff- und Wasserhaltung, aber schlechte Drainage, verdichtet
+- **Toniger Boden:** Viel Ton (> 20-30 %), viele kleine Partikel — gute Nährstoff- und Wasserhaltung, aber schlechte Drainage, verdichtet
 - **Lehm:** Balance von Sand, Schluff, Ton — ideale Ackerfurche, gut für Landwirtschaft (Boden der Wahl)
 
 **Bodenart vs. Bodentyp:**
@@ -74,7 +74,7 @@ Der Boden ist ein Landschaftsmerkmal, das mit anderen Faktoren interagiert:
 
 ## Boden als Resource und Gefährdung
 
-- **Agrarisch:** Nahrungsmittelproduktion (Futter, Getreide, Gemüse) — 95% des Menschenunterhalts beruht auf Boden; Bodenfruchtbarkeit entscheidend für Ernährungssicherheit
+- **Agrarisch:** Nahrungsmittelproduktion (Futter, Getreide, Gemüse) — 95 % des Menschenunterhalts beruht auf Boden; Bodenfruchtbarkeit entscheidend für Ernährungssicherheit
 - **Ökologisch:** Kohlenstoffspeicher (Humus bindet CO₂), Wasserfilter und -speicher, Lebensraum für Bodenorganismen (Biodiversität)
 - **Gefährdungen:** Erosion, Verdichtung (landwirtschaftliche Maschinen), Verschmutzung (Schwermetalle, Pestizide, Industrieabfälle), Versiegelung (Siedlung, Straße), Klimaänderung (Trockenheit, Verwitterung)
 - **Bodenschutz:** Nachhaltige Landwirtschaft (mulchen, direkter Sitz, Fruchtfolge, Terrassierung an Hängen), Wiederherstellung degradierter Böden, Reduktion von Inputs

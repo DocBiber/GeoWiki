@@ -36,7 +36,7 @@ confidence: medium
 ### Küstenprozesse und Formen
 
 - **Gezeiten (Tide)**: Flut und Ebbe erzeichen Priele, Wattflächen, Sandbänke — periodische Überflutung des Watts; Salz- und Süßwasser-Mischzone
-- **Sturmflut**: Starkwind (Nordweststürme) drückt Wasser gegen die Küste + Springtide → Wasserstand bis 3–4 m über NN; Landesschutzdeiche brechen bei Versagen → katastrophale Überflutung
+- **Sturmflut**: Starkwind (Nordweststürme) drückt Wasser gegen die Küste + Springtide → Wasserstand bis 3–4 m über NN; Landesschutzdeiche brechen beim Versagen → katastrophale Überflutung
 - **Brandung und Küstenschutzwerke**: Wellenenergie formt Kliff, Sandstrand; Buhnen (Holz/Stahl, rechtwinklig zur Küste) bremsen küstenparallele Sandwanderung (Längstransport) → Sandablagerung vor den Buhnen, Erosion in den Buchten dazwischen
 - **Wellenschlag / Wellenauflauf**: Physikalischer Hauptprozess für Erosion und Formbildung (Sandbänke, Dünen)
 - **Halligen**: Kleine, unbedeichte Warften (Wohnhügel) im Wattenmeer — natürliche Retentionsflächen; Überflutung bei Sturmfluten ist hier der Normalfall
