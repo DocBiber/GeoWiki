@@ -3,100 +3,49 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Disparitäre Entwicklungen und Entwicklungszusammenarbeit — Geographie Wiki LK BW</title>
-  <style>
-    :root {
-      --bg: #fafafa;
-      --sidebar-bg: #f4f4f4;
-      --text: #1a1a1a;
-      --muted: #666;
-      --border: #ddd;
-      --link: #1a5fb4;
-      --wikilink: #b45f06;
-      --active-bg: #e8e8e8;
-      --code-bg: #f0f0f0;
-      --blockquote-border: #ccc;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      border-right: 1px solid var(--border);
-      padding: 1.5rem 1rem;
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 0.75rem 0;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .sidebar ul { list-style: none; padding: 0; margin: 0; }
-    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
-    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
-    .sidebar li a:hover { color: var(--link); }
-    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
-    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
-    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
-    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
-    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
-    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
-    .wikilink:hover { color: #8a4400; }
-    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
-    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .wiki-table th { background: #f0f0f0; font-weight: 600; }
-    .wiki-table tr:nth-child(even) td { background: #fafafa; }
-    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
-    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
-    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
-    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
-    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
-    h4 { font-size: 1rem; margin-top: 1rem; }
-    p { margin: 0.6rem 0; }
-    ul, ol { padding-left: 1.5rem; }
-    li { margin: 0.2rem 0; }
-    a { color: var(--link); }
-    a:hover { text-decoration: underline; }
-    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
-    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
-    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
-    .no-link { color: var(--muted); font-style: italic; }
-    img { max-width: 100%; }
-    @media (max-width: 768px) {
-      body { flex-direction: column; }
-      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
-      .main { padding: 1rem; }
-      .backlinks ul { columns: 1; }
-    }
-</style>
+  <title>Disparitäre Entwicklungen und Entwicklungszusammenarbeit — Geografie Wiki</title>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li class="active"><a href="disparitaet-entwicklungen.html"><strong>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</strong></a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
-  <main class="main">
-    <h1>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</h1>
-    <div class="meta">
-      <span>Typ: concept</span>
-      <span style="margin-left:auto"><span class="tag-badge">disparitaet</span><span class="tag-badge">entwicklung</span><span class="tag-badge">globale-ungleichheit</span><span class="tag-badge">entwicklungszusammenarbeit</span><span class="tag-badge">nachhaltigkeit</span></span>
-    </div>
-    <h1>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</h1>
-<h2>Überblick</h2>
+<header class="header">
+  <button class="header-menu-btn" data-sidebar-toggle aria-label="Navigation umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
+  <a class="brand" href="index.html"><span class="brand-mark">G</span><span class="brand-name">Geografie&nbsp;Wiki</span><span class="brand-sub">Geographie LK BW</span></a>
+  <div class="header-search">
+    <span class="search-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 3.5 3.5"/></svg></span>
+    <input type="search" data-search data-results=".header-search .search-results"
+           placeholder="Suchen …" aria-label="Wiki durchsuchen" autocomplete="off">
+    <div class="search-results" role="listbox"></div>
+  </div>
+  <div class="header-actions">
+    <a class="icon-btn" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener" title="GitHub-Repository" aria-label="GitHub-Repository"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg></a>
+    <button class="icon-btn" onclick="window.WIKI.toggleTheme()" title="Dark Mode umschalten" aria-label="Dark Mode umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9z"/></svg></button>
+  </div>
+</header>
+<div class="layout" data-slug="disparitaet-entwicklungen" data-title="Disparitäre Entwicklungen und Entwicklungszusammenarbeit">
+  <div class="overlay"></div>
+<aside class="sidebar"><a class="nav-home" href="index.html"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 9 10 3.5 16.5 9v7.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z"/><path d="M8 17.5v-5h4v5"/></svg> Startseite</a><h3>Themen</h3><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-0"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Bildungsplan-rahmen</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-0"><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a><button class="fav-star" data-fav="bildungsplan-2016-lk" title="Zu Favoriten">★</button></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a><button class="fav-star" data-fav="kompenenzen-lk" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-1"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulkansismus</span><span class="cat-count">3</span></button><ul class="cat-items" id="cat-panel-1"><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a><button class="fav-star" data-fav="vulkansimus-ueberblick" title="Zu Favoriten">★</button></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a><button class="fav-star" data-fav="vulkanarten" title="Zu Favoriten">★</button></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a><button class="fav-star" data-fav="vulkanprozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-2"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Glazialmorphologie</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-2"><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a><button class="fav-star" data-fav="glazialmorphologie-ueberblick" title="Zu Favoriten">★</button></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a><button class="fav-star" data-fav="glaziale-serie" title="Zu Favoriten">★</button></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a><button class="fav-star" data-fav="moränen-und-gletscherformen" title="Zu Favoriten">★</button></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a><button class="fav-star" data-fav="permafrost-und-solifluktion" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-3"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulnerabilität &amp; Resilienz</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-3"><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a><button class="fav-star" data-fav="vulnerabilitaet-begriffe" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a><button class="fav-star" data-fav="vulnerabilitaet-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a><button class="fav-star" data-fav="vulnerabilitaet-vulkanraume" title="Zu Favoriten">★</button></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a><button class="fav-star" data-fav="resilienz-massnahmen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-4"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Boden &amp; Wasser</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-4"><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a><button class="fav-star" data-fav="boden-und-boden" title="Zu Favoriten">★</button></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a><button class="fav-star" data-fav="wasserhaushalt" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-5"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Atmosphäre &amp; Klima</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-5"><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a><button class="fav-star" data-fav="atmosphaere-wetter-klima" title="Zu Favoriten">★</button></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a><button class="fav-star" data-fav="klimawandel" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-6"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Geographische Methoden</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-6"><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a><button class="fav-star" data-fav="methoden-gis-fernerkundung" title="Zu Favoriten">★</button></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a><button class="fav-star" data-fav="stadtgeographie" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="true" aria-controls="cat-panel-7"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Globalisierung &amp; Entwicklung</span><span class="cat-count">2</span></button><ul class="cat-items open" id="cat-panel-7"><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a><button class="fav-star" data-fav="globalisierung-anthroposphaere" title="Zu Favoriten">★</button></li><li><a href="disparitaet-entwicklungen.html" class="active">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a><button class="fav-star" data-fav="disparitaet-entwicklungen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-8"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Raumbeispiele</span><span class="cat-count">6</span></button><ul class="cat-items" id="cat-panel-8"><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a><button class="fav-star" data-fav="uebersicht-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a><button class="fav-star" data-fav="vulkan-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a><button class="fav-star" data-fav="glazial-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="fluss-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="kuesten-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a><button class="fav-star" data-fav="karstlandschaft" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-9"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Skizzen</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-9"><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a><button class="fav-star" data-fav="uebersicht-skizzen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-10"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vergleiche</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-10"><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a><button class="fav-star" data-fav="vergleich-vulkan-gletscher-prozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-11"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Abitur &amp; Übung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-11"><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a><button class="fav-star" data-fav="abitur-aufgaben" title="Zu Favoriten">★</button></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a><button class="fav-star" data-fav="uebungsaufgaben" title="Zu Favoriten">★</button></li></ul><h3>Favoriten</h3><ul id="fav-list"></ul><h3>Zuletzt angesehen</h3><ul id="recent-list"></ul><h3>Links</h3><a class="ext-link" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg> Repository</a><a class="ext-link" href="https://docbiber.github.io/GeoWiki/" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Online-Version</a></aside>
+  <main class="content">
+    <div class="content-inner">
+      <nav class="breadcrumb" aria-label="Brotkrumen"><a href="index.html">Startseite</a> <span class="sep">/</span> <a href="index.html#cat-globalisierung-entwicklung-3526-3534">Globalisierung &amp; Entwicklung</a> <span class="sep">/</span> <span class="current">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</span></nav>
+      <div class="page-head">
+        <div class="page-title-row">
+          <h1>Disparitäre Entwicklungen und Entwicklungszusammenarbeit</h1>
+          <button class="fav-btn" data-fav aria-label="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg></button>
+        </div>
+        <p class="page-desc">Disparität bezeichnet die Ungleichheit von Räumen (und Gesellschaften) in ihrer Entwicklung — ökonomisch, sozial, ökologisch, politisch. Für den Geografie-LK (Bildungsplan 2016, Kap. 3.5.3.4) sind drei Kompetenzbereiche </p>
+        <div class="page-meta">
+  <span class="type-badge">concept</span>
+  <span class="tag-badge">disparitaet</span><span class="tag-badge">entwicklung</span><span class="tag-badge">globale-ungleichheit</span><span class="tag-badge">entwicklungszusammenarbeit</span><span class="tag-badge">nachhaltigkeit</span>
+  <span>GLOBALISIERUNG &amp; ENTWICKLUNG (3.5.2.6 + 3.5.3.4) · erstellt 2026-09-30 · aktualisiert 2026-09-30</span>
+  <div class="page-actions">
+    <button class="text-btn" data-fav title="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg> Favorit</button>
+    <button class="text-btn" data-copy-link title="Link kopieren"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Link kopieren</button>
+  </div>
+</div>
+      </div>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#ueberblick">Überblick</a></li><li><a href="#raeume-unterschiedlichen-entwicklungsstandes">Räume unterschiedlichen Entwicklungsstandes</a></li><li><a href="#entwicklungsindikatoren">Entwicklungsindikatoren</a></li><li><a href="#klassifikation-von-raeumen">Klassifikation von Räumen</a></li><li><a href="#beispiele-fuer-raeume-unterschiedlichen-entwicklungsstandes">Beispiele für räume unterschiedlichen Entwicklungsstandes</a></li><li><a href="#ursachen-fuer-disparaere-entwicklungen">Ursachen für disparäre Entwicklungen</a></li><li><a href="#folgen-disparaerer-entwicklungen">Folgen disparärer Entwicklungen</a></li><li><a href="#entwicklungstheorien">Entwicklungstheorien</a></li><li><a href="#dependenztheorie">Dependenztheorie</a></li><li><a href="#modernisierungstheorie">Modernisierungstheorie</a></li><li><a href="#fragmentierungstheorie">Fragmentierungstheorie</a></li><li><a href="#entwicklungsstrategien">Entwicklungsstrategien</a></li><li><a href="#nachhaltige-entwicklung">Nachhaltige Entwicklung</a></li><li><a href="#sustainable-development-goals-sdgs-agenda-2030">Sustainable Development Goals (SDGs — Agenda 2030)</a></li><li><a href="#entwicklungszusammenarbeit-strategien">Entwicklungszusammenarbeit — Strategien</a></li><li><a href="#bewertung-von-entwicklungsprojekten">Bewertung von Entwicklungsprojekten</a></li><li><a href="#beispiele-fuer-projekttypen-zur-abiturbewertung-geeignet">Beispiele für Projekttypen (zur Abiturbewertung geeignet)</a></li><li><a href="#verwandte-seiten">Verwandte Seiten</a></li><li><a href="#offene-fragen">Offene Fragen</a></li><li><a href="#bildmaterial">Bildmaterial</a></li><li><a href="#fotos-unsplash">📸 Fotos (Unsplash)</a></li></ul></details>
+      <article class="wiki-body">
+<h2 id="ueberblick">Überblick</h2>
 <p><strong>Disparität</strong> bezeichnet die Ungleichheit von Räumen (und Gesellschaften) in ihrer Entwicklung — ökonomisch, sozial, ökologisch, politisch. Für den Geografie-LK (Bildungsplan 2016, Kap. 3.5.3.4) sind drei Kompetenzbereiche zentral:</p>
 <ol>
 <li><strong>Räume unterschiedlichen Entwicklungsstandes im Globalisierungsprozess analysieren</strong></li>
@@ -104,27 +53,27 @@
 <li><strong>Projekte der Entwicklungszusammenarbeit vor dem Hintergrund von Entwicklungsstrategien bewerten</strong></li>
 </ol>
 <blockquote>Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.3.4 „Globale Herausforderungen: Disparitäre Entwicklungen“ — SuS können die Ursachen für disparäre Entwicklungen in der Einen Welt und deren Auswirkungen erläutern sowie Maßnahmen der Entwicklungszusammenarbeit bewerten.</blockquote>
-<h2>Räume unterschiedlichen Entwicklungsstandes</h2>
-<h3>Entwicklungsindikatoren</h3>
+<h2 id="raeume-unterschiedlichen-entwicklungsstandes">Räume unterschiedlichen Entwicklungsstandes</h2>
+<h3 id="entwicklungsindikatoren">Entwicklungsindikatoren</h3>
 <p>Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:</p>
 <ul>
 <li><strong>Bruttonationaleinkommen (BNE) / Bruttonationalprodukt (BNP)</strong>: Gesamtproduktionswert einer Volkswirtschaft; BNE pro Kopf als Indext für durchschnittlichen Wohlstand (aber keine Verteilungsaussage!)</li>
 <li><strong>Human Development Index (HDI — Human Development Index, auch VSL — Entwicklungsindex)</strong>: Zusammengesetzter Index nach UNDP; kombiniert Lebenserwartung, Bildung (Erwachsenenbildung + Schuleinschreibung) und Kaufkraftparitäts-BNE pro Kopf; gibt mehr als nur Einkommen</li>
 <li><strong>Human Sustainable Development Index (HSDI — auch Sustainable Development Index)</strong>: Erweiterter Index, der ökologische Nachhaltigkeit einbezieht (Ressourcenverbrauch, CO₂-Emissionen je Kopf) neben den HDI-Komponenten; kritisch: hohe Entwicklung auf Kosten der Umwelt kompensiert nicht nachhaltige Entwicklung</li>
 </ul>
-<h3>Klassifikation von Räumen</h3>
+<h3 id="klassifikation-von-raeumen">Klassifikation von Räumen</h3>
 <ul>
 <li><strong>Globaler Norden / Globale Süden</strong>: Vereinfachtes Modell, unterscheidet Industrie-/Schwellenländer (oft globale Nordhälften) von ärmeren Entwicklungsländern (oft globale Südhalften) — nicht geografisch, sondern entwicklungspolitisch definiert</li>
 <li><strong>Schildkrötenmodell / Dreiteilung</strong>: Industrieländer (ADL), Schwellenländer (SWC — Newly Industrialized Countries), Entwicklungsländer (EL, auch LIC — Low Income Countries)</li>
 <li><strong>Nach HDI</strong>: sehr hoher HDI, hoher HDI, mittlerer HDI, niedriger HDI</li>
 </ul>
-<h3>Beispiele für räume unterschiedlichen Entwicklungsstandes</h3>
+<h3 id="beispiele-fuer-raeume-unterschiedlichen-entwicklungsstandes">Beispiele für räume unterschiedlichen Entwicklungsstandes</h3>
 <ul>
 <li><strong>hoher Entwicklungsstand</strong>: Deutschland, Japan, Skandinavien, Kanada, Australien — hohes Einkommen, gute soziale Systeme, langlebige, niedrige Geburtenrate, hohe Bildung</li>
 <li><strong>Mittlerer Entwicklungsstand</strong>: viele lateinamerikanische Länder, Südafrika, Teile Asiens (z. B. Thailand, Brasilien, Mexiko, Indien — letzteres Sehr ungleich intern)</li>
 <li><strong>niedriger Entwicklungsstand</strong>: viele Länder Subsahara-Afrikas (z. B. Niger, Angola, Tschad), einige Länder Südasiens und kleines Inselstaaten</li>
 </ul>
-<h3>Ursachen für disparäre Entwicklungen</h3>
+<h3 id="ursachen-fuer-disparaere-entwicklungen">Ursachen für disparäre Entwicklungen</h3>
 <h4>Endogene Ursachen (innerstaatlich)</h4>
 <ul>
 <li>Politische Instabilität, Konflikte, Kriege</li>
@@ -142,7 +91,7 @@
 <li><strong>Globale Machtstrukturen und institutionen</strong>: WTO, IWF, Weltbank — kritisch gesehen oft Nord-lastig in Entscheidungsstruktur</li>
 <li><strong>Klimawandel</strong>: Traf Entwicklungsländer oft stärker, obwohl sie weniger verursacht haben (Klimajustiz-Frage)</li>
 </ul>
-<h3>Folgen disparärer Entwicklungen</h3>
+<h3 id="folgen-disparaerer-entwicklungen">Folgen disparärer Entwicklungen</h3>
 <ul>
 <li><strong>Migration</strong>: Wirtschaftsmigration, Flucht aufgrund von Konflikt oder Umweltfolgen (Migration als Folge und Ausdruck disparität)</li>
 <li><strong>Armut</strong>: Mangelndes Einkommen, Zugang zu Bildung, Gesundheit, sauberem Wasser, Nahrungssicherheit</li>
@@ -151,35 +100,35 @@
 <li><strong>Konfliktpotenzial</strong>: Ressourcenknappheit, Ungleichheit, politische Instabilität können Konflikte fördern</li>
 <li><strong>Verfestigung globale Ungleichheiten</strong>: Durch geringe Wirtschaftskraft, eingeschränkte Handelsmöglichkeiten, ungleiche Partizipation an globalen Entscheidungen</li>
 </ul>
-<h2>Entwicklungstheorien</h2>
-<h3>Dependenztheorie</h3>
+<h2 id="entwicklungstheorien">Entwicklungstheorien</h2>
+<h3 id="dependenztheorie">Dependenztheorie</h3>
 <ul>
 <li><strong>Kernthese</strong>: Entwicklungsländer sind in eine ungleiche Abhängigkeit von industrialisierten Ländern (Kern-Peripherie-Struktur) versetzt; Ausbeutung durch Handelsbeziehungen, Kapitalflüsse, Technologiekontrolle → Entwicklung wird gehemmt, nicht gefördert</li>
 <li><strong>Implikation für Entwicklung</strong>: Brechung der Abhängigkeit, Industrialisierung, autonome Entwicklung, Schutz vor ausländischem Kapital</li>
 </ul>
-<h3>Modernisierungstheorie</h3>
+<h3 id="modernisierungstheorie">Modernisierungstheorie</h3>
 <ul>
 <li><strong>Kernthese</strong>: Entwicklung erfolgt durch den Übergang von traditionellen zu modernen Gesellschaften; Industrialisierung, Technologie, Bildung, Kapitalinvestition sind Schüssel diese Entwicklung; Entwicklungsländer können und sollten den Weg der industrialisierten Länder nachvollziehen</li>
 <li><strong>Implikation</strong>: Transfer von Kapital, Technologie, Institutionenhilfe → EntwIcklung durch Markt und Modernisierung</li>
 </ul>
-<h3>Fragmentierungstheorie</h3>
+<h3 id="fragmentierungstheorie">Fragmentierungstheorie</h3>
 <ul>
 <li><strong>Kernthese</strong>: Die moderne Weltwirtschaft fragmentiert sich zunehmend; Märkte spalten sich, globale Ordnung wird fragmentiert; Diversifizierung von Wirtschaftsblöcken, Protektionismus, regionale Integration statt globaler Integration</li>
 <li><strong>Implikation</strong>: Regionale statt globale Lösungen, Abkehr von der Idee eines einheitlichen Weltmarktes</li>
 </ul>
-<h2>Entwicklungsstrategien</h2>
-<h3>Nachhaltige Entwicklung</h3>
+<h2 id="entwicklungsstrategien">Entwicklungsstrategien</h2>
+<h3 id="nachhaltige-entwicklung">Nachhaltige Entwicklung</h3>
 <ul>
 <li><strong>Definition</strong>: Entwicklung, die die Bedürfnisse der Gegenwart befriedigt, ohne die Möglichkeiten künftiger Generationen zu gefährden (Brundtland-Bericht 1987)</li>
 <li><strong>Grundsätze</strong>: Nachhaltiger Umgang mit Ressourcen, soziale Gerechtigkeit, ökologische Grenzen respektieren; drei Säulen: ökonomisch, sozial, ökologisch</li>
 </ul>
-<h3>Sustainable Development Goals (SDGs — Agenda 2030)</h3>
+<h3 id="sustainable-development-goals-sdgs-agenda-2030">Sustainable Development Goals (SDGs — Agenda 2030)</h3>
 <ul>
 <li>17 globale Ziele der Vereinten Nationen (2015–2030), die ein universelles Entwicklungsagenda für alle Länder (nicht nur Entwicklungsländer) definieren</li>
 <li>Beispiele: Keine Armut (Ziel 1), Null-Hunger (2), Gesundheit (3), Bildung (4), Geschlechtergerechtigkeit (5), sauberes Wasser (6), nachhaltige Energie (7), menschenwürdige Arbeit (8), Industrie und Innovation (9), reduzierte Ungleichheiten (10), nachhaltige Städte (11), nachhaltiger Konsum (12), Klimahandlung (13), Leben unter Wasser (14), Leben an Land (15), Frieden und Institutionen (16), Partnerschaften (17)</li>
 <li><strong>Grundidee</strong>: Global, universell, integrativ — für alle Länder, mit Verankerung auch in Industrieländern</li>
 </ul>
-<h3>Entwicklungszusammenarbeit — Strategien</h3>
+<h3 id="entwicklungszusammenarbeit-strategien">Entwicklungszusammenarbeit — Strategien</h3>
 <ul>
 <li><strong>Hilfe zur Selbsthilfe</strong>: Stärkung der eigenen Kapazitäten (bildung, Institutionen, Infrastruktur) statt reiner Zufluss von Gütern</li>
 <li><strong>Nachholende Entwicklung</strong>: Unterstützung von Ländern, um Entwicklungsrückstände einzuholen</li>
@@ -187,7 +136,7 @@
 <li><strong>Dissoziationsstrategie</strong>: Abkehr von Abhängigkeiten, eigenständige Entwicklung, Verknüpfung mit Dependenztheorie</li>
 <li><strong>Land Grabbing</strong>: Geschichte und Kritik — große Ländereien des Anderen gekaufte oder angeborgte Land etwa ausländische Investore greifen — risks for local Communitys and food security</li>
 </ul>
-<h2>Bewertung von Entwicklungsprojekten</h2>
+<h2 id="bewertung-von-entwicklungsprojekten">Bewertung von Entwicklungsprojekten</h2>
 <p>Bei der Bewertung von Entwicklungsprojekten im Abitur (Kompetenz 3.5.3.4 (3)) sind folgende Fragen zentral:</p>
 <ol>
 <li><strong>Welche Entwicklungsstrategie liegt dem Projekt zugrunde?</strong> (Hilfe zur Selbsthilfe? Grundbedürfnisse? Nachhaltigkeit? Industrialisierung?)</li>
@@ -196,7 +145,7 @@
 <li><strong>Welche ökologischen, sozialen und ökonomischen Folgen hat das Projekt?</strong> Langfristigkeit, Verteilungsgerechtigkeit</li>
 <li><strong>Welche Machtverhältnisse wirken?</strong> (Geber vs. Empfänger, Interessen westlicher Geber, kommerzielle Interessen, Abhängigkeiten)</li>
 </ol>
-<h3>Beispiele für Projekttypen (zur Abiturbewertung geeignet)</h3>
+<h3 id="beispiele-fuer-projekttypen-zur-abiturbewertung-geeignet">Beispiele für Projekttypen (zur Abiturbewertung geeignet)</h3>
 <ul>
 <li><strong>Infrastrukturprojekte</strong> (Wasser, Energie, Straßen): Wichtig für Entwicklung, aber Risiken (Umwelt, Verschuldung, Nachhaltigkeit)</li>
 <li><strong>Bildungsprojekte</strong>: Grundlage für Entwicklung, aber oft langfristiger Wirkung, Abhängigkeit von politischer Stabilität</li>
@@ -204,23 +153,31 @@
 <li><strong>Mikrofinanz und Entrepreneurship-Förderung</strong>: Zugang zu Kapital für KMU, aber auch Risiken (Überschuldung, Vergesellschaftung von Risiken)</li>
 <li><strong>Deutsche Entwicklungszusammenarbeit</strong> (z. B. über GIZ, KfW, BMZ): Bezug zu deutschen Geberstrategien, aber auch Kritik (Bedingungen, Eigeninteressen)</li>
 </ul>
-<h2>Verwandte Seiten</h2>
+<h2 id="verwandte-seiten">Verwandte Seiten</h2>
 <ul>
-<li><a class="wikilink" href="globalisierung-anthroposphaere.html">globalisierung-anthroposphaere</a> — Globalisierung und Raumstruktur: Treiber, Begriffe, Ungleichheiten</li>
-<li><a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a> — Vulnerabilität und Resilienz: Ungleichheit als Vulnerabilitätsfaktor</li>
-<li><a class="wikilink" href="klimawandel.html">klimawandel</a> — Klimawandel als globale Herausforderung: disparate Auswirkungen</li>
-<li><a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a> — Bildungsplan 2016: Kompetenzkontext LK Geografie</li>
+<li><a class="wikilink" href="globalisierung-anthroposphaere.html" title="globalisierung-anthroposphaere">globalisierung-anthroposphaere</a> — Globalisierung und Raumstruktur: Treiber, Begriffe, Ungleichheiten</li>
+<li><a class="wikilink" href="vulnerabilitaet-begriffe.html" title="vulnerabilitaet-begriffe">vulnerabilitaet-begriffe</a> — Vulnerabilität und Resilienz: Ungleichheit als Vulnerabilitätsfaktor</li>
+<li><a class="wikilink" href="klimawandel.html" title="klimawandel">klimawandel</a> — Klimawandel als globale Herausforderung: disparate Auswirkungen</li>
+<li><a class="wikilink" href="bildungsplan-2016-lk.html" title="bildungsplan-2016-lk">bildungsplan-2016-lk</a> — Bildungsplan 2016: Kompetenzkontext LK Geografie</li>
 </ul>
-<h2>Offene Fragen</h2>
+<h2 id="offene-fragen">Offene Fragen</h2>
 <ul>
 <li>Welche konkreten Projekte (Deutschland, UNICEF, Welthungerhilfe, etc.) für Abiturbewertung?</li>
 <li>Wo gibt es aktuelle Daten (HDI-Liste, Weltbank-Indikatoren, UNDP-Berichte) für Grafiken und Vergleich?</li>
 </ul>
 <hr/>
-<h2>Bildmaterial</h2>
-<h3>📸 Fotos (Unsplash)</h3>
+<h2 id="bildmaterial">Bildmaterial</h2>
+<h3 id="fotos-unsplash">📸 Fotos (Unsplash)</h3>
 <p><a href="https://unsplash.com/s/photos/urban-landscape">Fotogalerie: Fotogalerie: Städte, Disparität (Unsplash)</a></p>
-    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Bevölkerungsgeographie&quot;</li><li>&quot;Biogeographie &amp; Landschaftsökologie&quot;</li><li>&quot;Historische Geographie&quot;</li><li>&quot;Politische Geographie &amp; Geopolitik&quot;</li><li>&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Geographische Methoden — GIS, Fernerkundung, Kartographie</li><li>Globalisierung und Entwicklungen in der Anthroposphäre</li><li>Stadtgeographie — Grundlagen und Themen</li></ul></div>
+      </article>
+      <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Bevölkerungsgeographie&quot;</li><li>&quot;Biogeographie &amp; Landschaftsökologie&quot;</li><li>&quot;Historische Geographie&quot;</li><li>&quot;Politische Geographie &amp; Geopolitik&quot;</li><li>&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Geographische Methoden — GIS, Fernerkundung, Kartographie</li><li>Globalisierung und Entwicklungen in der Anthroposphäre</li><li>Stadtgeographie — Grundlagen und Themen</li></ul></div>
+    </div>
+    <div class="toc-rail"><div class="toc-rail-inner">
+  <h3>Auf dieser Seite</h3><ul id="toc-rail-list"></ul>
+</div></div>
   </main>
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/wiki.js"></script>
 </body>
 </html>

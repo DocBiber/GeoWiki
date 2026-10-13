@@ -3,108 +3,54 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Raumbeispiele — Küstenlandschaften (Geografie LK BW) — Geographie Wiki LK BW</title>
-  <style>
-    :root {
-      --bg: #fafafa;
-      --sidebar-bg: #f4f4f4;
-      --text: #1a1a1a;
-      --muted: #666;
-      --border: #ddd;
-      --link: #1a5fb4;
-      --wikilink: #b45f06;
-      --active-bg: #e8e8e8;
-      --code-bg: #f0f0f0;
-      --blockquote-border: #ccc;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      border-right: 1px solid var(--border);
-      padding: 1.5rem 1rem;
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 0.75rem 0;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .sidebar ul { list-style: none; padding: 0; margin: 0; }
-    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
-    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
-    .sidebar li a:hover { color: var(--link); }
-    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
-    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
-    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
-    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
-    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
-    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
-    .wikilink:hover { color: #8a4400; }
-    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
-    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .wiki-table th { background: #f0f0f0; font-weight: 600; }
-    .wiki-table tr:nth-child(even) td { background: #fafafa; }
-    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
-    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
-    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
-    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
-    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
-    h4 { font-size: 1rem; margin-top: 1rem; }
-    p { margin: 0.6rem 0; }
-    ul, ol { padding-left: 1.5rem; }
-    li { margin: 0.2rem 0; }
-    a { color: var(--link); }
-    a:hover { text-decoration: underline; }
-    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
-    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
-    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
-    .no-link { color: var(--muted); font-style: italic; }
-    img { max-width: 100%; }
-    @media (max-width: 768px) {
-      body { flex-direction: column; }
-      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
-      .main { padding: 1rem; }
-      .backlinks ul { columns: 1; }
-    }
-</style>
+  <title>Raumbeispiele — Küstenlandschaften (Geografie LK BW) — Geografie Wiki</title>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li class="active"><a href="kuesten-raumbeispiele.html"><strong>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</strong></a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
-  <main class="main">
-    <h1>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</h1>
-    <div class="meta">
-      <span>Typ: concept</span>
-      <span style="margin-left:auto"><span class="tag-badge">raumbeispiele</span><span class="tag-badge">kuesten-raumbeispiele</span><span class="tag-badge">vulnerabilitaet</span><span class="tag-badge">wasserhaushalt</span></span>
-    </div>
-    <h1>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</h1>
-<blockquote>Küstenlandschaft ist eine der fünf Landschaften des Bildungsplans §3.5.2.1.</blockquote>
-<blockquote>Jedes Beispiel enthält: Grunddaten, Küstenprozesse/Formen, Gefährdung,</blockquote>
-<blockquote>Vulnerabilität, Resilienz-Maßnahmen — nach dem LK-Anforderungsschema</blockquote>
-<blockquote>(Wählen → Erklären → Erläutern → Beurteilen).</blockquote>
+<header class="header">
+  <button class="header-menu-btn" data-sidebar-toggle aria-label="Navigation umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
+  <a class="brand" href="index.html"><span class="brand-mark">G</span><span class="brand-name">Geografie&nbsp;Wiki</span><span class="brand-sub">Geographie LK BW</span></a>
+  <div class="header-search">
+    <span class="search-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 3.5 3.5"/></svg></span>
+    <input type="search" data-search data-results=".header-search .search-results"
+           placeholder="Suchen …" aria-label="Wiki durchsuchen" autocomplete="off">
+    <div class="search-results" role="listbox"></div>
+  </div>
+  <div class="header-actions">
+    <a class="icon-btn" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener" title="GitHub-Repository" aria-label="GitHub-Repository"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg></a>
+    <button class="icon-btn" onclick="window.WIKI.toggleTheme()" title="Dark Mode umschalten" aria-label="Dark Mode umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9z"/></svg></button>
+  </div>
+</header>
+<div class="layout" data-slug="kuesten-raumbeispiele" data-title="Raumbeispiele — Küstenlandschaften (Geografie LK BW)">
+  <div class="overlay"></div>
+<aside class="sidebar"><a class="nav-home" href="index.html"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 9 10 3.5 16.5 9v7.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z"/><path d="M8 17.5v-5h4v5"/></svg> Startseite</a><h3>Themen</h3><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-0"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Bildungsplan-rahmen</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-0"><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a><button class="fav-star" data-fav="bildungsplan-2016-lk" title="Zu Favoriten">★</button></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a><button class="fav-star" data-fav="kompenenzen-lk" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-1"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulkansismus</span><span class="cat-count">3</span></button><ul class="cat-items" id="cat-panel-1"><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a><button class="fav-star" data-fav="vulkansimus-ueberblick" title="Zu Favoriten">★</button></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a><button class="fav-star" data-fav="vulkanarten" title="Zu Favoriten">★</button></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a><button class="fav-star" data-fav="vulkanprozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-2"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Glazialmorphologie</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-2"><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a><button class="fav-star" data-fav="glazialmorphologie-ueberblick" title="Zu Favoriten">★</button></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a><button class="fav-star" data-fav="glaziale-serie" title="Zu Favoriten">★</button></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a><button class="fav-star" data-fav="moränen-und-gletscherformen" title="Zu Favoriten">★</button></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a><button class="fav-star" data-fav="permafrost-und-solifluktion" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-3"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulnerabilität &amp; Resilienz</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-3"><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a><button class="fav-star" data-fav="vulnerabilitaet-begriffe" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a><button class="fav-star" data-fav="vulnerabilitaet-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a><button class="fav-star" data-fav="vulnerabilitaet-vulkanraume" title="Zu Favoriten">★</button></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a><button class="fav-star" data-fav="resilienz-massnahmen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-4"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Boden &amp; Wasser</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-4"><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a><button class="fav-star" data-fav="boden-und-boden" title="Zu Favoriten">★</button></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a><button class="fav-star" data-fav="wasserhaushalt" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-5"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Atmosphäre &amp; Klima</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-5"><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a><button class="fav-star" data-fav="atmosphaere-wetter-klima" title="Zu Favoriten">★</button></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a><button class="fav-star" data-fav="klimawandel" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-6"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Geographische Methoden</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-6"><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a><button class="fav-star" data-fav="methoden-gis-fernerkundung" title="Zu Favoriten">★</button></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a><button class="fav-star" data-fav="stadtgeographie" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-7"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Globalisierung &amp; Entwicklung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-7"><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a><button class="fav-star" data-fav="globalisierung-anthroposphaere" title="Zu Favoriten">★</button></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a><button class="fav-star" data-fav="disparitaet-entwicklungen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="true" aria-controls="cat-panel-8"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Raumbeispiele</span><span class="cat-count">6</span></button><ul class="cat-items open" id="cat-panel-8"><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a><button class="fav-star" data-fav="uebersicht-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a><button class="fav-star" data-fav="vulkan-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a><button class="fav-star" data-fav="glazial-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="fluss-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="kuesten-raumbeispiele.html" class="active">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="kuesten-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a><button class="fav-star" data-fav="karstlandschaft" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-9"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Skizzen</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-9"><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a><button class="fav-star" data-fav="uebersicht-skizzen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-10"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vergleiche</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-10"><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a><button class="fav-star" data-fav="vergleich-vulkan-gletscher-prozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-11"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Abitur &amp; Übung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-11"><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a><button class="fav-star" data-fav="abitur-aufgaben" title="Zu Favoriten">★</button></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a><button class="fav-star" data-fav="uebungsaufgaben" title="Zu Favoriten">★</button></li></ul><h3>Favoriten</h3><ul id="fav-list"></ul><h3>Zuletzt angesehen</h3><ul id="recent-list"></ul><h3>Links</h3><a class="ext-link" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg> Repository</a><a class="ext-link" href="https://docbiber.github.io/GeoWiki/" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Online-Version</a></aside>
+  <main class="content">
+    <div class="content-inner">
+      <nav class="breadcrumb" aria-label="Brotkrumen"><a href="index.html">Startseite</a> <span class="sep">/</span> <a href="index.html#cat-raumbeispiele-fuer-abitur">Raumbeispiele</a> <span class="sep">/</span> <span class="current">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</span></nav>
+      <div class="page-head">
+        <div class="page-title-row">
+          <h1>Raumbeispiele — Küstenlandschaften (Geografie LK BW)</h1>
+          <button class="fav-btn" data-fav aria-label="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg></button>
+        </div>
+        <p class="page-desc">|| Merkmal | Angabe |</p>
+        <div class="page-meta">
+  <span class="type-badge">concept</span>
+  <span class="tag-badge">raumbeispiele</span><span class="tag-badge">kuesten-raumbeispiele</span><span class="tag-badge">vulnerabilitaet</span><span class="tag-badge">wasserhaushalt</span>
+  <span>RAUMBEISPIELE (für Abitur) · erstellt 2026-10-13 · aktualisiert 2026-10-13</span>
+  <div class="page-actions">
+    <button class="text-btn" data-fav title="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg> Favorit</button>
+    <button class="text-btn" data-copy-link title="Link kopieren"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Link kopieren</button>
+  </div>
+</div>
+      </div>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#1-nordsee-sturmfluten-und-kuestenschutz-deutschland">1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)</a></li><li><a href="#grunddaten">Grunddaten</a></li><li><a href="#kuestenprozesse-und-formen">Küstenprozesse und Formen</a></li><li><a href="#gefaehrdung">Gefährdung</a></li><li><a href="#vulnerabilitaet">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen">Resilienz-Maßnahmen</a></li><li><a href="#2-sylt-inselwanderung-sandaufspuelung-tourismus">2. Sylt — Inselwanderung, Sandaufspülung, Tourismus</a></li><li><a href="#grunddaten-2">Grunddaten</a></li><li><a href="#kuestenprozesse-und-formen-2">Küstenprozesse und Formen</a></li><li><a href="#gefaehrdung-2">Gefährdung</a></li><li><a href="#vulnerabilitaet-2">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen-2">Resilienz-Maßnahmen</a></li><li><a href="#3-ostsee-steilkueste-fehmarn-waabs-und-landhebung">3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung</a></li><li><a href="#grunddaten-3">Grunddaten</a></li><li><a href="#kuestenprozesse-und-formen-3">Küstenprozesse und Formen</a></li><li><a href="#gefaehrdung-3">Gefährdung</a></li><li><a href="#vulnerabilitaet-3">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen-3">Resilienz-Maßnahmen</a></li><li><a href="#4-internationales-referenzbeispiel-niederlande-deltawerke">4. Internationales Referenzbeispiel: Niederlande — Deltawerke</a></li><li><a href="#5-vergleichstabelle-kuesten-raumbeispiele">5. Vergleichstabelle: Küsten-Raumbeispiele</a></li><li><a href="#hinweise-fuer-lk-abitur">Hinweise für LK-Abitur</a></li><li><a href="#visuelle-darstellungen-amp-fotos">Visuelle Darstellungen &amp; Fotos</a></li><li><a href="#animationen">Animationen</a></li></ul></details>
+      <article class="wiki-body">
+<blockquote>Küstenlandschaft ist eine der fünf Landschaften des Bildungsplans §3.5.2.1. Jedes Beispiel enthält: Grunddaten, Küstenprozesse/Formen, Gefährdung, Vulnerabilität, Resilienz-Maßnahmen — nach dem LK-Anforderungsschema (Wählen → Erklären → Erläutern → Beurteilen).</blockquote>
 <hr/>
-<h2>1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)</h2>
-<h3>Grunddaten</h3>
+<h2 id="1-nordsee-sturmfluten-und-kuestenschutz-deutschland">1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)</h2>
+<h3 id="grunddaten">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Flachküste (Wattenmeer, Gezeitenküste)</td></tr><tr><td>Tidenhub</td><td>2–3 m (zunehmend von Westen nach Osten; Elbmündung bis 3,6 m)</td></tr><tr><td>Prägende Ereignisse</td><td>Sturmfluten 1954, 1962 („Jahrhundertflut" Hamburg), 1976, 1981, 1999; Sturmtief Xaver 2013</td></tr><tr><td>Schutzbauwerke</td><td>Deichsysteme, Sperrwerke (Eidersperrwerk 1973), Landesschutzdeiche</td></tr><tr><td>Räume</td><td>Hamburg (2,70 Mio. Einwohner), Küstenregionen SH, Niedersachsen, Halligen, Ostfriesische Inseln</td></tr></tbody></table>
-<h3>Küstenprozesse und Formen</h3>
+<h3 id="kuestenprozesse-und-formen">Küstenprozesse und Formen</h3>
 <ul>
 <li><strong>Gezeiten (Tide)</strong>: Flut und Ebbe erzeichen Priele, Wattflächen, Sandbänke — periodische Überflutung des Watts; Salz- und Süßwasser-Mischzone</li>
 <li><strong>Sturmflut</strong>: Starkwind (Nordweststürme) drückt Wasser gegen die Küste + Springtide → Wasserstand bis 3–4 m über NN; Landesschutzdeiche brechen bei Versagen → katastrophale Überflutung</li>
@@ -112,19 +58,19 @@
 <li><strong>Wellenschlag / Wellenauflauf</strong>: Physikalischer Hauptprozess für Erosion und Formbildung (Sandbänke, Dünen)</li>
 <li><strong>Halligen</strong>: Kleine, unbedeichte Warften (Wohnhügel) im Wattenmeer — natürliche Retentionsflächen; Überflutung bei Sturmfluten ist hier der Normalfall</li>
 </ul>
-<h3>Gefährdung</h3>
+<h3 id="gefaehrdung">Gefährdung</h3>
 <ul>
 <li><strong>Sturmfluten</strong>: Menschenleben (1962: 315 Tote in Hamburg, 340 insgesamt in Deutschland), Gebäude, Infrastruktur (Hamburg-Hafen)</li>
 <li><strong>Erosion</strong>: Landverlust durch Uferabbruch, Inselwanderung (Ostfriesische Inseln wandern ostwärts)</li>
 <li><strong>Relativer Meeresspiegelanstieg</strong>: Klimawandel → höhere Wasserstände + stärkere Stürme → häufigere Extremfluten</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet">Vulnerabilität</h3>
 <ul>
 <li><strong>Siedlungen hinter dem Deich</strong>: Jahrhundertelang geschützt, aber steigende Extremereignisse überfordern alte Deichhöhen (z. B. HH-Deiche auf 7,50 m+ erhöht)</li>
 <li><strong>Wirtschaft</strong>: Häfen (Hamburg — drittgrößter Europas), Industrie, Tourismus (Sylt, St. Peter-Ording), Fischerei</li>
 <li><strong>Naturräume</strong>: Wattenmeer (UNESCO-Welterbe seit 2009), Salzwiesen als Puffer zwischen Land und Meer</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen">Resilienz-Maßnahmen</h3>
 <ul>
 <li><strong>Deichbau und -erhöhung</strong>: Landesschutzdeiche mit Bemessung auf Bemessungs-Sturmflut (HQ; z. B. Deichhöhen + Klimazuschlag)</li>
 <li><strong>Sperrwerke</strong>: Eidersperrwerk (Sturmflutsperre, gleichzeitig Binnenlandentwässerung), geplante Elbe-Sperre</li>
@@ -135,27 +81,27 @@
 </ul>
 <p><strong>Beurteilung (LK):</strong> Die Nordsee ist das <strong>Musterbeispiel für technischen Küstenschutz</strong> (Deiche, Sperrwerke) — sehr hohe Resilienz für geschützte Räume, aber die Vulnerabilität wächst mit dem Klimawandel (Extremwasserstände). LK-relevant für die Frage: „Wie kann ein gefährdeter Raum geschützt werden, wenn der Naturprozess nicht aufhaltbar ist?" — Deich als Dauerlösung wird zunehmend infrage gestellt; Antworten: Schutz + Anpassung + Raum für das Meer.</p>
 <hr/>
-<h2>2. Sylt — Inselwanderung, Sandaufspülung, Tourismus</h2>
-<h3>Grunddaten</h3>
+<h2 id="2-sylt-inselwanderung-sandaufspuelung-tourismus">2. Sylt — Inselwanderung, Sandaufspülung, Tourismus</h2>
+<h3 id="grunddaten-2">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Barriere-Insel (Nehrung) mit Dünenkette</td></tr><tr><td>Besonderheit</td><td>Wanderung ostwärts um ca. 10–15 m/Jahr (Sandverschiebung an der Westspitze, Abbruch an der Ostspitze)</td></tr><tr><td>Gefährdung</td><td>Sturmfluten + Wellenenergie + Sandtransport</td></tr><tr><td>Wirtschaft</td><td>Tourismus (ca. 4–5 Mio. Übernachtungen/Jahr), Ferienhaus-Infrastruktur in den Dünen (Hörnum, Westerland)</td></tr></tbody></table>
-<h3>Küstenprozesse und Formen</h3>
+<h3 id="kuestenprozesse-und-formen-2">Küstenprozesse und Formen</h3>
 <ul>
 <li><strong>Küstenparallele Sedimentation (Längstransport)</strong>: Wellen schieben Sand ostwärts; Insel „wandert" dadurch; im Westen (Hörnum, „Hörnumtief") wird Sand abgetragen, im Osten wächst die Insel</li>
 <li><strong>Dünenbildung</strong>: Wind verweht Sand vom Strand landeinwärts → Primärdünen (weiße/graue Dünen), Sekundärdünen (bewachsene, ältere) — natürliche Wellenbrecher</li>
 <li><strong>Abraschen (Abrasions-Plattform)</strong>: Abbruch des Kliffs bei Wellenschlag</li>
 </ul>
-<h3>Gefährdung</h3>
+<h3 id="gefaehrdung-2">Gefährdung</h3>
 <ul>
 <li><strong>Sturmflut-Durchbrüche</strong>: Dünen können bei Extremfluten brechen (z. B. Durchbruch bei Rantum 1925)</li>
 <li><strong>Küstenerosion</strong>: Ohne Schutz verliert die Insel Breite; Häuser an der Hörnum-Westspitze werden bedroht</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet-2">Vulnerabilität</h3>
 <ul>
 <li><strong>Siedlungen</strong>: Ferienhaus-Siedlungen direkt hinter dem Dünenkamm — extrem exponierte Lagen (Hörnum, Rantum)</li>
 <li><strong>Tourismus-Wirtschaft</strong>: Die Insel lebt vom Strand; Verlust des Strands = Verlust der ökonomischen Basis</li>
 <li><strong>Naturschutz</strong>: Dünenökosystem (Sanddorn, Strandhafer, Brutvögel) durch Infrastruktur gefährdet</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen-2">Resilienz-Maßnahmen</h3>
 <ul>
 <li><strong>Sandaufspülung (Beach Nourishment)</strong>: Regelmäßige Auffüllung des Weststrands mit gebaggertem Sand (z. B. mehrere Mio. m³ seit den 1970ern) — hält Dünenkette und Strandbreite</li>
 <li><strong>Dünenstabilisierung</strong>: Strandhafer-Anpflanzung, Sandfangzäune — Dünen als natürliche Wellenbrecher erhalten</li>
@@ -165,29 +111,29 @@
 </ul>
 <p><strong>Beurteilung (LK):</strong> Sylt zeigt die <strong>Interaktion von Naturprozess und menschlicher Nutzung</strong>: Die Insel wandert (natürlich), der Mensch verhindert das mit Sandaufspülungen (teuer, Dauerlösung mit Folgekosten — „Sand ist die neue Wahrheit"). LK-relevant: Beurteilung von „technischem Schutz" vs. „Anpassung an die Inseldynamik" (z. B. Aufgabe von Dauersiedlungen in Wanderungszone).</p>
 <hr/>
-<h2>3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung</h2>
-<h3>Grunddaten</h3>
+<h2 id="3-ostsee-steilkueste-fehmarn-waabs-und-landhebung">3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung</h2>
+<h3 id="grunddaten-3">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Landschaftstyp</td><td>Ausgleichsküste (Steilküste / Abbruchküste), Förde-Küste</td></tr><tr><td>Besonderheit</td><td>Kaum Tidenhub (wenige cm) — KEINE Sturmfluten wie Nordsee</td></tr><tr><td>Prozess</td><td>Abbruch der Steilküste durch Wellenschlag („Küstenlinie weicht landeinwärts zurück"), Langsamer Rückgang</td></tr><tr><td>Geogenes Spezifikum</td><td>Isostatische Landhebung in Skandinavien (und damit Senkung der südlichen Ostsee-Becken)</td></tr><tr><td>Beispiele</td><td>Waabs (SH), Fehmarn (Insel), Ahrenshoop (Rügen-Darß)</td></tr></tbody></table>
-<h3>Küstenprozesse und Formen</h3>
+<h3 id="kuestenprozesse-und-formen-3">Küstenprozesse und Formen</h3>
 <ul>
 <li><strong>Abrasion/Abbruch</strong>: Wellenschlag greift das Lockergestein (Geschiebemergel, Moränen) an der Steilküste an; Uferrutschung und -abbruch → Küstenlinie weicht zurück (wenige dm bis m/Jahr)</li>
 <li><strong>Kliff / Steilküste</strong>: Steile Küste aus eiszeitlichen Ablagerungen (Moränen, Schmelzwassersande)</li>
 <li><strong>Strandwalze / Abrasions-Plattform</strong>: Vor der Steilküste bildet sich eine flache Plattform; am Klifffuß sammelt sich abgebrochenes Material (Geröllhalde)</li>
 <li><strong>Langgestreckte Küstenformen</strong>: Förden (z. B. Kieler Förde, Flensburger Förde) — glaziale Übertiefung, vom Meer gefüllt</li>
 </ul>
-<h3>Gefährdung</h3>
+<h3 id="gefaehrdung-3">Gefährdung</h3>
 <ul>
 <li><strong>Küstenrückgang</strong>: Gebäude an der Kliffkante (Waabs, Fehmarn) verlieren Standfestigkeit; Erdrutsche nach Starkregen</li>
 <li><strong>Extrem-Ereignisse</strong>: Kein Sturmflut-Risiko wie Nordsee, aber schwere West-Stürme erzeugen „Windstau" (lokale Wasserstand-Anhebung bis 1,5–2 m) + Wellenauflauf</li>
 <li><strong>Grundwasser</strong>: Ansteigende Wasserstände durch Landsenkung → Vernässung, Schutzdeiche bedroht</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet-3">Vulnerabilität</h3>
 <ul>
 <li><strong>Siedlungen</strong>: Ostseebäder direkt an der Kliffkante (Fehmarn — Ferienhaus-Siedlungen, Waabs)</li>
 <li><strong>Tourismus</strong>: Strand als Ressource; Erosion bedroht Badestrände</li>
 <li><strong>Naturschutz</strong>: Steilküste als Lebensraum (Brutvögel, spezifische Vegetation)</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen-3">Resilienz-Maßnahmen</h3>
 <ul>
 <li><strong>Uferschutz (technisch)</strong>: Deckwerke, Steinwälle, Wellenbrecher am Klifffuß</li>
 <li><strong>Deichrückverlegung / Rückzug</strong>: Wo Schutz unwirtschaftlich: Siedlungsrückzug, Naturbelassenheit</li>
@@ -196,25 +142,23 @@
 </ul>
 <p><strong>Beurteilung (LK):</strong> Die Ostsee zeigt eine <strong>andere Küstendynamik als die Nordsee</strong> — das Fehlen der Gezeiten und der Sturmfluten, dafür Erosion durch Wellenschlag und Langzeit-Küstenrückgang. LK-relevant für die Kontrastfrage: „Warum ist die Nordsee gefährlicher als die Ostsee — und warum gilt das nicht für die Steilküste?" (Antwort: Prozesse und Nutzungsdruck unterscheiden sich). Landhebung vs. Landsenkung (isostatisch vs. eustatisch) als Vertiefungsthema.</p>
 <hr/>
-<h2>4. Internationales Referenzbeispiel: Niederlande — Deltawerke</h2>
-<blockquote>Kurzbeispiel als Kontrast zur deutschen Nordsee-Küste: Die Niederlande haben nach der</blockquote>
-<blockquote>Sturmflut 1953 (1.836 Tote) das <strong>Deltaprogramm</strong> umgesetzt — Sperrwerke (Oosterschelde,</blockquote>
-<blockquote>Maeslant-Sturmflutwehr bei Rotterdam), Deichverstärkungen („Waternupt/Plan Delta").</blockquote>
+<h2 id="4-internationales-referenzbeispiel-niederlande-deltawerke">4. Internationales Referenzbeispiel: Niederlande — Deltawerke</h2>
+<blockquote>Kurzbeispiel als Kontrast zur deutschen Nordsee-Küste: Die Niederlande haben nach der Sturmflut 1953 (1.836 Tote) das <strong>Deltaprogramm</strong> umgesetzt — Sperrwerke (Oosterschelde, Maeslant-Sturmflutwehr bei Rotterdam), Deichverstärkungen („Waternupt/Plan Delta").</blockquote>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Niederlande</th></tr></thead><tbody><tr><td>Schlüsselereignis</td><td>Sturmflut 1953 (Watersnoodramp)</td></tr><tr><td>Maßnahme</td><td>Deltawerke (Sperrwerke + Deiche), „Room for the River"-Programm (Hochwasserschutz Binnenland)</td></tr><tr><td>Vulnerabilität</td><td>Großräume unter Meeresspiegel (Randstad: Millionenstädte, Häfen, Wirtschaft)</td></tr><tr><td>Beurteilung (LK)</td><td>Extremfall: Land existiert nur durch technischen Schutz — aber Klimawandel erfordert neue Strategien (Raum für das Wasser, Deichverstärkung, aber auch Siedlungsverlagerung)</td></tr></tbody></table>
 <hr/>
-<h2>5. Vergleichstabelle: Küsten-Raumbeispiele</h2>
+<h2 id="5-vergleichstabelle-kuesten-raumbeispiele">5. Vergleichstabelle: Küsten-Raumbeispiele</h2>
 <table class="wiki-table"><thead><tr><th>Kriterium</th><th>Nordsee (Deutschland)</th><th>Sylt</th><th>Ostsee (Fehmarn/Waabs)</th><th>Niederlande</th></tr></thead><tbody><tr><td><strong>Landschaftstyp</strong></td><td>Flachküste/Wattenmeer</td><td>Barriere-Insel</td><td>Ausgleichsküste (Steilküste)</td><td>Ästuar-/Deltaküste</td></tr><tr><td><strong>Hauptprozesse</strong></td><td>Gezeiten, Sturmfluten</td><td>Inselwanderung, Dünenbildung</td><td>Wellenschlag/Abbruch</td><td>Gezeiten, Sturmfluten (Extrem)</td></tr><tr><td><strong>Hauptgefahren</strong></td><td>Sturmflut, Erosion</td><td>Strand-/Dünenverlust</td><td>Küstenrückgang, Erdrutsche</td><td>Sturmflut (Worst-Case)</td></tr><tr><td><strong>Vulnerabilität</strong></td><td>Metropolen hinter Deichen</td><td>Tourismus-Siedlungen in Dünen</td><td>Kliffkante-Bebauung</td><td>Millionen unter NN</td></tr><tr><td><strong>Resilienz</strong></td><td>Deiche, Sperrwerke, Wattvorland</td><td>Sandaufspülung, Dünenstabilisierung</td><td>Uferschutz, Rückzug</td><td>Deltawerke, „Room for the River"</td></tr><tr><td><strong>Abitur-Beispiel</strong></td><td>„Technischer Schutz vs. Raum für das Meer"</td><td>„Inselwanderung — Schutz vs. Anpassung"</td><td>„Wellenschlag + Küstenrückgang (isostatisch)"</td><td>„Land als Schutz-Bauwerk"</td></tr></tbody></table>
 <hr/>
-<h2>Hinweise für LK-Abitur</h2>
+<h2 id="hinweise-fuer-lk-abitur">Hinweise für LK-Abitur</h2>
 <ul>
 <li><strong>Nordsee (Sturmflut 1962/2013)</strong>: Ideal für Aufgaben zu „Küstenschutz als technisches Risikomanagement" — Frage nach der Nachhaltigkeit von Deichen unter Klimawandel</li>
 <li><strong>Sylt</strong>: Ideal für „Prozess vs. Nutzung" — die Insel wandert natürlich, der Mensch stoppt das mit Sandaufspülungen (Folgekosten, Dauerlösung)</li>
 <li><strong>Ostsee</strong>: Ideal für die Kontrastierung der Küsten (Tide/keine Tide, Sturmflut/Windstau) und für geogene Spezifika (isostatische Landhebung in Skandinavien, Landsenkung Nordsee)</li>
 <li><strong>Niederlande</strong>: Ideal für „Extrembeispiel" und transnationale Strategien (Plan Delta, Room for the River)</li>
 </ul>
-<p>Verknüpfungen: <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a>, <a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a>, <a class="wikilink" href="wasserhaushalt.html">wasserhaushalt</a>, <a class="wikilink" href="klimawandel.html">klimawandel</a>, <a class="wikilink" href="glazial-raumbeispiele.html">glazial-raumbeispiele</a>, <a class="wikilink" href="uebersicht-raumbeispiele.html">uebersicht-raumbeispiele</a>, <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a></p>
+<p>Verknüpfungen: <a class="wikilink" href="vulnerabilitaet-begriffe.html" title="vulnerabilitaet-begriffe">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html" title="vulnerabilitaet-raumbeispiele">vulnerabilitaet-raumbeispiele</a>, <a class="wikilink" href="resilienz-massnahmen.html" title="resilienz-massnahmen">resilienz-massnahmen</a>, <a class="wikilink" href="wasserhaushalt.html" title="wasserhaushalt">wasserhaushalt</a>, <a class="wikilink" href="klimawandel.html" title="klimawandel">klimawandel</a>, <a class="wikilink" href="glazial-raumbeispiele.html" title="glazial-raumbeispiele">glazial-raumbeispiele</a>, <a class="wikilink" href="uebersicht-raumbeispiele.html" title="uebersicht-raumbeispiele">uebersicht-raumbeispiele</a>, <a class="wikilink" href="bildungsplan-2016-lk.html" title="bildungsplan-2016-lk">bildungsplan-2016-lk</a></p>
 <hr/>
-<h2>Visuelle Darstellungen &amp; Fotos</h2>
+<h2 id="visuelle-darstellungen-amp-fotos">Visuelle Darstellungen &amp; Fotos</h2>
 <blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
 <h4>📸 Fotogalerie: Wattenmeer, Nordsee-Küste (Unsplash)</h4>
 <p><a href="https://unsplash.com/s/photos/wadden-sea">Freie Fotos von Wattenmeer, Deichen, Küstenlandschaften der Nordsee.</a></p>
@@ -223,10 +167,17 @@
 <h4>🖼️ Kategorie: Küsten &amp; Wattenmeer – Wikimedia Commons</h4>
 <p><a href="https://commons.wikimedia.org/wiki/Category:Coasts">Fotos und Diagramme zu Steilküsten, Wattenmeer, Deichen, Deltawerken.</a></p>
 <hr/>
-<h2>Animationen</h2>
-<blockquote>Passende Erklärvideos (Sturmflut-Entstehung, Deltawerke, Inselwanderung, Wattenmeer-Gezeiten)</blockquote>
-<blockquote>werden beim nächsten Medienlauf analog zu M3 ergänzt — mit geprüften YouTube-IDs.</blockquote>
-    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
+<h2 id="animationen">Animationen</h2>
+<blockquote>Passende Erklärvideos (Sturmflut-Entstehung, Deltawerke, Inselwanderung, Wattenmeer-Gezeiten) werden beim nächsten Medienlauf analog zu M3 ergänzt — mit geprüften YouTube-IDs.</blockquote>
+      </article>
+      <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
+    </div>
+    <div class="toc-rail"><div class="toc-rail-inner">
+  <h3>Auf dieser Seite</h3><ul id="toc-rail-list"></ul>
+</div></div>
   </main>
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/wiki.js"></script>
 </body>
 </html>

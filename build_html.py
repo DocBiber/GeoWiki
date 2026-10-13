@@ -1,104 +1,28 @@
 #!/usr/bin/env python3
-"""build_html.py — HTML-Export für das GeoWiki.
+"""build_html.py — HTML-Export für das Geografie Wiki (Design v2).
 
-Liest alle .md-Dateien (außer _backup/, SCHEMA.md, log.md) und schreibt für jede eine
-.flache HTML-Datei ins Wurzelverzeichnis (wie im bestehenden Export).
-Keine externen Abhängigkeiten (reines stdlib).
+Erzeugt aus den .md-Dateien:
+- index.html            Startseite (Explore-Layout: Suche, Kategorien, Listen)
+- <slug>.html           Artikelseiten (Header, Sidebar, Breadcrumb, TOC)
+- assets/search-index.js  clientseitiger Suchindex (funktioniert über file://)
 
-Aufruf: python build_html.py   (im Wiki-Wurzelverzeichnis ausführen)
+CSS (assets/style.css) und JS (assets/wiki.js) liegen als Dateien im Repo und
+werden NICHT überschrieben — Designänderungen dort direkt möglich.
+
+Aufruf: python build_html.py   (im Wiki-Wurzelverzeichnis)
 """
-import os, re, html, glob, sys
+import os, re, html, glob, json
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EXCLUDE_DIRS = {".git", "_backup_pre_language_tool_fix"}
 EXCLUDE_FILES = {"SCHEMA.md", "README.md"}
+ASSETS = ("assets/style.css", "assets/wiki.js")
+REPO_URL = "https://github.com/DocBiber/GeoWiki"
+PAGES_URL = "https://docbiber.github.io/GeoWiki/"
 
-CSS = """
-    :root {
-      --bg: #fafafa;
-      --sidebar-bg: #f4f4f4;
-      --text: #1a1a1a;
-      --muted: #666;
-      --border: #ddd;
-      --link: #1a5fb4;
-      --wikilink: #b45f06;
-      --active-bg: #e8e8e8;
-      --code-bg: #f0f0f0;
-      --blockquote-border: #ccc;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      border-right: 1px solid var(--border);
-      padding: 1.5rem 1rem;
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 0.75rem 0;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .sidebar ul { list-style: none; padding: 0; margin: 0; }
-    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
-    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
-    .sidebar li a:hover { color: var(--link); }
-    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
-    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
-    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
-    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
-    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
-    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
-    .wikilink:hover { color: #8a4400; }
-    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
-    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .wiki-table th { background: #f0f0f0; font-weight: 600; }
-    .wiki-table tr:nth-child(even) td { background: #fafafa; }
-    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
-    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
-    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
-    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
-    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
-    h4 { font-size: 1rem; margin-top: 1rem; }
-    p { margin: 0.6rem 0; }
-    ul, ol { padding-left: 1.5rem; }
-    li { margin: 0.2rem 0; }
-    a { color: var(--link); }
-    a:hover { text-decoration: underline; }
-    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
-    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
-    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
-    .no-link { color: var(--muted); font-style: italic; }
-    img { max-width: 100%; }
-    @media (max-width: 768px) {
-      body { flex-direction: column; }
-      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
-      .main { padding: 1rem; }
-      .backlinks ul { columns: 1; }
-    }
-"""
-
+# ---------------------------------------------------------------- Frontmatter
 
 def parse_frontmatter(text):
-    """Gibt (frontmatter-dict, body) zurück."""
     fm = {}
     if text.startswith("---"):
         m = re.match(r"^---\s*\n(.*?)\n---\s*\n?(.*)$", text, re.S)
@@ -111,9 +35,72 @@ def parse_frontmatter(text):
     return fm, text
 
 
-def inline(text):
-    """Inline-Transformationen: escapen, dann Fett, Kursiv, Code, Links, Wikilinks."""
-    # Rohes HTML (iframes etc.) schützen
+# ---------------------------------------------------------------- Icons
+
+ICONS = {
+    "search": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 3.5 3.5"/></svg>',
+    "menu": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg>',
+    "star": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg>',
+    "link": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg>',
+    "moon": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9z"/></svg>',
+    "github": '<svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg>',
+    "home": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 9 10 3.5 16.5 9v7.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z"/><path d="M8 17.5v-5h4v5"/></svg>',
+    "chevron": '<svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg>',
+    "warn": '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3 2.5 16.5h15z"/><path d="M10 8.5v3.5M10 14.5v.01"/></svg>',
+}
+
+
+# ---------------------------------------------------------------- Kategorien aus index.md
+
+def parse_categories():
+    """Liest index.md und gibt [{'name': …, 'pages': [(slug, beschreibung), …]}, …] zurück."""
+    path = os.path.join(ROOT, "index.md")
+    if not os.path.exists(path):
+        return []
+    text = open(path, encoding="utf-8").read()
+    cats = []
+    current = None
+    for line in text.splitlines():
+        h = re.match(r"^##\s+(.+)$", line.strip())
+        if h:
+            name = h.group(1).strip()
+            if name.upper().startswith("NOCH LEER"):
+                current = None
+                continue
+            current = {"name": name, "pages": []}
+            cats.append(current)
+            continue
+        li = re.match(r"^-\s+\[\[([^\]|]+)\]\](?:\s*[—-]\s*(.*))?$", line.strip())
+        if li and current is not None:
+            current["pages"].append((li.group(1).strip(), (li.group(2) or "").strip()))
+    return cats
+
+
+def nice_cat_name(name):
+    """Aus 'BODEN & WASSER (3.5.2.1 + 3.5.2.4)' wird 'Boden & Wasser'."""
+    n = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
+    small = {"&", "UND", "IM", "FÜR", "DER", "DES"}
+    words = []
+    for i, w in enumerate(n.split()):
+        if w.upper() in small and i > 0:
+            words.append(w.lower())
+        else:
+            words.append(w.capitalize() if w.isupper() else w)
+    return " ".join(words)
+
+
+# ---------------------------------------------------------------- Markdown → HTML
+
+def slugify(s):
+    s = s.lower()
+    s = (s.replace("ä", "ae").replace("ö", "oe").replace("ü", "ue")
+          .replace("ß", "ss"))
+    s = re.sub(r"[^\w\s-]", "", s)
+    s = re.sub(r"[\s_]+", "-", s.strip())
+    return re.sub(r"-+", "-", s).strip("-")
+
+
+def inline(text, known_slugs):
     placeholders = []
 
     def stash(m):
@@ -125,8 +112,13 @@ def inline(text):
 
     def wiki(m):
         slug = m.group(1).strip()
-        label = m.group(2).strip() if m.group(2) else slug
-        return f'<a class="wikilink" href="{slug}.html">{html.escape(label, quote=True)}</a>'
+        label = (m.group(2) or slug).strip()
+        if slug in known_slugs:
+            return (f'<a class="wikilink" href="{slug}.html" '
+                    f'title="{html.escape(label, quote=True)}">{html.escape(label, quote=True)}</a>')
+        return (f'<a class="wikilink wikilink-broken" '
+                f'title="Diese Seite existiert noch nicht: {html.escape(slug, quote=True)}">'
+                f'{html.escape(label, quote=True)}</a>')
     text = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", wiki, text)
 
     text = re.sub(r"!\[([^\]]*)\]\(([^)]+)\)",
@@ -143,19 +135,32 @@ def inline(text):
     return text
 
 
-def md_to_html(body):
+CALLOUT_RE = re.compile(r"^\*\*(wichtig|hinweis|achtung|tipp|quellen?)\s*:?\*\*:?\s*(.*)$", re.I)
+
+
+def md_to_html(body, known_slugs, page_title):
     lines = body.split("\n")
     out = []
     i = 0
     in_code = False
     code_buf = []
-    in_list = None  # 'ul' | 'ol'
+    in_list = None
+    first_h1_skipped = False
+    used_ids = set()
 
     def close_list():
         nonlocal in_list
         if in_list:
             out.append(f"</{in_list}>")
             in_list = None
+
+    def head_id(text, lvl):
+        base = slugify(re.sub(r"<[^>]+>", "", text)) or f"sec{lvl}"
+        hid, n = base, 2
+        while hid in used_ids:
+            hid, n = f"{base}-{n}", n + 1
+        used_ids.add(hid)
+        return hid
 
     while i < len(lines):
         line = lines[i]
@@ -186,7 +191,18 @@ def md_to_html(body):
         if m:
             close_list()
             lvl = len(m.group(1))
-            out.append(f"<h{lvl}>{inline(m.group(2))}</h{lvl}>")
+            content = inline(m.group(2), known_slugs)
+            if lvl == 1:
+                # Doppelten Seitentitel im Körper unterdrücken
+                if not first_h1_skipped and re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", content)).strip().lower() == \
+                        re.sub(r"\s+", " ", page_title).strip().lower():
+                    first_h1_skipped = True
+                    i += 1
+                    continue
+                first_h1_skipped = True
+            hid = head_id(content, lvl) if lvl in (2, 3) else ""
+            idattr = f' id="{hid}"' if hid else ""
+            out.append(f"<h{lvl}{idattr}>{content}</h{lvl}>")
             i += 1
             continue
 
@@ -198,12 +214,22 @@ def md_to_html(body):
 
         if stripped.startswith(">"):
             close_list()
-            quote = re.sub(r"^>\s?", "", stripped)
-            out.append(f"<blockquote>{inline(quote)}</blockquote>")
-            i += 1
+            quote_lines = []
+            while i < len(lines) and lines[i].strip().startswith(">"):
+                quote_lines.append(re.sub(r"^>\s?", "", lines[i].strip()))
+                i += 1
+            joined = " ".join(quote_lines)
+            cm = CALLOUT_RE.match(joined)
+            if cm:
+                rest_html = inline(joined[cm.end():].strip(), known_slugs)
+                out.append(
+                    '<div class="callout"><div class="callout-label">'
+                    + ICONS["warn"] + html.escape(cm.group(1).capitalize()) +
+                    "</div><div>" + rest_html + "</div></div>")
+            else:
+                out.append(f"<blockquote>{inline(joined, known_slugs)}</blockquote>")
             continue
 
-        # Tabelle: aktuelle + nächste Zeile sind | ... |, danach Trennzeile
         if stripped.startswith("|") and i + 1 < len(lines) and re.match(r"^\s*\|[\s:|-]+\|\s*$", lines[i + 1]):
             close_list()
             header = [c.strip() for c in stripped.strip("|").split("|")]
@@ -213,10 +239,10 @@ def md_to_html(body):
                 rows.append([c.strip() for c in lines[i].strip().strip("|").split("|")])
                 i += 1
             t = ['<table class="wiki-table"><thead><tr>']
-            t += [f"<th>{inline(c)}</th>" for c in header]
+            t += [f"<th>{inline(c, known_slugs)}</th>" for c in header]
             t.append("</tr></thead><tbody>")
             for r in rows:
-                t.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
+                t.append("<tr>" + "".join(f"<td>{inline(c, known_slugs)}</td>" for c in r) + "</tr>")
             t.append("</tbody></table>")
             out.append("".join(t))
             continue
@@ -227,7 +253,7 @@ def md_to_html(body):
                 close_list()
                 out.append("<ul>")
                 in_list = "ul"
-            out.append(f"<li>{inline(m.group(2))}</li>")
+            out.append(f"<li>{inline(m.group(2), known_slugs)}</li>")
             i += 1
             continue
 
@@ -237,26 +263,34 @@ def md_to_html(body):
                 close_list()
                 out.append("<ol>")
                 in_list = "ol"
-            out.append(f"<li>{inline(m.group(2))}</li>")
+            out.append(f"<li>{inline(m.group(2), known_slugs)}</li>")
             i += 1
             continue
 
-        if "<iframe" in line or "<img" in line.lower():
+        if "<iframe" in line:
+            close_list()
+            out.append(f'<div class="video-frame">{line}</div>')
+            i += 1
+            continue
+
+        if "<img" in line.lower():
             close_list()
             out.append(line)
             i += 1
             continue
 
         close_list()
-        out.append(f"<p>{inline(stripped)}</p>")
+        out.append(f"<p>{inline(stripped, known_slugs)}</p>")
         i += 1
 
     close_list()
     return "\n".join(out)
 
 
+# ---------------------------------------------------------------- Seiten sammeln
+
 def collect_pages():
-    pages = []  # (slug, title, type, rel_path)
+    pages = {}
     for path in glob.glob(os.path.join(ROOT, "**", "*.md"), recursive=True):
         rel = os.path.relpath(path, ROOT)
         parts = rel.split(os.sep)
@@ -264,94 +298,347 @@ def collect_pages():
             continue
         if os.path.basename(path) in EXCLUDE_FILES:
             continue
-        with open(path, encoding="utf-8") as f:
-            fm, body = parse_frontmatter(f.read())
         slug = os.path.splitext(os.path.basename(path))[0]
-        title = fm.get("title") or re.search(r"^#\s+(.*)$", body, re.M)
-        title = title.group(1).strip() if hasattr(title, "group") else (title or slug)
-        pages.append((slug, title, fm.get("type", "concept"), rel))
-    pages.sort(key=lambda p: p[1].lower())
+        fm, body = parse_frontmatter(open(path, encoding="utf-8").read())
+        title = fm.get("title", "").strip()
+        if not title:
+            hm = re.search(r"^#\s+(.*)$", body, re.M)
+            title = hm.group(1).strip() if hm else slug
+        title = re.sub(r"\s+", " ", title).strip()
+        pages[slug] = {
+            "slug": slug, "rel": rel, "fm": fm, "body": body, "title": title,
+            "type": fm.get("type", "concept"),
+            "updated": fm.get("updated") or fm.get("created") or "",
+            "created": fm.get("created") or "",
+            "tags": [t.strip() for t in re.split(r"[,\[\]]+", fm.get("tags", "")) if t.strip()],
+        }
     return pages
 
 
+def first_paragraph(body):
+    """Kurzbeschreibung: erster Absatz nach dem ersten H1."""
+    for line in body.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#") or s.startswith("---") or s.startswith(">"):
+            continue
+        s = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", lambda m: m.group(2) or m.group(1), s)
+        s = re.sub(r"[*`]", "", s)
+        if len(s) > 15:
+            return s[:220]
+    return ""
+
+
+def plain_text(body):
+    text = re.sub(r"<iframe.*?</iframe>", " ", body, flags=re.S)
+    text = re.sub(r"!\[[^\]]*\]\([^)]*\)", " ", text)
+    text = re.sub(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]", lambda m: m.group(2) or m.group(1), text)
+    text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
+    text = re.sub(r"[#*`>|]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
 def compute_backlinks(pages):
-    """slug -> [titel der verlinkenden Seiten]"""
     links = {}
-    texts = {}
-    for slug, title, typ, rel in pages:
-        with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
-            texts[slug] = f.read()
-    for slug, title, typ, rel in pages:
-        for target, _, _, _ in pages:
+    for slug, p in pages.items():
+        for target in pages:
             if target == slug:
                 continue
-            if re.search(r"\[\[" + re.escape(target) + r"(\]|\|)", texts[slug]):
-                links.setdefault(target, []).append(title)
+            if re.search(r"\[\[" + re.escape(target) + r"(\]|\|)", p["body"]):
+                links.setdefault(target, []).append(p["title"])
     return links
 
 
-def render_page(slug, title, typ, body, all_pages, backlinks_map):
-    body_html = md_to_html(body)
+# ---------------------------------------------------------------- Layout-Bausteine
 
-    sidebar = ['<aside class="sidebar">', '<h2>Wiki navigieren</h2>', '<ul>',
-               '<li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li>',
-               '</ul>', '<h2>Seiten nach Typ</h2>', '<ul>']
-    for s, t, ty, _ in all_pages:
-        cls = ' class="active"' if s == slug else ""
-        label = f"<strong>{html.escape(t)}</strong>" if s == slug else html.escape(t)
-        sidebar.append(f'<li{cls}><a href="{s}.html">{label}</a> <span class="tag">[{ty}]</span></li>')
-    sidebar.append("</ul></aside>")
+def header_html():
+    return f'''<header class="header">
+  <button class="header-menu-btn" data-sidebar-toggle aria-label="Navigation umschalten">{ICONS["menu"]}</button>
+  <a class="brand" href="index.html"><span class="brand-mark">G</span><span class="brand-name">Geografie&nbsp;Wiki</span><span class="brand-sub">Geographie LK BW</span></a>
+  <div class="header-search">
+    <span class="search-icon">{ICONS["search"]}</span>
+    <input type="search" data-search data-results=".header-search .search-results"
+           placeholder="Suchen …" aria-label="Wiki durchsuchen" autocomplete="off">
+    <div class="search-results" role="listbox"></div>
+  </div>
+  <div class="header-actions">
+    <a class="icon-btn" href="{REPO_URL}" target="_blank" rel="noopener" title="GitHub-Repository" aria-label="GitHub-Repository">{ICONS["github"]}</a>
+    <button class="icon-btn" onclick="window.WIKI.toggleTheme()" title="Dark Mode umschalten" aria-label="Dark Mode umschalten">{ICONS["moon"]}</button>
+  </div>
+</header>'''
 
-    bl = backlinks_map.get(slug, [])
-    backlinks_html = ""
-    if bl:
-        items = "".join(f"<li>{html.escape(t)}</li>" for t in sorted(set(bl)))
-        backlinks_html = f'<div class="backlinks"><h3>Verlinkt von</h3><ul>{items}</ul></div>'
 
-    tags = []
-    with open(os.path.join(ROOT, [p[3] for p in all_pages if p[0] == slug][0]), encoding="utf-8") as f:
-        fm, _ = parse_frontmatter(f.read())
-    for tag in re.findall(r"[\w-]+", fm.get("tags", "")):
-        tags.append(f'<span class="tag-badge">{html.escape(tag)}</span>')
+def sidebar_html(pages, cats, current_slug):
+    items = []
+    items.append('<a class="nav-home" href="index.html">' + ICONS["home"] + ' Startseite</a>')
 
-    return f"""<!DOCTYPE html>
+    if cats:
+        items.append("<h3>Themen</h3>")
+        for idx, cat in enumerate(cats):
+            open_default = any(s == current_slug for s, _ in cat["pages"])
+            panel_id = f"cat-panel-{idx}"
+            items.append(
+                f'<button class="cat-toggle" aria-expanded="{"true" if open_default else "false"}" '
+                f'aria-controls="{panel_id}">{ICONS["chevron"]}'
+                f'<span>{html.escape(nice_cat_name(cat["name"]))}</span>'
+                f'<span class="cat-count">{len(cat["pages"])}</span></button>')
+            lis = []
+            for slug, desc in cat["pages"]:
+                cls = ' class="active"' if slug == current_slug else ""
+                label = pages[slug]["title"] if slug in pages else slug
+                lis.append(
+                    f'<li><a href="{slug}.html"{cls}>{html.escape(label)}</a>'
+                    f'<button class="fav-star" data-fav="{slug}" title="Zu Favoriten">★</button></li>')
+            items.append(f'<ul class="cat-items{" open" if open_default else ""}" id="{panel_id}">'
+                         + "".join(lis) + "</ul>")
+
+    items.append("<h3>Favoriten</h3>")
+    items.append('<ul id="fav-list"></ul>')
+
+    items.append("<h3>Zuletzt angesehen</h3>")
+    items.append('<ul id="recent-list"></ul>')
+
+    items.append("<h3>Links</h3>")
+    items.append(f'<a class="ext-link" href="{REPO_URL}" target="_blank" rel="noopener">{ICONS["github"]} Repository</a>')
+    items.append(f'<a class="ext-link" href="{PAGES_URL}" target="_blank" rel="noopener">{ICONS["link"]} Online-Version</a>')
+
+    return '<aside class="sidebar">' + "".join(items) + "</aside>"
+
+
+def page(title, body_html):
+    return f'''<!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>{html.escape(title)} — Geographie Wiki LK BW</title>
-  <style>{CSS}</style>
+  <title>{html.escape(title)} — Geografie Wiki</title>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-  {''.join(sidebar)}
-  <main class="main">
-    <h1>{html.escape(title)}</h1>
-    <div class="meta">
-      <span>Typ: {html.escape(typ)}</span>
-      <span style="margin-left:auto">{''.join(tags)}</span>
-    </div>
-    {body_html}
-    {backlinks_html}
-  </main>
+{header_html()}
+{body_html}
+<script src="assets/search-index.js"></script>
+<script src="assets/wiki.js"></script>
 </body>
 </html>
-"""
+'''
 
+
+def meta_html(p, cat_name):
+    tags = "".join(f'<span class="tag-badge">{html.escape(t)}</span>' for t in p["tags"][:6])
+    updated = f' · aktualisiert {html.escape(p["updated"])}' if p["updated"] else ""
+    created = f'erstellt {html.escape(p["created"])}' if p["created"] else ""
+    return f'''<div class="page-meta">
+  <span class="type-badge">{html.escape(p["type"])}</span>
+  {tags}
+  <span>{html.escape(cat_name or "")}{" · " if cat_name and (created or updated) else ""}{html.escape(created)}{updated}</span>
+  <div class="page-actions">
+    <button class="text-btn" data-fav title="Zu Favoriten">{ICONS["star"]} Favorit</button>
+    <button class="text-btn" data-copy-link title="Link kopieren">{ICONS["link"]} Link kopieren</button>
+  </div>
+</div>'''
+
+
+def breadcrumb_html(cat_name, title):
+    parts = ['<a href="index.html">Startseite</a>']
+    if cat_name:
+        parts.append(f'<a href="index.html#cat-{slugify(cat_name)}">{html.escape(nice_cat_name(cat_name))}</a>')
+    parts.append(f'<span class="current">{html.escape(title)}</span>')
+    return '<nav class="breadcrumb" aria-label="Brotkrumen">' + \
+        ' <span class="sep">/</span> '.join(parts) + "</nav>"
+
+
+# ---------------------------------------------------------------- Suchindex
+
+def build_search_index(pages, cats):
+    cat_of = {}
+    for cat in cats:
+        for slug, _ in cat["pages"]:
+            cat_of[slug] = nice_cat_name(cat["name"])
+    entries = []
+    for slug, p in pages.items():
+        desc = first_paragraph(p["body"])
+        excerpt = plain_text(p["body"])[:400]
+        entries.append({
+            "t": p["title"], "u": slug + ".html",
+            "c": cat_of.get(slug, p["type"]), "d": desc, "x": excerpt,
+        })
+    js = "window.SEARCH_INDEX = " + json.dumps(entries, ensure_ascii=False, indent=0) + ";\n"
+    with open(os.path.join(ROOT, "assets", "search-index.js"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(js)
+    return len(entries)
+
+
+# ---------------------------------------------------------------- Startseite
+
+def build_home(pages, cats, backlinks):
+    # Begrüßungstext aus index.md
+    idx_text = ""
+    if "index" in pages:
+        m = re.search(r"^>\s*(.+?)(?:\n\s*\n|\n>|$)", pages["index"]["body"], re.S | re.M)
+        if m:
+            idx_text = " ".join(l.strip("> ") for l in m.group(1).splitlines() if l.strip())
+    idx_text = idx_text or "Persönliche Wissensbasis für den Geographie-Leistungskurs in Baden-Württemberg."
+
+    # Kategorien-Karten
+    cards = []
+    for cat in cats:
+        anchor = f"cat-{slugify(cat['name'])}"
+        sample = cat["pages"][0][1] if cat["pages"] and cat["pages"][0][1] else ""
+        first_slug = cat["pages"][0][0] if cat["pages"] else "index.html"
+        cards.append(
+            f'<a class="cat-card" id="{anchor}" href="{first_slug}.html">'
+            f'<div class="cat-name">{html.escape(nice_cat_name(cat["name"]))}</div>'
+            f'<div class="cat-n">{len(cat["pages"])} Artikel</div>'
+            f'<div class="cat-sample">{html.escape(sample[:110])}</div></a>')
+
+    # Zuletzt aktualisiert
+    updated = sorted(
+        [p for p in pages.values() if p["slug"] != "index" and p["updated"]],
+        key=lambda p: p["updated"], reverse=True)[:6]
+    upd_list = "".join(
+        f'<li><a href="{p["slug"]}.html">{html.escape(p["title"])}</a>'
+        f'<span class="item-date">{html.escape(p["updated"])}</span></li>' for p in updated)
+
+    # Häufig verlinkt
+    counts = sorted(backlinks.items(), key=lambda kv: len(kv[1]), reverse=True)
+    linked = [(s, len(t)) for s, t in counts if s in pages and s != "index"][:6]
+    link_list = "".join(
+        f'<li><a href="{s}.html">{html.escape(pages[s]["title"])}</a>'
+        f'<span class="item-count">{n}× verlinkt</span></li>' for s, n in linked)
+
+    # Neu
+    new_pages = [p for p in pages.values()
+                 if p["created"] >= "2026-10-01" and p["slug"] != "index"]
+    new_strip = ""
+    if new_pages:
+        links = " · ".join(f'<a href="{p["slug"]}.html">{html.escape(p["title"])}</a>'
+                           for p in new_pages[:4])
+        new_strip = f'<div class="new-strip"><span class="new-label">Neu im Wiki:</span>{links}</div>'
+
+    body = f'''<div class="layout" data-slug="index">
+  <div class="overlay"></div>
+{sidebar_html(pages, cats, "index")}
+  <main class="content">
+    <div class="content-inner">
+      <section class="hero">
+        <h1>Geografie Wiki</h1>
+        <p>{html.escape(idx_text)}</p>
+        <div class="hero-search">
+          <span class="search-icon">{ICONS["search"]}</span>
+          <input type="search" data-search data-results=".hero-search .hero-results"
+                 placeholder="Wonach suchst du?" aria-label="Wiki durchsuchen" autocomplete="off">
+          <div class="search-results hero-results"></div>
+        </div>
+      </section>
+
+      {new_strip}
+
+      <section class="section">
+        <div class="section-head"><h2>Themen</h2><span class="section-sub">{len(cats)} Kategorien · {len(pages)} Artikel</span></div>
+        <div class="cat-grid">{"".join(cards)}</div>
+      </section>
+
+      <div class="two-col">
+        <section class="section">
+          <div class="section-head"><h2>Zuletzt aktualisiert</h2></div>
+          <ul class="list-card">{upd_list}</ul>
+        </section>
+        <section class="section">
+          <div class="section-head"><h2>Häufig verlinkt</h2><span class="section-sub">zentrale Artikel</span></div>
+          <ul class="list-card">{link_list}</ul>
+        </section>
+      </div>
+
+      <p class="footer-note">Bildungsplan 2016 (LK Geografie BW) · lokal nutzbar über <code class="inline-code">index.html</code> · online unter <a href="{PAGES_URL}" target="_blank" rel="noopener">docbiber.github.io/GeoWiki</a></p>
+    </div>
+  </main>
+</div>'''
+    return page("Geografie Wiki — Leistungskurs BW", body)
+
+
+# ---------------------------------------------------------------- Artikelseite
+
+def build_article(p, pages, cats, backlinks):
+    known = set(pages)
+    cat_name = None
+    for cat in cats:
+        if p["slug"] in [s for s, _ in cat["pages"]]:
+            cat_name = cat["name"]
+            break
+
+    body_html = md_to_html(p["body"], known, p["title"])
+    desc = first_paragraph(p["body"])
+
+    h23 = re.findall(r"<h([23]) id=\"([^\"]+)\">(.*?)</h\1>", body_html, re.S)
+    toc_mobile = ""
+    if h23:
+        lis = "".join(
+            f'<li><a href="#{hid}">{re.sub(r"<[^>]+>", "", txt)}</a></li>'
+            for _, hid, txt in h23)
+        toc_mobile = f'<details class="toc-mobile"><summary>Inhalt</summary><ul>{lis}</ul></details>'
+
+    bl = backlinks.get(p["slug"], [])
+    bl_html = ""
+    if bl:
+        lis = "".join(f"<li>{html.escape(t)}</li>" for t in sorted(set(bl)))
+        bl_html = f'<div class="backlinks"><h3>Verlinkt von</h3><ul>{lis}</ul></div>'
+
+    toc_rail = f'''<div class="toc-rail"><div class="toc-rail-inner">
+  <h3>Auf dieser Seite</h3><ul id="toc-rail-list"></ul>
+</div></div>''' if h23 else ""
+
+    body = f'''<div class="layout" data-slug="{p["slug"]}" data-title="{html.escape(p["title"], quote=True)}">
+  <div class="overlay"></div>
+{sidebar_html(pages, cats, p["slug"])}
+  <main class="content">
+    <div class="content-inner">
+      {breadcrumb_html(cat_name, p["title"])}
+      <div class="page-head">
+        <div class="page-title-row">
+          <h1>{html.escape(p["title"])}</h1>
+          <button class="fav-btn" data-fav aria-label="Zu Favoriten">{ICONS["star"]}</button>
+        </div>
+        <p class="page-desc">{html.escape(desc)}</p>
+        {meta_html(p, cat_name)}
+      </div>
+      {toc_mobile}
+      <article class="wiki-body">
+{body_html}
+      </article>
+      {bl_html}
+    </div>
+    {toc_rail}
+  </main>
+</div>'''
+    return page(p["title"], body)
+
+
+# ---------------------------------------------------------------- Hauptlauf
 
 def main():
     pages = collect_pages()
-    backlinks_map = compute_backlinks(pages)
-    written = 0
-    for slug, title, typ, rel in pages:
-        with open(os.path.join(ROOT, rel), encoding="utf-8") as f:
-            fm, body = parse_frontmatter(f.read())
-        html_out = render_page(slug, title, typ, body, pages, backlinks_map)
-        out_path = os.path.join(ROOT, slug + ".html")
-        with open(out_path, "w", encoding="utf-8", newline="\n") as f:
-            f.write(html_out)
+    cats = parse_categories()
+    backlinks = compute_backlinks(pages)
+    os.makedirs(os.path.join(ROOT, "assets"), exist_ok=True)
+
+    n_idx = build_search_index(pages, cats)
+
+    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(build_home(pages, cats, backlinks))
+
+    written = 1
+    for slug, p in pages.items():
+        if slug == "index":
+            continue
+        with open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8", newline="\n") as f:
+            f.write(build_article(p, pages, cats, backlinks))
         written += 1
-        print(f"  {slug}.html  ({typ})")
-    print(f"\n{written} HTML-Dateien geschrieben.")
+
+    print(f"Startseite + {written - 1} Artikelseiten geschrieben; Suchindex: {n_idx} Einträge.")
+    for a in ASSETS:
+        path = os.path.join(ROOT, a)
+        print(f"  {'OK ' if os.path.exists(path) else 'FEHLT'} {a}")
 
 
 if __name__ == "__main__":

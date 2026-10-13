@@ -3,112 +3,60 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Raumbeispiele — Vulkanismus (Geografie LK) — Geographie Wiki LK BW</title>
-  <style>
-    :root {
-      --bg: #fafafa;
-      --sidebar-bg: #f4f4f4;
-      --text: #1a1a1a;
-      --muted: #666;
-      --border: #ddd;
-      --link: #1a5fb4;
-      --wikilink: #b45f06;
-      --active-bg: #e8e8e8;
-      --code-bg: #f0f0f0;
-      --blockquote-border: #ccc;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      border-right: 1px solid var(--border);
-      padding: 1.5rem 1rem;
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 0.75rem 0;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .sidebar ul { list-style: none; padding: 0; margin: 0; }
-    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
-    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
-    .sidebar li a:hover { color: var(--link); }
-    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
-    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
-    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
-    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
-    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
-    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
-    .wikilink:hover { color: #8a4400; }
-    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
-    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .wiki-table th { background: #f0f0f0; font-weight: 600; }
-    .wiki-table tr:nth-child(even) td { background: #fafafa; }
-    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
-    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
-    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
-    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
-    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
-    h4 { font-size: 1rem; margin-top: 1rem; }
-    p { margin: 0.6rem 0; }
-    ul, ol { padding-left: 1.5rem; }
-    li { margin: 0.2rem 0; }
-    a { color: var(--link); }
-    a:hover { text-decoration: underline; }
-    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
-    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
-    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
-    .no-link { color: var(--muted); font-style: italic; }
-    img { max-width: 100%; }
-    @media (max-width: 768px) {
-      body { flex-direction: column; }
-      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
-      .main { padding: 1rem; }
-      .backlinks ul { columns: 1; }
-    }
-</style>
+  <title>Raumbeispiele — Vulkanismus (Geografie LK) — Geografie Wiki</title>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li class="active"><a href="vulkan-raumbeispiele.html"><strong>Raumbeispiele — Vulkanismus (Geografie LK)</strong></a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
-  <main class="main">
-    <h1>Raumbeispiele — Vulkanismus (Geografie LK)</h1>
-    <div class="meta">
-      <span>Typ: concept</span>
-      <span style="margin-left:auto"><span class="tag-badge">raumbeispiele</span><span class="tag-badge">vulkanismus</span><span class="tag-badge">vulkan-raumbeispiele</span></span>
-    </div>
-    <h1>Raumbeispiele — Vulkanismus (Geografie LK)</h1>
-<blockquote>Konkrete Länder, Vulkane und Regionen als Prüfungs- und Vergleichsgrundlage.</blockquote>
-<blockquote>Jedes Beispiel enthält: Vulkan-Typ, geodynamischer Kontext, Hazard, Vulnerabilität, Resilienz.</blockquote>
+<header class="header">
+  <button class="header-menu-btn" data-sidebar-toggle aria-label="Navigation umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
+  <a class="brand" href="index.html"><span class="brand-mark">G</span><span class="brand-name">Geografie&nbsp;Wiki</span><span class="brand-sub">Geographie LK BW</span></a>
+  <div class="header-search">
+    <span class="search-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 3.5 3.5"/></svg></span>
+    <input type="search" data-search data-results=".header-search .search-results"
+           placeholder="Suchen …" aria-label="Wiki durchsuchen" autocomplete="off">
+    <div class="search-results" role="listbox"></div>
+  </div>
+  <div class="header-actions">
+    <a class="icon-btn" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener" title="GitHub-Repository" aria-label="GitHub-Repository"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg></a>
+    <button class="icon-btn" onclick="window.WIKI.toggleTheme()" title="Dark Mode umschalten" aria-label="Dark Mode umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9z"/></svg></button>
+  </div>
+</header>
+<div class="layout" data-slug="vulkan-raumbeispiele" data-title="Raumbeispiele — Vulkanismus (Geografie LK)">
+  <div class="overlay"></div>
+<aside class="sidebar"><a class="nav-home" href="index.html"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 9 10 3.5 16.5 9v7.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z"/><path d="M8 17.5v-5h4v5"/></svg> Startseite</a><h3>Themen</h3><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-0"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Bildungsplan-rahmen</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-0"><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a><button class="fav-star" data-fav="bildungsplan-2016-lk" title="Zu Favoriten">★</button></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a><button class="fav-star" data-fav="kompenenzen-lk" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-1"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulkansismus</span><span class="cat-count">3</span></button><ul class="cat-items" id="cat-panel-1"><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a><button class="fav-star" data-fav="vulkansimus-ueberblick" title="Zu Favoriten">★</button></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a><button class="fav-star" data-fav="vulkanarten" title="Zu Favoriten">★</button></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a><button class="fav-star" data-fav="vulkanprozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-2"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Glazialmorphologie</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-2"><li><a href="glazialmorphologie-ueberblick.html">Glazialmorphologie — Überblick und Grundlagen</a><button class="fav-star" data-fav="glazialmorphologie-ueberblick" title="Zu Favoriten">★</button></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a><button class="fav-star" data-fav="glaziale-serie" title="Zu Favoriten">★</button></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a><button class="fav-star" data-fav="moränen-und-gletscherformen" title="Zu Favoriten">★</button></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a><button class="fav-star" data-fav="permafrost-und-solifluktion" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-3"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulnerabilität &amp; Resilienz</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-3"><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a><button class="fav-star" data-fav="vulnerabilitaet-begriffe" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a><button class="fav-star" data-fav="vulnerabilitaet-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a><button class="fav-star" data-fav="vulnerabilitaet-vulkanraume" title="Zu Favoriten">★</button></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a><button class="fav-star" data-fav="resilienz-massnahmen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-4"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Boden &amp; Wasser</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-4"><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a><button class="fav-star" data-fav="boden-und-boden" title="Zu Favoriten">★</button></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a><button class="fav-star" data-fav="wasserhaushalt" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-5"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Atmosphäre &amp; Klima</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-5"><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a><button class="fav-star" data-fav="atmosphaere-wetter-klima" title="Zu Favoriten">★</button></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a><button class="fav-star" data-fav="klimawandel" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-6"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Geographische Methoden</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-6"><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a><button class="fav-star" data-fav="methoden-gis-fernerkundung" title="Zu Favoriten">★</button></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a><button class="fav-star" data-fav="stadtgeographie" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-7"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Globalisierung &amp; Entwicklung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-7"><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a><button class="fav-star" data-fav="globalisierung-anthroposphaere" title="Zu Favoriten">★</button></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a><button class="fav-star" data-fav="disparitaet-entwicklungen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="true" aria-controls="cat-panel-8"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Raumbeispiele</span><span class="cat-count">6</span></button><ul class="cat-items open" id="cat-panel-8"><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a><button class="fav-star" data-fav="uebersicht-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulkan-raumbeispiele.html" class="active">Raumbeispiele — Vulkanismus (Geografie LK)</a><button class="fav-star" data-fav="vulkan-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a><button class="fav-star" data-fav="glazial-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="fluss-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="kuesten-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a><button class="fav-star" data-fav="karstlandschaft" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-9"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Skizzen</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-9"><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a><button class="fav-star" data-fav="uebersicht-skizzen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-10"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vergleiche</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-10"><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a><button class="fav-star" data-fav="vergleich-vulkan-gletscher-prozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-11"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Abitur &amp; Übung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-11"><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a><button class="fav-star" data-fav="abitur-aufgaben" title="Zu Favoriten">★</button></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a><button class="fav-star" data-fav="uebungsaufgaben" title="Zu Favoriten">★</button></li></ul><h3>Favoriten</h3><ul id="fav-list"></ul><h3>Zuletzt angesehen</h3><ul id="recent-list"></ul><h3>Links</h3><a class="ext-link" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg> Repository</a><a class="ext-link" href="https://docbiber.github.io/GeoWiki/" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Online-Version</a></aside>
+  <main class="content">
+    <div class="content-inner">
+      <nav class="breadcrumb" aria-label="Brotkrumen"><a href="index.html">Startseite</a> <span class="sep">/</span> <a href="index.html#cat-raumbeispiele-fuer-abitur">Raumbeispiele</a> <span class="sep">/</span> <span class="current">Raumbeispiele — Vulkanismus (Geografie LK)</span></nav>
+      <div class="page-head">
+        <div class="page-title-row">
+          <h1>Raumbeispiele — Vulkanismus (Geografie LK)</h1>
+          <button class="fav-btn" data-fav aria-label="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg></button>
+        </div>
+        <p class="page-desc">| Merkmal | Angabe |</p>
+        <div class="page-meta">
+  <span class="type-badge">concept</span>
+  <span class="tag-badge">raumbeispiele</span><span class="tag-badge">vulkanismus</span><span class="tag-badge">vulkan-raumbeispiele</span>
+  <span>RAUMBEISPIELE (für Abitur) · erstellt 2026-09-27 · aktualisiert 2026-09-27</span>
+  <div class="page-actions">
+    <button class="text-btn" data-fav title="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg> Favorit</button>
+    <button class="text-btn" data-copy-link title="Link kopieren"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Link kopieren</button>
+  </div>
+</div>
+      </div>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#1-mount-vesuv-italien">1. Mount Vesuv — Italien</a></li><li><a href="#grunddaten">Grunddaten</a></li><li><a href="#hazard">Hazard</a></li><li><a href="#vulnerabilitaet">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen">Resilienz-Maßnahmen</a></li><li><a href="#2-kilauea-hawaii-usa">2. Kilauea — Hawaii, USA</a></li><li><a href="#grunddaten-2">Grunddaten</a></li><li><a href="#hazard-2">Hazard</a></li><li><a href="#vulnerabilitaet-2">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen-2">Resilienz-Maßnahmen</a></li><li><a href="#3-laacher-see-eifel-deutschland">3. Laacher See — Eifel, Deutschland</a></li><li><a href="#grunddaten-3">Grunddaten</a></li><li><a href="#hazard-3">Hazard</a></li><li><a href="#vulnerabilitaet-3">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen-3">Resilienz-Maßnahmen</a></li><li><a href="#4-eyafjoell-eyjafjallajoekull-island">4. Eyafjöll (Eyjafjallajökull) — Island</a></li><li><a href="#grunddaten-4">Grunddaten</a></li><li><a href="#hazard-4">Hazard</a></li><li><a href="#vulnerabilitaet-4">Vulnerabilität</a></li><li><a href="#resilienz-massnahmen-4">Resilienz-Maßnahmen</a></li><li><a href="#5-vergleichstabelle-vier-vulkan-raumbeispiele">5. Vergleichstabelle: Vier Vulkan-Raumbeispiele</a></li><li><a href="#raumbeispiele-hinweise-fuer-lk-abitur">Raumbeispiele — Hinweise für LK-Abitur</a></li><li><a href="#bildmaterial">Bildmaterial</a></li><li><a href="#fotos-unsplash">📸 Fotos (Unsplash)</a></li></ul></details>
+      <article class="wiki-body">
+<blockquote>Konkrete Länder, Vulkane und Regionen als Prüfungs- und Vergleichsgrundlage. Jedes Beispiel enthält: Vulkan-Typ, geodynamischer Kontext, Hazard, Vulnerabilität, Resilienz.</blockquote>
 <hr/>
-<h2>1. Mount Vesuv — Italien</h2>
-<h3>Grunddaten</h3>
+<h2 id="1-mount-vesuv-italien">1. Mount Vesuv — Italien</h2>
+<h3 id="grunddaten">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Vulkan-Typ</td><td>Schichtvulkan (Strato vulkan)</td></tr><tr><td>Geodynamik</td><td>Subduktionszone: Afrikanische Platte schiebt sich unter die eurasische Platte (Kampanien-Graben)</td></tr><tr><td>Höhe</td><td>1281 m (aktuell, nach 1944-Eruption)</td></tr><tr><td>Letzte große Eruption</td><td>1944 (heute aktivitätsarm, aber eingestuft als "bedroht")</td></tr><tr><td>Provinz</td><td>Campania, Neapel-Naher</td></tr><tr><td>Bevölkerungsdichte</td><td>Sehr hoch — ca. 3 Millionen Menschen in der "Rouge Zone" (Vesuv-Gefahrenzone)</td></tr></tbody></table>
-<h3>Hazard</h3>
+<h3 id="hazard">Hazard</h3>
 <ul>
 <li>Explosive Eruption möglich (ash eruption, pyroklastische Ströme, Lahare)</li>
 <li>Historisch: 79 n. Chr. (Pompeji, Herculaneum, &gt;2000 Tote); 1631 (&gt;4000 Tote); 1906 (&gt;100 Tote); 1944</li>
 <li>Aktuell: Bodenenthebung, seismische Aktivität, Gasemission → Überwachung</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet">Vulnerabilität</h3>
 <p><strong>Physisch:</strong></p>
 <ul>
 <li>Siedlungen direkt am Fuß des Vulkans (Torre del Greco, San Giorgio, Pompeji, Herculaneum)</li>
@@ -126,7 +74,7 @@
 <li>Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft</li>
 <li>Zerstörung = Multiplikatoreffekt (Verlust Tourismus + Landwirtschaft + lokale Wirtschaft)</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen">Resilienz-Maßnahmen</h3>
 <ul>
 <li>Vesuv-Beobachtung (INGV-Observatorium, Seismometer, GPS-Extensmetern, Gasmessung)</li>
 <li>Evakuierungspläne (Rouge Zone, Evakuierungs-Wege, Sammelplätze, Notfallkommunikation)</li>
@@ -136,17 +84,17 @@
 </ul>
 <p><strong>Beurteilung (LK-Ebene):</strong> Resilienz verbessert, aber die <strong>Vulnerabilität bleibt hoch</strong> aufgrund extrem hoher Bevölkerungsdichte in Gefahrenzone — Raumplanungskonflikt (Siedlungsbildung vs. Schutz). Nachhaltigkeit: Ansatzpunkte durch Bewusstseinsbildung, aber strukturelle Lösung schwierig.</p>
 <hr/>
-<h2>2. Kilauea — Hawaii, USA</h2>
-<h3>Grunddaten</h3>
+<h2 id="2-kilauea-hawaii-usa">2. Kilauea — Hawaii, USA</h2>
+<h3 id="grunddaten-2">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Vulkan-Typ</td><td>Schildvulkan (basaltisch, effusiv)</td></tr><tr><td>Geodynamik</td><td>Hot Spot (Pazifik-Platten über Hawaii-Hot-Spot)</td></tr><tr><td>Höhe</td><td>1277 m (torr, variabel)</td></tr><tr><td>Aktivitätsgrad</td><td>Einer aktivsten Vulkane — seit 1983 nahezu kontinuierliche Ausbruch</td></tr><tr><td>Besonderheit</td><td>Permanenter Lavastrom (seit 1986 Pu'u'O'o-Ausbruch)</td></tr></tbody></table>
-<h3>Hazard</h3>
+<h3 id="hazard-2">Hazard</h3>
 <ul>
 <li><strong>Effusive Lavastrom</strong>: langsam fließend, meist belebtbar, aber zerstört Gebäude, Straßen, Versorgungsnetze</li>
 <li><strong>Gasemissionen</strong>: SO₂ (Vog = volcanic smog), CO₂ in Mulden (Erstickungsgefahr)</li>
 <li><strong>Pyroklastische Aktivität</strong> (selten, aber möglich bei explosionsvulkanischer Phase)</li>
 <li><strong>Lava delta</strong>: Neues Land entsteht (Küstenverlängerung)</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet-2">Vulnerabilität</h3>
 <p><strong>Physisch:</strong></p>
 <ul>
 <li>Siedlungen am Vulkanhang (z.B. Leilani Estates, bei 2018-Eruption stark betroffen)</li>
@@ -162,7 +110,7 @@
 <ul>
 <li>Tourismus (Vulkan-Tourismus = Hauptwirtschaft) — Ausbruch = Auslastung UND Gefahr; ambivalent</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen-2">Resilienz-Maßnahmen</h3>
 <ul>
 <li>Hawaiian Volcano Observatory (HVO): Seismische Überwachung, GPS (Gesteinsdeformation), Gasmessung, Thermal-Bildgebung</li>
 <li>Evakuierung bei vorhersehbarer Gefahr, rascher, effektiv</li>
@@ -172,16 +120,16 @@
 </ul>
 <p><strong>Beurteilung:</strong> Resilienz deutlich höher als bei Vesuv — geringere Bevölkerungsdichte, lokale Erfahrung, gut ausgebauter Überwachung. Effusive glaubhaft → meist hinnehmbar. Effusive vs. explosive: geringer Schaden, aber Wirtschaft (Tourismus) ist vulkanis-abhängig.</p>
 <hr/>
-<h2>3. Laacher See — Eifel, Deutschland</h2>
-<h3>Grunddaten</h3>
+<h2 id="3-laacher-see-eifel-deutschland">3. Laacher See — Eifel, Deutschland</h2>
+<h3 id="grunddaten-3">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Vulkan-Typ</td><td>Maar / Caldera (phreatomagmatisch)</td></tr><tr><td>Geodynamik</td><td>Intraplattformal — kein FZ, aber lokale Magmenaktivität im Oberrheingraben/Eifel-Gebiet</td></tr><tr><td>Letzter Ausbruch</td><td>ca. 12.900 Jahre vor heute (Jungsteinzeitliche/Kaltzeit-Rand)</td></tr><tr><td>Größe</td><td>Kessel-Durchmesser ~1,7 km, Tiefe ~100 m, heute See</td></tr><tr><td>Vulkanische Erde</td><td>Vulkanischer Tuff, Basalt, Schelstats</td></tr></tbody></table>
-<h3>Hazard</h3>
+<h3 id="hazard-3">Hazard</h3>
 <ul>
 <li><strong>verlängerte Gefahr</strong>: Magmenzündung gestoppt, aber möglicherweise noch keine vollständige Deaktivierung</li>
 <li><strong>Seismische Aktivität</strong>: Bodenbeben in der Eifel (z.B. 2019, 2020 — unklar ob vulkanischen oder tektonisch)</li>
 <li><strong>Gasemissionen</strong>: CO₂-Ausstieg in der Eifel (Todesfall durch CO₂-Anhäufung in Mulden bekannt)</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet-3">Vulnerabilität</h3>
 <p><strong>Physisch:</strong></p>
 <ul>
 <li>Das Nähe-Gebiet ist nicht so dicht bevölkert wie Vesuv (Eifel: ländliche Region, niedrige Bevölkerungsdichte)</li>
@@ -196,7 +144,7 @@
 <ul>
 <li>Tourismus (Laacher See als Reiseziel), Landwirtschaft (vulkanische Böden in Eifel → fruchtbar)</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen-3">Resilienz-Maßnahmen</h3>
 <ul>
 <li>begrenzte Überwachung (Bodenwesen-Abteilung, geologen)</li>
 <li>CO₂-Warnungen in bestimmten Bereichen</li>
@@ -205,16 +153,16 @@
 </ul>
 <p><strong>Beurteilung:</strong> Vulnerabilität moderat bis niedrig durch niedrige Bevölkerungsdichte, aber <strong>hohe Informationsdefizite</strong>. Die passive Überwachung ist unzureichend für vulkanische Gefahren. LK-Abitur: prägnantes Beispiel für "verdrängte Gefahr" durch fehlendes Bewusstsein.</p>
 <hr/>
-<h2>4. Eyafjöll (Eyjafjallajökull) — Island</h2>
-<h3>Grunddaten</h3>
+<h2 id="4-eyafjoell-eyjafjallajoekull-island">4. Eyafjöll (Eyjafjallajökull) — Island</h2>
+<h3 id="grunddaten-4">Grunddaten</h3>
 <table class="wiki-table"><thead><tr><th>Merkmal</th><th>Angabe</th></tr></thead><tbody><tr><td>Vulkan-Typ</td><td>Schichtvulkan, unter Gletscher (jöklen)</td></tr><tr><td>Geodynamik</td><td>Hot Spot (Island) + Mittelozeanische Rückennoete (MOR)</td></tr><tr><td>Letzte große Eruption</td><td>2010 (April–Mai; 14. April 2010 explosiv, Asche)</td></tr><tr><td>Höhe</td><td>ca. 1666 m (oberhalb des Eises)</td></tr><tr><td>Gletscher</td><td>Eyjafjallajökull = Eisdecke über Vulkan</td></tr></tbody></table>
-<h3>Hazard</h3>
+<h3 id="hazard-4">Hazard</h3>
 <ul>
 <li><strong>explosive Eruption 2010</strong>: hohe Asche-Säule (→ Stratosphäre), feine Aschepartikel</li>
 <li><strong>Aschewolke</strong> über Europa: 100.000+ Flüge in Europa abgesagt, ca. 10 Millionen Reisende betroffen</li>
 <li><strong>Jökulhlaup</strong> (Gletscherflut): bei Ausbruch unter dem Eis schmilzt → Gutgraben-Entladung (2010: mehrere Wellen)</li>
 </ul>
-<h3>Vulnerabilität</h3>
+<h3 id="vulnerabilitaet-4">Vulnerabilität</h3>
 <p><strong>Physisch:</strong></p>
 <ul>
 <li>Island: dünn besiedelt, direkte Gefährdung gering (lokale Ortschaften, Highway 1)</li>
@@ -225,7 +173,7 @@
 <li><strong>Wirtschaft</strong>: Export-Land (Island: Fisch, Aluminium, Tourismus) → Logistik-Ausfall</li>
 <li><strong>Luftfahrt-Betriebe</strong>: Flugzeuge mit Asche sind nicht mehr fliegbar (Motor-Schmelzgefährdung)</li>
 </ul>
-<h3>Resilienz-Maßnahmen</h3>
+<h3 id="resilienz-massnahmen-4">Resilienz-Maßnahmen</h3>
 <ul>
 <li><strong>Überwachung</strong>: isländisches Vulkan-Überwachung (IMO: Icelandic Met Office), Seismometer, GPS, Gasmessung</li>
 <li><strong>Frühwarnsystem</strong>: Warnstufen (Asche-Menge, Vulkanausbruch-Status), Verbreitung an Fluglinien</li>
@@ -234,22 +182,30 @@
 </ul>
 <p><strong>Beurteilung (LK-Perspektive):</strong> Eyjafjöll = klassisches Beispiel für <strong>transnationale Vulnerabilität</strong> — der Vulkan war lokal keine große Bedrohung, aber global wurde der Luftraum- und Wirtschaftszusammenhang sichtbar. LK-Abitur: gut geeignet für "Risiko im globalen Kontext" + "Resilienz der Infrastruktur" oder "Nachhaltige Entwicklung im Luftverkehr".</p>
 <hr/>
-<h2>5. Vergleichstabelle: Vier Vulkan-Raumbeispiele</h2>
+<h2 id="5-vergleichstabelle-vier-vulkan-raumbeispiele">5. Vergleichstabelle: Vier Vulkan-Raumbeispiele</h2>
 <table class="wiki-table"><thead><tr><th>Kriterium</th><th>Vesuv (Italien)</th><th>Kilauea (Hawaii)</th><th>Laacher See (Eifel)</th><th>Eyafjöll (Island)</th></tr></thead><tbody><tr><td><strong>Vulkan-Typ</strong></td><td>Schichtvulkan</td><td>Schildvulkan (effusiv)</td><td>Maar / Caldera</td><td>Schichtvulkan (unter Gletscher)</td></tr><tr><td><strong>Geodynamik</strong></td><td>Subduktion (Afrika unter Europa)</td><td>Hot Spot (Pazifik)</td><td>Intraplattformal (Eifel)</td><td>Hot Spot + MOR-Spreadung</td></tr><tr><td><strong>Bevölkerungsdichte nahe Vulkan</strong></td><td>Sehr hoch (Kampanien, 3 Mio. in Gefahrenzone)</td><td>Moderat, lokal dicht</td><td>Gering (ländliche Eifel)</td><td>Gering (Island dünn besiedelt)</td></tr><tr><td><strong>Haupthazards</strong></td><td>Explosion, Pyroklastische Ströme, Lahar, Asche</td><td>Effusive Lava, Gas (Vog), (selten explosionsvulkanisch)</td><td>CO₂, (möglicherwEise) seismische Aktivität, kein aktueller Ausbruch</td><td>Explosive Asche, Jökulhlaup, trans-nationaler Flugbetrieb-Störung</td></tr><tr><td><strong>Vulnerabilität</strong></td><td>Sehr hoch (Bevölkerungsdichte, Infrastruktur, Erfahrung)</td><td>Mittel (Tourismus-abhängig, lokale Siedlungen)</td><td>Gering, aber Informationsdefizit</td><td>Lokal gering, aber <strong>trans-national sehr hoch</strong> (Luftverkehr)</td></tr><tr><td><strong>Resilienz</strong></td><td>Mittel (Überwachung, Evakuierungsplan, aber Bevölkerungsdruck)</td><td>Hoch (Observatorien, Lokalwissen, Evakuierung)</td><td>Gering bis moderat (begrenzte Überwachung, niedriges Bewusstsein)</td><td>Hoch lokal, aber keine Lösung für globale Luftverkehr-Vulnerabilität</td></tr><tr><td><strong>Abitur-Beispiel</strong></td><td>Klassisch, "Vulnerabilität hoch"</td><td>"Effusiv vs. explosiv" Vergleich</td><td>"Verdrängte Gefahr", lokales Beispiel</td><td>"Transnationale Vulnerabilität, Infrastruktur-Resilienz"</td></tr></tbody></table>
 <hr/>
-<h2>Raumbeispiele — Hinweise für LK-Abitur</h2>
+<h2 id="raumbeispiele-hinweise-fuer-lk-abitur">Raumbeispiele — Hinweise für LK-Abitur</h2>
 <ul>
 <li><strong>Vesuv</strong>: Klassisches Beispiel für "hohe Vulnerabilität trotz Überwachung" — Raumplanung, Bevölkerungsdruck, nachhaltige Lösung schwierig</li>
 <li><strong>Kilauea</strong>: "Effusiver Vulkan, niedrigere Vulnerabilität, lokale Erfahrung, Observation"</li>
 <li><strong>Laacher See</strong>: "Ehemalige Gefahr, gegenwärtig ignoriert" — gutes Beispiel für Wahrnehmung/Vulnerabilität ohne Gefahr und ohne Wissen</li>
 <li><strong>Eyafjöll</strong>: "Transnationale Auswirkung" — Asche, Luftraum, Wirtschaft, globale Kette</li>
 </ul>
-<p>Verknüpfungen: <a class="wikilink" href="vulnerabilitaet-vulkanraume.html">vulnerabilitaet-vulkanraume</a>, <a class="wikilink" href="vulkanprozesse.html">vulkanprozesse</a>, <a class="wikilink" href="vulnerabilitaet-begriffe.html">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="bildungsplan-2016-lk.html">bildungsplan-2016-lk</a></p>
+<p>Verknüpfungen: <a class="wikilink" href="vulnerabilitaet-vulkanraume.html" title="vulnerabilitaet-vulkanraume">vulnerabilitaet-vulkanraume</a>, <a class="wikilink" href="vulkanprozesse.html" title="vulkanprozesse">vulkanprozesse</a>, <a class="wikilink" href="vulnerabilitaet-begriffe.html" title="vulnerabilitaet-begriffe">vulnerabilitaet-begriffe</a>, <a class="wikilink" href="bildungsplan-2016-lk.html" title="bildungsplan-2016-lk">bildungsplan-2016-lk</a></p>
 <hr/>
-<h2>Bildmaterial</h2>
-<h3>📸 Fotos (Unsplash)</h3>
+<h2 id="bildmaterial">Bildmaterial</h2>
+<h3 id="fotos-unsplash">📸 Fotos (Unsplash)</h3>
 <p><a href="https://unsplash.com/s/photos/volcano-landscape">Fotogalerie: Fotogalerie: Vulkanlandschaften (Unsplash)</a></p>
-    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Vulkanarten — Formen und Typen</li><li>Vulkanismus — Überblick (Geografie LK)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
+      </article>
+      <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Vulkanarten — Formen und Typen</li><li>Vulkanismus — Überblick (Geografie LK)</li><li>Übersicht Raumbeispiele — Geografie LK BW</li></ul></div>
+    </div>
+    <div class="toc-rail"><div class="toc-rail-inner">
+  <h3>Auf dieser Seite</h3><ul id="toc-rail-list"></ul>
+</div></div>
   </main>
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/wiki.js"></script>
 </body>
 </html>

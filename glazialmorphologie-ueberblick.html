@@ -3,113 +3,62 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Glazialmorphologie — Überblick und Grundlagen — Geographie Wiki LK BW</title>
-  <style>
-    :root {
-      --bg: #fafafa;
-      --sidebar-bg: #f4f4f4;
-      --text: #1a1a1a;
-      --muted: #666;
-      --border: #ddd;
-      --link: #1a5fb4;
-      --wikilink: #b45f06;
-      --active-bg: #e8e8e8;
-      --code-bg: #f0f0f0;
-      --blockquote-border: #ccc;
-    }
-    * { box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      line-height: 1.6;
-      color: var(--text);
-      background: var(--bg);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      min-height: 100vh;
-    }
-    .sidebar {
-      width: 280px;
-      background: var(--sidebar-bg);
-      border-right: 1px solid var(--border);
-      padding: 1.5rem 1rem;
-      overflow-y: auto;
-      flex-shrink: 0;
-    }
-    .sidebar h2 {
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin: 0 0 0.75rem 0;
-      padding-bottom: 0.25rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .sidebar ul { list-style: none; padding: 0; margin: 0; }
-    .sidebar li { margin: 0.2rem 0; font-size: 0.9rem; }
-    .sidebar li a { color: var(--text); text-decoration: none; display: block; padding: 0.1rem 0; }
-    .sidebar li a:hover { color: var(--link); }
-    .sidebar li.active { background: var(--active-bg); border-radius: 3px; padding-left: 0.3rem; }
-    .tag { font-size: 0.75rem; color: var(--muted); font-weight: normal; }
-    .main { flex: 1; padding: 2rem 3rem; max-width: 900px; min-width: 0; }
-    .main h1 { font-size: 1.8rem; margin-bottom: 0.3rem; border-bottom: 2px solid var(--link); padding-bottom: 0.4rem; }
-    .main .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }
-    .tag-badge { display: inline-block; background: #e6eef6; color: var(--link); font-size: 0.75rem; padding: 0.1rem 0.4rem; border-radius: 3px; margin-right: 0.3rem; }
-    .wikilink { color: var(--wikilink); text-decoration: underline; text-decoration-style: dotted; }
-    .wikilink:hover { color: #8a4400; }
-    .wiki-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.9rem; }
-    .wiki-table th, .wiki-table td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
-    .wiki-table th { background: #f0f0f0; font-weight: 600; }
-    .wiki-table tr:nth-child(even) td { background: #fafafa; }
-    blockquote { border-left: 3px solid var(--blockquote-border); padding: 0.5rem 1rem; margin: 1rem 0; background: #f9f9f9; color: var(--muted); font-style: italic; }
-    pre.codeblock { background: var(--code-bg); border: 1px solid var(--border); padding: 0.8rem; overflow-x: auto; font-size: 0.85rem; line-height: 1.3; white-space: pre; }
-    code.inline-code { background: var(--code-bg); padding: 0.1rem 0.2rem; border-radius: 2px; font-size: 0.9em; }
-    hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
-    h2 { font-size: 1.3rem; margin-top: 1.5rem; color: var(--link); }
-    h3 { font-size: 1.1rem; margin-top: 1.2rem; }
-    h4 { font-size: 1rem; margin-top: 1rem; }
-    p { margin: 0.6rem 0; }
-    ul, ol { padding-left: 1.5rem; }
-    li { margin: 0.2rem 0; }
-    a { color: var(--link); }
-    a:hover { text-decoration: underline; }
-    .backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); font-size: 0.85rem; }
-    .backlinks h3 { font-size: 0.95rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .backlinks ul { columns: 2; column-gap: 1.5rem; padding-left: 0.5rem; }
-    .backlinks li { margin: 0.15rem 0; break-inside: avoid; }
-    .no-link { color: var(--muted); font-style: italic; }
-    img { max-width: 100%; }
-    @media (max-width: 768px) {
-      body { flex-direction: column; }
-      .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border); max-height: 200px; overflow-y: auto; }
-      .main { padding: 1rem; }
-      .backlinks ul { columns: 1; }
-    }
-</style>
+  <title>Glazialmorphologie — Überblick und Grundlagen — Geografie Wiki</title>
+  <link rel="stylesheet" href="assets/style.css"/>
 </head>
 <body>
-  <aside class="sidebar"><h2>Wiki navigieren</h2><ul><li><a href="index.html">📖 Index</a> <span class="tag">[Übersicht]</span></li></ul><h2>Seiten nach Typ</h2><ul><li><a href="bevoelkerungsgeographie.html">&quot;Bevölkerungsgeographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="biogeographie-landschaftsoekologie.html">&quot;Biogeographie &amp; Landschaftsökologie&quot;</a> <span class="tag">[concept]</span></li><li><a href="historische-geographie.html">&quot;Historische Geographie&quot;</a> <span class="tag">[concept]</span></li><li><a href="politische-geographie-geopolitik.html">&quot;Politische Geographie &amp; Geopolitik&quot;</a> <span class="tag">[concept]</span></li><li><a href="vulkanismus-ueberblick.html">&quot;Vulkanismus – Überblick&quot;</a> <span class="tag">[concept]</span></li><li><a href="wirtschaftsgeographie-standort.html">&quot;Wirtschaftsgeographie &amp; Standortfaktoren&quot;</a> <span class="tag">[concept]</span></li><li><a href="abitur-ubersicht-lk.html">Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</a> <span class="tag">[summary]</span></li><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a> <span class="tag">[summary]</span></li><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a> <span class="tag">[concept]</span></li><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a> <span class="tag">[concept]</span></li><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a> <span class="tag">[concept]</span></li><li><a href="index.html">Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</a> <span class="tag">[concept]</span></li><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a> <span class="tag">[concept]</span></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a> <span class="tag">[concept]</span></li><li class="active"><a href="glazialmorphologie-ueberblick.html"><strong>Glazialmorphologie — Überblick und Grundlagen</strong></a> <span class="tag">[concept]</span></li><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a> <span class="tag">[concept]</span></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a> <span class="tag">[concept]</span></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a> <span class="tag">[concept]</span></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a> <span class="tag">[concept]</span></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a> <span class="tag">[concept]</span></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a> <span class="tag">[concept]</span></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a> <span class="tag">[concept]</span></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a> <span class="tag">[concept]</span></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a> <span class="tag">[concept]</span></li><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a> <span class="tag">[comparison]</span></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a> <span class="tag">[entity]</span></li><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a> <span class="tag">[concept]</span></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a> <span class="tag">[concept]</span></li><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a> <span class="tag">[concept]</span></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a> <span class="tag">[concept]</span></li><li><a href="log.html">Wiki Log</a> <span class="tag">[concept]</span></li><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a> <span class="tag">[summary]</span></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a> <span class="tag">[summary]</span></li></ul></aside>
-  <main class="main">
-    <h1>Glazialmorphologie — Überblick und Grundlagen</h1>
-    <div class="meta">
-      <span>Typ: concept</span>
-      <span style="margin-left:auto"><span class="tag-badge">glazialmorphologie</span><span class="tag-badge">prozesse</span><span class="tag-badge">raumbeispiele</span></span>
-    </div>
-    <h1>Glazialmorphologie — Überblick und Grundlagen</h1>
-<h2>Definition</h2>
+<header class="header">
+  <button class="header-menu-btn" data-sidebar-toggle aria-label="Navigation umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M3 5.5h14M3 10h14M3 14.5h14"/></svg></button>
+  <a class="brand" href="index.html"><span class="brand-mark">G</span><span class="brand-name">Geografie&nbsp;Wiki</span><span class="brand-sub">Geographie LK BW</span></a>
+  <div class="header-search">
+    <span class="search-icon"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="9" cy="9" r="5.5"/><path d="m13.5 13.5 3.5 3.5"/></svg></span>
+    <input type="search" data-search data-results=".header-search .search-results"
+           placeholder="Suchen …" aria-label="Wiki durchsuchen" autocomplete="off">
+    <div class="search-results" role="listbox"></div>
+  </div>
+  <div class="header-actions">
+    <a class="icon-btn" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener" title="GitHub-Repository" aria-label="GitHub-Repository"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg></a>
+    <button class="icon-btn" onclick="window.WIKI.toggleTheme()" title="Dark Mode umschalten" aria-label="Dark Mode umschalten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M16.5 12.5A7 7 0 0 1 7.5 3.5a7 7 0 1 0 9 9z"/></svg></button>
+  </div>
+</header>
+<div class="layout" data-slug="glazialmorphologie-ueberblick" data-title="Glazialmorphologie — Überblick und Grundlagen">
+  <div class="overlay"></div>
+<aside class="sidebar"><a class="nav-home" href="index.html"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M3.5 9 10 3.5 16.5 9v7.5a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1z"/><path d="M8 17.5v-5h4v5"/></svg> Startseite</a><h3>Themen</h3><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-0"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Bildungsplan-rahmen</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-0"><li><a href="bildungsplan-2016-lk.html">Bildungsplan 2016 — Geografie Leistungskurs BW</a><button class="fav-star" data-fav="bildungsplan-2016-lk" title="Zu Favoriten">★</button></li><li><a href="kompenenzen-lk.html">Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen</a><button class="fav-star" data-fav="kompenenzen-lk" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-1"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulkansismus</span><span class="cat-count">3</span></button><ul class="cat-items" id="cat-panel-1"><li><a href="vulkansimus-ueberblick.html">Vulkanismus — Überblick (Geografie LK)</a><button class="fav-star" data-fav="vulkansimus-ueberblick" title="Zu Favoriten">★</button></li><li><a href="vulkanarten.html">Vulkanarten — Formen und Typen</a><button class="fav-star" data-fav="vulkanarten" title="Zu Favoriten">★</button></li><li><a href="vulkanprozesse.html">Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</a><button class="fav-star" data-fav="vulkanprozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="true" aria-controls="cat-panel-2"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Glazialmorphologie</span><span class="cat-count">4</span></button><ul class="cat-items open" id="cat-panel-2"><li><a href="glazialmorphologie-ueberblick.html" class="active">Glazialmorphologie — Überblick und Grundlagen</a><button class="fav-star" data-fav="glazialmorphologie-ueberblick" title="Zu Favoriten">★</button></li><li><a href="glaziale-serie.html">Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</a><button class="fav-star" data-fav="glaziale-serie" title="Zu Favoriten">★</button></li><li><a href="moränen-und-gletscherformen.html">Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</a><button class="fav-star" data-fav="moränen-und-gletscherformen" title="Zu Favoriten">★</button></li><li><a href="permafrost-und-solifluktion.html">Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</a><button class="fav-star" data-fav="permafrost-und-solifluktion" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-3"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vulnerabilität &amp; Resilienz</span><span class="cat-count">4</span></button><ul class="cat-items" id="cat-panel-3"><li><a href="vulnerabilitaet-begriffe.html">Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</a><button class="fav-star" data-fav="vulnerabilitaet-begriffe" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-raumbeispiele.html">Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</a><button class="fav-star" data-fav="vulnerabilitaet-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulnerabilitaet-vulkanraume.html">Vulnerabilität vulkanischer Räume — Beispiele und Analyse</a><button class="fav-star" data-fav="vulnerabilitaet-vulkanraume" title="Zu Favoriten">★</button></li><li><a href="resilienz-massnahmen.html">Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung</a><button class="fav-star" data-fav="resilienz-massnahmen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-4"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Boden &amp; Wasser</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-4"><li><a href="boden-und-boden.html">Boden und Bodengeographie — Grundlagen</a><button class="fav-star" data-fav="boden-und-boden" title="Zu Favoriten">★</button></li><li><a href="wasserhaushalt.html">Wasserhaushalt und Hydrologie — Grundlagen</a><button class="fav-star" data-fav="wasserhaushalt" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-5"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Atmosphäre &amp; Klima</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-5"><li><a href="atmosphaere-wetter-klima.html">Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</a><button class="fav-star" data-fav="atmosphaere-wetter-klima" title="Zu Favoriten">★</button></li><li><a href="klimawandel.html">Klimawandel — Ursachen, Dimensionen und Anpassung</a><button class="fav-star" data-fav="klimawandel" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-6"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Geographische Methoden</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-6"><li><a href="methoden-gis-fernerkundung.html">Geographische Methoden — GIS, Fernerkundung, Kartographie</a><button class="fav-star" data-fav="methoden-gis-fernerkundung" title="Zu Favoriten">★</button></li><li><a href="stadtgeographie.html">Stadtgeographie — Grundlagen und Themen</a><button class="fav-star" data-fav="stadtgeographie" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-7"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Globalisierung &amp; Entwicklung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-7"><li><a href="globalisierung-anthroposphaere.html">Globalisierung und Entwicklungen in der Anthroposphäre</a><button class="fav-star" data-fav="globalisierung-anthroposphaere" title="Zu Favoriten">★</button></li><li><a href="disparitaet-entwicklungen.html">Disparitäre Entwicklungen und Entwicklungszusammenarbeit</a><button class="fav-star" data-fav="disparitaet-entwicklungen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-8"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Raumbeispiele</span><span class="cat-count">6</span></button><ul class="cat-items" id="cat-panel-8"><li><a href="uebersicht-raumbeispiele.html">Übersicht Raumbeispiele — Geografie LK BW</a><button class="fav-star" data-fav="uebersicht-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="vulkan-raumbeispiele.html">Raumbeispiele — Vulkanismus (Geografie LK)</a><button class="fav-star" data-fav="vulkan-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="glazial-raumbeispiele.html">Raumbeispiele — Glazialmorphologie (Geografie LK)</a><button class="fav-star" data-fav="glazial-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="fluss-raumbeispiele.html">Raumbeispiele — Flusslandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="fluss-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="kuesten-raumbeispiele.html">Raumbeispiele — Küstenlandschaften (Geografie LK BW)</a><button class="fav-star" data-fav="kuesten-raumbeispiele" title="Zu Favoriten">★</button></li><li><a href="karstlandschaft.html">Karstlandschaft — Formen, Prozesse, Bedeutung</a><button class="fav-star" data-fav="karstlandschaft" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-9"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Skizzen</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-9"><li><a href="uebersicht-skizzen.html">Skizzen — Geografie LK (Zeichenvorlagen)</a><button class="fav-star" data-fav="uebersicht-skizzen" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-10"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Vergleiche</span><span class="cat-count">1</span></button><ul class="cat-items" id="cat-panel-10"><li><a href="vergleich-vulkan-gletscher-prozesse.html">Vergleich — Vulkanismus und Glazialmorphologie (prozessuale Gegenüberstellung)</a><button class="fav-star" data-fav="vergleich-vulkan-gletscher-prozesse" title="Zu Favoriten">★</button></li></ul><button class="cat-toggle" aria-expanded="false" aria-controls="cat-panel-11"><svg class="chev" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 6 6 4-6 4"/></svg><span>Abitur &amp; Übung</span><span class="cat-count">2</span></button><ul class="cat-items" id="cat-panel-11"><li><a href="abitur-aufgaben.html">Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</a><button class="fav-star" data-fav="abitur-aufgaben" title="Zu Favoriten">★</button></li><li><a href="uebungsaufgaben.html">Übungsaufgaben — Geografie LK (Bildungsplan 2016)</a><button class="fav-star" data-fav="uebungsaufgaben" title="Zu Favoriten">★</button></li></ul><h3>Favoriten</h3><ul id="fav-list"></ul><h3>Zuletzt angesehen</h3><ul id="recent-list"></ul><h3>Links</h3><a class="ext-link" href="https://github.com/DocBiber/GeoWiki" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.57c.42.08.58-.18.58-.4v-1.5c-2.2.44-2.66-1.06-2.66-1.06-.36-.92-.88-1.17-.88-1.17-.72-.49.05-.48.05-.48.8.06 1.22.82 1.22.82.7 1.2 1.85.85 2.3.65.07-.5.27-.85.5-1.05-1.76-.2-3.6-.88-3.6-3.9 0-.87.3-1.57.8-2.12-.08-.2-.35-1 .08-2.08 0 0 .65-.2 2.13.8a7.3 7.3 0 0 1 3.88 0c1.48-1 2.12-.8 2.12-.8.43 1.08.16 1.88.08 2.08.5.55.8 1.25.8 2.12 0 3.03-1.85 3.7-3.62 3.9.29.24.54.72.54 1.46v2.16c0 .22.16.49.59.4A8.5 8.5 0 0 0 10 1.5z"/></svg> Repository</a><a class="ext-link" href="https://docbiber.github.io/GeoWiki/" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Online-Version</a></aside>
+  <main class="content">
+    <div class="content-inner">
+      <nav class="breadcrumb" aria-label="Brotkrumen"><a href="index.html">Startseite</a> <span class="sep">/</span> <a href="index.html#cat-glazialmorphologie-formen-und-prozesse">Glazialmorphologie</a> <span class="sep">/</span> <span class="current">Glazialmorphologie — Überblick und Grundlagen</span></nav>
+      <div class="page-head">
+        <div class="page-title-row">
+          <h1>Glazialmorphologie — Überblick und Grundlagen</h1>
+          <button class="fav-btn" data-fav aria-label="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg></button>
+        </div>
+        <p class="page-desc">Glazialmorphologie (von lat. glacies = Eis, griech. morphē = Gestalt) ist das</p>
+        <div class="page-meta">
+  <span class="type-badge">concept</span>
+  <span class="tag-badge">glazialmorphologie</span><span class="tag-badge">prozesse</span><span class="tag-badge">raumbeispiele</span>
+  <span>GLAZIALMORPHOLOGIE (Formen und Prozesse) · erstellt 2026-09-27 · aktualisiert 2026-09-27</span>
+  <div class="page-actions">
+    <button class="text-btn" data-fav title="Zu Favoriten"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M10 2.5l2.47 5.01 5.53.8-4 3.9.94 5.5L10 15.0l-4.94 2.6.94-5.5-4-3.9 5.53-.8z"/></svg> Favorit</button>
+    <button class="text-btn" data-copy-link title="Link kopieren"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M8.5 11.5a3.5 3.5 0 0 0 5 0l2.5-2.5a3.5 3.5 0 0 0-5-5l-1 1"/><path d="M11.5 8.5a3.5 3.5 0 0 0-5 0l-2.5 2.5a3.5 3.5 0 0 0 5 5l1-1"/></svg> Link kopieren</button>
+  </div>
+</div>
+      </div>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#definition">Definition</a></li><li><a href="#grundbegriffe">Grundbegriffe</a></li><li><a href="#gletscher">Gletscher</a></li><li><a href="#grundlagen-kaltzeit-vs-warmzeit">Grundlagen: Kaltzeit vs. Warmzeit</a></li><li><a href="#permafrost-permafrostboden">Permafrost / Permafrostboden</a></li><li><a href="#die-glaziale-serie-penck">Die glaziale Serie (Penck)</a></li><li><a href="#elemente-der-glazialen-serie-im-bildungsplan-lk-3521-aufgegriffen">Elemente der glazialen Serie (im Bildungsplan LK §3.5.2.1 aufgegriffen)</a></li><li><a href="#gletscher-prozesse-akkumulation-vs-abraum">Gletscher-Prozesse: Akkumulation vs. Abraum</a></li><li><a href="#erosionsprozesse-abtrag">Erosionsprozesse (Abtrag)</a></li><li><a href="#transportprozesse">Transportprozesse</a></li><li><a href="#ablagerungsprozesse-ablagerung-moraenen-etc">Ablagerungsprozesse (Ablagerung = Moränen etc.)</a></li><li><a href="#reliefformen-klein-und-grossformen">Reliefformen, Klein- und Großformen</a></li><li><a href="#erosions-kleinformen">Erosions-Kleinformen</a></li><li><a href="#erosions-grossformen">Erosions-Großformen</a></li><li><a href="#erkennungsmerkmale-fuer-fruehere-vergletscherung">Erkennungsmerkmale für frühere Vergletscherung</a></li><li><a href="#vulnerabilitaet-glazialer-raeume">Vulnerabilität glazialer Räume</a></li><li><a href="#raumbeispiele-lk">Raumbeispiele (LK)</a></li><li><a href="#weiterfuehrende-seiten">Weiterführende Seiten</a></li><li><a href="#visuelle-darstellungen-amp-fotos">Visuelle Darstellungen &amp; Fotos</a></li></ul></details>
+      <article class="wiki-body">
+<h2 id="definition">Definition</h2>
 <p><strong>Glazialmorphologie</strong> (von lat. <em>glacies</em> = Eis, griech. <em>morphē</em> = Gestalt) ist das</p>
 <p>Teilgebiet der Geomorphologie, das sich mit der **Formung der Erdoberfläche durch Gletscher,</p>
 <p>Eismassen und Schmelzwässer** befasst. Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der</p>
 <p>Reliefsphäre“) ist die <strong>Glaziallandschaft</strong> als eine der fünf Landschaftsgruppen explizit genannt</p>
 <p>(neben Vulkan, Fluss, Küste, Karst).</p>
-<h2>Grundbegriffe</h2>
-<h3>Gletscher</h3>
+<h2 id="grundbegriffe">Grundbegriffe</h2>
+<h3 id="gletscher">Gletscher</h3>
 <p>Ein <strong>Gletscher</strong> ist ein dauerhaft existierender Eisstrom (grob &gt;25 m dick, langsam fließend),</p>
 <p>bestehend aus Schnee, Firn und Eis. Er entsteht dort, wo die jährliche Schneemenge die</p>
 <p>Ablation übersteigt (oberhalb der <strong>Schneegrenze</strong>).</p>
 <p>Wichtige Typen:</p>
 <table class="wiki-table"><thead><tr><th>Typ</th><th>Beschreibung</th><th>Beispiel</th></tr></thead><tbody><tr><td><strong>Zug-Gletscher (Tal-Gletscher)</strong></td><td>Fließt in ein Tal, oft aus bergigen/kontinentalen Regionen</td><td>Alpengletscher (z.B. Grosser Aletsch), Gletscher in Grönland/Nordamerika</td></tr><tr><td><strong>Eisschild (Kontinental-Gletscher)</strong></td><td>Massiver, kontinentaler Eismantel, tausende km²</td><td>Inlandsis Grönland, Antarktika</td></tr><tr><td><strong>Eistrom (Eisstromnetz)</strong></td><td>Gletscher, der vom Eisschild abfließt</td><td>Einzelsysteme der Antarktika-Plattform</td></tr><tr><td><strong>Hang-Gletscher</strong></td><td>An steilen Hängen haftender Eisstreifen</td><td>Steile Alpengletscher</td></tr><tr><td><strong>Kar / Firnfeld</strong></td><td>Kesselförmige Eintiefung am Gebirgsfuß; Firnfeld = Ansammlungsgebiet von Firn oberhalb der Schneegrenze</td><td>Kar und Firnfeld des Aletsch-Gebiets</td></tr><tr><td><strong>Tal-Gletscher</strong></td><td>Gletscher, der ein Tal ausfüllt und talab fließt</td><td>Aletsch-Gletscher (Schweiz)</td></tr></tbody></table>
-<h3>Grundlagen: Kaltzeit vs. Warmzeit</h3>
+<h3 id="grundlagen-kaltzeit-vs-warmzeit">Grundlagen: Kaltzeit vs. Warmzeit</h3>
 <ul>
 <li><strong>Kaltzeit (Glazial, Eiszeit):</strong> Eisdecke dehnt sich aus (Inlandeis vergrößert sich), Gletscherstände reichen weit nach vorne, die Reliefformen der Vergangenheit werden aktiv geformt.</li>
 <li>In Mitteleuropa: mehrere Glaziale der Weichsel-Kaltzeit (letzte Eiszeit, vor ca. 115.000–11.700 Jahren).</li>
@@ -117,80 +66,80 @@
 <li>Aktuelle Warmzeit = Holozän (seit ca. 11.700 Jahren).</li>
 <li>Gegenwärtige globale Erwärmung → beschleunigter Gletscherschwund → aktuelles Thema für den LK.</li>
 </ul>
-<h3>Permafrost / Permafrostboden</h3>
+<h3 id="permafrost-permafrostboden">Permafrost / Permafrostboden</h3>
 <p><strong>Permafrost</strong> = Boden oder Gestein, der an der Oberfläche dauerhaft gefroren bleibt (Temperatur &lt; 0 °C</p>
 <p>über mindestens 2 Jahre). Wichtig für Reliefprozesse in kalten Regionen:</p>
 <ul>
 <li>Subarktis / Tundra: gefrorene Böden, niedrige Vegetation.</li>
 <li><strong>Thermokarst:</strong> Schmelzung von Permafrost-Eis → Hohlformen, Senken (z. B. in Sibirien, Alaska, Kanada).</li>
-<li><strong>Solifluktion:</strong> langsame Hangabtragung in Permafrostgebieten (siehe <a class="wikilink" href="permafrost-und-solifluktion.html">permafrost-und-solifluktion</a>).</li>
+<li><strong>Solifluktion:</strong> langsame Hangabtragung in Permafrostgebieten (siehe <a class="wikilink" href="permafrost-und-solifluktion.html" title="permafrost-und-solifluktion">permafrost-und-solifluktion</a>).</li>
 <li>Permafrost ist ein wichtiges Thema der exogenen Prozesse → auch in der Pedosphäre (§3.5.2.5)</li>
 </ul>
 <hr/>
-<h2>Die glaziale Serie (Penck)</h2>
+<h2 id="die-glaziale-serie-penck">Die glaziale Serie (Penck)</h2>
 <p>Die <strong>glaziale Serie</strong> (auch „Penck-Serie" genannt) wird</p>
 <p>ein zentrales Lehrstück in der Gymnasialgeografie. Sie beschreibt die räumliche Abfolge</p>
 <p>der vom Eis und den Schmelzwässern gestalteten Elemente einer **idealtypischen</p>
 <p>Eiszeitfront** (auch auf Skizzen in Lehrbüchern gezeigt).</p>
-<h3>Elemente der glazialen Serie (im Bildungsplan LK §3.5.2.1 aufgegriffen)</h3>
+<h3 id="elemente-der-glazialen-serie-im-bildungsplan-lk-3521-aufgegriffen">Elemente der glazialen Serie (im Bildungsplan LK §3.5.2.1 aufgegriffen)</h3>
 <p><strong>Konkret genannt im Bildungsplan:</strong></p>
 <p>Kaltzeit, Warmzeit, Permafrost, Altmoräne, Jungmoräne, Inlandeis, Eisstromnetz,</p>
 <p>Nährgebiet, Zehrgebiet, Kar, Talgletscher, Trogtal, glaziale Serie, Grundmoräne,</p>
 <p>Seitenmoräne, Endmoräne, Zungenbecken, Sander, Urstromtal, Löss, Solifluktion</p>
-<p>Siehe <a class="wikilink" href="glaziale-serie.html">glaziale-serie</a> für Detail-Erklärung.</p>
+<p>Siehe <a class="wikilink" href="glaziale-serie.html" title="glaziale-serie">glaziale-serie</a> für Detail-Erklärung.</p>
 <hr/>
-<h2>Gletscher-Prozesse: Akkumulation vs. Abraum</h2>
-<h3>Erosionsprozesse (Abtrag)</h3>
+<h2 id="gletscher-prozesse-akkumulation-vs-abraum">Gletscher-Prozesse: Akkumulation vs. Abraum</h2>
+<h3 id="erosionsprozesse-abtrag">Erosionsprozesse (Abtrag)</h3>
 <table class="wiki-table"><thead><tr><th>Prozess</th><th>Mechanismus</th><th>Formen</th></tr></thead><tbody><tr><td><strong>Abrasion / Schleifung</strong></td><td>Mit Eis beladene Gesteinstrümmer (Geschiebe) schleifen das Gestein unter dem Gletscher ab → glatte, polierte Flächen; <strong>Striemungen</strong> (Schrammen) als Beweis</td><td>Polierter Fels, Glanzflächen (z.B. an Felswänden)</td></tr><tr><td><strong>Zertrümmerung / Frostsprengung</strong></td><td>In Gesteinsspalten eindringendes Wasser gefriert, dehnt sich aus und sprengt Gestein ab</td><td>Blockschutt an Felswänden</td></tr><tr><td><strong>Quarzmehl / Gletschermehl</strong></td><td>Feinster Gesteinsabrieb beim Schleifvorgang</td><td>Milchig-trübes Schmelzwasser</td></tr></tbody></table>
-<h3>Transportprozesse</h3>
+<h3 id="transportprozesse">Transportprozesse</h3>
 <table class="wiki-table"><thead><tr><th>Transportwege</th><th>Mechanik</th></tr></thead><tbody><tr><td><strong>innerer Transport</strong></td><td>Material in Gletscher eingebaut, durch Gletscher einfließen</td></tr><tr><td><strong>Oberflächen-Transport</strong></td><td>Material auf Gletscher-Rand (Schnee, Steine, Blocke)</td></tr><tr><td><strong>Unter-gletscher-Transport</strong></td><td>Wasserdüsen am Gletscherboden tragen Sediment ab (schmelzwrasser)</td></tr></tbody></table>
-<h3>Ablagerungsprozesse (Ablagerung = Moränen etc.)</h3>
+<h3 id="ablagerungsprozesse-ablagerung-moraenen-etc">Ablagerungsprozesse (Ablagerung = Moränen etc.)</h3>
 <table class="wiki-table"><thead><tr><th>Form</th><th>Entstehung</th><th>Position</th></tr></thead><tbody><tr><td><strong>Grundmoräne</strong> (Till)</td><td>Ungeschichtete Ablagerung am Gletscherboden, wird beim Abschmelzen flächig abgelagert</td><td>Unter dem Gletscher (zentrale Flachländer)</td></tr><tr><td><strong>Seitenmoräne</strong></td><td>Material, das dem Gletscher an den Rändern zugeführt und an den Gletscherkanten abgelagert wird</td><td>am Gletscherrand</td></tr><tr><td><strong>Endmoräne / Stossmoräne</strong></td><td>Ablagerung am vorderen Endrand der Gletscherzunge, wo das Eis über längere Zeit stationär war</td><td>am Gletscher-Endrand</td></tr><tr><td><strong>Zungenbecken</strong></td><td>Mulde am Vorderende des Gletschers, oft mit Schmelzwasser gefüllt (z. B. Zungenbeckenseen)</td><td>am Ende der Gletscherzunge</td></tr><tr><td><strong>Sander (Sandr)</strong></td><td>Schotter- und Sandfeld vor dem Endmoränengürtel, vom Schmelzwasser abgelagert</td><td>vor dem Endrand des Gletschers</td></tr><tr><td><strong>Urstromtal</strong></td><td>Tal, das das Schmelzwasser während des Eisrückzugs vor dem Gletscher ausgebildet hat</td><td>vor dem Sander, in Fließrichtung des Schmelzwassers</td></tr><tr><td><strong>Löss</strong></td><td>Vom Wind verwehter Feinschluff und Feinsand aus den Schmelzwasserflächen der Eiszeit</td><td>in Flachlagen, besonders in Mitteleuropa (Lössdecken an Elbe und Oder)</td></tr></tbody></table>
 <hr/>
-<h2>Reliefformen, Klein- und Großformen</h2>
-<h3>Erosions-Kleinformen</h3>
+<h2 id="reliefformen-klein-und-grossformen">Reliefformen, Klein- und Großformen</h2>
+<h3 id="erosions-kleinformen">Erosions-Kleinformen</h3>
 <ul>
 <li><strong>Rundhöcker</strong> — dem Gletscher zugewandte, glatte und abgerundete Seite; leeseitiger Abbruchkegel</li>
 <li><strong>Kare / Kessel</strong> — kesselförmige Hohlformen am Gebirgsfuß (siehe Großformen)</li>
 <li><strong>Felskanzel, Schrammen</strong> (Striemungen auf Gletscherschliffen)</li>
 </ul>
-<h3>Erosions-Großformen</h3>
+<h3 id="erosions-grossformen">Erosions-Großformen</h3>
 <ul>
 <li><strong>Trogtal</strong> — typisch glazial geformtes Tal: U-förmig, breit, mit steilen Wänden (Gegenstück zum V-förmigen Kerbtal des Flusses); im Bildungsplan genannt</li>
 <li><strong>Kar (Cirque)</strong> — kesselförmige Eintiefung mit steilen Felswänden im Hochgebirge</li>
 <li><strong>Hängetal</strong> — Seitental, das nach der Eiszeit hoch über dem Haupttal „hängt" (Nebenfluss-Einschneidung)</li>
 </ul>
-<h3>Erkennungsmerkmale für frühere Vergletscherung</h3>
+<h3 id="erkennungsmerkmale-fuer-fruehere-vergletscherung">Erkennungsmerkmale für frühere Vergletscherung</h3>
 <ul>
 <li><strong>Striemungen</strong> (Schrammen) auf Felswänden und Gletscherunterlage — Standardbeleg für Gletschertransport</li>
 <li><strong>Rundhöcker</strong> mit Abbruchkegel — zeigen die Fließrichtung des Eises an</li>
 </ul>
 <hr/>
-<h2>Vulnerabilität glazialer Räume</h2>
+<h2 id="vulnerabilitaet-glazialer-raeume">Vulnerabilität glazialer Räume</h2>
 <p>Glazial-Landschaften und Gletscherorte sind <strong>vulnerabel</strong> durch:</p>
 <ul>
 <li><strong>Klimawandel</strong> (Gletscherrückzug, veränderte Schmelzwasserführung, Felssturzrisiko),</li>
 <li><strong>Naturgefahren</strong> (Gletscherlawinen, Gletscherrandseen mit Ausbruchsgefahr — GLOFs),</li>
 <li><strong>Boden-Dynamik</strong> (Solifluktion → Hanginstabilität; Permafrosttau → Infrastrukturschäden).</li>
 </ul>
-<p>→ <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a> und <a class="wikilink" href="resilienz-massnahmen.html">resilienz-massnahmen</a></p>
+<p>→ <a class="wikilink" href="vulnerabilitaet-raumbeispiele.html" title="vulnerabilitaet-raumbeispiele">vulnerabilitaet-raumbeispiele</a> und <a class="wikilink" href="resilienz-massnahmen.html" title="resilienz-massnahmen">resilienz-massnahmen</a></p>
 <hr/>
-<h2>Raumbeispiele (LK)</h2>
+<h2 id="raumbeispiele-lk">Raumbeispiele (LK)</h2>
 <table class="wiki-table"><thead><tr><th>Raum</th><th>Typ</th><th>Besonderheit im LK</th></tr></thead><tbody><tr><td>Alpen (Schweiz, Italien, Österreich)</td><td>Alpengletscher, Tal-Gletscher, moränen-reiche Landschaft</td><td>Gletscherrückzug-Trend, Tourismus-Vulnerabilität</td></tr><tr><td>Skandinavien (Norwegen, Schweden)</td><td>Urstromtäler, Lössdecken, Moränen</td><td>Skandinavische Eiszeit-Formen: Hochmoore, wellige Moränenlandschaften</td></tr><tr><td>Nordamerika (Kanada, Nordwest-USA)</td><td>Glaziale Serie (Penck), Sander, Urstromtäler</td><td>Kanadisches Schild mit vollständiger Serie (ehemalige Inlandeis-Gebiete)</td></tr><tr><td>Island</td><td>Vulkan × Glazial (Jökull, Jökulhlaup)</td><td>Interaktion glazial–vulkanisch — im Bildungsplan erwähnenswert</td></tr><tr><td>Deutschland (Bayern, Schwarzwald, Alpenvorland)</td><td>Altmoränen-Relikte, Blockschutthänge, zentrale Lössdecken</td><td>Bezug zur Synopse des Bildungsplans: BW-relevant</td></tr></tbody></table>
 <hr/>
-<h2>Weiterführende Seiten</h2>
+<h2 id="weiterfuehrende-seiten">Weiterführende Seiten</h2>
 <ul>
-<li><a class="wikilink" href="glaziale-serie.html">glaziale-serie</a> — Detail zu Penck-Reihenfolge</li>
-<li><a class="wikilink" href="moränen-und-gletscherformen.html">moränen-und-gletscherformen</a> — Detail zu Moränen-Typen, Gletscher-Formen</li>
-<li><a class="wikilink" href="permafrost-und-solifluktion.html">permafrost-und-solifluktion</a> — Permafrost und Prozesse</li>
-<li><a class="wikilink" href="vulnerabilitaet-raumbeispiele.html">vulnerabilitaet-raumbeispiele</a> — Vulnerabilität in Glazial-Landschaften</li>
-<li><a class="wikilink" href="glazialmorphologie-ueberblick.html">glazialmorphologie-ueberblick</a> ← zu dieser Seite</li>
+<li><a class="wikilink" href="glaziale-serie.html" title="glaziale-serie">glaziale-serie</a> — Detail zu Penck-Reihenfolge</li>
+<li><a class="wikilink" href="moränen-und-gletscherformen.html" title="moränen-und-gletscherformen">moränen-und-gletscherformen</a> — Detail zu Moränen-Typen, Gletscher-Formen</li>
+<li><a class="wikilink" href="permafrost-und-solifluktion.html" title="permafrost-und-solifluktion">permafrost-und-solifluktion</a> — Permafrost und Prozesse</li>
+<li><a class="wikilink" href="vulnerabilitaet-raumbeispiele.html" title="vulnerabilitaet-raumbeispiele">vulnerabilitaet-raumbeispiele</a> — Vulnerabilität in Glazial-Landschaften</li>
+<li><a class="wikilink" href="glazialmorphologie-ueberblick.html" title="glazialmorphologie-ueberblick">glazialmorphologie-ueberblick</a> ← zu dieser Seite</li>
 </ul>
 <hr/>
-<h2>Visuelle Darstellungen &amp; Fotos</h2>
+<h2 id="visuelle-darstellungen-amp-fotos">Visuelle Darstellungen &amp; Fotos</h2>
 <blockquote>Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.</blockquote>
 <h4>🎬 Wie formen Gletscher die Landschaft? – Animation (geog.1)</h4>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/loI584OFVpE" frameborder="0" allowfullscreen title="Wie formen Gletscher die Landschaft? – Animation (geog.1)"></iframe>
+<div class="video-frame"><iframe width="560" height="315" src="https://www.youtube.com/embed/loI584OFVpE" frameborder="0" allowfullscreen title="Wie formen Gletscher die Landschaft? – Animation (geog.1)"></iframe></div>
 <p><em>Erosion, Abrasion, Trogtal, Moränen, U-förmige Täler.</em></p>
 <h4>🖼️ Europa während der letzten Eiszeit (Weichsel-/Würm-Glaciation)</h4>
 <p><a href="https://commons.wikimedia.org/wiki/File:Weichsel-W%C3%BCrm-Glaciation.png">Ausbreitung des Inlandeises, Referenz für Glazialmorphologie im europäischen Raum.</a> — <em>Ulamm, Wikimedia Commons, CC BY-SA 3.0</em></p>
@@ -198,7 +147,15 @@
 <p><a href="https://unsplash.com/s/photos/glacial-erosion">Freie Fotos von glazial erodierten Tälern, Fjorden, Karren.</a></p>
 <h4>📸 Fotogalerie: Zungenbecken, Karne, Gletscherhänge (Unsplash)</h4>
 <p><a href="https://unsplash.com/s/photos/cirque">Freie Fotos von Zungenbecken, Gletscherkarren, Bergpanoramen.</a></p>
-    <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Historische Geographie&quot;</li><li>Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</li><li>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</li><li>Karstlandschaft — Formen, Prozesse, Bedeutung</li><li>Klimawandel — Ursachen, Dimensionen und Anpassung</li><li>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</li><li>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</li><li>Raumbeispiele — Glazialmorphologie (Geografie LK)</li><li>Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</li><li>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</li><li>Übungsaufgaben — Geografie LK (Bildungsplan 2016)</li></ul></div>
+      </article>
+      <div class="backlinks"><h3>Verlinkt von</h3><ul><li>&quot;Historische Geographie&quot;</li><li>Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</li><li>Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)</li><li>Karstlandschaft — Formen, Prozesse, Bedeutung</li><li>Klimawandel — Ursachen, Dimensionen und Anpassung</li><li>Moränen und Gletscherforms — Typen, Entstehung, Bedeutung</li><li>Permafrost und Solifluktion — exogene Prozesse in kalten Zonen</li><li>Raumbeispiele — Glazialmorphologie (Geografie LK)</li><li>Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</li><li>Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat</li><li>Übungsaufgaben — Geografie LK (Bildungsplan 2016)</li></ul></div>
+    </div>
+    <div class="toc-rail"><div class="toc-rail-inner">
+  <h3>Auf dieser Seite</h3><ul id="toc-rail-list"></ul>
+</div></div>
   </main>
+</div>
+<script src="assets/search-index.js"></script>
+<script src="assets/wiki.js"></script>
 </body>
 </html>
