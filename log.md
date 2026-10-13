@@ -142,3 +142,21 @@
 - Gegenprobe: keine Binnenmajuskel-Fehler mehr außerhalb der Formeln; HTML-Export neu
   gebaut; 28 Korrekturen in 18 Dateien (Commit e21da74)
 - Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis
+
+## [2026-10-13] fix | Tippfehler „Vulkansimus" → „Vulkanismus" korrigiert
+- Text-Korrekturen (4 Stellen): atmosphaere-wetter-klima.md, bildungsplan-2016-lk.md,
+  index.md (Domain-Zeile), entities/vulkanismus-ueberblick.md (Link-Zeile, obsolet)
+- Datei umbenannt: concepts/vulkansimus-ueberblick.md → concepts/vulkanismus-ueberblick.md
+- index.md-Link aktualisiert: [[vulkansimus-ueberblick]] → [[vulkanismus-ueberblick]]
+- Struktur-Entscheidung (Nutzer-Rückfrage ohne Antwort → empfohlene Variante umgesetzt):
+  die überschneidende entities/vulkanismus-ueberblick.md (Stand 01.10.) wurde mit der
+  concepts-Seite ZUSAMMENGEFÜHRT — kein Inhaltverlust: einzigartige Teile übernommen
+  (Endokrater/Exokrater-Unterscheidung, Magmatypen-Tabelle, Eruptionsstile-Überblick,
+  Vulkanrisiken, Bildungsplanbezug, Spektrum/Wikipedia-Quellen, offene Fragen);
+  entities-Datei per git rm entfernt (revertierbar via Commit 9346081^)
+- Alle 10 bestehenden [[vulkanismus-ueberblick]]-Links zeigen jetzt auf die kanonische Seite
+- Stale Build-Ausgabe vulkansimus-ueberblick.html (Wurzel) entfernt
+- Bewusst NICHT geändert: log.md-Einträge vom 27.09. (dokumentarische Historie),
+  docs/-Ordner (September-Handexporte, nicht Teil des aktuellen Builds — enthalten
+  noch den alten Dateinamen docs/vulkansimus-ueberblick.html; Bereinigung auf Wunsch)
+- Gegenprobe: 0 broken wikilinks, keine Slug-Duplikate mehr, HTML neu gebaut
