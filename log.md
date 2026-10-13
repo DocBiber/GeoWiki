@@ -192,3 +192,29 @@
 - CSS-Override musste ans Dateiende (Basis-.cat-card-Regel überschrieb den border-top)
 - Browser-Test: 12 Karten mit 12 unterschiedlichen Farben, Sidebar zeigt „Vulkanismus",
   Screenshot-Kontrolle: farbenfroh, aber professionell
+
+## [2026-10-13] fix | Rechtschreibprüfung per language-tool-Skill — 37 Fehler korrigiert
+- Auftrag: Rechtschreibprüfung mithilfe eines Skills (language-tool, HTTP-API mit
+  lokalem Java-17-Server nach Skill-Vorgabe)
+- Durchlauf: alle 40 Live-.md-Dateien, 486 Rohmeldungen — triagiert in echte Fehler
+  vs. Rauschen
+- Echte Fehler korrigiert (37): subvolkanisch→subvulkanisch (Nutzer-Fundstelle),
+  brechanisches→glutflüssiges, tiefengeschoffen gestrichen, Kruemme→Krater,
+  Strato vulkan(en)→Stratovulkan(en), Rhyolit→Rhyolith, Abbrürtungen→Austritte,
+  Kaskade→Kaskadenkette, Andes→Anden, Eukras/Afra→Eurasien/Afrikas, monument→monumental,
+  hitzeführend→Wärme führend, fromen→aufgeheizte, Plumpunkte→Plumes, Bespielen→Beispielen,
+  Daun Maare→Dauner Maare, vulkan-prozesse→Vulkanprozesse, spurst→stürzt,
+  ollständige→vollständige (4×), Widerstands-fähigkeit→Widerstandsfähigkeit,
+  Sao Paulo→São Paulo, gesteuertem→gesteuerten, bei→beim Versagen,
+  Vorher/Nachher→Vorher-Nachher-Vergleich, Abitur- LK→Abitur-LK,
+  Typische→Typischer Kontext, ein→eine universelle, des→der Hazard-Überschreitung,
+  Jetstreams?,→Jetstreams, Prozent-Abstände (50/-30/95/55 %), Tag vulkanifizierung entfernt
+- Bewusst NICHT geändert (Rauschen/Stilfragen): „…"-Anführungszeichen (korrekte
+  Typografie), CASING-Fehlalarme (Listen/iframe-titles), „Geographie"→„Geografie"
+  (EMPFOHLENE_RECHTSCHREIBUNG — systemische, konsistente Schreibweise; beide
+  Varianten gültiges Deutsch; Änderung würde alle Slugs betreffen — Nutzer-
+  Entscheidung), „dm" (Einheit), „High-Tech" (valide), „meist" (Stil), log.md
+  (dokumentarisch)
+- Gegenprobe: zweiter Skill-Durchlauf — keine TYPOS-/GRAMMAR-Fehler außer den
+  dokumentierten Fehlalarmen
+- Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis
