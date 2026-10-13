@@ -105,3 +105,22 @@
   „vulkanbeispiele" (→ vulkan-raumbeispiele), „[[wikilinks]]" (Code-Beispiel, entschärft),
   tote Links „geologie-grundlagen"/„geomorphologie-ueberblick" (boden-Seite) entfernt
 - Nächste Schritte: HTML-Ausgabe im Browser gegenprüfen (Punkt 4), danach Journal-Update
+
+## [2026-10-13] feat | Wiki-Redesign: moderne Wissensplattform (Design v2)
+- Auftrag: professionelles, übersichtliches HTML-Wiki-Design (Header-Suche, Sidebar mit
+  Kategorien-Baum, Dark Mode, Breadcrumb, TOC, Favoriten, Zuletzt-angesehen, Startseite
+  mit Suche/Kategorien/Listen)
+- Umsetzung als Explore-Surface (Navigation/Suche/Lesen im Fokus), echte Daten statt erfundener Stats
+- build_html.py komplett neu (v1 als build_html_v1_backup.py gesichert, danach entfernt):
+  Kategorien-Baum wird aus index.md-Sektionen geparst; „Häufig verlinkt" und „Zuletzt
+  aktualisiert" aus echten Backlink-/Update-Daten
+- Neu: assets/style.css (Design-System: CSS-Variablen, Light/Dark, responsive),
+  assets/wiki.js (Suche, Theme, Favoriten, Zuletzt-angesehen, TOC-Scrollspy, Copy-Link),
+  assets/search-index.js (clientseitig, file://-tauglich)
+- Bug beim Test gefunden & gefixt: Suchindex wurde nach wiki.js geladen → leerer Index;
+  Reihenfolge getauscht + lazy read
+- Browser-Test bestanden: Suche (5 Treffer, Hervorhebung), Dark Mode, Kategorien-Karten
+  (12), Favoriten, Sidebar-Kollaps, mobil (Off-Canvas, TOC als <details>), Wikilink-Klick
+- Schönheitsfehler aus Punkt 4 miterledigt: Titel-Doppelung behoben (H1-Unterdrückung im
+  Builder); Pferde-Emoji war ein Artefakt des Test-Browsers, nicht der Dateien
+- Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis

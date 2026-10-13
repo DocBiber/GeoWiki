@@ -43,7 +43,7 @@
   </div>
 </div>
       </div>
-      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#2026-09-27-create-wiki-initialisiert">[2026-09-27] create | Wiki initialisiert</a></li><li><a href="#2026-09-27-create-14-wiki-seiten-angelegt-struktur-vollendet">[2026-09-27] create | 14 Wiki-Seiten angelegt + Struktur vollendet</a></li><li><a href="#2026-09-27-create-skizzen-raumbeispiele-abitur-aufgaben-uebungsaufgaben">[2026-09-27] create | Skizzen + Raumbeispiele + Abitur-Aufgaben + Übungsaufgaben</a></li><li><a href="#2026-10-13-create-flusslandschaft-als-raumbeispiel-angelegt-m5-begonnen">[2026-10-13] create | Flusslandschaft als Raumbeispiel angelegt (M5 begonnen)</a></li><li><a href="#2026-10-13-create-kuestenlandschaft-als-raumbeispiel-angelegt-m5-fortgesetzt">[2026-10-13] create | Küstenlandschaft als Raumbeispiel angelegt (M5 fortgesetzt)</a></li><li><a href="#2026-10-13-fix-fachfehler-in-glazial-seiten-korrigiert-qa-nacharbeit-punkt-1">[2026-10-13] fix | Fachfehler in Glazial-Seiten korrigiert (QA-Nacharbeit Punkt 1)</a></li><li><a href="#2026-10-13-fix-sprachputz-glazial-seiten-fremdsprachen-reste-qa-punkt-2">[2026-10-13] fix | Sprachputz Glazial-Seiten + Fremdsprachen-Reste (QA-Punkt 2)</a></li><li><a href="#2026-10-13-feat-html-export-komplett-neu-gebaut-qa-punkt-3">[2026-10-13] feat | HTML-Export komplett neu gebaut (QA-Punkt 3)</a></li></ul></details>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#2026-09-27-create-wiki-initialisiert">[2026-09-27] create | Wiki initialisiert</a></li><li><a href="#2026-09-27-create-14-wiki-seiten-angelegt-struktur-vollendet">[2026-09-27] create | 14 Wiki-Seiten angelegt + Struktur vollendet</a></li><li><a href="#2026-09-27-create-skizzen-raumbeispiele-abitur-aufgaben-uebungsaufgaben">[2026-09-27] create | Skizzen + Raumbeispiele + Abitur-Aufgaben + Übungsaufgaben</a></li><li><a href="#2026-10-13-create-flusslandschaft-als-raumbeispiel-angelegt-m5-begonnen">[2026-10-13] create | Flusslandschaft als Raumbeispiel angelegt (M5 begonnen)</a></li><li><a href="#2026-10-13-create-kuestenlandschaft-als-raumbeispiel-angelegt-m5-fortgesetzt">[2026-10-13] create | Küstenlandschaft als Raumbeispiel angelegt (M5 fortgesetzt)</a></li><li><a href="#2026-10-13-fix-fachfehler-in-glazial-seiten-korrigiert-qa-nacharbeit-punkt-1">[2026-10-13] fix | Fachfehler in Glazial-Seiten korrigiert (QA-Nacharbeit Punkt 1)</a></li><li><a href="#2026-10-13-fix-sprachputz-glazial-seiten-fremdsprachen-reste-qa-punkt-2">[2026-10-13] fix | Sprachputz Glazial-Seiten + Fremdsprachen-Reste (QA-Punkt 2)</a></li><li><a href="#2026-10-13-feat-html-export-komplett-neu-gebaut-qa-punkt-3">[2026-10-13] feat | HTML-Export komplett neu gebaut (QA-Punkt 3)</a></li><li><a href="#2026-10-13-feat-wiki-redesign-moderne-wissensplattform-design-v2">[2026-10-13] feat | Wiki-Redesign: moderne Wissensplattform (Design v2)</a></li></ul></details>
       <article class="wiki-body">
 <blockquote>Chronologischer Aktionsjournal. Nur-Ergänzung. Nicht löschen. Format: <code class="inline-code">## [JJJJ-MM-TT] aktion | betreff</code> Aktionen: ingest, update, query, lint, create, archive, delete Bei &gt;500 Einträgen: rotieren → <code class="inline-code">log-YYYY.md</code>, neu starten.</blockquote>
 <h2 id="2026-09-27-create-wiki-initialisiert">[2026-09-27] create | Wiki initialisiert</h2>
@@ -178,6 +178,38 @@
 <p>tote Links „geologie-grundlagen"/„geomorphologie-ueberblick" (boden-Seite) entfernt</p>
 <ul>
 <li>Nächste Schritte: HTML-Ausgabe im Browser gegenprüfen (Punkt 4), danach Journal-Update</li>
+</ul>
+<h2 id="2026-10-13-feat-wiki-redesign-moderne-wissensplattform-design-v2">[2026-10-13] feat | Wiki-Redesign: moderne Wissensplattform (Design v2)</h2>
+<ul>
+<li>Auftrag: professionelles, übersichtliches HTML-Wiki-Design (Header-Suche, Sidebar mit</li>
+</ul>
+<p>Kategorien-Baum, Dark Mode, Breadcrumb, TOC, Favoriten, Zuletzt-angesehen, Startseite</p>
+<p>mit Suche/Kategorien/Listen)</p>
+<ul>
+<li>Umsetzung als Explore-Surface (Navigation/Suche/Lesen im Fokus), echte Daten statt erfundener Stats</li>
+<li>build_html.py komplett neu (v1 als build_html_v1_backup.py gesichert, danach entfernt):</li>
+</ul>
+<p>Kategorien-Baum wird aus index.md-Sektionen geparst; „Häufig verlinkt" und „Zuletzt</p>
+<p>aktualisiert" aus echten Backlink-/Update-Daten</p>
+<ul>
+<li>Neu: assets/style.css (Design-System: CSS-Variablen, Light/Dark, responsive),</li>
+</ul>
+<p>assets/wiki.js (Suche, Theme, Favoriten, Zuletzt-angesehen, TOC-Scrollspy, Copy-Link),</p>
+<p>assets/search-index.js (clientseitig, file://-tauglich)</p>
+<ul>
+<li>Bug beim Test gefunden &amp; gefixt: Suchindex wurde nach wiki.js geladen → leerer Index;</li>
+</ul>
+<p>Reihenfolge getauscht + lazy read</p>
+<ul>
+<li>Browser-Test bestanden: Suche (5 Treffer, Hervorhebung), Dark Mode, Kategorien-Karten</li>
+</ul>
+<p>(12), Favoriten, Sidebar-Kollaps, mobil (Off-Canvas, TOC als &lt;details&gt;), Wikilink-Klick</p>
+<ul>
+<li>Schönheitsfehler aus Punkt 4 miterledigt: Titel-Doppelung behoben (H1-Unterdrückung im</li>
+</ul>
+<p>Builder); Pferde-Emoji war ein Artefakt des Test-Browsers, nicht der Dateien</p>
+<ul>
+<li>Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis</li>
 </ul>
       </article>
       
