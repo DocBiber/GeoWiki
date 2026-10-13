@@ -91,3 +91,17 @@
 - Wiki-weite Zusatzsuche: weitere korean. Zeichen in Biogeographie, Boden, GIS,
   Vulkanismus-Überblick, Skizzen entfernt (Commit 8d561c7)
 - Nächste Schritte: HTML-Export-Neubau (Punkt 3)
+
+## [2026-10-13] feat | HTML-Export komplett neu gebaut (QA-Punkt 3)
+- Problem: alter Export war ein Einzel-Handexport — Stand 2026-09-27, enthielt nur 20 Seiten,
+  keine Medien (keine iframes), neue Seiten (Fluss/Küste) fehlten komplett
+- build_html.py neu geschrieben (reines Python-stdlib, keine Abhängigkeiten): konvertiert
+  alle .md-Seiten (außer _backup/SCHEMA/README) zu flachen HTML-Dateien; unterstützt
+  Frontmatter (Titel/Typ/Tags), Tabellen, Wikilinks, Code-Blöcke, Blockquotes, iframes,
+  Bilder, Backlinks („Verlinkt von") und eine vollständige Seiten-Navigation
+- Export-Ergebnis: 40 Seiten, 22 YouTube-iframes eingebettet, 245 Wikilinks, 0 broken links
+- Wikilink-Tippfehler in den .md-Quellen korrigiert: „vulkanismus-uebeRblick",
+  „uEbersIcht-skizzen", „vulkan-prozesse", „exercises/abitur-aufgaben", „reSilienz-massnahmen",
+  „vulkanbeispiele" (→ vulkan-raumbeispiele), „[[wikilinks]]" (Code-Beispiel, entschärft),
+  tote Links „geologie-grundlagen"/„geomorphologie-ueberblick" (boden-Seite) entfernt
+- Nächste Schritte: HTML-Ausgabe im Browser gegenprüfen (Punkt 4), danach Journal-Update

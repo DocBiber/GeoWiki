@@ -212,6 +212,27 @@
 <ul>
 <li>Nächste Schritte: HTML-Export-Neubau (Punkt 3)</li>
 </ul>
+<h2>[2026-10-13] feat | HTML-Export komplett neu gebaut (QA-Punkt 3)</h2>
+<ul>
+<li>Problem: alter Export war ein Einzel-Handexport — Stand 2026-09-27, enthielt nur 20 Seiten,</li>
+</ul>
+<p>keine Medien (keine iframes), neue Seiten (Fluss/Küste) fehlten komplett</p>
+<ul>
+<li>build_html.py neu geschrieben (reines Python-stdlib, keine Abhängigkeiten): konvertiert</li>
+</ul>
+<p>alle .md-Seiten (außer _backup/SCHEMA/README) zu flachen HTML-Dateien; unterstützt</p>
+<p>Frontmatter (Titel/Typ/Tags), Tabellen, Wikilinks, Code-Blöcke, Blockquotes, iframes,</p>
+<p>Bilder, Backlinks („Verlinkt von") und eine vollständige Seiten-Navigation</p>
+<ul>
+<li>Export-Ergebnis: 40 Seiten, 22 YouTube-iframes eingebettet, 245 Wikilinks, 0 broken links</li>
+<li>Wikilink-Tippfehler in den .md-Quellen korrigiert: „vulkanismus-uebeRblick",</li>
+</ul>
+<p>„uEbersIcht-skizzen", „vulkan-prozesse", „exercises/abitur-aufgaben", „reSilienz-massnahmen",</p>
+<p>„vulkanbeispiele" (→ vulkan-raumbeispiele), „<a class="wikilink" href="wikilinks.html">wikilinks</a>" (Code-Beispiel, entschärft),</p>
+<p>tote Links „geologie-grundlagen"/„geomorphologie-ueberblick" (boden-Seite) entfernt</p>
+<ul>
+<li>Nächste Schritte: HTML-Ausgabe im Browser gegenprüfen (Punkt 4), danach Journal-Update</li>
+</ul>
     
   </main>
 </body>
