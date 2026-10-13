@@ -176,3 +176,19 @@
   Kurzbeschreibung → Rohtext im Seitenkopf; Funktion überspringt jetzt Bild-/
   Quellen-/Tabellenzeilen und nutzt die Einleitung
 - Browser-Test: alle 14 Bilder laden (naturalWidth 1280), Rohtext weg, Layout sauber
+
+## [2026-10-13] fix+style | „Vulkansimus"-Sektionsüberschrift korrigiert + Design farbenfroher
+- Tippfehler-Rest: index.md-Zeile 14 „## VULKANSISMUS (Formen und Prozesse)" — speiste
+  die Sidebar-Kategorie; korrigiert zu „VULKANISMUS" (vorheriges sed war
+  case-sensitiv und hatte nur die Kleinschreibung erwischt)
+- Gegenprobe: keine „Vulkansimus"-Reste mehr außer den dokumentarischen log.md/log.html-
+  Einträgen (Historien-Zitate, bewusst)
+- Design: Kategorie-Farbcodierung eingeführt — jede der 12 Themen hat eigene Akzentfarbe
+  (Blau/Rot/Petrol/Violett/Amber/Himmelblau/Smaragd/Pink/Lindgrün/Orange/Indigo/Cyan),
+  sichtbar als Farbpunkt in der Sidebar, Oberkante + Punkt auf den Startseiten-Karten,
+  Kategorie-Chip im Breadcrumb; helle + dunkle Varianten
+- Zusätzlich: dezenter mehrfarbiger Akzentbalken am Startseiten-Hero (aus der
+  Kategorie-Palette abgeleitet), kräftigere Typ-Badges
+- CSS-Override musste ans Dateiende (Basis-.cat-card-Regel überschrieb den border-top)
+- Browser-Test: 12 Karten mit 12 unterschiedlichen Farben, Sidebar zeigt „Vulkanismus",
+  Screenshot-Kontrolle: farbenfroh, aber professionell
