@@ -663,7 +663,8 @@ def build_schema(pages, cats):
         "updated": fm.get("updated", ""), "created": fm.get("created", ""),
         "tags": [],
     }
-    return build_article(schema, pages, cats, {})
+    rendered = build_article(schema, pages, cats, {})
+    return re.sub(r"(?m)^[ \t]+$", "", rendered)
 
 
 # ---------------------------------------------------------------- Hauptlauf

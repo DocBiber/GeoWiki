@@ -250,4 +250,7 @@
 - Den HTML-Build so erweitert, dass `SCHEMA.md` als eigenständige Dokumentationsseite
   mit dem aktuellen Wiki-Layout gerendert und `SCHEMA.html` bei jedem regulären Build
   aktualisiert wird. Das Schema bleibt aus Inhaltsindex und Suchindex ausgeschlossen.
-- Ergebnis und Linkprüfung im Anschluss dokumentieren.
+- Ergebnis: `SCHEMA.html` zeigt den Titel und Inhalt aus `SCHEMA.md`; Codebeispiele
+  werden als Code dargestellt und erzeugen keine falschen Wikilinks. Die Schema-Seite
+  bleibt außerhalb des Artikelsuchindex. Lokale Ziele und HTML-Struktur wurden geprüft;
+  keine defekten lokalen Verweise festgestellt.
