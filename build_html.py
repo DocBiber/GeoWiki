@@ -650,6 +650,22 @@ def build_article(p, pages, cats, backlinks):
     return page(p["title"], body)
 
 
+def build_schema(pages, cats):
+    schema_path = os.path.join(ROOT, "SCHEMA.md")
+    body = open(schema_path, encoding="utf-8").read()
+    fm, body = parse_frontmatter(body)
+    title = fm.get("title", "").strip()
+    if not title:
+        match = re.search(r"^#\s+(.*)$", body, re.M)
+        title = match.group(1).strip() if match else "Wiki Schema"
+    schema = {
+        "slug": "schema", "title": title, "body": body, "type": "documentation",
+        "updated": fm.get("updated", ""), "created": fm.get("created", ""),
+        "tags": [],
+    }
+    return build_article(schema, pages, cats, {})
+
+
 # ---------------------------------------------------------------- Hauptlauf
 
 def main():
@@ -670,6 +686,9 @@ def main():
         with open(os.path.join(ROOT, slug + ".html"), "w", encoding="utf-8", newline="\n") as f:
             f.write(build_article(p, pages, cats, backlinks))
         written += 1
+
+    with open(os.path.join(ROOT, "SCHEMA.html"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(build_schema(pages, cats))
 
     print(f"Startseite + {written - 1} Artikelseiten geschrieben; Suchindex: {n_idx} Einträge.")
     for a in ASSETS:

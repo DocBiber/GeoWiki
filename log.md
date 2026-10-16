@@ -242,3 +242,12 @@
 - Prüfung und Korrektur belegen keine vollständige externe Quellenverifikation aller
   fachlichen Aussagen; nicht erreichbare Quellen wurden nicht als funktionierend
   bestätigt.
+
+## [2026-10-16] fix | SCHEMA.html aktualisiert
+- Bei der Nachprüfung festgestellt: `SCHEMA.html` war ein veralteter Export mit einem
+  Platzhalter-Seitentitel, doppelten/fehlenden Navigationsstrukturen, fehlerhaft
+  escapten Inline-Codebeispielen und veralteten Schema-Inhalten.
+- Den HTML-Build so erweitert, dass `SCHEMA.md` als eigenständige Dokumentationsseite
+  mit dem aktuellen Wiki-Layout gerendert und `SCHEMA.html` bei jedem regulären Build
+  aktualisiert wird. Das Schema bleibt aus Inhaltsindex und Suchindex ausgeschlossen.
+- Ergebnis und Linkprüfung im Anschluss dokumentieren.
