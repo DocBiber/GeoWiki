@@ -1,168 +1,112 @@
 ---
-title: Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat
+title: Vulnerabilität, Resilienz, Risiko und Naturgefahr
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [vulnerabilitaet, bildungsplan]
 sources: []
+confidence: low
 ---
 
-# Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat
+# Vulnerabilität, Resilienz, Risiko und Naturgefahr
 
 ## Einordnung
 
-Der Bildungsplan Geografie LK BW (§3.5.3 — globale Herausforderungen) und insbesondere
-der Basiskompetenz-Bereich **§3.4.3.2 „Vulnerabilität und Resilienz von Mensch und Raum“**
-führt die Begriffe **Vulnerabilität (Verwundbarkeit)** und **Resilienz (Widerstandsfähigkeit)** ein.
+Die Begriffe helfen dabei, mögliche Schäden durch Naturgefahren zu analysieren und
+Vorsorgemaßnahmen zu beurteilen. Im Bildungsplan Geografie Baden-Württemberg werden
+insbesondere die Verwundbarkeit von Mensch und Raum sowie Maßnahmen zur Stärkung der
+Resilienz behandelt.
 
-Ziel: Schülerinnen und Schüler können die **Verwundbarkeit von Räumen durch Naturgefahren
-erläutern** und **Maßnahmen zur Stärkung der Resilienz im Rahmen einer nachhaltigen
-Entwicklung beurteilen**.
+## Kernbegriffe
 
----
+### Naturgefahr (Hazard)
 
-## Kernbegriffs-Definitionen
+Eine Naturgefahr ist ein potenziell schädigender natürlicher Prozess oder ein Ereignis,
+zum Beispiel ein Vulkanausbruch, eine Überschwemmung oder ein Erdrutsch. Für sich
+genommen sagt die Naturgefahr noch nicht aus, ob Menschen oder Sachgüter betroffen sind.
 
-### Risiko (Risk)
+### Exposition
 
-Das **Risiko** beschreibt die **Wahrscheinlichkeit × Auswirkung** eines schädigenden Ereignisses
-auf Leben, Substanz, Nutzung, Umwelt. In der Geografie (Naturgefahrenforschung) wird
-oft folgender Zusammenhang verwendet:
+Exposition beschreibt, ob und in welchem Umfang Menschen, Gebäude, Infrastruktur,
+Wirtschaft oder Ökosysteme im möglichen Wirkungsbereich einer Naturgefahr liegen.
 
-> **Risiko = Hazard × Exposition × Vulnerabilität**
+### Vulnerabilität (Verwundbarkeit)
 
-- **Hazard** (Gefahr des Ereignisses selbst — naturerkraftlich), **Exposition** (was liegt in Gefahr),
-  **Vulnerabilität** (wie gefährdet ist das, was exponiert ist).
+Vulnerabilität bezeichnet Bedingungen, die beeinflussen, wie anfällig exponierte Menschen
+oder Systeme gegenüber einer Naturgefahr sind und welche Möglichkeiten sie haben, Schäden
+zu bewältigen. Dazu können unter anderem Gebäudestandards, Einkommen, Gesundheit,
+Information, soziale Netzwerke und die Erreichbarkeit von Evakuierungswegen gehören.
 
-Oder vereinfacht (in Schulbüchern üblich):
+Für eine Analyse werden häufig mehrere Dimensionen betrachtet:
 
-> **Risiko = Gefahr × Verwundbarkeit** (bzw. Hazard × Verwundbarkeit)
+- **Physisch:** Lage, Bauweise und Zustand von Gebäuden und Infrastruktur.
+- **Sozial:** Alter, Gesundheit, Zugang zu Informationen und Unterstützung.
+- **Ökonomisch:** Einkommen, Versicherungsschutz und Abhängigkeit von einzelnen
+  Wirtschaftszweigen.
+- **Ökologisch:** Zustand und Belastbarkeit von Ökosystemen.
 
-### Hazard (Gefahrencereignis)
+Diese Dimensionen sind Analyseperspektiven und keine einheitliche, für alle Modelle
+verbindliche Einteilung.
 
-Ein **Hazard** (dt. oft „Gefährdung“ oder „Gefahrenquelle“) ist die **Naturgewalt** oder das
-Ereignis selbst — unabhängig davon, ob Menschen oder Sachgüter in seiner Wirkungsfläche liegen
-(z.B. Vulkanausbruch, Überschwemmung, Erdrutsch).
+### Risiko
 
-In der Bildungsplanterminologie: Naturgefahren sind die Hazard-Quellen, z.B.:
-Vulkanismus, Gletscherflutung, Küstenerosion, Überschwemmung.
+Risiko beschreibt die Möglichkeit nachteiliger Folgen. Es hängt vom Zusammenspiel der
+Naturgefahr, der Exposition und der Vulnerabilität ab. Manche Modelle stellen diesen
+Zusammenhang vereinfacht als Produkt dar; das ist keine allgemeingültige Berechnungsformel.
 
-### Vulnerabilität / Verwundbarkeit (Vulnerability)
+### Resilienz
 
-Die **Vulnerabilität** (dt. „Verwundbarkeit“) bezeichnet die **inneren Eigenschaften eines
-Objekts oder Raumes (Gemeinwohl, Infrastruktur, Ökosystem, Bevölkerung)**, die festlegen,
-wie stark ein Hazard-Ereignis Schaden verursachen würde.
+Resilienz ist die Fähigkeit eines Systems oder einer Gemeinschaft, Belastungen zu
+bewältigen, Schäden zu begrenzen, sich anzupassen und sich nach einem Ereignis zu erholen.
+Sie kann durch Vorsorge, Warnungen, Evakuierungsplanung, robuste Infrastruktur und
+funktionierende soziale Unterstützung gestärkt werden.
 
-Beispiel: Zwei Dörfer liegen beide in der Flussnähe (gleiche Hazard-Wahrscheinlichkeit).
-Ein Dorf hat erhöhte Häuser, Evakuierungs-plan, Sandbags; das andere hat
-niedrige Flussschläuche und sehr wenig Vorsorge → unterschiedliche Vulnerabilität.
+Vulnerabilität und Resilienz hängen zusammen, sind aber keine einfachen Gegensätze. Ein
+Raum kann beispielsweise gute Warnsysteme haben und zugleich aufgrund hoher Exposition
+oder sozialer Ungleichheit verwundbar bleiben.
 
-**Komponenten der Vulnerabilität** (nach verschiedenen Modellen, bspw. UN/ISDR, IPCC, Cutter):
+## Beispiel: Hochwasser
 
-- **physische Vulnerabilität:** Baustandard, Lage, Bauweisen, Standortwahl
-- **Soziale Vulnerabilität:** Alter, Gesundheit, Bildung, Information, soziale Netzwerke
-- **Ökonomische Vulnerabilität:** Vermögen, Versicherungsschutz, Infrastruktur-Abhängigkeiten
-- **Ökologische Vulnerabilität:** Ökosystem-Schutz, Biodiversität, Funktion der Natur (z.B.
-  Auwald als Retention)
+Zwei Siedlungen können derselben Hochwassergefahr ausgesetzt sein. In einer Siedlung
+stehen besonders gefährdete Gebäude in der Überflutungsfläche; in der anderen gibt es
+Warnungen, erreichbare Evakuierungswege und angepasste Gebäude. Die Unterschiede bei
+Exposition und Vulnerabilität beeinflussen die möglichen Folgen. Vorsorge kann Schäden
+begrenzen, beseitigt die Naturgefahr aber nicht.
 
-In der Bildungsplan-(BW-)Deutung heißt es: „die Verwundbarkeit von Räumen durch Naturgefahren“
-— also Schwerpunkt auf den **räumlich-gesellschaftlichen** Aspekt (Raum + Leute).
-
-### Resilienz (Widerstandsfähigkeit / Resilienz)
-
-**Resilienz** bezeichnet die **Fähigkeit eines Systems** — Gemeinschaft, Raum, Ökosystem,
-Infrastruktur — **Schäden zu widerstehen, zu verkraften, sich zu erholen** und ggf.
-aus dem Ereignis zu lernen. Es ist das „konstruktive Gegenstück“ zur Vulnerabilität.
-
-In der Geografie / Naturgefahrenforschung wird Resilienz oft in drei Ebenen unterteilt:
-
-1. **Robustheit (Widerstandsfähigkeit):** das System bleibt auch unter Schock-Status funktionsfähig (z.B. Hochwasserschutz).
-2. **Anpassungsfähigkeit (Flexibilität):** Können schnell reagieren, Lücken schließen, anpassen.
-3. **Erholungsfähigkeit (Recovery):** nach dem Ereignis: Wiederaufbau, Rückkehr in Arbeitsfähigkeit.
-
-In Bildungsplan-Minima: „Mögliche Maßnahmen zur Stärkung der Resilienz im Rahmen einer
-nachhaltigen Entwicklung beurteilen“.
-
----
-
-## Modelle und Rahmen
-
-### BBC-Modell (Bogardi-Birkmann-Cardona)
-
-Das BBC-Konzept (Bogardi, Birkmann, Cardona) ist ein gebräuchliches Modell,
-das Vulnerabilität in den **Hazard–Vulnerabilitäts-Kontext** einbetten:
-→ Vulnerabilität ist nicht unabhängig von Hazard, sondern **abhängig von Risiko und
-Exposition** und **system-Umwelt-Kontext**.
-
-Im Bildungsplan BW wird dies praktisch angewendet: Aufgabe (2) in §3.4.3.2 lautet:
-„An mindestens einer der ausgewählten Landschaften die Verwundbarkeit dieses Raumes und der
-dort lebenden Gesellschaft durch Naturgefahren erläutern sowie mögliche Maßnahmen zur Stärkung
-der Resilienz im Rahmen einer nachhaltigen Entwicklung beurteilen.“
-
-### IPCC-Bezug (Klimawandel)
-
-Der IPCC (Weltklimarat) verwendet Vulnerabilität als **Funktion aus Sensitivität +
-Exposition – Anpassungsfähigkeit**. In LK-Themen (z.B. §3.5.3.2 Klimawandel) ist das
-konzeptionell relevant.
-
----
-
-## Zusammenhang: Risiko—Vulnerabilität—Resilienz im Überblick
+## Zusammenhang der Begriffe
 
 ```
-[ Naturgefahren-Hazard ] ──▶ [ Exposition: was liegt im Gefahrenbereich? ]
-                                     │
-                                     ▼
-                          [ Vulnerabilität: wie anfällig ist das Exponierte? ]
-                                     │
-                                     ▼
-                          [ Risiko: Wahrscheinlichkeit × Schadensausmaß ]
-                                     │
-                                     ▼
-                          [ Resilienz: Fähigkeit widerstehen + erholen ]
-                                     ↑
-                          Maßnahmen: Vorsorge, Nachhaltigkeit, Reduktion,
-                          Anpassung, Bürgerinformation, Infrastruktur
+Naturgefahr ──┐
+              ├── beeinflussen gemeinsam das Risiko möglicher Schäden
+Exposition ───┤
+              │
+Vulnerabilität┘
+
+Vorsorge und Resilienz können Folgen begrenzen und die Erholung unterstützen.
 ```
 
----
+Das Schema dient der qualitativen Analyse. Je nach Fachmodell werden die Begriffe und
+ihre Beziehungen unterschiedlich genau gefasst.
 
-## Abgrenzung nachhaltige Entwicklung
+## Nachhaltige Entwicklung
 
-Der Bildungsplan bringt auch die Leitperspektive **BNE (Bedeutung und Gefährdungen einer
-nachhaltigen Entwicklung)** ein. Beim Thema „Vulnerabilität und Resilienz“ wird daher
-gefordert, **nachhaltige Entwicklung** als Entwicklungsziel einzubeziehen:
+Bei der Beurteilung von Resilienzmaßnahmen sind neben dem Schutz vor Gefahren auch soziale,
+wirtschaftliche und ökologische Folgen zu berücksichtigen. Maßnahmen wie Bauverbote,
+Deiche oder Umsiedlungen können Risiken mindern, aber zugleich Zielkonflikte auslösen.
+Eine nachhaltige Beurteilung wägt diese Folgen ab und berücksichtigt, wer von einer
+Maßnahme profitiert oder belastet wird.
 
-- **Risikominimierung** (Gefahrenreduzierung): Bahnhöfe höher bauen, Gefahrenpunkte vermeiden,
-  Evakuierungswege.
-- **Entwicklung von Sicherheit:** Risiko-Info einbeziehen in Planung.
-- **Nachhaltigkeit:** sozialen Ausgleich, ökologische Stabilität, ökonomische Tragbarkeit.
+## Kompetenzbezug
 
----
+Im Bildungsplan Geografie Baden-Württemberg sollen Lernende die Verwundbarkeit von Räumen
+und Gesellschaften durch Naturgefahren erläutern und mögliche Maßnahmen zur Stärkung der
+Resilienz im Rahmen nachhaltiger Entwicklung beurteilen.
 
-## Kompetenzbezug LK / BK
+## Verwandte Seiten
 
-- BK (Basisfach) §3.4.3.2: Explizit „Vulnerabilität und Resilienz von Mensch und Raum“.
-- LK (Leistungskurs): Tiefer gehend in §3.5 (Sphären, globale Herausforderungen) —
-  aufgabenbezogen, analytischer, abstrakter.
-- Schülerinnen und Schüler sollen zum einen **erläutern** (Vulnerabilität eines Raumes),
-  zum anderen **beurteilen** (Maßnahmen für Resilienz).
-
----
-
-## Weiterführende Seiten
-
-- [[vulnerabilitaet-raumbeispiele]] ← konkrete Raumbeispiele
-- [[resilienz-massnahmen]] ← Maßnahmen im Detail
-- [[vulnerabilitaet-vulkanraume]] ← V/a vulkanischer Räume
-- [[vulkanismus-ueberblick]] ← Vulkanismus (Hazard-Quelle)
-- [[glazialmorphologie-ueberblick]] ← glazial (Hazard-Quelle)
-- [[bildungsplan-2016-lk]] ← Bildungsplan-Kontext
-
----
-## Bildmaterial
-
-### 📸 Fotos (Unsplash)
-
-[Fotogalerie: Fotogalerie: Naturgefahren, Vulnerabilität (Unsplash)](https://unsplash.com/s/photos/natural-disaster)
-
+- [[vulnerabilitaet-raumbeispiele]] — konkrete Raumbeispiele
+- [[resilienz-massnahmen]] — Maßnahmen im Detail
+- [[vulnerabilitaet-vulkanraume]] — vulkanische Räume
+- [[vulkanismus-ueberblick]] — Vulkanismus als Naturgefahr
+- [[glazialmorphologie-ueberblick]] — glazial geprägte Räume
+- [[bildungsplan-2016-lk]] — Bildungsplan-Kontext

@@ -1,32 +1,34 @@
 ---
 title: Wasserhaushalt und Hydrologie — Grundlagen
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [wasser, hydrologie, wasserhaushalt, hydrogeographie, umwelt]
 sources: []
-confidence: high
+confidence: low
 ---
 
 # Wasserhaushalt und Hydrologie
 
 ## Überblick
 
-Der Wasserhaushalt (Hydrologischer Kreislauf) beschreibt, wie Wasser in allen Aggregatszuständen durch die Systeme der Erde zirkuliert: von Ozeanen über Atmosphäre, Land und Rückkehr zu Ozeanen. Die Hydrologie ist die Wissenschaft vom Wasser — severe quantitativer, spatialer und zeitlicher Aspekte.
+Der Wasserhaushalt (hydrologischer Kreislauf) beschreibt, wie Wasser in allen Aggregatzuständen durch die Systeme der Erde zirkuliert: von den Ozeanen über die Atmosphäre und das Land zurück zu den Ozeanen. Die Hydrologie ist die Wissenschaft vom Wasser und untersucht seine räumliche und zeitliche Verteilung sowie seine Bewegung und Eigenschaften.
 
 > Bezug zum Spektrum Lexikon der Geographie: Hydrologie / Hydrogeographie / Klimageographie
 
 ## Der Wasserhaushalt: Komponenten
 
-**Einträge (Zuflüsse zum Land):**
-- **Niederschlag:** Regen, Schnee, Graupel — Wasser von der Atmosphäre auf die Landfläche; Hauptquelle für Süßwasser auf dem Land; Niederschlagsmenge und -verteilung variieren stark (z. B. tropische Konvektionszone vs. Wüsten)
-- **Schneeschmelze:** Gletscher, Schnee (Kryosphäre) — liefert saisonal Frischwasser (z. B. Sommerhochwasser in Alpen, Himalaya)
+**Wasserzufuhr:**
+- **Niederschlag:** Regen, Schnee oder Graupel gelangen aus der Atmosphäre auf die Landfläche. Die Niederschlagsmenge und -verteilung unterscheiden sich räumlich und zeitlich stark.
+- **Schneeschmelze:** Überführt gespeichertes Schnee- und Gletscherwasser in flüssiges Wasser; sie ist innerhalb eines Einzugsgebiets in der Regel kein zusätzlicher Wasserzufluss.
 
-**Abflüsse (Wasser vom Land):**
-- **Oberflächenabfluss:** Wasser fließt oberhalb des Bodens in Bach, Fluss, See — direkt nach Niederschlag, wenn Boden gesättigt oder versiegelt
-- **Simultane Infiltration und Percolation:** Wasser sickert in Boden und Grundwasser — Infiltration (Eintritt ins Erdmaterial), Percolation (weiter transport im Boden, zum Grundwasser)
-- **Grundwasserabfluss:** Grundwasser fließt zu Flüssen, Seen, Ozeanen — verlangsamte, verzögerte Ausfluss (Grundwasserlaufzeit Monate bis Jahrzehnte)
-- **Evapotranspiration (Verdunstung):** Wasser verdunstet von Boden und Wasserflächen, Pflanzen geben Wasser ab (Transpiration) — Gesamtverlust vom Land in die Atmosphäre; dominant in wärmeren Klimazonen
+**Wasserabgabe aus dem Einzugsgebiet:**
+- **Oberflächenabfluss:** Wasser fließt über die Geländeoberfläche in Bäche, Flüsse oder Seen. Er kann entstehen, wenn der Boden gesättigt oder versiegelt ist oder Niederschlag schneller fällt, als Wasser versickern kann.
+- **Grundwasserabfluss:** Grundwasser gelangt verzögert in Flüsse, Seen oder andere Vorfluter.
+- **Evapotranspiration:** umfasst die Verdunstung von Boden- und Wasserflächen sowie die Transpiration der Pflanzen; sie beschreibt den Wasserfluss von der Landoberfläche in die Atmosphäre.
+
+**Versickerung und Speicherung:**
+- **Infiltration und Perkolation:** Wasser dringt in den Boden ein (Infiltration) und sickert durch Boden und Gestein weiter (Perkolation), gegebenenfalls bis ins Grundwasser.
 
 **Speicher (Wo Wasser vorübergehend gespeichert wird):**
 - **Atmosphäre:** Wasserdampf, Wolken — kurze Verweilzeit (Tage), aber zentral für Transport
@@ -37,51 +39,46 @@ Der Wasserhaushalt (Hydrologischer Kreislauf) beschreibt, wie Wasser in allen Ag
 
 ## Der Wasserhaushalt eines Einzugsgebiets (Wasserhaushalts-Gleichung)
 
-Ein Einzugsgebiet (Einlaufgebiet, Wasserscheide) ist das Gebiet, aus dem ein Gewässer (Fluss, See) Wasser sammelt. Der Wasserhaushalt eines Einzugsgebiets lässt sich bilanzieren:
+Ein Einzugsgebiet ist das Gebiet, aus dem Wasser einem Gewässer zufließt. Seine Grenze wird durch Wasserscheiden gebildet. Der Wasserhaushalt lässt sich für einen festgelegten Zeitraum bilanzieren:
 
-**Wasserhaushalts-Gleichung:**
+**Wasserhaushaltsgleichung:**
 ```
-Niederschlag (P) = Evapotranspiration (ET) + Oberflächenabfluss (Qo) + Grundwasserabfluss (Qg) ± Änderung Speicherung (ΔS)
-```
-
-Oder einfacher:
-```
-P = ET + Abfluss (Gesamt) ± ΔSpeicher
+P = ET + Q + ΔS
 ```
 
 - **P (Niederschlag):** Zufluss
 - **ET (Verdunstung + Transpiration):** Verlust in Atmosphäre
-- **Abfluss (Q = Qo + Qg):** Abfluss zum nächsten Gewässer / Ozean
-- **ΔS (Speicheränderung):** Kann positiv (z. B. Schneetrend, Eisende, Grundwasseranstieg) oder negativ (Trockenland, Grundwasserentnahme) sein
+- **Q (Abfluss):** Abfluss aus dem Einzugsgebiet; je nach Bilanzierung umfasst er Oberflächen- und Grundwasserabfluss.
+- **ΔS (Speicheränderung):** Änderung des gespeicherten Wassers (Endbestand minus Anfangsbestand); sie kann positiv oder negativ sein.
 
-**Wasserhaushaltskurve (Hydrograph):** Der zeitliche Verlauf des Abflusses (Ströme) nach Niederschlagsereignis: Steiler Anstieg (oberflächenabfluss-dominiert), Plateauphase, allmähliche Abnahme (Grundwasserabfluss dominant) — Dickinson-Modell / Multiplikative Überschwemmungsmodelle.
+**Abflussganglinie (Hydrograph):** Sie zeigt die zeitliche Veränderung des Abflusses, beispielsweise vor, während und nach einem Niederschlagsereignis. Typische Abschnitte sind der ansteigende Ast, der Scheitel und der fallende Ast; der Basisabfluss kann den Verlauf mitprägen.
 
 ## Einflüsse auf den Wasserhaushalt
 
 **Klimafaktoren:**
-- Niederschlagsmenge und -verteilung (Jahreszeit, Böden)
-- Temperatur (Steuert Verdunstung, Schneegrenze, Schnee-Schmelze)
+- Niederschlagsmenge und -verteilung (unter anderem abhängig von Jahreszeit und Zirkulation)
+- Temperatur (steuert unter anderem Verdunstung, Schneegrenze und Schneeschmelze)
 - Wind (beeinflusst Verdunstung, Transport von Feuchtigkeit)
 
 **Räumliche / physikalische Faktoren:**
-- **Topographie:** Hänge, Exposition — Hangflächen: schnelle Oberflächenabflus, wenig Infiltration; Tieflagen: Ablauf, Gewässer
-- **Boden (Textur, Struktur, Organik):** Sandig = schnelle Infiltration, wenig Speicher; Tonig = langsame Infiltration, hohe Speicher; Humus = gute Infiltration und Speicherung
-- **Vegetation:** Kann Infiltration erhöhen (Wurzelkanäle), Verdunstung erhöhen (Transpiration), Oberflächenabfluss verringern (Pflanzen bedeckt Boden, Schutz vor Splash)
-- **Beschaffenheit:** Versiegelung (Stadt) = keine Infiltration, stark Oberflächenabfluss, Hochwasserrisiko; landwirtschaftliche Bodenbearbeitung (Fallende Fruchtfolge, Mulch) = Infiltration ±
+- **Topografie:** Relief und Exposition beeinflussen Abfluss und Versickerung. An Hängen kann Wasser rasch oberflächlich abfließen; in tiefer gelegenen Bereichen sammelt es sich oder gelangt in Gewässer.
+- **Boden (Textur, Struktur, organische Substanz):** Sandige Böden lassen Wasser oft schnell versickern, speichern aber vergleichsweise wenig; tonreiche Böden lassen Wasser langsamer versickern und können mehr Wasser speichern.
+- **Vegetation:** Wurzelkanäle können die Infiltration fördern. Pflanzen erhöhen die Transpiration; eine Bodenbedeckung kann Oberflächenabfluss und Erosion verringern.
+- **Bodenbedeckung und Nutzung:** Versiegelte Flächen lassen wenig Wasser versickern und erhöhen den Oberflächenabfluss. Eine dauerhafte Bodenbedeckung, etwa durch Zwischenfrüchte oder Mulch, kann die Infiltration begünstigen.
 
 **Anthropogene Eingriffe:**
-- **Wassermanagement:** Staudämme (Speicher, Hochwasserentlastung, Energie, Bewässerung), Entnahme (Trinkwasser, Industrie, Landwirtschaft — Grundwasserentnahme, Flussabfluss verändern)
-- **Bodenversiegung:** Siedlung, Impermeabilisierung — Oberflächenabfluss erhöht, Grundwasserneubildung sinkt
-- **Änderung Landnutzung:** Entwaldung (weniger Interception, mehr Abfluss), Urbarmachung
-- **Klimawandel:** Erwärmung (mehr Verdunstung, weniger Schnee, veränderte Niederschläge), Extreme (Trockenheit und Hochwasser)
+- **Wassermanagement:** Staudämme können Wasser speichern, Hochwasserabflüsse beeinflussen, Energie erzeugen und Bewässerung ermöglichen. Wasserentnahmen für Trinkwasser, Industrie und Landwirtschaft verändern je nach Umfang den Grundwasserstand und den Abfluss.
+- **Bodenversiegelung:** Siedlungs- und Verkehrsflächen verringern die Versickerung; der Oberflächenabfluss nimmt zu und die Grundwasserneubildung kann sinken.
+- **Änderung der Landnutzung:** Entwaldung verringert die Interzeption und kann den Abfluss erhöhen; andere Nutzungsänderungen wirken sich je nach Standort unterschiedlich aus.
+- **Klimawandel:** Die Erwärmung kann die Verdunstung erhöhen, Schneespeicher verringern und Niederschlagsmuster verändern; dadurch können sich auch Risiken durch Trockenheit und Hochwasser verschieben.
 
 ## Begriffe und Methoden
 
 **Quantifizierung:**
 - **Niederschlag:** mm (Millimeter) als Höhe auf Fläche — 1 mm = 1 Liter pro m²
-- **Abfluss:** m³/s (Durchfluss / Strohmenge), oder mm/t (abflussäquivalent)
-- **Verdunstung (PT / ET0):** Referenz-Evaporationsrate, oft nach Penman-Monteith
-- **Wasserhaushaltsbilanz:** Berechnung über Daten (Niederschlag messen mit Regenmesser, Abfluss mit Stromer/Hydrometrie, Verdunstung mit Eddy-Korrelation oder Modell)
+- **Abfluss:** als Durchfluss in m³/s oder als Abflusshöhe in mm für einen festgelegten Zeitraum
+- **Referenzverdunstung (ET₀):** wird häufig nach der Penman-Monteith-Methode berechnet.
+- **Wasserhaushaltsbilanz:** beruht auf Messungen und Schätzungen, etwa Niederschlagsmessungen, Abflussmessungen sowie Verdunstungsdaten aus Messungen oder Modellen.
 
 **Hydrologische Modelle:** SWAT, HBV, PRMS — simulieren Abfluss, Grundwasser, Beeinflussung von Landnutzung und Klima.
 
@@ -96,8 +93,8 @@ P = ET + Abfluss (Gesamt) ± ΔSpeicher
 ## Raumbeispiele (für Abitur)
 
 - **Alpen:** Gletscher, Schneeschmelze als Wasserquelle für tiefere Lagen (z. B. Donau, Rhein, Rhone, Po); saisonale Abflussmuster; Klimawandel: Gletscherschmelze, veränderter Wasserhaushalt
-- **Norddeutsches Tiefland:** Grundwasser dominiert, langsame Abflüsse (Norden — viele Feuchtgebiete), wenig Reliefien, Grundwasserneubildung wichtig
-- **Trockene Gebiete (Wüste):** extrem wenig Niederschlag, hohe Verdunstung, knappe Wasserresourcen; Wasserangebote oft knapp, Grundwasser wichtig
+- **Norddeutsches Tiefland:** Geringes Relief und vielerorts grundwassergeprägte Landschaften; Moore und Feuchtgebiete sind regional bedeutsam. Die Grundwasserneubildung ist ein wichtiger Teil des Wasserhaushalts.
+- **Trockene Gebiete (Wüsten):** sehr geringe Niederschläge und hohe potenzielle Verdunstung; Wasser ist knapp, und Grundwasser kann eine wichtige Ressource sein.
 - **Bevölkerungsdichte / Landwirtschaft:** Wasserbedarf und -verfügbarkeit oft unausgewogen (z. B. Indien — viele Menschen, schwankender Monsun, Grundwasser-Entnahme)
 
 ## Offene Fragen
@@ -136,4 +133,3 @@ P = ET + Abfluss (Gesamt) ± ΔSpeicher
 ### 🎬 Wasserzyklus-Demonstration – Schritt für Schritt (MooMooMath & Science)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z6HPQBws5mM" frameborder="0" allowfullscreen></iframe>
-

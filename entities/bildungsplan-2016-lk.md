@@ -1,7 +1,7 @@
 ---
 title: Bildungsplan 2016 — Geografie Leistungskurs BW
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [bildungsplan, abitur]
 sources: []
@@ -18,7 +18,7 @@ Ausgestaltung für das **Basisfach (BF)** und **Leistungsfach (LK)** in der Kurs
 **Fassung:** Stand 22. Februar 2023 (V2). Eine Überarbeitung ist in Vorbereitung (KMK-Bedarfsanalyse
 2020; Anhörung 07.11.–19.12.2025). [[bildungsplan-2016-lk]] verweist auf den aktuellen Stand.
 
-## Stellenwerteruen LK vs. BF
+## Stellenwert des LK im Vergleich zum BF
 
 | Aspekt | Basisfach (BF) | Leistungsfach (LK) |
 |---|---|---|
@@ -70,9 +70,9 @@ Der Bildungsplan definiert fünf Kompetenzbereiche:
 
 ## Quellen
 
-- BildUngsplan 2016 Gymnasium Geografie: [bildungsplaene-bw.de](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO)
-- V2-Fassung (22.02.2023): [bildungsplaene-bw.de V2](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2)
-- LK-Inhaltsbereich 3.5: [BP2016BW_ALLG_GYM_GEO. V2_IK_LK](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2_IK_LK)
+- Bildungsplan 2016 Gymnasium Geografie: [bildungsplaene-bw.de](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO)
+- V2-Fassung (22.02.2023): [bildungsplaene-bw.de V2](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2)
+- LK-Inhaltsbereich 3.5: [BP2016BW_ALLG_GYM_GEO.V2_IK_LK](https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK)
 
 ---
 

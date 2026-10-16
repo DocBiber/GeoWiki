@@ -1,7 +1,7 @@
 ---
 title: Übersicht Raumbeispiele — Geografie LK BW
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: summary
 tags: [raumbeispiele, uebersicht, bildungsplan]
 sources: []
@@ -11,7 +11,7 @@ sources: []
 
 > Zentrale Übersicht aller Raumbeispiele im Wiki.
 > Für LK-Abitur: mindestens ein komplettes Beispiel je Landschaftstyp wird erwartet.
-> Bildungsplan §3.5.2.1 nennt fünf Landschaften — hier sind alle fünf vertreten.
+> Der Bildungsplan §3.5.2.1 nennt fünf Landschaften. Für vier gibt es bereits eine eigene Raumbeispielseite; Karst ist bislang auf der Konzeptseite behandelt.
 
 ---
 
@@ -19,11 +19,11 @@ sources: []
 
 | Landschaftstyp (Bildungsplan) | Beispiel(e) im Wiki | Seiten |
 |---|---|---|
-| **Vulkanlandschaft** | Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island) | [[vulkan-raumbeispiele]] |
+| **Vulkanlandschaft** | Vesuv (Italien), Kīlauea (Hawaii), Laacher See (Eifel), Eyjafjallajökull (Island) | [[vulkan-raumbeispiele]] |
 | **Glaziallandschaft** | Alpen (Grosser Aletsch, Schweiz), Norddeutsches Tiefland (Skandisches Inlandeis), Island (Vatnajökull) | [[glazial-raumbeispiele]] |
 | **Flusslandschaft** | Elbe (Hochwasser 2002), Rhein (Regulierung/Rückhaltebecken), Donau-Delta | [[fluss-raumbeispiele]] |
 | **Küstenlandschaft** | Nordsee (Sturmfluten/Deiche), Sylt (Inselwanderung), Ostsee (Steilküste), Niederlande (Deltawerke) | [[kuesten-raumbeispiele]] |
-| **Karstlandschaft** | Karstgebiete (Rhön, Fränkische Schweiz), Slowenien (Postojna) | ← kommt später |
+| **Karstlandschaft** | Kalkeifel, Dinarischer Karst (Slowenien), Yucatán | [[karstlandschaft]] |
 
 ---
 
@@ -43,8 +43,8 @@ Der Bildungsplan LK verlangt konkret (§3.5.2.1 + §3.4.3.2 BK):
 | Wenn die Aufgabe nach ... fragt | Nutzen Sie dieses Beispiel |
 |---|---|
 | Vulkan + Vulnerabilität (hohe Bevölkerungsdichte, Infrastruktur) | Vesuv (Italien) |
-| Vulkan + transnationale Auswirkung | Eyafjöll (Island, 2010) |
-| Vulkan + effusiv / lokales Beispiel | Kilauea (Hawaii) |
+| Vulkan + transnationale Auswirkung | Eyjafjallajökull (Island, 2010) |
+| Vulkan + effusiv / lokales Beispiel | Kīlauea (Hawaii) |
 | Vulkan + ignoriertes Risiko, fehlendes Bewusstsein | Laacher See (Eifel) |
 | Glazial + Gletscherrückzug, Tourismus | Alpen (Grosser Aletsch) |
 | Glazial × Vulkan (Prozess-Interaktion) | Island (Vatnajökull) |
@@ -55,6 +55,6 @@ Der Bildungsplan LK verlangt konkret (§3.5.2.1 + §3.4.3.2 BK):
 
 ## Nächste Schritte
 
-- **Karstlandschaft**: Raumbeispiele (Rhön, Fränkische Schweiz, Slowenien)
+- **Karstlandschaft**: eigene Raumbeispielseite ergänzen; Grundlagen und Beispiele stehen bereits auf der Konzeptseite.
 
 Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkan-raumbeispiele]], [[glazial-raumbeispiele]], [[fluss-raumbeispiele]], [[kuesten-raumbeispiele]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]]

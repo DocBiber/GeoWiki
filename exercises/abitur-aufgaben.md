@@ -1,7 +1,7 @@
 ---
 title: Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: summary
 tags: [abitur, uebung, aufgaben, bildungsplan]
 sources: []
@@ -9,7 +9,7 @@ sources: []
 
 # Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)
 
-> Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können.
+> Muster-Aufgaben, die sich an typischen Aufgaben im schriftlichen Geografie-Abitur orientieren.
 > Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte.
 
 > Hinweis: diese sind **Muster** — echte Aufgaben variieren je nach Prüfung, Schuljahr, Themenauswahl.
@@ -52,40 +52,44 @@ sources: []
 
 **(1) Benennen + Charakterisieren:**
 
-- **Schichtvulkan (Strato vulkan):** Aufbau aus abwechselnd Lava- und Tephra-Schichten;
-  Entstehung in Subduktionszonen (z.B. Pazifik-Feuer, Vesuv); steile Flanke (30–35°);
-  oft explosionsvulkanisch (Andesit/Dacit-Magma, hoher SiO₂).
-- **Schildvulkan:** Flache Flanke (2–10°), basaltisches Magma (niedriger SiO₂, niedrig-viscos),
-  effusive Eruption; Hot Spot oder Rift (z.B. Hawaii, Kilauea).
+- **Schichtvulkan (Stratovulkan):** Aufbau aus Lava und pyroklastischen Ablagerungen; viele
+  entstehen an Subduktionszonen (zum Beispiel der Vesuv). Häufig sind die Flanken steil
+  und die Eruptionen explosiv.
+- **Schildvulkan:** breite, flach geneigte Form; häufig basaltisches, dünnflüssiges Magma
+  und überwiegend effusive Ausbrüche (zum Beispiel Kīlauea auf Hawaii).
 
 **(2) Explosiv vs. Effusiv:**
 
-- **explosiv:** hohe Viskosität (felsisches Magma), Gase eingeschlossen, Druckaufbau →
-  explosive Freisetzung (Tephra, pyroklastische Ströme, Asche); Schichtvulkane.
-- **Effusiv:** niedrige Viskosität (basaltisch), Gase entweichen gleichmäßig → Lavaflüsse,
-  Fontänen; Schildvulkane. Beispiel: Kilauea.
-- Unterschiedlicher SiO₂-Gehalt, Gasgehalt, Plattenkontext (Subduktion → explosiv; Hot Spot/Rift → effusiv).
+- **Explosiv:** Zähflüssiges, gasreiches Magma kann Druck aufbauen und explosiv fragmentieren;
+  dabei können Tephra und pyroklastische Dichteströme entstehen.
+- **Effusiv:** Dünnflüssige Lava kann vergleichsweise ruhig ausfließen und Lavafontänen bilden;
+  dies ist typisch, aber nicht ausschließlich, für basaltischen Vulkanismus.
+- Die Ausbruchsart hängt unter anderem von Magmaeigenschaften, Gasgehalt und Förderbedingungen
+  ab; der tektonische Kontext allein legt sie nicht fest.
 
 **(3) Vulnerabilitäts-Analyse (Vesuv):**
 
-- **physisch:** Siedlungen direkt am Fuß (Torre del Greco etc.); niedrige Lage → Lahare;
-  Infrastruktur (Autobahn A3, S-Bahn, Flughafen); Lava/Tephra/Asche-Schäden.
-- **sozial:** sehr hohe Bevölkerungsdichte (ca. 3 Mio. in Gefahrenzone); Erfahrung (Vesuv ist bekannt,
-  aber unvorhersehbar); Kommunikation, Überzeugungskrisen bei Warnungen.
-- **ökonomisch:** Abhängigkeit von Tourismus (Pompeji = Millionen Besucher) und Landwirtschaft
-  (vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus + Landwirtschaft + lokale Wirtschaft).
+- **Physisch:** Siedlungen und Infrastruktur liegen in Bereichen, die je nach
+  Ausbruchsszenario durch Aschefall, pyroklastische Dichteströme oder Lahare betroffen
+  sein können.
+- **Sozial:** In der ausgewiesenen roten Zone leben rund 700.000 Menschen (Zahl abhängig
+  von Abgrenzung und Bezugsstand). Bevölkerungsdichte, verständliche Warnkommunikation
+  und erreichbare Evakuierungswege beeinflussen das Risiko.
+- **Ökonomisch:** Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige. Eine
+  Eruption könnte Betriebe, Verkehrswege und Versorgung beeinträchtigen.
 
 **(4) Beurteilung Resilienz-Maßnahmen:**
 
-- **Maßnahmen vorhanden:** Vesuv-Beobachtung (INGV), Seismometer, GPS, Gasmessung;
-  Evakuierungsplan (Rouge Zone, Wege, Notfallkommunikation); "Plan Vesuv" (Katastrophenschutz).
+- **Maßnahmen vorhanden:** Überwachung durch das Osservatorio Vesuviano (INGV), unter
+  anderem mit seismischen und geodätischen Messungen sowie Gasmessungen; außerdem
+  Evakuierungsplanung und Notfallkommunikation für die rote Zone.
 - **Beurteilung:**
-  - **Positiv:** Überwachung, Evakuierung, Schutzplan existieren — besser als früher.
+  - **Positiv:** Überwachung und Evakuierungsplanung können die Vorsorge verbessern.
   - **kritisch:** Extrem hohe Bevölkerungsdichte → trotz Planung "keine vollständige Sicherheit";
-    Raumplanung (Siedlungsbildung in Gefahrenzone) bleibt ungelöst → Vulnerabilität strukturell hoch.
-    Nachhaltigkeit: nachhaltige Lösung würde Siedlungsverzicht bedeuten — aber wirtschaftlich und sozial
-    kaum realisierbar. **Fazit:** Maßnahmen verbessern Resilienz, aber Vulnerabilität bleibt hoch —
-    nachhaltige Entwicklung erfordert langfristige Raumentwicklung, die aktuell nicht umgesetzt wird.
+    Weitere Bebauung in Gefahrenzonen kann die Vulnerabilität erhöhen. Eine Beurteilung
+    muss daher auch Raumplanung, Evakuierbarkeit und soziale Folgen berücksichtigen.
+    **Fazit:** Vorsorgemaßnahmen können Folgen mindern, aber die hohe Exposition nicht
+    vollständig beseitigen.
 
 ---
 
@@ -93,7 +97,7 @@ sources: []
 
 | Kompetenz | Erwartungshorizont |
 |---|---|
-| Benennen/Charakterisieren | Correct Vulkanformen, Entstehung, Kontext |
+| Benennen/Charakterisieren | Vulkanformen, Entstehung und geodynamischen Kontext korrekt benennen und charakterisieren |
 | Erklären (explosiv/effusiv) | SiO₂, Gas, Druck, Beispiel-Kontext |
 | Analysieren (Vulnerabilität) | 3 Dimensionen, konkret, mit Beispielen |
 | Beurteilen (Resilienz) | Maßnahmen benennen UND kritisieren; Nachhaltigkeit einbeziehen |
@@ -135,39 +139,38 @@ sources: []
 
 **(1) Glaziale Serie (räumliche Ordnung, vom Eis weg):**
 
-1. **Zungenbecken** — Mulde am Gletscherende (oft tief, oft mit See)
-2. **Endmoräne** (Jungmoräne) — halbrunder Kamm, letzte Vorstoss-Grenze
-3. **Sander / Sandr** — Schotterfeld vor der Endmoräne (Schmelzwasser-Ablagerung)
-4. **Urstromtal** — längliches Tal, Schmelzwasser-Rinn, weit ausgedehnt (häufig weit im Vorland)
+1. **Zungenbecken** — übertiefte Mulde im ehemaligen Bereich der Gletscherzunge; darin kann sich ein See bilden.
+2. **Endmoräne** — wallartige Ablagerung am früheren Eisrand.
+3. **Sander** — Fläche aus Sand und Kies, die Schmelzwasser vor der Endmoräne abgelagert hat.
+4. **Urstromtal** — breites Tal, das Schmelzwasser parallel zum Eisrand abführte.
 
 Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 **(2) Trogtal erklären:**
 
-- **Entstehung:** Gletscher erodiert Ein Tal aus — Eis schmiert Fels, schleift, schafft ein breites,
-  U-förmiges Tal (im Gegensatz zu V-förmigem Flusstal). Abtrag durch Abrasion und Quarzstaub.
+- **Entstehung:** Gletschereis erodiert den Untergrund durch Abrasion und Ausbrechen von
+  Gesteinsmaterial. Dadurch kann ein breites, U-förmiges Trogtal entstehen.
 - **weitere Erosionsformen:**
-  - **Kar (Cirque):** Kesselartige Mulde im Hochgebirge (Eis stagnation, Abrasion, oft mit Moräne unten)
-  - **Seitenmoräne:** an den Gletscherseiten (Gesteinsmaterial am Hang → transportiert und abgelagert)
+  - **Kar:** kesselförmige Hohlform am oberen Ende eines Gletschers.
+  - **Seitenmoräne:** Gesteinsschutt, den ein Talgletscher an seinen Seiten transportiert und ablagert.
 
 **(3) Vulnerabilitäts-Analyse (Aletsch):**
 
-- **ökonomisch:** Tourismus (Skigebiete, Wanderungen, Hochtourismus) — Rückzug bedroht Wirtschaft;
-  Wasserressourcen (Gletscher = Frischwasser für untere Regionen, Landwirtschaft, Trinkwasser) —
-  Rückzug → Veränderung Wasserhaushalt.
-- **ökologisch:** Gletschermikroökosystem (einmalige Lebensräume) — Rückzug gefährdet;
-  Alpengletscher = Referenzobjekt für Klimafolgen.
-- **sozial / Lebensqualität:** Alpenvereinshütten, Tourismus-Infrastruktur, aber
-  keine hohe direkte Gefahrenanfälligkeit (Lawinen, Felssturz, Schmelzwasser-Flut — aber lokal).
+- **Ökonomisch:** Tourismus und lokale Infrastruktur können durch den Gletscherrückgang
+  und damit verbundene Landschaftsveränderungen betroffen sein.
+- **Wasserhaushalt und Ökologie:** Der Rückgang verändert die saisonale Wasserführung und
+  Lebensräume im Gletschervorfeld.
+- **Sozial:** Felsstürze, Murgänge und weitere alpine Naturgefahren können lokal Menschen
+  und Verkehrswege gefährden.
 
 **(4) Vergleich (Alpengletscher vs. Vesuv):**
 
 | Aspekt | Alpengletscher (Aletsch) | Vesuv (Vulkan) |
 |---|---|---|
-| **Hauptgefahren** | Gletscherlawinen, Felssturz, Schmelzwasser, langfristig Wasser-Veränderung | Explosive Eruption, Pyroklastische Ströme, Lahare, Asche, (kurzfristig katastrophal) |
-| **Vulnerabilitätsfaktoren** | Tourismus-abhängig, Wasserressourcen, ökologische Einzigartigkeit | Sehr hohe Bevölkerungsdichte, Infrastruktur, Landwirtschaft, Tourismus |
-| **Resilienz** | Überwachung (GLAMOS), Lawinen-Abfang, Tourismus-Umstellung, Wasser-Management | Überwachung (INGV), Evakuierungsplan, aber Bevölkerungsdruck |
-| **Beurteilung** | Vulnerabilität steigend (tourismus, Wasser), aber kein "tödlicher Shock"; Resilienz vorhanden | Vulnerabilität extrem hoch (Bevölkerungsdruck), Resilienz teils vorhanden, aber strukturell begrenzt |
+| **Mögliche Gefahren** | Felsstürze, Murgänge und Veränderungen der Wasserführung | Explosive Ausbrüche, pyroklastische Dichteströme, Lahare und Aschefall |
+| **Vulnerabilitätsfaktoren** | Tourismus, lokale Infrastruktur, Wasserhaushalt und Ökosysteme | Hohe Exposition in Gefahrenzonen, Infrastruktur und Evakuierbarkeit |
+| **Vorsorge** | Gletscherbeobachtung, Gefahrenkarten und angepasste Raumplanung | Überwachung, Warnungen, Evakuierungsplanung und Raumplanung |
+| **Beurteilung** | Auswirkungen hängen von Ort und Naturgefahr ab; langfristige Veränderungen sind bedeutsam. | Auswirkungen hängen von Ausbruchsszenario, Exposition und Vorsorge ab. |
 
 ---
 
@@ -176,7 +179,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 | Kompetenz | Erwartungshorizont |
 |---|---|
 | Benennen/Ordnen (Serie) | Korrekte Reihenfolge, korrekte Bezeichnungen |
-| Erklären (Trogtal) | Gletscher-Abtrag, U-formig, Vergleich Flusstal |
+| Erklären (Trogtal) | Gletschererosion, U-förmiges Tal und Vergleich mit einem Flusstal |
 | Analysieren (Vulnerabilität) | 2–3 Aspekte, konkret, Aletsch-Beispiel |
 | Vergleichen (Alpen vs. Vulkan) | Gegenüberstellung, begründet, mit Beispielen |
 
@@ -213,33 +216,32 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 **(1) Prozess-Charakterisierung:**
 
-- **Vulkanismus:** Endogen (Erdinnern, Magmen, Wärme, Gasdruck);
-  Wirkung: Aufbau (Magma, Lava, Tephra), kumulativ, erhöht Relief-Höhe;
-  Geschwindigkeit: Ereignisartig, kurzfristig (Jahre/Minuten); Wiederholung zyklisch, aber unvorhersehbar.
-- **Glazialmorphologie:** exogen (durch Eis, Schmelzwasser, Temperatur, Wind nach Eiszeit noch wirksam);
-  Wirkung: Abtrag (Erosion) und Ablagerung (Moränen, Sander); langfristig (tausende Jahre),
-  aber Teilprozesse (Lahre, Lawinen) kurzfristig; im Rückzugs-Zeitalter aktuell.
+- **Vulkanismus:** endogener Prozess, bei dem Magma, Lava und ausgeworfenes Material
+  Vulkanformen aufbauen. Eruptionen können innerhalb kurzer Zeit große Veränderungen
+  bewirken; zwischen ihnen können lange Ruhephasen liegen.
+- **Glazialmorphologie:** exogene Formung durch Gletschereis und Schmelzwasser. Sie umfasst
+  Erosion und Ablagerung und wirkt oft über lange Zeiträume; einzelne Gefahrenereignisse
+  wie Gletscherläufe oder Lawinen können dagegen rasch auftreten.
 
 **(2) Gefahren-Vergleich:**
 
 | Landschaft | Gefahren-Typ 1 | Gefahren-Typ 2 |
 |---|---|---|
-| **Vulkanismus** | **Pyroklastische Ströme:** Gas+Tephra-Mischung, 300–700 °C, bis 700 km/h, vollständige Zerstörung — Entstehung: explosive Freisetzung, hoher Gasdruck, felsisches Magma | **Aschefall:** feine Tephra-Partikel (<2 mm), fliegen weit, Schäden: Luftfahrt, Gesundheit, Gebäude, Landwirtschaft — Entstehung: explosionsvulkanische Eruption, Asche-Säule |
-| **glazial** | **Jökulhlaup (Gletscherflut):** Vulkan schmilzt Gletscher → Wasser+Sand-Asche → Lawine-Flut — Entstehung: Vulkan × Glazial-Interaktion (Island) | **Gletscherlawinen / Felssturz:** Eis oder Fels bricht ab — Entstehung: Gletscherrückzug, Instabilität |
+| **Vulkanismus** | **Pyroklastische Dichteströme:** heiße Gemische aus Gas und Partikeln, die sich schnell hangabwärts bewegen und schwere Schäden verursachen können. | **Aschefall:** ausgeworfenes feines Material kann Gesundheit, Gebäude, Landwirtschaft und Luftverkehr beeinträchtigen. |
+| **Glazial geprägte Räume** | **Gletscherlauf:** plötzlich abfließendes Wasser, etwa nach subglazialer Schmelze oder dem Versagen eines Eis- oder Moränendamms. | **Felssturz oder Eisabbruch:** Gesteins- oder Eismassen können sich lösen und Menschen sowie Infrastruktur gefährden. |
 
 **(3) Beurteilung Vulnerabilität (Vulkan vs. Glazial):**
 
-- **Vulkan:** oft höhere unmittelbare Todesgefahr (pyroklastische Ströme), plötzlich,
-  schwer zu fliehen; Vulnerabilität hoch bei Bevölkerungsdichte (z.B. Vesuv: 3 Mio. in Gefahrenzone).
-- **glazial:** Gefährdung ist eher langsam / indirekt (Rückzug, Wasser, Tourismus);
-  aber lokale Gefahren (Jökulhlaup, Lawinen) können schwer sein; Vulnerabilität
-  hängt stark vom Entwicklungsstand und Tourismus-Abhängigkeit.
-- **Beispiel:** Vesuv (Vulkan) — extrem hohe Vulnerabilität trotz Resilienz-Maßnahmen;
-  Alpengletscher (Glazial) — Vulnerabilität wirtschaftlich (Tourismus, Wasser), aber
-  keine "tödliche Gefahr" wie Vulkan.
-- **Fazit:** Vulkanlandschaft kann Vulnerabilität höher sein, wenn Bevölkerungsdichte hoch
-  und Ausbruch nicht vorhersehbar; glazial meist niedriger unmittelbarer Tod, aber
-  langfristige Vulnerabilität (Tourismus, Wasser).
+- **Vulkan:** Pyroklastische Dichteströme und andere Gefahren können lebensbedrohlich sein.
+  Das Risiko hängt unter anderem von Exposition, Verwundbarkeit, Warnung und Evakuierbarkeit ab.
+- **Glazial geprägter Raum:** Gletscherrückgang kann Wasserhaushalt und Tourismus langfristig
+  verändern; Gletscherläufe, Lawinen und Felsstürze können lokal rasch und schwerwiegend sein.
+- **Vergleich:** Am Vesuv leben rund 700.000 Menschen in der ausgewiesenen roten Zone
+  (Zahl abhängig von Abgrenzung und Bezugsstand). Im Aletschgebiet stehen unter anderem
+  Tourismus, Infrastruktur und Veränderungen der Wasserführung im Fokus.
+- **Fazit:** Eine pauschale Rangfolge ist nicht möglich. Die Beurteilung muss die konkrete
+  Naturgefahr, Exposition, soziale und wirtschaftliche Faktoren sowie Vorsorgemaßnahmen
+  im jeweiligen Raum berücksichtigen.
 
 ---
 
@@ -247,9 +249,9 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 | Kompetenz | Erwartungshorizont |
 |---|---|
-| Charakterisieren | Prozeßtyp, Antrieb, Geschwindigkeit, Wirkung korrekt |
-| Vergleichen/Benennen/Erklären | 2 Gefahren-Typen je Landschaft, Entstehung, Vergleich nicht oberflächlich |
-| Beurteilen (Vulnerabilität) | Begründet, Beispiel eingebracht, nicht pauschal |
+| Charakterisieren | Prozessart, Antrieb, zeitlicher Verlauf und Reliefwirkung korrekt darstellen |
+| Vergleichen/Benennen/Erklären | Je zwei Gefahren pro Raum benennen, ihre Entstehung erklären und vergleichen |
+| Beurteilen (Vulnerabilität) | Eine begründete Einschätzung mit konkretem Raumbeispiel und ohne pauschale Rangfolge formulieren |
 
 ---
 
@@ -260,7 +262,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 > **Thema:** Maßnahmen zur Stärkung der Resilienz im Kontext Naturgefahren
 >
 > **Materialien:**
-> - Schema: Risiko-Modell (Hazard × Exposition × Vulnerabilität = RISiko, Resilienz als Gegenstück)
+> - Schema: Zusammenspiel von Naturgefahr, Exposition, Vulnerabilität und Resilienz
 > - Text: Maßnahmen-Kompendium (Gefahrenreduzierung, Vulnerabilitätsverringerung, Anpassung/Erholung)
 >
 > **Aufgaben:**
@@ -277,8 +279,8 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 > und nachhaltiger Entwicklung. **Begründen** Sie.
 > [**Beurteilen, Nachhaltigkeit, Zielkonflikt**]
 >
-> **(4) Erörtern** Sie die These: "Je besser die Überwachung eines Naturgefahrens,
-> desto geringer die Vulnerabilität des Raumes." **Nehmen** Sie position.
+> **(4) Erörtern** Sie die These: „Je besser die Überwachung einer Naturgefahr,
+> desto geringer die Vulnerabilität des Raumes.“ Nehmen Sie begründet Position.
 > [**Erörtern, These**]
 
 ---
@@ -287,58 +289,46 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 
 **(1) Drei Ebenen + konkrete Maßnahme:**
 
-- **Gefahrenreduzierung / Vermeidung:**
-  - Gefahrenzonen-Raumplanung (Siedlungsverbot in Hochrisikogebieten),
-  - Strukturelle Schutzanlagen (Deiche, Rückhaltebecken, Lawinen-Abfangaufbau),
-  - Überwachung und Frühwarnsysteme (Seismometer, Satelliten, Gasmessung).
-- **Vulnerabilitätsverringerung:**
-  - Bauvorschriften (hochwasserfeste Gebäude, erhöhte Grundrisse), Evakuierungsplan,
-  - Information und Schulung (Bevölkerung, Schulübungen), Versicherungen/Rückstellungen,
-  - Soziale Netze, Notfallkommunikation.
-- **Anpassungsfähigkeit und Erholung:**
-  - Monitoring und daten-basierte Anpassung, Redundanz (Back-up Systeme),
-  - Wirtschaft-Umstellung / Diversifizierung, Wiederherstellung nach Ereignis,
-  - Lernen aus Ereignissen (Kataster-Rekonstruktion, Pläne überarbeiten).
+- **Exposition und Gefahrenfolgen begrenzen:**
+  - Gefahrenzonen in der Raumplanung berücksichtigen und Neubauten in besonders
+    gefährdeten Bereichen vermeiden.
+  - Schutzanlagen wie Deiche oder Rückhaltebecken dort einsetzen, wo sie angemessen sind.
+- **Vulnerabilität verringern:**
+  - Bauvorschriften, verständliche Information, Übungen und erreichbare Evakuierungswege.
+  - Frühwarnsysteme können rechtzeitige Schutzmaßnahmen unterstützen.
+- **Bewältigung und Erholung stärken:**
+  - Notfallkommunikation, gesicherte Versorgung und Redundanzen für kritische Infrastruktur.
+  - Wiederaufbau planen, Erfahrungen aus Ereignissen auswerten und Maßnahmen anpassen.
+  - Wirtschaftliche Abhängigkeiten verringern und betroffene Gemeinschaften einbeziehen.
 
 **(2) Analyse (Maßnahme → Vulnerabilitätsminderung, Beispiel):**
 
-- **Beispiel Kilauea:** Überwachung (HVO: Seismometer, GPS, Gasmessung) →
-  Frühwarnung möglich (Vor eruptive Phase erkennbar) → Evakuierung möglich →
-  Exposition (Menschen im Gefahrenbereich) bleibt, aber **Vulnerabilität sinkt**:
-  Menschen haben Zeit, sind nicht überrascht, können fliehen → Todesfall-Wahrscheinlichkeit sinkt.
-- **Beispiel Vesuv:** Evakuierungsplan + Warnsystem → vergleichbar: Exposition bleibt
-  (Siedlung in Gefahrenzone existiert weiter), aber Vulnerabilität sinkt durch
-  Vorbereitung, Evakuierung, Planung.
+- **Beispiel Kīlauea:** Seismische, geodätische und geochemische Beobachtungen können
+  Hinweise auf Veränderungen liefern. Warnungen und Evakuierungsplanung können Menschen
+  schützen; Zeitpunkt und Verlauf eines Ausbruchs lassen sich dennoch nicht sicher vorhersagen.
+- **Beispiel Vesuv:** Überwachung und Evakuierungsplanung können die Vorsorge unterstützen.
+  Die Exposition in besiedelten Gefahrenzonen bleibt bestehen, solange sich dort Menschen
+  und Infrastruktur befinden.
 
 **(3) Zielkonflikt + Beurteilung:**
 
-- **Beispiel:** Siedlungsverzicht in Hochrisikogebiet (Gefahrenzone) wäre effektiv
-  für Vulnerabilitätssenkung, aber konflikthaft mit **nachhaltiger Entwicklung**:
-  - Sozial: Verdrängung, Lebensqualität, lokale Gemeinschaft (Zwang?); Evakuierung
-    ohne Siedlungsverzicht → Notgedrungene Anpassung, aber (mühsam).
-  - Ökonomisch: TOURISMUS/Agrar in Gefahrenzone (Vulgar, Unterschied) —
-    Verzicht würden Wirtschaft schädigen.
-  - Nachhaltigkeit: nachhaltige Lösung muss alle drei Komponenten (Sozial, Ökonomisch,
-    Ökologisch) berücksichtigen. Maßnahmen nur auf Schutz zu legen, ignoriert
-    Entwicklung. Maßnahmen, die Entwicklung berücksichtigen, sind Nachhaltiger,
-    aber möglicherweise weniger "sicher" im kurzfristigen Hazard.
-- **Beurteilung:** Zielkonflikt zwischen perfekter Sicherheit (vollständige Vermeidung)
-  und nachhaltiger Entwicklung (Lebensqualität, Wirtschaft, Ökologie). LK-Aufgabe
-  erwartet Begriffsklärung (was ist "nachhaltig"?), Beispiele, differenzierte Beurteilung.
+- **Beispiel:** Einschränkungen beim Bauen in einem Hochrisikogebiet können die Exposition
+  begrenzen, zugleich aber Eigentumsrechte, Lebensgrundlagen und lokale Wirtschaft berühren.
+  Eine Umsiedlung kann Risiken senken, verursacht jedoch soziale und wirtschaftliche Kosten.
+- **Beurteilung:** Nachhaltige Entscheidungen berücksichtigen Schutz, soziale Folgen,
+  wirtschaftliche Tragfähigkeit und Umweltwirkungen. Ein vollständiger Schutz ist meist
+  nicht erreichbar; mögliche Zielkonflikte müssen begründet abgewogen werden.
 
 **(4) Erörterung (These):**
 
-- "Überwachung sinkt Vulnerabilität" — **teils richtig**: Verbesserter Vorlauf ermöglicht
-  Evakuierung, Senkung der Todeszahlen (Exposition existeirt weiter, aber Vulnerabilität sinkt
-  durch Reduktion der "Überraschung").
-- **Aber:** Überwachung allein senkt **nicht die strukturelle Vulnerabilität** (Bevölkerungsdichte,
-  Infrastruktur, Ökonomie). Sie senkt nur die **akute Gefährdung** durch frühe Warnung.
-  Vulnerabilität umfasst auch Sozial, Ökonomie, Planung — nicht nur Information.
-- **Position:** These ist **unvollständig / überzeichnet**, aber **nicht grundsätzlich falsch**:
-  Überwachung trägt bei, senkt aber nur einen Teil der Vulnerabilität. Vollständigere
-  Senkung erfordert auch Raumplanung, Siedlungsstruktur, soziale Faktoren.
-- **Lösung erwartet:** nicht nur "Ja/Nein", sondern differenzierte Erörterung:
-  Überwachung = Teil der Vulnerabilitätsminderung, aber nicht Voll-Lösung.
+- **Dafür spricht:** Überwachung kann Veränderungen erfassen und Warnungen ermöglichen.
+  Wenn Menschen gewarnt werden und Schutzmaßnahmen umsetzen können, lassen sich mögliche
+  Folgen begrenzen.
+- **Dagegen spricht:** Überwachung allein verändert weder die Exposition noch strukturelle
+  Faktoren wie Armut, Bebauung oder die Erreichbarkeit von Evakuierungswegen.
+- **Mögliche Position:** Die These greift zu kurz. Überwachung ist ein Baustein der
+  Vorsorge, muss aber mit Raumplanung, Information und Maßnahmen zur Verringerung der
+  Vulnerabilität verbunden werden.
 
 ---
 
@@ -347,7 +337,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 | Kompetenz | Erwartungshorizont |
 |---|---|
 | Benennen/Beschreiben | 3 Ebenen, konkrete Maßnahmen |
-| Analysieren | Beispiel, Mechanismus (wie Maßnahme → Vulnerabilitäts-senkung), Systematik |
+| Analysieren | Konkretes Beispiel und nachvollziehbare Wirkungskette der Maßnahme |
 | Beurteilen (Zielkonflikt) | Nachhaltigkeit ausdifferenziert (Sozial, Ökonomisch, Ökologisch), Konflikt benennen, begründet |
 | Erörtern (These) | Differenzierte Position, Begründung, Einschränkungen, keine pauschalen Aussagen |
 
@@ -356,7 +346,7 @@ Zusätzlich: Alt-Endmoräne (ältere Stufe) — ggf. weiter hinten.
 ## Abitur-Hinweise
 
 - Diese Muster-Aufgaben folgen dem Bildungsplan LK (§3.5.2.1 + §3.4.3.2 BK).
-- Operatoren sind inkonsistent — manche Aufgaben nutzen mehrere Operatoren in einer Teilaufgabe.
+- Achten Sie auf die genaue Bedeutung der Operatoren und bearbeiten Sie alle Teilaufgaben.
 - LK-Aufgaben verlangen meist **mehr** als BK: Vergleich, Beurteilung, Erörterung,
   Raumbeispiel, Nachhaltigkeitsbezug.
 - Dokumentieren Sie Ihre Überlegungen, zeichnen Sie Skizzen, wenn gefragt.

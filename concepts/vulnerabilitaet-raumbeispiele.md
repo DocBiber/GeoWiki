@@ -1,7 +1,7 @@
 ---
 title: Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [vulnerabilitaet, raumbeispiele, vulkanismus, glazialmorphologie]
 sources: []
@@ -40,35 +40,36 @@ Kurz:
 
 ### Was ist das Hazard?
 
-- **Gletscherabgriffe / Gletscherlawinen** (Eisbrocken, der abstürzt) — Schäden auf
-  Infrastrukturen, Touristen.
-- **Gletschersperrsee-Ausbruch (GLOF — Gletschersee-Überlauf):** Gletscherrückzug →
-  entstandene See, durch Eisbarriere, Barriere bricht → Hochwasser-Schock. Ge-fährliche
- Ereignisse in den Alpen, Himalaya, Anden.
-- **Permafrostthaw-bedingt:** Steinschlag-Hangrutsch, Bodeninstabilität, Infrastrukturschäden
-  (Hohe Pässe, Straßen, Skilifte).
-- **Solifluktion:** langsame Hangflucht, erhöhte Erosion, Einfluss auf Schotterflächen, ein schrittweiser Prozess — betrifft Landwirtschaft, Straßen.
+- **Gletscherabbrüche und Gletscherlawinen:** Eis- oder Felsmassen können abstürzen und
+  Menschen, Verkehrswege und andere Infrastruktur gefährden.
+- **Gletscherseeausbruch (GLOF):** Ein Gletschersee kann plötzlich ausbrechen, etwa wenn ein
+  Eis- oder Moränendamm versagt, und flussabwärts eine Überschwemmung auslösen.
+- **Auftauender Permafrost:** Kann Hänge destabilisieren und Steinschlag oder Rutschungen
+  begünstigen; betroffen sein können etwa Straßen und Skilifte.
+- **Solifluktion:** langsames hangabwärtiges Fließen wassergesättigter Böden, besonders über
+  gefrorenem Untergrund; sie kann Böden und Infrastruktur beeinträchtigen.
 
 ### Vulnerabilitätsfaktoren in Glazialräumen
 
-- **Tourismus-Abhängigkeit:** Skigebiete, Gletscher-Touren → Wirtschaft vulnerable für Rückgang.
-  Alpengletscher: Arbeitsplatz-Vulnerabilität, nachhaltige Tourismus-Entwicklung notwendig.
-- **Infrastruktur:** Straßen, Eisenbahn (höhere Pässe), Siedlungen in Talregionen → anfällig für
-  Lawinen, Schmelzwasser.
-- **Wasserressourcen:** Gletscher-Meltwasser ist wichtig für niederrige Regionen (nördliches Europa,
-  Alpen-Sedimentation, Frischwasser). Gletscherrückzug → langfristige Veränderung der
-  Wasser-Verfügbarkeit (→ Vulnerabilität weiterer Räume).
-- **Permafrost-Klima-Rückzug:** Frozen-boden → Ortschaften, Forschungsinfrastruktur.
+- **Tourismusabhängigkeit:** Skigebiete und Gletschertourismus sind von der Entwicklung der
+  Gletscher abhängig; Veränderungen können Arbeitsplätze und regionale Einkommen betreffen.
+- **Infrastruktur:** Straßen, Bahnlinien und Siedlungen in Tälern können durch Lawinen,
+  Massenbewegungen und Hochwasser gefährdet sein.
+- **Wasserressourcen:** Gletscherschmelze verändert den Abfluss saisonal und langfristig.
+  Betroffen sein können auch weiter flussabwärts gelegene Räume.
+- **Permafrost:** Auftauender Untergrund kann Gebäude, Verkehrswege und Forschungsanlagen
+  destabilisieren.
 
 ### Maßnahmen zur Resilienz
 
-- **Früherkennung:** Gletscher-Bewegungsmonitoring, Satelliten, Sensoren.
-- **Seen-Dämmung / Sicherungsmaßnahmen** von Gletscherseen (Stuinen, Deiche) in
-  schlagbetroffenen Regionen.
-- **Lawinen-Vorhersagung, Warnsysteme** → Tourismus-Zufahrt, Schneesport-Abschaltung.
-- **Tatrechtweise Siedlungsplanung:** Liegenschaft-Moratoriums, Rückzugs-Strategien.
-- **Permafrost-Infrastruktur-Anpassung:** Warmfuss-Fundamentierung, Belüftung, klimaanpassung.
-- **Wirtschaft-Umstellung:** Diversifizierung, Ökotourismus, saisonale Transitions-Strategie.
+- **Früherkennung:** Gletscherbewegungen und Gletscherseen mit Messungen, Satelliten und
+  Sensoren beobachten.
+- **Gletscherseen:** Gefahrenkarten, Warnsysteme und — wo geeignet — kontrollierte
+  Entleerungsmaßnahmen können Risiken mindern.
+- **Lawinen:** Vorhersagen und Warnsysteme nutzen sowie gefährdete Bereiche zeitweise sperren.
+- **Raumplanung:** Neue Bebauung in Gefahrenzonen begrenzen und, wo nötig, Rückzug erwägen.
+- **Permafrost:** Fundamente und Infrastruktur an auftauenden Untergrund anpassen.
+- **Wirtschaft:** Angebote diversifizieren und weniger abhängig vom Gletschertourismus werden.
 
 ---
 

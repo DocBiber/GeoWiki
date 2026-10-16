@@ -108,6 +108,12 @@ def inline(text, known_slugs):
         return f"\x00{len(placeholders)-1}\x00"
     text = re.sub(r"<iframe.*?</iframe>|<img[^>]*/?>|<br\s*/?>", stash, text, flags=re.S | re.I)
 
+    def stash_code(m):
+        placeholders.append(
+            f'<code class="inline-code">{html.escape(m.group(1), quote=False)}</code>')
+        return f"\x00{len(placeholders)-1}\x00"
+    text = re.sub(r"`([^`]+)`", stash_code, text)
+
     text = html.escape(text, quote=False)
 
     def wiki(m):
@@ -128,8 +134,6 @@ def inline(text, known_slugs):
 
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"(?<![\w*])\*([^*\n]+)\*(?![\w*])", r"<em>\1</em>", text)
-    text = re.sub(r"`([^`]+)`", r'<code class="inline-code">\1</code>', text)
-
     for i, raw in enumerate(placeholders):
         text = text.replace(f"\x00{i}\x00", raw)
     return text
@@ -509,7 +513,7 @@ def build_home(pages, cats, backlinks):
     for idx, cat in enumerate(cats):
         anchor = f"cat-{slugify(cat['name'])}"
         sample = cat["pages"][0][1] if cat["pages"] and cat["pages"][0][1] else ""
-        first_slug = cat["pages"][0][0] if cat["pages"] else "index.html"
+        first_slug = cat["pages"][0][0] if cat["pages"] else "index"
         cards.append(
             f'<a class="cat-card cat-{idx}" id="{anchor}" href="{first_slug}.html">'
             f'<div class="cat-name">{html.escape(nice_cat_name(cat["name"]))}</div>'

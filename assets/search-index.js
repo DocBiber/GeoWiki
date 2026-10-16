@@ -11,14 +11,14 @@ window.SEARCH_INDEX = [
 "u": "index.html",
 "c": "concept",
 "d": "Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg, ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023). Domain: Physische Geografie (Vulkanismus, Glaz",
-"x": "Geografie Wiki — Leistungskurs BW (Bildungsplan 2016) Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg, ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023). Domain: Physische Geografie (Vulkanismus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen. Letztes Update: 2026-10-13 Gesamtseiten: 26 BILDUNGSPLAN-RAHMEN - bildungsplan-20"
+"x": "Geografie Wiki — Leistungskurs BW (Bildungsplan 2016) Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg, ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023). Domain: Physische Geografie (Vulkanismus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen. Letztes Update: 2026-10-16 Fachseiten: 37 BILDUNGSPLAN-RAHMEN - bildungsplan-2016"
 },
 {
 "t": "Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016)",
 "u": "abitur-aufgaben.html",
 "c": "Abitur & Übung",
-"d": "Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können. Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte. Hinweis: diese sind **Muster** — echte Aufgaben",
-"x": "Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016) Original-Aufgabentypen, wie sie im LK-Abitur (Schriftprüfung) auftreten können. Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte. Hinweis: diese sind Muster — echte Aufgaben variieren je nach Prüfung, Schuljahr, Themenauswahl. Die Operatoren und Anforderungsebenen folgen dem Bildungsplan LK. --- Aufga"
+"d": "Muster-Aufgaben, die sich an typischen Aufgaben im schriftlichen Geografie-Abitur orientieren. Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte. Hinweis: diese sind **Muster** —",
+"x": "Abitur-Aufgaben — Geografie LK (BW, Bildungsplan 2016) Muster-Aufgaben, die sich an typischen Aufgaben im schriftlichen Geografie-Abitur orientieren. Jede Aufgabe enthält: Aufgabenstellung, Kompetenzaufruf, Lösungshinweise, Bewertungsaspekte. Hinweis: diese sind Muster — echte Aufgaben variieren je nach Prüfung, Schuljahr, Themenauswahl. Die Operatoren und Anforderungsebenen folgen dem Bildungspla"
 },
 {
 "t": "Übungsaufgaben — Geografie LK (Bildungsplan 2016)",
@@ -39,7 +39,7 @@ window.SEARCH_INDEX = [
 "u": "wasserhaushalt.html",
 "c": "Boden & Wasser",
 "d": "Bezug zum Spektrum Lexikon der Geographie: Hydrologie / Hydrogeographie / Klimageographie",
-"x": "Wasserhaushalt und Hydrologie Überblick Der Wasserhaushalt (Hydrologischer Kreislauf) beschreibt, wie Wasser in allen Aggregatszuständen durch die Systeme der Erde zirkuliert: von Ozeanen über Atmosphäre, Land und Rückkehr zu Ozeanen. Die Hydrologie ist die Wissenschaft vom Wasser — severe quantitativer, spatialer und zeitlicher Aspekte. Bezug zum Spektrum Lexikon der Geographie: Hydrologie / Hydr"
+"x": "Wasserhaushalt und Hydrologie Überblick Der Wasserhaushalt (hydrologischer Kreislauf) beschreibt, wie Wasser in allen Aggregatzuständen durch die Systeme der Erde zirkuliert: von den Ozeanen über die Atmosphäre und das Land zurück zu den Ozeanen. Die Hydrologie ist die Wissenschaft vom Wasser und untersucht seine räumliche und zeitliche Verteilung sowie seine Bewegung und Eigenschaften. Bezug zum "
 },
 {
 "t": "\"Bevölkerungsgeographie\"",
@@ -56,11 +56,11 @@ window.SEARCH_INDEX = [
 "x": "Geographische Methoden — GIS, Fernerkundung, Kartographie Überblick Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfassen, zu analysieren, zu visualisieren und zu interpretieren. Für den Leistungskurs sind besonders diese drei Methodenfamilien relevant: 1. Geographische Informationssysteme (GIS): Digitale Systeme zur Erfassung, Speicherung, Analyse und Darstellung räum"
 },
 {
-"t": "Moränen und Gletscherforms — Typen, Entstehung, Bedeutung",
+"t": "Moränen und Gletscherformen — Typen, Entstehung, Bedeutung",
 "u": "moränen-und-gletscherformen.html",
 "c": "Glazialmorphologie",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
-"x": "Moränen und Gletscherforms — Typen, Entstehung und Bedeutung Moränen (Gletscher-Lockerablagerungen) Definition Moränen sind die ungeschichteten Ablagerungen , die ein Gletscher hinterlässt — eine Mischung aus allen Korngrößen (vom Ton bis zum Großblock), meist unsortiert und ungeschichtet , im Gegensatz zu geschichtetem Geröll (z. B. Sander, Flussablagerungen). Im Bildungsplan LK §3.5.2.1 wird der"
+"x": "Moränen und Gletscherformen — Typen, Entstehung und Bedeutung Moränen (Gletscher-Lockerablagerungen) Definition Moränen sind die ungeschichteten Ablagerungen , die ein Gletscher hinterlässt — eine Mischung aus allen Korngrößen (vom Ton bis zum Großblock), meist unsortiert und ungeschichtet , im Gegensatz zu geschichtetem Geröll (z. B. Sander, Flussablagerungen). Im Bildungsplan LK §3.5.2.1 wird de"
 },
 {
 "t": "Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)",
@@ -81,21 +81,21 @@ window.SEARCH_INDEX = [
 "u": "historische-geographie.html",
 "c": "concept",
 "d": "Die historische Geographie untersucht räumliche Veränderungen über Zeit – wie sich Gebiete, Siedlungsstrukturen, Landnutzung, Grenzen und menschlich-umweltbezogene Relationen im Verlauf entwickelt haben. Sie verbindet Ge",
-"x": "Definition Die historische Geographie untersucht räumliche Veränderungen über Zeit – wie sich Gebiete, Siedlungsstrukturen, Landnutzung, Grenzen und menschlich-umweltbezogene Relationen im Verlauf entwickelt haben. Sie verbindet Geographie mit Geschichte, Quellenkunde und Archäologie. Gegenstand & Fragestellungen - Räumliche Wandel : Wie haben sich Karten, Siedlungsgebiete, Landnutzungsmuster und "
+"x": "Definition Die historische Geographie untersucht räumliche Veränderungen über Zeit – wie sich Gebiete, Siedlungsstrukturen, Landnutzung, Grenzen und menschlich-umweltbezogene Relationen im Verlauf entwickelt haben. Sie verbindet Geographie mit Geschichte, Quellenkunde und Archäologie. Gegenstand & Fragestellungen - Räumlicher Wandel: Wie haben sich Karten, Siedlungsgebiete, Landnutzungsmuster und "
 },
 {
 "t": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren",
 "u": "vulkanprozesse.html",
 "c": "Vulkanismus",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
-"x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolit, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstärke Leise, stromend (Font"
+"x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolith, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstil Überwiegend Lavaförder"
 },
 {
 "t": "Maßnahmen zur Stärkung der Resilienz — Naturgefahren, nachhaltige Entwicklung",
 "u": "resilienz-massnahmen.html",
 "c": "Vulnerabilität & Resilienz",
-"d": "Bildungsplan LK BW §3.5.2.1 (Reliefsphäre) + §3.5.3 (Globale Herausforderungen)",
-"x": "Maßnahmen zur Stärkung der Resilienz — Naturgefahren und nachhaltige Entwicklung Bezug zum Bildungsplan LK Bildungsplan LK BW §3.5.2.1 (Reliefsphäre) + §3.5.3 (Globale Herausforderungen) fordern: „Möglich Maßnahmen zur Stärkung der Resilienz im Rahmn einer nachhaltigen Entwicklung beurteilen.“ Konkret geht es nicht nur um Schutz-Infrastruktur, sondern um einen ganzheitlichen, nachhaltigen Ansatz :"
+"d": "Der Bildungsplan LK BW behandelt die Reliefsphäre (§3.5.2.1) und globale Herausforderungen",
+"x": "Maßnahmen zur Stärkung der Resilienz — Naturgefahren und nachhaltige Entwicklung Bezug zum Bildungsplan LK Der Bildungsplan LK BW behandelt die Reliefsphäre (§3.5.2.1) und globale Herausforderungen (§3.5.3). Bei der Beurteilung von Maßnahmen sind ihre Wirkung und ihr Beitrag zu einer nachhaltigen Entwicklung zu berücksichtigen. Konkret geht es nicht nur um Schutz-Infrastruktur, sondern um einen ga"
 },
 {
 "t": "Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen",
@@ -126,18 +126,18 @@ window.SEARCH_INDEX = [
 "x": "Stadtgeographie — Grundlagen und Themen Überblick Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ökonomischen und kulturellen Einheiten — Struktur, Funktion, Entwicklung, Probleme und Zukunft urbaner Räume. Für den Geographie-LK (Bildungsplan 2016, BW) ist die Stadtgeographie relevant, besonders im Kontext von Globalisierung (3.5.2.6) und Urbanisierung. Bezug zum Spektr"
 },
 {
-"t": "Glaziale Serie — Penck-Reihe (zentrale Lehrsequenz LK)",
+"t": "Glaziale Serie — Formen und Prozesse",
 "u": "glaziale-serie.html",
 "c": "Glazialmorphologie",
-"d": "**wichtig:** Die Serie ist ein Modell — also beobachtbare Flächen in einem vollständigen System. Nicht alle Gebiete zeigen die Vollserie, aber Studienobjekte wie das **norddeutsche Tiefland**, Teile des **Alpenvorlands**",
-"x": "Die Glaziale Serie — Penck'sche Reihenfolge Hintergrund Der Geograf Albrecht Penck (österreichisch, 1858–1945) beschrieb 1882 als Erster eine räumlich gegliederte Abfolge von Landformen, die durch das Inlandeis (oder einen großen Tal-Gletscher) im Laufe einer Eiszeit entsteht. Die Elemente liegen quer vor der Gletscherzunge — vom Endrand aus Richtung Vorland. Diese Glaziale Serie ist bis heute ein"
+"d": "Die glaziale Serie beschreibt eine typische Abfolge von Formen, die im Vorland eines",
+"x": "Die glaziale Serie Hintergrund Die glaziale Serie beschreibt eine typische Abfolge von Formen, die im Vorland eines Inlandeises durch Eis, Schmelzwasser und Sedimentablagerung entstehen. Das Modell ist besonders mit dem norddeutschen Tiefland verbunden. Es ist keine überall vollständig ausgebildete Landschaftsform: Relief, Untergrund und Eisrandlage beeinflussen die tatsächliche Abfolge. Formen vo"
 },
 {
 "t": "Karstlandschaft — Formen, Prozesse, Bedeutung",
 "u": "karstlandschaft.html",
 "c": "Raumbeispiele",
-"d": "Bekannteste karstgebiete: Die Karstregionen der Hohen Lehmann-Massivs (z. B. Dalmatien/Kroatien), die Haute Provence (südliche Frankreich, Gorges du Verdon), die Haute Savoie/Gebiet um Avignon, die Eifel (der deutsche Ka",
-"x": "Karstlandschaft Überblick Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische Verwitterung (lösender) von kalkigen oder gipsreichen Gestein entsteht. Das Typische: Oberfläche ist oft trocken, Wasser stürzt unterirdisch ab, und die Bodenschicht kann dünn oder fehlen. Karst entsteht, wo wasserlösliches Gestein (hauptsächlich Kalkstein/Kalkein sedimentäres Gestein, aber a"
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"x": "Karstlandschaft Überblick Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor allem Kalkstein und Dolomit, aber auch Gips und Steinsalz. Kohlendioxid aus Luft und Boden löst sich im Wasser und bildet schwache Kohlensäure, die Karbonatgestein angreifen kann. Das Wasser versickert häufig durch Klüfte, Spalten und Hohlräume; deshalb ist das oberirdische Gewässernetz in manchen "
 },
 {
 "t": "Vulnerabilität vulkanischer Räume — Beispiele und Analyse",
@@ -151,7 +151,7 @@ window.SEARCH_INDEX = [
 "u": "atmosphaere-wetter-klima.html",
 "c": "Atmosphäre & Klima",
 "d": "Bezug zum Bildungsplan 2016 LK Geografie BW: Kap. 3.5.2.2 „Prozesse in der Atmosphäre“ — SuS können die Dynamik lokaler und globaler atmosphärischer Prozesse erklären und in ihrer Ausprägung charakterisieren. Sie können ",
-"x": "Atmosphäre, Wetter und Klima Einleitung Die Atmosphäre ist die gasförmige Hülle der Erde und das Medium, in dem Wetter und Klima entstehen. Für den Geografie-LK sind drei Ebenen zentral: 1. Wetter — der augenblickliche Zustand der Atmosphäre an einem Ort (kurzfristig, minuten- bis tagesakt) 2. Klima — die langfristige Durchschnittswetterstatistik (Jahre bis Jahrzehnte) 3. Globale atmosphärische Pr"
+"x": "Atmosphäre, Wetter und Klima Einleitung Die Atmosphäre ist die gasförmige Hülle der Erde und das Medium, in dem Wetter und Klima entstehen. Für den Geografie-LK sind drei Ebenen zentral: 1. Wetter — der augenblickliche Zustand der Atmosphäre an einem Ort (kurzfristig, von Minuten bis zu einigen Tagen) 2. Klima — die langfristige Durchschnittswetterstatistik (Jahre bis Jahrzehnte) 3. Globale atmosp"
 },
 {
 "t": "\"Politische Geographie & Geopolitik\"",
@@ -165,7 +165,7 @@ window.SEARCH_INDEX = [
 "u": "boden-und-boden.html",
 "c": "Boden & Wasser",
 "d": "Bezug zum Spektrum Lexikon der Geographie: Bodenkunde / Geomorphologie / Landschaftsökologie",
-"x": "Boden und Bodengeographie Überblick Der Boden ist die oberste Schicht der Erdkruste, die durch die Wechselwirkung von Klima, Vegetation, Tiere, Mikroorganismen und Gelä materialisiert wird. In der Geographie ist der Boden ein zentrales Thema der Physischen Geographie und Landschaftsökologie, weil er als Medium zwischen Lithosphäre, Hydrosphäre, Atmosphäre und Biosphäre fungiert. Bezug zum Spektrum"
+"x": "Boden und Bodengeographie Überblick Boden ist der belebte, durch Verwitterung und Bodenbildungsprozesse entstandene Teil der obersten Erdkruste. Er entwickelt sich im Zusammenwirken von Klima, Organismen, Relief, Ausgangsgestein und Zeit. Als Schnittstelle verbindet er Lithosphäre, Hydrosphäre, Atmosphäre und Biosphäre. Bezug zum Spektrum Lexikon der Geographie: Bodenkunde / Geomorphologie / Lands"
 },
 {
 "t": "Vulkanismus — Überblick (Geografie LK)",
@@ -196,11 +196,11 @@ window.SEARCH_INDEX = [
 "x": "Permafrost und Solifluktion — exogene Prozesse in kalten Zonen Einordnung im Bildungsplan Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre“) wird für die Glaziallandschaft Permafrost und Solifluktion explizit genannt. Beide sind exogene Prozesse — geprägt durch Temperaturbedingungen und Wasser —, die nach der eigentlichen Eiszeitzeit noch die Reliefgestaltung bestimmen. Sie gehör"
 },
 {
-"t": "Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat",
+"t": "Vulnerabilität, Resilienz, Risiko und Naturgefahr",
 "u": "vulnerabilitaet-begriffe.html",
 "c": "Vulnerabilität & Resilienz",
-"d": "**Risiko = Hazard × Exposition × Vulnerabilität**",
-"x": "Vulnerabilität, Resilienz, Risiko, Hazard — Begriffsapparat Einordnung Der Bildungsplan Geografie LK BW (§3.5.3 — globale Herausforderungen) und insbesondere der Basiskompetenz-Bereich §3.4.3.2 „Vulnerabilität und Resilienz von Mensch und Raum“ führt die Begriffe Vulnerabilität (Verwundbarkeit) und Resilienz (Widerstandsfähigkeit) ein. Ziel: Schülerinnen und Schüler können die Verwundbarkeit von R"
+"d": "Die Begriffe helfen dabei, mögliche Schäden durch Naturgefahren zu analysieren und",
+"x": "Vulnerabilität, Resilienz, Risiko und Naturgefahr Einordnung Die Begriffe helfen dabei, mögliche Schäden durch Naturgefahren zu analysieren und Vorsorgemaßnahmen zu beurteilen. Im Bildungsplan Geografie Baden-Württemberg werden insbesondere die Verwundbarkeit von Mensch und Raum sowie Maßnahmen zur Stärkung der Resilienz behandelt. Kernbegriffe Naturgefahr (Hazard) Eine Naturgefahr ist ein potenzi"
 },
 {
 "t": "Raumbeispiele — Vulkanismus (Geografie LK)",
@@ -227,35 +227,35 @@ window.SEARCH_INDEX = [
 "t": "Übersicht Raumbeispiele — Geografie LK BW",
 "u": "uebersicht-raumbeispiele.html",
 "c": "Raumbeispiele",
-"d": "Zentrale Übersicht aller Raumbeispiele im Wiki. Für LK-Abitur: mindestens ein komplettes Beispiel je Landschaftstyp wird erwartet. Bildungsplan §3.5.2.1 nennt fünf Landschaften — hier sind alle fünf vertreten.",
-"x": "Übersicht Raumbeispiele — Geografie LK BW Zentrale Übersicht aller Raumbeispiele im Wiki. Für LK-Abitur: mindestens ein komplettes Beispiel je Landschaftstyp wird erwartet. Bildungsplan §3.5.2.1 nennt fünf Landschaften — hier sind alle fünf vertreten. --- Übersicht Landschaftstyp (Bildungsplan) Beispiel(e) im Wiki Seiten --- --- --- Vulkanlandschaft Vesuv (Italien), Kilauea (Hawaii), Laacher See ("
+"d": "Zentrale Übersicht aller Raumbeispiele im Wiki. Für LK-Abitur: mindestens ein komplettes Beispiel je Landschaftstyp wird erwartet. Der Bildungsplan §3.5.2.1 nennt fünf Landschaften. Für vier gibt es bereits eine eigene R",
+"x": "Übersicht Raumbeispiele — Geografie LK BW Zentrale Übersicht aller Raumbeispiele im Wiki. Für LK-Abitur: mindestens ein komplettes Beispiel je Landschaftstyp wird erwartet. Der Bildungsplan §3.5.2.1 nennt fünf Landschaften. Für vier gibt es bereits eine eigene Raumbeispielseite; Karst ist bislang auf der Konzeptseite behandelt. --- Übersicht Landschaftstyp (Bildungsplan) Beispiel(e) im Wiki Seiten"
 },
 {
 "t": "Raumbeispiele — Glazialmorphologie (Geografie LK)",
 "u": "glazial-raumbeispiele.html",
 "c": "Raumbeispiele",
-"d": "Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage. Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz.",
-"x": "Raumbeispiele — Glazialmorphologie (Geografie LK) Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage. Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz. --- 1. Alpen — Schweiz (Grosser Aletsch-Gletscher) Bild: Wikimedia Commons — Aletschgletscher, Aletschwald und Wannenhörner (2017).jpg (CC BY-SA 4.0) Grunddaten Merk"
+"d": "Die folgenden Beispiele zeigen unterschiedliche Formen und Prozesse glazial geprägter",
+"x": "Raumbeispiele — Glazialmorphologie Die folgenden Beispiele zeigen unterschiedliche Formen und Prozesse glazial geprägter Räume. Die glaziale Serie des norddeutschen Tieflands ist nicht mit den Formen eines alpinen Tals oder den heutigen Gletschern Islands gleichzusetzen. 1. Alpen — Aletschgletscher, Schweiz Bild: Wikimedia Commons — Aletschgletscher, Aletschwald und Wannenhörner (2017).jpg (CC BY-"
 },
 {
 "t": "Skizzen — Geografie LK (Zeichenvorlagen)",
 "u": "uebersicht-skizzen.html",
 "c": "Skizzen",
-"d": "Zeichenvorlagen für Skizzen im Abitur / Unterricht. Jede Skizze wird als textbasierte Zeichenanleitung + Schülererläuterungen geliefert. Für Prüfungen: Skizzen müssen lesbar, beschriftet, maßstäblich (relativ) sein.",
-"x": "Skizzen — Geografie LK (Zeichenvorlagen) Zeichenvorlagen für Skizzen im Abitur / Unterricht. Jede Skizze wird als textbasierte Zeichenanleitung + Schülererläuterungen geliefert. Für Prüfungen: Skizzen müssen lesbar, beschriftet, maßstäblich (relativ) sein. --- 1. Glaziale Serie (Penck) — Skizze Zeichenanleitung SCHÜTTRICHTUNG (Eisstrom-Richtung) ↓ (Gletscher fließt von oben nach unten auf dieser S"
+"d": "Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können.",
+"x": "Skizzen — Geografie LK Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können. Sie sind schematisch und nicht maßstabsgetreu. Im Abitur sollten Pfeile, Formen und Beschriftungen eindeutig und fachlich korrekt sein. 1. Glaziale Serie Die typische Abfolge im Vorland eines Inlandeises lautet: Inlandeis → Zungenbecken → Endmoräne → Sander → Urstromtal Schmelzwasser → "
 },
 {
 "t": "Vulkanarten — Formen und Typen",
 "u": "vulkanarten.html",
 "c": "Vulkanismus",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
-"x": "Vulkanarten — Formen und Typen Einordnung Die Form eines Vulkans ist das sichtbare Ergebnis von Magmazusammensetzung, Eruptionsstil, Plattenkontext und geologischer Geschichte. Der Bildungsplan LK §3.5.2.1 nennt folgende Vulkanformen explizit: Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Caldera, Hot Spot (welcher letzterer ein geodynamischer Kontext ist, keine eigene Form, aber als Kateg"
+"x": "Vulkanarten — Formen und Typen Einordnung Die Form eines Vulkans wird durch Magmazusammensetzung, Eruptionsstil, tektonischen Kontext und geologische Entwicklung geprägt. Der Bildungsplan LK § 3.5.2.1 nennt Schichtvulkan, Schildvulkan, vulkanische Decke, Maar, Caldera und Hot Spot. Ein Hot Spot ist dabei ein geodynamischer Kontext und keine Vulkanform. --- 1. Schichtvulkan (Stratovulkan) Merkmale "
 },
 {
 "t": "Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele",
 "u": "abitur-ubersicht-lk.html",
-"c": "summary",
-"d": "Diese Operatoren sind auch für die Prüfungsvorbereitung wichtig: Die Abitur-",
+"c": "Bildungsplan-rahmen",
+"d": "Diese Operatoren sind für die Prüfungsvorbereitung wichtig. Richten Sie Ihre Antwort an der jeweiligen Arbeitsanweisung aus.",
 "x": "Abitur Geografie LK (Baden-Württemberg) — Übersicht Struktur des Abiturs Im Fach Geografie LK (Gymnasium Baden-Württemberg, Bildungsplan 2016, Klasse 11/12, Leistungsfach) wird das Abitur durch folgende Komponenten geprägt: - schriftliche Prüfung in der Kursstufe (Klassenstufen 11 und/oder 12): Themen aus den Inhaltsbereichen 3.5.1–3.5.3, z.B. Reliefsphäre, globale Herausforderungen. - mündliche P"
 },
 {
@@ -270,6 +270,6 @@ window.SEARCH_INDEX = [
 "u": "vergleich-vulkan-gletscher-prozesse.html",
 "c": "Vergleiche",
 "d": "Sowohl Vulkanismus als auch Glazialmorphologie sind im Bildungsplan Geografie LK §3.5.2.1",
-"x": "Vergleich — Vulkanismus und Glazialmorphologie: prozessuale Gegenüberstellung Einordnung Sowohl Vulkanismus als auch Glazialmorphologie sind im Bildungsplan Geografie LK §3.5.2.1 „Formen und Prozesse der Reliefsphäre“ explizit zusammengefasst. Der Vergleich hilft, die jeweiligen Prozessmechanismen (Endoge vs. Exogen), die Hazard-Typen (aktiver Vulkanausbruch vs. „passive“ exogene Gefahr durch Rück"
+"x": "Vergleich — Vulkanismus und Glazialmorphologie: prozessuale Gegenüberstellung Einordnung Sowohl Vulkanismus als auch Glazialmorphologie sind im Bildungsplan Geografie LK §3.5.2.1 „Formen und Prozesse der Reliefsphäre“ explizit zusammengefasst. Der Vergleich hilft, die jeweiligen Prozessmechanismen (endogen und exogen) sowie die Naturgefahren (Vulkanausbruch, Gletscherseeausbruch, Massenbewegungen)"
 }
 ];

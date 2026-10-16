@@ -1,7 +1,7 @@
 ---
 title: Klimawandel — Ursachen, Dimensionen und Anpassung
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 type: concept
 tags: [klimawandel, klima, treibhausgas, nachhaltigkeit, global]
 sources: []
@@ -53,14 +53,14 @@ Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander ve
 
 ### Atmosphäre
 
-- Veränderung der großräumigen Zirkulation (z. B. Verstärkung des Jetstreams, Verschiebung der ITCZ, Änderungen im Monsun)
+- Veränderung der großräumigen Zirkulation (z. B. Veränderungen der Jetstreams, Verschiebungen der ITCZ und Änderungen im Monsun). Richtung und Ausmaß regionaler Trends sind teilweise unsicher.
 - Veränderung von Extremwetterstatistiken (Hitzewellen, Dürren, Starkregen)
 
 ### Hydrosphäre (Ozean und Wasser)
 
 - Meeresspiegelanstieg (detailliert oben); Küstenerosion, Überschwemmungsrisiko für Inselstaaten und küstennahe Siedlungen
-- Veränderung der Meeresströmungen (z. B. Gefährdung des Golfstroms / AMOC durch Schmelzwasser aus Grönland?)
-- Wasserknappheit in some Regionen, Überflutungen in anderen
+- Mögliche Abschwächung der Atlantischen Meridionalen Umwälzzirkulation (AMOC). Sie ist vom Golfstrom zu unterscheiden; beide Systeme sind miteinander verbunden, aber nicht gleichbedeutend.
+- Wasserknappheit in einigen Regionen, Überflutungen in anderen
 
 ### Kryosphäre
 
@@ -86,7 +86,8 @@ Der Klimawandel wirkt systemisch — das Erden-System besteht aus miteinander ve
 
 **Auf internationaler Ebene:**
 - **Klimaziele**: Pariser Abkommen (2015) — Ziel, globale Erwärmung auf deutlich unter 2 °C zu begrenzen, beständig anzustreben 1,5 °C; nationale Beiträge (NDCs) der Staaten
-- **Klimaschutzabkommen**, internationale Klimarahmenkonvention (UNFCCC), COP-Treffen (Conference of the Partys)
+- **Klimaschutzabkommen:** internationale Klimarahmenkonvention (UNFCCC) und jährliche
+  Konferenzen der Vertragsparteien (COP).
 
 **Auf nationaler Ebene:**
 - CO₂-Reduktionsziele (Deutschland: Klimaneutralität bis 2045, Zwischenziele)
@@ -154,4 +155,3 @@ Im Klimawandel-Kontext bedeutet das:
 ### 📸 Fotos (Unsplash)
 
 [Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung (Unsplash)](https://unsplash.com/s/photos/global-warming)
-

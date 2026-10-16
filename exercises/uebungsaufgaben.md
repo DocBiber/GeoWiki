@@ -1,7 +1,7 @@
 ---
 title: Übungsaufgaben — Geografie LK (Bildungsplan 2016)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: summary
 tags: [uebung, aufgaben, bildungsplan, kompetenzen]
 sources: []
@@ -28,7 +28,7 @@ sources: []
 > **Operator:** Benennen
 >
 > **Lösungshinweis:**
-> - Schichtvulkan (Strato vulkan)
+> - Schichtvulkan (Stratovulkan)
 > - Schildvulkan
 > - Caldera
 > - Maar (auch genannt)
@@ -47,7 +47,8 @@ sources: []
 >
 > **Lösungshinweis:**
 > - Aufbau aus abwechselnd Lava-Schichten (dunkel, flüssig, härter nach Abkühlung) und Tephra-Schichten (hell, löchrig, explosiv ausgeworfen).
-> - Lava = flüssige Magma-Aufgüsse, Tephra = fragmentierte Produkte (Asche, Lapilli, Brocken).
+> - Lava ist Magma, das an die Erdoberfläche gelangt. Tephra umfasst ausgeworfenes
+>   fragmentiertes Material wie Asche, Lapilli und größere Fragmente.
 > - Schichtung entsteht durch Wiederholung von Eruptionsphasen (mal effusiv, mal explosiv).
 > - Flanke steil (30–35°); typisch für Subduktionszonen.
 
@@ -55,18 +56,19 @@ sources: []
 
 ### Übung 1.3 (Stufe 2)
 
-> **Aufgabe:** Erklären Sie, warum Schildvulkane flacher sind als Schichtvulkane. Gehen Sie auf Magmesisomen und Eruptionsstil ein.
+> **Aufgabe:** Erklären Sie, warum Schildvulkane flacher sind als Schichtvulkane. Gehen Sie auf Magmazusammensetzung und Eruptionsstil ein.
 >
 > **Operator:** Erklären
 >
 > **Lösungshinweis:**
-> - **Schildvulkan:** Basalt-Magma, niedriger SiO₂-Geahl (<52 %), niedrige Viskosität,
+> - **Schildvulkan:** meist basaltisches Magma mit niedrigem SiO₂-Gehalt und geringer Viskosität;
 > Gase können entweichen → effusive Eruption, Lavastrom breitet sich aus → flache Flanke (2–10°).
-> - **Schichtvulkan:** Andesit/Dacit/Rhyolit (höherer SiO₂, hohe Viskosität),
+> - **Schichtvulkan:** häufig andesitisches bis rhyolithisches Magma mit höherem SiO₂-Gehalt
+>   und höherer Viskosität;
 > Gase eingeschlossen → Druckaufbau → explosive Eruption; Tephra-Schichten + Lava-Schichten
 > bauen steilen Kegel auf (30–35°).
-> - Unterschied = SiO₂-Gehalt und Viskosität, die Eruptionsstil bestimmen und damit die
-> Form (flach bei effusiv, steil bei explosiv+z.Tepra-Aufbau)
+> - Magmazusammensetzung und Gasgehalt beeinflussen die Viskosität und den Eruptionsstil;
+>   wiederholte Lava- und Tephraablagerungen prägen die Form des Vulkans.
 
 ---
 
@@ -78,10 +80,11 @@ sources: []
 >
 > **Lösungshinweis:**
 > - **Hot-Spot-Vulkane:** Hot-Spot-Mantelplume → Basalt-Magma, effusive, Schildvulkane;
-> Platte bewegt sich über Hot Spot → Vulkankette (z.B. Hawaii-Kette). Beispiel: Kilauea, Mauna Loa.
-> - **Subduktionszonen-Vulkane:** afrikanische Platte schiebt sich unter eine Andere → WAsser trägt
-> Schmelzpunkt ↓ → Partialschmelze, intermediat/felsisches Magma → Schichtvulkane, explosiv.
-> Beispiel: Vesuv, Ätna, Kaskade, Japan.
+> Platte bewegt sich über einen Hot Spot → Vulkankette (z. B. Hawaii-Kette). Beispiele: Kīlauea und Mauna Loa.
+> - **Subduktionszonen-Vulkane:** Eine ozeanische Platte taucht unter eine andere Platte ab.
+>   Freigesetzte Fluide fördern die partielle Aufschmelzung im Mantelkeil; es können
+>   unterschiedlich zusammengesetzte Magmen und explosive Ausbrüche entstehen.
+> - Beispiele: Vesuv, Ätna, Vulkane der Kaskadenkette und Japans.
 > - Unterschied: Magma-Typ (basaltisch vs. intermediat/felsisch), Eruptionsstil (effusiv vs. explosiv),
 > geodynamischer Kontext, typische Form (Schildvulkan vs. Schichtvulkan).
 
@@ -89,17 +92,14 @@ sources: []
 
 ### Übung 1.5 (Stufe 3)
 
-> **Aufgabe:** Analysieren Sie die Vulnerabilität der Vesuv-Region in Italien. Unterscheiden Sie mindestens drei Vulnerabilitäts-Dimensionen und nennen Sie jeweils ein konkreter Faktor.
+> **Aufgabe:** Analysieren Sie die Vulnerabilität der Vesuv-Region in Italien. Unterscheiden Sie mindestens drei Vulnerabilitätsdimensionen und nennen Sie jeweils einen konkreten Faktor.
 >
 > **Operator:** Analysieren
 >
 > **Lösungshinweis:**
-> - **physische Vulnerabilität:** Siedlungen direkt am Fuß (Torre del Greco, San Giorgio etc.);
-> niedrige Lage → Lahar-anfällig; Infrastruktur (Autobahn A3, S-Bahn, Flughafen Naples) in Gefahrenzone.
-> - **soziale Vulnerabilität:** sehr hohe Bevölkerungsdichte (~3 Mio. in Gefahrenzone); Informationsverhalten,
-> Kommunikation, Überzeugung der Bewohner (Vesuv ist bekannt, aber unvorhersehbar — Angst vs. Normalität).
-> - **ökonomische Vulnerabilität:** Abhängigkeit von Tourismus (Pompeji-Millionen Besucher) und Landwirtschaft
-> (vulkanische Böden = fruchtbar); Verluste vielseitig (Tourismus-Loss + Landwirtschaft-Loss + lokale Wirtschaft).
+> - **Physische Vulnerabilität:** Siedlungen und Verkehrswege liegen in Bereichen, die je nach Ausbruchsszenario von Aschefall, pyroklastischen Dichteströmen oder Laharen betroffen sein können.
+> - **Soziale Vulnerabilität:** In der ausgewiesenen roten Zone leben rund 700.000 Menschen (Zahl abhängig von Abgrenzung und Bezugsstand). Bevölkerungsdichte, Warnkommunikation und die Erreichbarkeit von Evakuierungswegen beeinflussen das Risiko.
+> - **Ökonomische Vulnerabilität:** Tourismus und Landwirtschaft sind wichtige Wirtschaftszweige der Region. Eine Eruption könnte Betriebe, Verkehrswege und Versorgung beeinträchtigen.
 
 ---
 
@@ -140,11 +140,8 @@ sources: []
 > **Operator:** Erklären
 >
 > **Lösungshinweis:**
-> - **Entstehung:** Gletscher erodiert am Vorderenden (Zung) das Untergrundgestein durch Abrasion und Schürfung.
-> Das Eis schmilzt local → Schmelzwasser → Mulde entsteht. Zungenbecken = Mulde am Ende,
-> oft tiefer, oft mit See gefüllt.
-> - **Schmelzwasser:** schmelzt das Eis am Ende → Wasser sammelt sich → Mulde (Zungenbecken).
-> Wenn Gletscher zurückzieht, bleibt Mulde als Relikt.
+> - **Entstehung:** Das Zungenbecken wird durch die Erosion des Gletschers übertieft. Abrasion und Ausbrechen von Gestein tragen zur Beckenbildung bei.
+> - **Schmelzwasser:** Nach dem Rückzug des Gletschers kann sich Wasser im Becken sammeln. Schmelzwasser kann die Formung beeinflussen, ist aber nicht die alleinige Ursache des Beckens.
 
 ---
 
@@ -155,12 +152,9 @@ sources: []
 > **Operator:** Vergleichen
 >
 > **Lösungshinweis:**
-> - **Grundmoräne:** unter dem Gletscher — Schotter/Ablagerung vom Gletscherboden; flächendeckend,
-> oft später landwirtschaftliche Nutzung. Material: ungeschichtete, ungeordnet Schotter-Mischung.
-> - **Endmoräne:** am Vorderenden des Gletschers — Kamm-Wand, letzte Ausdehnung des Eisrandes;
-> Material: Schotter, Blöcke, ungeschichtet, "Stoss" von Eisrand.
-> - Unterschied: Position (Unter vs. Rand), Funktion (Ablagerung am Boden vs. Rand-Ablagerung),
-> Erscheinung (flach/nebelig vs. Kamm). Beide ungeschichtet, Moränen.
+> - **Grundmoräne:** Ablagerung unter dem Gletscher. Sie besteht aus unsortiertem und ungeschichtetem Lockermaterial unterschiedlicher Korngrößen (Till).
+> - **Endmoräne:** wallartige Ablagerung am ehemaligen Eisrand; sie besteht aus unsortiertem und ungeschichtetem Gletschermaterial.
+> - Unterschied: Die Grundmoräne lagert unter dem Eis und bildet häufig eine flachwellige Landschaft; die Endmoräne markiert einen ehemaligen Eisrand und bildet oft einen Wall.
 
 ---
 
@@ -171,16 +165,12 @@ sources: []
 > **Operator:** Analysieren
 >
 > **Lösungshinweis:**
-> - **ökonomisch:** Tourismus-Abhängigkeit (Skigebiete, Alpenvereinshütten, Wanderungen);
-> Gletscher als Attraktion → Rückzug gefährdet Tourismus-Einnahmen.
-> Wasserressourcen: Gletscherschmelze für untere Regionen (Trinkwasser, Landwirtschaft) →
-> Rückzug → Veränderung Wasserhaushalt, potenzielle Knappheit.
-> - **ökologisch:** Gletschermikroökosystem (einmalige, wissenschaftlich einzigartig) —
-> Rückzug gefährdet Lebensräume; Gletscher = Referenzobjekt für Klimawandel.
-> - **sozial:** Siedlungen am Talrand (Bettmeralp, Riederalp) — Tourismus-Infrastruktur,
-> aber geringe direkte Gefahrenanfälligkeit (Lawinen, Felssturz — lokal).
-> Lebensqualität: Gletscher als Identifikationsobjekt (Schweiz, Alpenkultur) —
-> Rückzug betrifft kulturell.
+> - **Ökonomisch:** Tourismus und lokale Infrastruktur können von Veränderungen der
+>   Gletscherlandschaft betroffen sein.
+> - **Wasserhaushalt und Ökologie:** Der Rückgang verändert die saisonale Wasserführung
+>   und Lebensräume im Gletschervorfeld.
+> - **Sozial:** Felsstürze und Murgänge können lokal Menschen und Verkehrswege gefährden;
+>   außerdem kann der Gletscher für die regionale Identität bedeutsam sein.
 
 ---
 
@@ -194,33 +184,35 @@ sources: []
 > **Operator:** Erklären
 >
 > **Lösungshinweis:**
-> - **Vulnerabilität (Verwundbarkeit):** innere Eigenschaften eines Raumes/der Gesellschaft,
-> die festlegen, wie stark ein Hazard-Ereignis Schaden verursacht. Beispiel Vesuv:
-> hohe Bevölkerungsdichte + Infrastruktur + wirtschaftliche Abhängigkeit → hohe V.
-> - **Resilienz (Widerstandsfähigkeit):** Fähigkeit des Systems, Schaden zu widerstehen,
-> zu verkraften, sich zu erholen und aus dem Ereignis zu lernen. Beispiel Vesuv:
-> Überwachung, Evakuierungsplan, Schutzplan → teils hohe Resilienz, aber strukturelle
-> Vulnerabilität bleibt hoch.
-> - Unterschied: Vulnerabilität = "wie anfällig?", Resilienz = "wie erholbar/widerstandsfähig?";
-> sie sind komplementär.
+> - **Vulnerabilität (Verwundbarkeit):** Eigenschaften und Bedingungen, die beeinflussen,
+>   wie stark Menschen oder Systeme von einer Naturgefahr betroffen sind. Am Vesuv sind
+>   unter anderem die hohe Exposition und die Evakuierbarkeit wichtige Faktoren.
+> - **Resilienz:** Fähigkeit, mit Belastungen umzugehen, Schäden zu begrenzen, sich zu
+>   erholen und aus Ereignissen zu lernen. Vorsorge und Evakuierungsplanung können dazu
+>   beitragen, beseitigen aber nicht alle Verwundbarkeiten.
+> - **Unterschied:** Vulnerabilität beschreibt Anfälligkeit; Resilienz beschreibt
+>   Bewältigungs- und Anpassungsfähigkeit. Beide Konzepte hängen zusammen, sind aber keine
+>   einfachen Gegensätze.
 
 ---
 
 ### Übung 3.2 (Stufe 2)
 
-> **Aufgabe:** Beschreiben Sie das Risiko-Modell: Risiko = Hazard × Exposition × Vulnerabilität.
+> **Aufgabe:** Beschreiben Sie, wie Naturgefahr (Hazard), Exposition und Vulnerabilität
+> gemeinsam das Risiko beeinflussen.
 > Gehen Sie auf die drei Komponenten ein.
 >
 > **Operator:** Beschreiben
 >
 > **Lösungshinweis:**
-> - **Hazard:** die Naturgewalten selbst (Vulkanausbruch, Gletscherflut, Überschwemmung, etc.) —
-> unabhängig davon, ob Menschen im Gefahrenbereich sind.
-> - **Exposition:** was liegt in der Gefahrenzone? Menschen, Gebäude, Infrastruktur, Wirtschaft,
-> Ökosysteme. Wenn nichts exponiert ist, kein Risiko.
-> - **Vulnerabilität:** wie anfällig ist das Exponierte? (Sozial, physisch, ökonomisch, ökologisch).
-> Gleiche Exposition und Hazard → unterschiedliches Risiko je nach Vulnerabilität.
-> - Risiko = Hazard × Exposition × Vulnerabilität (je höher ×, desto höher das Risiko).
+> - **Naturgefahr (Hazard):** ein potenziell schädigender Prozess oder Ereignis, etwa ein
+>   Vulkanausbruch oder eine Überschwemmung.
+> - **Exposition:** Menschen, Gebäude, Infrastruktur oder andere Schutzgüter befinden sich
+>   im möglichen Wirkungsbereich.
+> - **Vulnerabilität:** die Anfälligkeit exponierter Menschen oder Systeme und ihre
+>   Möglichkeiten, Schäden zu bewältigen.
+> - **Risiko:** hängt vom Zusammenspiel dieser Faktoren ab. Das Produktmodell ist eine
+>   vereinfachte Darstellung und keine universelle Berechnungsformel.
 
 ---
 
@@ -231,38 +223,34 @@ sources: []
 > **Operator:** Beurteilen
 >
 > **Lösungshinweis:**
-> - **vorhanden:** begrenzte seismische Überwachung (Bodenbeben in der Eifel);
-> gelegentliche Information / Vorträge zu vulkanischer Vergangenheit Eifel.
-> - **Fehlen:** kein vollständiges Observatorium (wie Vesuv oder Kilauea); kein
-> Evakuierungsplan für Vulkan-Gefahren; geringes Bewusstsein (Bevölkerung denkt "Eifel ist nicht vulkanisch").
-> **Vulnerabilität trotz geringer Bevölkerungsdichte:** Gefahr ist nicht bekannt, nicht vorbereitet.
-> - **Nachhaltigkeit:** geringe Vulnerabilität nachhaltig zu senken —
-> Bewusstseinsbildung, Schulung, lokale Information, ggf. Raumpläne für CO₂-Gefahren;
-> aber: keine hohe Bevölkerungsdichte → weniger Notwendigkeit für massiven Schutz; aber
-> informativen Defizit ausgleichen.
+> - **Vorsorge und Beobachtung:** Recherchieren Sie, welche geologischen und
+> geophysikalischen Beobachtungen in der Eifel stattfinden und welche Stellen dafür
+> zuständig sind.
+> - **Offene Fragen:** Prüfen Sie, welche lokalen Warn- und Notfallpläne für konkrete
+> Gefahren wie CO₂-Austritte bestehen. Vermeiden Sie pauschale Aussagen über fehlende
+> Überwachung oder ein geringes Gefahrenbewusstsein, solange sie nicht belegt sind.
+> - **Nachhaltigkeit:** Bewerten Sie, wie Information, Vorsorgeplanung und die
+> Berücksichtigung lokaler Gefahren in der Raumplanung zur Resilienz beitragen können.
 
 ---
 
 ### Übung 3.4 (Stufe 3)
 
 > **Aufgabe:** Erörtern Sie die These: "Maßnahmen zur Stärkung der Resilienz müssen immer mit der nachhaltigen Entwicklung vereinbar sein."
-> Nehmen Sie position.
+> Nehmen Sie Position.
 >
 > **Operator:** Erörtern
 >
 > **Lösungshinweis:**
-> - **Begründung Pro:** nachhaltige Entwicklung fordert Soziales + ökonomisches + ökologisches
-> — Resilienz-Maßnahmen, die nur Schutz betonen (z.B. massiver Deicherbau ohne Ökosystem-Berücksichtigung),
-> können mit Nachhaltigkeit kollidieren (z.B. Auen-Renaturierung vs. Hochwasserschutz mit Deichen).
-> Nachhaltigkeitskriterium: kurzfristige Sicherheit darf nicht auf Kosten langfristiger Entwicklung gehen.
-> - **Begründung Contra / Einschränkung:** Notfall-Notwendigkeit kann priorisiert werden —
-> in akutem Vulkan-Gefahr-Szenario kann Schutz auch ohne vollständige Nachhaltigkeits-Bilanz
-> (z.B. Evakuierung, vorübergehende Sperrung). Es gibt Situationen, wo "sofortiger Schutz"
-> die Priorität hat, bevor Langzeit-Nachhaltigkeit.
-> - **Position:** These ist **im Prinzip richtig**, aber **mit Einschränkungen**: Nachhaltigkeit
-> ist das Ideal, aber in akuten Gefahren-Situationen kann kurzfristige Sicherheit Vorrang haben.
-> Nachhaltigkeit = Ziel, nicht immer sofort erreichbar; aber auf Dauer sollten Resilienz-Maßnahmen
-> mit Nachhaltigkeit in Einklang gebracht werden. LK-Aufgabe: differenzierte Erörterung, kein pauschales Ja/Nein.
+> - **Dafür spricht:** Maßnahmen, die soziale, wirtschaftliche und ökologische Folgen
+>   berücksichtigen, können langfristig tragfähiger sein. Ein Deichbau sollte zum Beispiel
+>   auch Auswirkungen auf Auen und flussabwärts gelegene Gebiete einbeziehen.
+> - **Einschränkung:** In akuten Gefahrensituationen können Evakuierungen oder
+>   vorübergehende Sperrungen Vorrang haben; eine vollständige Nachhaltigkeitsabwägung ist
+>   dann nicht immer sofort möglich.
+> - **Mögliche Position:** Resilienzmaßnahmen sollten grundsätzlich mit nachhaltiger
+>   Entwicklung vereinbar sein. Kurzfristige Schutzmaßnahmen können in einer akuten Krise
+>   notwendig sein, sollten aber langfristig überprüft und ergänzt werden.
 
 ---
 
@@ -274,26 +262,29 @@ sources: []
 > **Operator:** Erklären
 >
 > **Lösungshinweis:**
-> - Maar = phreatomagmatische Explosion (Grundwasser Oder Oberflächenwasser trifft Magma) →
-> Explosion, kreisrunde Mulde. Typischer Kontext: intraplattiform, nicht an FZ.
-> - Subduktionszonen-Vulkane haben undeutsch/wechselnde Wasser-Injektion durch abtauchende Platte →
-> andere Mechanismen, andere Formen (Schichtvulkan). Maar in Eifel, Deutschland ist intraplattiform,
-> nicht in Subduktionszone.
-> - Erklärung = Entstehungsmechanismus + geodynamischer Kontext.
+> - Ein Maar entsteht häufig durch phreatomagmatische Explosionen, wenn Magma auf Grund-
+>   oder Oberflächenwasser trifft. Dabei kann eine trichterförmige Mulde mit Tuffring
+>   entstehen.
+> - Maare sind keine typische Vulkanform von Stratovulkanen in Subduktionszonen. Sie
+>   können in unterschiedlichen geologischen Kontexten auftreten; die Dauner Maare liegen
+>   im Vulkanfeld der Eifel.
+> - Für die Erklärung sind Entstehungsmechanismus und geologischer Kontext zu unterscheiden.
 
 ---
 
 ### Übung 4.2
 
-> **Aufgabe:** "Charakterisieren Sie die reliefformen einer Glaziallandschaft im Vergleich zu einer Vulkanlandschaft."
+> **Aufgabe:** „Charakterisieren Sie die Reliefformen einer Glaziallandschaft im Vergleich zu einer Vulkanlandschaft.“
 > **Operator:** Charakterisieren
 >
 > **Lösungshinweis:**
-> - **glazial:** Erosions- und Ablagerungs-Formen (Trogtal, Kar, Moränen, Sander, Urstromtal);
-> oft flach, abgeflacht, mit Löss und Sandr-Reflexen; Eiszeit-Relikt-Landschaft.
-> - **Vulkan:** kumulative Aufbau-Formen (Schildvulkan = flach, Schichtvulkan = steil, Caldera = Kessel,
-> Maar = kreisrunde Mulde); meist höheres Relief (Berge), aktive oder ehemalige Vulkan-Tätigkeit.
-> - Charakterisierung = Formen, Erscheinung, Prozess-Typ, Zeit-Aspekt (aktiv vs. Relikt).
+> - **Glaziallandschaft:** Erosions- und Ablagerungsformen wie Trogtäler, Kare und Moränen;
+>   im norddeutschen Tiefland außerdem Sander und Urstromtäler. Viele dieser Formen sind
+>   Relikte früherer Vereisungen.
+> - **Vulkanlandschaft:** Aufbauformen wie Schild- und Schichtvulkane sowie Einbruch-
+>   und Explosionsformen wie Calderen und Maare. Je nach Region kann Vulkanismus aktiv
+>   oder erloschen sein.
+> - Eine Charakterisierung beschreibt Formen, Prozesse und deren räumliche Ausprägung.
 
 ---
 
@@ -304,24 +295,25 @@ sources: []
 >
 > **Lösungshinweis:**
 > - **nicht pauschal:** Vulnerabilität hängt von konkretem Raum, Bevölkerungsdichte, Wirtschaft, Resilienz-Maßnahmen ab.
-> - **Vulkan:** oft höhere unmittelbare Todesgefahr (pyroklastische Ströme, explosionsartig),
-> aber je nach Raum unterschiedlich (Vesuv sehr hoch, Kilauea mittler).
-> - **glazial:** meist langsame Gefahren (Rückzug, Wasser, Tourismus-Abhängigkeit), keine "tödliche Schock-Welle",
-> aber lokale Gefahren (Jökulhlaup, Lawinen). Island: local gering, aber eigene Gefahren.
-> - **Beurteilung:** Vulnerabilität vulkanischer Räume kann höher sein, wenn Bevölkerungsdichte hoch und
-> Ausbruch nicht vorhersehbar — aber nicht immer. LK-Aufgabe erwartet **differenzierte** Begründung, nicht
-> oberflächliches Urteil. Raumbeispiel einbeziehen.
+> - **Vulkanische Räume:** pyroklastische Dichteströme, Aschefall und andere Gefahren
+>   können schwerwiegende Folgen haben; Exposition und Evakuierbarkeit unterscheiden sich
+>   jedoch stark zwischen den Räumen.
+> - **Glazial geprägte Räume:** Gletscherrückgang kann Wasserhaushalt und Tourismus
+>   langfristig verändern; Gletscherläufe, Lawinen und Felsstürze können lokal rasch
+>   und schwerwiegend sein. In Island wirken Vulkanismus und Vergletscherung zusammen.
+> - **Beurteilung:** Eine allgemeine Rangfolge ist nicht möglich. Begründen Sie Ihr Urteil
+>   anhand konkreter Gefahren, Exposition, Vulnerabilität und Vorsorge in den gewählten Räumen.
 
 ---
 
 ## Übungsaufgaben — Lerntipps
 
-- **Stufe 1 (BF-Niveau):** Schüler sollen Namen, Beschreibungen kennen, ohne tief zu erklären.
-- **Stufe 2:** Erklären + Charakterisieren — Zusammenhänge verstehen, nicht nur Fakten.
-- **Stufe 3 (LK):** Analysieren + Beurteilen + Erörtern — eigene Einschätzung, Argumentation,
-  Beispiel, Nachhaltigkeit. Dies ist LK-Abitur-Niveau.
+- **Stufe 1:** Grundbegriffe benennen und Sachverhalte beschreiben.
+- **Stufe 2:** Zusammenhänge erklären und Sachverhalte charakterisieren.
+- **Stufe 3 (LK):** Analysieren, beurteilen und erörtern; dazu gehören eine begründete
+  Argumentation und passende Raumbeispiele.
 - **Operatoren:** Achten Sie genau auf den Operator in der Aufgabe — die Antwort muss
-  dem entsprehen (z.B. "Erklären" erfordert Ursache-Wirkung, nicht nur Beschreibung;
-  "Beurteilen" erfordert Wertung mit Begründung).
+  ihm entsprechen (z. B. erfordert „Erklären“ eine Darstellung von Ursache und Wirkung;
+  „Beurteilen“ erfordert ein begründetes Werturteil).
 
 Verknüpfungen: [[bildungsplan-2016-lk]], [[vulkanismus-ueberblick]], [[vulkanprozesse]], [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[resilienz-massnahmen]], [[abitur-aufgaben]]

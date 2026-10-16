@@ -1,7 +1,7 @@
 ---
 title: Geographische Methoden — GIS, Fernerkundung, Kartographie
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [methodik, gis, fernerkundung, kartographie, analyse, technologie]
 sources: []
@@ -66,7 +66,7 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 - **Sichtbares Licht (VIS):** RGB — natürliche Farben, gut für Landnutzung, Vegetation (Grün), Wasser (blau)
 - **Infrarot (NIR, SWIR):** Nahinfrarot (Pflanzengesundheit / NDVI), kurzwelliges Infrarot (Wasserinhalt, Mineralogie)
 - **Thermal Infrared (TIR):** Temperaturmessung (Oberflächentemperatur, städtische Hitzeinseln, Feuer)
-- **Mikrowelle (Radar):** Durchdringt Wolken, Nutzung bei Wolken/Hitze, Höhenmessung (LiDAR)
+- **Mikrowelle (Radar):** Aktive Sensoren wie SAR können unabhängig von Tageslicht und weitgehend unabhängig von Wolken messen. LiDAR ist dagegen ein aktives Laserverfahren.
 
 **Satelliten-Beispiele:**
 - **Landsat (USA):** Lange Zeitreihe seit 1972, 30 m Auflösung, gut für Veränderungsanalyse (z. B. Entwaldung, städtisches Wachstum, Urbanisierung)
@@ -111,8 +111,8 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 - **Problem:** Kugel → ebene Fläche = Verzerrung (entweder Fläche, Form, Abstand, Richtung bleibt richtig)
 - **Beispiele:**
   - Mercator-Projektion: Winkeltreue (Conform), gut für Navigation — aber polare Länder stark vergrößert (Grüneland vs. Afrika)
-  - Kugelkeil / Lambertsche Kreiskegelprojektion: Flächentreue in Polaren — gut für mittlere Breiten (Deutschland)
-  - Gauß-Krüger (UTM): Konform, für kleine Gebiete — Standard in Deutschland (3-Grad-Sektoren)
+  - Lambertsche konforme Kegelprojektion: winkeltreu und für bestimmte Karten mittlerer Breiten geeignet; die Albers-Kegelprojektion ist ein Beispiel für eine flächentreue Kegelprojektion.
+  - UTM: transversale Mercator-Projektion mit 6° breiten Zonen. Das Gauß-Krüger-System verwendet in Deutschland üblicherweise 3° breite Meridianstreifen.
   - Robinson / Winkel tripel: Kompromiss, für Weltkarten
 
 **Kartografische Gestaltprinzipien:**
@@ -172,4 +172,3 @@ Beispiel: Landnutzungsänderung:
 #### 📸 Fotogalerie: Topographische Karten, Höhenmodelle (Unsplash)
 
 [Freie Fotos von topographischen Karten, Geländemodellen, Höhenlinien.](https://unsplash.com/s/photos/topographic-map)
-

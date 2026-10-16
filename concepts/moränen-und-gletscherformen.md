@@ -1,13 +1,13 @@
 ---
-title: Moränen und Gletscherforms — Typen, Entstehung, Bedeutung
+title: Moränen und Gletscherformen — Typen, Entstehung, Bedeutung
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [glazialmorphologie, prozesse]
 sources: []
 ---
 
-# Moränen und Gletscherforms — Typen, Entstehung und Bedeutung
+# Moränen und Gletscherformen — Typen, Entstehung und Bedeutung
 
 ## Moränen (Gletscher-Lockerablagerungen)
 
@@ -25,7 +25,8 @@ Im Bildungsplan LK §3.5.2.1 wird der Begriff „Moräne“ überhaupt verwendet
 
 ### 1. Grundmoräne (Ground Moraine / Boden-Moräne)
 
-- **Position:** unter dem Gletscher — also flächendeckend vorhanden, wo der Gletscher abzog.
+- **Position:** wird unter dem Gletscher abgelagert und kann nach dem Abschmelzen als
+  Grundmoränenlandschaft erhalten bleiben; sie ist nicht überall flächendeckend ausgeprägt.
 - **Entstehung:** langsame Ablagerung von Schutt und Erosionsmaterial am Gletscherboden;
   die Gletschersohle sammelt das Material und lagert es beim Abschmelzen flächig ab.
 - **Charakter:** uneben, dicht gelagert; nach der Verwitterung oft günstige Böden
@@ -149,4 +150,3 @@ Folgende Kompetenzen werden im LK erwartet (§3.5.2.1):
 ### 🎬 Drumlins – Gletscherformen (drumlin identification demo)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cDeaNBWK0UA" frameborder="0" allowfullscreen></iframe>
-

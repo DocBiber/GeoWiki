@@ -1,211 +1,139 @@
 ---
 title: Raumbeispiele — Glazialmorphologie (Geografie LK)
 created: 2026-09-27
-updated: 2026-10-13
+updated: 2026-10-16
 type: concept
 tags: [raumbeispiele, glazialmorphologie, glazial-raumbeispiele]
 sources: []
+confidence: medium
 ---
 
-# Raumbeispiele — Glazialmorphologie (Geografie LK)
+# Raumbeispiele — Glazialmorphologie
 
-> Konkrete Gebiete und Landscapes mit glazialen Formen als Prüfungs- und Vergleichsgrundlage.
-> Jedes Beispiel enthält: Landschaftstyp, glazial-Formen, Prozesse, Vulnerabilität, Resilienz.
+Die folgenden Beispiele zeigen unterschiedliche Formen und Prozesse glazial geprägter
+Räume. Die glaziale Serie des norddeutschen Tieflands ist nicht mit den Formen eines
+alpinen Tals oder den heutigen Gletschern Islands gleichzusetzen.
 
----
+## 1. Alpen — Aletschgletscher, Schweiz
 
-## 1. Alpen — Schweiz (Grosser Aletsch-Gletscher)
-
-![Grosser Aletschgletscher, Berner Alpen (Schweiz)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg/1280px-Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg)
+![Aletschgletscher, Berner Alpen (Schweiz)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg/1280px-Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg)
 
 *Bild: Wikimedia Commons — Aletschgletscher, Aletschwald und Wannenhörner (2017).jpg (CC BY-SA 4.0)*
 
-### Grunddaten
+Der Aletschgletscher ist ein Talgletscher in den Schweizer Alpen. Er ist rund 20 km lang;
+seine Länge und Fläche verändern sich mit dem Gletscherrückgang.
 
-| Merkmal | Angabe |
-|---|---|
-| Landschaftstyp | Alpengletscher / Talgletscher |
-| Glaziale Formen | Trogtal, Zungenbecken, Seitenmoräne, Kar (Cirque), glaziale Serie-Anzeichen |
-| Gletscher | Grosser Aletsch-Gletscher (längster Gletscher der Alpen, ~23 km, Fläche ~82 km²) |
-| Region | Berner Oberland, Schweiz (Wallis, Valais) |
+### Formen und Prozesse
 
-### Glaziale Formen (beobachtbar)
+- Das Eis hat ein breites Trogtal ausgeschürft und transportiert Gesteinsschutt.
+- Seiten- und Endmoränen dokumentieren frühere Gletscherstände.
+- Oberhalb der Schneegrenze sammelt sich über längere Zeit mehr Schnee an, als abschmilzt;
+  tiefer gelegene Gletscherbereiche verlieren dagegen meist Masse.
+- Der Gletscher zieht sich seit dem Ende der Kleinen Eiszeit zurück. Geschwindigkeit und
+  Ausmaß des Rückgangs schwanken im Zeitverlauf.
 
-- **Trogtal**: Das Aletsch-Tal ist ein U-förmiges Tal, tief erodiert durch Eiskeise während der Eiszeit
-- **Kar (Cirque)**: Mehrere Kär am Kopf des Gletschers (z.B. "Konkordiaplatz" — Zunge-Zusammenführung)
-- **Seitenmoräne**: An den Gletscherseiten erkennbar (Höhenzüge, Felsen)
-- **Zungenbecken**: Am Gletscherende (Aletsch-Fuß, aktuell ca. 2400 m ü. M.)
-- **Endmoräne-Vorfahren**: ältere Endmoränen in der Talebene (z.B. "Unterer Aletsch" — alte Endmoränen)
-- **Glaziale Serie**: Ideal beobachtbar in der umliegenden Landschaft (Talstufen, Sandr-Reflexe)
+### Verwundbarkeit und Vorsorge
 
-### Prozesse
+- Gletscherrückgang verändert Landschaft, Ökosysteme und die saisonale Wasserführung
+  flussabwärts.
+- Tourismus und lokale Infrastruktur können von Veränderungen der Gletscherlandschaft
+  sowie von Naturgefahren wie Felsstürzen und Murgängen betroffen sein.
+- Gletscherbeobachtung, Gefahrenkarten, Warnsysteme und eine angepasste Raumplanung
+  unterstützen die Vorsorge.
+- Tourismusangebote und Wasserbewirtschaftung müssen Veränderungen langfristig
+  berücksichtigen.
 
-- **Abtrag (Abrasion)**: Gletscher poliert Felsen, hinterlässt striate (Abspritzungen)
-- **Transport**: Material wird durch den Gletscher transportiert (Ende der Eiszeit zurückgelassen als Moränen)
-- **Akkumulation**: Schnee in den Zehrgebieten (>2400 m) → Firn → Eis → Gletscher
-- **Gleichgewichtslinie**: Aktuell ca. 3800 m (Aletsch) — unterhalb: Schmelze > Akkumulation
-- **Gletscherrückzug**: Seit Ende der kleinen Eiszeit (1850) kontinuierlicher Rückzug — aktuell ca. 50–70 m/Jahr
-
-### Vulnerabilität
-
-**Ökonomisch:**
-- **Tourismus**: Skigebiete, Alpenvereinshütten, Wanderungen — wirtschaftlich abhängig von Gletscher (Attraktion)
-- **Wasserressourcen**: Gletscherschmelze trägt Frischwasser für Mitteldeutsche (niedrigere Regionen, Landwirtschaft, Trinkwasser) — Rückzug → Verschiebung
-
-**Ökologisch:**
-- **Gletschermikroökosystem**: wissenschaftlich einzigartig (Organismen im Eis) — Gletscherrückzug gefährdet Lebensräume
-
-**Sozial:**
-- Siedlungen am Talrand (z.B. Bettmeralp, Riederalp) — Tourismus-infrastruktur, aber keine hohe Siedlungsgefährdung
-- Gefahren durch Lawinen, Felssturz, Gletscherbrechen → touristisch relevant
-
-### Resilienz-Maßnahmen
-
-- **Gletscherüberwachung**: Schweizer Gletscherkommission (GLAMOS), Messungen, Satelliten-Observationen
-- **Pisten-Sicherung**: Lawinen-Abfanganlagen, Schnee-Überwachung, Abschneideprogramme an Alpengletscher-Gleitbahnen
-- **Abstieg**: Abstieg von Gletschergipfeln (z.B. Ski-Pisten an Aletsch-Gletscher)
-- **Tourismus-Umstellung**: Nach-Gletscher-Strategie (Hütten, Wanderwege, alternativer Tourismus), Hütten-Nachhaltigkeit
-- **Wasser-Management**: Aufbereitung von Schmelzwasser (Trinkwasser, Landwirtschaft, Strategie für hartnäckigen Zustand)
-
-**Beurteilung (LK):** Resilienz hoch für lokal bewohnte Gebiete, aber **wirtschaftliche Vulnerabilität** durch Gletscherrückzug steigend (Tourismus, Wasserreservoir). Nachhaltigkeit: Strukturwandel notwendig.
-
----
-
-## 2. Norddeutsches Tiefland — Skandisches Inlandeis
+## 2. Norddeutsches Tiefland — ehemalige Vereisung durch das skandinavische Inlandeis
 
 ![Endmoräne Gontenschwil (Schweiz) — beispielhafte Moränenform](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Endmor%C3%A4ne_Gontenschwil.jpg/1280px-Endmor%C3%A4ne_Gontenschwil.jpg)
 
 *Bild: Wikimedia Commons — Endmoräne Gontenschwil.jpg (CC BY 4.0)*
 
-### Grunddaten
+Das Norddeutsche Tiefland wurde während des Pleistozäns wiederholt vom skandinavischen
+Inlandeis erreicht. Endmoränen, Grundmoränen, Sander und Urstromtäler sind regional
+unterschiedlich ausgeprägt.
 
-| Merkmal | Angabe |
-|---|---|
-| Landschaftstyp | Ehemaliges Inlandeis-Gebiet (Skandisches Eis) |
-| Glaziale Formen | Urstromtäler, Moränen, Sander, Löss, Grundmoräne |
-| Region | Norddeutschland (Schleswig-Holstein, Niedersachsen, Bremen, Hamburg, Berlin/Brandenburg-Region) |
+### Formen und Prozesse
 
-### Glaziale Formen (im Landesverlauf)
+- **Urstromtäler:** breite Täler, die Schmelzwasser parallel zum Eisrand abführte; ein
+  bekanntes Beispiel ist das Berliner Urstromtal.
+- **Endmoränen:** wallartige Ablagerungen an früheren Eisrandlagen.
+- **Sander:** vor den Endmoränen gelegene Flächen aus durch Schmelzwasser abgelagertem
+  Sand und Kies.
+- **Grundmoränen:** unsortierte Ablagerungen unter oder hinter dem Eis; sie prägen
+  vielerorts den Untergrund und die Böden.
+- **Löss:** vom Wind abgelagertes feinkörniges Sediment. Es kann aus glazialen
+  Sedimenten stammen, gehört aber nicht zu den vier Hauptelementen der glazialen Serie.
 
-- **Urstromtäler**: Besonders bekannt: **Berliner Urstromtal** (Havelland, Spree-Spreewald-Gebiet), **Elbe-Ästungen**, **Meklenburger Urstromtal**, **Emsland** — weitläufige, flache Talböden
-- **Endmoränen**: "Havelländer Endmoräne", "Baden-Württemberg-Endmoränen", "Rügen-Moräne", Dünenlinien
-- **Sander**: Schotterfelder an den Endmoränenzäunen (z.B. Fläming-Sandr, Lüneburger-Heck-Sandr)
-- **Löss**: Löss-Decken in Mitteleuropa (z.B. an den Flüssen Elbe, Weser, Oder) — windgetragen von Schmelzflächen der Eisgrenze
-- **Grundmoräne**: Grundwomöglich für landwirtschaftliche Böden (z.B. Schleswig-Holstein, Mecklenburgische Seenplatte)
+### Heutige Nutzung und Vorsorge
 
-### Prozesse
+- Fruchtbare Böden werden intensiv landwirtschaftlich genutzt; Erosion und
+  Bodenverdichtung können lokal Probleme verursachen.
+- Grundwasser ist eine wichtige Ressource. Schutzgebiete und nachhaltige Entnahme
+  unterstützen die Versorgung und den Schutz vor Verunreinigungen.
+- Siedlungen und Infrastruktur in Flussniederungen können durch Hochwasser gefährdet
+  sein. Hochwasserschutz und eine angepasste Raumplanung mindern das Risiko.
+- Die eiszeitliche Entstehung der Landschaft ist nicht selbst eine heutige Gefahr;
+  aktuelle Risiken ergeben sich unter anderem aus Nutzung, Wasserhaushalt und
+  Naturgefahren.
 
-- **Inlandsis-Vorfahrt**: Vor ~20.000 Jahren (Letztes Maximum, Weichsel-Kaltzeit) deckte skandinavisches Inlandeis weite Teile des heutigen Norddeutschlands
-- **Schmelzphase**: Eis schmolz, Gletscherrückzug, Urstromtäler ausgebildet
-- **Wind-Transport**: Löss aus freiliegenden Schotterdecken → Löss-Ablagerungen in Flachland
-- **Stille Landschaft**: nach der Eiszeit — Formen verbleiben als Relikt
-
-### Vulnerabilitat (heutige)
-
-- **Boden**: Löss-Böden (Acker, fruchtbar) — ggf. Erosion, Umstellung (Löss-Erosion, Abgrabung)
-- **Grundwasser**: in Urstromtalen (Leitungswasser, Grundwasser, Nähe) → Vulnerabilitat: Verschmutzung, Übernutzung, Klimawandel-Auswirkungen
-- **Infrastruktur**: Viele Städte / Industrie in Urstromtalnähe (z.B. Berlin, Hamburg, Bremen) — ggf. Gefährdung durch Hochwasser (Spree, Elbe)
-- **Klimawandel**: Niederschlagsänderung, Grundwasserspiegel, Verschiebung in ländlichen Gebieten
-
-### Resilienz-Maßnahmen
-
-- **Grundwassermanagement**: Quantitative Nutzung, Schutz-Flächen, Wasserschutzgebiete
-- **Löss-Erosionsschutz**: nachhaltige Landwirtschaft, Decking, Waldbau (Wiederaufforstung)
-- **Hochwasserschutz**: Deiche, Rückhaltung (z.B. "Elbe-Hochwasserschutz"), Hochwasser-Planung (Rückhaltung im Gelände)
-- **Raumplanung**: Konstruktive Nutzung, wertvolle Böden schützen, Löss-Decken erhalten
-
-**Beurteilung:** "Alte Gefahr" (Eiszeit) ist heute **Vulnerabilität durch Nutzung** — nicht durch Naturgefahren direkt, sondern durch **sekundäre Auswirkungen** (Boden, Wasser, Erosion). LK: gutes Beispiel für den Unterschied zwischen "ursprünglicher Vulnerabilität" (Natur) und "nachträglicher Vulnerabilität" (durch Landnutzung).
-
----
-
-## 3. Island — Gletscher-Vulkan-Interaktion
+## 3. Island — Gletscher und Vulkanismus
 
 ![Vatnajökull, Island](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Island_Vatnaj%C3%B6kull_02.JPG/1280px-Island_Vatnaj%C3%B6kull_02.JPG)
 
 *Bild: Wikimedia Commons — Island Vatnajökull 02.JPG (CC BY-SA 3.0)*
 
-### Grunddaten
+Der Vatnajökull ist der größte Gletscher Islands. Unter und nahe der Eiskappe liegen
+aktive Vulkansysteme, darunter Grímsvötn und Bárðarbunga. Ein Vulkanausbruch unter Eis
+kann Schmelzwasser freisetzen und einen Gletscherlauf (Jökulhlaup) auslösen.
 
-| Merkmal | Angabe |
-|---|---|
-| Landschaftstyp | Vulkan × Glazial (Gletscher auf Vulkanen) |
-| Vulkan-Gletscher-Paare | Vatnajökull (largest glaciers) über Vulkanen (Bárðarbunga, Grímsvötn), Mýrdalsjökull über Katla, Eyjafjallajökull |
-| Region | Süd-Island, Zentral-Island |
+### Formen und Wechselwirkungen
 
-### Glaziale Formen
+- Gletscher formen Täler und hinterlassen Moränen; Schmelzwasser lagert Sedimente auf
+  Sanderflächen (Sandur) ab.
+- Bei einem subglazialen Ausbruch kann Schmelzwasser unter dem Eis gesammelt und
+  schubweise freigesetzt werden. Überschwemmungen können Sediment mitführen und
+  Verkehrswege beschädigen.
+- Beim Gjálp-Ausbruch 1996 kam es zu einem großen Gletscherlauf auf dem
+  Skeiðarársandur. Auch der Ausbruch des Eyjafjallajökull 2010 führte zu
+  Schmelzwasserabflüssen.
+- Vulkanasche auf Schnee und Eis kann deren Reflexion verändern; die Auswirkungen auf
+  das Schmelzen hängen unter anderem von Menge und Verteilung der Asche ab.
 
-- **Gletscher**: Vatnajökull (Fläche ca. 8100 km² — größtes Gletscher-Eis der Island), Jakobshavn-is, Langjökull, Hofsjökull
-- **Jökull**: Gletscher-Teil, insbesondere "Öræfi" (Vatnajökull-Südspitze)
-- **Moränen**: an Gletscherrändern (Seitenmoränen, Endmoränen, Sander)
-- **Urstromtäler**: Schmelzwasser-Täler, oft bleiben trocken (z.B. Skeiðará, Skaftá)
+### Verwundbarkeit und Vorsorge
 
-### Vulkan × glazial Interaktion
+- Gletscherläufe können Brücken, Straßen und Siedlungen in Flusstälern gefährden. Die
+  Ringstraße ist für Verkehr und Versorgung wichtig und kann örtlich betroffen sein.
+- Tourismus und Landwirtschaft können durch Asche, Überschwemmungen oder
+  Verkehrsstörungen beeinträchtigt werden.
+- Seismische Überwachung, Warnungen, Evakuierungsplanung und Straßensperrungen helfen,
+  Risiken zu mindern. Sie können die Naturgefahr nicht verhindern.
 
-- **Jökulhlaup** (isländisch = "Gletscherflutung"): Ein Vulkanausbruch unter dem Gletscher schmilzt Eis → Wasser + Asche → Lawine-Flut
-  - 1996: Gjálp-Eruption (Vatnajökull) → 400 Mio. m³ Wasser, Skeiðarársandur (Sandur) überschwemmt, Highway 1 (Ringstraße) beschädigt
-  - 2010: Eyafjöll → kleinere Jökulhlaup-Ereignisse
-- **Asche + Schnee / Gletscher**: Vulkanasche auf Schnee beschleunigt Schmelze (positive Feedback-Schleife)
-- **Gletscherverlagerung** durch Vulkan-Eruption: Lokal, später, nicht allgemein
+## Vergleich
 
-### Vulnerabilität
-
-**Ökonomisch:**
-- **Tourismus**: islandische Wirtschaft stark tourismus-abhängig (besonders "Golden Circle", Gletscher, Vulkane als Attraktionen)
-- **Landwirtschaft**: Südlische Ebenen (Rehkreis, Húnavatn) — Asche, Lahar, Überflutung-Gefährdung
-
-**Infrastruktur:**
-- **Ringstraße (Highway 1)**: wichtigste Verbindung — Jökulhlaup-Schäden, Überbrückungs-Maßnahmen
-- **Flugverkehr**: Island ist wichtig für transatlantischen Flugverkehr → Asche beeinträchtigt
-- **Energie**: Geothermie/Nutzung, Schmelzwasser
-
-**Sozial:**
-- Siedlungen in Gefahrenzone (z.B. Kirkjubæjarklaustur, Vík í Mýrdal — sehr vulnerabel für Katla-Jökulhlaup)
-- Evakuierungspläne vorhanden (Island hat Red-Out-System, Sirenen, Warnkette)
-
-### Resilienz-Maßnahmen
-
-- **Überwachung**: IMO (Icelandic Met Office), Seismometer-Netz, Gasmessung, GPS, Gletscherbewegungsmessung (GPS auf Eis)
-- **Jökulhlaup-Frühwarnung**: Evakuierung, Sirene, Warnungen an Autobahn-Nutzer
-- **Ringstraße**: temporäre Überquerungsbrücken, Sperrungen, Sturm-Schutz
-- **Tourismus-Management**: Atemschutzempfehlungen für Asche, Schließungen, Weiterleitungen
-- **Langfristige:** Island arbeitet an natürlichen Gefahren-Reduktion: keine vollständige Lösung, aber gebrauchliche Anpassung
-
-**Beurteilung (LK):** Island = einzigartiger **Vulkan × Glazial** Kontext — ideal für LK-Aufgaben, da Prozesse der Reliefsphäre direkt miteinander verknüpft. Vulnerabilität ist lokal gering, aber wirtschaftlich und infrastrukturell relevant. Resilienz: gute Überwachung, aber Naturabwehr (Te phreatomagmatisch/Jökulhlaup) ist kraftlos.
-
----
-
-## 4. Vergleichstabelle: Glazial-Raumbeispiele
-
-| Kriterium | Alpen (Schweiz, Aletsch) | Norddeutsches Tiefland | Island (Vatnajökull etc.) |
+| Merkmal | Alpen (Aletsch) | Norddeutsches Tiefland | Island |
 |---|---|---|---|
-| **Landschaftstyp** | Alpengletscher / Talgletscher | Ehemaliges Inlandeis-Gelände (Relikt) | Vulkan × glazial Gegenwart |
-| **Haupt-Formen** | Trogtal, Kar, Moränen, Zungenbecken, Sander, Urstromtal-Typen | Urstromtäler, Endmoränen, Sander, Löss, Grundmoräne | Gletscher, Moränen, Urstromtäler (Sandur), Jökulhlaup-Flächen |
-| **Gegenwartige Aktivität** | Gletscherrückzug, Schmelze, Abrasion | Statisch (Relikt-Landschaft, keine aktive Eisbewegung) | Aktive Gletscher + aktive Vulkane + Jökulhlaup-Ereignisse |
-| **Hauptgefahren** | Gletscherlawinen, Felssturz, Jökulgare-Abfluss (GLOF) | Grundwasser-Verschmutzung, Löss-Erosion, Hochwasser | Jökulhlaup, Asche, Lava, Lahare, Flugstörung |
-| **Vulnerabilität** | Tourismus-abhängig, Wasserressourcen, ökologische | Landnutzung (Boden, Wasser), Infrastruktur in Urstromtälern | Tourismus, Ringstraße, Landwirtschaft, Flugverkehr |
-| **Resilienz-Maßnahmen** | Überwachung, Lawinenabwehr, Tourismus-Umstellung, Wasser-Management | Grundwasser-Schutz, Löss-Erosionsschutz, Hochwasserschutz | Überwachung, Jökulhlaup-Warnung, Ringstraße-Anpassung |
-| **Abitur-Beispiel** | "Gletscherrückzug und Vulnerabilität (Tourismus)" | "ehemalige Eiszeit-Gefahren durch Nutzung → sekundäre Vulnerabilität" | "Vulkan × Glazial-Interaktion, Jökulhlaup, transnationale Tourismus-Abhängigkeit" |
+| **Glaziale Prägung** | Aktiver Talgletscher und glazial geformtes Tal | Reliefformen aus früheren Vereisungen | Heutige Gletscher und Schmelzwasserformen |
+| **Beispiele für Formen** | Trogtal, Moränen | Endmoränen, Sander, Grundmoränen, Urstromtal | Gletscher, Moränen, Sandur |
+| **Prozesse heute** | Gletscherrückgang und veränderte Schmelzwasserführung | Vorwiegend Nutzung und natürliche Prozesse im eiszeitlich geprägten Relief | Gletscherschmelze; örtlich Wechselwirkung mit Vulkanismus |
+| **Mögliche Risiken** | Felsstürze, Murgänge und Veränderungen der Wasserführung | Hochwasser, Grundwasserbelastung und Bodenerosion | Gletscherläufe, Asche und Schäden an Verkehrswegen |
+| **Vorsorge** | Beobachtung, Gefahrenkarten und angepasste Raumplanung | Grundwasserschutz, Hochwasserschutz und Bodenschutz | Überwachung, Warnungen, Evakuierungsplanung und Straßensperrungen |
 
----
+## Hinweise für das Abitur
 
-## Raumbeispiele — Hinweise für LK-Abitur
+- **Alpen:** Gletscherrückgang, Landschaftsveränderung und mögliche Folgen für Wasserhaushalt,
+  Ökosysteme und Tourismus.
+- **Norddeutsches Tiefland:** glaziale Serie als Reliktlandschaft und heutige Nutzung der
+  Böden, Grundwasservorkommen und Flussniederungen.
+- **Island:** Wechselwirkungen zwischen Vulkanismus und Vergletscherung sowie
+  Gletscherläufe als Naturgefahr.
 
-- **Alpengletscher**: "Gegenwartige Vulnerabilität durch Rückzug" — Tourismus (wirtschaftliche Abhängigkeit), Wasserreservoir (Trinkwasser, Landwirtschaft)
-- **Norddeutsches Tiefland**: "Sekundäre Vulnerabilität" (durch Nutzung, nicht durch Natur direkt) — Löss, Grundwasser, Hochwasser/Klimawandel
-- **Island**: "Vulkan × Glazial" — einmaliges Beispiel für Prozess-Interdependenzen (§3.5.2.1), Jökulhlaup als Gefahrenprozess, gute Überwachung aber begrenzte Kontrolle
+## Verwandte Seiten
 
-Verknüpfungen: [[glazialmorphologie-ueberblick]], [[glaziale-serie]], [[moränen-und-gletscherformen]], [[permafrost-und-solifluktion]], [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]], [[bildungsplan-2016-lk]]
-
----
-## Bildmaterial
-
-### 🖼️ Bild (Wikimedia Commons)
-
-![Fjord in Norwegen – glaziale Erosion (CC BY-SA)](https://commons.wikimedia.org/wiki/File:Fjord_Romund-Oome_Fjord_Norway.jpg)
-
-*Quelle: Fjord in Norwegen – glaziale Erosion (CC BY-SA)*
-
-### 📸 Fotos (Unsplash)
-
-[Fotogalerie: Fotogalerie: Gletscher und glaziale Landschaften (Unsplash)](https://unsplash.com/s/photos/glacier)
-
+- [[glazialmorphologie-ueberblick]] — Grundlagen der Glazialmorphologie
+- [[glaziale-serie]] — Formen der glazialen Serie
+- [[moränen-und-gletscherformen]] — Moränen und Gletscherformen
+- [[permafrost-und-solifluktion]] — Permafrost und Solifluktion
+- [[vulnerabilitaet-begriffe]] — Vulnerabilität und Resilienz
+- [[vulnerabilitaet-raumbeispiele]] — Beispiele für Naturgefahren und Verwundbarkeit
+- [[bildungsplan-2016-lk]] — Bildungsplan Geografie

@@ -1,11 +1,11 @@
 ---
 title: "Historische Geographie"
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [historische-geographie, landschaftsgeschichte, raeumlicher-wandel, siedlungsgeographie, landnutzung, grenzverschiebungen, kulturlandschaft, methodik, quellen]
 sources: []
-confidence: 0.9
+confidence: low
 ---
 
 ## Definition
@@ -14,7 +14,7 @@ Die **historische Geographie** untersucht räumliche Veränderungen über Zeit �
 
 ## Gegenstand & Fragestellungen
 
-- **Räumliche Wandel**: Wie haben sich Karten, Siedlungsgebiete, Landnutzungsmuster und Grenzen verändert?
+- **Räumlicher Wandel:** Wie haben sich Karten, Siedlungsgebiete, Landnutzungsmuster und Grenzen verändert?
 - **Mensch-Umwelt-Beziehungen**: Wie haben Umweltverhältnisse (Klima, Relief, Wasser, Boden) Siedlungen, Landwirtschaft, Infrastruktur beeinflusst?
 - **Kulturlandschaft**: Wie entstanden kulturelle Landschaften (Nutzung, Traditionen, Technik, Wissen)?
 - **Ereignisgeographie**: Kriegsverläufe, Grenzverschiebungen, Kolonisation, Stadtgründungen, Infrastrukturprojekte.
@@ -22,11 +22,11 @@ Die **historische Geographie** untersucht räumliche Veränderungen über Zeit �
 ## Methodik & Quellen
 
 - **Historische Karten** (Landkarten, Stadtpläne, Seekarten) → Vergleich, Rekonstruktion, Digitalisierung.
-- **Akklimatologische Quellen** (Witterungschroniken, Ernteberichte, Seltenheit).
+- **Klimatologische Quellen** (Witterungschroniken, Ernteberichte und historische Messreihen).
 - **Archäologische Befunde** (Siedlungsschichten, Keramik, Werkzeuge, Böden).
 - **Schriftliche Quellen** (Chroniken, Steuerlisten, Inventare, Urkunden).
-- **Mündliche Überlieferung** (Oberlieferung, Erzählungen, Traditionen).
-- **Techniken**: GIS-historiesche Karten, Veränderungserkennung, Kartenüberlagerung, Karteierung historischer Räume.
+- **Mündliche Überlieferung** (Erzählungen und Traditionen).
+- **Methoden:** historische Karten in GIS georeferenzieren und überlagern, Veränderungen erfassen und Räume rekonstruieren.
 
 ## Beispiele für räumlichen Wandel
 
@@ -34,18 +34,18 @@ Die **historische Geographie** untersucht räumliche Veränderungen über Zeit �
 - **Siedlungsentwicklung**: vom Paläolithikum über Neolithikum, Bronzezeit, Mittelalter zu modernen Stadtstrukturen.
 - **Grenzverschiebungen**: Nachkriegsordnungen, Reichsbildungen, Kolonialismus, Dekolonisation, heutige Grenzen.
 - **Meer- und Küstenveränderungen**: Landzungen, Dünengleiten, Küstenveränderungen, Deiche, Landgewinnung.
-- **Gletscher- und Klimageschichte**: Gletschervorstösse, Warm-/Kaltzeiten, Konsequenzen für Siedlung und Landnutzung.
+- **Gletscher- und Klimageschichte:** Gletschervorstöße und Warm- sowie Kaltzeiten im Zusammenhang mit Siedlung und Landnutzung.
 
 ## Bezug zur gegenwärtigen Geographie
 
-- Many heutige Gefahren und Ressourcenverteilungen sind historischer Bedingung fällig (historische Landnutzung, Bodenerosion, Waldgrenze, Siedlungsstruktur).
+- Viele heutige Gefahren und Ressourcenverteilungen sind auch durch frühere Landnutzung, Bodenerosion, Veränderungen der Waldgrenze und Siedlungsentwicklung geprägt.
 - Landschaftswandel und Anthropozän: Mensch als prägender Faktor seit Jahrtausenden.
 - Vulnerabilität und Resilienz: Erkenntnisse aus der historischen Entwicklung helfen bei Anpassungsszenarien.
 
 ## Bildungsplanbezug LK BW
 
-- Bildungsplan 2016 BW LK Geo verbindet das mit vertiefenden Themen: historische Bedingtheit, Zeithorizont als Perspektive.
-- Auch für **Vulnerabilität** und **Processhistorie** relevant (vulkanische Vorfahren, Vergangenheitsbeispiele).
+- Historische Perspektiven helfen, die Entwicklung geografischer Räume und ihre langfristigen Veränderungen zu untersuchen.
+- Sie sind auch für **Vulnerabilität** und Prozessgeschichte relevant, etwa bei der Einordnung früherer Vulkanausbrüche und ihrer Folgen.
 
 ## Verwandte Seiten
 

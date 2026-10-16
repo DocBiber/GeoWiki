@@ -1,7 +1,7 @@
 ---
 title: Raumbeispiele — Flusslandschaften (Geografie LK BW)
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-16
 type: concept
 tags: [raumbeispiele, fluss-raumbeispiele, vulnerabilitaet, wasserhaushalt]
 sources: []
@@ -25,13 +25,13 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Flusslandschaft (mitteleuropäischer Strom) |
-|| Ereignis | Jahrhunderthochwasser August 2002 („Jahrhundertflut") |
-|| Niederschlagsursache | Vb-Wetterlage (Tief „Ilse"/„Carolin"): feuchte Mittelmeerluft staut sich an Alpen/Erzgebirge → extreme Dauerregen (bis 350 mm in 2–3 Tagen) |
-|| Betroffene Länder | Tschechien (Prag, Ústí nad Labem), Österreich, Deutschland (Sachsen, Sachsen-Anhalt: Dresden, Magdeburg, Hitzacker) |
-|| Schäden | ca. 3,3 Mrd. € (damals); Dresden: Elbe-Pegel 9,40 m (höchster Stand seit 1845); Prag: Evakuierung ganzer Stadtteile |
+| Landschaftstyp | Flusslandschaft (mitteleuropäischer Strom) |
+| Ereignis | Jahrhunderthochwasser August 2002 („Jahrhundertflut") |
+| Niederschlagsursache | Vb-Wetterlage (Tief „Ilse"/„Carolin"): feuchte Mittelmeerluft staut sich an Alpen/Erzgebirge → extreme Dauerregen (bis 350 mm in 2–3 Tagen) |
+| Betroffene Länder | Tschechien (Prag, Ústí nad Labem), Österreich, Deutschland (Sachsen, Sachsen-Anhalt: Dresden, Magdeburg, Hitzacker) |
+| Schäden | ca. 3,3 Mrd. € (damals); Dresden: Elbe-Pegel 9,40 m (höchster Stand seit 1845); Prag: Evakuierung ganzer Stadtteile |
 
 ### Flussprozesse und Formen (Hochwasser-Dynamik)
 
@@ -69,12 +69,12 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Flusslandschaft (alpine Flussbiogeozönose, Mittel- und Niederrhein) |
-|| Strecke | Alpenrhein → Bodensee → Hochrhein → Oberrhein → Mittelrhein → Niederrhein → Mündung (Rotterdam) |
-|| Länge | ca. 1.230 km |
-|| Besonderheit | Eine der meistregulierten und meistgenutzten Wasserstraßen der Welt: Schifffahrt (Binnenverkehr EU), Wasserkraft, Trinkwasser, Industrie |
+| Landschaftstyp | Flusslandschaft (alpine Flussbiogeozönose, Mittel- und Niederrhein) |
+| Strecke | Alpenrhein → Bodensee → Hochrhein → Oberrhein → Mittelrhein → Niederrhein → Mündung (Rotterdam) |
+| Länge | ca. 1.230 km |
+| Besonderheit | Eine der meistregulierten und meistgenutzten Wasserstraßen der Welt: Schifffahrt (Binnenverkehr EU), Wasserkraft, Trinkwasser, Industrie |
 
 ### Flussprozesse und Formen (vor und nach der Regulierung)
 
@@ -116,12 +116,12 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Flusslandschaft (Delta, Übergang zum Meer) |
-|| Lage | Mündung ins Schwarze Meer (Rumänien/Ukraine) |
-|| Größe | Größtes zusammenhängendes Feuchtgebiet Europas (ca. 5.800 km², davon 4.150 km² Schutzgebiete) |
-|| Charakteristik | Deltabildung, Mäanderarme (Armsystem Chilia, Sulina, Sfântu Gheorghe), Auen, Seen, Salzmarschen |
+| Landschaftstyp | Flusslandschaft (Delta, Übergang zum Meer) |
+| Lage | Mündung ins Schwarze Meer (Rumänien/Ukraine) |
+| Größe | Größtes zusammenhängendes Feuchtgebiet Europas (ca. 5.800 km², davon 4.150 km² Schutzgebiete) |
+| Charakteristik | Deltabildung, Mäanderarme (Armsystem Chilia, Sulina, Sfântu Gheorghe), Auen, Seen, Salzmarschen |
 
 ### Flussprozesse und Formen
 
@@ -150,7 +150,7 @@ confidence: medium
 
 ## 4. Vergleichstabelle: Fluss-Raumbeispiele
 
-|| Kriterium | Elbe (Hochwasser 2002) | Rhein (Regulierung) | Donau-Delta |
+| Kriterium | Elbe (Hochwasser 2002) | Rhein (Regulierung) | Donau-Delta |
 |---|---|---|---|
 | **Landschaftstyp** | Flussaue, mitteleuropäischer Strom | Regulierter Strom (Aue begradigt) | Delta, Übergangsökosystem |
 | **Hauptprozesse** | Vb-Wetterlage, Hochwasser-Welle, Überschwemmung | Erosion, Sohlenbauwerk, Geschiebestau, Hochwasser-Scheitel | Deltabildung, Überschwemmungspulse, Sedimenttransport |

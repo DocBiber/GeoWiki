@@ -1,7 +1,7 @@
 ---
 title: Globalisierung und Entwicklungen in der Anthroposphäre
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 type: concept
 tags: [globalisierung, anthroposphaere, wirtschaft, raumstruktur, entwicklungen]
 sources: []
@@ -65,7 +65,7 @@ Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — d
 #### Global City
 
 - **Definition**: Städte, die als Knotenpunkte der globalen Wirtschaft, Finanzmärkte, Informationsflüsse und Kultur fungieren (z. B. New York, London, Tokio, Shanghai, Frankfurt)
-- Rolle: Finanzplatz, Kopfhochbetrieb, globale Unternehmen, internationale Organisationen, Kreativwirtschaft; ziehen qualifizierte Arbeitskräfte an
+- Rolle: Finanzplatz, Hauptsitze globaler Unternehmen, internationale Organisationen und Kreativwirtschaft; sie ziehen qualifizierte Arbeitskräfte an.
 
 #### Freihandelszone
 
@@ -91,7 +91,7 @@ Globalisierung verändert die räumliche Gliederung der Welt:
 ### Dezentralisierung und Konzentration zugleich
 
 - **Konzentration**: Global Cities und spezialisierte Cluster (z. B. Tech-Hubs: Silicon Valley, Berlin, London) werden immer wichtiger
-- **Verlagerung**: Produktionsstandorte werden an „gunstige“ Orte (niedrige Löhne, gute Standortfaktoren) verlegt; Verlagerung von Industrie aus Industrieländern in Entwicklungsländer (Outsourcing, offshoring)
+- **Verlagerung**: Produktionsstandorte werden an „günstige“ Orte (zum Beispiel mit niedrigen Löhnen oder passenden Standortfaktoren) verlegt; Produktionsschritte können dabei ins Ausland ausgelagert werden (Outsourcing, Offshoring).
 - **räumliche Fragmentierung**: Einige Regionen profitieren stark (Cluster, Städte), andere verlieren an Bedeutung („left behind“ Regionen)
 
 ### Neue räumliche Muster

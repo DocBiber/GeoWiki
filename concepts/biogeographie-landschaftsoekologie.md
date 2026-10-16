@@ -1,7 +1,7 @@
 ---
 title: "Biogeographie & Landschaftsökologie"
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [biogeographie, landschaftsoekologie, oekosysteme, biose, biom, biodiversitaet, vertikalzonierung, oekologische-gradienten, oekologie, klima, boden, relief]
 sources: []
@@ -41,11 +41,11 @@ confidence: 0.9
 - Mediterrane Gebiete (mediterranes Klima, wintertrocken, Sommerfeuer, angepasste Pflanzengesellschaften).
 - Gemäßigte Laub- und Mischwald (gemäßigtes Klima, vier Jahreszeiten, hoher Nährstoffumsatz).
 - Taiga (subarktischer Nadelwald, kurze Vegetationsperiode, dünne Humusschicht).
-- Tundra (arktisch, kurze Vegetationsperiode, Pergel/Gelifluction, überwiegender Wasserüberschuss durch Permafrost).
+- Tundra (arktisch, kurze Vegetationsperiode, Permafrost und Gelifluktion; häufig vernässte Böden).
 
 ## Biogeographische Gradienten
 
-- **Breitengrad-Gradient:** Zunahme der Biodiversität von Pol zu Äquator (wohlwarme Hypothese, Produktivitäts-Hypothese).
+- **Breitengrad-Gradient:** Die Biodiversität nimmt im Allgemeinen von den Polen zum Äquator zu; als Erklärungen werden unter anderem Klima, Produktivität und die längere ungestörte Entwicklung tropischer Lebensräume diskutiert.
 - **Höhen-Gradient:** Artenvielfalt nimmt mit Höhe typischerweise ab (ähnlich Breitengrad-Gradient, aber mit speziellen Hochland-Anpassungen).
 - **Substrat-Gradient:** Bodenbeschaffenheit, pH-Wert, Nährstoffverfügbarkeit → spezifische Pflanzengesellschaften (z. B. kalkliebend vs. kalkmeidend).
 - **Ozeanisch-Kontinental-Gradient:** Feuchtigkeitsgradient, maritime vs. kontinentale Klimazonen.
@@ -53,22 +53,22 @@ confidence: 0.9
 ## Landschaftsökologische Struktur-Metriken
 
 - **Patch:** räumlich homogene Einheit (z. B. Waldparzelle, Agrarfeld, Siedlungsinsel).
-- **Corridor:** Linear verbindende Struktur (z. B. Bachlauf, Hecken, Waldbrücken, Säume).
+- **Korridor:** lineare Struktur, die Lebensräume verbindet (z. B. Bachläufe, Hecken oder Waldstreifen).
 - **Matrix:** dominierende Umgebung (z. B. landwirtschaftliche Fläche, urbanes Gebiet).
-- **Edge:** Übergangszone zwischen Patches → erhöhte Diversität, microklimatische Effekte, erhöhte Störungsempfindlichkeit.
+- **Randzone:** Übergangsbereich zwischen Habitatflächen; dort können sich Artenzusammensetzung und mikroklimatische Bedingungen ändern.
 - **Fragmentierung:** Zersplitterung von Habitatflächen durch Landnutzung → Inzucht, lokale Ausrottungsrisiken, geringere Resilienz.
 - **Landschaftsindizes:** Patch-Dichte, Konnektivität, Edge-to-Area-Verhältnis, Fragmentierungsindex.
 
 ## Ökologische Dienstleistungen (Ecosystem Services)
 
 - **Versorgungsleistungen:** Nahrung, Wasser, Holz, Pflanzenstoffe.
-- **Regulierungsleistungen:** Klimaregulierung, Wasserfilterung, Bestäubung, Schädlingskontrolle, Hochwassschutz.
+- **Regulierungsleistungen:** Klimaregulierung, Wasserfilterung, Bestäubung, Schädlingskontrolle und Hochwasserschutz.
 - **Kulturelle Leistungen:** Erholung, Bildung, Spiritualität, Tourismus.
 - **Stützende Leistungen:** Bodenbildung, Nährstoffkreisläufe, Primärproduktion.
 
 ## Bezug zum Klimawandel
 
-Klimawandel verschiebt die Verbreitungs-areale, verändert die hieroglyphen-Schichtung, erhöht die Fragmentierung und kann invasive Arten begünstigen. Landschaftsökologie arbeitet an Anpassungsstrategien:
+Der Klimawandel verschiebt Verbreitungsgebiete, verändert die vertikale Struktur von Lebensgemeinschaften und kann invasive Arten begünstigen. Landschaftsökologie untersucht solche Veränderungen und entwickelt Anpassungsstrategien:
 
 - Erhalt von Korridoren und Metapopulations-Habitaten.
 - Wiederherstellung von Ökosystemen (Restaurierung, Renaturierung).
@@ -76,8 +76,8 @@ Klimawandel verschiebt die Verbreitungs-areale, verändert die hieroglyphen-Schi
 
 ## Bezug LK BW – Bildungsplan
 
-- Bildungsplan 2016 BW LK Geo 3.5.3.1 (Atmosphäre/Klima mit ökologischen Auswirkungen).
-- 3.5.2.5 (Ökosysteme/Vulnerabilität).
+- Bildungsplan 2016 BW LK Geo 3.5.2.4 (Wirkungszusammenhänge in der Biosphäre).
+- 3.5.3.2 (Klimawandel) und 3.5.2.5 (Pedosphäre) bei den jeweiligen thematischen Bezügen.
 - Bezug zu Globalisierungsfolgen (Habitatsverlust, Invasionswellen).
 
 ## Verwandte Seiten

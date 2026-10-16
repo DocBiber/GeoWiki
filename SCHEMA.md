@@ -62,23 +62,17 @@ folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen 
 - methodik — Kartennutzung, Analyse, Modellbildung
 - skizzen — Zeichenvorlagen für Abitur/Prüfung
 - uebung — Übungsaufgaben, Kompetenzstufen
-- vulkan-raumbeispiele — Vulkanraum-Beispiele (Vesuv, Kilauea, Laacher See, Eyafjöll)
+- vulkan-raumbeispiele — Vulkanraum-Beispiele (Vesuv, Kīlauea, Laacher See, Eyjafjallajökull)
 - glazial-raumbeispiele — Glazialraum-Beispiele (Alpen, Norddeutschland, Island)
 - fluss-raumbeispiele — Flussraum-Beispiele (Elbe-Hochwasser 2002, Rhein-Regulierung, Donaudelta)
 - kuesten-raumbeispiele — Küstenraum-Beispiele (Nordsee-Sturmflut, Sylt, Ostsee-Steilküste, Deltawerke)
 
 ### Entitätstypen
-- vulkan — ein Vulkan / Vulkanismo-Objekt
-- gletscher — ein Gletscher / Eisform
-- landschaft — Landschaftstyp (vulkanisch, glazial, kÜstennah etc.)
-- modell — konzeptionelles Modell (z.B. BBC, Risiko-Rahmen)
-- aufgabe — Abitur- oder Übungsaufgabe
-
-### Entitätstypen
-- vulkan — ein Vulkan / Vulkanismo-Objekt
+- vulkan — ein Vulkan / Vulkanobjekt
 - gletscher — ein Gletscher / Eisform
 - landschaft — Landschaftstyp (vulkanisch, glazial, küstennah etc.)
 - modell — konzeptionelles Modell (z.B. BBC, Risiko-Rahmen)
+- aufgabe — Abitur- oder Übungsaufgabe
 
 ## Seiten-Grenzen
 - Seite erstellen, wenn Entität/Konzept in 2+ Quellen vorkommt ODER zentrale Bedeutung hat.
@@ -87,7 +81,7 @@ folgende Tags dürfen verwendet werden. Neue Tags müssen hier erst eingetragen 
 - Seite archivieren, wenn outdated: nach `_archive/` verschieben, aus Index entfernen.
 
 ## Entity-Seiten
-je Entität: Überblick, Kernfakten/Daten, Beziehungen zu anderen Entitäten ([[wikilink]]), Quellen.
+je Entität: Überblick, Kernfakten/Daten, Beziehungen zu anderen Entitäten (`[[wikilink]]`), Quellen.
 
 ## Konzept-Seiten
 je Konzept: Definition, Erklärung, aktueller Wissensstand, offene Fragen, verwandte Konzepte.
