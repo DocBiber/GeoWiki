@@ -1,26 +1,111 @@
-<svg viewBox="0 0 640 310" role="img" aria-labelledby="wg-t" xmlns="http://www.w3.org/2000/svg">
-  <title id="wg-t">Wirkungsgefüge: Elemente mit verstärkenden (+) und abschwächenden (–) Beziehungen und Rückkopplung</title>
-  <rect width="640" height="310" fill="#f8fafc" class="sk-sky"/>
+<svg viewBox="0 0 960 600" role="img" aria-labelledby="wg-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="wg-t">Wirkungsgefüge: Ursachen sowie ökologische und soziale Folgen des Massentourismus in Venedig</title>
+  <rect width="960" height="600" fill="#f8fafc" class="sk-sky"/>
   <defs><marker id="wg-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#334155"/></marker></defs>
-  <g fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#wg-a)">
-    <path d="M222 70 L318 70"/><path d="M400 90 L440 130"/><path d="M430 180 C400 220 330 220 300 200"/>
-    <path d="M200 180 C170 150 160 120 160 100"/>
+  <text class="sk-t" x="480" y="24" text-anchor="middle">Ursachen und Folgen des Massentourismus in Venedig</text>
+  <g fill="none" stroke="#334155" stroke-width="1.8" marker-end="url(#wg-a)">
+    <path d="M120 94 L300 138"/>
+    <path d="M640 62 L520 138"/>
+    <path d="M410 84 L410 120"/>
+    <path d="M410 156 L410 190"/>
+    <path d="M520 138 L545 157"/>
+    <path d="M608 125 L705 130"/>
+    <path d="M608 189 L705 181"/>
+    <path d="M818 152 L818 232"/>
+    <path d="M818 198 L818 232"/>
+    <path d="M705 250 L670 250"/>
+    <path d="M545 250 L520 288"/>
+    <path d="M818 268 L818 300"/>
+    <path d="M818 336 L810 368"/>
+    <path d="M410 226 L120 262"/>
+    <path d="M120 298 L120 318"/>
+    <path d="M120 362 L120 380"/>
+    <path d="M410 226 L315 262"/>
+    <path d="M410 226 L459 262"/>
+    <path d="M315 314 L382 380"/>
+    <path d="M459 314 L382 380"/>
+    <path d="M120 416 L270 450"/>
+    <path d="M382 416 L270 450"/>
+    <path d="M270 490 L300 550"/>
+    <path d="M810 412 L630 550"/>
+    <path d="M300 138 L286 138 L286 62 L300 62"/>
   </g>
-  <g fill="none" stroke-width="2.5" stroke-dasharray="7 8" stroke-linecap="round" class="sk-flow" stroke="#38bdf8">
-    <path d="M222 70 L318 70"/><path d="M400 90 L440 130"/><path d="M430 180 C400 220 330 220 300 200"/><path d="M200 180 C170 150 160 120 160 100"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="6 9" stroke-linecap="round" class="sk-flow">
+    <path d="M120 94 L300 138"/>
+    <path d="M640 62 L520 138"/>
+    <path d="M410 84 L410 120"/>
+    <path d="M410 156 L410 190"/>
+    <path d="M520 138 L545 157"/>
+    <path d="M608 125 L705 130"/>
+    <path d="M608 189 L705 181"/>
+    <path d="M818 152 L818 232"/>
+    <path d="M818 198 L818 232"/>
+    <path d="M705 250 L670 250"/>
+    <path d="M545 250 L520 288"/>
+    <path d="M818 268 L818 300"/>
+    <path d="M818 336 L810 368"/>
+    <path d="M410 226 L120 262"/>
+    <path d="M120 298 L120 318"/>
+    <path d="M120 362 L120 380"/>
+    <path d="M410 226 L315 262"/>
+    <path d="M410 226 L459 262"/>
+    <path d="M315 314 L382 380"/>
+    <path d="M459 314 L382 380"/>
+    <path d="M120 416 L270 450"/>
+    <path d="M382 416 L270 450"/>
+    <path d="M270 490 L300 550"/>
+    <path d="M810 412 L630 550"/>
+    <path d="M300 138 L286 138 L286 62 L300 62"/>
   </g>
-  <g stroke-width="2">
-    <rect x="80" y="50" width="140" height="48" rx="12" fill="#dbeafe" stroke="#2563eb"/>
-    <rect x="320" y="50" width="80" height="48" rx="12" fill="#fee2e2" stroke="#dc2626"/>
-    <rect x="410" y="130" width="140" height="48" rx="12" fill="#fef3c7" stroke="#d97706"/>
-    <rect x="160" y="180" width="140" height="48" rx="12" fill="#dcfce7" stroke="#16a34a"/>
-  </g>
-  <g class="sk-t" text-anchor="middle"><text x="150" y="80">Landflucht</text><text x="360" y="80">Stadt-</text><text x="480" y="160">Wohnraum-</text><text x="230" y="210">Infrastruktur</text></g>
-  <g class="sk-s" text-anchor="middle" style="font-size:16px;font-weight:700"><text x="360" y="92" style="font-size:12px;font-weight:400">wachstum</text><text x="480" y="174" style="font-size:12px;font-weight:400">mangel</text><text x="270" y="86">+</text><text x="440" y="106">+</text><text x="352" y="228">–</text><text x="168" y="148">+</text></g>
-  <g>
-    <text class="sk-t" x="30" y="262">Wirkungsgefüge erstellen:</text>
-    <text class="sk-s" x="30" y="280">Elemente sammeln, Pfeile mit „+“ (verstärkt) / „–“ (schwächt) beschriften,</text>
-    <text class="sk-s" x="30" y="296">Kreisläufe (Rückkopplungen) erkennen und benennen.</text>
-    
-  </g>
+  <rect x="20" y="50" width="200" height="44" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="120.0" y="68" text-anchor="middle" style="stroke:none">attraktive Lage</text>
+  <text class="sk-s" x="120.0" y="84" text-anchor="middle" style="stroke:none">in einer Lagune</text>
+  <rect x="300" y="40" width="220" height="44" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="410.0" y="58" text-anchor="middle" style="stroke:none">Ausbau der</text>
+  <text class="sk-s" x="410.0" y="74" text-anchor="middle" style="stroke:none">Tourismusinfrastruktur</text>
+  <rect x="640" y="40" width="290" height="44" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="785.0" y="58" text-anchor="middle" style="stroke:none">attraktive Sehenswürdigkeiten mit</text>
+  <text class="sk-s" x="785.0" y="74" text-anchor="middle" style="stroke:none">ursprünglicher Kultur</text>
+  <rect x="300" y="120" width="220" height="36" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="410.0" y="142" text-anchor="middle" style="stroke:none">steigende Touristenzahlen</text>
+  <rect x="300" y="190" width="220" height="36" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="410.0" y="212" text-anchor="middle" style="stroke:none">Massentourismus</text>
+  <rect x="545" y="125" width="125" height="64" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="607.5" y="154" text-anchor="middle" style="stroke:none">mehr Angebote</text>
+  <text class="sk-s" x="607.5" y="168" text-anchor="middle" style="stroke:none">für Touristen</text>
+  <rect x="705" y="108" width="225" height="44" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="817.5" y="126" text-anchor="middle" style="stroke:none">weniger Infrastruktur</text>
+  <text class="sk-s" x="817.5" y="142" text-anchor="middle" style="stroke:none">für Einheimische</text>
+  <rect x="705" y="164" width="225" height="34" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="817.5" y="185" text-anchor="middle" style="stroke:none">steigende Mieten</text>
+  <rect x="705" y="232" width="225" height="36" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="817.5" y="254" text-anchor="middle" style="stroke:none">Wegzug der Einheimischen</text>
+  <rect x="545" y="226" width="125" height="48" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="607.5" y="246" text-anchor="middle" style="stroke:none">erhöhtes</text>
+  <text class="sk-s" x="607.5" y="262" text-anchor="middle" style="stroke:none">Pendleraufkommen</text>
+  <rect x="705" y="300" width="225" height="36" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="817.5" y="322" text-anchor="middle" style="stroke:none">Akkulturation</text>
+  <rect x="690" y="368" width="240" height="44" rx="6" fill="#fef3c7" stroke="#d97706" stroke-width="1.8"/>
+  <text class="sk-s" x="810.0" y="386" text-anchor="middle" style="stroke:none">mögliche Konflikte zwischen</text>
+  <text class="sk-s" x="810.0" y="402" text-anchor="middle" style="stroke:none">Touristen und Bewohnern</text>
+  <rect x="20" y="262" width="200" height="36" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="120.0" y="284" text-anchor="middle" style="stroke:none">erhöhter Wasserverbrauch</text>
+  <rect x="20" y="318" width="200" height="44" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="120.0" y="336" text-anchor="middle" style="stroke:none">sinkender</text>
+  <text class="sk-s" x="120.0" y="352" text-anchor="middle" style="stroke:none">Grundwasserspiegel</text>
+  <rect x="20" y="380" width="200" height="36" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="120.0" y="402" text-anchor="middle" style="stroke:none">Absinken der Sedimente</text>
+  <rect x="245" y="262" width="140" height="52" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="315.0" y="284" text-anchor="middle" style="stroke:none">Zunahme Müll-</text>
+  <text class="sk-s" x="315.0" y="300" text-anchor="middle" style="stroke:none">aufkommen, Abwasser</text>
+  <rect x="398" y="262" width="122" height="52" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="459.0" y="284" text-anchor="middle" style="stroke:none">Zunahme Verkehr</text>
+  <text class="sk-s" x="459.0" y="300" text-anchor="middle" style="stroke:none">und Lärm</text>
+  <rect x="245" y="380" width="275" height="36" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="382.5" y="402" text-anchor="middle" style="stroke:none">Verschmutzung der Lagune</text>
+  <rect x="20" y="450" width="500" height="40" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+  <text class="sk-s" x="270.0" y="474" text-anchor="middle" style="stroke:none">Gefährdung des Ökosystems</text>
+  <rect x="300" y="530" width="330" height="40" rx="6" fill="#e2e8f0" stroke="#475569" stroke-width="1.8"/>
+  <text class="sk-s" x="465.0" y="554" text-anchor="middle" style="stroke:none">geringere Attraktivität für Touristen</text>
+  <text class="sk-t" x="20" y="594" style="stroke:none">ÖKOLOGISCH</text><text class="sk-t" x="940" y="594" text-anchor="end" style="stroke:none">SOZIAL</text>
 </svg>

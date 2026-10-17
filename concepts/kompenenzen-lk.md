@@ -104,7 +104,7 @@ Das ZPG-Geographie-Angebot des LMZ BW (Fortbildung „Kompetenzorientierte Unter
 3. Rückkopplungen (Kreisläufe, verstärkend oder ausgleichend) erkennen und benennen.
 4. Das Gefüge in einem Text erläutern und bewerten.
 
-{{skizze:wirkungsgefuege|Wirkungsgefüge am Beispiel der Verstädterung mit Rückkopplung.}}
+{{skizze:wirkungsgefuege|Komplexes Wirkungsgefüge: Ursachen sowie ökologische und soziale Folgen des Massentourismus in Venedig (verstärkende Rückkopplung beim Ausbau der Infrastruktur, am Ende sinkende Attraktivität).}}
 
 #### Darstellen in einer Analysespinne
 
