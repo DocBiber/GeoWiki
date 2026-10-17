@@ -277,14 +277,28 @@ def md_to_html(body, known_slugs, page_title):
             i += 1
             continue
 
-        m_sk = re.fullmatch(r'\{\{skizze:([a-z0-9-]+)(?:\|(.*))?\}\}', stripped)
+        m_sk = re.fullmatch(r'\{\{skizze:([^|}]+)(?:\|(.*))?\}\}', stripped)
         if m_sk:
             close_list()
-            svg_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "skizzen", m_sk.group(1) + ".svg")
-            with open(svg_path, encoding="utf-8") as fh:
-                svg = fh.read().strip()
+            base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "skizzen")
+            parts = [p.strip() for p in m_sk.group(1).split("+")]
+            views = []
+            for p in parts:
+                name, _, label = p.partition(":")
+                with open(os.path.join(base, name + ".svg"), encoding="utf-8") as fh:
+                    views.append((label or name, fh.read().strip()))
             cap = f"<figcaption>{inline(m_sk.group(2), known_slugs)}</figcaption>" if m_sk.group(2) else ""
-            out.append(f'<figure class="skizze">{svg}{cap}</figure>')
+            if len(views) == 1:
+                out.append(f'<figure class="skizze">{views[0][1]}{cap}</figure>')
+            else:
+                tabs = "".join(
+                    f'<button type="button" role="tab" class="sk-tab{" is-active" if n == 0 else ""}" data-view="{n}">{html.escape(lab)}</button>'
+                    for n, (lab, _) in enumerate(views)
+                )
+                body = "".join(
+                    f'<div class="sk-view{" is-active" if n == 0 else ""}">{svg}</div>' for n, (_, svg) in enumerate(views)
+                )
+                out.append(f'<figure class="skizze skizze-multi"><div class="sk-tabs" role="tablist">{tabs}</div>{body}{cap}</figure>')
             i += 1
             continue
 

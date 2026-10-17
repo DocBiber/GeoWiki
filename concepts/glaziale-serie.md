@@ -28,7 +28,7 @@ Vereinfacht folgt auf das Inlandeis zunächst das Zungenbecken, dann die Endmor�
 Sander und schließlich das Urstromtal. Der tatsächliche Verlauf kann örtlich davon
 abweichen.
 
-{{skizze:glazial-serie|Von links nach rechts: Inlandeis, Zungenbecken, Endmoräne, Sander, Urstromtal.}}
+{{skizze:glazial-serie:Seitenansicht+glazial-draufsicht:Vogelperspektive|Glaziale Serie: Seitenansicht (links Inlandeis, rechts Urstromtal) und Vogelperspektive.}}
 
 ### 1. Zungenbecken
 

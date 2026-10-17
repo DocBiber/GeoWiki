@@ -83,6 +83,10 @@ Eruptionsstile im Überblick (Details in [[vulkanprozesse]]):
 
 ## Vulkanformen (Formen-Typen)
 
+{{skizze:vulkanformen|Vulkanformen im Vergleich: Schlackenkegel, Lavadom, Schildvulkan, Schichtvulkan, Caldera.}}
+
+{{skizze:vulkanbau|Aufbau eines Schichtvulkans: Magmakammer, Hauptschlot, Nebenschlot, Lagergang, Gang.}}
+
 **Grundformen** (im Bildungsplan LK erwähnt):
 
 - **Schichtvulkan (Stratovulkan):** Aufbau aus abwechselnden Lava- und Tephra-Schichten,

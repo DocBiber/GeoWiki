@@ -695,6 +695,12 @@ html.geomap-wide-on { scroll-padding-top: calc(56px + var(--geomap-wide-h, 45vh)
 .skizze figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); }
 .skizze .sk-replay { position: absolute; top: 18px; right: 18px; z-index: 2; padding: 3px 10px; font: 600 12px var(--font); color: var(--accent-ink); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; opacity: .85; }
 .skizze .sk-replay:hover { opacity: 1; }
+.skizze .sk-view { display: none; }
+.skizze .sk-view.is-active { display: block; }
+.skizze .sk-tabs { display: flex; gap: 6px; margin: 0 0 10px; padding-right: 110px; flex-wrap: wrap; }
+.skizze .sk-tab { padding: 4px 12px; font: 600 12.5px var(--font); color: var(--muted); background: transparent; border: 1px solid var(--border); border-radius: 999px; cursor: pointer; }
+.skizze .sk-tab:hover { color: var(--accent-ink); }
+.skizze .sk-tab.is-active { color: var(--accent-ink); background: var(--accent-soft); }
 .skizze svg text { font-family: var(--font); }
 .skizze .sk-t { fill: #1f2937; font-size: 13px; font-weight: 700; paint-order: stroke; stroke: rgba(255, 255, 255, .85); stroke-width: 3.5px; stroke-linejoin: round; }
 .skizze .sk-s { fill: #374151; font-size: 12px; font-weight: 500; paint-order: stroke; stroke: rgba(255, 255, 255, .85); stroke-width: 3px; stroke-linejoin: round; }

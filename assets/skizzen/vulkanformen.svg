@@ -1,0 +1,53 @@
+<svg viewBox="0 0 640 270" role="img" aria-labelledby="vf-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="vf-t">Vulkanformen im Vergleich: Schlackenkegel, Lavadom, Schildvulkan, Schichtvulkan und Caldera</title>
+  <defs>
+    <linearGradient id="vf-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+  </defs>
+  <rect width="640" height="270" fill="url(#vf-sky)" class="sk-sky"/>
+  <rect y="200" width="640" height="70" fill="#8d7b68"/>
+  <line x1="0" y1="200" x2="640" y2="200" stroke="#3f342b" stroke-width="2"/>
+  <g stroke="#fff" stroke-opacity=".55" stroke-dasharray="3 5"><line x1="104" y1="30" x2="104" y2="262"/><line x1="203" y1="30" x2="203" y2="262"/><line x1="352" y1="30" x2="352" y2="262"/><line x1="486" y1="30" x2="486" y2="262"/></g>
+
+  <!-- 1 Schlackenkegel -->
+  <path d="M24 200 L58 146 L68 146 L102 200 Z" fill="#6b4a3a" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <g fill="#8c5e46"><circle cx="46" cy="172" r="2"/><circle cx="62" cy="168" r="2"/><circle cx="76" cy="182" r="2"/><circle cx="54" cy="188" r="2"/></g>
+  <ellipse cx="63" cy="147" rx="7" ry="3" fill="#ffb84d" class="sk-glow"/>
+  <g fill="#ffb84d"><circle class="sk-spark" cx="61" cy="143" r="2.4" style="animation-delay:0s"/><circle class="sk-spark" cx="65" cy="143" r="2" style="animation-delay:.8s"/><circle class="sk-spark" cx="63" cy="143" r="2.2" style="animation-delay:1.5s"/></g>
+
+  <!-- 2 Lavadom -->
+  <path d="M112 200 C112 140 140 124 158 124 C176 124 202 140 202 200 Z" fill="#7d7b7a" stroke="#3f342b" stroke-width="2" class="sk-pulse"/>
+  <g fill="none" stroke="#5a5958" stroke-width="1.4"><path d="M134 200 C134 160 146 140 158 134"/><path d="M158 200 C158 164 158 150 158 134"/><path d="M182 200 C182 160 172 142 160 134"/></g>
+  <g class="sk-ash"><circle cx="158" cy="118" r="7" fill="#9ca3af"/></g>
+
+  <!-- 3 Schildvulkan -->
+  <path d="M206 200 C240 197 262 178 278 170 L284 170 C298 178 322 197 350 200 Z" fill="#6f6158" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <path class="sk-flow" d="M284 171 C310 180 330 192 344 199" fill="none" stroke="#ffd166" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M278 171 C254 180 232 192 212 199" fill="none" stroke="#ff6a3d" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <path class="sk-flow" d="M278 171 C254 180 232 192 212 199" fill="none" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="281" cy="170" rx="6" ry="2.5" fill="#ffb84d" class="sk-glow"/>
+
+  <!-- 4 Schichtvulkan -->
+  <path d="M356 200 C392 196 408 150 414 96 L430 96 C436 150 452 196 482 200 Z" fill="#5d5049" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <g stroke="#9a8573" stroke-width="5" fill="none" opacity=".9"><path d="M372 192 C396 186 410 150 413 112" /><path d="M392 196 C404 186 416 150 419 120"/><path d="M466 196 C452 186 438 150 433 118"/></g>
+  <path d="M414 96 L422 104 L430 96" fill="#ff6a3d"/>
+  <ellipse cx="422" cy="96" rx="9" ry="3" fill="#ffb84d" class="sk-glow"/>
+  <g class="sk-ash"><circle cx="422" cy="88" r="9" fill="#9ca3af"/></g>
+  <g class="sk-ash" style="animation-delay:2.5s"><circle cx="422" cy="88" r="8" fill="#9ca3af"/></g>
+
+  <!-- 5 Caldera -->
+  <path d="M492 200 C516 192 534 160 544 140 L556 140 L572 150 L584 150 L596 140 L606 140 C614 160 626 194 636 200 Z" fill="#6b5a4d" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M556 140 L572 150 L584 150 L596 140 Z" fill="#4aa3df" class="sk-lake"/>
+  <path d="M572 150 L572 190 M584 150 L584 190" stroke="#ff6a3d" stroke-width="3" stroke-dasharray="3 3" opacity=".7"/>
+
+  <g class="sk-t" text-anchor="middle" style="font-size:12.5px">
+    <text x="63" y="222">Schlackenkegel</text><text x="157" y="222">Lavadom</text><text x="278" y="222">Schildvulkan</text><text x="419" y="222">Schichtvulkan</text><text x="564" y="222">Caldera</text>
+  </g>
+  <g class="sk-s" text-anchor="middle" style="font-size:10.5px">
+    <text x="63" y="238">Tephra, steil</text><text x="63" y="251">klein</text>
+    <text x="157" y="238">zähe Lava</text><text x="157" y="251">staut sich</text>
+    <text x="278" y="238">dünnflüssig</text><text x="278" y="251">2–10° Neigung</text>
+    <text x="419" y="238">Lava + Tephra</text><text x="419" y="251">30–35° Neigung</text>
+    <text x="564" y="238">Einsturz über</text><text x="564" y="251">der Magmakammer</text>
+  </g>
+  <text class="sk-s" x="12" y="24" style="font-size:11px">Höhen nicht maßstäblich, schematische Umrisse</text>
+</svg>

@@ -42,12 +42,19 @@
       b.textContent = "↻ Animation";
       b.title = "Animation neu starten";
       b.addEventListener("click", function () {
-        var svg = f.querySelector("svg");
+        var svg = f.querySelector(".sk-view.is-active svg") || f.querySelector("svg");
         var p = svg.parentNode;
         p.removeChild(svg);
         void p.offsetWidth;
         p.insertBefore(svg, p.firstChild);
         f.classList.add("is-visible");
+      });
+      f.querySelectorAll(".sk-tab").forEach(function (t) {
+        t.addEventListener("click", function () {
+          var n = t.getAttribute("data-view");
+          f.querySelectorAll(".sk-tab").forEach(function (x) { x.classList.toggle("is-active", x === t); });
+          f.querySelectorAll(".sk-view").forEach(function (v, k) { v.classList.toggle("is-active", String(k) === n); });
+        });
       });
       f.appendChild(b);
       if (io) io.observe(f); else f.classList.add("is-visible");
