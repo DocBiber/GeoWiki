@@ -1009,3 +1009,13 @@ html.geomap-wide-on { scroll-padding-top: calc(56px + var(--geomap-wide-h, 45vh)
 
 .sk-grow { animation: sk-grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
 @keyframes sk-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+.sk-float { animation: sk-float 3.6s ease-in-out infinite alternate; }
+@keyframes sk-float { from { transform: translateY(0); } to { transform: translateY(-7px); } }
+
+/* Startseite: Weltkugel */
+.hero-with-globe { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.hero-with-globe .hero-text { flex: 1 1 auto; min-width: 0; }
+.hero-with-globe .globe { flex: 0 0 auto; width: 230px; height: 230px; cursor: grab; touch-action: pan-y; }
+.hero-with-globe .globe:active { cursor: grabbing; }
+@media (max-width: 760px) { .hero-with-globe { flex-direction: column-reverse; align-items: flex-start; } .hero-with-globe .globe { width: 170px; height: 170px; align-self: center; } }

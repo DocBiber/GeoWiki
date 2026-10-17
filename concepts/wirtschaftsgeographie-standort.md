@@ -43,6 +43,8 @@ Zwei Hauptrichtungen:
 
 ## Schwerpunkte der Wirtschaftsgeographie
 
+{{skizze:drei-sektoren|Drei-Sektoren-Modell nach Fourastié: Der Schwerpunkt der Beschäftigung verlagert sich vom primären über den sekundären zum tertiären Sektor.}}
+
 ### 1. Primärsektor
 
 - Landwirtschaft: Standortfaktoren (Klima, Boden, Wasser, Marktnähe, Subventionen).

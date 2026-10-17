@@ -1,0 +1,20 @@
+<svg viewBox="0 0 640 280" role="img" aria-labelledby="hw-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="hw-t">Flussquerschnitt: Normalwasser, Hochwasser, Aue und Deich</title>
+  <rect width="640" height="280" fill="#e0f2fe" class="sk-sky"/>
+  <path d="M0 160 L170 160 L230 215 L330 215 L390 160 L470 160 L470 120 L520 120 L560 160 L640 160 L640 280 L0 280 Z" fill="#a16207" stroke="#78350f" stroke-width="2"/>
+  <path d="M0 160 L170 160 L230 215 L330 215 L390 160 L470 160" fill="none" stroke="#65a30d" stroke-width="5"/>
+  <path d="M470 160 L470 120 L520 120 L560 160 L640 160" fill="none" stroke="#65a30d" stroke-width="5"/>
+  <path d="M232 217 L328 217 L390 160 L390 140 L170 140 L170 160 Z" fill="#38bdf8" opacity=".7"/>
+  <path d="M170 140 L390 140" stroke="#0369a1" stroke-width="3" stroke-dasharray="8 6"/>
+  <g fill="#7f1d1d">
+    <rect x="70" y="128" width="26" height="32"/><path d="M66 128 L83 112 L100 128 Z"/>
+    <rect x="590" y="130" width="26" height="30"/><path d="M586 130 L603 114 L620 130 Z"/>
+  </g>
+  <g class="sk-wave" fill="none" stroke="#fff" stroke-width="2"><path d="M246 200 q10 -6 20 0 t20 0 t20 0"/></g>
+  <text x="280" y="248" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Flussbett</text>
+  <text class="sk-t" x="280" y="124" text-anchor="middle" style="stroke:none">Hochwasser überflutet die Aue</text>
+  <text class="sk-s" x="60" y="190" style="stroke:none">Aue (Überflutungsfläche)</text>
+  <text class="sk-s" x="480" y="108">Deich schützt Siedlung</text>
+  <text class="sk-s" x="20" y="30">Hazard: Hochwasser | Vulnerabilität: Bebauung in der Aue</text>
+  <text class="sk-s" x="20" y="48">Resilienz: Rückhalteflächen, Deichrückverlegung, Frühwarnung</text>
+</svg>

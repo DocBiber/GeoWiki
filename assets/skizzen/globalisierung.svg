@@ -1,0 +1,42 @@
+<svg viewBox="0 0 640 320" role="img" aria-labelledby="gl-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="gl-t">Globalisierung: Ströme von Waren, Kapital, Daten und Menschen verbinden Weltregionen</title>
+  <rect width="640" height="320" fill="#f8fafc" class="sk-sky"/>
+  <ellipse cx="210" cy="160" rx="196" ry="136" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+  <g fill="#86efac" stroke="#16a34a" stroke-width="1.5">
+    <ellipse cx="90" cy="110" rx="42" ry="30"/><ellipse cx="228" cy="86" rx="34" ry="24"/>
+    <ellipse cx="238" cy="190" rx="30" ry="42"/><ellipse cx="340" cy="120" rx="46" ry="32"/>
+    <ellipse cx="136" cy="222" rx="24" ry="36"/><ellipse cx="344" cy="224" rx="26" ry="18"/>
+  </g>
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M90 110 C130 50 190 50 228 86" stroke="#2563eb"/>
+    <path d="M228 86 C260 70 300 80 340 120" stroke="#dc2626"/>
+    <path d="M90 110 C60 190 90 230 136 222" stroke="#7c3aed"/>
+    <path d="M340 120 C340 170 300 200 238 190" stroke="#2563eb"/>
+    <path d="M238 190 C200 240 160 240 136 222" stroke="#dc2626"/>
+    <path d="M90 110 C150 160 250 160 340 120" stroke="#7c3aed"/>
+    <path d="M340 120 C360 160 360 190 344 224" stroke="#d97706"/>
+    <path d="M228 86 C230 120 236 150 238 190" stroke="#d97706"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6 9" stroke-linecap="round" class="sk-flow">
+    <path d="M90 110 C130 50 190 50 228 86"/><path d="M228 86 C260 70 300 80 340 120"/>
+    <path d="M90 110 C60 190 90 230 136 222"/><path d="M340 120 C340 170 300 200 238 190"/>
+    <path d="M238 190 C200 240 160 240 136 222"/><path d="M90 110 C150 160 250 160 340 120"/>
+    <path d="M340 120 C360 160 360 190 344 224"/><path d="M228 86 C230 120 236 150 238 190"/>
+  </g>
+  <g class="sk-pulse" fill="#1e293b">
+    <circle cx="90" cy="110" r="5"/><circle cx="228" cy="86" r="5"/><circle cx="238" cy="190" r="5"/>
+    <circle cx="340" cy="120" r="5"/><circle cx="136" cy="222" r="5"/><circle cx="344" cy="224" r="5"/>
+  </g>
+  <text class="sk-s" x="52" y="150">Nordamerika</text><text class="sk-s" x="200" y="62">Europa</text>
+  <text class="sk-s" x="252" y="214">Afrika</text><text class="sk-s" x="318" y="100">Ostasien</text>
+  <text class="sk-s" x="86" y="262">Südamerika</text><text class="sk-s" x="316" y="258">Ozeanien</text>
+  <g>
+    <text class="sk-t" x="446" y="60">Verflechtungen</text>
+    <rect x="446" y="76" width="14" height="14" rx="3" fill="#2563eb"/><text class="sk-s" x="468" y="88">Waren (Handel)</text>
+    <rect x="446" y="104" width="14" height="14" rx="3" fill="#dc2626"/><text class="sk-s" x="468" y="116">Kapital (Investitionen)</text>
+    <rect x="446" y="132" width="14" height="14" rx="3" fill="#7c3aed"/><text class="sk-s" x="468" y="144">Daten, Informationen</text>
+    <rect x="446" y="160" width="14" height="14" rx="3" fill="#d97706"/><text class="sk-s" x="468" y="172">Menschen (Migration)</text>
+    <text class="sk-t" x="446" y="214">Treiber</text>
+    <text class="sk-s" x="446" y="232">Transport- und Kommunikations-</text><text class="sk-s" x="446" y="248">technik, Handelsliberalisierung,</text><text class="sk-s" x="446" y="264">Standortwettbewerb</text>
+  </g>
+</svg>

@@ -22,6 +22,8 @@ nachhaltigen Ansatz**: Sozial, Ökonomisch, ökologisch (S-O-K).
 
 ## Drei Ebenen von Resilienz-Maßnahmen
 
+{{skizze:katastrophenzyklus|Katastrophenzyklus: Maßnahmen der Vorsorge verringern die Verwundbarkeit beim nächsten Ereignis.}}
+
 ### 1. Gefahren-Reduzierung (hazard reduction) / Gefahrenvermeidung
 
 - **räumliche Planung:** gefährdete Gebiete identifizieren (Risikokarten, Gefahrenzonen);

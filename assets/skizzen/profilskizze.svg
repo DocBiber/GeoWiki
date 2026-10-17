@@ -1,0 +1,18 @@
+<svg viewBox="0 0 640 300" role="img" aria-labelledby="pf-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="pf-t">Kommentierte Profilskizze mit Legende: Höhenprofil eines Gebirges mit Beschriftungen</title>
+  <rect width="640" height="300" fill="#f8fafc" class="sk-sky"/>
+  <path d="M40 40 L40 230 L440 230" fill="none" stroke="#475569" stroke-width="2"/>
+  <g class="sk-s"><text x="44" y="34">Höhe (m)</text><text x="380" y="250">Entfernung (km)</text><text x="14" y="232">0</text><text x="8" y="136">1000</text></g>
+  <path d="M40 200 C90 190 120 150 170 110 C200 84 220 70 250 90 C290 120 320 170 360 190 C390 204 420 210 440 214 L440 230 L40 230 Z" fill="#a3e635" stroke="#4d7c0f" stroke-width="2.5" class="sk-draw" pathLength="1"/>
+  <path d="M232 76 C242 70 250 78 258 94 L228 94 Z" fill="#fff" stroke="#94a3b8"/>
+  <g stroke="#475569" stroke-width="1.5" fill="none"><path d="M120 160 L96 70"/><path d="M245 80 L280 50"/><path d="M355 192 L378 150"/></g>
+  <g class="sk-s"><text x="62" y="62">① Waldgrenze</text><text x="258" y="46">② Gipfel (Schnee)</text><text x="340" y="140">③ Talsiedlung</text></g>
+  <g>
+    <rect x="470" y="40" width="150" height="150" rx="10" fill="#fff" stroke="#cbd5e1"/>
+    <text class="sk-t" x="482" y="62">Legende</text>
+    <rect x="482" y="76" width="14" height="14" fill="#a3e635" stroke="#4d7c0f"/><text class="sk-s" x="504" y="88">Vegetation</text>
+    <rect x="482" y="98" width="14" height="14" fill="#fff" stroke="#94a3b8"/><text class="sk-s" x="504" y="110">Schnee / Eis</text>
+    <text class="sk-s" x="482" y="134">①–③ Beschriftung</text><text class="sk-s" x="482" y="152">Titel, Maßstab,</text><text class="sk-s" x="482" y="168">Überhöhung angeben</text>
+  </g>
+  <text class="sk-s" x="40" y="278">Schritte: Linie wählen, Höhen abtragen, Profil zeichnen, Objekte beschriften, Legende und Titel ergänzen.</text>
+</svg>

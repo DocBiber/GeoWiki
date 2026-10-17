@@ -1,0 +1,20 @@
+<svg viewBox="0 0 640 290" role="img" aria-labelledby="ds-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="ds-t">Drei-Sektoren-Modell nach Fourastié: Anteil der Erwerbstätigen im primären, sekundären und tertiären Sektor</title>
+  <rect width="640" height="290" fill="#f8fafc" class="sk-sky"/>
+  <rect x="70" y="40" width="180" height="190" fill="#fef3c7" opacity=".7"/>
+  <rect x="250" y="40" width="190" height="190" fill="#e2e8f0" opacity=".7"/>
+  <rect x="440" y="40" width="160" height="190" fill="#dbeafe" opacity=".7"/>
+  <g stroke="#cbd5e1"><path d="M70 135 H600"/><path d="M70 88 H600"/><path d="M70 183 H600"/></g>
+  <g fill="none" stroke="#475569" stroke-width="1.5"><path d="M70 36 V230 H600"/></g>
+  <g class="sk-s" text-anchor="end" style="font-size:11px"><text x="64" y="234">0</text><text x="64" y="187">25</text><text x="64" y="139">50</text><text x="64" y="92">75</text><text x="64" y="44">100 %</text></g>
+  <g fill="none" stroke-width="4.5" stroke-linecap="round">
+    <path class="sk-draw" pathLength="1" stroke="#65a30d" d="M70 78 C190 90 260 190 380 212 C470 222 540 224 600 225"/>
+    <path class="sk-draw" pathLength="1" stroke="#64748b" style="animation-delay:.5s" d="M70 211 C150 205 210 148 300 146 C400 146 470 180 600 188"/>
+    <path class="sk-draw" pathLength="1" stroke="#2563eb" style="animation-delay:1s" d="M70 214 C180 214 240 200 300 170 C380 130 460 100 600 88"/>
+  </g>
+  <text class="sk-t" x="80" y="68" style="fill:#4d7c0f">primär (Land-, Forstwirtschaft)</text>
+  <text class="sk-t" x="300" y="134" text-anchor="middle" style="fill:#475569">sekundär (Industrie)</text>
+  <text class="sk-t" x="594" y="72" text-anchor="end" style="fill:#1d4ed8">tertiär (Dienstleistungen)</text>
+  <g class="sk-t" text-anchor="middle" style="font-size:12px"><text x="160" y="250">Agrargesellschaft</text><text x="345" y="250">Industriegesellschaft</text><text x="520" y="250">Dienstleistungsges.</text></g>
+  <text class="sk-s" x="335" y="278" text-anchor="middle" style="font-size:11px">Zeit / wirtschaftlicher Entwicklungsstand → (idealtypisch)</text>
+</svg>

@@ -74,6 +74,8 @@ Siehe [[glaziale-serie]] für Detail-Erklärung.
 
 ## Gletscher-Prozesse: Akkumulation vs. Abraum
 
+{{skizze:massenbilanz|Massenbilanz eines Gletschers: Oberhalb der Gleichgewichtslinie überwiegt der Zuwachs, darunter das Abschmelzen.}}
+
 ### Erosionsprozesse (Abtrag)
 
 | Prozess | Mechanismus | Formen |
