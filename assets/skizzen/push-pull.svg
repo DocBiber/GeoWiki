@@ -1,0 +1,20 @@
+<svg viewBox="0 0 640 290" role="img" aria-labelledby="pp-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="pp-t">Push-Pull-Modell der Migration: Herkunftsraum, Hürden und Zielraum</title>
+  <rect width="640" height="290" fill="#f8fafc" class="sk-sky"/>
+  <rect x="16" y="36" width="190" height="212" rx="14" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <rect x="434" y="36" width="190" height="212" rx="14" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <rect x="246" y="36" width="148" height="212" rx="10" fill="#f1f5f9" stroke="#64748b" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="sk-t" x="111" y="28" text-anchor="middle" style="font-size:14px">Herkunftsraum</text>
+  <text class="sk-t" x="529" y="28" text-anchor="middle" style="font-size:14px">Zielraum</text>
+  <text class="sk-t" x="320" y="28" text-anchor="middle" style="font-size:12px">Hürden</text>
+  <text class="sk-t" x="30" y="64" style="fill:#b91c1c">Push-Faktoren</text>
+  <g class="sk-s" style="font-size:12.5px"><text x="30" y="90">• Armut, Arbeitslosigkeit</text><text x="30" y="114">• Krieg, Verfolgung</text><text x="30" y="138">• Naturgefahren, Dürre</text><text x="30" y="162">• fehlende Bildung</text><text x="30" y="186">• Bevölkerungsdruck</text></g>
+  <text class="sk-t" x="448" y="64" style="fill:#15803d">Pull-Faktoren</text>
+  <g class="sk-s" style="font-size:12.5px"><text x="448" y="90">• Arbeit, höhere Löhne</text><text x="448" y="114">• Sicherheit, Frieden</text><text x="448" y="138">• Bildung, Gesundheit</text><text x="448" y="162">• Familie, Netzwerke</text><text x="448" y="186">• Freiheit, Perspektive</text></g>
+  <g fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 9" class="sk-flow">
+    <path d="M214 110 H420"/><path d="M214 148 H420"/><path d="M214 186 H420"/>
+  </g>
+  <g fill="#f59e0b"><path d="M418 100 L432 110 L418 120Z"/><path d="M418 138 L432 148 L418 158Z"/><path d="M418 176 L432 186 L418 196Z"/></g>
+  <g class="sk-s" text-anchor="middle" style="font-size:12px"><text x="320" y="66">Grenzen, Visa</text><text x="320" y="82">Kosten, Distanz</text><text x="320" y="218">Sprache, Recht</text><text x="320" y="234">Gefahren der Route</text></g>
+  <text class="sk-s" x="320" y="272" text-anchor="middle">Wanderungsentscheidung = Abwägung von Push, Pull und Hürden (Lee 1966)</text>
+</svg>

@@ -24,9 +24,12 @@ Die **Bevölkerungsgeographie** untersucht die räumliche Verteilung, Struktur, 
 
 Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedrigen Raten in modernen Gesellschaften:
 
-1. **Starkes Wachstum**: hohe Geburtenrate, sinkende Sterberate (Medizin, Hygiene) → Bevölkerungswachstum.
-2. **Übergangsstufe**: sinkende Geburtenrate (Verstädterung, Bildung, Emanzipation, Kindererziehungskosten), weiter sinkende Sterberate.
-3. **Zustand niedriger Raten**: niedrige Geburten- und Sterberaten, alternde Bevölkerung, ggf. negative Naturalzuwachsrate.
+1. **Hochstationär**: hohe Geburten- und hohe Sterberaten, kaum Wachstum.
+2. **Früh-transformativ**: Sterberate sinkt (Medizin, Hygiene), Geburtenrate bleibt hoch → starkes Bevölkerungswachstum.
+3. **Spät-transformativ**: Geburtenrate sinkt (Verstädterung, Bildung, Emanzipation, Kosten der Kindererziehung), Wachstum verlangsamt sich.
+4. **Post-transformativ**: niedrige Geburten- und Sterberaten, alternde Bevölkerung, ggf. negative Naturalzuwachsrate.
+
+{{skizze:weltbevoelkerung|Die Weltbevölkerung wuchs im 20. Jahrhundert stark, weil die Sterberate früher sank als die Geburtenrate (Werte gerundet, Prognose nach UN).}}
 
 ### Naturliche Bevölkerungsveränderung
 
@@ -36,6 +39,8 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 - **Natürliche Bevölkerungsentwicklung:** Differenz zwischen Geburten und Sterbefällen.
 
 ### Migration
+
+{{skizze:push-pull|Push-Pull-Modell: Abwanderung wird durch Push-Faktoren ausgelöst, Zuwanderung durch Pull-Faktoren; Hürden bremsen sie.}}
 
 - **Bevölkerungswanderungen** (Binnenmigration, Binnenverteilung, Urbanisierung, Suburbanisierung).
 - **Internationale Migration**: Arbeitsmigration, Flucht/Asyl, zwangsweise Migration, Familienzusammenführung.
@@ -48,6 +53,8 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 - **Verstädterung**: Wachstum von Städten, Urbanisierungsraten, Megacities, Ballungsräume.
 
 ## Struktur & Alterung
+
+{{skizze:alterspyramiden|Drei typische Altersaufbauten, grob nach dem Entwicklungsstand der Länder (schematisch).}}
 
 - **Altersstruktur** (Alterspyramide): Diese beinhaltet die Alters- und Geschlechterverteilung.
 - **Alternde Gesellschaft** (Deutschland, viele Industrieländer): mehr ältere Menschen, sinkende Geburten, größer werdender Anteil der über 60-Jährigen.

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 310" role="img" aria-labelledby="ap-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="ap-t">Altersaufbau: Pyramide (wachsende Bevölkerung), Glocke (stagnierend) und Urne (schrumpfend)</title>
+  <rect width="640" height="310" fill="#f8fafc" class="sk-sky"/>
+  <g stroke="#cbd5e1" stroke-width="1"><path d="M30 216 H190 M30 176 H190 M30 136 H190 M30 96 H190 M240 216 H400 M240 176 H400 M240 136 H400 M240 96 H400 M450 216 H610 M450 176 H610 M450 136 H610 M450 96 H610"/></g>
+  <!-- Expansiv -->
+  <path class="sk-grow" style="transform-origin:110px 236px" fill="#3b82f6" d="M110 236 H34 V216 H46 V196 H56 V176 H66 V156 H75 V136 H84 V116 H92 V96 H100 V76 H106 V56 H110 Z"/>
+  <path class="sk-grow" style="transform-origin:110px 236px;animation-delay:.15s" fill="#ec4899" d="M110 236 H186 V216 H174 V196 H164 V176 H154 V156 H145 V136 H136 V116 H128 V96 H120 V76 H114 V56 H110 Z"/>
+  <!-- Stationär -->
+  <path class="sk-grow" style="transform-origin:320px 236px;animation-delay:.4s" fill="#3b82f6" d="M320 236 H274 V216 H272 V196 H270 V176 H268 V156 H266 V136 H268 V116 H274 V96 H284 V76 H298 V56 H320 Z"/>
+  <path class="sk-grow" style="transform-origin:320px 236px;animation-delay:.55s" fill="#ec4899" d="M320 236 H366 V216 H368 V196 H370 V176 H372 V156 H374 V136 H372 V116 H366 V96 H356 V76 H342 V56 H320 Z"/>
+  <!-- Schrumpfend -->
+  <path class="sk-grow" style="transform-origin:530px 236px;animation-delay:.8s" fill="#3b82f6" d="M530 236 H500 V216 H498 V196 H494 V176 H484 V156 H476 V136 H474 V116 H484 V96 H492 V76 H504 V56 H530 Z"/>
+  <path class="sk-grow" style="transform-origin:530px 236px;animation-delay:.95s" fill="#ec4899" d="M530 236 H560 V216 H562 V196 H566 V176 H576 V156 H584 V136 H586 V116 H576 V96 H568 V76 H556 V56 H530 Z"/>
+  <g fill="none" stroke="#475569" stroke-width="1.5"><path d="M110 56 V236 M320 56 V236 M530 56 V236 M30 236 H190 M240 236 H400 M450 236 H610"/></g>
+  <g class="sk-s" text-anchor="middle" style="font-size:11px">
+    <text x="110" y="250">♂ ◄ 0–80+ Jahre ► ♀</text><text x="320" y="250">♂ ◄ 0–80+ Jahre ► ♀</text><text x="530" y="250">♂ ◄ 0–80+ Jahre ► ♀</text>
+  </g>
+  <g class="sk-t" text-anchor="middle" style="font-size:14px">
+    <text x="110" y="34">Pyramide</text><text x="320" y="34">Glocke</text><text x="530" y="34">Urne</text>
+  </g>
+  <g class="sk-s" text-anchor="middle">
+    <text x="110" y="272">wachsend, sehr jung</text><text x="110" y="288">z. B. Niger, Mali</text>
+    <text x="320" y="272">stagnierend</text><text x="320" y="288">z. B. Frankreich, USA</text>
+    <text x="530" y="272">schrumpfend, alternd</text><text x="530" y="288">z. B. Deutschland, Japan</text>
+  </g>
+</svg>
