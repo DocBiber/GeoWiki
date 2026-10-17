@@ -19,6 +19,10 @@ sources: []
 
 ---
 
+## Kartenquiz: Raumbeispiele verorten
+
+<div class="geomap" data-layer="quiz"></div>
+
 ## Stück 1 — Vulkanismus
 
 ### Übung 1.1 (Stufe 1)

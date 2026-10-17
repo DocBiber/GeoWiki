@@ -26,6 +26,10 @@ Nach dem Wirkungsbereich zusätzlich:
 - **Exokrater Vulkanismus** (effusiv/explosiv): Magmaintritt an die Erdoberfläche →
   Vulkanausbrüche, Lavaströme, Pyroklastik
 
+## Karte: Plattengrenzen und Vulkane
+
+<div class="geomap" data-layer="plattengrenzen"></div>
+
 ## Ursachen und geodynamische Kontexte
 
 Magma steigt vor allem in drei geodynamischen Kontexten auf:

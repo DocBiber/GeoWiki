@@ -31,6 +31,10 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 - Veränderung von Landflächen (Urbanisierung, Versiegelung, Flurverlust)
 - Herausforderungen: Wohnungsmangel, Verkehr, Umweltprobleme (Hitzeinseln, Feinstaub, Lärm, Abwasser), Ungleichheit (Segregation, Gentrifizierung, Slums)
 
+## Karte: Megastädte und Global Cities
+
+<div class="geomap" data-layer="staedte"></div>
+
 ## Stadtstruktur-Modelle
 
 **Konventionelle Stadtstruktur (zentral):**

@@ -37,6 +37,10 @@ Der Wasserhaushalt (hydrologischer Kreislauf) beschreibt, wie Wasser in allen Ag
 - **Kryosphäre:** Gletscher, Eisdecke, Schnee — langfristige Speicher, klima-abhängig (Schmelzen bei Erwärmung)
 - **Boden:** Bodenfeuchte — kurz- bis mittelfristig, wichtig für Landwirtschaft und Ökosysteme
 
+## Karte: Einzugsgebiete von Rhein und Elbe
+
+<div class="geomap" data-layer="einzugsgebiete"></div>
+
 ## Der Wasserhaushalt eines Einzugsgebiets (Wasserhaushalts-Gleichung)
 
 Ein Einzugsgebiet ist das Gebiet, aus dem Wasser einem Gewässer zufließt. Seine Grenze wird durch Wasserscheiden gebildet. Der Wasserhaushalt lässt sich für einen festgelegten Zeitraum bilanzieren:

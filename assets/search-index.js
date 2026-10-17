@@ -60,7 +60,7 @@ window.SEARCH_INDEX = [
 "u": "glaziale-serie.html",
 "c": "Glazialmorphologie",
 "d": "Die glaziale Serie beschreibt eine typische Abfolge von Formen, die im Vorland eines",
-"x": "Die glaziale Serie Hintergrund Die glaziale Serie beschreibt eine typische Abfolge von Formen, die im Vorland eines Inlandeises durch Eis, Schmelzwasser und Sedimentablagerung entstehen. Das Modell ist besonders mit dem norddeutschen Tiefland verbunden. Es ist keine überall vollständig ausgebildete Landschaftsform: Relief, Untergrund und Eisrandlage beeinflussen die tatsächliche Abfolge. Formen vo"
+"x": "Die glaziale Serie Hintergrund Die glaziale Serie beschreibt eine typische Abfolge von Formen, die im Vorland eines Inlandeises durch Eis, Schmelzwasser und Sedimentablagerung entstehen. Das Modell ist besonders mit dem norddeutschen Tiefland verbunden. Es ist keine überall vollständig ausgebildete Landschaftsform: Relief, Untergrund und Eisrandlage beeinflussen die tatsächliche Abfolge. Karte: Ei"
 },
 {
 "t": "Glazialmorphologie — Überblick und Grundlagen",

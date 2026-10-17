@@ -681,7 +681,23 @@ button { font: inherit; color: inherit; }
   border-radius: var(--r-md);
 }
 
-.geomap { height: 480px; margin: 1rem 0; border: 1px solid var(--border); border-radius: 10px; z-index: 0; }
+.geomap { height: 480px; margin: 1rem 0; border: 1px solid var(--border); border-radius: 10px; z-index: 0; position: relative; }
+.geomap-docked { height: 340px; margin: 0 0 16px; }
+@media (min-width: 1440px) { .content:has(.geomap-docked) .toc-rail { width: 360px; } }
+.geomap-moved { display: none; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--accent-soft); color: var(--accent-ink); border-radius: 6px; font-size: 14px; }
+.geomap-note { font-size: 13px; color: var(--muted); margin: -4px 0 1rem; }
+.geomap-legend { background: var(--surface, #fff); color: var(--ink, #21252c); padding: 6px 10px; border-radius: 6px; font-size: 12.5px; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+.geomap-legend .sw { display: inline-block; width: 12px; height: 12px; margin-right: 6px; border-radius: 2px; vertical-align: -1px; }
+.geomap-label { background: transparent; border: 0; box-shadow: none; font-weight: 600; color: #1e3a8a; text-align: center; }
+.geomap-swipe { position: absolute; left: 10%; right: 10%; width: 80%; bottom: 14px; z-index: 1000; cursor: ew-resize; }
+.geoquiz-bar { margin: 1rem 0 0; padding: 10px 14px; border: 1px solid var(--border); border-bottom: 0; border-radius: 10px 10px 0 0; background: var(--bg-soft); font-size: 14px; }
+.geoquiz-bar + .geomap { margin-top: 0; border-radius: 0 0 10px 10px; }
+.geoquiz-score { margin-left: 12px; color: var(--muted); }
+.wind-line { stroke-dasharray: 10 12; animation: wind-flow 1.6s linear infinite; }
+@keyframes wind-flow { to { stroke-dashoffset: -22; } }
+@media (prefers-reduced-motion: reduce) { .wind-line { animation: none; } }
+.geomap-flash { animation: geomap-flash 1.8s ease-out; }
+@keyframes geomap-flash { 0%, 40% { background: var(--accent-soft); box-shadow: 0 0 0 8px var(--accent-soft); } 100% { background: transparent; box-shadow: 0 0 0 8px transparent; } }
 .video-frame {
   margin: 1em 0;
   border-radius: var(--r-md);

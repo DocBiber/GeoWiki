@@ -71,6 +71,10 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 - **Föhn:** trockener, warmer Fallwind auf der Leeseite eines Gebirges. Beim Absinken erwärmt sich die Luft trockenadiabatisch.
 - **Berg-Tal-Wind-System**: Tagsüber Talwind (aufsteigend, wärmer), nachts Bergwind (absteigend, kälter) — wichtig für Hochgebirge
 
+## Karte: Klimazonen und Windsysteme
+
+<div class="geomap" data-layer="klima"></div>
+
 ## Globale Klimaprozesse
 
 ### Solare Einstrahlung und Albedo

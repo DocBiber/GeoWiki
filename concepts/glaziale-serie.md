@@ -18,6 +18,10 @@ besonders mit dem norddeutschen Tiefland verbunden. Es ist keine überall vollst
 ausgebildete Landschaftsform: Relief, Untergrund und Eisrandlage beeinflussen die
 tatsächliche Abfolge.
 
+## Karte: Eisrandlagen in Norddeutschland
+
+<div class="geomap" data-layer="eiszeit"></div>
+
 ## Formen vom Eisrand in Richtung Vorland
 
 Vereinfacht folgt auf das Inlandeis zunächst das Zungenbecken, dann die Endmoräne, der

@@ -114,6 +114,10 @@ confidence: medium
 
 ---
 
+### Kartenvergleich Sylt: Satellitenbild und Topografie
+
+<div class="geomap" data-layer="swipe" data-lat="54.9" data-lng="8.35" data-zoom="10"></div>
+
 ## 3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung
 
 ![Steilküste, Ostsee (Rügen)](https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Abgest%C3%BCrzte_B%C3%A4ume_Steilk%C3%BCste_R%C3%BCgen_-_Nationalpark_Jasmund.jpg/1280px-Abgest%C3%BCrzte_B%C3%A4ume_Steilk%C3%BCste_R%C3%BCgen_-_Nationalpark_Jasmund.jpg)
