@@ -28,6 +28,14 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGeomap);
   else initGeomap();
 
+  /* ---------- Startseite: drehende Weltkugel ---------- */
+  function initGlobe() {
+    if (!document.querySelector("canvas.globe")) return;
+    loadScript("assets/land.js", function () { loadScript("assets/globus.js"); });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGlobe);
+  else initGlobe();
+
   /* ---------- Skizzen: Animation beim Sichtbarwerden starten, Button zum Neustarten ---------- */
   function initSkizzen() {
     var figs = document.querySelectorAll("figure.skizze");

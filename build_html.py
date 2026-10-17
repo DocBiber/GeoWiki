@@ -607,7 +607,8 @@ def build_home(pages, cats, backlinks):
 {sidebar_html(pages, cats, "index")}
   <main class="content">
     <div class="content-inner">
-      <section class="hero">
+      <section class="hero hero-with-globe">
+        <div class="hero-text">
         <h1>Geografie Wiki</h1>
         <p>{html.escape(idx_text)}</p>
         <div class="hero-search">
@@ -616,6 +617,8 @@ def build_home(pages, cats, backlinks):
                  placeholder="Wonach suchst du?" aria-label="Wiki durchsuchen" autocomplete="off">
           <div class="search-results hero-results"></div>
         </div>
+        </div>
+        <canvas class="globe" aria-label="Sich drehende Weltkugel" role="img" title="Ziehen, um die Erde zu drehen"></canvas>
       </section>
 
       {new_strip}

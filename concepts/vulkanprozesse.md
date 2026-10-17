@@ -11,6 +11,8 @@ sources: []
 
 ## Der grundlegende Unterschied
 
+{{skizze:eruptionstypen|Effusive und explosive Eruption im Vergleich: Viskosität und Gasgehalt des Magmas entscheiden.}}
+
 | Aspekt | Effusiver Vulkanismus | Explosiver Vulkanismus |
 |---|---|---|
 | Magma-Viskosität | Niedrig (Basalt, mafisch) | Hoch (Andesit, Dacit, Rhyolith, felsisch) |

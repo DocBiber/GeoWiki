@@ -1,0 +1,24 @@
+<svg viewBox="0 0 640 300" role="img" aria-labelledby="vz-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="vz-t">Vegetationszonen vom Pol bis zum Äquator mit Verlauf der Biomasse</title>
+  <rect width="640" height="300" fill="#eef6ff" class="sk-sky"/>
+  <rect x="0" y="200" width="100" height="50" fill="#d6e4e8"/>
+  <rect x="100" y="200" width="110" height="50" fill="#7da07a"/>
+  <rect x="210" y="200" width="110" height="50" fill="#8fbf6a"/>
+  <rect x="320" y="200" width="120" height="50" fill="#e4cf8b"/>
+  <rect x="440" y="200" width="90" height="50" fill="#c9b458"/>
+  <rect x="530" y="200" width="110" height="50" fill="#3f8f4a"/>
+  <g fill="#6b8e5a"><circle cx="20" cy="193" r="6"/><circle cx="46" cy="195" r="5"/><circle cx="72" cy="192" r="6"/></g>
+  <g fill="#2f5d3a"><path d="M120 200 l9 -34 l9 34z"/><path d="M146 200 l9 -42 l9 42z"/><path d="M172 200 l9 -36 l9 36z"/><path d="M196 200 l7 -28 l7 28z"/></g>
+  <g fill="#5d4037"><rect x="238" y="182" width="5" height="18"/><rect x="274" y="180" width="5" height="20"/><rect x="302" y="184" width="5" height="16"/></g>
+  <g fill="#4caf50"><circle cx="240" cy="174" r="14"/><circle cx="277" cy="171" r="15"/><circle cx="304" cy="176" r="12"/></g>
+  <g fill="#d8bd6a"><path d="M330 200 C350 178 372 178 392 200Z"/><path d="M380 200 C400 184 420 184 436 200Z"/></g>
+  <g fill="#5d4037"><rect x="470" y="178" width="3.5" height="22"/><rect x="505" y="182" width="3.5" height="18"/></g>
+  <g fill="#6b9c3a"><path d="M452 178 H494 L488 172 H458Z"/><path d="M488 182 H528 L522 176 H494Z"/></g>
+  <g fill="#6d4c41"><rect x="548" y="150" width="6" height="50"/><rect x="578" y="146" width="6" height="54"/><rect x="608" y="152" width="6" height="48"/></g>
+  <g fill="#1b5e20"><circle cx="551" cy="144" r="20"/><circle cx="581" cy="138" r="22"/><circle cx="611" cy="146" r="19"/></g>
+  <path class="sk-draw" pathLength="1" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round" d="M20 140 C90 136 120 120 160 112 C230 98 280 90 320 118 C350 138 400 140 450 108 C500 78 550 52 620 40"/>
+  <text class="sk-s" x="20" y="98" style="font-size:11.5px">Biomasse, Artenvielfalt ↑</text>
+  <g class="sk-t" text-anchor="middle" style="font-size:12px"><text x="50" y="270">Tundra</text><text x="155" y="270">Taiga</text><text x="265" y="270">Laubwald</text><text x="380" y="270">Wüste, Steppe</text><text x="485" y="270">Savanne</text><text x="585" y="270">Regenwald</text></g>
+  <g class="sk-s" text-anchor="middle" style="font-size:10.5px"><text x="50" y="285">&gt; 66° N</text><text x="155" y="285">50–66°</text><text x="265" y="285">35–50°</text><text x="380" y="285">15–35°</text><text x="485" y="285">5–15°</text><text x="585" y="285">0–5°</text></g>
+  <text class="sk-s" x="12" y="32" style="font-size:11.5px">Pol ◄</text><text class="sk-s" x="628" y="32" text-anchor="end" style="font-size:11.5px">► Äquator (idealisiert)</text>
+</svg>

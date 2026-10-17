@@ -45,6 +45,8 @@ confidence: 0.9
 
 ## Biogeographische Gradienten
 
+{{skizze:vegetationszonen|Idealisierte Vegetationszonen vom Pol zum Äquator.}}
+
 - **Breitengrad-Gradient:** Die Biodiversität nimmt im Allgemeinen von den Polen zum Äquator zu; als Erklärungen werden unter anderem Klima, Produktivität und die längere ungestörte Entwicklung tropischer Lebensräume diskutiert.
 - **Höhen-Gradient:** Artenvielfalt nimmt mit Höhe typischerweise ab (ähnlich Breitengrad-Gradient, aber mit speziellen Hochland-Anpassungen).
 - **Substrat-Gradient:** Bodenbeschaffenheit, pH-Wert, Nährstoffverfügbarkeit → spezifische Pflanzengesellschaften (z. B. kalkliebend vs. kalkmeidend).

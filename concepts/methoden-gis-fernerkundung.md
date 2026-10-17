@@ -22,6 +22,8 @@ Moderne Geographie benutzt eine Reihe von Methoden, um räumliche Daten zu erfas
 
 ## Geographische Informationssysteme (GIS)
 
+{{skizze:gis-ebenen|Ein GIS verknüpft thematische Ebenen (Vektor- und Rasterdaten) zu einer gemeinsamen Analyse.}}
+
 **Definition:** Ein GIS ist ein softwarebasiertes System zur Erfassung, Verwaltung, Analyse und Darstellung geographischer Daten — sowohl räumlicher Lage (Koordinaten) als auch Attributdaten (Eigenschaften von Orten, Einheiten).
 
 **Kernkomponenten:**

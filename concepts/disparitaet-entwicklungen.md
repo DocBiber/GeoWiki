@@ -77,6 +77,8 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 
 ## Entwicklungstheorien
 
+{{skizze:kern-peripherie|Kern-Peripherie-Modell: Entzugs- und Ausbreitungseffekte bestimmen, ob Disparitäten wachsen oder schrumpfen.}}
+
 ### Dependenztheorie
 
 - **Kernthese**: Entwicklungsländer sind in eine ungleiche Abhängigkeit von industrialisierten Ländern (Kern-Peripherie-Struktur) versetzt; Ausbeutung durch Handelsbeziehungen, Kapitalflüsse, Technologiekontrolle → Entwicklung wird gehemmt, nicht gefördert

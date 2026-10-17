@@ -158,7 +158,7 @@ window.SEARCH_INDEX = [
 "u": "vulkanprozesse.html",
 "c": "Vulkanismus",
 "d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
-"x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolith, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstil Überwiegend Lavaförder"
+"x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied {{skizze:eruptionstypen Effusive und explosive Eruption im Vergleich: Viskosität und Gasgehalt des Magmas entscheiden.}} Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolith, felsisch) Gasentweichung Gase können leicht "
 },
 {
 "t": "Vulnerabilität, Resilienz, Risiko und Naturgefahr",
