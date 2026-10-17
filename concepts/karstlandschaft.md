@@ -14,6 +14,10 @@ confidence: low
 
 Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor allem Kalkstein und Dolomit, aber auch Gips und Steinsalz. Kohlendioxid aus Luft und Boden löst sich im Wasser und bildet schwache Kohlensäure, die Karbonatgestein angreifen kann. Das Wasser versickert häufig durch Klüfte, Spalten und Hohlräume; deshalb ist das oberirdische Gewässernetz in manchen Karstgebieten nur schwach ausgeprägt. Böden können auf nacktem Kalkstein dünn sein, unterscheiden sich aber je nach Gestein und Landschaft.
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="karst"></div>
+
 ## Grundprozesse
 
 ### Lösung von Karbonatgestein

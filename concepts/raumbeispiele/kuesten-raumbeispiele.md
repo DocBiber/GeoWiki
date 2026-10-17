@@ -17,6 +17,10 @@ confidence: medium
 
 ---
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="kueste"></div>
+
 ## 1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)
 
 ![Wattenmeer, Nordsee](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg/1280px-13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg)

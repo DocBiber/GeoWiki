@@ -681,6 +681,7 @@ button { font: inherit; color: inherit; }
   border-radius: var(--r-md);
 }
 
+.geomap { height: 480px; margin: 1rem 0; border: 1px solid var(--border); border-radius: 10px; z-index: 0; }
 .video-frame {
   margin: 1em 0;
   border-radius: var(--r-md);

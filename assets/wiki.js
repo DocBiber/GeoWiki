@@ -9,6 +9,25 @@
   var WIKI = (window.WIKI = window.WIKI || {});
   function getIndex() { return window.SEARCH_INDEX || []; }
 
+  /* ---------- Raumbeispiel-Karte (Leaflet wird nur bei Bedarf geladen) ---------- */
+  function loadScript(src, cb) {
+    var s = document.createElement("script");
+    s.src = src; s.onload = cb;
+    document.head.appendChild(s);
+  }
+  function initGeomap() {
+    if (!document.querySelector(".geomap")) return;
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(css);
+    loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", function () {
+      loadScript("assets/raumbeispiele.js", function () { loadScript("assets/karte.js"); });
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGeomap);
+  else initGeomap();
+
   /* ---------- Theme ---------- */
   var THEME_KEY = "wiki-theme";
   function applyTheme(t) {

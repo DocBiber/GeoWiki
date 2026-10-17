@@ -17,6 +17,10 @@ confidence: medium
 
 ---
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="fluss"></div>
+
 ## 1. Elbe — Hochwasser 2002 (Sommerhochwasser, Mitteleuropa)
 
 ![Elbe-Hochwasser 2002, Dresden](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg/1280px-20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg)

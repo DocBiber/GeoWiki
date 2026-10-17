@@ -277,6 +277,12 @@ def md_to_html(body, known_slugs, page_title):
             i += 1
             continue
 
+        if re.fullmatch(r'<div class="geomap"( data-type="[a-z]+")?></div>', stripped):
+            close_list()
+            out.append(stripped)
+            i += 1
+            continue
+
         if "<img" in line.lower():
             close_list()
             out.append(line)
