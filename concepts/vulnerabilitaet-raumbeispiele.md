@@ -24,6 +24,8 @@ Daraus folgt: Je ein pro Landschafts-Typ — oder ein vertieftes Beispiel — ge
 
 ## Beispiel 1: Vulkanische Räume
 
+{{skizze:risiko|Risiko entsteht aus Hazard, Vulnerabilität und Exposition.}}
+
 → [[vulnerabilitaet-vulkanraume]] (separater Artikel)
 
 Kurz:
@@ -74,6 +76,8 @@ Kurz:
 ---
 
 ## Beispiel 3: Flusslandschaft (Überschwemmung)
+
+{{skizze:hochwasser|Flussquerschnitt: Hochwasser, Aue und Deich als Beispiel für Hazard, Vulnerabilität und Resilienz.}}
 
 (Hier als Vergleichs-Element, auch wenn nicht explizit im engeren Themenfeld des Nutzers,
 aber bildungsplankonform. Der Bildungsplan nennt „Flusslandschaft“ explizit.)

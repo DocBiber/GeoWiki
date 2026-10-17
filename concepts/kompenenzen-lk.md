@@ -19,6 +19,8 @@ Diese Seite fasst beide Bereiche für den Leistungskurs zusammen. Quelle: Bildun
 
 ## Prozessbezogene Kompetenzen (alle 5 Kompetenzbereiche)
 
+{{skizze:kompetenzen|Die fünf prozessbezogenen Kompetenzbereiche; zur Methodenkompetenz zählen Kartierung, Datenanalyse und Modellbildung.}}
+
 Der Bildungsplan definiert fünf prozessbezogene Kompetenzbereiche, die in allen Inhaltsbereichen geübt werden:
 
 ### 1. Orientierungskompetenz (OK)

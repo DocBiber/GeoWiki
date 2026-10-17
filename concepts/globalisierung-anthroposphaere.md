@@ -39,6 +39,8 @@ Die Anthroposphäre bezeichnet die vom Menschen geprägte Sphäre der Erde — d
 
 ## Globalisierung
 
+{{skizze:globalisierung|Globalisierung: Ströme von Waren, Kapital, Daten und Menschen verknüpfen die Weltregionen.}}
+
 ### Definition
 
 **Globalisierung** bezeichnet die zunehmende Vernetzung und Integration von Wirtschaft, Politik, Kultur und Kommunikation über nationalen Grenzen hinweg auf globaler Ebene.

@@ -25,6 +25,8 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 
 ## Hazard im vulkanischen Raum
 
+{{skizze:vulkangefahren|Vulkanische Gefahren (Hazards) im Überblick.}}
+
 | Gefahrentyp | Beschreibung | Reichweite |
 |---|---|---|
 | **Explosive Eruption** | Druckentlastung, Tephra-Auswurf und mögliche pyroklastische Dichteströme | Von lokal bis regional; abhängig von Ausbruch und Gelände |
@@ -37,6 +39,8 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 ---
 
 ## Vulnerabilitäts-Variablen in Vulkan-Räumen
+
+{{skizze:risiko|Risiko entsteht aus Hazard, Vulnerabilität und Exposition.}}
 
 ### A. Sozio-ökonomische Variablen
 
