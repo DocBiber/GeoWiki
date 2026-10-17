@@ -1,0 +1,43 @@
+<svg viewBox="0 0 640 300" role="img" aria-labelledby="ka-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="ka-t">Karstlandschaft im Querschnitt: Karren, Doline, Schwinde, Höhle und Karstquelle</title>
+  <defs>
+    <linearGradient id="ka-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <path id="ka-surf" d="M0 100 L60 100 L70 95 L78 103 L87 96 L96 101 L160 100 L195 100 L225 142 L255 100 L400 100 C440 100 470 118 500 130 L520 132 C560 142 585 200 640 214 L640 300 L0 300 Z"/>
+    <clipPath id="ka-clip"><use href="#ka-surf"/></clipPath>
+  </defs>
+  <rect width="640" height="300" fill="url(#ka-sky)" class="sk-sky"/>
+  <g clip-path="url(#ka-clip)">
+    <use href="#ka-surf" fill="#e7dfcc"/>
+    <path d="M0 262 L640 262 L640 300 L0 300 Z" fill="#6b7280"/>
+    <g stroke="#cbbf9f" stroke-width="1" fill="none"><path d="M0 140 L640 150"/><path d="M0 185 L640 195"/><path d="M0 225 L640 238"/></g>
+    <!-- Hohlraumsystem -->
+    <g fill="none" stroke="#3b2f2a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M225 142 L225 205 C300 215 450 225 598 222"/>
+      <path d="M500 132 L500 190 C520 205 560 215 598 222"/>
+    </g>
+    <g fill="none" stroke="#5aa9e6" stroke-width="4" stroke-linecap="round" class="sk-flow">
+      <path d="M225 150 L225 205 C300 215 450 225 598 222"/>
+      <path d="M500 140 L500 190 C520 205 560 215 598 222"/>
+    </g>
+    <g fill="#e7dfcc"><path d="M322 208 l4 9 l4 -9z"/><path d="M345 209 l3 6 l3 -6z"/><path d="M372 211 l4 10 l4 -10z"/></g>
+    <g fill="#e7dfcc"><path d="M335 222 l4 -7 l4 7z"/><path d="M392 223 l4 -9 l4 9z"/></g>
+  </g>
+  <use href="#ka-surf" fill="none" stroke="#5b4636" stroke-width="2.5"/>
+  <path d="M0 98 L400 98 C440 98 470 116 500 128 L520 130 C560 140 585 198 640 212" fill="none" stroke="#6a9a4a" stroke-width="3"/>
+  <path d="M410 99 C440 99 470 117 500 129" fill="none" stroke="#5aa9e6" stroke-width="3.5" class="sk-flow"/>
+  <path d="M598 222 C612 222 626 218 640 214" fill="none" stroke="#5aa9e6" stroke-width="4" class="sk-flow"/>
+  <g fill="#3b82f6"><ellipse class="sk-dropfall" cx="205" cy="52" rx="2" ry="3.2" style="animation-delay:0s"/><ellipse class="sk-dropfall" cx="226" cy="48" rx="2" ry="3.2" style="animation-delay:.8s"/><ellipse class="sk-dropfall" cx="246" cy="54" rx="2" ry="3.2" style="animation-delay:1.6s"/><ellipse class="sk-dropfall" cx="120" cy="50" rx="2" ry="3.2" style="animation-delay:.4s"/></g>
+
+  <g class="sk-lead"><path d="M72 76 L76 94"/><path d="M262 128 L246 122"/><path d="M448 156 L498 138"/><path d="M590 190 L598 214"/></g>
+  <text class="sk-t" x="48" y="72">Karren</text>
+  <text class="sk-t" x="264" y="132">Doline</text>
+  <text class="sk-s" x="264" y="147">(Lösungstrichter)</text>
+  <text class="sk-t" x="150" y="190" text-anchor="end">Schacht</text>
+  <text class="sk-t" x="352" y="168">Schwinde</text>
+  <text class="sk-s" x="352" y="183">(Ponor): Bach versickert</text>
+  <text class="sk-t" x="470" y="250" text-anchor="middle">Höhle mit Tropfstein</text>
+  <text class="sk-t" x="548" y="182">Karstquelle</text>
+  <text class="sk-s" x="12" y="130">Kalkstein, verkarstet</text>
+  <text class="sk-s" x="12" y="288">wasserstauende Schicht (Ton / Mergel)</text>
+  <text class="sk-s" x="20" y="18">CaCO₃ + CO₂ + H₂O → Ca²⁺ + 2 HCO₃⁻</text>
+</svg>

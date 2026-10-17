@@ -1,0 +1,35 @@
+<svg viewBox="0 0 640 280" role="img" aria-labelledby="ku-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="ku-t">Küstenlängstransport in der Draufsicht: Wellen laufen schräg auf, Sediment wandert im Zickzack entlang der Küste</title>
+  <defs>
+    <linearGradient id="ku-sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b82b6"/><stop offset="1" stop-color="#8cc3e6"/></linearGradient>
+    <marker id="ku-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#7c2d12"/></marker>
+    <marker id="ku-ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#111827"/></marker>
+    <g id="ku-crest"><path d="M0 0 Q30 -6 60 -26 T120 -52" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round"/></g>
+  </defs>
+  <rect width="640" height="180" fill="url(#ku-sea)" class="sk-sky"/>
+  <path d="M0 180 L640 176 L640 214 L0 218 Z" fill="#f1deb0"/>
+  <path d="M0 218 L640 214 L640 280 L0 280 Z" fill="#a7c080"/>
+  <path d="M0 180 L640 176" stroke="#fff" stroke-width="3" opacity=".8"/>
+
+  <g class="sk-swell"><use href="#ku-crest" x="30" y="160"/><use href="#ku-crest" x="250" y="160"/><use href="#ku-crest" x="470" y="160"/></g>
+  <g class="sk-swell" style="animation-delay:1.3s"><use href="#ku-crest" x="30" y="160"/><use href="#ku-crest" x="250" y="160"/><use href="#ku-crest" x="470" y="160"/></g>
+  <g class="sk-swell" style="animation-delay:2.6s"><use href="#ku-crest" x="30" y="160"/><use href="#ku-crest" x="250" y="160"/><use href="#ku-crest" x="470" y="160"/></g>
+
+  <!-- Buhne -->
+  <rect x="396" y="150" width="9" height="62" rx="2" fill="#5b4636"/>
+  <path d="M396 176 L330 178 L330 190 L396 200 Z" fill="#f1deb0" stroke="#d6b97a" stroke-width="1"/>
+  <path d="M405 200 L440 212 L405 212 Z" fill="#a7c080"/>
+
+  <!-- Zickzack-Sedimenttransport -->
+  <path class="sk-flow" d="M20 184 L44 206 L44 184 L74 206 L74 184 L104 206 L104 184 L134 206 L134 184 L164 206 L164 184 L194 206 L194 184 L224 206 L224 184 L254 206 L254 184 L284 206 L284 184 L314 206 L314 184 L344 206" fill="none" stroke="#b45309" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="5 5"/>
+  <path d="M20 250 L610 244" fill="none" stroke="#111827" stroke-width="4" marker-end="url(#ku-ar2)" stroke-linecap="round" class="sk-flow" stroke-dasharray="10 8"/>
+
+  <g class="sk-lead"><path d="M470 118 L500 100"/><path d="M180 196 L150 196"/><path d="M400 150 L420 128"/></g>
+  <text class="sk-t" x="14" y="26">Wellen laufen schräg auf den Strand zu</text>
+  <text class="sk-s" x="14" y="42">Schwall (Swash): schräg hinauf</text>
+  <text class="sk-s" x="14" y="58">Rückstrom (Backwash): senkrecht zurück</text>
+  <text class="sk-t" x="14" y="238">Netto: Küstenlängsstrom transportiert Sand</text>
+  <text class="sk-t" x="408" y="124">Buhne</text>
+  <text class="sk-s" x="408" y="139">Luv: Anlandung</text>
+  <text class="sk-s" x="410" y="266">Lee: Erosion</text>
+</svg>

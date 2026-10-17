@@ -32,6 +32,8 @@ Boden ist der belebte, durch Verwitterung und Bodenbildungsprozesse entstandene 
 
 ## Bodenentstehung (Pedogenese)
 
+{{skizze:bodenprofil|Idealisiertes Bodenprofil mit Horizonten und Stoffverlagerung (schematisch, ohne bestimmten Bodentyp).}}
+
 **Faktoren der Bodenentstehung (nach Jenny, 5 Faktoren):**
 
 1. **Klima:** Temperatur und Niederschlag steuern Verwitterungsrate, Chemismus, Humusbildung

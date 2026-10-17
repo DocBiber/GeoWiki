@@ -34,6 +34,8 @@ Nach dem Wirkungsbereich zusätzlich:
 
 Magma steigt vor allem in drei geodynamischen Kontexten auf:
 
+{{skizze:plattengrenzen|Die drei geodynamischen Settings des Vulkanismus im Schema (nicht maßstäblich).}}
+
 ### 1. Divergierende Plattenränder (Riftsysteme)
 - Platten trennen sich → Mantelmaterial steigt auf → Partialschmelze durch Druckabbau
 - **Beispiele:** Ostafrika-Rift (Ostafrikanisches Grabenbruchsystem), mittelozeanische Rückensysteme (MOR)

@@ -37,6 +37,8 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 
 ## Stadtstruktur-Modelle
 
+{{skizze:stadtmodelle|Die drei klassischen Stadtstrukturmodelle im Vergleich (idealtypisch).}}
+
 **Konventionelle Stadtstruktur (zentral):**
 
 - **Zentrale Stadtkerne:** Altstadt / Innenstadt — historische Mitte, oft kommerziell, verwaltungszentrum

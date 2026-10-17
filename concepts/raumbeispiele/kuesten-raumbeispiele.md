@@ -72,6 +72,8 @@ confidence: medium
 
 ## 2. Sylt — Inselwanderung, Sandaufspülung, Tourismus
 
+{{skizze:kuestenlaengstransport|Küstenlängstransport und Buhnenwirkung – das Prinzip hinter der Sandwanderung an der Sylter Westküste (schematisch).}}
+
 ![Sylt, Nordsee (Deutschland)](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg/1280px-Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg)
 
 *Bild: Wikimedia Commons — Feuerwehr Kampen (Sylt) 2018 NE.jpg (CC BY-SA 4.0)*

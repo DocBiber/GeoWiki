@@ -71,6 +71,8 @@ confidence: medium
 
 ## 2. Rhein — Flussregulierung und Rückhaltebecken
 
+{{skizze:maeander|Der naturnahe Rhein vor der Tulla-Korrektur mäanderte frei: Prallhang, Gleithang und Altarm (schematisch).}}
+
 ![Rhein (Oberrhein)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg/1280px-2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg)
 
 *Bild: Wikimedia Commons — 2018-06-15 09-35-06 River Rhine and Loog in Dörflingen.jpg (CC BY-SA 4.0)*

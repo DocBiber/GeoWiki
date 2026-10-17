@@ -69,6 +69,71 @@
 <div class="geomap" data-layer="plattengrenzen"></div>
 <h2 id="ursachen-und-geodynamische-kontexte">Ursachen und geodynamische Kontexte</h2>
 <p>Magma steigt vor allem in drei geodynamischen Kontexten auf:</p>
+<figure class="skizze"><svg viewBox="0 0 640 300" role="img" aria-labelledby="pt-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="pt-t">Drei geodynamische Settings des Vulkanismus: divergente Plattengrenze, Subduktionszone und Hotspot</title>
+  <defs>
+    <linearGradient id="pt-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <linearGradient id="pt-man" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2682b"/><stop offset="1" stop-color="#9a3412"/></linearGradient>
+    <marker id="pt-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#111827"/></marker>
+  </defs>
+  <rect width="640" height="150" fill="url(#pt-sky)" class="sk-sky"/>
+  <rect y="150" width="640" height="150" fill="url(#pt-man)"/>
+  <g stroke="#fff" stroke-opacity=".7" stroke-width="2"><line x1="213" y1="0" x2="213" y2="300"/><line x1="427" y1="0" x2="427" y2="300"/></g>
+
+  <!-- 1 divergent -->
+  <path d="M0 150 L98 150 L98 196 L0 196 Z" fill="#64748b"/>
+  <path d="M114 150 L213 150 L213 196 L114 196 Z" fill="#64748b"/>
+  <path d="M98 196 L98 150 L106 118 L114 150 L114 196 Z" fill="#ff6a3d"/>
+  <path d="M106 300 L106 130" stroke="#ffd166" stroke-width="3" class="sk-flow sk-flow-up" fill="none"/>
+  <path d="M78 150 L96 128 L106 118 L116 128 L136 150 Z" fill="#475569"/>
+  <ellipse cx="106" cy="118" rx="9" ry="4" fill="#ffb84d" class="sk-glow"/>
+  <g fill="#ffb84d"><circle class="sk-spark" cx="104" cy="114" r="2.5" style="animation-delay:0s"/><circle class="sk-spark" cx="108" cy="114" r="2.2" style="animation-delay:.9s"/></g>
+  <g fill="none" stroke="#111827" stroke-width="2.5" marker-end="url(#pt-ar)">
+    <path class="sk-flow" d="M90 172 L22 172" stroke-dasharray="8 7"/>
+    <path class="sk-flow" d="M122 172 L190 172" stroke-dasharray="8 7"/>
+  </g>
+  <text class="sk-t" x="12" y="44">Divergent</text>
+  <text class="sk-s" x="12" y="60">Riftzone, Mittelozean. Rücken</text>
+  <text class="sk-s" x="12" y="76">Beispiel: Island</text>
+  <text class="sk-s" x="12" y="260" fill="#fff" style="stroke:none;fill:#fff7ed">Magma steigt auf, Kruste driftet</text>
+  <text class="sk-s" x="12" y="276" style="stroke:none;fill:#fff7ed">auseinander → basaltisch</text>
+
+  <!-- 2 konvergent -->
+  <path d="M309 158 L309 120 L427 120 L427 262 L409 268 Z" fill="#a8896b"/>
+  <path d="M213 158 L309 158 L409 268 L391 284 L293 188 L213 188 Z" fill="#475569"/>
+  <path d="M312 150 L312 130 L427 130" fill="none"/>
+  <path d="M365 120 L386 90 L407 120 Z" fill="#6b5a4d"/>
+  <path d="M356 228 C358 190 380 150 386 98" fill="none" stroke="#ff6a3d" stroke-width="6" stroke-linecap="round"/>
+  <path class="sk-flow sk-flow-up" d="M356 228 C358 190 380 150 386 98" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="386" cy="90" rx="9" ry="4" fill="#ffb84d" class="sk-glow"/>
+  <g class="sk-ash"><circle cx="386" cy="84" r="9" fill="#9ca3af" opacity=".8"/></g>
+  <g class="sk-ash" style="animation-delay:2.4s"><circle cx="386" cy="84" r="8" fill="#9ca3af" opacity=".8"/></g>
+  <path class="sk-flow" d="M226 172 L290 172 L338 224" fill="none" stroke="#fff" stroke-width="2.5" marker-end="url(#pt-ar)" stroke-dasharray="8 7" style="stroke:#fde68a"/>
+  <text class="sk-t" x="225" y="44">Konvergent</text>
+  <text class="sk-s" x="225" y="60">Subduktionszone</text>
+  <text class="sk-s" x="225" y="76">Beispiel: Anden</text>
+  <text class="sk-s" x="226" y="214" style="stroke:none;fill:#fff7ed">ozeanische Platte</text>
+  <text class="sk-s" x="226" y="228" style="stroke:none;fill:#fff7ed">taucht ab</text>
+  <text class="sk-s" x="226" y="276" style="stroke:none;fill:#fff7ed">andesitisch, explosiv</text>
+
+  <!-- 3 hotspot -->
+  <rect x="427" y="128" width="213" height="22" fill="#7fb4d8" class="sk-sky"/>
+  <path d="M427 150 L640 150 L640 192 L427 192 Z" fill="#64748b"/>
+  <path d="M556 300 L556 192" stroke="#ff6a3d" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path class="sk-flow sk-flow-up" d="M556 300 L556 192" stroke="#ffd166" stroke-width="4" fill="none"/>
+  <path d="M440 150 L452 138 L464 150 Z" fill="#6b5a4d"/>
+  <path d="M488 150 L508 120 L528 150 Z" fill="#6b5a4d"/>
+  <path d="M524 150 L556 98 L588 150 Z" fill="#5d5049"/>
+  <path d="M556 192 L556 112" stroke="#ff6a3d" stroke-width="4" fill="none"/>
+  <ellipse cx="556" cy="98" rx="9" ry="4" fill="#ffb84d" class="sk-glow"/>
+  <g fill="#ffb84d"><circle class="sk-spark" cx="554" cy="94" r="2.5" style="animation-delay:0s"/><circle class="sk-spark" cx="558" cy="94" r="2.2" style="animation-delay:1s"/></g>
+  <path class="sk-flow" d="M600 172 L626 172" fill="none" stroke="#111827" stroke-width="2.5" marker-end="url(#pt-ar)" stroke-dasharray="8 7" style="stroke:#fff7ed"/>
+  <text class="sk-t" x="439" y="44">Hotspot</text>
+  <text class="sk-s" x="439" y="60">Mantelplume</text>
+  <text class="sk-s" x="439" y="76">Hawaii, Yellowstone</text>
+  <text class="sk-s" x="440" y="212" style="stroke:none;fill:#fff7ed">Platte driftet →</text>
+  <text class="sk-s" x="440" y="276" style="stroke:none;fill:#fff7ed">Vulkankette: älter nach links</text>
+</svg><figcaption>Die drei geodynamischen Settings des Vulkanismus im Schema (nicht maßstäblich).</figcaption></figure>
 <h3 id="1-divergierende-plattenraender-riftsysteme">1. Divergierende Plattenränder (Riftsysteme)</h3>
 <ul>
 <li>Platten trennen sich → Mantelmaterial steigt auf → Partialschmelze durch Druckabbau</li>

@@ -34,6 +34,8 @@ Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor all
 
 ## Reliefformen
 
+{{skizze:karst|Karstformen im Querschnitt: Das Wasser folgt dem Weg von der Doline über Schacht und Höhle zur Karstquelle (schematisch).}}
+
 ### Oberflächenformen
 
 - **Karren:** Rinnen und Furchen, die durch Lösung an freiliegendem Kalkstein entstehen.

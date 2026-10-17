@@ -1,0 +1,25 @@
+<svg viewBox="0 0 640 290" role="img" aria-labelledby="pf-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="pf-t">Solifluktion am Hang: Die sommerliche Auftauschicht fließt über dem gefrorenen Permafrostboden hangabwärts</title>
+  <rect width="640" height="290" fill="#e0f2fe" class="sk-sky"/>
+  <g transform="translate(0 40) rotate(10 320 150)">
+    <rect x="-300" y="150" width="1300" height="400" fill="#7f9cb8"/>
+    <g fill="#c7dcee" opacity=".8"><rect x="-100" y="182" width="500" height="6" rx="3"/><rect x="300" y="208" width="520" height="6" rx="3"/><rect x="-60" y="236" width="420" height="6" rx="3"/></g>
+    <rect x="-300" y="105" width="1300" height="45" fill="#8b6f4e"/>
+    <rect x="-300" y="99" width="1300" height="7" fill="#7fa65a"/>
+    <g fill="none" stroke="#fde68a" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 9">
+      <path class="sk-flow" d="M-20 114 L660 114" style="animation-duration:.7s"/>
+      <path class="sk-flow" d="M-20 128 L660 128" style="animation-duration:1.3s"/>
+      <path class="sk-flow" d="M-20 142 L660 142" style="animation-duration:2.6s"/>
+    </g>
+    <g fill="#4a7c34"><circle cx="90" cy="96" r="6"/><circle cx="210" cy="96" r="5"/><circle cx="360" cy="96" r="6"/><circle cx="500" cy="96" r="5"/><circle cx="620" cy="96" r="6"/></g>
+  </g>
+  <g class="sk-lead"><path d="M470 120 L440 168"/></g>
+  <text class="sk-t" x="14" y="28">Solifluktion</text>
+  <text class="sk-s" x="14" y="44">Bodenfließen in der Periglazialzone</text>
+  <text class="sk-t" x="626" y="82" text-anchor="end">Auftauschicht (Sommer)</text>
+  <text class="sk-s" x="626" y="98" text-anchor="end">wassergesättigt, fließt hangabwärts</text>
+  <text class="sk-s" x="626" y="114" text-anchor="end">oben schneller, unten langsamer</text>
+  <text class="sk-t" x="14" y="270">Permafrost: gefroren, wasserundurchlässig</text>
+  <text class="sk-s" x="14" y="150">Wasser kann nicht versickern</text>
+  <text class="sk-s" x="14" y="166">→ Stauhorizont</text>
+</svg>

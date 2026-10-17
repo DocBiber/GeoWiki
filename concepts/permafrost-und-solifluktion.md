@@ -65,6 +65,8 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 ### Mechanik
 
+{{skizze:solifluktion|Solifluktion im Hangquerschnitt (schematisch).}}
+
 1. Im Winter / in der Frostperiode: Der Boden ist gefroren — kein Wasser, kein Fließen.
 2. Im Sommer: Die obere „aktive Schicht" taut auf; das Wasser staut sich auf dem darunter
    liegenden, noch gefrorenen Boden.
