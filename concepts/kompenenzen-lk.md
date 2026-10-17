@@ -76,6 +76,47 @@ Fähigkeit, geografische Methoden angemessen anzuwenden.
 | **Datenanalyse** | Quantitative Daten erheben, auswerten, interpretieren | Gletscherrückzug-Raten aus Zeitreihen berechnen |
 | **Modellbildung** | Einfache Modelle und Konstruktionen entwickeln | Modell der glazialen Serie skizzieren und erläutern |
 
+### Geographische Methoden (Methodenkompetenz konkret)
+
+Das ZPG-Geographie-Angebot des LMZ BW (Fortbildung „Kompetenzorientierte Unterrichtsentwicklung in der Kursstufe“) führt die Methodenkompetenz in standardisierten Methoden mit Methodenblatt, Schritt-für-Schritt-Anleitung und Glossar aus. Quelle: [ZPG-Geographie (LMZ BW)](https://www.lmz-bw.de/angebote/sesam-mediathek/geoportal/zpg-geographie).
+
+| Methode | Kompetenzbereiche | Typische Anwendung im LK |
+|---|---|---|
+| **Kommentierte Profilskizze erstellen** (Profil zeichnen, Skizze mit Legende/Beschriftung) | MK, AK, OK | Bodencatena im Schwarzwald, Temperaturverlauf entlang eines N-S-Profils, Trogtal-Querprofil |
+| **Wirkungsgefüge erstellen** („Schnappschuss“) | MK, AK, UK | Verstädterung, Satellitenstädte, Marginalsiedlungen, Risiko- und Teufelskreise |
+| **Analysespinne erstellen** | MK, AK, UK | Räume oder Standorte anhand mehrerer Kriterien vergleichen und bewerten |
+| **Thematische Karte erstellen** | MK, AK | Klassifikation von Daten, Vulnerabilitäts- oder Bevölkerungskarte |
+
+#### Kommentierte Profilskizze (Profil zeichnen, Skizze mit Legende)
+
+1. Profillinie festlegen (Karte, Atlas, Höhendaten).
+2. Achsen mit Höhen- und Entfernungsskala zeichnen, Überhöhung angeben.
+3. Höhenpunkte eintragen und zum Profil verbinden.
+4. Wichtige Objekte und Prozesse beschriften und kommentieren.
+5. Legende, Titel, Maßstab und Quelle ergänzen.
+
+{{skizze:profilskizze|Kommentierte Profilskizze mit Beschriftung und Legende.}}
+
+#### Wirkungsgefüge erstellen
+
+1. Relevante Elemente (Faktoren) aus Material und Vorwissen sammeln.
+2. Beziehungen mit Pfeilen darstellen; „+“ (je mehr, desto mehr) und „–“ (je mehr, desto weniger) kennzeichnen.
+3. Rückkopplungen (Kreisläufe, verstärkend oder ausgleichend) erkennen und benennen.
+4. Das Gefüge in einem Text erläutern und bewerten.
+
+{{skizze:wirkungsgefuege|Wirkungsgefüge am Beispiel der Verstädterung mit Rückkopplung.}}
+
+#### Darstellen in einer Analysespinne
+
+1. 3–8 Kriterien auswählen und eine einheitliche Skala festlegen (z. B. 0 bis 5).
+2. Achsen strahlenförmig anordnen und Werte eintragen.
+3. Punkte zu einer Fläche verbinden, mehrere Räume in verschiedenen Farben vergleichen.
+4. Stärken, Schwächen und Gesamtbild auswerten; Grenzen (Gewichtung, Subjektivität) nennen.
+
+{{skizze:analysespinne|Analysespinne zum Vergleich zweier Räume anhand von fünf Kriterien.}}
+
+Verwandt: [[methoden-gis-fernerkundung]] (Karten erstellen) und [[disparitaet-entwicklungen]] (Räume vergleichen).
+
 ---
 
 ## Inhaltsbezogene Kompetenzen — Reliefsphäre (§3.5.2.1 LK)

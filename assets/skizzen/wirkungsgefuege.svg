@@ -1,0 +1,24 @@
+<svg viewBox="0 0 640 310" role="img" aria-labelledby="wg-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="wg-t">Wirkungsgefüge: Elemente mit verstärkenden (+) und abschwächenden (–) Beziehungen und Rückkopplung</title>
+  <rect width="640" height="310" fill="#f8fafc" class="sk-sky"/>
+  <defs><marker id="wg-a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#334155"/></marker></defs>
+  <g fill="none" stroke="#334155" stroke-width="2.5" marker-end="url(#wg-a)">
+    <path d="M222 70 L318 70"/><path d="M400 90 L440 130"/><path d="M430 180 C400 220 330 220 300 200"/>
+    <path d="M200 180 C170 150 160 120 160 100"/>
+  </g>
+  <g fill="none" stroke-width="2.5" stroke-dasharray="7 8" stroke-linecap="round" class="sk-flow" stroke="#38bdf8">
+    <path d="M222 70 L318 70"/><path d="M400 90 L440 130"/><path d="M430 180 C400 220 330 220 300 200"/><path d="M200 180 C170 150 160 120 160 100"/>
+  </g>
+  <g stroke-width="2">
+    <rect x="80" y="50" width="140" height="48" rx="12" fill="#dbeafe" stroke="#2563eb"/>
+    <rect x="320" y="50" width="80" height="48" rx="12" fill="#fee2e2" stroke="#dc2626"/>
+    <rect x="410" y="130" width="140" height="48" rx="12" fill="#fef3c7" stroke="#d97706"/>
+    <rect x="160" y="180" width="140" height="48" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+  </g>
+  <g class="sk-t" text-anchor="middle"><text x="150" y="80">Landflucht</text><text x="360" y="80">Stadt-</text><text x="480" y="160">Wohnraum-</text><text x="230" y="210">Infrastruktur</text></g>
+  <g class="sk-s" text-anchor="middle" style="font-size:16px;font-weight:700"><text x="360" y="92" style="font-size:12px;font-weight:400">wachstum</text><text x="480" y="174" style="font-size:12px;font-weight:400">mangel</text><text x="270" y="86">+</text><text x="440" y="106">+</text><text x="352" y="228">–</text><text x="168" y="148">+</text></g>
+  <g>
+    <text class="sk-t" x="30" y="262">Wirkungsgefüge erstellen:</text>
+    
+  </g>
+</svg>
