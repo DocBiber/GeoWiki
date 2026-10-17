@@ -683,7 +683,9 @@ button { font: inherit; color: inherit; }
 
 .geomap { height: 480px; margin: 1rem 0; border: 1px solid var(--border); border-radius: 10px; z-index: 0; position: relative; }
 .geomap-docked { height: 340px; margin: 0 0 16px; }
-@media (min-width: 1440px) { .content:has(.geomap-docked) .toc-rail { width: 360px; } }
+@media (min-width: 1280px) { .content:has(.geomap-docked) .toc-rail { width: 360px; } }
+.geomap.geomap-sticky { position: sticky; top: 64px; height: 32vh; min-height: 200px; z-index: 800; box-shadow: 0 4px 14px rgba(0,0,0,.2); }
+html:has(.geomap-sticky) { scroll-padding-top: calc(64px + max(32vh, 200px) + 16px); }
 .geomap-widebtn { background: #fff; color: #21252c; padding: 5px 10px; font-size: 13px; font-weight: 600; text-decoration: none; cursor: pointer; width: auto !important; height: auto !important; line-height: 1.4 !important; }
 .geomap.geomap-wide { position: fixed; top: 56px; left: 0; right: 0; height: var(--geomap-wide-h, 45vh); margin: 0; border-radius: 0; border-width: 0 0 2px; z-index: 900; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
 html.geomap-wide-on { scroll-padding-top: calc(56px + var(--geomap-wide-h, 45vh) + 16px); }

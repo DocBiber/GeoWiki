@@ -106,17 +106,20 @@
     hint.className = "geomap-moved";
     hint.textContent = "Die Karte steht am rechten Seitenrand und bleibt beim Scrollen sichtbar. Ein Klick auf einen Marker springt zum passenden Abschnitt.";
     el.parentNode.insertBefore(hint, el);
-    var mq = window.matchMedia("(min-width: 1440px)");
+    var mq = window.matchMedia("(min-width: 1280px)");
     function apply() {
       if (mq.matches) {
         rail.insertBefore(el, rail.firstChild);
         el.classList.add("geomap-docked");
-        hint.style.display = "block";
+        el.classList.remove("geomap-sticky");
+        hint.textContent = "Die Karte steht am rechten Seitenrand und bleibt beim Scrollen sichtbar. Ein Klick auf einen Marker springt zum passenden Abschnitt.";
       } else {
         hint.parentNode.insertBefore(el, hint.nextSibling);
         el.classList.remove("geomap-docked");
-        hint.style.display = "none";
+        el.classList.add("geomap-sticky");
+        hint.textContent = "Die Karte bleibt beim Scrollen am oberen Rand sichtbar. Ein Klick auf einen Marker springt zum passenden Abschnitt.";
       }
+      hint.style.display = "block";
       onChange();
     }
     if (mq.addEventListener) mq.addEventListener("change", apply); else mq.addListener(apply);
@@ -179,7 +182,7 @@
             byAnchor[a].forEach(function (m) { m.setStyle({ radius: a === active ? 12 : 8, weight: a === active ? 3 : 2 }); });
           });
           var ms = byAnchor[active];
-          if (ms && el.classList.contains("geomap-docked")) map.panTo(ms[0].getLatLng());
+          if (ms && !el.classList.contains("geomap-wide")) map.panTo(ms[0].getLatLng());
         });
       }, { rootMargin: "-80px 0px -70% 0px" });
       anchors.forEach(function (a) {
