@@ -65,6 +65,8 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 ### Mechanik
 
+{{skizze:solifluktion|Solifluktion im Hangquerschnitt (schematisch).}}
+
 1. Im Winter / in der Frostperiode: Der Boden ist gefroren — kein Wasser, kein Fließen.
 2. Im Sommer: Die obere „aktive Schicht" taut auf; das Wasser staut sich auf dem darunter
    liegenden, noch gefrorenen Boden.
@@ -131,7 +133,7 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 ## Visuelle Darstellungen & Animationen
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 ### 🎬 Permafrost – Was ist das? (Erklärvideo, ca. 4 Min.)
 
@@ -145,13 +147,13 @@ schluffig-wässrige Bodenmasse langsam bergaufabwärts, oft in Form eines „Fli
 
 *Klimawandel, Auftauen, Methanfreisetzung, Bodeninstabilität, Rückkopplungseffekte.*
 
-#### 📸 Fotogalerie: Permafrost, arktische Tundra (Unsplash)
+#### 📸 Fotogalerie: Permafrost, arktische Tundra
 
-[Freie Fotos von Permafrost-Landschaften, Tundra, Eisspalten.](https://unsplash.com/s/photos/permafrost)
+[Fotos zu Permafrost-Landschaften, Tundra, Eisspalten.](https://unsplash.com/s/photos/permafrost)
 
-#### 📸 Fotogalerie: Solifluction, gelifluktive Landformen (Unsplash)
+#### 📸 Fotogalerie: Solifluction, gelifluktive Landformen
 
-[Freie Fotos von Solifluction-Lappen und gelifluktiven Terrassen.](https://unsplash.com/s/photos/solifluction)
+[Fotos zu Solifluction-Lappen und gelifluktiven Terrassen.](https://unsplash.com/s/photos/solifluction)
 
 
 ---

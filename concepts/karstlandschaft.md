@@ -14,6 +14,10 @@ confidence: low
 
 Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor allem Kalkstein und Dolomit, aber auch Gips und Steinsalz. Kohlendioxid aus Luft und Boden löst sich im Wasser und bildet schwache Kohlensäure, die Karbonatgestein angreifen kann. Das Wasser versickert häufig durch Klüfte, Spalten und Hohlräume; deshalb ist das oberirdische Gewässernetz in manchen Karstgebieten nur schwach ausgeprägt. Böden können auf nacktem Kalkstein dünn sein, unterscheiden sich aber je nach Gestein und Landschaft.
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="karst"></div>
+
 ## Grundprozesse
 
 ### Lösung von Karbonatgestein
@@ -29,6 +33,8 @@ Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor all
 - Unterirdische Abflusswege können rasch auf Niederschläge reagieren. Quellen und Höhlenbäche führen das Wasser an anderer Stelle wieder zutage.
 
 ## Reliefformen
+
+{{skizze:karst|Karstformen im Querschnitt: Das Wasser folgt dem Weg von der Doline über Schacht und Höhle zur Karstquelle (schematisch).}}
 
 ### Oberflächenformen
 
@@ -77,19 +83,19 @@ Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor all
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Karstlandschaften (Unsplash)
+#### 📸 Fotogalerie: Karstlandschaften
 
-[Freie Fotos von Karst-Formen, Poljen, Dolinen, Felsformationen.](https://unsplash.com/s/photos/karst-landscape)
+[Fotos zu Karst-Formen, Poljen, Dolinen, Felsformationen.](https://unsplash.com/s/photos/karst-landscape)
 
-#### 📸 Fotogalerie: Höhlen, Karst-Höhlen (Unsplash)
+#### 📸 Fotogalerie: Höhlen, Karst-Höhlen
 
-[Freie Fotos von Tropfsteinhöhlen, unterirdischen Karst-Formen.](https://unsplash.com/s/photos/cave-formation)
+[Fotos zu Tropfsteinhöhlen, unterirdischen Karst-Formen.](https://unsplash.com/s/photos/cave-formation)
 
-#### 📸 Fotogalerie: Dolinen, Sinkholes (Unsplash)
+#### 📸 Fotogalerie: Dolinen, Sinkholes
 
-[Freie Fotos von Dolinen und anderen Karstabsackungen.](https://unsplash.com/s/photos/doline)
+[Fotos zu Dolinen und anderen Karstabsackungen.](https://unsplash.com/s/photos/doline)
 
 #### 🖼️ Kategorie: Karst – Wikimedia Commons
 

@@ -11,7 +11,7 @@ werden NICHT überschrieben — Designänderungen dort direkt möglich.
 
 Aufruf: python build_html.py   (im Wiki-Wurzelverzeichnis)
 """
-import os, re, html, glob, json
+import os, re, html, glob, json, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EXCLUDE_DIRS = {".git", "_backup_pre_language_tool_fix"}
@@ -276,6 +276,64 @@ def md_to_html(body, known_slugs, page_title):
             out.append(f'<div class="video-frame">{line}</div>')
             i += 1
             continue
+
+        m_sk = re.fullmatch(r'\{\{skizze:([^|}]+)(?:\|(.*))?\}\}', stripped)
+        if m_sk:
+            close_list()
+            base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "skizzen")
+            parts = [p.strip() for p in m_sk.group(1).split("+")]
+            views = []
+            for p in parts:
+                name, _, label = p.partition(":")
+                with open(os.path.join(base, name + ".svg"), encoding="utf-8") as fh:
+                    views.append((label or name, fh.read().strip()))
+            cap = f"<figcaption>{inline(m_sk.group(2), known_slugs)}</figcaption>" if m_sk.group(2) else ""
+            if len(views) == 1:
+                out.append(f'<figure class="skizze">{views[0][1]}{cap}</figure>')
+            else:
+                tabs = "".join(
+                    f'<button type="button" role="tab" class="sk-tab{" is-active" if n == 0 else ""}" data-view="{n}">{html.escape(lab)}</button>'
+                    for n, (lab, _) in enumerate(views)
+                )
+                body = "".join(
+                    f'<div class="sk-view{" is-active" if n == 0 else ""}">{svg}</div>' for n, (_, svg) in enumerate(views)
+                )
+                out.append(f'<figure class="skizze skizze-multi"><div class="sk-tabs" role="tablist">{tabs}</div>{body}{cap}</figure>')
+            i += 1
+            continue
+
+        if re.fullmatch(r'<div class="geomap"(?: data-[a-z-]+="[^"]*")*></div>', stripped):
+            close_list()
+            out.append(stripped)
+            i += 1
+            continue
+
+        m_med = re.fullmatch(r"\[([^\]]*)\]\((https://(?:commons\.wikimedia\.org/wiki/|unsplash\.com/s/photos/)[^)\s]+)\)", stripped)
+        if m_med:
+            label, url = m_med.group(1), m_med.group(2)
+            label_e, url_e = html.escape(label), html.escape(url)
+            m_file = re.match(r"https://commons\.wikimedia\.org/wiki/File:(.+)$", url)
+            m_cat = re.match(r"https://commons\.wikimedia\.org/wiki/(Category:.+)$", url)
+            m_uns = re.match(r"https://unsplash\.com/s/photos/([^/?#]+)$", url)
+            if m_file:
+                close_list()
+                out.append(
+                    f'<figure class="media-img"><a href="{url_e}" target="_blank" rel="noopener">'
+                    f'<img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/{html.escape(m_file.group(1))}?width=900" alt="{label_e}"></a>'
+                    f"<figcaption>{label_e} · Wikimedia Commons</figcaption></figure>"
+                )
+                i += 1
+                continue
+            if m_cat or m_uns:
+                close_list()
+                attr = (f'data-cat="{html.escape(urllib.parse.unquote(m_cat.group(1)).replace("_", " "))}"' if m_cat
+                        else f'data-q="{html.escape(m_uns.group(1).replace("-", " "))}"')
+                out.append(
+                    f'<div class="media-gallery" {attr}><p class="mg-fallback"><a href="{url_e}" target="_blank" rel="noopener">{label_e}</a></p>'
+                    f'<noscript></noscript></div>'
+                )
+                i += 1
+                continue
 
         if "<img" in line.lower():
             close_list()

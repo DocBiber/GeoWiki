@@ -75,15 +75,7 @@ begrenzen, beseitigt die Naturgefahr aber nicht.
 
 ## Zusammenhang der Begriffe
 
-```
-Naturgefahr ──┐
-              ├── beeinflussen gemeinsam das Risiko möglicher Schäden
-Exposition ───┤
-              │
-Vulnerabilität┘
-
-Vorsorge und Resilienz können Folgen begrenzen und die Erholung unterstützen.
-```
+{{skizze:risiko|Risikoschema (Lernhilfe): Hazard, Exposition und Vulnerabilität wirken zusammen; Resilienz begrenzt die Folgen.}}
 
 Das Schema dient der qualitativen Analyse. Je nach Fachmodell werden die Begriffe und
 ihre Beziehungen unterschiedlich genau gefasst.

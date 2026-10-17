@@ -41,6 +41,8 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 
 ### Adiabate Prozesse
 
+{{skizze:foehn|Föhn als Beispiel für adiabatische Prozesse. Die Temperaturen sind Modellwerte.}}
+
 - **Trockenadiabatisch:** Trockene, ungesättigte Luft kühlt beim Aufsteigen näherungsweise um 1 °C pro 100 m ab.
 - **Feuchtadiabatisch:** In gesättigter aufsteigender Luft wird bei der Kondensation latente Wärme frei; deshalb fällt die Abkühlung im Mittel geringer aus und ist variabel.
 
@@ -71,6 +73,10 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 - **Föhn:** trockener, warmer Fallwind auf der Leeseite eines Gebirges. Beim Absinken erwärmt sich die Luft trockenadiabatisch.
 - **Berg-Tal-Wind-System**: Tagsüber Talwind (aufsteigend, wärmer), nachts Bergwind (absteigend, kälter) — wichtig für Hochgebirge
 
+## Karte: Klimazonen und Windsysteme
+
+<div class="geomap" data-layer="klima"></div>
+
 ## Globale Klimaprozesse
 
 ### Solare Einstrahlung und Albedo
@@ -79,6 +85,8 @@ Die **Wetterfaktoren** sind die messbaren Zustandsgrößen der Atmosphäre:
 - **Albedo:** Maß für den Anteil der einfallenden Strahlung, den eine Oberfläche reflektiert. Schnee besitzt meist eine hohe Albedo, dunkle Wasserflächen eine geringe; Veränderungen der Schnee- und Eisflächen beeinflussen die Energiebilanz.
 
 ### Globale atmosphärische Zirkulation
+
+{{skizze:zirkulation|Dreizellenmodell der Zirkulation (Nordhalbkugel, stark vereinfacht).}}
 
 - **ITCZ (Intertropische Konvergenzzone):** In ihr treffen die Passatwinde beider Hemisphären zusammen; aufsteigende Luft begünstigt Wolkenbildung und Niederschläge. Ihre Lage verschiebt sich im Jahresverlauf.
 - **Passatzirkulation:** Nordostpassat und Südostpassat wehen von den subtropischen Hochdruckgebieten in Richtung ITCZ.

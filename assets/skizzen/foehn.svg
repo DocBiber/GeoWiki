@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 280" role="img" aria-labelledby="fo-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="fo-t">Föhn: Luft steigt auf der Luvseite auf, kühlt ab und regnet ab, sinkt im Lee ab und erwärmt sich trocken</title>
+  <defs>
+    <linearGradient id="fo-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfdbfe"/><stop offset="1" stop-color="#f1f7ff"/></linearGradient>
+    <marker id="fo-ar" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1e3a8a"/></marker>
+    <marker id="fo-ar2" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#dc2626"/></marker>
+  </defs>
+  <rect width="640" height="280" fill="url(#fo-sky)" class="sk-sky"/>
+  <path d="M0 240 L140 240 L320 70 L500 240 L640 240 L640 280 L0 280 Z" fill="#7a6a5e" stroke="#3f342b" stroke-width="2"/>
+  <path d="M296 94 L320 70 L344 94 L330 92 L320 100 L310 91 Z" fill="#fff" opacity=".9"/>
+  <line x1="170" y1="183" x2="330" y2="183" stroke="#64748b" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g fill="#fff" opacity=".96" class="sk-lake">
+    <circle cx="232" cy="170" r="14"/><circle cx="252" cy="152" r="17"/><circle cx="276" cy="134" r="18"/><circle cx="296" cy="110" r="17"/><circle cx="318" cy="88" r="16"/><circle cx="262" cy="170" r="12"/><circle cx="290" cy="148" r="13"/>
+  </g>
+  <g fill="#3b82f6"><ellipse class="sk-dropfall" cx="226" cy="150" rx="2" ry="3.2" style="animation-delay:0s"/><ellipse class="sk-dropfall" cx="250" cy="128" rx="2" ry="3.2" style="animation-delay:.7s"/><ellipse class="sk-dropfall" cx="274" cy="106" rx="2" ry="3.2" style="animation-delay:1.4s"/></g>
+  <path d="M20 218 L118 214 C190 150 255 98 322 52" fill="none" stroke="#1e3a8a" stroke-width="3.5" stroke-dasharray="9 8" class="sk-flow" marker-end="url(#fo-ar)"/>
+  <path d="M322 52 C400 92 450 190 520 214 L620 218" fill="none" stroke="#dc2626" stroke-width="3.5" stroke-dasharray="9 8" class="sk-flow" marker-end="url(#fo-ar2)"/>
+
+  <text class="sk-t" x="14" y="205">15 °C</text>
+  <text class="sk-t" x="178" y="177">5 °C</text>
+  <text class="sk-s" x="106" y="196">Kondensationsniveau</text>
+  <text class="sk-t" x="332" y="46">−5 °C</text>
+  <text class="sk-t" x="548" y="205">25 °C</text>
+  <text class="sk-t" x="14" y="30">Luv: Aufstieg, Abkühlung</text>
+  <text class="sk-s" x="14" y="46">trocken 1 K / 100 m, feucht ≈ 0,5 K / 100 m</text>
+  <text class="sk-t" x="626" y="108" text-anchor="end">Lee: Absinken, Erwärmung</text>
+  <text class="sk-s" x="626" y="124" text-anchor="end">1 K / 100 m, Wolken lösen sich auf</text>
+  <text class="sk-s" x="332" y="62">Gipfel 3000 m</text>
+</svg>

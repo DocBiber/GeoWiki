@@ -1,0 +1,45 @@
+<svg viewBox="0 0 640 380" role="img" aria-labelledby="sv-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="sv-t">Schichtvulkan im Querschnitt mit Krater, Schlot, Magmakammer und Aschewolke</title>
+  <defs>
+    <linearGradient id="sv-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <radialGradient id="sv-mag" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#ffd166"/><stop offset=".55" stop-color="#ef5b3b"/><stop offset="1" stop-color="#b3261e"/></radialGradient>
+    <path id="sv-cone" d="M90 290 C190 270 250 150 292 82 Q320 104 348 82 C390 150 450 270 550 290 Z"/>
+    <clipPath id="sv-clip"><use href="#sv-cone"/></clipPath>
+  </defs>
+  <rect width="640" height="290" fill="url(#sv-sky)" class="sk-sky"/>
+  <rect y="290" width="640" height="90" fill="#8d7b68"/>
+  <g clip-path="url(#sv-clip)">
+    <use href="#sv-cone" fill="#c4b29c"/>
+    <g transform="translate(320 290) scale(.86) translate(-320 -290)"><use href="#sv-cone" fill="#6f5f52"/></g>
+    <g transform="translate(320 290) scale(.72) translate(-320 -290)"><use href="#sv-cone" fill="#c4b29c"/></g>
+    <g transform="translate(320 290) scale(.58) translate(-320 -290)"><use href="#sv-cone" fill="#6f5f52"/></g>
+    <g transform="translate(320 290) scale(.44) translate(-320 -290)"><use href="#sv-cone" fill="#c4b29c"/></g>
+    <g transform="translate(320 290) scale(.3) translate(-320 -290)"><use href="#sv-cone" fill="#6f5f52"/></g>
+  </g>
+  <use href="#sv-cone" fill="none" stroke="#3f342b" stroke-width="2"/>
+  <line x1="0" y1="290" x2="640" y2="290" stroke="#3f342b" stroke-width="2"/>
+
+  <rect x="312" y="100" width="16" height="240" rx="4" fill="#e5483a"/>
+  <line class="sk-flow sk-flow-up" x1="320" y1="336" x2="320" y2="100" stroke="#ffd166" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="320" cy="345" rx="118" ry="28" fill="url(#sv-mag)" class="sk-pulse"/>
+  <ellipse cx="320" cy="84" rx="26" ry="7" fill="#ffb84d" class="sk-glow"/>
+
+  <g class="sk-ashes" fill="#6b7280">
+    <circle class="sk-ash" cx="312" cy="78" r="9" style="animation-delay:0s"/>
+    <circle class="sk-ash" cx="328" cy="78" r="8" style="animation-delay:.9s"/>
+    <circle class="sk-ash" cx="320" cy="78" r="11" style="animation-delay:1.8s"/>
+    <circle class="sk-ash" cx="306" cy="80" r="7" style="animation-delay:2.7s"/>
+    <circle class="sk-ash" cx="334" cy="80" r="7" style="animation-delay:3.4s"/>
+    <circle class="sk-ash" cx="320" cy="78" r="9" style="animation-delay:4.2s"/>
+  </g>
+
+  <g class="sk-lead"><path d="M420 54 L350 80"/><path d="M430 190 L330 190"/><path d="M450 346 L396 346"/><path d="M172 228 L208 244"/><path d="M455 236 L420 236"/></g>
+  <text class="sk-t" x="426" y="54">Krater</text>
+  <text class="sk-t" x="436" y="194">Schlot</text>
+  <text class="sk-t" x="456" y="350">Magmakammer</text>
+  <text class="sk-t" x="30" y="222">Wechsellagerung aus</text>
+  <text class="sk-t" x="30" y="240">Lava und Asche</text>
+  <text class="sk-t" x="461" y="240">steiler Kegel</text>
+  <text class="sk-t" x="120" y="34">Aschewolke</text>
+  <text class="sk-s" x="460" y="256">(Stratovulkan)</text>
+</svg>

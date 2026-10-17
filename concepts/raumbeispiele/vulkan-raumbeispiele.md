@@ -14,6 +14,10 @@ sources: []
 
 ---
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="vulkan"></div>
+
 ## 1. Mount Vesuv — Italien
 
 ![Mount Vesuv, Kampanien (Italien)](https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg/1280px-Aerial_image_of_Pompeii_and_Mount_Vesuvius_%28view_from_the_southeast%29.jpg)
@@ -229,6 +233,6 @@ Verknüpfungen: [[vulnerabilitaet-vulkanraume]], [[vulkanprozesse]], [[vulnerabi
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Vulkanlandschaften (Unsplash)](https://unsplash.com/s/photos/volcano-landscape)
+[Fotogalerie: Fotogalerie: Vulkanlandschaften](https://unsplash.com/s/photos/volcano-landscape)

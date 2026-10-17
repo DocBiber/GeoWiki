@@ -14,6 +14,10 @@ Die folgenden Beispiele zeigen unterschiedliche Formen und Prozesse glazial gepr
 Räume. Die glaziale Serie des norddeutschen Tieflands ist nicht mit den Formen eines
 alpinen Tals oder den heutigen Gletschern Islands gleichzusetzen.
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="glazial"></div>
+
 ## 1. Alpen — Aletschgletscher, Schweiz
 
 ![Aletschgletscher, Berner Alpen (Schweiz)](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg/1280px-Aletschgletscher%2C_Aletschwald_und_Wannenh%C3%B6rner_%282017%29.jpg)

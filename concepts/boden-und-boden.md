@@ -32,6 +32,8 @@ Boden ist der belebte, durch Verwitterung und Bodenbildungsprozesse entstandene 
 
 ## Bodenentstehung (Pedogenese)
 
+{{skizze:bodenprofil|Idealisiertes Bodenprofil mit Horizonten und Stoffverlagerung (schematisch, ohne bestimmten Bodentyp).}}
+
 **Faktoren der Bodenentstehung (nach Jenny, 5 Faktoren):**
 
 1. **Klima:** Temperatur und Niederschlag steuern Verwitterungsrate, Chemismus, Humusbildung
@@ -95,19 +97,19 @@ Der Boden ist ein Landschaftsmerkmal, das mit anderen Faktoren interagiert:
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Bodenhorizonte, Bodenprofile (Unsplash)
+#### 📸 Fotogalerie: Bodenhorizonte, Bodenprofile
 
-[Freie Fotos von Bodenprofilen, Schichten, Humus, verschiedenen Bodenarten.](https://unsplash.com/s/photos/soil-horizon)
+[Fotos zu Bodenprofilen, Schichten, Humus, verschiedenen Bodenarten.](https://unsplash.com/s/photos/soil-horizon)
 
-#### 📸 Fotogalerie: Bodenarten – Sand, Lehm, Ton (Unsplash)
+#### 📸 Fotogalerie: Bodenarten – Sand, Lehm, Ton
 
-[Freie Fotos von verschiedenen Bodenarten und Bodenprofilen.](https://unsplash.com/s/photos/soil)
+[Fotos zu verschiedenen Bodenarten und Bodenprofilen.](https://unsplash.com/s/photos/soil)
 
-#### 📸 Fotogalerie: Bodenkunde, Bodenproben, Geomorphologie (Unsplash)
+#### 📸 Fotogalerie: Bodenkunde, Bodenproben, Geomorphologie
 
-[Freie Fotos von Bodenuntersuchungen, Geländemodell, Bodenerosion.](https://unsplash.com/s/photos/pedology)
+[Fotos zu Bodenuntersuchungen, Geländemodell, Bodenerosion.](https://unsplash.com/s/photos/pedology)
 
 
 ---

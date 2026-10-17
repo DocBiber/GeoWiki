@@ -1,0 +1,34 @@
+<svg viewBox="0 0 640 280" role="img" aria-labelledby="sh-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="sh-t">Schildvulkan im Querschnitt: breite, flache Form mit Lavastrom</title>
+  <defs>
+    <linearGradient id="sh-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <path id="sh-shape" d="M10 220 C120 215 210 150 300 118 Q320 128 340 118 C430 150 520 215 630 220 Z"/>
+    <clipPath id="sh-clip"><use href="#sh-shape"/></clipPath>
+  </defs>
+  <rect width="640" height="220" fill="url(#sh-sky)" class="sk-sky"/>
+  <rect y="220" width="640" height="60" fill="#8d7b68"/>
+  <g clip-path="url(#sh-clip)">
+    <use href="#sh-shape" fill="#5d5049"/>
+    <g transform="translate(320 220) scale(.85,.8) translate(-320 -220)"><use href="#sh-shape" fill="#7a6a5e"/></g>
+    <g transform="translate(320 220) scale(.7,.62) translate(-320 -220)"><use href="#sh-shape" fill="#5d5049"/></g>
+    <g transform="translate(320 220) scale(.55,.44) translate(-320 -220)"><use href="#sh-shape" fill="#7a6a5e"/></g>
+    <g transform="translate(320 220) scale(.4,.28) translate(-320 -220)"><use href="#sh-shape" fill="#5d5049"/></g>
+  </g>
+  <use href="#sh-shape" fill="none" stroke="#3f342b" stroke-width="2"/>
+  <line x1="0" y1="220" x2="640" y2="220" stroke="#3f342b" stroke-width="2"/>
+
+  <path d="M334 121 C390 150 450 190 520 207" fill="none" stroke="#ff6a3d" stroke-width="6" stroke-linecap="round"/>
+  <path class="sk-flow" d="M334 121 C390 150 450 190 520 207" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+  <path d="M290 121 C240 150 180 190 110 208" fill="none" stroke="#ff6a3d" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+  <path class="sk-flow" d="M290 121 C240 150 180 190 110 208" fill="none" stroke="#ffd166" stroke-width="2.5" stroke-linecap="round"/>
+  <ellipse cx="320" cy="121" rx="22" ry="6" fill="#ffb84d" class="sk-glow"/>
+  <g fill="#ffb84d"><circle class="sk-spark" cx="316" cy="116" r="3" style="animation-delay:0s"/><circle class="sk-spark" cx="324" cy="116" r="2.5" style="animation-delay:.7s"/><circle class="sk-spark" cx="320" cy="116" r="3" style="animation-delay:1.4s"/></g>
+
+  <g class="sk-lead"><path d="M400 52 L334 112"/><path d="M544 160 L486 188"/><path d="M96 90 L130 195"/></g>
+  <text class="sk-t" x="396" y="48">Krater / Caldera</text>
+  <text class="sk-t" x="470" y="152">Lavastrom</text>
+  <text class="sk-s" x="470" y="168">(dünnflüssig, basaltisch)</text>
+  <text class="sk-t" x="30" y="70">flach geneigte Flanken</text>
+  <text class="sk-s" x="30" y="86">viele übereinander liegende Lavadecken</text>
+  <text class="sk-s" x="430" y="262">Höhe stark überhöht dargestellt</text>
+</svg>

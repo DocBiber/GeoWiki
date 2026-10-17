@@ -117,7 +117,7 @@ Für die Leistungsbewertung im Leistungskurs (§3.5.2.1) sollen Schülerinnen un
 
 ## Visuelle Darstellungen & Animationen
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 #### 🎬 A Day in Pompeii – Animation der Eruption des Vesuvs (79 n. Chr.)
 
@@ -141,9 +141,9 @@ Für die Leistungsbewertung im Leistungskurs (§3.5.2.1) sollen Schülerinnen un
 
 [Historische Illustration eines eruptiven Vulkans.](https://commons.wikimedia.org/wiki/File:Volcanic_eruption.jpg)
 
-#### 📸 Fotogalerie: Vulkanausbrüche (Unsplash)
+#### 📸 Fotogalerie: Vulkanausbrüche
 
-[Freie Fotos von aktiven und eruptiven Vulkanen.](https://unsplash.com/s/photos/volcano-eruption)
+[Fotos zu aktiven und eruptiven Vulkanen.](https://unsplash.com/s/photos/volcano-eruption)
 
 
 ---

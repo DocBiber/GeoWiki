@@ -17,6 +17,10 @@ confidence: medium
 
 ---
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="fluss"></div>
+
 ## 1. Elbe — Hochwasser 2002 (Sommerhochwasser, Mitteleuropa)
 
 ![Elbe-Hochwasser 2002, Dresden](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg/1280px-20020815220NR_Dresden_Hochwasser_Carolabr%C3%BCcke.jpg)
@@ -61,7 +65,13 @@ confidence: medium
 
 ---
 
+### Kartenvergleich Elbe bei Dresden: Satellitenbild und Topografie
+
+<div class="geomap" data-layer="swipe" data-lat="51.05" data-lng="13.74" data-zoom="11"></div>
+
 ## 2. Rhein — Flussregulierung und Rückhaltebecken
+
+{{skizze:maeander|Der naturnahe Rhein vor der Tulla-Korrektur mäanderte frei: Prallhang, Gleithang und Altarm (schematisch).}}
 
 ![Rhein (Oberrhein)](https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg/1280px-2018-06-15_09-35-06_River_Rhine_and_Loog_in_D%C3%B6rflingen.jpg)
 
@@ -173,15 +183,15 @@ Verknüpfungen: [[wasserhaushalt]], [[atmosphaere-wetter-klima]], [[klimawandel]
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Flusslandschaften, Auen (Unsplash)
+#### 📸 Fotogalerie: Flusslandschaften, Auen
 
-[Freie Fotos von Flussauen, Mäandern, Überschwemmungsgebieten.](https://unsplash.com/s/photos/river-floodplain)
+[Fotos zu Flussauen, Mäandern, Überschwemmungsgebieten.](https://unsplash.com/s/photos/river-floodplain)
 
-#### 📸 Fotogalerie: Hochwasser, Überschwemmungen (Unsplash)
+#### 📸 Fotogalerie: Hochwasser, Überschwemmungen
 
-[Freie Fotos von Hochwasser-Szenarien, überschwemmten Städten.](https://unsplash.com/s/photos/flooding)
+[Fotos zu Hochwasser-Szenarien, überschwemmten Städten.](https://unsplash.com/s/photos/flooding)
 
 #### 🖼️ Kategorie: Flüsse & Auen – Wikimedia Commons
 

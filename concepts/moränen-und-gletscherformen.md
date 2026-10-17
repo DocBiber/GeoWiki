@@ -119,7 +119,7 @@ Folgende Kompetenzen werden im LK erwartet (§3.5.2.1):
 
 ## Bildreferenzen & Animationen
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 #### 🎬 Wie formen Gletscher die Landschaft? – Animation (geog.1)
 
@@ -127,13 +127,13 @@ Folgende Kompetenzen werden im LK erwartet (§3.5.2.1):
 
 *Erosionsprozesse, Abrasion, Trogtal, Moränen, U-förmige Täler.*
 
-#### 📸 Fotogalerie: Moränen, Gletscherformen (Unsplash)
+#### 📸 Fotogalerie: Moränen, Gletscherformen
 
-[Freie Fotos von Endmoränen, Seitenmoränen, medialen Moränen.](https://unsplash.com/s/photos/glacier-moraine)
+[Fotos zu Endmoränen, Seitenmoränen, medialen Moränen.](https://unsplash.com/s/photos/glacier-moraine)
 
-#### 📸 Fotogalerie: Drumlins und glaziale Hügelformen (Unsplash)
+#### 📸 Fotogalerie: Drumlins und glaziale Hügelformen
 
-[Freie Fotos von Drumlins und vergleichbaren glazialen Formen.](https://unsplash.com/s/photos/drumlin)
+[Fotos zu Drumlins und vergleichbaren glazialen Formen.](https://unsplash.com/s/photos/drumlin)
 
 #### 🖼️ Kategorie: Glaziale Landformen – Wikimedia Commons
 

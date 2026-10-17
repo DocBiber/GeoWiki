@@ -24,6 +24,8 @@ Der Klimawandel ist die langfristige Änderung des Klimasystems der Erde, insbes
 
 ### Der natürliche Treibhauseffekt
 
+{{skizze:treibhauseffekt|Strahlungsbilanz und Treibhauseffekt (schematisch, ohne Zahlenwerte außer der Albedo-Größenordnung).}}
+
 - Die Erde empfängt kurzwellige Sonnenstrahlung; ein Teil wird reflektiert (Albedo), ein Teil absorbiert und als langwellige Wärmestrahlung abgegeben
 - Bestimmte Gase in der Atmosphäre — **Treibhausgase (THG)**: Wasserdampf, CO₂, Methan (CH₄), Lachgas (N₂O), Ozon (O₃), Fluorgase — absorbieren langwellige Wärme und senden sie in alle Richtungen zurück, u. a. zur Erde
 - Ohne den natürlichen Treibhauseffekt wäre die globale Durchschnittstemperatur ca. -18 °C statt dem aktuellen +15 °C → Leben, wie wir es kennen, wäre nicht möglich
@@ -152,6 +154,6 @@ Im Klimawandel-Kontext bedeutet das:
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung (Unsplash)](https://unsplash.com/s/photos/global-warming)
+[Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung](https://unsplash.com/s/photos/global-warming)

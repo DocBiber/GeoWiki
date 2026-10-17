@@ -15,6 +15,10 @@ sources: []
 
 ---
 
+## Karte der Raumbeispiele
+
+<div class="geomap"></div>
+
 ## Übersicht
 
 | Landschaftstyp (Bildungsplan) | Beispiel(e) im Wiki | Seiten |

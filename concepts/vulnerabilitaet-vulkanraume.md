@@ -19,6 +19,10 @@ sowohl für das Basisfach als auch vertieft für das LK-Abitur.
 
 ---
 
+## Lage der Beispielräume
+
+<div class="geomap" data-type="vulkan"></div>
+
 ## Hazard im vulkanischen Raum
 
 | Gefahrentyp | Beschreibung | Reichweite |

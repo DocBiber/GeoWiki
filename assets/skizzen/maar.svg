@@ -1,0 +1,29 @@
+<svg viewBox="0 0 640 320" role="img" aria-labelledby="ma-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="ma-t">Maar im Querschnitt: trichterförmige Mulde, Tuffring und Explosionsherd im Untergrund</title>
+  <defs>
+    <linearGradient id="ma-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <linearGradient id="ma-gw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7cc0ea" stop-opacity=".7"/><stop offset="1" stop-color="#4aa3df" stop-opacity=".9"/></linearGradient>
+  </defs>
+  <rect width="640" height="320" fill="url(#ma-sky)" class="sk-sky"/>
+  <path d="M0 150 H190 C205 150 215 134 232 134 C245 134 252 150 262 164 C290 200 305 222 320 262 C335 222 350 200 378 164 C388 150 395 134 408 134 C425 134 435 150 450 150 H640 V320 H0 Z" fill="#8d7b68" stroke="#3f342b" stroke-width="2"/>
+  <rect y="248" width="640" height="72" fill="url(#ma-gw)"/>
+  <path d="M262 164 C290 200 305 222 320 262 C335 222 350 200 378 164 C360 160 340 164 320 164 C300 164 280 160 262 164 Z" fill="#4aa3df" opacity=".9" class="sk-lake"/>
+  <path d="M200 150 C212 138 222 134 232 134 C245 134 252 150 262 164 L248 164 C240 150 236 146 228 146 C218 146 212 150 200 150 Z M440 150 C428 138 418 134 408 134 C395 134 388 150 378 164 L392 164 C400 150 404 146 412 146 C422 146 428 150 440 150 Z" fill="#b6a58f" stroke="#3f342b" stroke-width="1.5"/>
+  <path d="M312 320 V262 H328 V320 Z" fill="#e5483a"/>
+  <line class="sk-flow sk-flow-up" x1="320" y1="318" x2="320" y2="270" stroke="#ffd166" stroke-width="4" stroke-linecap="round"/>
+  <circle class="sk-boom" cx="320" cy="258" r="20" fill="#ffb84d"/>
+  <g fill="#fff" stroke="#9ca3af" stroke-width="1">
+    <circle class="sk-ash" cx="320" cy="190" r="7" style="animation-delay:.2s"/>
+    <circle class="sk-ash" cx="304" cy="196" r="6" style="animation-delay:1.4s"/>
+    <circle class="sk-ash" cx="336" cy="196" r="6" style="animation-delay:2.4s"/>
+  </g>
+  <g class="sk-lead"><path d="M150 100 L224 138"/><path d="M470 100 L416 138"/><path d="M470 270 L346 262"/><path d="M150 262 L260 276"/></g>
+  <text class="sk-t" x="40" y="96">Tuffring</text>
+  <text class="sk-s" x="40" y="112">ausgeworfenes Lockermaterial</text>
+  <text class="sk-t" x="470" y="96">trichterförmige Mulde</text>
+  <text class="sk-s" x="470" y="112">oft mit Maarsee</text>
+  <text class="sk-t" x="476" y="274">Explosionsherd</text>
+  <text class="sk-s" x="476" y="292">Magma trifft Wasser</text>
+  <text class="sk-t" x="30" y="266">Grundwasser</text>
+  <text class="sk-s" x="30" y="284">oder Oberflächenwasser</text>
+</svg>

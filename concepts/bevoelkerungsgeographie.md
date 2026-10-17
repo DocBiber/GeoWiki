@@ -20,6 +20,8 @@ Die **Bevölkerungsgeographie** untersucht die räumliche Verteilung, Struktur, 
 
 ### Demographischer Übergang
 
+{{skizze:demographischer-uebergang|Das Modell des demographischen Übergangs in vier Phasen (idealtypisch; Lehrbücher unterscheiden teils fünf Phasen).}}
+
 Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedrigen Raten in modernen Gesellschaften:
 
 1. **Starkes Wachstum**: hohe Geburtenrate, sinkende Sterberate (Medizin, Hygiene) → Bevölkerungswachstum.

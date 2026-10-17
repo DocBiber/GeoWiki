@@ -9,6 +9,98 @@
   var WIKI = (window.WIKI = window.WIKI || {});
   function getIndex() { return window.SEARCH_INDEX || []; }
 
+  /* ---------- Raumbeispiel-Karte (Leaflet wird nur bei Bedarf geladen) ---------- */
+  function loadScript(src, cb) {
+    var s = document.createElement("script");
+    s.src = src; s.onload = cb;
+    document.head.appendChild(s);
+  }
+  function initGeomap() {
+    if (!document.querySelector(".geomap")) return;
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(css);
+    loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", function () {
+      loadScript("assets/raumbeispiele.js", function () { loadScript("assets/karte.js"); });
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGeomap);
+  else initGeomap();
+
+  /* ---------- Skizzen: Animation beim Sichtbarwerden starten, Button zum Neustarten ---------- */
+  function initSkizzen() {
+    var figs = document.querySelectorAll("figure.skizze");
+    if (!figs.length) return;
+    var io = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { e.target.classList.toggle("is-visible", e.isIntersecting); });
+    }, { threshold: 0.25 }) : null;
+    figs.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "sk-replay";
+      b.textContent = "↻ Animation";
+      b.title = "Animation neu starten";
+      b.addEventListener("click", function () {
+        var svg = f.querySelector(".sk-view.is-active svg") || f.querySelector("svg");
+        var p = svg.parentNode;
+        p.removeChild(svg);
+        void p.offsetWidth;
+        p.insertBefore(svg, p.firstChild);
+        f.classList.add("is-visible");
+      });
+      f.querySelectorAll(".sk-tab").forEach(function (t) {
+        t.addEventListener("click", function () {
+          var n = t.getAttribute("data-view");
+          f.querySelectorAll(".sk-tab").forEach(function (x) { x.classList.toggle("is-active", x === t); });
+          f.querySelectorAll(".sk-view").forEach(function (v, k) { v.classList.toggle("is-active", String(k) === n); });
+        });
+      });
+      f.appendChild(b);
+      if (io) io.observe(f); else f.classList.add("is-visible");
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initSkizzen);
+  else initSkizzen();
+
+  /* ---------- Fotogalerien: Bilder live von Wikimedia Commons laden ---------- */
+  function initGalleries() {
+    document.querySelectorAll(".media-gallery").forEach(function (g) {
+      var cat = g.getAttribute("data-cat"), q = g.getAttribute("data-q");
+      var p = "action=query&format=json&origin=*&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=420&generator=";
+      p += cat
+        ? "categorymembers&gcmtype=file&gcmlimit=12&gcmtitle=" + encodeURIComponent(cat)
+        : "search&gsrnamespace=6&gsrlimit=12&gsrsearch=" + encodeURIComponent(q + " filetype:bitmap");
+      fetch("https://commons.wikimedia.org/w/api.php?" + p).then(function (r) { return r.json(); }).then(function (d) {
+        var pages = Object.keys((d.query && d.query.pages) || {}).map(function (k) { return d.query.pages[k]; });
+        pages.sort(function (a, b) { return (a.index || 0) - (b.index || 0); });
+        var wrap = document.createElement("div");
+        wrap.className = "mg-grid";
+        pages.forEach(function (pg) {
+          var ii = pg.imageinfo && pg.imageinfo[0];
+          if (!ii || !/^image\/(jpeg|png|webp)/.test(ii.mime || "")) return;
+          var m = ii.extmetadata || {};
+          var strip = function (s) { var t = document.createElement("div"); t.innerHTML = s || ""; return t.textContent.trim(); };
+          var a = document.createElement("a");
+          a.href = ii.descriptionurl; a.target = "_blank"; a.rel = "noopener";
+          var img = document.createElement("img");
+          img.loading = "lazy"; img.src = ii.thumburl; img.alt = strip(m.ObjectName && m.ObjectName.value) || pg.title.replace(/^File:/, "");
+          var cap = document.createElement("span");
+          cap.textContent = [strip(m.Artist && m.Artist.value), strip(m.LicenseShortName && m.LicenseShortName.value)].filter(Boolean).join(" · ");
+          a.appendChild(img); a.appendChild(cap); wrap.appendChild(a);
+        });
+        if (wrap.children.length) {
+          var src = document.createElement("p");
+          src.className = "mg-src";
+          src.textContent = "Bilder: Wikimedia Commons (Urheber und Lizenz unter dem Bild; Klick öffnet die Quelle).";
+          g.innerHTML = ""; g.appendChild(wrap); g.appendChild(src);
+        }
+      }).catch(function () {});
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGalleries);
+  else initGalleries();
+
   /* ---------- Theme ---------- */
   var THEME_KEY = "wiki-theme";
   function applyTheme(t) {

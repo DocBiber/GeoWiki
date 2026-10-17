@@ -37,9 +37,15 @@ Der Wasserhaushalt (hydrologischer Kreislauf) beschreibt, wie Wasser in allen Ag
 - **Kryosphäre:** Gletscher, Eisdecke, Schnee — langfristige Speicher, klima-abhängig (Schmelzen bei Erwärmung)
 - **Boden:** Bodenfeuchte — kurz- bis mittelfristig, wichtig für Landwirtschaft und Ökosysteme
 
+## Karte: Einzugsgebiete von Rhein und Elbe
+
+<div class="geomap" data-layer="einzugsgebiete"></div>
+
 ## Der Wasserhaushalt eines Einzugsgebiets (Wasserhaushalts-Gleichung)
 
 Ein Einzugsgebiet ist das Gebiet, aus dem Wasser einem Gewässer zufließt. Seine Grenze wird durch Wasserscheiden gebildet. Der Wasserhaushalt lässt sich für einen festgelegten Zeitraum bilanzieren:
+
+{{skizze:wasserhaushalt|Wasserhaushalt eines Einzugsgebiets: Niederschlag (P), Verdunstung (ET), Abfluss (Q) und Speicheränderung (ΔS).}}
 
 **Wasserhaushaltsgleichung:**
 ```
@@ -106,7 +112,7 @@ P = ET + Q + ΔS
 
 ## Visuelle Darstellungen & Animationen
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 #### 🎬 Der Wasserkreislauf – Wie funktioniert er? (National Geographic, ~4 Min.)
 
@@ -114,13 +120,13 @@ P = ET + Q + ΔS
 
 *Niederschlag, Verdunstung, Transpiration, Oberflächenabfluss, Grundwasser – der gesamte Wasserhaushalt.*
 
-#### 📸 Fotogalerie: Wasserzyklus, Wasser in der Natur (Unsplash)
+#### 📸 Fotogalerie: Wasserzyklus, Wasser in der Natur
 
-[Freie Fotos von Wasserfall, Fluss, Regen, Grundwasser, Wasserkreislauf.](https://unsplash.com/s/photos/water-cycle)
+[Fotos zu Wasserfall, Fluss, Regen, Grundwasser, Wasserkreislauf.](https://unsplash.com/s/photos/water-cycle)
 
-#### 📸 Fotogalerie: Hydrologie, Flussläufe, Einzugsgebiete (Unsplash)
+#### 📸 Fotogalerie: Hydrologie, Flussläufe, Einzugsgebiete
 
-[Freie Fotos von Flüssen, Einzugsgebieten, Oberflächenabfluss.](https://unsplash.com/s/photos/hydrology)
+[Fotos zu Flüssen, Einzugsgebieten, Oberflächenabfluss.](https://unsplash.com/s/photos/hydrology)
 
 
 ---

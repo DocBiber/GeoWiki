@@ -26,9 +26,15 @@ Nach dem Wirkungsbereich zusätzlich:
 - **Exokrater Vulkanismus** (effusiv/explosiv): Magmaintritt an die Erdoberfläche →
   Vulkanausbrüche, Lavaströme, Pyroklastik
 
+## Karte: Plattengrenzen und Vulkane
+
+<div class="geomap" data-layer="plattengrenzen"></div>
+
 ## Ursachen und geodynamische Kontexte
 
 Magma steigt vor allem in drei geodynamischen Kontexten auf:
+
+{{skizze:plattengrenzen|Die drei geodynamischen Settings des Vulkanismus im Schema (nicht maßstäblich).}}
 
 ### 1. Divergierende Plattenränder (Riftsysteme)
 - Platten trennen sich → Mantelmaterial steigt auf → Partialschmelze durch Druckabbau
@@ -76,6 +82,10 @@ Eruptionsstile im Überblick (Details in [[vulkanprozesse]]):
   Lavaseen
 
 ## Vulkanformen (Formen-Typen)
+
+{{skizze:vulkanformen|Vulkanformen im Vergleich: Schlackenkegel, Lavadom, Schildvulkan, Schichtvulkan, Caldera.}}
+
+{{skizze:vulkanbau|Aufbau eines Schichtvulkans: Magmakammer, Hauptschlot, Nebenschlot, Lagergang, Gang.}}
 
 **Grundformen** (im Bildungsplan LK erwähnt):
 
@@ -161,6 +171,6 @@ Weitere Raumbezüge: **Pacific Ring of Fire** (~75 % der weltweiten Vulkane, sub
 
 *Quelle: Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)*
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Vulkanausbrüche (Unsplash)](https://unsplash.com/s/photos/volcano-eruption)
+[Fotogalerie: Vulkanausbrüche](https://unsplash.com/s/photos/volcano-eruption)

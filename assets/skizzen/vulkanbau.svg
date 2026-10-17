@@ -1,0 +1,75 @@
+<svg viewBox="0 0 640 340" role="img" aria-labelledby="vb-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="vb-t">Aufbau eines Schichtvulkans im Schnitt: Magmakammer, Schlot, Nebenschlot, Lagergang, Gang, Krater und Lavastrom</title>
+  <defs>
+    <linearGradient id="vb-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <linearGradient id="vb-mg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8a4d"/><stop offset="1" stop-color="#c2410c"/></linearGradient>
+    <path id="vb-cone" d="M70 235 C150 228 232 150 282 84 L300 70 L318 84 C368 150 450 228 570 235 Z"/>
+    <clipPath id="vb-clip"><use href="#vb-cone"/></clipPath>
+  </defs>
+  <rect width="640" height="340" fill="url(#vb-sky)" class="sk-sky"/>
+  <rect y="235" width="640" height="105" fill="#8d7b68"/>
+  <g stroke="#6e5d4c" stroke-width="2" fill="none"><path d="M0 262 L640 262"/><path d="M0 300 L640 300"/></g>
+  <g clip-path="url(#vb-clip)">
+    <use href="#vb-cone" fill="#5d5049"/>
+    <g transform="translate(320 235) scale(.88,.86) translate(-320 -235)"><use href="#vb-cone" fill="#a18d7a"/></g>
+    <g transform="translate(320 235) scale(.74,.72) translate(-320 -235)"><use href="#vb-cone" fill="#5d5049"/></g>
+    <g transform="translate(320 235) scale(.6,.58) translate(-320 -235)"><use href="#vb-cone" fill="#a18d7a"/></g>
+    <g transform="translate(320 235) scale(.46,.44) translate(-320 -235)"><use href="#vb-cone" fill="#5d5049"/></g>
+    <g transform="translate(320 235) scale(.32,.3) translate(-320 -235)"><use href="#vb-cone" fill="#a18d7a"/></g>
+  </g>
+  <use href="#vb-cone" fill="none" stroke="#3f342b" stroke-width="2.2"/>
+  <line x1="0" y1="235" x2="640" y2="235" stroke="#3f342b" stroke-width="2"/>
+
+  <!-- Magma-Wege -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M300 292 L300 80" stroke="#ff6a3d" stroke-width="14"/>
+    <path d="M300 250 C340 226 392 200 414 162" stroke="#ff6a3d" stroke-width="8"/>
+    <path d="M300 266 L148 262" stroke="#ff6a3d" stroke-width="9"/>
+    <path d="M300 290 C262 268 218 262 188 232" stroke="#ff6a3d" stroke-width="7"/>
+    <path d="M296 76 C252 116 196 182 142 230" stroke="#ff6a3d" stroke-width="7"/>
+  </g>
+  <g fill="none" stroke="#ffd166" stroke-linecap="round" stroke-dasharray="8 9" class="sk-flow sk-flow-up">
+    <path d="M300 292 L300 82" stroke-width="4"/>
+    <path d="M300 250 C340 226 392 200 414 162" stroke-width="3"/>
+    <path d="M300 266 L148 262" stroke-width="3"/>
+    <path d="M300 290 C262 268 218 262 188 232" stroke-width="3"/>
+  </g>
+  <path class="sk-flow" d="M296 76 C252 116 196 182 142 230" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+  <path d="M396 176 L414 144 L432 180 Z" fill="#4a3e37" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <ellipse cx="414" cy="144" rx="7" ry="3" fill="#ffb84d" class="sk-glow"/>
+
+  <!-- Magmakammer -->
+  <ellipse cx="300" cy="306" rx="86" ry="28" fill="url(#vb-mg)" stroke="#7c2d12" stroke-width="2" class="sk-pulse"/>
+
+  <!-- Krater, Asche -->
+  <path d="M282 84 L300 96 L318 84" fill="none"/>
+  <ellipse cx="300" cy="72" rx="14" ry="4" fill="#ffb84d" class="sk-glow"/>
+  <g class="sk-ash"><circle cx="300" cy="62" r="11" fill="#9ca3af"/></g>
+  <g class="sk-ash" style="animation-delay:1.7s"><circle cx="300" cy="62" r="10" fill="#9ca3af"/></g>
+  <g class="sk-ash" style="animation-delay:3.4s"><circle cx="300" cy="62" r="11" fill="#9ca3af"/></g>
+
+  <g class="sk-lead">
+    <path d="M338 38 L312 62"/>
+    <path d="M338 96 L308 76"/>
+    <path d="M330 136 L306 136"/>
+    <path d="M440 132 L428 154"/>
+    <path d="M498 192 L414 192"/>
+    <path d="M104 142 L214 168"/>
+    <path d="M110 276 L190 263"/>
+    <path d="M110 314 L224 258"/>
+    <path d="M388 304 L372 304"/>
+  </g>
+  <text class="sk-t" x="342" y="36">Eruptionswolke</text>
+  <text class="sk-s" x="342" y="50">Asche, Gase</text>
+  <text class="sk-t" x="342" y="96">Krater</text>
+  <text class="sk-t" x="336" y="132">Hauptschlot</text>
+  <text class="sk-t" x="444" y="124">Parasitärkegel</text>
+  <text class="sk-s" x="444" y="138">über Nebenschlot</text>
+  <text class="sk-t" x="470" y="186" text-anchor="start">Schichtung</text>
+  <text class="sk-s" x="470" y="200">Lava ↔ Tephra</text>
+  <text class="sk-t" x="14" y="146">Lavastrom</text>
+  <text class="sk-t" x="14" y="272">Lagergang (Sill)</text>
+  <text class="sk-t" x="14" y="318">Gang (Dike)</text>
+  <text class="sk-t" x="394" y="302">Magmakammer</text>
+  <text class="sk-s" x="394" y="318">Magma sammelt sich</text>
+</svg>

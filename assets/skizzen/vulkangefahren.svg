@@ -1,0 +1,36 @@
+<svg viewBox="0 0 640 250" role="img" aria-labelledby="vg-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="vg-t">Wirkungskette: Vulkanausbruch, Gefahren, Exposition und Vulnerabilität, mögliche Schäden</title>
+  <defs>
+    <marker id="vg-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1f2937"/></marker>
+  </defs>
+  <rect width="640" height="250" fill="#f4f6fa" class="sk-sky"/>
+  <g font-family="sans-serif" text-anchor="middle">
+    <rect x="14" y="76" width="118" height="100" rx="12" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <circle class="sk-boom" cx="73" cy="104" r="14" fill="#f97316"/>
+    <path d="M55 150 L73 112 L91 150 Z" fill="#7c2d12"/>
+    <text class="sk-t" x="73" y="168" style="stroke:none;font-size:12.5px">Vulkanausbruch</text>
+
+    <rect x="168" y="30" width="146" height="190" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+    <text class="sk-t" x="241" y="54" style="stroke:none">Gefahren</text>
+    <g class="sk-s" style="stroke:none"><text x="241" y="90">Asche</text><text x="241" y="118">Lavaströme</text><text x="241" y="146">Gase</text><text x="241" y="174">pyroklastische</text><text x="241" y="192">Dichteströme</text></g>
+    <circle class="sk-ash" cx="214" cy="84" r="5" fill="#6b7280" style="animation-delay:0s;display:none"/>
+    <circle class="sk-ash" cx="268" cy="84" r="5" fill="#6b7280" style="animation-delay:1.6s;display:none"/>
+
+    <rect x="350" y="62" width="130" height="126" rx="12" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+    <text class="sk-t" x="415" y="90" style="stroke:none">Exposition und</text>
+    <text class="sk-t" x="415" y="108" style="stroke:none">Vulnerabilität</text>
+    <text class="sk-s" x="415" y="136" style="stroke:none">bestimmen die</text>
+    <text class="sk-s" x="415" y="152" style="stroke:none">möglichen</text>
+    <text class="sk-s" x="415" y="168" style="stroke:none">Auswirkungen</text>
+
+    <rect x="516" y="76" width="110" height="100" rx="12" fill="#1f2937"/>
+    <text x="571" y="110" fill="#fff" font-size="14" font-weight="800">Schäden</text>
+    <text x="571" y="130" fill="#d1d5db" font-size="11.5">Menschen</text>
+    <text x="571" y="146" fill="#d1d5db" font-size="11.5">Umwelt</text>
+    <text x="571" y="162" fill="#d1d5db" font-size="11.5">Infrastruktur</text>
+  </g>
+  <g fill="none" stroke="#1f2937" stroke-width="2.5" marker-end="url(#vg-ar)" stroke-linecap="round">
+    <path class="sk-flow" d="M134 126 H160" style="stroke-dasharray:5 5"/><path class="sk-flow" d="M316 126 H342" style="stroke-dasharray:5 5"/><path class="sk-flow" d="M482 126 H508" style="stroke-dasharray:5 5"/>
+  </g>
+  <text class="sk-s" x="320" y="240" text-anchor="middle" style="stroke:none">Nicht jede Gefahr tritt bei jedem Ausbruch auf.</text>
+</svg>

@@ -17,6 +17,10 @@ confidence: medium
 
 ---
 
+## Lage der Raumbeispiele
+
+<div class="geomap" data-type="kueste"></div>
+
 ## 1. Nordsee — Sturmfluten und Küstenschutz (Deutschland)
 
 ![Wattenmeer, Nordsee](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg/1280px-13-09-29-nordfriesisches-wattenmeer-RalfR-05.jpg)
@@ -68,6 +72,8 @@ confidence: medium
 
 ## 2. Sylt — Inselwanderung, Sandaufspülung, Tourismus
 
+{{skizze:kuestenlaengstransport|Küstenlängstransport und Buhnenwirkung – das Prinzip hinter der Sandwanderung an der Sylter Westküste (schematisch).}}
+
 ![Sylt, Nordsee (Deutschland)](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg/1280px-Feuerwehr_Kampen_%28Sylt%29_2018_NE.jpg)
 
 *Bild: Wikimedia Commons — Feuerwehr Kampen (Sylt) 2018 NE.jpg (CC BY-SA 4.0)*
@@ -109,6 +115,10 @@ confidence: medium
 **Beurteilung (LK):** Sylt zeigt die **Interaktion von Naturprozess und menschlicher Nutzung**: Die Insel wandert (natürlich), der Mensch verhindert das mit Sandaufspülungen (teuer, Dauerlösung mit Folgekosten — „Sand ist die neue Wahrheit"). LK-relevant: Beurteilung von „technischem Schutz" vs. „Anpassung an die Inseldynamik" (z. B. Aufgabe von Dauersiedlungen in Wanderungszone).
 
 ---
+
+### Kartenvergleich Sylt: Satellitenbild und Topografie
+
+<div class="geomap" data-layer="swipe" data-lat="54.9" data-lng="8.35" data-zoom="10"></div>
 
 ## 3. Ostsee — Steilküste (Fehmarn, Waabs) und Landhebung
 
@@ -201,15 +211,15 @@ Verknüpfungen: [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]],
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Wattenmeer, Nordsee-Küste (Unsplash)
+#### 📸 Fotogalerie: Wattenmeer, Nordsee-Küste
 
-[Freie Fotos von Wattenmeer, Deichen, Küstenlandschaften der Nordsee.](https://unsplash.com/s/photos/wadden-sea)
+[Fotos zu Wattenmeer, Deichen, Küstenlandschaften der Nordsee.](https://unsplash.com/s/photos/wadden-sea)
 
-#### 📸 Fotogalerie: Sylt, Inseln, Dünen (Unsplash)
+#### 📸 Fotogalerie: Sylt, Inseln, Dünen
 
-[Freie Fotos von Barriere-Inseln, Dünen, Sandstränden.](https://unsplash.com/s/photos/sylt-island)
+[Fotos zu Barriere-Inseln, Dünen, Sandstränden.](https://unsplash.com/s/photos/sylt-island)
 
 #### 🖼️ Kategorie: Küsten & Wattenmeer – Wikimedia Commons
 

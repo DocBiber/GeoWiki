@@ -71,6 +71,10 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 - **Konfliktpotenzial**: Ressourcenknappheit, Ungleichheit, politische Instabilität können Konflikte fördern
 - **Verfestigung globale Ungleichheiten**: Durch geringe Wirtschaftskraft, eingeschränkte Handelsmöglichkeiten, ungleiche Partizipation an globalen Entscheidungen
 
+## Karte: Entwicklungsstand der Länder
+
+<div class="geomap" data-layer="laender"></div>
+
 ## Entwicklungstheorien
 
 ### Dependenztheorie
@@ -142,6 +146,6 @@ Bei der Bewertung von Entwicklungsprojekten im Abitur (Kompetenz 3.5.3.4 (3)) si
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Städte, Disparität (Unsplash)](https://unsplash.com/s/photos/urban-landscape)
+[Fotogalerie: Fotogalerie: Städte, Disparität](https://unsplash.com/s/photos/urban-landscape)
