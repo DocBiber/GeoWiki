@@ -118,20 +118,20 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Städte, städtische Landschaften (Unsplash)
+#### 📸 Fotogalerie: Städte, städtische Landschaften
 
-[Freie Fotos von Städten, skyline, städtischer Infrastruktur, Architektur.](https://unsplash.com/s/photos/city-landscape)
+[Fotos zu Städten, skyline, städtischer Infrastruktur, Architektur.](https://unsplash.com/s/photos/city-landscape)
 
-#### 📸 Fotogalerie: Urbanisierung, Wachstum, Megacities (Unsplash)
+#### 📸 Fotogalerie: Urbanisierung, Wachstum, Megacities
 
-[Freie Fotos von Stadtwachstum, Dichte, Megacities.](https://unsplash.com/s/photos/urbanization)
+[Fotos zu Stadtwachstum, Dichte, Megacities.](https://unsplash.com/s/photos/urbanization)
 
-#### 📸 Fotogalerie: Stadtplanung, Nachhaltigkeit, Smart City (Unsplash)
+#### 📸 Fotogalerie: Stadtplanung, Nachhaltigkeit, Smart City
 
-[Freie Fotos von Stadtplanung, Grünflächen, Verkehr, Nachhaltigkeitsinitiativen.](https://unsplash.com/s/photos/urban-planning)
+[Fotos zu Stadtplanung, Grünflächen, Verkehr, Nachhaltigkeitsinitiativen.](https://unsplash.com/s/photos/urban-planning)
 
-#### 📸 Fotogalerie: Suburbanes Wachstum, Pendlerstädte (Unsplash)
+#### 📸 Fotogalerie: Suburbanes Wachstum, Pendlerstädte
 
-[Freie Fotos von Vorort-Entwicklung, Wohngebieten am Stadtrand.](https://unsplash.com/s/photos/suburb)
+[Fotos zu Vorort-Entwicklung, Wohngebieten am Stadtrand.](https://unsplash.com/s/photos/suburb)

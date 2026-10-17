@@ -112,7 +112,7 @@ P = ET + Q + ΔS
 
 ## Visuelle Darstellungen & Animationen
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 #### 🎬 Der Wasserkreislauf – Wie funktioniert er? (National Geographic, ~4 Min.)
 
@@ -120,13 +120,13 @@ P = ET + Q + ΔS
 
 *Niederschlag, Verdunstung, Transpiration, Oberflächenabfluss, Grundwasser – der gesamte Wasserhaushalt.*
 
-#### 📸 Fotogalerie: Wasserzyklus, Wasser in der Natur (Unsplash)
+#### 📸 Fotogalerie: Wasserzyklus, Wasser in der Natur
 
-[Freie Fotos von Wasserfall, Fluss, Regen, Grundwasser, Wasserkreislauf.](https://unsplash.com/s/photos/water-cycle)
+[Fotos zu Wasserfall, Fluss, Regen, Grundwasser, Wasserkreislauf.](https://unsplash.com/s/photos/water-cycle)
 
-#### 📸 Fotogalerie: Hydrologie, Flussläufe, Einzugsgebiete (Unsplash)
+#### 📸 Fotogalerie: Hydrologie, Flussläufe, Einzugsgebiete
 
-[Freie Fotos von Flüssen, Einzugsgebieten, Oberflächenabfluss.](https://unsplash.com/s/photos/hydrology)
+[Fotos zu Flüssen, Einzugsgebieten, Oberflächenabfluss.](https://unsplash.com/s/photos/hydrology)
 
 
 ---

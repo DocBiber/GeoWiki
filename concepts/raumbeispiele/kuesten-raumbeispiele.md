@@ -211,15 +211,15 @@ Verknüpfungen: [[vulnerabilitaet-begriffe]], [[vulnerabilitaet-raumbeispiele]],
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Wattenmeer, Nordsee-Küste (Unsplash)
+#### 📸 Fotogalerie: Wattenmeer, Nordsee-Küste
 
-[Freie Fotos von Wattenmeer, Deichen, Küstenlandschaften der Nordsee.](https://unsplash.com/s/photos/wadden-sea)
+[Fotos zu Wattenmeer, Deichen, Küstenlandschaften der Nordsee.](https://unsplash.com/s/photos/wadden-sea)
 
-#### 📸 Fotogalerie: Sylt, Inseln, Dünen (Unsplash)
+#### 📸 Fotogalerie: Sylt, Inseln, Dünen
 
-[Freie Fotos von Barriere-Inseln, Dünen, Sandstränden.](https://unsplash.com/s/photos/sylt-island)
+[Fotos zu Barriere-Inseln, Dünen, Sandstränden.](https://unsplash.com/s/photos/sylt-island)
 
 #### 🖼️ Kategorie: Küsten & Wattenmeer – Wikimedia Commons
 

@@ -183,15 +183,15 @@ Verknüpfungen: [[wasserhaushalt]], [[atmosphaere-wetter-klima]], [[klimawandel]
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Flusslandschaften, Auen (Unsplash)
+#### 📸 Fotogalerie: Flusslandschaften, Auen
 
-[Freie Fotos von Flussauen, Mäandern, Überschwemmungsgebieten.](https://unsplash.com/s/photos/river-floodplain)
+[Fotos zu Flussauen, Mäandern, Überschwemmungsgebieten.](https://unsplash.com/s/photos/river-floodplain)
 
-#### 📸 Fotogalerie: Hochwasser, Überschwemmungen (Unsplash)
+#### 📸 Fotogalerie: Hochwasser, Überschwemmungen
 
-[Freie Fotos von Hochwasser-Szenarien, überschwemmten Städten.](https://unsplash.com/s/photos/flooding)
+[Fotos zu Hochwasser-Szenarien, überschwemmten Städten.](https://unsplash.com/s/photos/flooding)
 
 #### 🖼️ Kategorie: Flüsse & Auen – Wikimedia Commons
 

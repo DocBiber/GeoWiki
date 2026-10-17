@@ -26,13 +26,24 @@
   <path class="sk-flow" d="M278 171 C254 180 232 192 212 199" fill="none" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
   <ellipse cx="281" cy="170" rx="6" ry="2.5" fill="#ffb84d" class="sk-glow"/>
 
-  <!-- 4 Schichtvulkan -->
-  <path d="M356 200 C392 196 408 150 414 96 L430 96 C436 150 452 196 482 200 Z" fill="#5d5049" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
-  <g stroke="#9a8573" stroke-width="5" fill="none" opacity=".9"><path d="M372 192 C396 186 410 150 413 112" /><path d="M392 196 C404 186 416 150 419 120"/><path d="M466 196 C452 186 438 150 433 118"/></g>
-  <path d="M414 96 L422 104 L430 96" fill="#ff6a3d"/>
-  <ellipse cx="422" cy="96" rx="9" ry="3" fill="#ffb84d" class="sk-glow"/>
-  <g class="sk-ash"><circle cx="422" cy="88" r="9" fill="#9ca3af"/></g>
-  <g class="sk-ash" style="animation-delay:2.5s"><circle cx="422" cy="88" r="8" fill="#9ca3af"/></g>
+  <!-- 4 Schichtvulkan (wie im Detailschnitt: konkave Flanken, Schichtung, Schlot) -->
+  <defs>
+    <path id="vf-sc" d="M340 200 C372 196 400 150 414 98 L422 90 L430 98 C444 150 472 196 504 200 Z"/>
+    <clipPath id="vf-scc"><use href="#vf-sc"/></clipPath>
+  </defs>
+  <g clip-path="url(#vf-scc)">
+    <use href="#vf-sc" fill="#5d5049"/>
+    <g transform="translate(422 200) scale(.84,.84) translate(-422 -200)"><use href="#vf-sc" fill="#a18d7a"/></g>
+    <g transform="translate(422 200) scale(.68,.68) translate(-422 -200)"><use href="#vf-sc" fill="#5d5049"/></g>
+    <g transform="translate(422 200) scale(.52,.52) translate(-422 -200)"><use href="#vf-sc" fill="#a18d7a"/></g>
+    <g transform="translate(422 200) scale(.36,.36) translate(-422 -200)"><use href="#vf-sc" fill="#5d5049"/></g>
+  </g>
+  <use href="#vf-sc" fill="none" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M422 198 L422 94" stroke="#ff6a3d" stroke-width="5" stroke-linecap="round"/>
+  <path class="sk-flow sk-flow-up" d="M422 198 L422 94" stroke="#ffd166" stroke-width="2" stroke-dasharray="6 7" stroke-linecap="round" fill="none"/>
+  <ellipse cx="422" cy="91" rx="8" ry="3" fill="#ffb84d" class="sk-glow"/>
+  <g class="sk-ash"><circle cx="422" cy="84" r="9" fill="#9ca3af"/></g>
+  <g class="sk-ash" style="animation-delay:2.5s"><circle cx="422" cy="84" r="8" fill="#9ca3af"/></g>
 
   <!-- 5 Caldera -->
   <path d="M492 200 C516 192 534 160 544 140 L556 140 L572 150 L584 150 L596 140 L606 140 C614 160 626 194 636 200 Z" fill="#6b5a4d" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
@@ -40,7 +51,7 @@
   <path d="M572 150 L572 190 M584 150 L584 190" stroke="#ff6a3d" stroke-width="3" stroke-dasharray="3 3" opacity=".7"/>
 
   <g class="sk-t" text-anchor="middle" style="font-size:12.5px">
-    <text x="63" y="222">Schlackenkegel</text><text x="157" y="222">Lavadom</text><text x="278" y="222">Schildvulkan</text><text x="419" y="222">Schichtvulkan</text><text x="564" y="222">Caldera</text>
+    <text x="63" y="222">Schlackenkegel</text><text x="157" y="222">Lavadom</text><text x="278" y="222">Schildvulkan</text><text x="422" y="222">Schichtvulkan</text><text x="564" y="222">Caldera</text>
   </g>
   <g class="sk-s" text-anchor="middle" style="font-size:10.5px">
     <text x="63" y="238">Tephra, steil</text><text x="63" y="251">klein</text>

@@ -155,20 +155,20 @@ Beispiel: Landnutzungsänderung:
 
 ## Visuelle Darstellungen & Beispiele
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: GIS, Kartierung, digitale Karten (Unsplash)
+#### 📸 Fotogalerie: GIS, Kartierung, digitale Karten
 
-[Freie Fotos von GIS-Desktop, digitale Karten, Geoinformationssysteme.](https://unsplash.com/s/photos/gis-mapping)
+[Fotos zu GIS-Desktop, digitale Karten, Geoinformationssysteme.](https://unsplash.com/s/photos/gis-mapping)
 
-#### 📸 Fotogalerie: Satellitenbilder, Fernerkundung (Unsplash)
+#### 📸 Fotogalerie: Satellitenbilder, Fernerkundung
 
-[Freie Fotos von Satellitenbildern, Erdbeobachtung, Fernerkundung.](https://unsplash.com/s/photos/satellite-imagery)
+[Fotos zu Satellitenbildern, Erdbeobachtung, Fernerkundung.](https://unsplash.com/s/photos/satellite-imagery)
 
-#### 📸 Fotogalerie: Kartographie, Landkarten, Kartenherstellung (Unsplash)
+#### 📸 Fotogalerie: Kartographie, Landkarten, Kartenherstellung
 
-[Freie Fotos von Kartographie, alten und neuen Karten, Kartendesign.](https://unsplash.com/s/photos/cartography)
+[Fotos zu Kartographie, alten und neuen Karten, Kartendesign.](https://unsplash.com/s/photos/cartography)
 
-#### 📸 Fotogalerie: Topographische Karten, Höhenmodelle (Unsplash)
+#### 📸 Fotogalerie: Topographische Karten, Höhenmodelle
 
-[Freie Fotos von topographischen Karten, Geländemodellen, Höhenlinien.](https://unsplash.com/s/photos/topographic-map)
+[Fotos zu topographischen Karten, Geländemodellen, Höhenlinien.](https://unsplash.com/s/photos/topographic-map)

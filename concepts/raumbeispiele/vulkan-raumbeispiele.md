@@ -233,6 +233,6 @@ Verknüpfungen: [[vulnerabilitaet-vulkanraume]], [[vulkanprozesse]], [[vulnerabi
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Vulkanlandschaften (Unsplash)](https://unsplash.com/s/photos/volcano-landscape)
+[Fotogalerie: Fotogalerie: Vulkanlandschaften](https://unsplash.com/s/photos/volcano-landscape)

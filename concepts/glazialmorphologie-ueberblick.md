@@ -160,7 +160,7 @@ Glazial-Landschaften und Gletscherorte sind **vulnerabel** durch:
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
 #### 🎬 Wie formen Gletscher die Landschaft? – Animation (geog.1)
 
@@ -172,11 +172,11 @@ Glazial-Landschaften und Gletscherorte sind **vulnerabel** durch:
 
 [Ausbreitung des Inlandeises, Referenz für Glazialmorphologie im europäischen Raum.](https://commons.wikimedia.org/wiki/File:Weichsel-W%C3%BCrm-Glaciation.png) — *Ulamm, Wikimedia Commons, CC BY-SA 3.0*
 
-#### 📸 Fotogalerie: Glaziale Erosion – Trogtal, Fjorde, Zungenbecken (Unsplash)
+#### 📸 Fotogalerie: Glaziale Erosion – Trogtal, Fjorde, Zungenbecken
 
-[Freie Fotos von glazial erodierten Tälern, Fjorden, Karren.](https://unsplash.com/s/photos/glacial-erosion)
+[Fotos zu glazial erodierten Tälern, Fjorden, Karren.](https://unsplash.com/s/photos/glacial-erosion)
 
-#### 📸 Fotogalerie: Zungenbecken, Karne, Gletscherhänge (Unsplash)
+#### 📸 Fotogalerie: Zungenbecken, Karne, Gletscherhänge
 
-[Freie Fotos von Zungenbecken, Gletscherkarren, Bergpanoramen.](https://unsplash.com/s/photos/cirque)
+[Fotos zu Zungenbecken, Gletscherkarren, Bergpanoramen.](https://unsplash.com/s/photos/cirque)
 

@@ -107,6 +107,6 @@ Beispielbezug: [[vulnerabilitaet-raumbeispiele]] Raumbeispiele zu Vulkan + Glazi
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Resilienz, Anpassung, Katastrophenschutz (Unsplash)](https://unsplash.com/s/photos/disaster-resilience)
+[Fotogalerie: Fotogalerie: Resilienz, Anpassung, Katastrophenschutz](https://unsplash.com/s/photos/disaster-resilience)

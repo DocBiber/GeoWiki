@@ -146,6 +146,6 @@ Bei der Bewertung von Entwicklungsprojekten im Abitur (Kompetenz 3.5.3.4 (3)) si
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Städte, Disparität (Unsplash)](https://unsplash.com/s/photos/urban-landscape)
+[Fotogalerie: Fotogalerie: Städte, Disparität](https://unsplash.com/s/photos/urban-landscape)

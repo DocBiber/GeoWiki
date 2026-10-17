@@ -11,7 +11,7 @@ werden NICHT überschrieben — Designänderungen dort direkt möglich.
 
 Aufruf: python build_html.py   (im Wiki-Wurzelverzeichnis)
 """
-import os, re, html, glob, json
+import os, re, html, glob, json, urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EXCLUDE_DIRS = {".git", "_backup_pre_language_tool_fix"}
@@ -307,6 +307,33 @@ def md_to_html(body, known_slugs, page_title):
             out.append(stripped)
             i += 1
             continue
+
+        m_med = re.fullmatch(r"\[([^\]]*)\]\((https://(?:commons\.wikimedia\.org/wiki/|unsplash\.com/s/photos/)[^)\s]+)\)", stripped)
+        if m_med:
+            label, url = m_med.group(1), m_med.group(2)
+            label_e, url_e = html.escape(label), html.escape(url)
+            m_file = re.match(r"https://commons\.wikimedia\.org/wiki/File:(.+)$", url)
+            m_cat = re.match(r"https://commons\.wikimedia\.org/wiki/(Category:.+)$", url)
+            m_uns = re.match(r"https://unsplash\.com/s/photos/([^/?#]+)$", url)
+            if m_file:
+                close_list()
+                out.append(
+                    f'<figure class="media-img"><a href="{url_e}" target="_blank" rel="noopener">'
+                    f'<img loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/{html.escape(m_file.group(1))}?width=900" alt="{label_e}"></a>'
+                    f"<figcaption>{label_e} · Wikimedia Commons</figcaption></figure>"
+                )
+                i += 1
+                continue
+            if m_cat or m_uns:
+                close_list()
+                attr = (f'data-cat="{html.escape(urllib.parse.unquote(m_cat.group(1)).replace("_", " "))}"' if m_cat
+                        else f'data-q="{html.escape(m_uns.group(1).replace("-", " "))}"')
+                out.append(
+                    f'<div class="media-gallery" {attr}><p class="mg-fallback"><a href="{url_e}" target="_blank" rel="noopener">{label_e}</a></p>'
+                    f'<noscript></noscript></div>'
+                )
+                i += 1
+                continue
 
         if "<img" in line.lower():
             close_list()

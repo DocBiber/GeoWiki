@@ -66,7 +66,7 @@ window.SEARCH_INDEX = [
 "t": "Glazialmorphologie — Überblick und Grundlagen",
 "u": "glazialmorphologie-ueberblick.html",
 "c": "Glazialmorphologie",
-"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
 "x": "Glazialmorphologie — Überblick und Grundlagen Definition Glazialmorphologie (von lat. glacies = Eis, griech. morphē = Gestalt) ist das Teilgebiet der Geomorphologie, das sich mit der Formung der Erdoberfläche durch Gletscher, Eismassen und Schmelzwässer befasst. Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre“) ist die Glaziallandschaft als eine der fünf Landschaftsgruppen expli"
 },
 {
@@ -87,7 +87,7 @@ window.SEARCH_INDEX = [
 "t": "Karstlandschaft — Formen, Prozesse, Bedeutung",
 "u": "karstlandschaft.html",
 "c": "Raumbeispiele",
-"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
 "x": "Karstlandschaft Überblick Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor allem Kalkstein und Dolomit, aber auch Gips und Steinsalz. Kohlendioxid aus Luft und Boden löst sich im Wasser und bildet schwache Kohlensäure, die Karbonatgestein angreifen kann. Das Wasser versickert häufig durch Klüfte, Spalten und Hohlräume; deshalb ist das oberirdische Gewässernetz in manchen "
 },
 {
@@ -115,14 +115,14 @@ window.SEARCH_INDEX = [
 "t": "Moränen und Gletscherformen — Typen, Entstehung, Bedeutung",
 "u": "moränen-und-gletscherformen.html",
 "c": "Glazialmorphologie",
-"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
 "x": "Moränen und Gletscherformen — Typen, Entstehung und Bedeutung Moränen (Gletscher-Lockerablagerungen) Definition Moränen sind die ungeschichteten Ablagerungen , die ein Gletscher hinterlässt — eine Mischung aus allen Korngrößen (vom Ton bis zum Großblock), meist unsortiert und ungeschichtet , im Gegensatz zu geschichtetem Geröll (z. B. Sander, Flussablagerungen). Im Bildungsplan LK §3.5.2.1 wird de"
 },
 {
 "t": "Permafrost und Solifluktion — exogene Prozesse in kalten Zonen",
 "u": "permafrost-und-solifluktion.html",
 "c": "Glazialmorphologie",
-"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
 "x": "Permafrost und Solifluktion — exogene Prozesse in kalten Zonen Einordnung im Bildungsplan Im Bildungsplan LK §3.5.2.1 („Formen und Prozesse der Reliefsphäre“) wird für die Glaziallandschaft Permafrost und Solifluktion explizit genannt. Beide sind exogene Prozesse — geprägt durch Temperaturbedingungen und Wasser —, die nach der eigentlichen Eiszeitzeit noch die Reliefgestaltung bestimmen. Sie gehör"
 },
 {
@@ -157,7 +157,7 @@ window.SEARCH_INDEX = [
 "t": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren",
 "u": "vulkanprozesse.html",
 "c": "Vulkanismus",
-"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.",
+"d": "Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).",
 "x": "Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte und Gefahren Der grundlegende Unterschied Aspekt Effusiver Vulkanismus Explosiver Vulkanismus --- --- --- Magma-Viskosität Niedrig (Basalt, mafisch) Hoch (Andesit, Dacit, Rhyolith, felsisch) Gasentweichung Gase können leicht entweichen → ruhige Lava Gase bleiben eingeschlossen → Druckakkumulation → Explosion Eruptionsstil Überwiegend Lavaförder"
 },
 {

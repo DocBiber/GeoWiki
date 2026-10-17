@@ -43,7 +43,7 @@
   </div>
 </div>
       </div>
-      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#definition">Definition</a></li><li><a href="#karte-plattengrenzen-und-vulkane">Karte: Plattengrenzen und Vulkane</a></li><li><a href="#ursachen-und-geodynamische-kontexte">Ursachen und geodynamische Kontexte</a></li><li><a href="#1-divergierende-plattenraender-riftsysteme">1. Divergierende Plattenränder (Riftsysteme)</a></li><li><a href="#2-konvergente-plattenraender-subduktionszonen">2. Konvergente Plattenränder (Subduktionszonen)</a></li><li><a href="#3-hot-spots-plumes">3. Hot Spots (Plumes)</a></li><li><a href="#vulkanische-foerderprodukte">Vulkanische Förderprodukte</a></li><li><a href="#magmatypen-amp-eruptionsstile">Magmatypen &amp; Eruptionsstile</a></li><li><a href="#vulkanformen-formen-typen">Vulkanformen (Formen-Typen)</a></li><li><a href="#vulkanrisiken">Vulkanrisiken</a></li><li><a href="#kompetenzerwartung-lk-bildungsplan-3521">Kompetenzerwartung LK (Bildungsplan §3.5.2.1)</a></li><li><a href="#raumbeispiele-lk-relevant">Raumbeispiele (LK-relevant)</a></li><li><a href="#zusammenhang-mit-glazialmorphologie-und-vulnerabilitaet">Zusammenhang mit Glazialmorphologie und Vulnerabilität</a></li><li><a href="#weiterfuehrende-seiten">Weiterführende Seiten</a></li><li><a href="#weiterfuehrende-quellen">Weiterführende Quellen</a></li><li><a href="#offene-fragen">Offene Fragen</a></li><li><a href="#bildmaterial">Bildmaterial</a></li><li><a href="#bild-wikimedia-commons">🖼️ Bild (Wikimedia Commons)</a></li><li><a href="#fotos-unsplash">📸 Fotos (Unsplash)</a></li></ul></details>
+      <details class="toc-mobile"><summary>Inhalt</summary><ul><li><a href="#definition">Definition</a></li><li><a href="#karte-plattengrenzen-und-vulkane">Karte: Plattengrenzen und Vulkane</a></li><li><a href="#ursachen-und-geodynamische-kontexte">Ursachen und geodynamische Kontexte</a></li><li><a href="#1-divergierende-plattenraender-riftsysteme">1. Divergierende Plattenränder (Riftsysteme)</a></li><li><a href="#2-konvergente-plattenraender-subduktionszonen">2. Konvergente Plattenränder (Subduktionszonen)</a></li><li><a href="#3-hot-spots-plumes">3. Hot Spots (Plumes)</a></li><li><a href="#vulkanische-foerderprodukte">Vulkanische Förderprodukte</a></li><li><a href="#magmatypen-amp-eruptionsstile">Magmatypen &amp; Eruptionsstile</a></li><li><a href="#vulkanformen-formen-typen">Vulkanformen (Formen-Typen)</a></li><li><a href="#vulkanrisiken">Vulkanrisiken</a></li><li><a href="#kompetenzerwartung-lk-bildungsplan-3521">Kompetenzerwartung LK (Bildungsplan §3.5.2.1)</a></li><li><a href="#raumbeispiele-lk-relevant">Raumbeispiele (LK-relevant)</a></li><li><a href="#zusammenhang-mit-glazialmorphologie-und-vulnerabilitaet">Zusammenhang mit Glazialmorphologie und Vulnerabilität</a></li><li><a href="#weiterfuehrende-seiten">Weiterführende Seiten</a></li><li><a href="#weiterfuehrende-quellen">Weiterführende Quellen</a></li><li><a href="#offene-fragen">Offene Fragen</a></li><li><a href="#bildmaterial">Bildmaterial</a></li><li><a href="#bild-wikimedia-commons">🖼️ Bild (Wikimedia Commons)</a></li><li><a href="#fotos">📸 Fotos</a></li></ul></details>
       <article class="wiki-body">
 <h1>Vulkanismus — Grundlagen und Überblick</h1>
 <h2 id="definition">Definition</h2>
@@ -197,13 +197,24 @@
   <path class="sk-flow" d="M278 171 C254 180 232 192 212 199" fill="none" stroke="#ffd166" stroke-width="2" stroke-linecap="round"/>
   <ellipse cx="281" cy="170" rx="6" ry="2.5" fill="#ffb84d" class="sk-glow"/>
 
-  <!-- 4 Schichtvulkan -->
-  <path d="M356 200 C392 196 408 150 414 96 L430 96 C436 150 452 196 482 200 Z" fill="#5d5049" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
-  <g stroke="#9a8573" stroke-width="5" fill="none" opacity=".9"><path d="M372 192 C396 186 410 150 413 112" /><path d="M392 196 C404 186 416 150 419 120"/><path d="M466 196 C452 186 438 150 433 118"/></g>
-  <path d="M414 96 L422 104 L430 96" fill="#ff6a3d"/>
-  <ellipse cx="422" cy="96" rx="9" ry="3" fill="#ffb84d" class="sk-glow"/>
-  <g class="sk-ash"><circle cx="422" cy="88" r="9" fill="#9ca3af"/></g>
-  <g class="sk-ash" style="animation-delay:2.5s"><circle cx="422" cy="88" r="8" fill="#9ca3af"/></g>
+  <!-- 4 Schichtvulkan (wie im Detailschnitt: konkave Flanken, Schichtung, Schlot) -->
+  <defs>
+    <path id="vf-sc" d="M340 200 C372 196 400 150 414 98 L422 90 L430 98 C444 150 472 196 504 200 Z"/>
+    <clipPath id="vf-scc"><use href="#vf-sc"/></clipPath>
+  </defs>
+  <g clip-path="url(#vf-scc)">
+    <use href="#vf-sc" fill="#5d5049"/>
+    <g transform="translate(422 200) scale(.84,.84) translate(-422 -200)"><use href="#vf-sc" fill="#a18d7a"/></g>
+    <g transform="translate(422 200) scale(.68,.68) translate(-422 -200)"><use href="#vf-sc" fill="#5d5049"/></g>
+    <g transform="translate(422 200) scale(.52,.52) translate(-422 -200)"><use href="#vf-sc" fill="#a18d7a"/></g>
+    <g transform="translate(422 200) scale(.36,.36) translate(-422 -200)"><use href="#vf-sc" fill="#5d5049"/></g>
+  </g>
+  <use href="#vf-sc" fill="none" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M422 198 L422 94" stroke="#ff6a3d" stroke-width="5" stroke-linecap="round"/>
+  <path class="sk-flow sk-flow-up" d="M422 198 L422 94" stroke="#ffd166" stroke-width="2" stroke-dasharray="6 7" stroke-linecap="round" fill="none"/>
+  <ellipse cx="422" cy="91" rx="8" ry="3" fill="#ffb84d" class="sk-glow"/>
+  <g class="sk-ash"><circle cx="422" cy="84" r="9" fill="#9ca3af"/></g>
+  <g class="sk-ash" style="animation-delay:2.5s"><circle cx="422" cy="84" r="8" fill="#9ca3af"/></g>
 
   <!-- 5 Caldera -->
   <path d="M492 200 C516 192 534 160 544 140 L556 140 L572 150 L584 150 L596 140 L606 140 C614 160 626 194 636 200 Z" fill="#6b5a4d" stroke="#3f342b" stroke-width="2" stroke-linejoin="round"/>
@@ -211,7 +222,7 @@
   <path d="M572 150 L572 190 M584 150 L584 190" stroke="#ff6a3d" stroke-width="3" stroke-dasharray="3 3" opacity=".7"/>
 
   <g class="sk-t" text-anchor="middle" style="font-size:12.5px">
-    <text x="63" y="222">Schlackenkegel</text><text x="157" y="222">Lavadom</text><text x="278" y="222">Schildvulkan</text><text x="419" y="222">Schichtvulkan</text><text x="564" y="222">Caldera</text>
+    <text x="63" y="222">Schlackenkegel</text><text x="157" y="222">Lavadom</text><text x="278" y="222">Schildvulkan</text><text x="422" y="222">Schichtvulkan</text><text x="564" y="222">Caldera</text>
   </g>
   <g class="sk-s" text-anchor="middle" style="font-size:10.5px">
     <text x="63" y="238">Tephra, steil</text><text x="63" y="251">klein</text>
@@ -278,7 +289,7 @@
     <path d="M330 136 L306 136"/>
     <path d="M440 132 L428 154"/>
     <path d="M498 192 L414 192"/>
-    <path d="M110 150 L186 150"/>
+    <path d="M104 142 L214 168"/>
     <path d="M110 276 L190 263"/>
     <path d="M110 314 L224 258"/>
     <path d="M388 304 L372 304"/>
@@ -376,8 +387,8 @@
 <h3 id="bild-wikimedia-commons">🖼️ Bild (Wikimedia Commons)</h3>
 <p><img alt="Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)" src="https://commons.wikimedia.org/wiki/File:Mauna_Loa_2012.jpg"/></p>
 <p><em>Quelle: Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)</em></p>
-<h3 id="fotos-unsplash">📸 Fotos (Unsplash)</h3>
-<p><a href="https://unsplash.com/s/photos/volcano-eruption">Fotogalerie: Vulkanausbrüche (Unsplash)</a></p>
+<h3 id="fotos">📸 Fotos</h3>
+<div class="media-gallery" data-q="volcano eruption"><p class="mg-fallback"><a href="https://unsplash.com/s/photos/volcano-eruption" target="_blank" rel="noopener">Fotogalerie: Vulkanausbrüche</a></p><noscript></noscript></div>
       </article>
       <div class="backlinks"><h3>Verlinkt von</h3><ul><li>Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele</li><li>Atmosphäre, Wetter und Klima — Grundlagen und Prozesse</li><li>Geografie Wiki — Leistungskurs BW (Bildungsplan 2016)</li><li>Globalisierung und Entwicklungen in der Anthroposphäre</li><li>Vulkanarten — Formen und Typen</li><li>Vulkanprozesse — Explosiv vs. Effusiv, Förderprodukte, Gefahren</li><li>Vulnerabilität von Räumen — Raumbeispiele (Naturgefahren)</li><li>Vulnerabilität vulkanischer Räume — Beispiele und Analyse</li><li>Vulnerabilität, Resilienz, Risiko und Naturgefahr</li><li>Wiki Log</li><li>Übungsaufgaben — Geografie LK (Bildungsplan 2016)</li></ul></div>
     </div>

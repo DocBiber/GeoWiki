@@ -171,6 +171,6 @@ Weitere Raumbezüge: **Pacific Ring of Fire** (~75 % der weltweiten Vulkane, sub
 
 *Quelle: Schilder Vulkan Mauna Loa, Hawaii (CC BY-SA 3.0)*
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Vulkanausbrüche (Unsplash)](https://unsplash.com/s/photos/volcano-eruption)
+[Fotogalerie: Vulkanausbrüche](https://unsplash.com/s/photos/volcano-eruption)

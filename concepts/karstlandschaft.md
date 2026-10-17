@@ -83,19 +83,19 @@ Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor all
 
 ## Visuelle Darstellungen & Fotos
 
-> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Unsplash (Fotografien, free to use). Alle Links führen zu externen Plattformen.
+> Quellen: YouTube (Animationen/Erklärungen), Wikimedia Commons (Bilder/Diagramme, meist CC BY-SA / Public Domain), Fotos werden live von Wikimedia Commons geladen (Urheber/Lizenz unter dem Bild).
 
-#### 📸 Fotogalerie: Karstlandschaften (Unsplash)
+#### 📸 Fotogalerie: Karstlandschaften
 
-[Freie Fotos von Karst-Formen, Poljen, Dolinen, Felsformationen.](https://unsplash.com/s/photos/karst-landscape)
+[Fotos zu Karst-Formen, Poljen, Dolinen, Felsformationen.](https://unsplash.com/s/photos/karst-landscape)
 
-#### 📸 Fotogalerie: Höhlen, Karst-Höhlen (Unsplash)
+#### 📸 Fotogalerie: Höhlen, Karst-Höhlen
 
-[Freie Fotos von Tropfsteinhöhlen, unterirdischen Karst-Formen.](https://unsplash.com/s/photos/cave-formation)
+[Fotos zu Tropfsteinhöhlen, unterirdischen Karst-Formen.](https://unsplash.com/s/photos/cave-formation)
 
-#### 📸 Fotogalerie: Dolinen, Sinkholes (Unsplash)
+#### 📸 Fotogalerie: Dolinen, Sinkholes
 
-[Freie Fotos von Dolinen und anderen Karstabsackungen.](https://unsplash.com/s/photos/doline)
+[Fotos zu Dolinen und anderen Karstabsackungen.](https://unsplash.com/s/photos/doline)
 
 #### 🖼️ Kategorie: Karst – Wikimedia Commons
 

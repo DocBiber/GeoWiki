@@ -63,6 +63,44 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initSkizzen);
   else initSkizzen();
 
+  /* ---------- Fotogalerien: Bilder live von Wikimedia Commons laden ---------- */
+  function initGalleries() {
+    document.querySelectorAll(".media-gallery").forEach(function (g) {
+      var cat = g.getAttribute("data-cat"), q = g.getAttribute("data-q");
+      var p = "action=query&format=json&origin=*&prop=imageinfo&iiprop=url|extmetadata|mime&iiurlwidth=420&generator=";
+      p += cat
+        ? "categorymembers&gcmtype=file&gcmlimit=12&gcmtitle=" + encodeURIComponent(cat)
+        : "search&gsrnamespace=6&gsrlimit=12&gsrsearch=" + encodeURIComponent(q + " filetype:bitmap");
+      fetch("https://commons.wikimedia.org/w/api.php?" + p).then(function (r) { return r.json(); }).then(function (d) {
+        var pages = Object.keys((d.query && d.query.pages) || {}).map(function (k) { return d.query.pages[k]; });
+        pages.sort(function (a, b) { return (a.index || 0) - (b.index || 0); });
+        var wrap = document.createElement("div");
+        wrap.className = "mg-grid";
+        pages.forEach(function (pg) {
+          var ii = pg.imageinfo && pg.imageinfo[0];
+          if (!ii || !/^image\/(jpeg|png|webp)/.test(ii.mime || "")) return;
+          var m = ii.extmetadata || {};
+          var strip = function (s) { var t = document.createElement("div"); t.innerHTML = s || ""; return t.textContent.trim(); };
+          var a = document.createElement("a");
+          a.href = ii.descriptionurl; a.target = "_blank"; a.rel = "noopener";
+          var img = document.createElement("img");
+          img.loading = "lazy"; img.src = ii.thumburl; img.alt = strip(m.ObjectName && m.ObjectName.value) || pg.title.replace(/^File:/, "");
+          var cap = document.createElement("span");
+          cap.textContent = [strip(m.Artist && m.Artist.value), strip(m.LicenseShortName && m.LicenseShortName.value)].filter(Boolean).join(" · ");
+          a.appendChild(img); a.appendChild(cap); wrap.appendChild(a);
+        });
+        if (wrap.children.length) {
+          var src = document.createElement("p");
+          src.className = "mg-src";
+          src.textContent = "Bilder: Wikimedia Commons (Urheber und Lizenz unter dem Bild; Klick öffnet die Quelle).";
+          g.innerHTML = ""; g.appendChild(wrap); g.appendChild(src);
+        }
+      }).catch(function () {});
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGalleries);
+  else initGalleries();
+
   /* ---------- Theme ---------- */
   var THEME_KEY = "wiki-theme";
   function applyTheme(t) {

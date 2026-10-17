@@ -154,6 +154,6 @@ Im Klimawandel-Kontext bedeutet das:
 ---
 ## Bildmaterial
 
-### 📸 Fotos (Unsplash)
+### 📸 Fotos
 
-[Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung (Unsplash)](https://unsplash.com/s/photos/global-warming)
+[Fotogalerie: Fotogalerie: Klimawandel, globale Erwärmung](https://unsplash.com/s/photos/global-warming)
