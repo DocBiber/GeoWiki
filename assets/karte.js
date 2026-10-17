@@ -47,7 +47,49 @@
     var map = L.map(el, { scrollWheelZoom: false, worldCopyJump: true }).setView(view, zoom);
     tile(base || "topo").addTo(map);
     el.addEventListener("click", function () { map.scrollWheelZoom.enable(); }, { once: true });
+    wideToggle(el, map);
     return map;
+  }
+
+  /* Button: Karte über die ganze Seitenbreite aufklappen (fixiert unter der Kopfleiste) und wieder einklappen. */
+  function wideToggle(el, map) {
+    var spacer = null, vh = 45;
+    var btn = L.control({ position: "topleft" });
+    btn.onAdd = function () {
+      var a = L.DomUtil.create("a", "leaflet-bar geomap-widebtn");
+      a.href = "#";
+      a.setAttribute("role", "button");
+      a.title = "Karte über die ganze Seitenbreite anzeigen";
+      a.textContent = "⤢ Vollbreite";
+      L.DomEvent.disableClickPropagation(a);
+      L.DomEvent.on(a, "click", function (e) { L.DomEvent.preventDefault(e); toggle(); });
+      btn.el = a;
+      return a;
+    };
+    btn.addTo(map);
+    function toggle(force) {
+      var on = typeof force === "boolean" ? force : !el.classList.contains("geomap-wide");
+      if (on === el.classList.contains("geomap-wide")) return;
+      var c = map.getCenter();
+      if (on) {
+        spacer = document.createElement("div");
+        spacer.style.height = el.offsetHeight + "px";
+        spacer.style.margin = getComputedStyle(el).margin;
+        el.parentNode.insertBefore(spacer, el);
+        el.classList.add("geomap-wide");
+        document.documentElement.style.setProperty("--geomap-wide-h", vh + "vh");
+        document.documentElement.classList.add("geomap-wide-on");
+      } else {
+        el.classList.remove("geomap-wide");
+        document.documentElement.classList.remove("geomap-wide-on");
+        if (spacer) { spacer.remove(); spacer = null; }
+      }
+      btn.el.textContent = on ? "✕ Einklappen" : "⤢ Vollbreite";
+      btn.el.title = on ? "Karte wieder einklappen" : "Karte über die ganze Seitenbreite anzeigen";
+      map.invalidateSize();
+      map.setView(c, map.getZoom(), { animate: false });
+    }
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") toggle(false); });
   }
   function note(el, text) {
     var p = document.createElement("p");
