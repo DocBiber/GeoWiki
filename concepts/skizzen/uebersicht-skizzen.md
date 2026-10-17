@@ -1,374 +1,154 @@
 ---
 title: Skizzen — Geografie LK (Zeichenvorlagen)
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [skizzen, methodik, abitur]
 sources: []
+confidence: medium
 ---
 
-# Skizzen — Geografie LK (Zeichenvorlagen)
+# Skizzen — Geografie LK
 
-> Zeichenvorlagen für Skizzen im Abitur / Unterricht.
-> Jede Skizze wird als textbasierte Zeichenanleitung + Schülererläuterungen geliefert.
-> Für Prüfungen: Skizzen müssen lesbar, beschriftet, maßstäblich (relativ) sein.
+Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können.
+Sie sind schematisch und nicht maßstabsgetreu. Im Abitur sollten Pfeile, Formen und
+Beschriftungen eindeutig und fachlich korrekt sein.
 
----
+## 1. Glaziale Serie
 
-## 1. Glaziale Serie (Penck) — Skizze
-
-### Zeichenanleitung
+Die typische Abfolge im Vorland eines Inlandeises lautet:
 
 ```
-                         SCHÜTTRICHTUNG (Eisstrom-Richtung)
-                         ↓ (Gletscher fließt von oben nach unten auf dieser Seite)
-
- [HOCHBERG / ZERGREGBIET] ← Gletscher wird geboren (Schnee, Firn)
-              │
-              │ Talgletscher fließt abwärts
-              │
-              ▼
-    ╔═════════════════════════════════╗
-    ║ TROG TAL ║ ← U-förmiges Tal, glazial erodiert
-    ║ ╱‾‾‾‾‾‾‾‾‾╲ ║
-    ║ ╱ ╲ ◄── steile Wand ║
-    ║╱ ╲╱ ║
-    ╚═════════╤══════╤════════════════╝
-              │ │ ↑
-              │ └───┼── Endmoräne (junges Endmoränenkamm)
-              │ │ ── schräg verlaufend
-              ▼ ▼
-    ╔═════════╧════════╧═══════════════╗
-    ║ ZUNGENBECKEN ║ ← Mulde am Gletscherende, oft tief,
-    ║ (oft mit See gefüllt) ║ rund, abgerundete Rand
-    ╚══════════════════╤═══════════════╝
-                       │
-                       ▼ Richtung: Eis war bis hier vorgedrungen
- ╔══════════════════╧══════════════════════════════╗
-    ║ ENDMORAÑEN-GÜRTEL (halbrunder Bogen) ║ ← letzte Gletscherausdehnung
-    ╚════════════════════╤════════════════════════════╝
-                       │
-                       ▼
-    ╔══════════════════╧══════════════════════════════╗
-    ║ SANDER / SANDER (Schotterfeld) ║ ← vor dem Endmoränengürtel,
-    ║ (gerundete Felder, Kiese, Blöcke) ║ von Schmelzwasser aufgestaut
-    ╚══════════════════╤═══════════════════════════════╝
-                       │
-                       ▼ (Weites Tal, Schmelzwasser-Linie)
-    ╔══════════════════╧═══════════════════════════════╗
-    ║ URROMSTAL (längliches Tal) ║ ← Schmelzwasser-Rinn,
-    ║ (oft weit, flach, Talboden eben) ║ trägt ab, weit ausgedehnt
-    ╚══════════════════╤═══════════════════════════════╝
-                       │
-                       ▼
-    [ Weitere Gelände, Löss-Ablagerungen, Flüsse ]
+Inlandeis → Zungenbecken → Endmoräne → Sander → Urstromtal
+                              Schmelzwasser →
 ```
 
-### Beschriftung (Abiturniveau)
+Beschriften Sie die Eisrandlage, die Endmoräne, den Sander und das Urstromtal. Das
+Schmelzwasser fließt vom Eisrand über den Sander ab und kann in einem Urstromtal parallel
+zum Eisrand weitergeleitet werden. Die Formen sind nicht überall vollständig ausgebildet.
 
-**Bezeichnungen, die auf der Skizze stehen müssen:**
-- Zungenbecken
-- Endmoräne (Jungmoräne)
-- Sander / Sandr
-- Urstromtal
-- Eisstrom-Richtung (Pfeil)
-- Gletscherzunge (Verlängerung)
-- Oder: Alt-Endmoräne (ältere Stufe) — ggf. zusätzlich
+## 2. Vulkanformen
 
-**Zusätzlich möglich (for advanced):**
-- Seitenmoräne am Gletscherrand
-- Grundmoräne im Talgrund
-- Kar (Cirque) oben im Hochgebirge
-
----
-
-## 2. Vulkanformen — Skizzen
-
-### A. Schichtvulkan (Strato vulkan)
+### A. Schichtvulkan (Stratovulkan)
 
 ```
-                ⋂ (Asche-Schicht)
- ╱‾‾‾╲
-             ╱ ╲ ◄── eine Schicht (Lava-Schicht, hell)
-            ╱ ▲ ╲
-           ╱ │ ╲
-          ╱ │ ╲
-         ╱ │ ╲
-        ╱ │ ╲
-       ╱ │ ╲
-      ╱ │ ╲
- ╱ ★ │ ╲ ◄── ★ = Krater / Spalte
-    ╱ │ │ ╲
-   ╱ │ │ ╲
-  ╱ │ │ ╲
- ╱ ▼ ▼ ╲
-╱_____________________________╲
-         ▼
-(○) ↓ Lavastrom (effusiv)
+              Krater
+                ↓
+               /\
+              /  \
+             /____\
+            /      \
+           /________\
+                │ Schlot
+          Magmareservoir
 ```
 
-**Beschriftung:**
-- Krater
-- Schichtung (abwechselnd Lava / Tephra)
-- Lavastrom (sehr langsam, hier abwärts)
-- Flanke (steil, 30–35°)
-- Magma-Kammer (unterirdisch, unten)
-
-**Eruptionstyp:** oft explosionsvulkanisch (Gase eingeschlossen, druckaufbau), mit Tephra, Asche.
-
----
+Beschriften Sie den steilen Vulkankegel, den Krater und den Schlot. Schichtvulkane
+bestehen aus abwechselnden Lava- und pyroklastischen Ablagerungen. Explosive Ausbrüche
+sind möglich; der Eruptionsstil ist jedoch nicht allein durch die Vulkanform festgelegt.
 
 ### B. Schildvulkan
 
 ```
-              ╱ ╲
-             ╱ ╲
-            ╱ ╲
-           ╱ ╲
-          ╱ ╲
-         ╱ ╲
-        ╱ ╲
-       ╱ ╲
-      ╱ (flach, 2–10°) ╲
-     ╱ ╲
-    ╱ ╲
- ╱ ╲
-  ╱ ╲
- ╱ ╲
-╱═════════════════════════════════════════════════════════════════════════╲
-                            ★ Krater / Spalte
-                        ◄── Lavastrom (effusiv, fließend)
+                Krater
+                  ↓
+             ____/ \____
+         ___/           \___
+     ___/                   \___
+              → Lavastrom
 ```
 
-**Beschriftung:**
-- Krater / Spalte
-- Lavastrom (effusiv, fließt leicht)
-- Flanke (sehr flach, 2–10°)
-- Basis (sehr breit)
-- Magma: basaltisch, niedrig-viscos, geringen SiO₂
-
-**Eruptionstyp:** Effusiv, ruhig, Lava fließt, nicht explosiv (selten).
-
----
+Beschriften Sie die breite, flach geneigte Form und den Lavastrom. Schildvulkane entstehen
+häufig durch wiederholte effusive Ausbrüche basaltischer Lava. Explosive Aktivität ist
+ebenfalls möglich.
 
 ### C. Caldera
 
-```
-       ╔══════════════════════╗
-       ║ OLD VOLCANO PEAK ║ ← vor dem Ausbruch
-       ║ (laut hoch) ║
-       ╚══════════╤═══════════╝
-                  │ │
-                  │ └── ★ Krater
-                  │ │ (Magma austritt)
-                  ▼ ▼
-               ╔════════╧════════╗
-               ║ CALDERA ║ ← große kreisförmige Einsenkung
-               ║ (Kessel) ║ (nach massiver Entfernung Magma-Raum)
-               ║ ║
-               ║ ┌──────┐ ║
-               ║ │ SEE │ ║ ← oft gefüllt
-               ║ └──────┘ ║
-               ╚══════════════════╝
-```
-
-**Beschriftung:**
-- Caldera (Kessel, Kreis)
-- Oft gefüllt mit Wasser (Kratersee)
-- Magma-Kammer (unter, leer nach Ausbruch)
-- Alter Vulkan (vor Ausbruch)
-
----
+Eine Caldera ist eine großräumige Einbruchstruktur. Sie kann entstehen, wenn nach der
+Förderung großer Magmamengen das Gestein über einem Magmareservoir absinkt. Eine Caldera
+kann sich später teilweise mit Wasser oder neuen Ablagerungen füllen.
 
 ### D. Maar
 
-```
-        ┌─────────────────────────┐
-        │ RINGFÖRMIGE MULD E │
-        │ (Kreis oder oval) │
-        │ ╭──────────────╮ │
-        │ │ ★ Krater │ │ ← mittel-teil (magma tritt aus)
-        │ └──────────────╘ │
-        │ │
-        │ ╭──────────────────────╮ │ ← Tuff-Ring (Asche,
-        │ │ Tuff-Ring (Ring) │ │ gebrochen)
-        │ ╰──────────────────────╯ │
-        └──────────────────────────┘
-```
+Ein Maar entsteht häufig durch eine phreatomagmatische Explosion, wenn Magma auf Grund-
+oder Oberflächenwasser trifft. Skizzieren und beschriften Sie die trichterförmige Mulde
+und den umgebenden Tuffring. Ein Maar kann sich später mit Wasser füllen.
 
-**Beschriftung:**
-- Mais (Kreisrunde Mulde)
-- Krater / Eruptionszentrum
-- Tuff-Ring (Asche-Ring)
-- Oft gefüllt mit Wasser (→ Maar-See)
-- Entstehung: phreatomagmatisch (Grundwasser + Magma)
+## 3. Vulnerabilität und Risiko
 
----
-
-## 3. Vulnerabilitätsmodell (Risiko-Modell) — Skizze
-
-### Variante A: Das Grundmodell
+Ein mögliches Ursache-Wirkungs-Schema:
 
 ```
-      [ HAZARD ] [ EXPOSITION ]
-   (Naturgewalten) (Was liegt in Gefahr?)
-
- │ │
-         │ ┌───────────┐ │
-         └──┤ Risiko ├────────────────────┘
-            │ │
-            │ = Hazard │
-            │ x │
-            │ Exposition │
-            │ x │
-            │ Vulnerabilität│
-            └───────────────┘
-                        │
-                        ▼
-            ┌────────────────────┐
-            │ SCHADEN │
-            │ (Tote, Sach-, │
-            │ Umwelt) │
-  └────────────────────┘
+Naturgefahr (Hazard)
+        +
+Exposition (Menschen, Gebäude, Infrastruktur)
+        +
+Vulnerabilität (Anfälligkeit)
+        ↓
+Risiko möglicher Schäden
+        ↕
+Resilienz (Vorsorge, Bewältigung und Erholung)
 ```
 
-### Variante B: Mit Resilienz
+Das Schema ist eine Lernhilfe, keine allgemeingültige Berechnungsformel. Je nach Modell
+wird Risiko unterschiedlich bestimmt. Beschriften Sie die Gefahrenquelle, die exponierten
+Objekte und mindestens eine soziale, physische oder ökonomische Vulnerabilitätsdimension.
+Resilienz kann Schäden begrenzen und die Bewältigung sowie Erholung unterstützen.
+
+## 4. Gletscher im Querschnitt
 
 ```
-      [ HAZARD ]
- │
-         ▼
-   ┌─────────────┐
-   │ Exposition │ ──→ Was liegt im Gefahrenbereich?
-   └─────────────┘
-         │
-         ▼
-   ┌─────────────┐
-   │ Vernderbarkeit │ ──→ Wie anfällig?
-   └─────────────┘
-         │
-         ▼
-   ┌─────────────┐
-   │ RISIKO │
-   └─────────────┘
-         │
-         ▼
-   ┌─────────────┐ ┌─────────────┐
-   │ SCHADE │ ←──→ │ RESILIENZ │
-   │ │ │ (Wiederher- │
-   └─────────────┘ │ stellung) │
-                           └─────────────┘
+Hochgebirge
+   Schnee und Firn
+        ↓
+ [Nährgebiet]
+        ↓ Eisbewegung
+ -------------------- Gleichgewichtslinie
+ [Zehrgebiet] → Schmelzwasser
+        ↓
+ Gletscherzunge und Endmoräne
 ```
 
-**Beschriftung:**
-- Hazard (Gefahrenquelle: Vulkan, Gletscher, etc.)
-- Exposition (Betroffene Objekte: Menschen, Gebäude, Infrastruktur, Wirtschaft)
-- Vulnerabilität (Anfälligkeit: sozial, physisch, ökonomisch)
-- Risiko (Schadenswahrscheinlichkeit × Schadensumfang)
-- Resilienz (Fähigkeit: widerstehen, anpassen, erholen)
+Kennzeichnen Sie das Nähr- und Zehrgebiet, die Gleichgewichtslinie, die Fließrichtung des
+Eises und den Schmelzwasserabfluss. Ein Gletscher kann Seiten- und Endmoränen ablagern.
 
----
+## 5. Trogtal und Flusstal
 
-## 4. Gletscher — Querschnitt
+| Merkmal | Trogtal | Flusstal |
+|---|---|---|
+| **Form im Querschnitt** | meist breit und U-förmig | häufig V-förmig |
+| **Prägender Prozess** | Erosion durch Gletschereis | Erosion durch fließendes Wasser |
+| **Typische Merkmale** | breiter Talboden und steile Talflanken | schmaler Talboden und zum Fluss geneigte Hänge |
 
-```
-   ^ (Hochgebirge)
-   │
-   │ ╱╲ ▲ ▲ ← ZERGREGBIET / NÄHRLING
-   │ ╱ ╲ │ │ (Schnee → Firn → Eis)
-   │ ╱ ╲│ │
-   │ ╱ ╲ │ ◄── GLETSCHER (Eisstrom)
-   │ ╱ GLETSCHER ╲ │
-   │╱ (EIS) ╲ │
-   │ ╲ │
-   │ ╔══════════════╗ │ │
-   │ ║ MORÄNE ║ │ │ ← Moränenrand
-   │ ║ (Seiten- oder End-)║ │
-   │ ╚══════════════╝ │ │
-   │ │ │ │
-   │ ▼ ▼ ▼
-   │ [ Talboden, Urstromtal ]
-```
+Die Formen können durch weitere Prozesse überprägt werden; die Tabelle ist daher eine
+vereinfachte Gegenüberstellung.
 
-**Beschriftung:**
-- Gletscher (Eisstrom)
-- Zehrgebiet / Akkumulationszone (Schnee → Firn → Eis)
-- Gleichgewichtslinie (Grenzlinie, wo Akkumulation = Ablation)
-- Ablationszone (Schmelzwasser, Abtrag)
-- Moräne (Seiten- oder Endmoräne)
-- Trogtal (U-förmig)
-- Schmelzwasser (Abfluss)
-
----
-
-## 5. Vergleich Trogtal (glazial) vs. Flusstal (V-formig)
+## 6. Vulkanische Gefahren und mögliche Folgen
 
 ```
-GLAZIALES TROGTAL (U-förmig) Flusstal (V-formig)
-
- ▲ ▲
-   │ ╱╲ │ ╱╲
-   │ ╱ ╲╲ │ ╱ ╲
-   │╱ ╲╲ │ ╱ ╲
-   │ ╲╲ │╱ ╲
-   │ ╲╲ │ ╲
-   │ ╲╲ │ ╲
-   │ ╲╲ │ ╲
-   │ \ │ │ ╲ │ ╲
-   │ \ │ │ \ │ │ \ │ └──────────────┘ └──────────────┘
-   breit, abgerundet, steil, V-förmig,
-   U-Form V-Form
-   geglättete Wände schroffe Wände
-   (Eis hat abgetragen) (Wasser hat erodiert)
+Vulkanausbruch
+      ↓
+Gefahren: Asche, Lavaströme, Gase, pyroklastische Dichteströme
+      ↓
+Exposition und Vulnerabilität bestimmen mögliche Auswirkungen
+      ↓
+Schäden an Menschen, Umwelt und Infrastruktur
 ```
 
----
+Ergänzen Sie bei einer konkreten Raumskizze die Gefahrenzonen, Siedlungen, Verkehrswege
+und mögliche Schutzmaßnahmen. Nicht jede Gefahr tritt bei jedem Ausbruch auf.
 
-## 6. Vulkan-Ausbruch-Schema (Hazard-Stufen)
+## Hinweise zum Zeichnen
 
-```
-     OROPHE / MAGMA
- │
-          ▼
-   ┌─────────────┐
-   │ MAGMA- │
-   │ KAMMER │ ← Druckaufbau (Gase: CO₂, SO₂, H₂O)
-   └──────┬──────┘
-          │ (Drücke ↑)
-          ▼
-   ┌─────────────┐
-   │ AUSBRUCH │ ← Explosion / Lavafluss
-   │ (ERUPTION) │
-   └──────┬──────┘
-          │
-    ┌─────┴─────┐
-    │ HAZARD │
-    │ Pyroklast, │
-    │ Aschefall │
-    │ Lahar │
-    └─────┬─────┘
-          │
-   ┌──────┴───────┐
-   │ RISIKO │ ← Exposition × Verwundbarkeit
-   │ Bevölkerung │
-   │ Infrastruktur│
-   └──────┬───────┘
-          │
-    ┌─────┴─────┐
-    │ SCHADE │
-    │ Tote, │
-    │ Sachschade│
-    └───────────┘
-```
+- Beschriften Sie die wesentlichen Formen und Prozesse.
+- Verwenden Sie Pfeile für Fließrichtungen von Eis, Lava und Schmelzwasser.
+- Halten Sie die Skizze übersichtlich; sie muss nicht maßstabsgetreu sein.
+- Farben können Inhalte unterscheiden, ersetzen aber keine Beschriftungen.
+- Wählen Sie nur die Elemente aus, die zur jeweiligen Aufgabenstellung passen.
 
----
+## Verwandte Seiten
 
-## Skizzen-Office-Hinweise
-
-- Skizzen müssen **nicht perfekt gezeichnet** sein, aber sie müssen **beschriftet** sein
-  und die **wichtigsten Elemente** enthalten.
-- Pfeile zeigen **Richtungen** (Eisstrom, Lavafluss, Schmelzwasser).
-- Einheitliche Schrift (lesbar) ist wichtiger als künstlerische Qualität.
-- Farben helfen (z.B. **blau** für Wasser/Eis, **rot** für Gefahr, **braun** für Moränen).
-- Im Abitur muss nicht immer alles gezeichnet werden, was möglich ist — aber die
-  Kernbegriffe müssen klar erkennbar sein.
+- [[glaziale-serie]] — Formen und Prozesse der glazialen Serie
+- [[vulkanarten]] — Vulkanformen und Typen
+- [[vulnerabilitaet-begriffe]] — Vulnerabilität, Risiko und Resilienz
+- [[vulnerabilitaet-raumbeispiele]] — Raumbeispiele zu Naturgefahren

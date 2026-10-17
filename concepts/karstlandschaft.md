@@ -1,92 +1,77 @@
 ---
 title: Karstlandschaft — Formen, Prozesse, Bedeutung
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 type: concept
 tags: [karst, exogen, wasser, landschaft, raumbeispiele]
 sources: []
-confidence: medium
+confidence: low
 ---
 
 # Karstlandschaft
 
 ## Überblick
 
-Karst ist eine ausgesprochen vom Wasser geformte Reliefform, die durch khemische Verwitterung (lösender) von kalkigen oder gipsreichen Gestein entsteht. Das Typische: Oberfläche ist oft trocken, Wasser stürzt unterirdisch ab, und die Bodenschicht kann dünn oder fehlen. Karst entsteht, wo wasserlösliches Gestein (hauptsächlich Kalkstein/Kalkein sedimentäres Gestein, aber auch Dolomit, Gips, Salz) mit leicht kalkhaltigem Wasser in Kontakt kommt.
-
-> Bekannteste karstgebiete: Die Karstregionen der Hohen Lehmann-Massivs (z. B. Dalmatien/Kroatien), die Haute Provence (südliche Frankreich, Gorges du Verdon), die Haute Savoie/Gebiet um Avignon, die Eifel (der deutsche Karst), das Yucatan-Halbinsel/Mexiko, die Yunnan-Provinz (China, Steinpfad der Karstlandschaft), und viele Regionen im Balkan/Pazifik.
+Karstlandschaften entstehen durch die Lösung wasserlöslicher Gesteine, vor allem Kalkstein und Dolomit, aber auch Gips und Steinsalz. Kohlendioxid aus Luft und Boden löst sich im Wasser und bildet schwache Kohlensäure, die Karbonatgestein angreifen kann. Das Wasser versickert häufig durch Klüfte, Spalten und Hohlräume; deshalb ist das oberirdische Gewässernetz in manchen Karstgebieten nur schwach ausgeprägt. Böden können auf nacktem Kalkstein dünn sein, unterscheiden sich aber je nach Gestein und Landschaft.
 
 ## Grundprozesse
 
-### Chemische Verwitterung (lösender Prozess)
+### Lösung von Karbonatgestein
 
-- **Karstifizierung**: Dass Prozess, bei dem leicht saures Wasser (natürlich durch atmosphärische CO₂, biologischen CO₂ aus Boden, organische Säuren) Kalkgestein auflöst
-- Reaktion: CaCO₃ (Kalkstein) + H₂O + CO₂ → Ca(HCO₃)₂ (Calciumbicarbonat, löslich) — Kalk wird aufgelöst und mit dem Wasser abtransportiert
-- Die Lösung geschwindigkeit hängt von: Wassermenge, CO₂-Gehalt, Temperatur (kälteres Wasser weniger löslich i. d. R.), Oberfläche des Gesteins
+- **Karstifizierung:** Kohlensäurehaltiges Wasser löst Kalkstein und transportiert gelöste Stoffe ab.
+- **Reaktionsgleichung:** CaCO₃ + H₂O + CO₂ ⇌ Ca(HCO₃)₂. Das gelöste Calciumhydrogencarbonat wird mit dem Wasser abtransportiert.
+- **Einflussfaktoren:** unter anderem Wasserangebot, CO₂-Gehalt, Gesteinsart, Klüftung und Temperatur.
 
-### Unterirdische Wasserführung
+### Wasserführung
 
-- **humid Karst**: Oberfläche hat oft beträchtliche Wasser (Bäche, Quellwasser), das sickert in Karst
-- **Epikarst**: Oberste, durchlässige Schicht des Karstgesteins, wo Durchströmung und Lösung besonders stark
-- **Horizontale und vertikale Wasserführung**: Wasser sucht den leichtesten Weg im Gestein — oft entlang Schichten, Risse, Klüfte, Knicklinien
+- Wasser dringt über die Boden- und Verwitterungszone sowie über Klüfte und Spalten in den Untergrund ein.
+- **Epikarst:** oberflächennahe, häufig stark geklüftete Zone des Karstgesteins, in der Wasser gespeichert und weitergeleitet wird.
+- Unterirdische Abflusswege können rasch auf Niederschläge reagieren. Quellen und Höhlenbäche führen das Wasser an anderer Stelle wieder zutage.
 
-### Reliefformen
+## Reliefformen
 
-#### Oberflächenformen
+### Oberflächenformen
 
-- **Polje (Karstpolje)**: Großes, flaches, oft modriges Vertiefungsfeld, das zeitweise mit Wasser gefüllt wird (Saisonale Seen); eigentlich ein Karstvertiefung, die keine normale Talform ist
-- **Dolinen (Sinkholes — Versinkungen)**: Vertiefungen, die durch Auflösen von Kalkgestein entstehen; oft rund, rinnenartig oder zusammenbruchartig; Varietät: Lösungsslöcher, Kollapsdolinen etc.
-- **Karren (Furchenkarst, Rillenkarst)**: Längliche, parallele Rinnen und Furchen, die durch Oberflächenabfluss über Kalk entstehen
-- **Boden (Karstdeckel)**: Dünne Bodenschicht auf dem Kalk; oft dünn, können Karren oder Schotter geben; oft verkleinert sich Boden durch Verwitterung
-- **Abrupt Transitions**: Manche Karstlandschaften haben einen scharfen Übergang von flacher Ebene zu steilem Abhängen
+- **Karren:** Rinnen und Furchen, die durch Lösung an freiliegendem Kalkstein entstehen.
+- **Doline:** meist trichter- oder schüsselförmige Senke; sie kann durch Lösung oder durch den Einsturz eines Hohlraums entstehen.
+- **Polje:** große, geschlossene Senke mit flachem Boden. Je nach Wasserstand und Abfluss kann sie zeitweise überflutet sein.
+- **Ponor:** Öffnung, durch die ein Oberflächengewässer im Untergrund verschwindet.
 
-#### Unterirdische Formen
+### Unterirdische Formen
 
-- **Höhlen (Höhlen, Verstärke)**: Die bekannte Unterform — Räume, die durch Lösungstorung im Kalkgestein entstanden; oft Sekundärrohre, Höhlenverzweigungen
-- **Sturzhöhlen**: Einsturz von Höhlendecken
-- **Abflüsse / Karstquellen**: Wasser stürzt unterirdisch ab, erscheint an bestimmten Stellen als Quellöffnung — oft fleischfressend (Al Poré), rasch verändernd
-- **Speleothem — Höhleminerals**: Stalaktite (von Decke wachsend), Stalagmit (von Boden wachsend), Säulen (beides zusammen), Schalen, etc. — durch Ausfällung von CaCO₃ aus Wasser (wenn CO₂ entweicht, wird Kalk unlöslich und fällt aus)
+- **Höhlen und Hohlräume:** entstehen vor allem, wenn Wasser entlang von Klüften und Schichtflächen Gestein löst.
+- **Karstquellen:** Austrittsstellen, an denen unterirdisch abfließendes Wasser wieder an die Oberfläche gelangt.
+- **Tropfsteine (Speleotheme):** Stalaktiten wachsen von der Höhlendecke, Stalagmiten vom Boden; treffen sie zusammen, kann eine Säule entstehen. Sie bilden sich durch die Ausfällung von Calciumcarbonat aus kalkhaltigem Wasser.
 
-## Englische Karst-Klassifikationen
+## Karsttypen
 
-Zwei bekannte Karst-Spektren:
+- **Karbonatkarst:** entwickelt sich in Kalkstein und Dolomit.
+- **Evaporitkarst:** entsteht in leichter löslichen Gesteinen wie Gips oder Steinsalz. Hohlräume können sich vergleichsweise rasch entwickeln und zu Einbrüchen führen.
 
-- **Karbonatkarst**: Karst aus Kalkstein/Dolomit — der häufigste Typ
-- **Gipskarst / Salzkarst**: Gips und Salz sind noch leichter löslich; entstehen schneller, sind oft weniger stabil, können gefährlich sein (z. B. beim Aufbau von Konstruktionen)
-- **Piedmont-Karst, Hochland-Karst**: Abhängig von Höhenlage und Tektonik
+## Bedeutung und Gefährdung
 
-## Bedeutung
+- **Wasserversorgung:** Karstgrundwasser ist vielerorts eine wichtige Trinkwasserressource. Weil Wasser schnell durch Klüfte fließen kann, ist es zugleich besonders anfällig für Verunreinigungen.
+- **Landwirtschaft:** Bodenmächtigkeit und Wasserverfügbarkeit wechseln kleinräumig; dadurch können Nutzung und Erträge stark variieren.
+- **Naturgefahren:** Einstürze über unterirdischen Hohlräumen und rasche Hochwasserreaktionen an Karstquellen können Menschen und Infrastruktur gefährden.
+- **Tourismus und Naturschutz:** Höhlen und markante Oberflächenformen sind wichtige Landschafts- und Erholungsräume, aber empfindlich gegenüber Verschmutzung und Eingriffen.
 
-### Für Menschen
+## Raumbeispiele
 
-- **Wasser**: Tropfbau und Quellsuche in Karstgebieten sind wichtig für Trinkwasser; Karstwasser kann gut sein, aber auch anfällig für Verschmutzung (schnelle Passage, kaum Filterung)
-- **Landwirtschaft**: Oft schwierig — dünner Boden, Wasser geht schnell verloren; aber manche Gebiete haben besondere Mikroklimata
-- **Tourismus**: Karstlandschaften sind attraktiv — Höhlen (z. B. Postojna, Mammuthöhle in Österreich, Carlsbad Caverns USA), Polje, bizarre Formen
-
-### Gefährdung / Vulnerabilität
-
-- **Grundwasser-Verschmutzung**: Schädliche Stoffe gelangen schnell ins Grundwasser (Diskussion in Bezug auf Schutz).
-- **Bodenverlust**: Dünne Boden erfordert besondere Bewirtschaftung
-- **Höhlenbilder / synthetische Karstbildung**: Eingriffe können System destabilisieren
-
-## Regionen als Abitur-Beispiel
-
-- **Eifel (Deutschland)**: Eifeler Karst — Biste vulkanischen Ursprung, aber auch Karst (z. B. Burtscheid, Kylltal, Rur); als Beispiel für deutschen Karst
-- **Höhlen im Karst (z. B. Postojna, Škocjan, Slowenien — UNESCO-Welterbe; Adelsberg)**: Beispiele für slowenischen Karst und Höhlen
-- **Hohe Provence / Gorges du Verdon (Frankreich)**: Schöne Karpate, bewusst durch geologische Prozesse
-- **Yucatan Halbinsel/Karibik**: Tropischer Karst — Höhlen, Cenotes (unterirdische Seen, oft mit Wasser gefüllt), Maya-Region
+- **Kalkeifel (Deutschland):** Kalkgesteine und Karsterscheinungen, unter anderem im Umfeld von Gerolstein.
+- **Dinarischer Karst (Slowenien):** Die Höhlen von Postojna und Škocjan veranschaulichen unterirdische Karstformen; die Höhlen von Škocjan gehören zum UNESCO-Welterbe.
+- **Yucatán (Mexiko):** Tropischer Karst mit Dolinen und wassergefüllten Cenotes.
+- **Gorges du Verdon (Frankreich):** tief eingeschnittene Schlucht in einem Kalksteingebiet.
 
 ## Verwandte Seiten
 
-- [[vulkanprozesse]] — Vulkanprozesse: Endogene Prozesse, Gegenstück zu karstigen/Exogenen
-- [[glazialmorphologie-ueberblick]] — Glazialmorphologie: Vergleich mit Karst als Wind-/Wasserform
-- [[vulnerabilitaet-raumbeispiele]] — Vulnerabilität von Karsträumen (Gefährdung durch Wasser, etc.)
-- [[atmosphaere-wetter-klima]] — Niederschlag und Wasser als wichtiger Faktor für Karstbildung
+- [[vulkanprozesse]] — Vergleich mit endogenen Prozessen des Vulkanismus
+- [[glazialmorphologie-ueberblick]] — Vergleich von Lösungsformen und glazialer Formung
+- [[vulnerabilitaet-raumbeispiele]] — Vulnerabilität von Räumen durch Naturgefahren
+- [[atmosphaere-wetter-klima]] — Niederschlag und Temperatur als Einflussfaktoren
 
 ## Offene Fragen
 
-- Beste Abitur-Beispiel (Eifel, Slowenien, Frankreich) für LK?
-- Braucht Karst eine eigene Raumbeispieldatei oder reicht Konzept?
+- Welche Karstlandschaft soll als eigenständiges Abitur-Raumbeispiel vertieft werden?
 
 ---
 
@@ -117,4 +102,3 @@ Zwei bekannte Karst-Spektren:
 ### 🎬 Wasserleitung im Karst – Kurz-Animation (Karst Landscape Animation, Minnesota)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vAOcqHgwTfg" frameborder="0" allowfullscreen></iframe>
-

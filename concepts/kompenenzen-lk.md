@@ -1,7 +1,7 @@
 ---
 title: Kompetenzen LK Geografie — Prozessbezogene und inhaltsbezogene Kompetenzen
 created: 2026-09-27
-updated: 2026-09-27
+updated: 2026-10-16
 type: concept
 tags: [kompetenzen, bildungsplan, abitur, lk]
 sources: []
@@ -135,8 +135,8 @@ Die im Bildungsplan für das Abitur relevanten Operatoren:
 
 ## Quellen
 
-- Bildungsplan 2016 Gymnasium Geografie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2
-- LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO. V2_IK_LK
+- Bildungsplan 2016 Gymnasium Geografie: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2
+- LK-Inhaltsbereich 3.5: https://www.bildungsplaene-bw.de/,Lde/BP2016BW_ALLG_GYM_GEO.V2_IK_LK
 
 ---
 

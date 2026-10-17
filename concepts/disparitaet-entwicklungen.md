@@ -1,7 +1,7 @@
 ---
 title: Disparitäre Entwicklungen und Entwicklungszusammenarbeit
 created: 2026-09-30
-updated: 2026-09-30
+updated: 2026-10-16
 type: concept
 tags: [disparitaet, entwicklung, globale-ungleichheit, entwicklungszusammenarbeit, nachhaltigkeit]
 sources: []
@@ -26,14 +26,15 @@ confidence: high
 
 Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 
-- **Bruttonationaleinkommen (BNE) / Bruttonationalprodukt (BNP)**: Gesamtproduktionswert einer Volkswirtschaft; BNE pro Kopf als Indext für durchschnittlichen Wohlstand (aber keine Verteilungsaussage!)
-- **Human Development Index (HDI — Human Development Index, auch VSL — Entwicklungsindex)**: Zusammengesetzter Index nach UNDP; kombiniert Lebenserwartung, Bildung (Erwachsenenbildung + Schuleinschreibung) und Kaufkraftparitäts-BNE pro Kopf; gibt mehr als nur Einkommen
+- **Bruttonationaleinkommen (BNE):** Einkommen, das den Einwohnerinnen und Einwohnern eines Landes zufließt, unabhängig davon, ob es im Inland oder Ausland erwirtschaftet wurde. Das BNE pro Kopf erlaubt keine Aussage über die Einkommensverteilung.
+- **Bruttoinlandsprodukt (BIP):** Wert der im Inland innerhalb eines Zeitraums erzeugten Waren und Dienstleistungen.
+- **Human Development Index (HDI):** UNDP-Index aus Lebenserwartung, erwarteter und durchschnittlicher Schulbesuchsdauer sowie BNE pro Kopf (kaufkraftbereinigt).
 - **Human Sustainable Development Index (HSDI — auch Sustainable Development Index)**: Erweiterter Index, der ökologische Nachhaltigkeit einbezieht (Ressourcenverbrauch, CO₂-Emissionen je Kopf) neben den HDI-Komponenten; kritisch: hohe Entwicklung auf Kosten der Umwelt kompensiert nicht nachhaltige Entwicklung
 
 ### Klassifikation von Räumen
 
-- **Globaler Norden / Globale Süden**: Vereinfachtes Modell, unterscheidet Industrie-/Schwellenländer (oft globale Nordhälften) von ärmeren Entwicklungsländern (oft globale Südhalften) — nicht geografisch, sondern entwicklungspolitisch definiert
-- **Schildkrötenmodell / Dreiteilung**: Industrieländer (ADL), Schwellenländer (SWC — Newly Industrialized Countries), Entwicklungsländer (EL, auch LIC — Low Income Countries)
+- **Globaler Norden / Globaler Süden:** Vereinfachte, politisch-ökonomische Begriffe für globale Ungleichheiten; sie bilden keine einheitlichen Ländergruppen ab und sind nicht rein geografisch zu verstehen.
+- **Drei-Welten-Modell:** Historisches vereinfachendes Modell, das Länder in Industrie-, Schwellen- und Entwicklungsländer einteilt; heutige Klassifikationen verwenden unterschiedliche Kriterien.
 - **Nach HDI**: sehr hoher HDI, hoher HDI, mittlerer HDI, niedriger HDI
 
 ### Beispiele für räume unterschiedlichen Entwicklungsstandes
@@ -104,9 +105,9 @@ Standardisierte Indikatoren zur Messung und dem Vergleich von Entwicklungsstand:
 
 - **Hilfe zur Selbsthilfe**: Stärkung der eigenen Kapazitäten (bildung, Institutionen, Infrastruktur) statt reiner Zufluss von Gütern
 - **Nachholende Entwicklung**: Unterstützung von Ländern, um Entwicklungsrückstände einzuholen
-- **Befriedigung der Grundbedürfnisse**: Fokus auf basisse Grundversorgung (Wasser, Nahrung, Gesundheit, Bildung, Wohnen)
+- **Befriedigung der Grundbedürfnisse:** Fokus auf die grundlegende Versorgung mit Wasser, Nahrung, Gesundheit, Bildung und Wohnraum.
 - **Dissoziationsstrategie**: Abkehr von Abhängigkeiten, eigenständige Entwicklung, Verknüpfung mit Dependenztheorie
-- **Land Grabbing**: Geschichte und Kritik — große Ländereien des Anderen gekaufte oder angeborgte Land etwa ausländische Investore greifen — risks for local Communitys and food security
+- **Land Grabbing:** großflächiger Erwerb oder langfristige Pacht von Land, häufig durch Unternehmen oder Investoren aus dem In- und Ausland. Kritisiert werden unter anderem Risiken für lokale Gemeinschaften, Landrechte und Ernährungssicherheit.
 
 ## Bewertung von Entwicklungsprojekten
 
@@ -144,4 +145,3 @@ Bei der Bewertung von Entwicklungsprojekten im Abitur (Kompetenz 3.5.3.4 (3)) si
 ### 📸 Fotos (Unsplash)
 
 [Fotogalerie: Fotogalerie: Städte, Disparität (Unsplash)](https://unsplash.com/s/photos/urban-landscape)
-

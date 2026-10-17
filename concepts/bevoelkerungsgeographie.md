@@ -1,7 +1,7 @@
 ---
 title: "Bevölkerungsgeographie"
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [bevolkerung, demographie, migrationsbewegungen, alterung, bevölkerungsentwicklung, diskrepanz, wachstum, schrumpfung, raeumliche-verteilung, strukturwandel]
 sources: []
@@ -28,9 +28,10 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 
 ### Naturliche Bevölkerungsveränderung
 
-- **Geburtenrate** (Bruttogeburtenrate, Total Fertility Rate, Kinder pro Frau).
-- **Sterberate** (Lebenserwartung, Säuglingssterblichkeit, Altersspezifische Rate).
-- **Naturalzuwachs** = Geburten – Sterbefälle.
+- **Geburtenrate:** Zahl der Lebendgeburten je 1.000 Einwohnerinnen und Einwohner pro Jahr.
+- **Zusammengefasste Geburtenziffer (Total Fertility Rate):** durchschnittliche Kinderzahl je Frau, wenn die altersspezifischen Geburtenraten des betrachteten Zeitraums gelten.
+- **Sterberate:** Zahl der Sterbefälle je 1.000 Einwohnerinnen und Einwohner pro Jahr; Lebenserwartung und Säuglingssterblichkeit sind davon getrennte Indikatoren.
+- **Natürliche Bevölkerungsentwicklung:** Differenz zwischen Geburten und Sterbefällen.
 
 ### Migration
 
@@ -53,7 +54,7 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 
 ## Bevölkerungsentwicklung und Disparität
 
-- **Bildungsplan 2016 BW LK Geo 3.5.2.5/3.5.3.4**: demographische Entwicklung, Disparität, Ungleichheit.
+- **Bildungsplan 2016 BW LK Geo 3.5.2.6/3.5.3.4**: Bevölkerungsentwicklung in der Anthroposphäre sowie Disparität und Ungleichheit.
 - Globale Herausforderungen: Bevölkerungswachstum in Entwicklungsländern vs. Schrumpfung in Industrieländern.
 - Migration als Folge und Lösung (Wissensmigranten, Fachkräftemangel, Flüchtlingsströme).
 
@@ -66,7 +67,9 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 
 ## Methoden & Daten
 
-- **Bevölkerungszählung** (census): Vollständige Erfassung, alle X Jahre.
+- **Bevölkerungszählung (Zensus):** möglichst vollständige Erfassung der Bevölkerung in
+  einem Staat zu einem festgelegten Zeitpunkt. Häufigkeit und Verfahren unterscheiden sich
+  je nach Land.
 - **Statistische Erhebungen** (Mikrozensus, Demographische Statistik).
 - **GIS & Karten**: Räumliche Visualisierung (Choroplethen, Punktkarten, Heatmaps).
 - **Indikatoren**: Bevölkerungsdichte, Naturalzuwachs, Alphabetisierungsrate, Lebenserwartung, Human Development Index (HDI).
@@ -74,11 +77,11 @@ Das Modell beschreibt den Übergang von hohen Geburten- und Sterberaten zu niedr
 ## Bezug LK BW
 
 - Bildungsplan 2016 BW LK Geo 3.5.3.4 (Disparität, globale Entwicklung, soziale Ungleichheit).
-- 3.5.2.5 (Klima, Ökosysteme, menschliche Auswirkungen).
+- 3.5.2.6 (Entwicklungen in der Anthroposphäre).
 
 ## Verwandte Seiten
 
-- [[disparitaet-entwicklungen]] (globale Ungleichheit, Entwicklungspiioniere, Disparitätsfaktoren).
+- [[disparitaet-entwicklungen]] (globale Ungleichheit und Disparitätsfaktoren).
 - [[klimawandel]] (beeinflusst Migrationsbewegungen und Vulnerabilität).
 - [[globalisierung-anthroposphaere]] (Globalisierung als Treiber von Migration und Wirtschaftsentwicklung).
 

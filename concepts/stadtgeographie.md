@@ -1,7 +1,7 @@
 ---
 title: Stadtgeographie — Grundlagen und Themen
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [stadt, stadtsoziologie, humangeographie, planung, entwicklungen]
 sources: []
@@ -79,8 +79,8 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 **Raumplanung:** Ordentliche und nachhaltige Entwicklung des Raums — umfasst Stadtplanung, Regionalplanung, Landesplanung, Flächennutzungsplanung.
 
 **Planungsinstrumente:**
-- **Flächennutzungsplan (FNP):** Übergeordnete Planung für Gemeinden / Landkreise — Festlegung von Flächennutzung (Wohnen, Gewerbe, Landwirtschaft, Wald,Ö)
-- **Bebauungspläne (B-Pläne):** Detailliertere Planung für bestimmte Gebiete — konkrete Bebauungsregeln
+- **Flächennutzungsplan (FNP):** Vorbereitender Bauleitplan der Gemeinde für das gesamte Gemeindegebiet; er stellt die beabsichtigte Bodennutzung in Grundzügen dar.
+- **Bebauungsplan (B-Plan):** Verbindlicher Bauleitplan für Teilgebiete, der die zulässige Nutzung konkretisiert.
 - **Entwicklungsstrategien:** Stadtentwicklungskonzepte, Nachhaltigkeitsstrategien
 
 **Nachhaltige Stadtentwicklung (SDG 11 — "Nachhaltige Städte und Gemeinden"):**
@@ -129,4 +129,3 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 #### 📸 Fotogalerie: Suburbanes Wachstum, Pendlerstädte (Unsplash)
 
 [Freie Fotos von Vorort-Entwicklung, Wohngebieten am Stadtrand.](https://unsplash.com/s/photos/suburb)
-

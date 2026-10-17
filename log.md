@@ -102,7 +102,7 @@
 - Export-Ergebnis: 40 Seiten, 22 YouTube-iframes eingebettet, 245 Wikilinks, 0 broken links
 - Wikilink-Tippfehler in den .md-Quellen korrigiert: „vulkanismus-uebeRblick",
   „uEbersIcht-skizzen", „vulkan-prozesse", „exercises/abitur-aufgaben", „reSilienz-massnahmen",
-  „vulkanbeispiele" (→ vulkan-raumbeispiele), „[[wikilinks]]" (Code-Beispiel, entschärft),
+  „vulkanbeispiele" (→ vulkan-raumbeispiele), „`[[wikilinks]]`" (Code-Beispiel, entschärft),
   tote Links „geologie-grundlagen"/„geomorphologie-ueberblick" (boden-Seite) entfernt
 - Nächste Schritte: HTML-Ausgabe im Browser gegenprüfen (Punkt 4), danach Journal-Update
 
@@ -147,7 +147,7 @@
 - Text-Korrekturen (4 Stellen): atmosphaere-wetter-klima.md, bildungsplan-2016-lk.md,
   index.md (Domain-Zeile), entities/vulkanismus-ueberblick.md (Link-Zeile, obsolet)
 - Datei umbenannt: concepts/vulkansimus-ueberblick.md → concepts/vulkanismus-ueberblick.md
-- index.md-Link aktualisiert: [[vulkansimus-ueberblick]] → [[vulkanismus-ueberblick]]
+- index.md-Link aktualisiert: `[[vulkansimus-ueberblick]]` → `[[vulkanismus-ueberblick]]`
 - Struktur-Entscheidung (Nutzer-Rückfrage ohne Antwort → empfohlene Variante umgesetzt):
   die überschneidende entities/vulkanismus-ueberblick.md (Stand 01.10.) wurde mit der
   concepts-Seite ZUSAMMENGEFÜHRT — kein Inhaltverlust: einzigartige Teile übernommen
@@ -218,3 +218,39 @@
 - Gegenprobe: zweiter Skill-Durchlauf — keine TYPOS-/GRAMMAR-Fehler außer den
   dokumentierten Fehlalarmen
 - Nächste Schritte: Karst-Raumbeispiele, YouTube-IDs für Fluss/Küste, raw/-Verzeichnis
+
+## [2026-10-16] audit | Fach-, Sprach- und Linkprüfung
+- Vorhandenes Arbeitsprotokoll und bisherige Korrekturen gesichtet; die Prüfung auf
+  die aktiven Markdown-Seiten und den aktuellen HTML-Export konzentriert.
+- Fachliche und sprachliche Korrekturen unter anderem an Atmosphäre/Klima,
+  Wasserhaushalt, Vulkan- und Glazialprozessen, Raumbeispielen, Bildungsplanübersicht
+  und Übungsaufgaben vorgenommen. Dabei wurden etwa die Einordnung des Laacher Sees
+  als Caldera, die glaziale Serie, Risiken am Vesuv und Kīlauea sowie Begriffe zu
+  Exposition, Vulnerabilität und Resilienz präzisiert.
+- Stark beschädigte Textpassagen und Skizzen in der Glazialserie, den glazialen
+  Raumbeispielen, der Vulnerabilitätsübersicht und den Skizzen neu formuliert.
+  59 Tabellenzeilen mit doppeltem führendem Tabellenstrich bereinigt.
+- Den HTML-Builder so angepasst, dass Inline-Codebeispiele nicht als Wikilinks
+  interpretiert werden; außerdem den Link einer leeren Index-Kategorie korrigiert.
+- Export neu erzeugt: Startseite und 38 Artikelseiten, Suchindex mit 39 Einträgen.
+  Prüfung von 39 aktuellen HTML-Seiten und 2.296 lokalen Verweisen: keine defekten
+  lokalen Ziele oder Fragmente; auch keine offenen Wikilink-Markierungen im Export.
+- 103 externe URLs wurden auf Erreichbarkeit geprüft. Die DNS-Auflösung war in der
+  Sandbox blockiert; deshalb ist die Live-Erreichbarkeit dieser externen Links nicht
+  bestätigt. Alte Exporte unter `docs/` sowie die nicht vom aktuellen Builder
+  erzeugte `SCHEMA.html` wurden nicht in die lokale Linkprüfung einbezogen.
+- Prüfung und Korrektur belegen keine vollständige externe Quellenverifikation aller
+  fachlichen Aussagen; nicht erreichbare Quellen wurden nicht als funktionierend
+  bestätigt.
+
+## [2026-10-16] fix | SCHEMA.html aktualisiert
+- Bei der Nachprüfung festgestellt: `SCHEMA.html` war ein veralteter Export mit einem
+  Platzhalter-Seitentitel, doppelten/fehlenden Navigationsstrukturen, fehlerhaft
+  escapten Inline-Codebeispielen und veralteten Schema-Inhalten.
+- Den HTML-Build so erweitert, dass `SCHEMA.md` als eigenständige Dokumentationsseite
+  mit dem aktuellen Wiki-Layout gerendert und `SCHEMA.html` bei jedem regulären Build
+  aktualisiert wird. Das Schema bleibt aus Inhaltsindex und Suchindex ausgeschlossen.
+- Ergebnis: `SCHEMA.html` zeigt den Titel und Inhalt aus `SCHEMA.md`; Codebeispiele
+  werden als Code dargestellt und erzeugen keine falschen Wikilinks. Die Schema-Seite
+  bleibt außerhalb des Artikelsuchindex. Lokale Ziele und HTML-Struktur wurden geprüft;
+  keine defekten lokalen Verweise festgestellt.

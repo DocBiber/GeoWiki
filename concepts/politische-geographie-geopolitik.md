@@ -1,7 +1,7 @@
 ---
 title: "Politische Geographie & Geopolitik"
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-16
 type: concept
 tags: [politische-geographie, geopolitik, staaten, territorialitaet, grenzen, suez, herzland, randland, geopolitische-strategien, ressourcenkonflikte, abnehmer, zwischenstaatliche-beziehungen]
 sources: []
@@ -21,18 +21,18 @@ Die **politische Geographie** untersucht die räumlichen Aspekte von Politik –
 
 ## Traditionelle geopolitische Konzepte (historisch)
 
-- **Herzland-Theorie** (Halford Mackinder, 1904): Das "Herzland" (Osteuropa / Zentralasien / Russland) als Schlüssel zur Weltmacht – "Wer das Herzland beherrscht, beherrscht das Weltmeer; wer das Weltmeer beherrscht, beherrscht die Welt".
-- **Rimland-Theorie** (Nicholas Spykman): Der Randbereich des Eurasian Kontinents (Küstengebiete, angrenzende Gebiete) als entscheidender Streitpunkt zwischen Machtblöcken.
+- **Herzland-Theorie** (Halford Mackinder, 1904): Mackinders klassische Formel lautet sinngemäß: Wer Osteuropa beherrscht, beherrscht das Herzland; wer das Herzland beherrscht, beherrscht die Weltinsel; wer die Weltinsel beherrscht, beherrscht die Welt.
+- **Rimland-Theorie** (Nicholas Spykman): Der Randbereich des eurasischen Kontinents wird als strategisch bedeutsamer Raum betrachtet.
 - **Seeherrschaft** (Alfred Thayer Mahan): Kontrolle der Ozeane als Schlüssel zur globalen Macht.
 - **Lebensraum** (Ratzel, später instrumentalisiert): geopolitisches Denken, das Territorium als "organischen Körper" und Expansion begründete – heute überwunden und relevant als Warnung vor Instrumentalisierung.
 
 ## Moderne Geopolitik & Gegenwart
 
 - **Ressourcenkonflikte**: Energie (Öl, Gas), Wasser, Mineralien (Seltene Erden), Nahrungsmittel, maritime Ansprüche (Südchinesisches Meer, Arktis, künftige Bedingungen).
-- **Chokepoints**: Engpass-Stellen für Handel und Energie (Suezkanal, Malakka-Straße, Ostsee, Hormus, Bab el-Mandeb).
+- **Chokepoints:** Engstellen für Handel und Energie (Suezkanal, Straße von Malakka, Straße von Hormus, Bab al-Mandab). Für den Zugang zur Ostsee sind insbesondere die dänischen Meerengen strategische Engstellen.
 - **Machtblöcke & Allianzen**: NATO, EU, UN, BRICS, regionale Organisationen (ASEAN, AU), wirtschaftliche Abhängigkeiten.
-- **Territorialkonflikte**: umstrittene Grenzen, Grenzziehungen, Se claims, indigene Rechte, Dekolonisation unbeachtet.
-- **Supranationale Einheiten**: EU, UNO, regionale Organisationen → Steuerung überstaatlich, Grenzüberschreitung, Friedenssicherung.
+- **Territorialkonflikte:** umstrittene Grenzen, maritime Ansprüche und indigene Rechte; auch Folgen der Dekolonisation spielen eine Rolle.
+- **Zwischenstaatliche und supranationale Organisationen:** Die UN ist eine zwischenstaatliche Organisation; die EU verfügt in bestimmten Politikbereichen über supranationale Zuständigkeiten.
 - **Geopolitik im Klimawandel**: Ressourcenknappheit, Wasser, Landflucht, Migration, Verwaltung von (frisch entdeckten) Ressourcen (Arktis, tiefe Ozeane).
 
 ## Raumbeispiele
@@ -46,7 +46,7 @@ Die **politische Geographie** untersucht die räumlichen Aspekte von Politik –
 
 - Bildungsplan 2016 BW LK Geo 3.5.3.4 (Disparität, Ungleichheit, globale Entwicklung).
 - 3.5.2.6 (Anthroposphäre, Globalisierung).
-- Arbeit an geopolitischen Analysen im LK-Abitur (Fallbeispiele, Interpretatio).
+- Arbeit an geopolitischen Analysen im LK-Abitur (Fallbeispiele, Interpretation).
 
 ## Verwandte Seiten
 

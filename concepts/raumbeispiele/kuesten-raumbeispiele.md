@@ -1,7 +1,7 @@
 ---
 title: Raumbeispiele — Küstenlandschaften (Geografie LK BW)
 created: 2026-10-13
-updated: 2026-10-13
+updated: 2026-10-16
 type: concept
 tags: [raumbeispiele, kuesten-raumbeispiele, vulnerabilitaet, wasserhaushalt]
 sources: []
@@ -25,17 +25,17 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Flachküste (Wattenmeer, Gezeitenküste) |
-|| Tidenhub | 2–3 m (zunehmend von Westen nach Osten; Elbmündung bis 3,6 m) |
-|| Prägende Ereignisse | Sturmfluten 1954, 1962 („Jahrhundertflut" Hamburg), 1976, 1981, 1999; Sturmtief Xaver 2013 |
-|| Schutzbauwerke | Deichsysteme, Sperrwerke (Eidersperrwerk 1973), Landesschutzdeiche |
-|| Räume | Hamburg (2,70 Mio. Einwohner), Küstenregionen SH, Niedersachsen, Halligen, Ostfriesische Inseln |
+| Landschaftstyp | Flachküste (Wattenmeer, Gezeitenküste) |
+| Tidenhub | 2–3 m (zunehmend von Westen nach Osten; Elbmündung bis 3,6 m) |
+| Prägende Ereignisse | Sturmfluten 1954, 1962 („Jahrhundertflut" Hamburg), 1976, 1981, 1999; Sturmtief Xaver 2013 |
+| Schutzbauwerke | Deichsysteme, Sperrwerke (Eidersperrwerk 1973), Landesschutzdeiche |
+| Räume | Hamburg (rund 1,9 Mio. Einwohner, Stadtgebiet, Stand 2024), Küstenregionen Schleswig-Holstein und Niedersachsen, Halligen, Ostfriesische Inseln |
 
 ### Küstenprozesse und Formen
 
-- **Gezeiten (Tide)**: Flut und Ebbe erzeichen Priele, Wattflächen, Sandbänke — periodische Überflutung des Watts; Salz- und Süßwasser-Mischzone
+- **Gezeiten (Tide)**: Flut und Ebbe erzeugen Priele, Wattflächen und Sandbänke — periodische Überflutung des Watts; Salz- und Süßwasser-Mischzone
 - **Sturmflut**: Starkwind (Nordweststürme) drückt Wasser gegen die Küste + Springtide → Wasserstand bis 3–4 m über NN; Landesschutzdeiche brechen beim Versagen → katastrophale Überflutung
 - **Brandung und Küstenschutzwerke**: Wellenenergie formt Kliff, Sandstrand; Buhnen (Holz/Stahl, rechtwinklig zur Küste) bremsen küstenparallele Sandwanderung (Längstransport) → Sandablagerung vor den Buhnen, Erosion in den Buchten dazwischen
 - **Wellenschlag / Wellenauflauf**: Physikalischer Hauptprozess für Erosion und Formbildung (Sandbänke, Dünen)
@@ -74,12 +74,12 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Barriere-Insel (Nehrung) mit Dünenkette |
-|| Besonderheit | Wanderung ostwärts um ca. 10–15 m/Jahr (Sandverschiebung an der Westspitze, Abbruch an der Ostspitze) |
-|| Gefährdung | Sturmfluten + Wellenenergie + Sandtransport |
-|| Wirtschaft | Tourismus (ca. 4–5 Mio. Übernachtungen/Jahr), Ferienhaus-Infrastruktur in den Dünen (Hörnum, Westerland) |
+| Landschaftstyp | Barriere-Insel (Nehrung) mit Dünenkette |
+| Besonderheit | Wanderung ostwärts um ca. 10–15 m/Jahr (Sandverschiebung an der Westspitze, Abbruch an der Ostspitze) |
+| Gefährdung | Sturmfluten + Wellenenergie + Sandtransport |
+| Wirtschaft | Tourismus (ca. 4–5 Mio. Übernachtungen/Jahr), Ferienhaus-Infrastruktur in den Dünen (Hörnum, Westerland) |
 
 ### Küstenprozesse und Formen
 
@@ -118,13 +118,13 @@ confidence: medium
 
 ### Grunddaten
 
-|| Merkmal | Angabe |
+| Merkmal | Angabe |
 |---|---|
-|| Landschaftstyp | Ausgleichsküste (Steilküste / Abbruchküste), Förde-Küste |
-|| Besonderheit | Kaum Tidenhub (wenige cm) — KEINE Sturmfluten wie Nordsee |
-|| Prozess | Abbruch der Steilküste durch Wellenschlag („Küstenlinie weicht landeinwärts zurück"), Langsamer Rückgang |
-|| Geogenes Spezifikum | Isostatische Landhebung in Skandinavien (und damit Senkung der südlichen Ostsee-Becken) |
-|| Beispiele | Waabs (SH), Fehmarn (Insel), Ahrenshoop (Rügen-Darß) |
+| Landschaftstyp | Ausgleichsküste (Steilküste / Abbruchküste), Förde-Küste |
+| Besonderheit | Kaum Tidenhub (wenige Zentimeter); windbedingte Sturmhochwasser treten dennoch auf. |
+| Prozess | Abbruch der Steilküste durch Wellenschlag („Küstenlinie weicht landeinwärts zurück"), Langsamer Rückgang |
+| Geogenes Spezifikum | Isostatische Landhebung in Skandinavien (und damit Senkung der südlichen Ostsee-Becken) |
+| Beispiele | Waabs (SH), Fehmarn, Ahrenshoop (Fischland-Darß-Zingst) |
 
 ### Küstenprozesse und Formen
 
@@ -137,7 +137,6 @@ confidence: medium
 
 - **Küstenrückgang**: Gebäude an der Kliffkante (Waabs, Fehmarn) verlieren Standfestigkeit; Erdrutsche nach Starkregen
 - **Extrem-Ereignisse**: Kein Sturmflut-Risiko wie Nordsee, aber schwere West-Stürme erzeugen „Windstau" (lokale Wasserstand-Anhebung bis 1,5–2 m) + Wellenauflauf
-- **Grundwasser**: Ansteigende Wasserstände durch Landsenkung → Vernässung, Schutzdeiche bedroht
 
 ### Vulnerabilität
 
@@ -150,9 +149,9 @@ confidence: medium
 - **Uferschutz (technisch)**: Deckwerke, Steinwälle, Wellenbrecher am Klifffuß
 - **Deichrückverlegung / Rückzug**: Wo Schutz unwirtschaftlich: Siedlungsrückzug, Naturbelassenheit
 - **Grundwasser-Management**: Schutz der Süßwasserlinse, Beobachtung
-- **Isostatische Landhebung beachten**: Regionale Szenarien — Skandinavien hebt sich (Küsten „wachsen"), Nordsee-Senke sinkt — unterschiedliche Vulnerabilität
+- **Relative Landbewegungen beachten**: Regionale Hebung und Senkung verändern die relative Höhe von Land und Meer; Ausmaß und Folgen unterscheiden sich räumlich.
 
-**Beurteilung (LK):** Die Ostsee zeigt eine **andere Küstendynamik als die Nordsee** — das Fehlen der Gezeiten und der Sturmfluten, dafür Erosion durch Wellenschlag und Langzeit-Küstenrückgang. LK-relevant für die Kontrastfrage: „Warum ist die Nordsee gefährlicher als die Ostsee — und warum gilt das nicht für die Steilküste?" (Antwort: Prozesse und Nutzungsdruck unterscheiden sich). Landhebung vs. Landsenkung (isostatisch vs. eustatisch) als Vertiefungsthema.
+**Beurteilung (LK):** Die Ostsee hat einen deutlich geringeren Tidenhub als die Nordsee. Windbedingte Sturmhochwasser treten aber auch dort auf; außerdem prägen Wellenschlag und langfristiger Küstenrückgang die Küstendynamik. Für einen Vergleich sind die unterschiedlichen Prozesse, Wasserstände und Nutzungen entscheidend.
 
 ---
 
@@ -162,29 +161,30 @@ confidence: medium
 
 *Bild: Wikimedia Commons — Oosterscheldekering-pohled.jpg (CC BY 3.0)*
 
-> Kurzbeispiel als Kontrast zur deutschen Nordsee-Küste: Die Niederlande haben nach der
-> Sturmflut 1953 (1.836 Tote) das **Deltaprogramm** umgesetzt — Sperrwerke (Oosterschelde,
-> Maeslant-Sturmflutwehr bei Rotterdam), Deichverstärkungen („Waternupt/Plan Delta").
+> Kurzbeispiel als Kontrast zur deutschen Nordseeküste: Nach der Sturmflut von 1953
+> (1.836 Tote) wurden die **Deltawerke** errichtet — darunter die Oosterscheldekering
+> und das Maeslant-Sturmflutwehr — und Deiche verstärkt. Das heutige Deltaprogramm
+> umfasst weitere langfristige Maßnahmen.
 
-|| Merkmal | Niederlande |
+| Merkmal | Niederlande |
 |---|---|
-|| Schlüsselereignis | Sturmflut 1953 (Watersnoodramp) |
-|| Maßnahme | Deltawerke (Sperrwerke + Deiche), „Room for the River"-Programm (Hochwasserschutz Binnenland) |
-|| Vulnerabilität | Großräume unter Meeresspiegel (Randstad: Millionenstädte, Häfen, Wirtschaft) |
-|| Beurteilung (LK) | Extremfall: Land existiert nur durch technischen Schutz — aber Klimawandel erfordert neue Strategien (Raum für das Wasser, Deichverstärkung, aber auch Siedlungsverlagerung) |
+| Schlüsselereignis | Sturmflut 1953 (Watersnoodramp) |
+| Maßnahme | Deltawerke (Sperrwerke und Deiche); ergänzend das Programm „Room for the River“ zum Hochwasserschutz im Binnenland |
+| Vulnerabilität | Siedlungs- und Wirtschaftsräume liegen teilweise unter dem Meeresspiegel und sind auf wirksamen Hochwasserschutz angewiesen. |
+| Beurteilung (LK) | Technischer Schutz ist zentral, muss aber angesichts des Klimawandels durch langfristige Strategien wie „Raum für den Fluss“, Deichverstärkung und angepasste Raumplanung ergänzt werden. |
 
 ---
 
 ## 5. Vergleichstabelle: Küsten-Raumbeispiele
 
-|| Kriterium | Nordsee (Deutschland) | Sylt | Ostsee (Fehmarn/Waabs) | Niederlande |
+| Kriterium | Nordsee (Deutschland) | Sylt | Ostsee (Fehmarn/Waabs) | Niederlande |
 |---|---|---|---|---|
 | **Landschaftstyp** | Flachküste/Wattenmeer | Barriere-Insel | Ausgleichsküste (Steilküste) | Ästuar-/Deltaküste |
 | **Hauptprozesse** | Gezeiten, Sturmfluten | Inselwanderung, Dünenbildung | Wellenschlag/Abbruch | Gezeiten, Sturmfluten (Extrem) |
 | **Hauptgefahren** | Sturmflut, Erosion | Strand-/Dünenverlust | Küstenrückgang, Erdrutsche | Sturmflut (Worst-Case) |
 | **Vulnerabilität** | Metropolen hinter Deichen | Tourismus-Siedlungen in Dünen | Kliffkante-Bebauung | Millionen unter NN |
 | **Resilienz** | Deiche, Sperrwerke, Wattvorland | Sandaufspülung, Dünenstabilisierung | Uferschutz, Rückzug | Deltawerke, „Room for the River" |
-| **Abitur-Beispiel** | „Technischer Schutz vs. Raum für das Meer" | „Inselwanderung — Schutz vs. Anpassung" | „Wellenschlag + Küstenrückgang (isostatisch)" | „Land als Schutz-Bauwerk" |
+| **Abitur-Beispiel** | „Technischer Schutz oder Raum für das Meer?“ | „Inselwanderung: Schutz und Anpassung“ | „Wellenschlag und Küstenrückgang“ | „Technischer Küstenschutz und langfristige Anpassung“ |
 
 ---
 

@@ -3,13 +3,13 @@
 > Persönliche Wissensbasis zu Geografie im Leistungskurs an Gymnasien in Baden-Württemberg,
 > ausgerichtet am Bildungsplan 2016 (23. März 2016, Fassung V2 vom 22. Februar 2023).
 > Domain: Physische Geografie (Vulkanismus, Glazialmorphologie, Vulnerabilität) + LK-Rahmen.
-> Letztes Update: 2026-10-13 | Gesamtseiten: 26
+> Letztes Update: 2026-10-16 | Fachseiten: 37
 
 ## BILDUNGSPLAN-RAHMEN
 
 - [[bildungsplan-2016-lk]]
 - [[kompenenzen-lk]] — Bildungsplan 2016 Leistungskurs Geografie Baden-Württemberg (Übersicht)
-- - [[abitur-ubersicht-lk]] — Abiturformat LK Geografie BW (Anforderungen, Operatoren, Beispiele)
+- [[abitur-ubersicht-lk]] — Abiturformat LK Geografie BW (Anforderungen, Operatoren, Beispiele)
 
 ## VULKANISMUS (Formen und Prozesse)
 
@@ -31,7 +31,7 @@
 - [[vulnerabilitaet-vulkanraume]] — Vulnerabilität vulkanischer Räume (Vesuv, Island, Eifel, Hawaii)
 - [[resilienz-massnahmen]] — Maßnahmen zur Stärkung der Resilienz, nachhaltige Entwicklung, Gefahrenreduzierung
 
-## BODEN & WASSER (3.5.2.1 + 3.5.2.4)
+## BODEN & WASSER (3.5.2.5 + 3.5.2.3)
 
 - [[boden-und-boden]] — Boden: Bodenhorizont, Bodenarten, Bodentypen, Bodenentstehung, Bodenschutz, Landschaftsökologie
 - [[wasserhaushalt]] — Wasserhaushalt: Komponenten, Wasserhaushalts-Gleichung, Einflüsse, anthropogene Veränderungen, Hochwasser/Trockenheit
@@ -54,7 +54,7 @@
 ## RAUMBEISPIELE (für Abitur)
 
 - [[uebersicht-raumbeispiele]] — Übersicht alle 5 Landschaften + Auswahl-Tabelle LK-Abitur
-- [[vulkan-raumbeispiele]] — Vesuv (Italien), Kilauea (Hawaii), Laacher See (Eifel), Eyafjöll (Island)
+- [[vulkan-raumbeispiele]] — Vesuv (Italien), Kīlauea (Hawaii), Laacher See (Eifel), Eyjafjallajökull (Island)
 - [[glazial-raumbeispiele]] — Alpen (Aletsch, Schweiz), Norddeutsches Tiefland, Island (Vatnajökull)
 - [[fluss-raumbeispiele]] — Flusslandschaften: Elbe (Hochwasser 2002), Rhein (Regulierung/Rückhaltebecken), Donau-Delta
 - [[kuesten-raumbeispiele]] — Küstenlandschaften: Nordsee (Sturmfluten/Deiche), Sylt (Inselwanderung/Sandaufspülung), Ostsee (Steilküste Fehmarn/Waabs), Niederlande (Deltawerke)
@@ -73,6 +73,6 @@
 - [[abitur-aufgaben]] — 4 Muster-Abituraufgaben LK (Vulkan, Glazial, Vergleich, Resilienz-Massnahmen) mit Lösungshinweisen + Bewertungsaspekten
 - [[uebungsaufgaben]] — 16 Übungsaufgaben (Stufen 1–3, nach Operatoren gegliedert) mit Lösungshinweisen
 
-## NOCH LEER (ausstehend)
+## WEITERZUENTWICKELN
 
-- Karstlandschaft als Raumbeispieldatei (derzeit nur Konzeptseite; konkrete Beispiele wie Eifel, Slowenien, Yucatán fehlen)
+- Für ein ausführliches Abitur-Raumbeispiel aus dem Karst eines der vorhandenen Beispiele in [[karstlandschaft]] vertiefen.
