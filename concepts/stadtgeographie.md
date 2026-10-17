@@ -39,6 +39,10 @@ Die Stadtgeographie beschäftigt sich mit Städten als räumlichen, sozialen, ö
 
 {{skizze:stadtmodelle|Die drei klassischen Stadtstrukturmodelle im Vergleich (idealtypisch).}}
 
+### Wirkungsgefüge: Suburbanisierung
+
+{{skizze:suburbanisierung|Wirkungsgefüge zu Ursachen sowie ökologischen und sozialen Folgen der Suburbanisierung (Rückkopplung: Wegzug und Ausbau der Verkehrsinfrastruktur verstärken sich).}}
+
 **Konventionelle Stadtstruktur (zentral):**
 
 - **Zentrale Stadtkerne:** Altstadt / Innenstadt — historische Mitte, oft kommerziell, verwaltungszentrum
