@@ -28,6 +28,34 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGeomap);
   else initGeomap();
 
+  /* ---------- Skizzen: Animation beim Sichtbarwerden starten, Button zum Neustarten ---------- */
+  function initSkizzen() {
+    var figs = document.querySelectorAll("figure.skizze");
+    if (!figs.length) return;
+    var io = "IntersectionObserver" in window ? new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { e.target.classList.toggle("is-visible", e.isIntersecting); });
+    }, { threshold: 0.25 }) : null;
+    figs.forEach(function (f) {
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "sk-replay";
+      b.textContent = "↻ Animation";
+      b.title = "Animation neu starten";
+      b.addEventListener("click", function () {
+        var svg = f.querySelector("svg");
+        var p = svg.parentNode;
+        p.removeChild(svg);
+        void p.offsetWidth;
+        p.insertBefore(svg, p.firstChild);
+        f.classList.add("is-visible");
+      });
+      f.appendChild(b);
+      if (io) io.observe(f); else f.classList.add("is-visible");
+    });
+  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initSkizzen);
+  else initSkizzen();
+
   /* ---------- Theme ---------- */
   var THEME_KEY = "wiki-theme";
   function applyTheme(t) {

@@ -77,6 +77,41 @@
 <div class="geomap" data-layer="einzugsgebiete"></div>
 <h2 id="der-wasserhaushalt-eines-einzugsgebiets-wasserhaushalts-gleichung">Der Wasserhaushalt eines Einzugsgebiets (Wasserhaushalts-Gleichung)</h2>
 <p>Ein Einzugsgebiet ist das Gebiet, aus dem Wasser einem Gewässer zufließt. Seine Grenze wird durch Wasserscheiden gebildet. Der Wasserhaushalt lässt sich für einen festgelegten Zeitraum bilanzieren:</p>
+<figure class="skizze"><svg viewBox="0 0 640 330" role="img" aria-labelledby="wh-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="wh-t">Wasserhaushalt eines Einzugsgebiets: Niederschlag, Verdunstung, Abfluss und Speicheränderung</title>
+  <defs>
+    <linearGradient id="wh-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe3f7"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <marker id="wh-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1f2937"/></marker>
+  </defs>
+  <rect width="640" height="330" fill="url(#wh-sky)" class="sk-sky"/>
+  <g fill="#fff" stroke="#9fb4c9" stroke-width="1.5"><path d="M70 74 C50 74 46 52 66 50 C70 30 104 28 112 46 C132 42 146 58 134 74 Z"/><path d="M210 66 C190 66 188 46 206 44 C212 28 242 28 248 44 C266 44 274 62 258 66 Z"/><path d="M420 74 C400 74 396 52 416 50 C420 30 456 28 464 46 C484 42 498 58 486 74 Z"/></g>
+  <path d="M0 210 L120 150 C170 124 210 128 250 154 C300 186 330 196 380 168 C430 140 470 120 520 140 L640 196 V330 H0 Z" fill="#7fae6a" stroke="#3f5f32" stroke-width="2"/>
+  <path d="M0 244 C120 236 240 250 360 242 C480 236 560 248 640 244 V330 H0 Z" fill="#6aa7d8" opacity=".55" class="sk-lake"/>
+  <path d="M0 244 C120 236 240 250 360 242 C480 236 560 248 640 244" fill="none" stroke="#2f6fa3" stroke-width="2" stroke-dasharray="4 4"/>
+  <path d="M250 154 C264 180 282 204 300 222 C330 230 380 232 470 236 C540 238 590 232 628 232" fill="none" stroke="#38a0e0" stroke-width="7" stroke-linecap="round"/>
+  <path class="sk-flow" d="M250 154 C264 180 282 204 300 222 C330 230 380 232 470 236 C540 238 590 232 628 232" fill="none" stroke="#e8f6ff" stroke-width="2.5" stroke-linecap="round"/>
+  <g stroke="#2563eb" stroke-width="3" stroke-linecap="round">
+    <line class="sk-dropfall" x1="70" y1="86" x2="64" y2="98" style="animation-delay:0s"/><line class="sk-dropfall" x1="100" y1="86" x2="94" y2="98" style="animation-delay:.6s"/><line class="sk-dropfall" x1="126" y1="86" x2="120" y2="98" style="animation-delay:1.2s"/>
+    <line class="sk-dropfall" x1="216" y1="78" x2="210" y2="90" style="animation-delay:.3s"/><line class="sk-dropfall" x1="240" y1="78" x2="234" y2="90" style="animation-delay:.9s"/><line class="sk-dropfall" x1="262" y1="78" x2="256" y2="90" style="animation-delay:1.5s"/>
+  </g>
+  <g fill="#f59e0b" stroke="none">
+    <path class="sk-ash" d="M430 148 q-4 -8 0 -14 q4 -6 0 -12 q6 4 6 10 q0 8 -6 16z" style="animation-delay:0s"/>
+    <path class="sk-ash" d="M470 150 q-4 -8 0 -14 q4 -6 0 -12 q6 4 6 10 q0 8 -6 16z" style="animation-delay:1.6s"/>
+    <path class="sk-ash" d="M520 156 q-4 -8 0 -14 q4 -6 0 -12 q6 4 6 10 q0 8 -6 16z" style="animation-delay:3.2s"/>
+  </g>
+  <g fill="none" stroke="#1f2937" stroke-width="2" marker-end="url(#wh-ar)"><path d="M300 262 V282"/></g>
+  <g class="sk-lead"><path d="M180 64 L170 40" stroke="none"/><path d="M150 148 L130 118" stroke="none"/></g>
+  <text class="sk-t" x="14" y="24">P — Niederschlag</text>
+  <text class="sk-s" x="14" y="40">Zufluss ins Einzugsgebiet</text>
+  <text class="sk-t" x="400" y="24">ET — Verdunstung</text>
+  <text class="sk-s" x="400" y="40">inkl. Transpiration, Verlust an die Atmosphäre</text>
+  <text class="sk-t" x="470" y="214">Q — Abfluss</text>
+  <text class="sk-s" x="440" y="266" style="stroke:none">Oberfläche und Grundwasser</text>
+  <text class="sk-t" x="14" y="278">ΔS — Speicheränderung</text>
+  <text class="sk-s" x="14" y="296">Boden, Grundwasser, Schnee: Endbestand minus Anfangsbestand</text>
+  <text class="sk-t" x="14" y="190">Wasserscheide</text>
+  <text class="sk-t" x="320" y="320" text-anchor="middle" style="fill:#1f2937">P = ET + Q + ΔS</text>
+</svg><figcaption>Wasserhaushalt eines Einzugsgebiets: Niederschlag (P), Verdunstung (ET), Abfluss (Q) und Speicheränderung (ΔS).</figcaption></figure>
 <p><strong>Wasserhaushaltsgleichung:</strong></p>
 <pre class="codeblock">P = ET + Q + ΔS</pre>
 <ul>

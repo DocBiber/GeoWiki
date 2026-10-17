@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 260" role="img" aria-labelledby="tr-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="tr-t">Querschnitt Trogtal (U-förmig, Gletscher) und Kerbtal (V-förmig, Fluss)</title>
+  <defs>
+    <linearGradient id="tr-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <linearGradient id="tr-ice" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a9d3f1"/></linearGradient>
+  </defs>
+  <rect width="640" height="260" fill="url(#tr-sky)" class="sk-sky"/>
+  <path d="M0 40 H20 C34 40 44 56 52 110 C60 164 64 196 84 204 H236 C256 196 260 164 268 110 C276 56 286 40 300 40 V260 H0 Z" fill="#8d7b68" stroke="#3f342b" stroke-width="2"/>
+  <path d="M340 40 H350 C380 60 420 150 460 196 C474 208 486 208 500 196 C540 150 580 60 610 40 H620 V260 H340 Z" fill="#8d7b68" stroke="#3f342b" stroke-width="2"/>
+  <path d="M60 140 C64 176 68 196 86 202 H234 C252 196 256 176 260 140 Z" fill="url(#tr-ice)" opacity=".95" class="sk-lake"/>
+  <path d="M458 200 C470 210 490 210 502 200 C494 192 466 192 458 200 Z" fill="#38a0e0"/>
+  <g stroke="#2f6fa3" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path class="sk-down" d="M110 150 V176 M102 168 L110 178 L118 168" style="animation-delay:.2s"/>
+    <path class="sk-down" d="M160 150 V176 M152 168 L160 178 L168 168" style="animation-delay:.6s"/>
+    <path class="sk-down" d="M210 150 V176 M202 168 L210 178 L218 168" style="animation-delay:1s"/>
+  </g>
+  <path class="sk-flow" d="M452 224 H512" stroke="#7cc0ea" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <g class="sk-lead"><path d="M158 100 L158 126"/><path d="M480 96 L480 188"/></g>
+  <text class="sk-t" x="62" y="26">Trogtal</text>
+  <text class="sk-s" x="116" y="26">U-förmig, breit</text>
+  <text class="sk-t" x="344" y="26">Kerbtal</text>
+  <text class="sk-s" x="404" y="26">V-förmig, schmal</text>
+  <text class="sk-t" x="108" y="94">Gletschereis</text>
+  <text class="sk-t" x="432" y="88">Fluss</text>
+  <text class="sk-s" x="108" y="244">Erosion durch Eis (Exaration)</text>
+  <text class="sk-s" x="398" y="244">Erosion durch fließendes Wasser</text>
+</svg>

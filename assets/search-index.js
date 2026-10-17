@@ -235,7 +235,7 @@ window.SEARCH_INDEX = [
 "u": "uebersicht-skizzen.html",
 "c": "Skizzen",
 "d": "Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können.",
-"x": "Skizzen — Geografie LK Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können. Sie sind schematisch und nicht maßstabsgetreu. Im Abitur sollten Pfeile, Formen und Beschriftungen eindeutig und fachlich korrekt sein. 1. Glaziale Serie Die typische Abfolge im Vorland eines Inlandeises lautet: Inlandeis → Zungenbecken → Endmoräne → Sander → Urstromtal Schmelzwasser → "
+"x": "Skizzen — Geografie LK Die folgenden Vorlagen zeigen, welche Elemente in einer Skizze beschriftet werden können. Sie sind schematisch und nicht maßstabsgetreu. Im Abitur sollten Pfeile, Formen und Beschriftungen eindeutig und fachlich korrekt sein. 1. Glaziale Serie Die typische Abfolge im Vorland eines Inlandeises lautet: {{skizze:glazial-serie Glaziale Serie: Schmelzwasser (blau, animiert) fließ"
 },
 {
 "t": "Abitur Geografie LK — Übersicht, Format, Operatoren, Beispiele",

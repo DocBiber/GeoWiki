@@ -689,6 +689,45 @@ html:has(.geomap-sticky) { scroll-padding-top: calc(64px + max(32vh, 200px) + 16
 .geomap-widebtn { background: #fff; color: #21252c; padding: 5px 10px; font-size: 13px; font-weight: 600; text-decoration: none; cursor: pointer; width: auto !important; height: auto !important; line-height: 1.4 !important; }
 .geomap.geomap-wide { position: fixed; top: 56px; left: 0; right: 0; height: var(--geomap-wide-h, 45vh); margin: 0; border-radius: 0; border-width: 0 0 2px; z-index: 900; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
 html.geomap-wide-on { scroll-padding-top: calc(56px + var(--geomap-wide-h, 45vh) + 16px); }
+/* ---------- Skizzen (inline-SVG, teils animiert) ---------- */
+.skizze { position: relative; margin: 1.5rem 0; padding: 12px 12px 10px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow-sm); }
+.skizze svg { display: block; width: 100%; height: auto; border-radius: 8px; overflow: hidden; }
+.skizze figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.skizze .sk-replay { position: absolute; top: 18px; right: 18px; z-index: 2; padding: 3px 10px; font: 600 12px var(--font); color: var(--accent-ink); background: var(--accent-soft); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; opacity: .85; }
+.skizze .sk-replay:hover { opacity: 1; }
+.skizze svg text { font-family: var(--font); }
+.skizze .sk-t { fill: #1f2937; font-size: 13px; font-weight: 700; paint-order: stroke; stroke: rgba(255, 255, 255, .85); stroke-width: 3.5px; stroke-linejoin: round; }
+.skizze .sk-s { fill: #374151; font-size: 12px; font-weight: 500; paint-order: stroke; stroke: rgba(255, 255, 255, .85); stroke-width: 3px; stroke-linejoin: round; }
+.skizze .sk-lead path { fill: none; stroke: #1f2937; stroke-width: 1.2; stroke-dasharray: 3 3; }
+[data-theme="dark"] .skizze .sk-sky { filter: brightness(.72) saturate(.9); }
+.skizze svg *, .skizze svg { animation-play-state: paused; }
+.skizze.is-visible svg * { animation-play-state: running; }
+.sk-flow { stroke-dasharray: 8 9; animation: sk-dash 1s linear infinite; }
+.sk-flow-up { stroke-dasharray: 6 12; animation-duration: .9s; }
+.sk-pulse { transform-box: fill-box; transform-origin: center; animation: sk-pulse 2.4s ease-in-out infinite; }
+.sk-glow, .sk-boom, .sk-spark, .sk-ash, .sk-down { transform-box: fill-box; transform-origin: center; }
+.sk-glow { animation: sk-glow 1.4s ease-in-out infinite; }
+.sk-boom { animation: sk-boom 1.6s ease-out infinite; }
+.sk-spark { animation: sk-spark 2.1s ease-out infinite; }
+.sk-ash { opacity: 0; animation: sk-ash 5s ease-out infinite; }
+.sk-down { animation: sk-down 1.5s ease-in-out infinite; }
+.sk-lake { animation: sk-lake 3s ease-in-out infinite; }
+.sk-dropfall { animation: sk-drop 2.4s linear infinite; }
+.sk-ice { animation: sk-ice 6s linear infinite; }
+.sk-wave { animation: sk-wave 4s ease-in-out infinite alternate; }
+@keyframes sk-dash { to { stroke-dashoffset: -17; } }
+@keyframes sk-pulse { 0%, 100% { transform: scale(1); filter: brightness(1); } 50% { transform: scale(1.04); filter: brightness(1.2); } }
+@keyframes sk-glow { 0%, 100% { opacity: .6; transform: scale(1); } 50% { opacity: 1; transform: scale(1.3); } }
+@keyframes sk-boom { 0% { opacity: .95; transform: scale(.4); } 100% { opacity: 0; transform: scale(2.2); } }
+@keyframes sk-spark { 0% { opacity: 1; transform: translate(0, 0); } 100% { opacity: 0; transform: translate(8px, -34px); } }
+@keyframes sk-ash { 0% { opacity: 0; transform: translateY(0) scale(.6); } 12% { opacity: .85; } 100% { opacity: 0; transform: translate(26px, -90px) scale(2.4); } }
+@keyframes sk-down { 0%, 100% { transform: translateY(-4px); opacity: .5; } 50% { transform: translateY(6px); opacity: 1; } }
+@keyframes sk-lake { 0%, 100% { opacity: .8; } 50% { opacity: .95; } }
+@keyframes sk-drop { 0% { transform: translateY(-18px); opacity: 0; } 15% { opacity: 1; } 100% { transform: translateY(46px); opacity: 0; } }
+@keyframes sk-ice { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -44; } }
+@keyframes sk-wave { from { transform: translateX(-10px); } to { transform: translateX(10px); } }
+@media (prefers-reduced-motion: reduce) { .skizze svg * { animation: none !important; } .skizze .sk-ash { opacity: 0; } .skizze .sk-replay { display: none; } }
+
 .geomap-moved { display: none; padding: 10px 14px; border-left: 3px solid var(--accent); background: var(--accent-soft); color: var(--accent-ink); border-radius: 6px; font-size: 14px; }
 .geomap-note { font-size: 13px; color: var(--muted); margin: -4px 0 1rem; }
 .geomap-legend { background: var(--surface, #fff); color: var(--ink, #21252c); padding: 6px 10px; border-radius: 6px; font-size: 12.5px; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,.3); }

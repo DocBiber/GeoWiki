@@ -277,6 +277,17 @@ def md_to_html(body, known_slugs, page_title):
             i += 1
             continue
 
+        m_sk = re.fullmatch(r'\{\{skizze:([a-z0-9-]+)(?:\|(.*))?\}\}', stripped)
+        if m_sk:
+            close_list()
+            svg_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets", "skizzen", m_sk.group(1) + ".svg")
+            with open(svg_path, encoding="utf-8") as fh:
+                svg = fh.read().strip()
+            cap = f"<figcaption>{inline(m_sk.group(2), known_slugs)}</figcaption>" if m_sk.group(2) else ""
+            out.append(f'<figure class="skizze">{svg}{cap}</figure>')
+            i += 1
+            continue
+
         if re.fullmatch(r'<div class="geomap"(?: data-[a-z-]+="[^"]*")*></div>', stripped):
             close_list()
             out.append(stripped)

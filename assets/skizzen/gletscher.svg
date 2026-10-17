@@ -1,0 +1,27 @@
+<svg viewBox="0 0 640 340" role="img" aria-labelledby="gl-t" xmlns="http://www.w3.org/2000/svg">
+  <title id="gl-t">Gletscher im Querschnitt: Nährgebiet, Zehrgebiet, Gleichgewichtslinie, Eisbewegung und Moränen</title>
+  <defs>
+    <linearGradient id="gl-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dbeafe"/><stop offset="1" stop-color="#f4f8ff"/></linearGradient>
+    <linearGradient id="gl-ice" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#a9d3f1"/></linearGradient>
+    <marker id="gl-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#1f2937"/></marker>
+  </defs>
+  <rect width="640" height="340" fill="url(#gl-sky)" class="sk-sky"/>
+  <path d="M0 340 V40 C60 40 120 70 190 120 C260 170 330 230 410 262 C460 282 500 290 560 292 H640 V340 Z" fill="#8d7b68" stroke="#3f342b" stroke-width="2"/>
+  <path d="M24 40 C84 36 126 52 190 98 C256 150 330 214 410 244 C450 258 480 266 520 272 L548 292 C500 290 460 282 410 262 C330 230 260 170 190 120 C120 70 60 40 24 40 Z" fill="url(#gl-ice)" stroke="#5b8db5" stroke-width="2"/>
+  <path class="sk-flow sk-ice" d="M60 44 C110 52 160 80 214 120 C270 166 330 218 400 248" fill="none" stroke="#2f6fa3" stroke-width="3" stroke-dasharray="10 10" marker-end="url(#gl-ar)"/>
+  <path d="M232 92 L262 160" stroke="#d1480f" stroke-width="3" stroke-dasharray="7 5" fill="none"/>
+  <path d="M470 292 C490 270 520 270 534 290 C520 296 490 298 470 292 Z" fill="#7a6650" stroke="#3f342b" stroke-width="1.5"/>
+  <path d="M474 294 H640" stroke="#38a0e0" stroke-width="5" opacity=".9" fill="none"/>
+  <path class="sk-flow" d="M498 296 H634" stroke="#e8f6ff" stroke-width="2.5" fill="none"/>
+  <g class="sk-lead"><path d="M118 40 L118 90"/><path d="M360 200 L300 232"/><path d="M296 112 L246 186"/><path d="M520 244 L500 276"/></g>
+  <text class="sk-t" x="34" y="34">Nährgebiet</text>
+  <text class="sk-s" x="34" y="50">Schnee und Firn überwiegen</text>
+  <text class="sk-t" x="326" y="196">Zehrgebiet</text>
+  <text class="sk-s" x="326" y="212">Abschmelzen überwiegt</text>
+  <text class="sk-t" x="290" y="104">Gleichgewichtslinie</text>
+  <text class="sk-t" x="478" y="238">Endmoräne</text>
+  <text class="sk-s" x="478" y="254">am Eisrand abgelagert</text>
+  <text class="sk-t" x="86" y="150">Eisbewegung</text>
+  <text class="sk-s" x="86" y="166">talabwärts</text>
+  <text class="sk-t" x="500" y="320">Schmelzwasser</text>
+</svg>

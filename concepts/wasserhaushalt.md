@@ -45,6 +45,8 @@ Der Wasserhaushalt (hydrologischer Kreislauf) beschreibt, wie Wasser in allen Ag
 
 Ein Einzugsgebiet ist das Gebiet, aus dem Wasser einem Gewässer zufließt. Seine Grenze wird durch Wasserscheiden gebildet. Der Wasserhaushalt lässt sich für einen festgelegten Zeitraum bilanzieren:
 
+{{skizze:wasserhaushalt|Wasserhaushalt eines Einzugsgebiets: Niederschlag (P), Verdunstung (ET), Abfluss (Q) und Speicheränderung (ΔS).}}
+
 **Wasserhaushaltsgleichung:**
 ```
 P = ET + Q + ΔS
